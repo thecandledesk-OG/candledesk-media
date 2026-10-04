@@ -1,0 +1,299 @@
+<title>The Candle Desk</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Figtree:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap">
+<style>
+/* Layout: broadcast control room. Sticky 9:16 stage on the left, production bible on the right; stacks on phones. Committed single dark look. */
+:root{
+  --night:#14163a;      /* studio backdrop */
+  --panel:#1d2050;      /* raised surfaces */
+  --line:#2f3370;       /* hairlines */
+  --ink:#eef0ff;        /* primary text */
+  --mute:#a3a8d6;       /* secondary text */
+  --gold:#f5b83d;       /* accent: candle gold */
+  --coral:#ff7a6b;      /* secondary accent */
+  --bull:#45c983; --bear:#e8615a; --whale:#5b8cf0;
+  --display:"Dela Gothic One","Arial Black",Impact,sans-serif;
+  --body:"Figtree",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--night);color:var(--ink);font:15px/1.6 var(--body);padding-inline:16px;padding-block:24px 48px}
+.wrap{max-width:1180px;margin:0 auto;display:grid;grid-template-columns:minmax(0,380px) minmax(0,1fr);gap:48px;align-items:start}
+@media (max-width:860px){.wrap{grid-template-columns:minmax(0,1fr);gap:32px}}
+.left{position:sticky;top:calc(env(safe-area-inset-top,0px) + 16px);display:grid;gap:12px;justify-items:center}
+@media (max-width:860px){.left{position:static}}
+
+/* ---------- Stage ---------- */
+.stage{position:relative;width:100%;max-width:360px;aspect-ratio:9/16;border-radius:22px;overflow:hidden;
+  background:radial-gradient(120% 70% at 50% 100%,#2a2e78 0%,var(--night) 70%);box-shadow:0 0 0 1px var(--line),0 30px 60px -20px #0009}
+.stage canvas{position:absolute;inset:0;width:100%;height:100%}
+.bug{position:absolute;top:14px;left:14px;right:14px;display:flex;justify-content:space-between;align-items:center;font:700 11px/1 var(--mono);letter-spacing:.08em;z-index:3}
+.bug .name{font:13px/1 var(--display);letter-spacing:.02em;color:var(--gold)}
+.live{background:var(--coral);color:#1a0f12;padding:5px 8px;border-radius:5px}
+.cap{position:absolute;left:16px;right:16px;top:15%;text-align:center;z-index:3;font:clamp(22px,8.6cqw,34px)/1.12 var(--display);text-transform:uppercase;color:#fff;
+  text-shadow:0 3px 0 #0008;text-wrap:balance;min-height:3.4em}
+.stage{container-type:inline-size}
+.cap .w{display:inline-block;animation:pop .28s cubic-bezier(.3,1.6,.5,1) both}
+.cap .hi{color:var(--gold)}
+@keyframes pop{from{transform:scale(.4) translateY(10px);opacity:0}to{transform:none;opacity:1}}
+.stat{position:absolute;left:50%;top:37%;transform:translateX(-50%);z-index:3;background:#0e1030e0;border:1px solid var(--line);border-radius:14px;padding:10px 16px;text-align:center;min-width:62%;
+  animation:slide .4s ease both}
+.stat .lbl{font:600 10px/1.3 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--mute)}
+.stat .val{font:34px/1.1 var(--display);color:var(--ink);font-variant-numeric:tabular-nums}
+.stat .txt{font:700 13px/1.4 var(--body);color:var(--ink)}
+@keyframes slide{from{opacity:0;transform:translate(-50%,12px)}to{opacity:1;transform:translateX(-50%)}}
+.cast-slot{position:absolute;left:0;right:0;bottom:44px;height:42%;display:flex;justify-content:center;align-items:flex-end;gap:2px;z-index:2}
+.cast-slot svg{height:100%;max-width:80%;animation:enter .45s cubic-bezier(.3,1.5,.5,1) both}
+.cast-slot.group svg{height:46%;max-width:25%}
+@keyframes enter{from{transform:translateY(40%) scale(.8);opacity:0}to{transform:none;opacity:1}}
+.foot{position:absolute;bottom:52px;left:0;right:0;text-align:center;font:600 10px/1 var(--mono);letter-spacing:.1em;color:var(--mute);z-index:3}
+.ticker{position:absolute;left:0;right:0;bottom:0;height:34px;background:var(--gold);color:#1a1405;overflow:hidden;z-index:4;display:flex;align-items:center}
+.ticker .track{display:flex;gap:26px;white-space:nowrap;font:700 12px/1 var(--mono);animation:scroll 22s linear infinite;padding-left:100%}
+.ticker .up{color:#0b5a32}
+@keyframes scroll{to{transform:translateX(-100%)}}
+
+/* characters */
+.char{transform-box:fill-box;transform-origin:50% 100%;animation:bob 1.3s ease-in-out infinite}
+.mouth{transform-box:fill-box;transform-origin:center}
+.talking .mouth{animation:talk .16s ease-in-out infinite alternate}
+.eye{transform-box:fill-box;transform-origin:center;animation:blink 3.6s infinite}
+@keyframes bob{50%{transform:translateY(-3%)}}
+@keyframes talk{from{transform:scaleY(.25)}to{transform:scaleY(1.35)}}
+@keyframes blink{0%,94%,100%{transform:scaleY(1)}97%{transform:scaleY(.1)}}
+
+/* controls */
+.controls{display:flex;gap:8px;align-items:center;width:100%;max-width:360px}
+.btn{font:700 13px/1 var(--body);color:var(--night);background:var(--gold);border:0;border-radius:999px;padding:10px 16px;cursor:pointer}
+.btn.ghost{background:transparent;color:var(--ink);box-shadow:inset 0 0 0 1px var(--line)}
+.btn:focus-visible,.dot:focus-visible{outline:2px solid var(--coral);outline-offset:2px}
+.dots{display:flex;gap:6px;margin-left:auto}
+.dot{width:26px;height:6px;border-radius:3px;border:0;background:var(--line);cursor:pointer;padding:0;position:relative;overflow:hidden}
+.dot i{position:absolute;inset:0;background:var(--gold);transform-origin:left;transform:scaleX(0)}
+.hint{font-size:12px;color:var(--mute);max-width:360px;text-align:center}
+
+/* ---------- Bible ---------- */
+.right{display:grid;gap:48px;min-width:0}
+.eyebrow{font:700 11px/1 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--coral)}
+h1{font:clamp(34px,5vw,52px)/1.02 var(--display);margin:10px 0 14px;text-wrap:balance}
+h1 span{color:var(--gold)}
+h2{font:22px/1.2 var(--display);margin:0 0 16px;text-wrap:balance}
+p{margin:0;max-width:62ch;color:var(--mute)}
+p strong{color:var(--ink)}
+.cast{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+@media (max-width:520px){.cast{grid-template-columns:minmax(0,1fr)}}
+.card{background:var(--panel);border-radius:16px;padding:16px;display:grid;grid-template-columns:72px minmax(0,1fr);gap:14px;align-items:start}
+.card svg{width:72px;height:80px}
+.card h3{margin:0;font:18px/1.2 var(--display)}
+.card .role{font:700 11px/1.4 var(--mono);letter-spacing:.08em;text-transform:uppercase;margin:4px 0 8px}
+.card p{font-size:14px}
+.card q{display:block;margin-top:8px;color:var(--ink);font-weight:600;font-size:14px}
+.beats{list-style:none;margin:0;padding:0;display:grid;gap:0;border-left:2px solid var(--line)}
+.beats li{display:grid;grid-template-columns:84px minmax(0,1fr);gap:14px;padding:10px 0 10px 16px;position:relative}
+.beats li::before{content:"";position:absolute;left:-6px;top:16px;width:10px;height:10px;border-radius:50%;background:var(--gold)}
+.beats time{font:700 12px/1.6 var(--mono);color:var(--gold);font-variant-numeric:tabular-nums}
+.beats b{color:var(--ink)}
+.tbl{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:14px;min-width:520px}
+th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font:700 11px/1.3 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--mute)}
+td:first-child{font-weight:700;color:var(--ink);white-space:nowrap}
+td{color:var(--mute)}
+.steps{counter-reset:s;list-style:none;margin:0;padding:0;display:grid;gap:12px}
+.steps li{counter-increment:s;display:grid;grid-template-columns:34px minmax(0,1fr);gap:12px}
+.steps li::before{content:counter(s);font:16px/34px var(--display);text-align:center;background:var(--panel);border-radius:10px;color:var(--gold);height:34px}
+.steps b{color:var(--ink);display:block}
+.src{font-size:12px;color:var(--mute)}
+.src a{color:var(--mute)}
+@media (prefers-reduced-motion:reduce){.char,.talking .mouth,.eye,.ticker .track,.cap .w,.cast-slot svg,.stat{animation:none!important}}
+</style>
+
+<div class="wrap">
+  <div class="left">
+    <div class="stage" id="stage" aria-label="Sample episode player">
+      <canvas id="bg"></canvas>
+      <div class="bug"><span class="name">THE CANDLE DESK</span><span class="live">OCT 1 · BRIEF</span></div>
+      <div class="cap" id="cap" aria-live="polite"></div>
+      <div id="statHost"></div>
+      <div class="cast-slot" id="slot"></div>
+      <div class="foot" id="foot"></div>
+      <div class="ticker"><div class="track">
+        <span>BTC $84,321 <b class="up">▲1.46%</b></span><span>ETH $2,717 <b class="up">▲1.96%</b></span><span>XRP $1.50 <b class="up">▲0.44%</b></span><span>BNB $771 <b class="up">▲0.96%</b></span><span>SOL $119.36 <b class="up">▲0.24%</b></span><span>FEAR &amp; GREED 71</span>
+      </div></div>
+    </div>
+    <div class="controls">
+      <button class="btn" id="play" type="button">Pause</button>
+      <button class="btn ghost" id="restart" type="button">Restart</button>
+      <div class="dots" id="dots"></div>
+    </div>
+    <p class="hint">Sample 30-second episode built from Oct 1 headlines. Prices in the ticker are the Oct 1 snapshot.</p>
+  </div>
+
+  <div class="right">
+    <header>
+      <div class="eyebrow">Faceless channel kit · TikTok · Shorts · Reels</div>
+      <h1>The <span>Candle</span> Desk</h1>
+      <p>A crypto news show run entirely by an original animated cast. No host on camera: four characters split every story into <strong>hype, doubt and on-chain proof</strong>, so each 30-second brief feels like a debate instead of a headline read.</p>
+    </header>
+
+    <section>
+      <h2>The cast</h2>
+      <div class="cast" id="castCards"></div>
+    </section>
+
+    <section>
+      <h2>Episode format</h2>
+      <ol class="beats">
+        <li><time>0–2s</time><span><b>Hook.</b> Ledger states the biggest number of the day in giant captions. Nothing else on screen.</span></li>
+        <li><time>2–12s</time><span><b>Bull vs. bear.</b> Bruno gives the bullish read, Ursa cuts in with the catch. One stat card each.</span></li>
+        <li><time>12–20s</time><span><b>Whale watch.</b> Moby whispers one on-chain move: big wallet buys, unlocks, exchange outflows.</span></li>
+        <li><time>20–27s</time><span><b>Wildcard.</b> The viral or weird story of the day: a launch, a hack, a meme coin.</span></li>
+        <li><time>27–30s</time><span><b>Sign-off.</b> Whole cast on screen, follow prompt, "Not financial advice" on the frame.</span></li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Platform plan</h2>
+      <div class="tbl"><table>
+        <thead><tr><th>Platform</th><th>Length</th><th>Cadence</th><th>What changes</th></tr></thead>
+        <tbody>
+          <tr><td>TikTok</td><td>30–45s</td><td>2 a day: morning brief + evening viral story</td><td>Burned-in captions, trending sound low under the voices, reply to comments with new clips</td></tr>
+          <tr><td>YouTube Shorts</td><td>Under 60s</td><td>1–2 a day</td><td>Ticker and number in the title ("BTC $84K: why it stalled"), pin a source comment</td></tr>
+          <tr><td>Instagram Reels</td><td>30s</td><td>1 a day</td><td>Custom cover frame with the headline, carousel recap on Sundays</td></tr>
+        </tbody>
+      </table></div>
+    </section>
+
+    <section>
+      <h2>Production pipeline</h2>
+      <ol class="steps">
+        <li><span><b>Pull the headlines</b>Each morning, gather 3–4 stories with sources. This can run as a scheduled task that drops the day's script into your inbox.</span></li>
+        <li><span><b>Script in character</b>Split each story between the cast using the format above. Keep every line under 12 words so captions stay readable.</span></li>
+        <li><span><b>Voice it</b>Give each character a distinct text-to-speech voice and keep it fixed. Consistent voices are what make a faceless cast feel real.</span></li>
+        <li><span><b>Render 1080×1920</b>Today: screen-record this player. Next step: move the scenes into Remotion so each script renders to MP4 automatically.</span></li>
+        <li><span><b>Post and cross-post</b>Same master file to all three, with platform-specific titles and covers. Always cite the source and keep "Not financial advice" on screen.</span></li>
+      </ol>
+    </section>
+
+    <p class="src">Sample episode facts: <a href="https://www.riotimesonline.com/crypto-markets-bitcoin-majors-thursday-october-1-2026/" target="_blank" rel="noopener">Rio Times</a> · <a href="https://www.coingabbar.com/en/what-happened-in-crypto-market-today-as-october-trading-begins" target="_blank" rel="noopener">CoinGabbar</a> · <a href="https://www.coingabbar.com/en/crypto-news-today-bitcoin-ethereum-fed-pce-clarity-act-updates" target="_blank" rel="noopener">CoinGabbar (Open USD)</a> · <a href="https://beincrypto.com/crypto-whales-buying-october-2026" target="_blank" rel="noopener">BeInCrypto</a></p>
+  </div>
+</div>
+
+<script>
+const C={gold:'#f5b83d',coral:'#ff7a6b',night:'#14163a',screen:'#1b1e45',glow:'#7cf0c8',bull:'#45c983',bullL:'#86e2ae',bear:'#e8615a',bearL:'#f4a99f',whale:'#5b8cf0',whaleL:'#b9cdfa',cream:'#f6e8c8',dark:'#22152a'};
+const chars={
+ledger:()=>`<svg viewBox="0 0 200 230" aria-label="Ledger"><g class="char">
+<line x1="100" y1="48" x2="100" y2="20" stroke="${C.gold}" stroke-width="6" stroke-linecap="round"/><circle cx="100" cy="16" r="8" fill="${C.coral}"/>
+<path d="M44 48 L100 30 L156 48 L100 66Z" fill="#ffd57a"/>
+<rect x="34" y="46" width="132" height="140" rx="26" fill="${C.gold}"/>
+<rect x="52" y="66" width="96" height="70" rx="14" fill="${C.screen}"/>
+<circle class="eye" cx="80" cy="96" r="8" fill="${C.glow}"/><circle class="eye" cx="120" cy="96" r="8" fill="${C.glow}"/>
+<rect class="mouth" x="86" y="114" width="28" height="9" rx="4.5" fill="${C.glow}"/>
+<path d="M92 146 L108 146 L104 156 L112 182 L100 192 L88 182 L96 156Z" fill="${C.coral}"/>
+<rect x="56" y="186" width="26" height="30" rx="10" fill="#d99a26"/><rect x="118" y="186" width="26" height="30" rx="10" fill="#d99a26"/></g></svg>`,
+bruno:()=>`<svg viewBox="0 0 200 230" aria-label="Bruno the bull"><g class="char">
+<path d="M48 92 C18 84 10 50 22 34 C30 58 46 66 66 72Z" fill="${C.cream}"/><path d="M152 92 C182 84 190 50 178 34 C170 58 154 66 134 72Z" fill="${C.cream}"/>
+<ellipse cx="100" cy="122" rx="72" ry="68" fill="${C.bull}"/>
+<circle cx="74" cy="104" r="14" fill="#fff"/><circle cx="126" cy="104" r="14" fill="#fff"/>
+<circle class="eye" cx="77" cy="106" r="7" fill="${C.dark}"/><circle class="eye" cx="123" cy="106" r="7" fill="${C.dark}"/>
+<path d="M60 84 L88 90" stroke="${C.dark}" stroke-width="5" stroke-linecap="round"/><path d="M140 84 L112 90" stroke="${C.dark}" stroke-width="5" stroke-linecap="round"/>
+<ellipse cx="100" cy="156" rx="46" ry="30" fill="${C.bullL}"/>
+<ellipse cx="84" cy="148" rx="6" ry="8" fill="${C.dark}"/><ellipse cx="116" cy="148" rx="6" ry="8" fill="${C.dark}"/>
+<ellipse class="mouth" cx="100" cy="172" rx="16" ry="7" fill="${C.dark}"/>
+<circle cx="100" cy="190" r="12" fill="none" stroke="${C.gold}" stroke-width="5"/></g></svg>`,
+ursa:()=>`<svg viewBox="0 0 200 230" aria-label="Ursa the bear"><g class="char">
+<circle cx="46" cy="66" r="24" fill="${C.bear}"/><circle cx="154" cy="66" r="24" fill="${C.bear}"/>
+<circle cx="46" cy="66" r="12" fill="${C.bearL}"/><circle cx="154" cy="66" r="12" fill="${C.bearL}"/>
+<circle cx="100" cy="126" r="72" fill="${C.bear}"/>
+<circle class="eye" cx="74" cy="112" r="8" fill="${C.dark}"/><circle class="eye" cx="126" cy="112" r="8" fill="${C.dark}"/>
+<path d="M58 92 L88 100" stroke="${C.dark}" stroke-width="6" stroke-linecap="round"/><path d="M142 92 L112 100" stroke="${C.dark}" stroke-width="6" stroke-linecap="round"/>
+<ellipse cx="100" cy="158" rx="40" ry="30" fill="${C.bearL}"/>
+<ellipse cx="100" cy="144" rx="13" ry="9" fill="${C.dark}"/>
+<rect class="mouth" x="86" y="166" width="28" height="8" rx="4" fill="${C.dark}"/>
+<rect x="62" y="100" width="76" height="2" fill="none"/>
+<circle cx="126" cy="112" r="17" fill="none" stroke="${C.cream}" stroke-width="4"/><line x1="140" y1="122" x2="152" y2="132" stroke="${C.cream}" stroke-width="4"/></g></svg>`,
+moby:()=>`<svg viewBox="0 0 200 230" aria-label="Moby the whale"><g class="char">
+<circle cx="88" cy="40" r="6" fill="${C.whaleL}"/><circle cx="104" cy="28" r="8" fill="${C.whaleL}"/><circle cx="118" cy="44" r="5" fill="${C.whaleL}"/>
+<path d="M162 120 C190 96 196 80 192 70 C176 84 168 96 156 104 C170 92 176 76 170 62 C160 82 150 98 150 112Z" fill="${C.whale}"/>
+<path d="M20 140 C20 86 60 64 104 64 C148 64 168 100 166 140 C164 182 130 204 92 204 C48 204 20 182 20 140Z" fill="${C.whale}"/>
+<path d="M30 160 C46 196 132 200 156 162 C130 176 64 178 30 160Z" fill="${C.whaleL}"/>
+<circle class="eye" cx="70" cy="124" r="9" fill="${C.dark}"/><circle cx="73" cy="121" r="3" fill="#fff"/>
+<ellipse class="mouth" cx="62" cy="152" rx="13" ry="5" fill="${C.dark}"/>
+<path d="M104 112 C116 104 128 106 134 112" stroke="${C.dark}" stroke-width="4" fill="none" stroke-linecap="round"/></g></svg>`
+};
+const cast=[
+ {id:'ledger',name:'Ledger',role:'Anchor',color:C.gold,desc:'Calm, quick newsreader with a screen for a face. Opens and closes every episode and owns the big number.',line:'"Here\'s what moved the chain today."'},
+ {id:'bruno',name:'Bruno',role:'The bull',color:C.bull,desc:'Loud, fast, permanently optimistic. Always takes the bullish read first, so the audience has someone to cheer.',line:'"Green candles only!"'},
+ {id:'ursa',name:'Ursa',role:'The bear',color:C.bear,desc:'Dry, skeptical, reads the fine print through her monocle. Her job is the catch every hype story leaves out.',line:'"Check the yields first."'},
+ {id:'moby',name:'Moby',role:'Whale tracker',color:C.whale,desc:'Whispers on-chain moves: big wallet buys, unlocks, exchange outflows. The recurring segment people come back for.',line:'"Psst... big wallets are moving."'}
+];
+document.getElementById('castCards').innerHTML=cast.map(c=>`<article class="card">${chars[c.id]()}<div><h3>${c.name}</h3><div class="role" style="color:${c.color}">${c.role}</div><p>${c.desc}</p><q>${c.line}</q></div></article>`).join('');
+
+const scenes=[
+ {who:'ledger',dur:5800,talkFrom:0.043,talk:0.919,vo:'Here\'s what moved the chain today. Bitcoin just closed a forty-three percent quarter.',chunks:['Bitcoin just','closed a','*+43%* quarter'],stat:{label:'BTC · Q3 2026',to:43,pre:'+',suf:'%'}},
+ {who:'bruno',dur:6000,talkFrom:0.042,talk:0.931,vo:'Soft inflation, baby! Fed hike odds just dropped from fifty-one to thirty-seven percent!',chunks:['Soft inflation!','*Fed hike odds*','dropped to *37%*'],stat:{label:'Oct hike odds · CME FedWatch',from:51,to:37,suf:'%'}},
+ {who:'ursa',dur:5500,talkFrom:0.045,talk:0.922,vo:'Not so fast. Over two hundred million dollars just walked out of crypto ETFs.',chunks:['Not so fast.','*$200M+* pulled','from crypto ETFs'],stat:{label:'Net ETF outflows · Oct 1',to:200,pre:'$',suf:'M+'}},
+ {who:'moby',dur:5600,talkFrom:0.045,talk:0.917,vo:'Psst... whales scooped up a hundred and ninety thousand Aave since September twenty-eighth.',chunks:['Psst... whales','grabbed *190K AAVE*','since Sept 28'],stat:{label:'Whale AAVE added',to:190,suf:'K'}},
+ {who:'ledger',dur:6600,talkFrom:0.038,talk:0.93,vo:'And Open USD just went live, backed by Stripe, Visa, Mastercard, and Coinbase.',chunks:['New stablecoin','*Open USD*','just went live'],stat:{label:'Backed by',text:'Stripe · Visa · Mastercard · Coinbase'}},
+ {who:'all',dur:5200,talkFrom:0.048,talk:0.906,vo:'That\'s the brief. Follow for your thirty-second crypto news, every morning.',chunks:['Follow for','your *30-second*','crypto brief'],foot:'NOT FINANCIAL ADVICE'}
+];
+const DUR=5000,STARTS=[];let TOTAL=0;scenes.forEach(s=>{STARTS.push(TOTAL);TOTAL+=s.dur||DUR});
+const sceneAt=t=>{let i=0;while(i<scenes.length-1&&t>=STARTS[i+1])i++;return i};
+const $=id=>document.getElementById(id);
+const dots=$('dots');
+scenes.forEach((_,i)=>{const b=document.createElement('button');b.className='dot';b.type='button';b.setAttribute('aria-label','Scene '+(i+1));b.innerHTML='<i></i>';b.onclick=()=>{t=STARTS[i];cur=-1;cc=-1};dots.appendChild(b)});
+let t=0,playing=true,last=performance.now(),cur=-1,cc=-1,statEl=null,stat=null;
+const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+function renderChunk(s,k){
+  const words=s.chunks[k].split(' ');
+  let on=false;
+  $('cap').innerHTML=words.map((w,i)=>{if(w.startsWith('*'))on=true;const hi=on;if(w.replace(/[.,!?]+$/,'').endsWith('*'))on=false;return `<span class="w${hi?' hi':''}" style="animation-delay:${i*70}ms">${w.replace(/\*/g,'')}</span>`}).join(' ');
+}
+function enterScene(i){
+  const s=scenes[i],slot=$('slot');
+  slot.className='cast-slot talking'+(s.who==='all'?' group':'');
+  slot.innerHTML=s.who==='all'?cast.map(c=>chars[c.id]()).join(''):chars[s.who]();
+  $('foot').textContent=s.foot||'';
+  const host=$('statHost');host.innerHTML='';stat=s.stat;statEl=null;
+  if(s.stat){host.innerHTML=`<div class="stat"><div class="lbl">${s.stat.label}</div>${s.stat.text?`<div class="txt">${s.stat.text}</div>`:'<div class="val"></div>'}</div>`;statEl=host.querySelector('.val')}
+}
+function frame(now){
+  const dt=now-last;last=now;
+  if(playing)t=(t+dt)%TOTAL;
+  const i=sceneAt(t),s=scenes[i],p=(t-STARTS[i])/(s.dur||DUR);
+  if(i!==cur){cur=i;cc=-1;enterScene(i)}
+  const k=Math.min(s.chunks.length-1,Math.floor(p*s.chunks.length*1.15));
+  if(k!==cc){cc=k;renderChunk(s,k)}
+  $('slot').classList.toggle('talking',playing&&p>(s.talkFrom||0)&&p<(s.talk||.9));
+  if(statEl&&stat){const e=Math.min(1,p/.35),ease=1-Math.pow(1-e,3),from=stat.from||0;statEl.textContent=(stat.pre||'')+Math.round(from+(stat.to-from)*ease)+(stat.suf||'')}
+  [...dots.children].forEach((d,j)=>d.firstChild.style.transform=`scaleX(${j<i?1:j===i?p:0})`);
+  drawBg(now);
+  requestAnimationFrame(frame);
+}
+$('play').onclick=()=>{playing=!playing;$('play').textContent=playing?'Pause':'Play'};
+$('restart').onclick=()=>{t=0;cur=-1;playing=true;$('play').textContent='Pause'};
+
+// background candles
+const cv=$('bg'),ctx=cv.getContext('2d');let W=0,H=0;
+const candles=[];let price=50;
+for(let i=0;i<40;i++)addCandle();
+function addCandle(){const o=price,c=o+(Math.random()-.42)*10;const hi=Math.max(o,c)+Math.random()*5,lo=Math.min(o,c)-Math.random()*5;price=Math.max(15,Math.min(85,c));candles.push({o,c,hi,lo})}
+function size(){const r=cv.getBoundingClientRect(),d=devicePixelRatio||1;W=r.width;H=r.height;cv.width=W*d;cv.height=H*d;ctx.setTransform(d,0,0,d,0,0)}
+new ResizeObserver(size).observe(cv);size();
+let off=0;
+function drawBg(now){
+  if(!W)return;ctx.clearRect(0,0,W,H);
+  const step=W/14;if(playing&&!reduce)off+=.25;if(off>=step){off-=step;candles.shift();addCandle()}
+  ctx.strokeStyle='rgba(163,168,214,.07)';ctx.lineWidth=1;
+  for(let y=H*.1;y<H;y+=H/10){ctx.beginPath();ctx.moveTo(0,y);ctx.lineTo(W,y);ctx.stroke()}
+  const top=H*.08,span=H*.55,Y=v=>top+span*(1-v/100);
+  candles.forEach((k,i)=>{const x=i*step-off;if(x<-step||x>W+step)return;const up=k.c>=k.o;
+    ctx.globalAlpha=.22;ctx.strokeStyle=ctx.fillStyle=up?C.bull:C.bear;
+    ctx.beginPath();ctx.moveTo(x+step*.3,Y(k.hi));ctx.lineTo(x+step*.3,Y(k.lo));ctx.stroke();
+    const y1=Y(Math.max(k.o,k.c)),h=Math.max(2,Math.abs(Y(k.o)-Y(k.c)));ctx.fillRect(x+step*.1,y1,step*.4,h)});
+  ctx.globalAlpha=1;
+}
+requestAnimationFrame(frame);
+</script>

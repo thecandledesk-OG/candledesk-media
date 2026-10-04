@@ -1,0 +1,47 @@
+{
+  "_help": "Breaking News Engine settings. Edit values here; every run reads this file fresh. Times are America/New_York.",
+
+  "BREAKING_NEWS_ENABLED": true,
+  "DRY_RUN": true,
+  "AUTO_PUBLISH_LEVEL_2": false,
+  "AUTO_PUBLISH_LEVEL_3": false,
+
+  "MAX_IMPORTANT_SHORTS_PER_DAY": 3,
+  "MAX_BREAKING_SHORTS_PER_DAY": 3,
+  "MIN_MINUTES_BETWEEN_EXTRA_POSTS": 60,
+  "HARD_MAX_EXTRA_SHORTS_PER_DAY": 6,
+  "ALLOW_EMERGENCY_OVERRIDE": true,
+  "BREAKING_BYPASSES_SPACING": true,
+
+  "SCHEDULED_SLOTS": ["08:15", "18:15"],
+  "QUIET_MINUTES_AROUND_SLOTS": 30,
+  "PUBLISH_DELAY_MINUTES": 15,
+
+  "MIN_INDEPENDENT_SOURCES": 2,
+  "MIN_CONFIDENCE_FOR_AUTO": 0.75,
+  "VERIFICATION_TIMEOUT_HOURS": 6,
+  "MAX_STORY_AGE_HOURS": 12,
+  "IMPORTANT_MAX_DELAY_HOURS": 6,
+  "DEDUPE_WINDOW_HOURS": 96,
+  "DEDUPE_SIMILARITY": 0.3,
+
+  "MARKET_MOVE_THRESHOLDS_PCT": {
+    "_help": "24h move (absolute %) for [IMPORTANT, BREAKING]. Below the first number a price move is NORMAL.",
+    "BTC": [7, 12],
+    "ETH": [9, 15],
+    "TOTAL_MARKET": [7, 12],
+    "DEFAULT": [12, 20]
+  },
+  "HACK_LOSS_USD_THRESHOLDS": [10000000, 100000000],
+  "OUTAGE_BREAKING_MINUTES": 30,
+  "MAJOR_ASSETS": ["BTC", "ETH", "XRP", "SOL", "BNB", "USDT", "USDC", "ADA", "DOGE", "XLM", "TOTAL_MARKET"],
+
+  "SOCIAL_DOMAINS": ["x.com", "twitter.com", "reddit.com", "t.me", "telegram.org", "discord.com", "discord.gg", "youtube.com", "youtu.be", "tiktok.com", "instagram.com", "facebook.com", "threads.net", "medium.com", "substack.com", "warpcast.com", "binance.com/en/square", "stocktwits.com"],
+  "PRIMARY_DOMAINS": ["sec.gov", "cftc.gov", "treasury.gov", "federalreserve.gov", "whitehouse.gov", "congress.gov", "justice.gov", "fincen.gov", "occ.gov", "fdic.gov", "esma.europa.eu", "fca.org.uk", "ripple.com", "xrpl.org", "xrplf.org", "ethereum.org", "ethereum.foundation", "bitcoin.org", "bitcoincore.org", "solana.com", "solana.org", "stellar.org", "coinbase.com", "binance.com", "kraken.com", "gemini.com", "blackrock.com", "ishares.com", "fidelity.com", "github.com", "sec.report", "circle.com", "tether.to", "cmegroup.com", "nasdaq.com", "nyse.com", "cboe.com"],
+  "CREDIBLE_SECONDARY_DOMAINS": ["reuters.com", "apnews.com", "bloomberg.com", "wsj.com", "ft.com", "cnbc.com", "nytimes.com", "washingtonpost.com", "bbc.com", "bbc.co.uk", "axios.com", "fortune.com", "barrons.com", "marketwatch.com", "finance.yahoo.com", "businessinsider.com", "theverge.com", "techcrunch.com", "wired.com", "coindesk.com", "theblock.co", "decrypt.co", "blockworks.co", "dlnews.com", "cointelegraph.com", "unchainedcrypto.com", "thedefiant.io", "bankless.com", "politico.com", "reuters.co.uk"],
+
+  "BANNED_PHRASES": ["about to explode", "guarantees a", "guarantees the", "guaranteed to", "guaranteed return", "guaranteed profit", "guaranteed gains","buy before", "before it's too late", "to the moon", "moon soon", "don't miss", "last chance", "act now", "100x", "1000x", "can't lose", "free money", "will skyrocket", "will explode", "will pump", "will moon", "price will", "next to explode", "get in now", "life-changing"],
+  "SCRIPT_WORDS_MIN": 70,
+  "SCRIPT_WORDS_MAX": 150,
+  "SCRIPT_MAX_SECONDS": 60
+}

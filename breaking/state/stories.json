@@ -1,0 +1,820 @@
+[
+ {
+  "id": "st_20261004_2db3a4",
+  "headline": "Ethereum layer-2 Blast is shutting down after a 98% collapse in deposits",
+  "summary": "Blast says operating costs exceed revenue and it sees no credible path to sustainability; users can withdraw through its interface until October 26. Deposits fell from about $2.2B at peak to about $32M.",
+  "detected_at": "2026-10-04T07:46-04:00",
+  "active_since": "2026-10-04T07:46-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "IMPORTANT",
+  "confidence": 0.85,
+  "assets": [
+   "ETH",
+   "BLAST"
+  ],
+  "event_type": "protocol_shutdown",
+  "event_time": "2026-10-02T12:30",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-10-02-blast-ethereum-layer-2-shutting-down-417583",
+   "https://www.coindesk.com/tech/2026/10/02/once-a-usd2-billion-ethereum-layer-2-blast-is-shutting-down-after-assets-plunge-98",
+   "https://decrypt.co/379972/ethereum-layer-2-blast-shutting-down",
+   "https://www.cryptotimes.io/2026/10/02/blast-shuts-down-ethereum-l2-as-operating-costs-exceed-revenue/"
+  ],
+  "source_names": [
+   "The Block",
+   "CoinDesk",
+   "Decrypt",
+   "The Crypto Times"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-02-blast-ethereum-layer-2-shutting-down-417583",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-02T12:54"
+   },
+   {
+    "url": "https://www.coindesk.com/tech/2026/10/02/once-a-usd2-billion-ethereum-layer-2-blast-is-shutting-down-after-assets-plunge-98",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-02T13:15"
+   },
+   {
+    "url": "https://decrypt.co/379972/ethereum-layer-2-blast-shutting-down",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false,
+    "published": "2026-10-02T13:30"
+   },
+   {
+    "url": "https://www.cryptotimes.io/2026/10/02/blast-shuts-down-ethereum-l2-as-operating-costs-exceed-revenue/",
+    "name": "The Crypto Times",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-02-blast-ethereum-layer-2-shutting-down-417583",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-02T12:54"
+   },
+   {
+    "url": "https://www.coindesk.com/tech/2026/10/02/once-a-usd2-billion-ethereum-layer-2-blast-is-shutting-down-after-assets-plunge-98",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-02T13:15"
+   },
+   {
+    "url": "https://decrypt.co/379972/ethereum-layer-2-blast-shutting-down",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false,
+    "published": "2026-10-02T13:30"
+   },
+   {
+    "url": "https://www.cryptotimes.io/2026/10/02/blast-shuts-down-ethereum-l2-as-operating-costs-exceed-revenue/",
+    "name": "The Crypto Times",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "VERIFIED",
+  "verification": {
+   "status": "VERIFIED",
+   "independent_sources": 2,
+   "has_primary": false,
+   "score": 0.8,
+   "reason": "2 independent credible sources confirm it (no primary source yet)",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-10-02-blast-ethereum-layer-2-shutting-down-417583",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/tech/2026/10/02/once-a-usd2-billion-ethereum-layer-2-blast-is-shutting-down-after-assets-plunge-98",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/379972/ethereum-layer-2-blast-shutting-down",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "The Crypto Times",
+     "url": "https://www.cryptotimes.io/2026/10/02/blast-shuts-down-ethereum-l2-as-operating-costs-exceed-revenue/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed IMPORTANT: a once-major Ethereum layer-2 closing with a user withdrawal deadline",
+   "first reported 2026-10-02T12:30-04:00, older than 12h -> NORMAL (daily show)",
+   "final level NORMAL (changed from AI's IMPORTANT)"
+  ],
+  "market_significance": "Users with funds on Blast must withdraw by Oct 26; shows consolidation pressure on smaller layer-2s",
+  "trigger": "CoinDesk and The Block latest-news pages",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [
+   {
+    "at": "2026-10-04T07:49-04:00",
+    "headline": "Ethereum layer two Blast is shutting down; withdraw by October 26",
+    "summary": "Users must withdraw from the Blast layer-2 by October twenty-sixth.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   }
+  ],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261004_b124bb",
+  "headline": "Chainalysis traces the $387M Bitget hack to North Korea",
+  "summary": "New analysis says the September 24 Bitget theft moved $387M across Ethereum, XRP Ledger, Zcash and Tron within three hours; attribution to North Korea.",
+  "detected_at": "2026-10-04T07:46-04:00",
+  "active_since": "2026-10-04T07:46-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "IMPORTANT",
+  "confidence": 0.7,
+  "assets": [
+   "ETH",
+   "XRP"
+  ],
+  "event_type": "hack_exploit",
+  "event_time": "2026-09-24T12:00",
+  "scheduled_event": false,
+  "metrics": {
+   "loss_usd": 387000000
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://decrypt.co/380005/chainalysis-ai-87m-bitget-hack-north-korea",
+   "https://crypto.news/bitcoin-bitget-swift-chainlink-weekly-recap/"
+  ],
+  "source_names": [
+   "Decrypt",
+   "crypto.news weekly recap"
+  ],
+  "sources": [
+   {
+    "url": "https://decrypt.co/380005/chainalysis-ai-87m-bitget-hack-north-korea",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-03T13:01"
+   },
+   {
+    "url": "https://crypto.news/bitcoin-bitget-swift-chainlink-weekly-recap/",
+    "name": "crypto.news weekly recap",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-03T01:50"
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://decrypt.co/380005/chainalysis-ai-87m-bitget-hack-north-korea",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-03T13:01"
+   },
+   {
+    "url": "https://crypto.news/bitcoin-bitget-swift-chainlink-weekly-recap/",
+    "name": "crypto.news weekly recap",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-03T01:50"
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/380005/chainalysis-ai-87m-bitget-hack-north-korea",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "crypto.news weekly recap",
+     "url": "https://crypto.news/bitcoin-bitget-swift-chainlink-weekly-recap/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed IMPORTANT: large exchange hack with new attribution",
+   "hack rule: about $387M lost (thresholds $10M/$100M) -> BREAKING",
+   "first reported 2026-09-24T12:00-04:00, older than 12h -> NORMAL (daily show)",
+   "final level NORMAL (changed from AI's IMPORTANT)"
+  ],
+  "market_significance": "Follow-up analysis on a hack from Sept 24; Bitget has restored withdrawals",
+  "trigger": "Decrypt latest-news page",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261004_d16992",
+  "headline": "XRP Ledger Batch upgrade targets October 9 activation",
+  "summary": "fixBatchV1_2 (a security fix) is due around 10:12 a.m. ET and BatchV1_1 (bundle up to eight transactions) around 10:46 a.m. ET on October 9, if validator support stays above 80% for the full two weeks.",
+  "detected_at": "2026-10-04T07:46-04:00",
+  "active_since": "2026-10-04T07:46-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "IMPORTANT",
+  "confidence": 0.7,
+  "assets": [
+   "XRP"
+  ],
+  "event_type": "protocol_upgrade",
+  "event_time": "2026-10-09T14:46:00Z",
+  "scheduled_event": true,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://news.bitcoin.com/crypto-news/xrp-ledger-targets-oct-9-for-upgrade-bundling-8-transactions/",
+   "https://pro.edgex.exchange/en-US/news/article/xrpl-batchv1-1-amendment-clock-resets"
+  ],
+  "source_names": [
+   "Bitcoin.com News",
+   "edgeX News"
+  ],
+  "sources": [
+   {
+    "url": "https://news.bitcoin.com/crypto-news/xrp-ledger-targets-oct-9-for-upgrade-bundling-8-transactions/",
+    "name": "Bitcoin.com News",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-03T23:45"
+   },
+   {
+    "url": "https://pro.edgex.exchange/en-US/news/article/xrpl-batchv1-1-amendment-clock-resets",
+    "name": "edgeX News",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-09-26T00:44"
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://news.bitcoin.com/crypto-news/xrp-ledger-targets-oct-9-for-upgrade-bundling-8-transactions/",
+    "name": "Bitcoin.com News",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-03T23:45"
+   },
+   {
+    "url": "https://pro.edgex.exchange/en-US/news/article/xrpl-batchv1-1-amendment-clock-resets",
+    "name": "edgeX News",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-09-26T00:44"
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Bitcoin.com News",
+     "url": "https://news.bitcoin.com/crypto-news/xrp-ledger-targets-oct-9-for-upgrade-bundling-8-transactions/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "edgeX News",
+     "url": "https://pro.edgex.exchange/en-US/news/article/xrpl-batchv1-1-amendment-clock-resets",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed IMPORTANT: confirmed protocol upgrade on a major network (expected)",
+   "expected event (due 2026-10-09T10:46-04:00) has not happened yet -> NORMAL until it does",
+   "final level NORMAL (changed from AI's IMPORTANT)"
+  ],
+  "market_significance": "Atomic multi-step transactions on the XRP Ledger; activation is conditional on validator support holding",
+  "trigger": "Bitcoin.com News latest page",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261004_f919e3",
+  "headline": "XRP Ledger permission delegation amendment could activate October 8",
+  "summary": "PermissionDelegationV1_1 (XLS-75) lets accounts grant specific transaction rights to delegates without sharing master keys; earliest activation about 5:25 p.m. ET on October 8 if validator majority holds.",
+  "detected_at": "2026-10-04T07:46-04:00",
+  "active_since": "2026-10-04T07:46-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "IMPORTANT",
+  "confidence": 0.7,
+  "assets": [
+   "XRP"
+  ],
+  "event_type": "protocol_upgrade",
+  "event_time": "2026-10-08T21:25:00Z",
+  "scheduled_event": true,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://cryptoticker.io/en/xrpl-permission-delegation-activation/",
+   "https://www.kucoin.com/news/flash/three-xrp-ledger-upgrades-set-to-activate-on-oct-8-9"
+  ],
+  "source_names": [
+   "CryptoTicker",
+   "KuCoin News (CoinPaper)"
+  ],
+  "sources": [
+   {
+    "url": "https://cryptoticker.io/en/xrpl-permission-delegation-activation/",
+    "name": "CryptoTicker",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-02T00:25"
+   },
+   {
+    "url": "https://www.kucoin.com/news/flash/three-xrp-ledger-upgrades-set-to-activate-on-oct-8-9",
+    "name": "KuCoin News (CoinPaper)",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-02T08:00"
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://cryptoticker.io/en/xrpl-permission-delegation-activation/",
+    "name": "CryptoTicker",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-02T00:25"
+   },
+   {
+    "url": "https://www.kucoin.com/news/flash/three-xrp-ledger-upgrades-set-to-activate-on-oct-8-9",
+    "name": "KuCoin News (CoinPaper)",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-02T08:00"
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CryptoTicker",
+     "url": "https://cryptoticker.io/en/xrpl-permission-delegation-activation/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "KuCoin News (CoinPaper)",
+     "url": "https://www.kucoin.com/news/flash/three-xrp-ledger-upgrades-set-to-activate-on-oct-8-9",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed IMPORTANT: confirmed protocol upgrade on a major network (expected)",
+   "expected event (due 2026-10-08T17:25-04:00) has not happened yet -> NORMAL until it does",
+   "final level NORMAL (changed from AI's IMPORTANT)"
+  ],
+  "market_significance": "Institution-friendly account permissions; conditional on validator support",
+  "trigger": "web search: XRP Ledger amendment activation October",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261004_c0bc20",
+  "headline": "XRP Asia launches with Ripple backing to grow XRP Ledger adoption",
+  "summary": "A new regional initiative, XRP Asia, launched at XRP Seoul with Ripple support.",
+  "detected_at": "2026-10-04T07:46-04:00",
+  "active_since": "2026-10-04T07:46-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "XRP"
+  ],
+  "event_type": "partnership",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://news.bitcoin.com/featured/xrp-asia-launches-with-ripple-backing-to-accelerate-xrpl-adoption/"
+  ],
+  "source_names": [
+   "Bitcoin.com News"
+  ],
+  "sources": [
+   {
+    "url": "https://news.bitcoin.com/featured/xrp-asia-launches-with-ripple-backing-to-accelerate-xrpl-adoption/",
+    "name": "Bitcoin.com News",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false,
+    "published": "2026-10-04T02:45"
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://news.bitcoin.com/featured/xrp-asia-launches-with-ripple-backing-to-accelerate-xrpl-adoption/",
+    "name": "Bitcoin.com News",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false,
+    "published": "2026-10-04T02:45"
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Bitcoin.com News",
+     "url": "https://news.bitcoin.com/featured/xrp-asia-launches-with-ripple-backing-to-accelerate-xrpl-adoption/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: ecosystem initiative, low market impact"
+  ],
+  "market_significance": "",
+  "trigger": "Bitcoin.com News latest page",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261004_71ca4b",
+  "headline": "Bitcoin holds near $84,800, little changed over 24 hours",
+  "summary": "BTC traded around $84,774, up 0.16% on the day, after failing to hold $86,500 resistance on Oct 2.",
+  "detected_at": "2026-10-04T07:46-04:00",
+  "active_since": "2026-10-04T07:46-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.9,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "market_move",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {
+   "pct_move_24h": 0.16
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/price/bitcoin"
+  ],
+  "source_names": [
+   "CoinDesk price page"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/price/bitcoin",
+    "name": "CoinDesk price page",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-03T21:47"
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/price/bitcoin",
+    "name": "CoinDesk price page",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-03T21:47"
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk price page",
+     "url": "https://www.coindesk.com/price/bitcoin",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: routine market movement",
+   "price rule: BTC moved 0.2% in 24h (thresholds 7%/12%) -> NORMAL"
+  ],
+  "market_significance": "",
+  "trigger": "CoinDesk BTC price page",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261004_7d5a6b",
+  "headline": "$433 million liquidated in 24 hours, 74% longs",
+  "summary": "Four hundred thirty-three million dollars liquidated in a day.",
+  "detected_at": "2026-10-04T07:49-04:00",
+  "active_since": "2026-10-04T07:49-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "BTC",
+   "ETH"
+  ],
+  "event_type": "market_move",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://coingape.com/markets/why-is-the-crypto-market-down-today/"
+  ],
+  "source_names": [
+   "CoinGape"
+  ],
+  "sources": [
+   {
+    "url": "https://coingape.com/markets/why-is-the-crypto-market-down-today/",
+    "name": "CoinGape",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://coingape.com/markets/why-is-the-crypto-market-down-today/",
+    "name": "CoinGape",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinGape",
+     "url": "https://coingape.com/markets/why-is-the-crypto-market-down-today/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261004_6fbf7c",
+  "headline": "SEC approves triple-leveraged Bitcoin and Ether funds",
+  "summary": "The SEC approved 3x leveraged BTC and ETH funds via Cboe BZX.",
+  "detected_at": "2026-10-04T07:49-04:00",
+  "active_since": "2026-10-04T07:49-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "BTC",
+   "ETH"
+  ],
+  "event_type": "etf",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://thecryptobasic.com/2026/10/03/24-hour-crypto-market-update-what-happened-in-crypto-on-october-3-2026/"
+  ],
+  "source_names": [
+   "The Crypto Basic"
+  ],
+  "sources": [
+   {
+    "url": "https://thecryptobasic.com/2026/10/03/24-hour-crypto-market-update-what-happened-in-crypto-on-october-3-2026/",
+    "name": "The Crypto Basic",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://thecryptobasic.com/2026/10/03/24-hour-crypto-market-update-what-happened-in-crypto-on-october-3-2026/",
+    "name": "The Crypto Basic",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Crypto Basic",
+     "url": "https://thecryptobasic.com/2026/10/03/24-hour-crypto-market-update-what-happened-in-crypto-on-october-3-2026/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261004_5c62e3",
+  "headline": "Spot bitcoin ETFs post $149M outflow, ending nine-day inflow streak",
+  "summary": "Spot Bitcoin ETFs bled one hundred forty-nine million dollars, snapping a nine-day inflow streak.",
+  "detected_at": "2026-10-04T07:49-04:00",
+  "active_since": "2026-10-04T07:49-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "etf",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://coingape.com/markets/why-is-the-crypto-market-down-today/#etf"
+  ],
+  "source_names": [
+   "CoinGape"
+  ],
+  "sources": [
+   {
+    "url": "https://coingape.com/markets/why-is-the-crypto-market-down-today/#etf",
+    "name": "CoinGape",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://coingape.com/markets/why-is-the-crypto-market-down-today/#etf",
+    "name": "CoinGape",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinGape",
+     "url": "https://coingape.com/markets/why-is-the-crypto-market-down-today/#etf",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ }
+]

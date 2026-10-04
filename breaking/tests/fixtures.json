@@ -1,0 +1,136 @@
+{
+ "_note": "Test cases only. Nothing here is used by the live engine. URLs are illustrative.",
+
+ "btc_etf_approval": {
+  "headline": "SEC approves options on spot bitcoin ETFs from three more issuers",
+  "summary": "The SEC approved exchange rule changes letting options list on three additional spot bitcoin ETFs.",
+  "assets": ["BTC"], "event_type": "etf", "proposed_level": "BREAKING", "confidence": 0.9,
+  "reason": "ETF approval decision by the SEC", "significance": "Expands regulated bitcoin exposure; traders watch volume and flows",
+  "sources": [
+   {"url": "https://www.sec.gov/rules/sro/nysearca/2026/34-100000.pdf", "name": "SEC order", "kind": "primary", "checked": true, "confirms": true, "published": "2026-10-05T12:30"},
+   {"url": "https://www.reuters.com/markets/us/sec-approves-options-bitcoin-etfs-2026-10-05/", "name": "Reuters", "kind": "secondary", "checked": true, "confirms": true, "published": "2026-10-05T12:50"}
+  ]
+ },
+ "btc_etf_approval_other_headline": {
+  "headline": "Bitcoin ETF options get green light from SEC for three more funds",
+  "summary": "Three more spot bitcoin funds can now list options after the SEC signed off.",
+  "assets": ["BTC"], "event_type": "etf", "proposed_level": "BREAKING", "confidence": 0.85,
+  "reason": "same SEC decision, different outlet", "significance": "",
+  "sources": [
+   {"url": "https://www.bloomberg.com/news/articles/2026-10-05/sec-bitcoin-etf-options", "name": "Bloomberg", "kind": "secondary", "checked": true, "confirms": true, "published": "2026-10-05T13:05"},
+   {"url": "https://www.coindesk.com/policy/2026/10/05/sec-greenlights-bitcoin-etf-options", "name": "CoinDesk", "kind": "secondary", "checked": true, "confirms": true, "published": "2026-10-05T13:10"}
+  ]
+ },
+ "btc_crash": {
+  "headline": "Bitcoin falls sharply in 24 hours", "summary": "BTC dropped in a broad selloff.",
+  "assets": ["BTC"], "event_type": "market_move", "proposed_level": "IMPORTANT", "confidence": 0.8,
+  "reason": "large move", "metrics": {"pct_move_24h": -13},
+  "sources": [
+   {"url": "https://www.coindesk.com/markets/2026/10/05/bitcoin-selloff", "name": "CoinDesk", "kind": "secondary", "checked": true, "confirms": true, "published": "2026-10-05T13:00"},
+   {"url": "https://www.cnbc.com/2026/10/05/bitcoin-price.html", "name": "CNBC", "kind": "secondary", "checked": true, "confirms": true, "published": "2026-10-05T13:10"}
+  ]
+ },
+ "eth_defi_hack": {
+  "headline": "Ethereum lending protocol drained of about $140 million in exploit",
+  "summary": "An Ethereum-based lending protocol paused contracts after an exploit drained roughly $140M.",
+  "assets": ["ETH"], "event_type": "hack_exploit", "proposed_level": "BREAKING", "confidence": 0.85,
+  "reason": "major exploit", "metrics": {"loss_usd": 140000000},
+  "sources": [
+   {"url": "https://www.theblock.co/post/400000/lending-protocol-exploit", "name": "The Block", "kind": "secondary", "checked": true, "confirms": true, "published": "2026-10-05T12:00"},
+   {"url": "https://www.dlnews.com/articles/defi/lending-protocol-exploit/", "name": "DL News", "kind": "secondary", "checked": true, "confirms": true, "published": "2026-10-05T12:20"}
+  ]
+ },
+ "eth_syndicated": {
+  "headline": "Ether treasury firm raises $500 million", "summary": "Wire report republished.",
+  "assets": ["ETH"], "event_type": "institutional", "proposed_level": "IMPORTANT", "confidence": 0.7,
+  "reason": "institutional adoption",
+  "sources": [
+   {"url": "https://www.reuters.com/business/ether-treasury-raise/", "name": "Reuters", "kind": "secondary", "checked": true, "confirms": true, "origin": "Reuters"},
+   {"url": "https://finance.yahoo.com/news/ether-treasury-raise-reuters.html", "name": "Yahoo Finance (Reuters wire)", "kind": "secondary", "checked": true, "confirms": true, "origin": "Reuters"}
+  ]
+ },
+ "sol_rumor_social_only": {
+  "headline": "Rumor: major exchange delisting SOL", "summary": "Posts on X and Reddit claim a delisting.",
+  "assets": ["SOL"], "event_type": "exchange", "proposed_level": "BREAKING", "confidence": 0.4,
+  "reason": "would be major if true", "trigger": "trending on X",
+  "sources": [
+   {"url": "https://x.com/someone/status/1", "name": "X post", "kind": "social", "checked": true, "confirms": true},
+   {"url": "https://www.reddit.com/r/solana/comments/abc", "name": "Reddit thread", "kind": "social", "checked": true, "confirms": true}
+  ]
+ },
+ "sol_minor_update": {
+  "headline": "Solana wallet adds new staking dashboard", "summary": "A minor product update.",
+  "assets": ["SOL"], "event_type": "other", "proposed_level": "NORMAL", "confidence": 0.8, "reason": "minor product news",
+  "sources": [{"url": "https://www.theblock.co/post/400100/solana-wallet-dashboard", "name": "The Block", "kind": "secondary", "checked": true, "confirms": true}]
+ },
+ "sol_outage_one_source": {
+  "headline": "Solana mainnet halts block production", "summary": "Solana stopped producing blocks this morning.",
+  "assets": ["SOL"], "event_type": "outage", "proposed_level": "BREAKING", "confidence": 0.7,
+  "reason": "network outage", "metrics": {"outage_minutes": 90},
+  "sources": [
+   {"url": "https://www.theblock.co/post/400200/solana-halt", "name": "The Block", "kind": "secondary", "checked": true, "confirms": true, "published": "2026-10-05T09:40"},
+   {"url": "https://x.com/solana/status/2", "name": "X post", "kind": "social", "checked": true, "confirms": true}
+  ]
+ },
+ "sol_outage_second_source": {
+  "headline": "Solana network outage: validators restart after block production halt",
+  "summary": "Validators coordinated a restart after Solana stopped producing blocks.",
+  "assets": ["SOL"], "event_type": "outage", "proposed_level": "BREAKING", "confidence": 0.85,
+  "reason": "network outage confirmed", "metrics": {"outage_minutes": 95},
+  "sources": [
+   {"url": "https://status.solana.com/incidents/xyz", "name": "Solana status page", "kind": "primary", "checked": true, "confirms": true, "published": "2026-10-05T10:20"}
+  ]
+ },
+ "sol_outage_verified": {
+  "headline": "Solana block production halted for two hours", "summary": "Network stopped; validators restarting.",
+  "assets": ["SOL"], "event_type": "outage", "proposed_level": "BREAKING", "confidence": 0.85,
+  "reason": "network outage", "metrics": {"outage_minutes": 120},
+  "sources": [
+   {"url": "https://status.solana.com/incidents/abc", "name": "Solana status page", "kind": "primary", "checked": true, "confirms": true},
+   {"url": "https://www.coindesk.com/tech/2026/10/05/solana-halt", "name": "CoinDesk", "kind": "secondary", "checked": true, "confirms": true}
+  ]
+ },
+ "generic_important": {
+  "headline": "Exchange lists spot trading", "summary": "Exchange announcement.",
+  "assets": ["BTC"], "event_type": "exchange", "proposed_level": "IMPORTANT", "confidence": 0.8, "reason": "major exchange announcement",
+  "sources": [
+   {"url": "https://www.coinbase.com/blog/announcement", "name": "Coinbase blog", "kind": "primary", "checked": true, "confirms": true},
+   {"url": "https://www.reuters.com/technology/exchange-listing/", "name": "Reuters", "kind": "secondary", "checked": true, "confirms": true}
+  ]
+ },
+ "xrpl_upgrade_expected": {
+  "headline": "XRP Ledger permission delegation amendment set to activate October 8",
+  "summary": "The PermissionDelegationV1_1 amendment holds validator majority; earliest activation is about 21:25 UTC on October 8 if support holds.",
+  "assets": ["XRP"], "event_type": "protocol_upgrade", "proposed_level": "IMPORTANT", "confidence": 0.75,
+  "scheduled_event": true, "event_time": "2026-10-08T21:25:00Z",
+  "reason": "confirmed protocol upgrade on a major network", "significance": "Lets institutions delegate specific account permissions without sharing keys",
+  "sources": [
+   {"url": "https://xrpl.org/resources/known-amendments", "name": "XRPL.org amendments", "kind": "primary", "checked": true, "confirms": true, "published": "2026-10-02T12:00"},
+   {"url": "https://www.coindesk.com/tech/2026/10/02/xrpl-permission-delegation", "name": "CoinDesk", "kind": "secondary", "checked": true, "confirms": true, "published": "2026-10-02T13:00"}
+  ]
+ },
+ "xrpl_upgrade_activated": {
+  "headline": "XRP Ledger activates permission delegation amendment on mainnet",
+  "summary": "PermissionDelegationV1_1 is now enabled on the XRP Ledger mainnet after holding validator majority for two weeks.",
+  "assets": ["XRP"], "event_type": "protocol_upgrade", "proposed_level": "IMPORTANT", "confidence": 0.85,
+  "new_development": true, "event_time": "2026-10-08T21:26:00Z",
+  "reason": "confirmed protocol upgrade went live", "significance": "Delegated permissions are now usable on mainnet",
+  "sources": [
+   {"url": "https://xrpl.org/blog/2026/permission-delegation-enabled", "name": "XRPL.org", "kind": "primary", "checked": true, "confirms": true, "published": "2026-10-08T14:40"},
+   {"url": "https://www.theblock.co/post/401000/xrpl-permission-delegation-live", "name": "The Block", "kind": "secondary", "checked": true, "confirms": true, "published": "2026-10-08T14:50"}
+  ]
+ },
+
+ "script_good": {
+  "story_id": "st_test", "date_label": "OCT 8", "headline": "XRP Ledger switches on permission delegation",
+  "sources": [{"name": "XRPL.org", "url": "https://xrpl.org"}, {"name": "The Block", "url": "https://www.theblock.co"}],
+  "scenes": [
+   {"beat": "hook", "who": "ledger", "vo": "Breaking from the chain desk. The XRP Ledger just switched on a new feature called permission delegation.", "chunks": ["XRP Ledger", "switches on", "*delegation*"], "stat": {"label": "Status", "text": "Enabled on mainnet"}},
+   {"beat": "what_happened", "who": "ledger", "vo": "After two weeks of majority validator support, the amendment went live. Accounts can now hand specific powers to another account without sharing their keys.", "chunks": ["Two weeks of", "*validator* support", "now live"], "stat": {"label": "Sources", "text": "XRPL.org · The Block"}},
+   {"beat": "why_it_matters", "who": "bruno", "vo": "This is the plumbing institutions asked for. A bank or stablecoin issuer can split duties across teams, safely.", "chunks": ["Built for", "*institutions*", "split duties"]},
+   {"beat": "why_it_matters", "who": "ursa", "vo": "Fine print: a feature going live is not the same as people using it. Adoption is the real test.", "chunks": ["Live is not", "the same as", "*used*"]},
+   {"beat": "watch_next", "who": "moby", "vo": "Psst... watch for the first big issuers to announce they are using it, and the batch upgrade due tomorrow.", "chunks": ["Watch for", "*first users*", "and Batch next"]},
+   {"beat": "cta", "who": "all", "vo": "That's the breaking brief. Sources are on screen. Follow for the full story tomorrow morning.", "chunks": ["Sources", "*on screen*", "follow for more"], "foot": "NOT FINANCIAL ADVICE"}
+  ]
+ }
+}
