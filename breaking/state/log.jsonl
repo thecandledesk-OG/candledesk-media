@@ -48,3 +48,4 @@
 {"ts": "2026-10-04T07:49-04:00", "run": "daily_sync_1004", "story": "st_20261004_7d5a6b", "step": "publishing", "detail": "covered in the 2026-10-04 daily episode"}
 {"ts": "2026-10-04T07:49-04:00", "run": "daily_sync_1004", "story": "st_20261004_6fbf7c", "step": "publishing", "detail": "covered in the 2026-10-04 daily episode"}
 {"ts": "2026-10-04T07:49-04:00", "run": "daily_sync_1004", "story": "st_20261004_5c62e3", "step": "publishing", "detail": "covered in the 2026-10-04 daily episode"}
+{"ts": "2026-10-04T13:13-04:00", "run": "run_20261004_1313", "story": "st_20261004_71ca4b", "step": "duplicate_check", "detail": "merged into existing event — explicitly linked to st_20261004_71ca4b; 2 new source(s)", "data": {"headline": "Crypto majors steady on Sunday: bitcoin near $85,100, ether, XRP and solana up about 1%"}}

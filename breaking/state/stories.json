@@ -550,10 +550,14 @@
   },
   "emergency": false,
   "source_urls": [
-   "https://www.coindesk.com/price/bitcoin"
+   "https://www.coindesk.com/price/bitcoin",
+   "https://www.coindesk.com/",
+   "https://www.coingecko.com/en/coins/bitcoin"
   ],
   "source_names": [
-   "CoinDesk price page"
+   "CoinDesk price page",
+   "CoinDesk",
+   "CoinGecko"
   ],
   "sources": [
    {
@@ -563,6 +567,20 @@
     "checked": true,
     "confirms": true,
     "published": "2026-10-03T21:47"
+   },
+   {
+    "url": "https://www.coindesk.com/",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coingecko.com/en/coins/bitcoin",
+    "name": "CoinGecko",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -573,6 +591,20 @@
     "checked": true,
     "confirms": true,
     "published": "2026-10-03T21:47"
+   },
+   {
+    "url": "https://www.coindesk.com/",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coingecko.com/en/coins/bitcoin",
+    "name": "CoinGecko",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "UNVERIFIED",
@@ -589,6 +621,20 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "CoinGecko",
+     "url": "https://www.coingecko.com/en/coins/bitcoin",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -601,7 +647,17 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-04T13:13-04:00",
+    "headline": "Crypto majors steady on Sunday: bitcoin near $85,100, ether, XRP and solana up about 1%",
+    "summary": "Quiet weekend trading. Bitcoin is around $85,100, up about 0.6% in 24 hours after rejecting $87,000 earlier in the week. Ether is near $2,700 (+0.7%), XRP near $1.50 (+0.9%) and solana near $121 (+1.3%).",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
