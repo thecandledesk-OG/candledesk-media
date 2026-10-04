@@ -17,6 +17,8 @@ def fresh(**over):
     d = tempfile.mkdtemp(prefix="bne-")
     os.environ["BREAKING_STATE_DIR"] = d
     cfg = copy.deepcopy(BASE_CFG)
+    # Tests start from the safe defaults whatever the live config says.
+    cfg.update({"BREAKING_NEWS_ENABLED": True, "DRY_RUN": True, "AUTO_PUBLISH_LEVEL_2": False, "AUTO_PUBLISH_LEVEL_3": False})
     cfg.update(over)
     return cfg
 

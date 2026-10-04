@@ -1,8 +1,10 @@
 {
   "_help": "Breaking News Engine settings. Edit values here; every run reads this file fresh. Times are America/New_York.",
 
+  "_mode": "Approval mode since Oct 4, 2026: Shorts are rendered and saved as Buffer drafts; Aaron approves each one. Auto-publish stays off until he says so.",
+  "_schedule": "The watch runs every 3 hours (7 AM-10 PM ET) on the current plan; Aaron wants it back to hourly (6 AM-11 PM ET) when he upgrades.",
   "BREAKING_NEWS_ENABLED": true,
-  "DRY_RUN": true,
+  "DRY_RUN": false,
   "AUTO_PUBLISH_LEVEL_2": false,
   "AUTO_PUBLISH_LEVEL_3": false,
 
