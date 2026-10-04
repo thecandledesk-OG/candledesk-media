@@ -15,6 +15,7 @@
  "ETFs": "E T Fs",
  "ETH": "eeth",
  "Ethereum": "Itheerium",
+ "FAQ": "F eigh Q",
  "FDIC": "F D I C",
  "FTC": "F T C",
  "HODL": "hoddle",
@@ -22,9 +23,11 @@
  "NFT": "N F T",
  "NFTs": "N F Ts",
  "NIST": "nist",
+ "Nakamoto": "Nahkahmoto",
  "SEC": "S E C",
  "SIPC": "S I P C",
  "SOL": "sole",
+ "Satoshi": "Sahtoshi",
  "TVL": "T V L",
  "USD": "U S D",
  "USDC": "U S D C",
@@ -36,5 +39,7 @@
  "meme": "meem",
  "memecoin": "meem coin",
  "memecoins": "meem coins",
- "memes": "meems"
+ "memes": "meems",
+ "satoshi": "sahtoshi",
+ "satoshis": "sahtoshis"
 }
