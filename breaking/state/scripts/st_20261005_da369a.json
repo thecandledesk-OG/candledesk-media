@@ -1,0 +1,86 @@
+{
+ "story_id": "st_20261005_da369a",
+ "date_label": "OCT 5",
+ "headline": "CFTC opens rulemaking on leveraged retail crypto trading",
+ "sources": [
+  {
+   "name": "CFTC",
+   "url": "https://www.cftc.gov/PressRoom/PressReleases/9307-26"
+  },
+  {
+   "name": "CoinDesk",
+   "url": "https://www.coindesk.com/policy/2026/10/05/u-s-cftc-joins-sec-in-proposing-crypto-regulations-though-spot-market-gap-lingers"
+  },
+  {
+   "name": "The Block",
+   "url": "https://www.theblock.co/news/markets/2026-10-05-cftc-rulemaking-leveraged-retail-crypto-trading-regulation-ctx-cam-417701"
+  }
+ ],
+ "scenes": [
+  {
+   "beat": "hook",
+   "who": "ledger",
+   "vo": "The CFTC just took a first formal step toward federal rules for leveraged crypto trading. Here's what changed.",
+   "chunks": [
+    "CFTC makes a move",
+    "*Leveraged crypto*",
+    "Federal rules"
+   ]
+  },
+  {
+   "beat": "what_happened",
+   "who": "ledger",
+   "vo": "On Monday the agency opened an early process to write rules for leveraged retail crypto trades, plus a new kind of registered exchange called a crypto asset market. Comments run sixty days.",
+   "chunks": [
+    "Early rule process",
+    "*New exchange type*",
+    "Sixty-day comments"
+   ],
+   "stat": {
+    "label": "Sources",
+    "text": "CFTC \u00b7 CoinDesk \u00b7 The Block"
+   }
+  },
+  {
+   "beat": "why_it_matters",
+   "who": "bruno",
+   "vo": "Here's why traders are watching it. Leveraged crypto products mostly live offshore today. This could give American exchanges a regulated way to offer them at home.",
+   "chunks": [
+    "Leverage is offshore",
+    "*A path home*",
+    "American exchanges"
+   ]
+  },
+  {
+   "beat": "why_it_matters",
+   "who": "ursa",
+   "vo": "The catch. This is an advance notice, not a final rule, and it doesn't cover plain spot trading. The CFTC says that still needs Congress.",
+   "chunks": [
+    "Not a final rule",
+    "*Spot not covered*",
+    "Congress still needed"
+   ]
+  },
+  {
+   "beat": "watch_next",
+   "who": "moby",
+   "vo": "Here's what happens next. Watch the comment period, the formal proposal that follows, and whether Congress picks the Clarity Act back up.",
+   "chunks": [
+    "Comment period",
+    "*Formal proposal*",
+    "Clarity Act next"
+   ]
+  },
+  {
+   "beat": "cta",
+   "who": "all",
+   "vo": "Follow The Candle Desk for crypto news without the hype. Not financial advice.",
+   "chunks": [
+    "Follow The Candle Desk",
+    "*No hype*",
+    "Just the news"
+   ],
+   "foot": "NOT FINANCIAL ADVICE"
+  }
+ ]
+}
