@@ -553,13 +553,15 @@
    "https://www.coindesk.com/price/bitcoin",
    "https://www.coindesk.com/",
    "https://www.coingecko.com/en/coins/bitcoin",
-   "https://usethebitcoin.com/bitcoin/bitcoin-price-october-4-2026/"
+   "https://usethebitcoin.com/bitcoin/bitcoin-price-october-4-2026/",
+   "https://www.coindesk.com/markets/2026/10/05/ether-s-bitcoin-beating-q3-rally-came-with-a-catch-liquidity-thinned"
   ],
   "source_names": [
    "CoinDesk price page",
    "CoinDesk",
    "CoinGecko",
-   "UseTheBitcoin"
+   "UseTheBitcoin",
+   "CoinDesk"
   ],
   "sources": [
    {
@@ -590,6 +592,13 @@
     "kind": "other",
     "checked": false,
     "confirms": false
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/05/ether-s-bitcoin-beating-q3-rally-came-with-a-catch-liquidity-thinned",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -621,6 +630,13 @@
     "kind": "other",
     "checked": false,
     "confirms": false
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/05/ether-s-bitcoin-beating-q3-rally-came-with-a-catch-liquidity-thinned",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "UNVERIFIED",
@@ -658,6 +674,13 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/10/05/ether-s-bitcoin-beating-q3-rally-came-with-a-catch-liquidity-thinned",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -687,6 +710,24 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-05T07:10-04:00",
+    "headline": "Bitcoin edges up near $86,000 as ether, XRP and solana trade flat",
+    "summary": "Bitcoin traded around $85,900-$86,300, up roughly 1-2% in 24 hours. Ether near $2,718 (+0.6%), XRP near $1.51 (+0.7%), SOL near $120.77 (-0.4%).",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-05T07:10-04:00",
+    "headline": "Ether beat bitcoin in Q3, but its market liquidity thinned",
+    "summary": "Ether rose about 70% in Q3 versus bitcoin's 42%, yet ETH market depth fell to 35-45% of bitcoin's, from about 60% a year earlier, per CoinGecko data cited by CoinDesk. Solana liquidity also shrank; XRP depth held steady.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
     "verification": "UNVERIFIED"
    }
   ],
@@ -900,6 +941,229 @@
   "trigger": "",
   "content_created": false,
   "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261005_8c9a01",
+  "headline": "OKX and NYSE owner ICE file to launch a tokenized U.S. stock trading venue",
+  "summary": "OKXICE, a 50/50 joint venture between OKX and Intercontinental Exchange (NYSE's parent), published a public notice dated October 4 under the SEC's innovation exemption saying its Tokenized Securities Venue will offer onchain trading of 57 tokenized U.S. stocks such as Apple, Nvidia, Microsoft and Tesla, paired with USDC, USDG or USDT on OKX's X Layer chain. No launch date yet; audits must be completed first.",
+  "detected_at": "2026-10-05T07:10-04:00",
+  "active_since": "2026-10-05T07:10-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "IMPORTANT",
+  "confidence": 0.85,
+  "assets": [
+   "OKB",
+   "USDT",
+   "USDC"
+  ],
+  "event_type": "institutional",
+  "event_time": "2026-10-04T12:00-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.okx.com/cdn/assets/files/2610/798CC1267CB56FB2.pdf",
+   "https://www.theblock.co/news/business/2026-10-05-okx-ice-joint-venture-tokenized-stock-trading-417613",
+   "https://www.marketsmedia.com/okxice-files-to-launch-tokenized-securities-venue/",
+   "https://decrypt.co/380032/okx-and-nyse-owner-ice-plan-24-7-tokenized-stock-trading-under-sec-exemption"
+  ],
+  "source_names": [
+   "OKXICE public notice (OKX)",
+   "The Block",
+   "Markets Media",
+   "Decrypt"
+  ],
+  "sources": [
+   {
+    "url": "https://www.okx.com/cdn/assets/files/2610/798CC1267CB56FB2.pdf",
+    "name": "OKXICE public notice (OKX)",
+    "kind": "primary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-05-okx-ice-joint-venture-tokenized-stock-trading-417613",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.marketsmedia.com/okxice-files-to-launch-tokenized-securities-venue/",
+    "name": "Markets Media",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/380032/okx-and-nyse-owner-ice-plan-24-7-tokenized-stock-trading-under-sec-exemption",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.okx.com/cdn/assets/files/2610/798CC1267CB56FB2.pdf",
+    "name": "OKXICE public notice (OKX)",
+    "kind": "primary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-05-okx-ice-joint-venture-tokenized-stock-trading-417613",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.marketsmedia.com/okxice-files-to-launch-tokenized-securities-venue/",
+    "name": "Markets Media",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/380032/okx-and-nyse-owner-ice-plan-24-7-tokenized-stock-trading-under-sec-exemption",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "VERIFIED",
+  "verification": {
+   "status": "VERIFIED",
+   "independent_sources": 3,
+   "has_primary": true,
+   "score": 1.0,
+   "reason": "3 independent credible sources confirm it (incl. a primary source)",
+   "sources_checked": [
+    {
+     "name": "OKXICE public notice (OKX)",
+     "url": "https://www.okx.com/cdn/assets/files/2610/798CC1267CB56FB2.pdf",
+     "category": "primary",
+     "counts": true,
+     "note": "primary (claimed official source; domain not on the known list)"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-10-05-okx-ice-joint-venture-tokenized-stock-trading-417613",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Markets Media",
+     "url": "https://www.marketsmedia.com/okxice-files-to-launch-tokenized-securities-venue/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/380032/okx-and-nyse-owner-ice-plan-24-7-tokenized-stock-trading-under-sec-exemption",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed IMPORTANT: Wall Street exchange operator and a top crypto exchange formally filing to bring tokenized U.S. stocks onchain under the new SEC exemption.",
+   "first reported 2026-10-04T12:00-04:00, older than 12h -> NORMAL (daily show)",
+   "final level NORMAL (changed from AI's IMPORTANT)"
+  ],
+  "market_significance": "One of the first filings under the SEC's September innovation exemption, from the owner of the New York Stock Exchange.",
+  "trigger": "The Block report and OKX public notice, October 5",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [
+   {
+    "at": "2026-10-05T07:10-04:00",
+    "headline": "OKX and NYSE owner ICE file to launch a tokenized U.S. stock trading venue",
+    "summary": "Decrypt confirms the OKXICE notice (dated October 4): 24/7 trading of 60+ tokenized U.S. stocks on X Layer with USDC, USDG or USDT; no launch date; Cerebras filed an issuer objection so its shares won't trade there.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   }
+  ],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261005_a4e373",
+  "headline": "Injective CEO expects U.S. INJ ETFs to launch before 2027",
+  "summary": "Injective CEO Eric Chen told The Block he expects U.S. spot INJ ETFs to launch sooner than 2027. This is an expectation, not an SEC decision.",
+  "detected_at": "2026-10-05T07:10-04:00",
+  "active_since": "2026-10-05T07:10-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "INJ"
+  ],
+  "event_type": "etf",
+  "event_time": null,
+  "scheduled_event": true,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/defi/2026-10-05-injective-ceo-eric-inj-etf-417616"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/defi/2026-10-05-injective-ceo-eric-inj-etf-417616",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/defi/2026-10-05-injective-ceo-eric-inj-etf-417616",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/defi/2026-10-05-injective-ceo-eric-inj-etf-417616",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Executive's expectation; no regulatory action."
+  ],
+  "market_significance": "Minor.",
+  "trigger": "The Block interview",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
   "updates": [],
   "posts": [],
