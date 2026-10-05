@@ -552,12 +552,14 @@
   "source_urls": [
    "https://www.coindesk.com/price/bitcoin",
    "https://www.coindesk.com/",
-   "https://www.coingecko.com/en/coins/bitcoin"
+   "https://www.coingecko.com/en/coins/bitcoin",
+   "https://usethebitcoin.com/bitcoin/bitcoin-price-october-4-2026/"
   ],
   "source_names": [
    "CoinDesk price page",
    "CoinDesk",
-   "CoinGecko"
+   "CoinGecko",
+   "UseTheBitcoin"
   ],
   "sources": [
    {
@@ -581,6 +583,13 @@
     "kind": "other",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://usethebitcoin.com/bitcoin/bitcoin-price-october-4-2026/",
+    "name": "UseTheBitcoin",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
    }
   ],
   "gate_sources": [
@@ -605,6 +614,13 @@
     "kind": "other",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://usethebitcoin.com/bitcoin/bitcoin-price-october-4-2026/",
+    "name": "UseTheBitcoin",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
    }
   ],
   "verification_status": "UNVERIFIED",
@@ -635,6 +651,13 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "UseTheBitcoin",
+     "url": "https://usethebitcoin.com/bitcoin/bitcoin-price-october-4-2026/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -655,6 +678,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 2,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-04T22:13-04:00",
+    "headline": "Bitcoin holds near $84,000 on a quiet Sunday evening",
+    "summary": "Bitcoin trades around $84,000 late Sunday, still range-bound; no major hack, outage, ETF or regulatory news surfaced in tonight's search. Pages could not be opened this run (WebFetch permission blocked), so nothing is verified.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "UNVERIFIED"
    }
   ],
