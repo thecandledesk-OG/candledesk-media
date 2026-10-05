@@ -1968,5 +1968,145 @@
   "updates": [],
   "posts": [],
   "needs_followup": false
+ },
+ {
+  "id": "st_20261005_1fbf5f",
+  "headline": "Strategy reports a quarterly profit on the bitcoin rally",
+  "summary": "Strategy reported a profit for last quarter as bitcoin's rise lifted the value of its holdings. Found via search headline only; not opened this run.",
+  "detected_at": "2026-10-05T16:14-04:00",
+  "active_since": "2026-10-05T16:14-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "institutional",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://bitcoinmagazine.com/news/strategy-announces-profits-last-quarter"
+  ],
+  "source_names": [
+   "Bitcoin Magazine"
+  ],
+  "sources": [
+   {
+    "url": "https://bitcoinmagazine.com/news/strategy-announces-profits-last-quarter",
+    "name": "Bitcoin Magazine",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://bitcoinmagazine.com/news/strategy-announces-profits-last-quarter",
+    "name": "Bitcoin Magazine",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Bitcoin Magazine",
+     "url": "https://bitcoinmagazine.com/news/strategy-announces-profits-last-quarter",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Corporate earnings tied to BTC holdings; routine"
+  ],
+  "market_significance": "Largest corporate BTC holder's results",
+  "trigger": "search result",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261005_14cee2",
+  "headline": "Crypto token unlocks total about $1.11 billion in early October",
+  "summary": "Scheduled token unlocks across projects add up to roughly 1.11 billion dollars in the first part of October. Search headline only; not opened this run.",
+  "detected_at": "2026-10-05T16:14-04:00",
+  "active_since": "2026-10-05T16:14-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "market_move",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://en.cryptonomist.ch/2026/10/05/crypto-token-unlocks-october-2026/"
+  ],
+  "source_names": [
+   "The Cryptonomist"
+  ],
+  "sources": [
+   {
+    "url": "https://en.cryptonomist.ch/2026/10/05/crypto-token-unlocks-october-2026/",
+    "name": "The Cryptonomist",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://en.cryptonomist.ch/2026/10/05/crypto-token-unlocks-october-2026/",
+    "name": "The Cryptonomist",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Cryptonomist",
+     "url": "https://en.cryptonomist.ch/2026/10/05/crypto-token-unlocks-october-2026/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Scheduled supply unlocks; routine"
+  ],
+  "market_significance": "Possible supply pressure on unlocking tokens",
+  "trigger": "search result",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
  }
 ]
