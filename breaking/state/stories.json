@@ -2858,5 +2858,101 @@
   "updates": [],
   "posts": [],
   "needs_followup": false
+ },
+ {
+  "id": "st_20261006_73903d",
+  "headline": "Bitcoin and XRP slip as NEAR and Quant advance; BTC consolidates under rising Treasury yields",
+  "summary": "Bitcoin held near recent highs but slipped on the day as rising Treasury yields and a stronger dollar capped gains; XRP also dipped while NEAR and Quant rose. Exact 24-hour moves could not be confirmed this run.",
+  "detected_at": "2026-10-06T13:13-04:00",
+  "active_since": "2026-10-06T13:13-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "BTC",
+   "XRP",
+   "NEAR",
+   "QNT"
+  ],
+  "event_type": "market_move",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.fxstreet.com/cryptocurrencies/news/bitcoin-price-forecast-rising-yields-stronger-us-dollar-cap-btc-upside-202610061000",
+   "https://thecryptobasic.com/2026/10/06/crypto-price-analysis-btc-xrp-near-sol-and-qnt-october-6-bitcoin-and-xrp-slip-as-near-and-quant-advance"
+  ],
+  "source_names": [
+   "FXStreet",
+   "The Crypto Basic"
+  ],
+  "sources": [
+   {
+    "url": "https://www.fxstreet.com/cryptocurrencies/news/bitcoin-price-forecast-rising-yields-stronger-us-dollar-cap-btc-upside-202610061000",
+    "name": "FXStreet",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://thecryptobasic.com/2026/10/06/crypto-price-analysis-btc-xrp-near-sol-and-qnt-october-6-bitcoin-and-xrp-slip-as-near-and-quant-advance",
+    "name": "The Crypto Basic",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.fxstreet.com/cryptocurrencies/news/bitcoin-price-forecast-rising-yields-stronger-us-dollar-cap-btc-upside-202610061000",
+    "name": "FXStreet",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://thecryptobasic.com/2026/10/06/crypto-price-analysis-btc-xrp-near-sol-and-qnt-october-6-bitcoin-and-xrp-slip-as-near-and-quant-advance",
+    "name": "The Crypto Basic",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "FXStreet",
+     "url": "https://www.fxstreet.com/cryptocurrencies/news/bitcoin-price-forecast-rising-yields-stronger-us-dollar-cap-btc-upside-202610061000",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "The Crypto Basic",
+     "url": "https://thecryptobasic.com/2026/10/06/crypto-price-analysis-btc-xrp-near-sol-and-qnt-october-6-bitcoin-and-xrp-slip-as-near-and-quant-advance",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Routine price action, no threshold move seen in search results"
+  ],
+  "market_significance": "Context for the daily show",
+  "trigger": "Search results Oct 6 midday",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
  }
 ]
