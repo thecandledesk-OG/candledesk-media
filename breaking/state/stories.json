@@ -556,7 +556,8 @@
    "https://usethebitcoin.com/bitcoin/bitcoin-price-october-4-2026/",
    "https://www.coindesk.com/markets/2026/10/05/ether-s-bitcoin-beating-q3-rally-came-with-a-catch-liquidity-thinned",
    "https://www.coindesk.com/latest-crypto-news",
-   "https://www.coindesk.com/markets/2026/10/06/bitcoin-keeps-getting-rejected-at-usd87-000-as-stocks-hover-near-records"
+   "https://www.coindesk.com/markets/2026/10/06/bitcoin-keeps-getting-rejected-at-usd87-000-as-stocks-hover-near-records",
+   "https://uk.finance.yahoo.com/news/bitcoin-flat-85-3k-soaring-100808101.html"
   ],
   "source_names": [
    "CoinDesk price page",
@@ -565,7 +566,8 @@
    "UseTheBitcoin",
    "CoinDesk",
    "CoinDesk",
-   "CoinDesk"
+   "CoinDesk",
+   "Yahoo Finance/CoinDesk"
   ],
   "sources": [
    {
@@ -614,6 +616,13 @@
    {
     "url": "https://www.coindesk.com/markets/2026/10/06/bitcoin-keeps-getting-rejected-at-usd87-000-as-stocks-hover-near-records",
     "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://uk.finance.yahoo.com/news/bitcoin-flat-85-3k-soaring-100808101.html",
+    "name": "Yahoo Finance/CoinDesk",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -669,15 +678,22 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://uk.finance.yahoo.com/news/bitcoin-flat-85-3k-soaring-100808101.html",
+    "name": "Yahoo Finance/CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
-  "verification_status": "UNVERIFIED",
+  "verification_status": "VERIFIED",
   "verification": {
-   "status": "UNVERIFIED",
-   "independent_sources": 1,
+   "status": "VERIFIED",
+   "independent_sources": 2,
    "has_primary": false,
-   "score": 0.4,
-   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "score": 0.8,
+   "reason": "2 independent credible sources confirm it (no primary source yet)",
    "sources_checked": [
     {
      "name": "CoinDesk price page",
@@ -727,6 +743,13 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "Yahoo Finance/CoinDesk",
+     "url": "https://uk.finance.yahoo.com/news/bitcoin-flat-85-3k-soaring-100808101.html",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -737,7 +760,7 @@
   "market_significance": "",
   "trigger": "CoinDesk BTC price page",
   "content_created": false,
-  "publication_status": "QUEUED_FOR_DAILY",
+  "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
   "updates": [
    {
@@ -820,6 +843,24 @@
     "level": "NORMAL",
     "sources_added": 1,
     "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-06T10:09-04:00",
+    "headline": "Bitcoin holds near $86,000, barely moving",
+    "summary": "Here's what moved the chain today. Bitcoin holds near eighty-six thousand dollars, barely moving.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-06T10:09-04:00",
+    "headline": "CFTC opens 50-day comment window on leveraged crypto rules",
+    "summary": "Green candles only! The CFTC opened fifty days of comments on leveraged crypto rules.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "VERIFIED"
    }
   ],
   "posts": [],
@@ -2522,9 +2563,19 @@
   "market_significance": "Laundering networks behind major hacks",
   "trigger": "The Block/Decrypt",
   "content_created": false,
-  "publication_status": "QUEUED_FOR_DAILY",
+  "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-06T10:09-04:00",
+    "headline": "ZachXBT says he fronted $349,700 to infiltrate alleged Chinese launderers tied to Lazarus",
+    "summary": "Wildcard: ZachXBT fronted nearly three hundred fifty thousand dollars to infiltrate Lazarus-linked launderers.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -2663,6 +2714,146 @@
   "trigger": "The Block headline",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261006_672d8a",
+  "headline": "Ten-year Treasury yields hit a two-decade high as bitcoin ETFs see outflows",
+  "summary": "Check the yields first. Ten-year yields hit a two-decade high, and bitcoin ETFs saw outflows.",
+  "detected_at": "2026-10-06T10:09-04:00",
+  "active_since": "2026-10-06T10:09-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "macro",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://fxstreet.com/cryptocurrencies/news/bitcoin-price-forecast-rising-yields-stronger-us-dollar-cap-btc-upside-202610061000"
+  ],
+  "source_names": [
+   "FXStreet"
+  ],
+  "sources": [
+   {
+    "url": "https://fxstreet.com/cryptocurrencies/news/bitcoin-price-forecast-rising-yields-stronger-us-dollar-cap-btc-upside-202610061000",
+    "name": "FXStreet",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://fxstreet.com/cryptocurrencies/news/bitcoin-price-forecast-rising-yields-stronger-us-dollar-cap-btc-upside-202610061000",
+    "name": "FXStreet",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "FXStreet",
+     "url": "https://fxstreet.com/cryptocurrencies/news/bitcoin-price-forecast-rising-yields-stronger-us-dollar-cap-btc-upside-202610061000",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261006_7eb64a",
+  "headline": "Nearly 40,000 BTC left Binance reserves since September 20",
+  "summary": "Psst... big wallets are moving. Nearly forty thousand bitcoin left Binance reserves since September twentieth.",
+  "detected_at": "2026-10-06T10:09-04:00",
+  "active_since": "2026-10-06T10:09-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "exchange",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://cointelegraph.com/markets/binance-btc-outflows-hit-highest-since-mid-2023-as-whales-deposit-stablecoins"
+  ],
+  "source_names": [
+   "Cointelegraph"
+  ],
+  "sources": [
+   {
+    "url": "https://cointelegraph.com/markets/binance-btc-outflows-hit-highest-since-mid-2023-as-whales-deposit-stablecoins",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://cointelegraph.com/markets/binance-btc-outflows-hit-highest-since-mid-2023-as-whales-deposit-stablecoins",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Cointelegraph",
+     "url": "https://cointelegraph.com/markets/binance-btc-outflows-hit-highest-since-mid-2023-as-whales-deposit-stablecoins",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
   "updates": [],
   "posts": [],
