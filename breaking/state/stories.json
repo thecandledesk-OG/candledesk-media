@@ -2954,5 +2954,171 @@
   "updates": [],
   "posts": [],
   "needs_followup": false
+ },
+ {
+  "id": "st_20261006_fb2e2b",
+  "headline": "Pudgy Penguins owner Igloo is shutting down its Ethereum layer-2 Abstract on December 15",
+  "summary": "Igloo, the company behind Pudgy Penguins, says its Ethereum layer-2 network Abstract will close on December 15, 2026 as growth stalled; reports say about $47 million is still on the chain and users will need to withdraw.",
+  "detected_at": "2026-10-06T19:14-04:00",
+  "active_since": "2026-10-06T19:14-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "ETH"
+  ],
+  "event_type": "protocol_shutdown",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://decrypt.co/380225/pudgy-penguin-ethereum-layer-2-abstract-shutting-down",
+   "https://unchainedcrypto.com/pudgy-penguins-owner-is-shutting-down-its-abstract-chain-where-47-million-still-sits/"
+  ],
+  "source_names": [
+   "Decrypt",
+   "Unchained"
+  ],
+  "sources": [
+   {
+    "url": "https://decrypt.co/380225/pudgy-penguin-ethereum-layer-2-abstract-shutting-down",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://unchainedcrypto.com/pudgy-penguins-owner-is-shutting-down-its-abstract-chain-where-47-million-still-sits/",
+    "name": "Unchained",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://decrypt.co/380225/pudgy-penguin-ethereum-layer-2-abstract-shutting-down",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://unchainedcrypto.com/pudgy-penguins-owner-is-shutting-down-its-abstract-chain-where-47-million-still-sits/",
+    "name": "Unchained",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/380225/pudgy-penguin-ethereum-layer-2-abstract-shutting-down",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "Unchained",
+     "url": "https://unchainedcrypto.com/pudgy-penguins-owner-is-shutting-down-its-abstract-chain-where-47-million-still-sits/",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Small L2 shutdown with a long wind-down; similar to the Blast shutdown already rated NORMAL."
+  ],
+  "market_significance": "Users with funds on Abstract need to bridge out before December 15.",
+  "trigger": "web search, Oct 6 evening",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261006_2f6247",
+  "headline": "Dormant MakerDAO keeper contract drained of about $538,000; core protocol unaffected",
+  "summary": "A dormant keeper contract linked to MakerDAO was drained of about $538,000; reports say the core protocol is intact.",
+  "detected_at": "2026-10-06T19:14-04:00",
+  "active_since": "2026-10-06T19:14-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.4,
+  "assets": [
+   "ETH"
+  ],
+  "event_type": "hack_exploit",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {
+   "loss_usd": 538000
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://cryptotimes.io/2026/10/06/dormant-makerdao-keeper-drained-of-538k-core-remains-intact"
+  ],
+  "source_names": [
+   "The Crypto Times"
+  ],
+  "sources": [
+   {
+    "url": "https://cryptotimes.io/2026/10/06/dormant-makerdao-keeper-drained-of-538k-core-remains-intact",
+    "name": "The Crypto Times",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://cryptotimes.io/2026/10/06/dormant-makerdao-keeper-drained-of-538k-core-remains-intact",
+    "name": "The Crypto Times",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Crypto Times",
+     "url": "https://cryptotimes.io/2026/10/06/dormant-makerdao-keeper-drained-of-538k-core-remains-intact",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Loss well below the $10M hack threshold; peripheral contract only.",
+   "hack rule: about $1M lost (thresholds $10M/$100M) -> NORMAL"
+  ],
+  "market_significance": "Minor; legacy contract risk.",
+  "trigger": "web search",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
  }
 ]
