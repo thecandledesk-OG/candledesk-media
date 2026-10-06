@@ -554,13 +554,15 @@
    "https://www.coindesk.com/",
    "https://www.coingecko.com/en/coins/bitcoin",
    "https://usethebitcoin.com/bitcoin/bitcoin-price-october-4-2026/",
-   "https://www.coindesk.com/markets/2026/10/05/ether-s-bitcoin-beating-q3-rally-came-with-a-catch-liquidity-thinned"
+   "https://www.coindesk.com/markets/2026/10/05/ether-s-bitcoin-beating-q3-rally-came-with-a-catch-liquidity-thinned",
+   "https://www.coindesk.com/latest-crypto-news"
   ],
   "source_names": [
    "CoinDesk price page",
    "CoinDesk",
    "CoinGecko",
    "UseTheBitcoin",
+   "CoinDesk",
    "CoinDesk"
   ],
   "sources": [
@@ -599,6 +601,13 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/latest-crypto-news",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -633,6 +642,13 @@
    },
    {
     "url": "https://www.coindesk.com/markets/2026/10/05/ether-s-bitcoin-beating-q3-rally-came-with-a-catch-liquidity-thinned",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/latest-crypto-news",
     "name": "CoinDesk",
     "kind": "secondary",
     "checked": true,
@@ -678,6 +694,13 @@
     {
      "name": "CoinDesk",
      "url": "https://www.coindesk.com/markets/2026/10/05/ether-s-bitcoin-beating-q3-rally-came-with-a-catch-liquidity-thinned",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/latest-crypto-news",
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
@@ -755,6 +778,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-05T22:08-04:00",
+    "headline": "Ether's Q3 outperformance over bitcoin came with thinner liquidity",
+    "summary": "CoinDesk analysis: ether beat bitcoin in the third quarter, but market depth for ETH thinned over the same period.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "UNVERIFIED"
    }
   ],
@@ -2107,6 +2139,105 @@
   "related_story_ids": [],
   "updates": [],
   "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261005_8e5af4",
+  "headline": "Treasury's FinCEN withdraws its crypto mixer and self-hosted wallet reporting proposals",
+  "summary": "FinCEN withdrew two pending proposals: the 2023 plan to treat international crypto mixing as a primary money laundering concern under Section 311 of the Patriot Act, and the 2020 rule that would have required records and reports on transactions with self-hosted wallets above $3,000 and $10,000. FinCEN cited concerns the broad mixing definition could chill legitimate activity. Notices go into the Federal Register this week.",
+  "detected_at": "2026-10-05T22:08-04:00",
+  "active_since": "2026-10-05T22:08-04:00",
+  "classification": "IMPORTANT",
+  "proposed_level": "IMPORTANT",
+  "confidence": 0.85,
+  "assets": [
+   "TOTAL_MARKET",
+   "BTC",
+   "ETH"
+  ],
+  "event_type": "regulatory",
+  "event_time": "2026-10-05T13:00-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/regulation/2026-10-05-fincen-drops-crypto-mixing-rule-self-hosted-wallet-proposal-417690",
+   "https://decrypt.co/380120/treasury-kills-crypto-unhosted-wallet-mixer-surveillance-rules"
+  ],
+  "source_names": [
+   "The Block",
+   "Decrypt"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-10-05-fincen-drops-crypto-mixing-rule-self-hosted-wallet-proposal-417690",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/380120/treasury-kills-crypto-unhosted-wallet-mixer-surveillance-rules",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-10-05-fincen-drops-crypto-mixing-rule-self-hosted-wallet-proposal-417690",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/380120/treasury-kills-crypto-unhosted-wallet-mixer-surveillance-rules",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "VERIFIED",
+  "verification": {
+   "status": "VERIFIED",
+   "independent_sources": 2,
+   "has_primary": false,
+   "score": 0.8,
+   "reason": "2 independent credible sources confirm it (no primary source yet)",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-10-05-fincen-drops-crypto-mixing-rule-self-hosted-wallet-proposal-417690",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/380120/treasury-kills-crypto-unhosted-wallet-mixer-surveillance-rules",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed IMPORTANT: Federal regulator formally drops two long-pending crypto surveillance proposals; confirmed by The Block and Decrypt."
+  ],
+  "market_significance": "Removes proposed reporting duties on self-custody wallet and mixer transactions for US financial institutions.",
+  "trigger": "The Block latest-news feed",
+  "content_created": true,
+  "publication_status": "DRAFTED",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [
+   "6ac459b259057dd2e0cf039a",
+   "6ac459b4b0e0485fb4675290",
+   "6ac459b798d02b181e1c8242"
+  ],
   "needs_followup": false
  }
 ]

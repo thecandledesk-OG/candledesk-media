@@ -1,0 +1,82 @@
+{
+ "story_id": "st_20261005_8e5af4",
+ "date_label": "OCT 5",
+ "headline": "Treasury drops its crypto mixer and self-custody wallet rules",
+ "sources": [
+  {
+   "name": "The Block",
+   "url": "https://www.theblock.co/news/regulation/2026-10-05-fincen-drops-crypto-mixing-rule-self-hosted-wallet-proposal-417690"
+  },
+  {
+   "name": "Decrypt",
+   "url": "https://decrypt.co/380120/treasury-kills-crypto-unhosted-wallet-mixer-surveillance-rules"
+  }
+ ],
+ "scenes": [
+  {
+   "beat": "hook",
+   "who": "ledger",
+   "vo": "The Treasury Department just pulled two crypto surveillance proposals that hung over the industry for years. Here's what changed.",
+   "chunks": [
+    "Treasury backs off",
+    "*Two rules withdrawn*",
+    "Years in the making"
+   ]
+  },
+  {
+   "beat": "what_happened",
+   "who": "ledger",
+   "vo": "Its financial crimes unit withdrew a twenty twenty rule on self-custody wallets and a twenty twenty-three plan targeting crypto mixers. It said the mixer rule could chill legitimate activity.",
+   "chunks": [
+    "Wallet rule: gone",
+    "*Mixer plan: gone*",
+    "Legit use concerns"
+   ],
+   "stat": {
+    "label": "Sources",
+    "text": "The Block · Decrypt"
+   }
+  },
+  {
+   "beat": "why_it_matters",
+   "who": "bruno",
+   "vo": "Here's why traders are watching it. The wallet rule would have made exchanges log and report transfers to self-custody wallets over three thousand dollars. That's now off the table.",
+   "chunks": [
+    "Self-custody transfers",
+    "*No extra reporting*",
+    "Burden removed"
+   ]
+  },
+  {
+   "beat": "why_it_matters",
+   "who": "ursa",
+   "vo": "The catch. Withdrawing a proposal isn't a green light. Money laundering and sanctions laws still apply, and a new rule could return.",
+   "chunks": [
+    "Not a green light",
+    "*Old laws still apply*",
+    "Rules can return"
+   ]
+  },
+  {
+   "beat": "watch_next",
+   "who": "moby",
+   "vo": "Here's what happens next. Watch for the Federal Register notices this week, and whether Congress takes this up in market structure talks.",
+   "chunks": [
+    "Federal Register",
+    "*Notices this week*",
+    "Congress next"
+   ]
+  },
+  {
+   "beat": "cta",
+   "who": "all",
+   "vo": "Follow The Candle Desk for crypto news without the hype. Not financial advice.",
+   "chunks": [
+    "Follow The Candle Desk",
+    "*No hype*",
+    "Just the news"
+   ],
+   "foot": "NOT FINANCIAL ADVICE"
+  }
+ ]
+}
