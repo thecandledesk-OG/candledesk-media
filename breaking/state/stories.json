@@ -3030,11 +3030,13 @@
   "emergency": false,
   "source_urls": [
    "https://decrypt.co/380225/pudgy-penguin-ethereum-layer-2-abstract-shutting-down",
-   "https://unchainedcrypto.com/pudgy-penguins-owner-is-shutting-down-its-abstract-chain-where-47-million-still-sits/"
+   "https://unchainedcrypto.com/pudgy-penguins-owner-is-shutting-down-its-abstract-chain-where-47-million-still-sits/",
+   "https://www.coindesk.com/tech/2026/10/07/pudgy-penguins-abstract-becomes-second-ethereum-layer-2-to-shut-in-a-week"
   ],
   "source_names": [
    "Decrypt",
-   "Unchained"
+   "Unchained",
+   "CoinDesk"
   ],
   "sources": [
    {
@@ -3049,6 +3051,13 @@
     "name": "Unchained",
     "kind": "secondary",
     "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/tech/2026/10/07/pudgy-penguins-abstract-becomes-second-ethereum-layer-2-to-shut-in-a-week",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
     "confirms": true
    }
   ],
@@ -3066,15 +3075,22 @@
     "kind": "secondary",
     "checked": false,
     "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/tech/2026/10/07/pudgy-penguins-abstract-becomes-second-ethereum-layer-2-to-shut-in-a-week",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "UNVERIFIED",
   "verification": {
    "status": "UNVERIFIED",
-   "independent_sources": 0,
+   "independent_sources": 1,
    "has_primary": false,
-   "score": 0.0,
-   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
    "sources_checked": [
     {
      "name": "Decrypt",
@@ -3089,6 +3105,13 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/tech/2026/10/07/pudgy-penguins-abstract-becomes-second-ethereum-layer-2-to-shut-in-a-week",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -3098,9 +3121,19 @@
   "market_significance": "Users with funds on Abstract need to bridge out before December 15.",
   "trigger": "web search, Oct 6 evening",
   "content_created": false,
-  "publication_status": "QUEUED_FOR_DAILY",
+  "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-07T10:09-04:00",
+    "headline": "Pudgy Penguins' Abstract becomes the second Ethereum layer-2 to shut down in a week",
+    "summary": "Pudgy Penguins' Abstract is shutting down, the second Ethereum layer two to close this week.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -3201,11 +3234,17 @@
   "emergency": false,
   "source_urls": [
    "https://www.coindesk.com/markets/2026/10/07/liquidations-jump-to-usd547-million-as-oil-rally-drags-bitcoin-below-usd84-000",
-   "https://www.fxstreet.com/cryptocurrencies/news/crypto-today-bitcoin-ethereum-and-xrp-fall-liquidating-550m-202610071103"
+   "https://www.fxstreet.com/cryptocurrencies/news/crypto-today-bitcoin-ethereum-and-xrp-fall-liquidating-550m-202610071103",
+   "https://www.coindesk.com/markets/2026/10/07/down-but-not-out-bitcoin-s-stair-step-bullish-trajectory-is-still-intact",
+   "https://www.coindesk.com/price/bitcoin",
+   "https://crypto.news/why-is-crypto-market-going-down-today/"
   ],
   "source_names": [
    "CoinDesk",
-   "FXStreet"
+   "FXStreet",
+   "CoinDesk",
+   "CoinDesk",
+   "crypto.news"
   ],
   "sources": [
    {
@@ -3218,6 +3257,27 @@
    {
     "url": "https://www.fxstreet.com/cryptocurrencies/news/crypto-today-bitcoin-ethereum-and-xrp-fall-liquidating-550m-202610071103",
     "name": "FXStreet",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/07/down-but-not-out-bitcoin-s-stair-step-bullish-trajectory-is-still-intact",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/price/bitcoin",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://crypto.news/why-is-crypto-market-going-down-today/",
+    "name": "crypto.news",
     "kind": "other",
     "checked": true,
     "confirms": true
@@ -3234,6 +3294,27 @@
    {
     "url": "https://www.fxstreet.com/cryptocurrencies/news/crypto-today-bitcoin-ethereum-and-xrp-fall-liquidating-550m-202610071103",
     "name": "FXStreet",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/07/down-but-not-out-bitcoin-s-stair-step-bullish-trajectory-is-still-intact",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/price/bitcoin",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://crypto.news/why-is-crypto-market-going-down-today/",
+    "name": "crypto.news",
     "kind": "other",
     "checked": true,
     "confirms": true
@@ -3260,6 +3341,27 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/10/07/down-but-not-out-bitcoin-s-stair-step-bullish-trajectory-is-still-intact",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/price/bitcoin",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/why-is-crypto-market-going-down-today/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -3270,9 +3372,46 @@
   "market_significance": "Third day of correction after rejection near $87,200",
   "trigger": "Oil jump on Iranian tanker attacks; long liquidations",
   "content_created": false,
-  "publication_status": "QUEUED_FOR_DAILY",
+  "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-07T10:09-04:00",
+    "headline": "$547 million in crypto liquidations in 24 hours",
+    "summary": "Here's what moved the chain today. Five hundred forty-seven million dollars in liquidations.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-07T10:09-04:00",
+    "headline": "Spot bitcoin ETFs pull in $119 million as the uptrend holds",
+    "summary": "Green candles only! Bitcoin ETFs pulled in one hundred nineteen million, and the uptrend holds.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-07T10:09-04:00",
+    "headline": "Bitcoin slips below $84,000 as oil tops $101",
+    "summary": "Check the yields first. Oil hit one hundred one dollars. Bitcoin slipped under eighty-four thousand.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-07T10:18-04:00",
+    "headline": "Bitcoin falls to about $83,200, down 3.9% in 24 hours; ether down 4.2%",
+    "summary": "Bitcoin trades near $83,198, down 3.92% in 24 hours per CoinDesk at 10:16 AM ET; ETH $2,597 (-4.19%), XRP $1.45 (-3.66%), SOL $117.75 (-2.06%). Oil above $101 and 10-year yields near 5.3% weigh; about $555M liquidated in 24h.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -3341,9 +3480,19 @@
   "market_significance": "Traders watch government wallets for possible selling",
   "trigger": "On-chain transfer",
   "content_created": false,
-  "publication_status": "QUEUED_FOR_DAILY",
+  "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-07T10:09-04:00",
+    "headline": "U.S. government wallets move over $100 million in BTC and BNB",
+    "summary": "Psst... government wallets just moved over a hundred million in BTC and BNB.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -3620,6 +3769,287 @@
   ],
   "market_significance": "Institutional use of Ripple's prime broker",
   "trigger": "Partnership announcement",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261007_ca4913",
+  "headline": "Cardano launches CIP-113 token standard letting issuers freeze, seize and restrict tokens",
+  "summary": "Cardano Foundation launched CIP-0113, letting token issuers embed compliance rules: restrict recipients, freeze holdings and screen sanctions on every transfer. Live after audits, no hard fork needed.",
+  "detected_at": "2026-10-07T10:18-04:00",
+  "active_since": "2026-10-07T10:18-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "ADA"
+  ],
+  "event_type": "protocol_upgrade",
+  "event_time": "2026-10-07T00:11-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/tech/2026/10/07/cardano-gives-token-issuers-power-to-freeze-seize-and-restrict-assets"
+  ],
+  "source_names": [
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/tech/2026/10/07/cardano-gives-token-issuers-power-to-freeze-seize-and-restrict-assets",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/tech/2026/10/07/cardano-gives-token-issuers-power-to-freeze-seize-and-restrict-assets",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/tech/2026/10/07/cardano-gives-token-issuers-power-to-freeze-seize-and-restrict-assets",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Live token standard for compliance; useful but not market-moving"
+  ],
+  "market_significance": "Brings Cardano in line with ERC-3643 and Solana token extensions for regulated assets",
+  "trigger": "CoinDesk latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261007_9328e2",
+  "headline": "Ledger launches bitcoin-backed loans so holders can borrow without selling",
+  "summary": "Hardware wallet maker Ledger launched bitcoin loans, letting holders borrow against BTC without selling it.",
+  "detected_at": "2026-10-07T10:18-04:00",
+  "active_since": "2026-10-07T10:18-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "exchange",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://decrypt.co/380224/ledger-bitcoin-loans-holders-borrow-without-selling"
+  ],
+  "source_names": [
+   "Decrypt"
+  ],
+  "sources": [
+   {
+    "url": "https://decrypt.co/380224/ledger-bitcoin-loans-holders-borrow-without-selling",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://decrypt.co/380224/ledger-bitcoin-loans-holders-borrow-without-selling",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/380224/ledger-bitcoin-loans-holders-borrow-without-selling",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Product launch"
+  ],
+  "market_significance": "Self-custody brand moves into lending",
+  "trigger": "Decrypt news list",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261007_df7fff",
+  "headline": "Europol warns crypto wallets are the primary risk from future quantum attacks",
+  "summary": "Europol says crypto wallets are a primary risk area as quantum computing advances.",
+  "detected_at": "2026-10-07T10:18-04:00",
+  "active_since": "2026-10-07T10:18-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "BTC",
+   "ETH"
+  ],
+  "event_type": "other",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://decrypt.co/380268/europol-warns-crypto-wallets-are-primary-risk-for-quantum-attacks"
+  ],
+  "source_names": [
+   "Decrypt"
+  ],
+  "sources": [
+   {
+    "url": "https://decrypt.co/380268/europol-warns-crypto-wallets-are-primary-risk-for-quantum-attacks",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://decrypt.co/380268/europol-warns-crypto-wallets-are-primary-risk-for-quantum-attacks",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/380268/europol-warns-crypto-wallets-are-primary-risk-for-quantum-attacks",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Report/warning, no immediate event"
+  ],
+  "market_significance": "Adds to the quantum-security debate",
+  "trigger": "Decrypt news list",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261007_e35495",
+  "headline": "Prosecutors cite Bitcoin Fog ruling against Roman Storm's venue challenge",
+  "summary": "In the Tornado Cash case, prosecutors point to the Bitcoin Fog ruling to oppose Roman Storm's venue challenge.",
+  "detected_at": "2026-10-07T10:18-04:00",
+  "active_since": "2026-10-07T10:18-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "ETH"
+  ],
+  "event_type": "legal",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://decrypt.co/380260/prosecutors-cite-bitcoin-fog-ruling-against-roman-storms-venue-challenge"
+  ],
+  "source_names": [
+   "Decrypt"
+  ],
+  "sources": [
+   {
+    "url": "https://decrypt.co/380260/prosecutors-cite-bitcoin-fog-ruling-against-roman-storms-venue-challenge",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://decrypt.co/380260/prosecutors-cite-bitcoin-fog-ruling-against-roman-storms-venue-challenge",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/380260/prosecutors-cite-bitcoin-fog-ruling-against-roman-storms-venue-challenge",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Court filing, routine"
+  ],
+  "market_significance": "Ongoing Tornado Cash case",
+  "trigger": "Decrypt news list",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
