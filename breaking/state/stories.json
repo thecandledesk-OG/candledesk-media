@@ -4056,5 +4056,169 @@
   "updates": [],
   "posts": [],
   "needs_followup": false
+ },
+ {
+  "id": "st_20261007_538a1f",
+  "headline": "Fed minutes point to another possible rate hike this year; bitcoin swings on the release",
+  "summary": "Minutes of the Federal Reserve's September meeting, released Wednesday afternoon, showed officials split on further rate hikes, with several pointing to another increase this year. Bitcoin reacted while other risk assets were muted.",
+  "detected_at": "2026-10-07T16:20-04:00",
+  "active_since": "2026-10-07T16:20-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "BTC",
+   "TOTAL_MARKET"
+  ],
+  "event_type": "macro",
+  "event_time": "2026-10-07T14:00-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://finance.yahoo.com/markets/crypto/articles/bitcoin-reacts-fed-minutes-reveal-181307960.html",
+   "https://finance.yahoo.com/markets/crypto/articles/fed-minutes-point-another-rate-180521715.html"
+  ],
+  "source_names": [
+   "Yahoo Finance",
+   "Yahoo Finance"
+  ],
+  "sources": [
+   {
+    "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-reacts-fed-minutes-reveal-181307960.html",
+    "name": "Yahoo Finance",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://finance.yahoo.com/markets/crypto/articles/fed-minutes-point-another-rate-180521715.html",
+    "name": "Yahoo Finance",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-reacts-fed-minutes-reveal-181307960.html",
+    "name": "Yahoo Finance",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://finance.yahoo.com/markets/crypto/articles/fed-minutes-point-another-rate-180521715.html",
+    "name": "Yahoo Finance",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-reacts-fed-minutes-reveal-181307960.html",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/crypto/articles/fed-minutes-point-another-rate-180521715.html",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Scheduled macro release; no outsized crypto move. Search-result headlines only, pages could not be opened this run."
+  ],
+  "market_significance": "Rate-hike expectations feed into crypto risk appetite alongside rising Treasury yields.",
+  "trigger": "Search results 2026-10-07 afternoon",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261007_2bdd06",
+  "headline": "Ethereum researcher Justin Drake calls for 'bunker mode' planning over private key recovery risk",
+  "summary": "Ethereum Foundation researcher Justin Drake urged contingency 'bunker mode' planning for the network in case private keys become recoverable, for example by future quantum computers.",
+  "detected_at": "2026-10-07T16:20-04:00",
+  "active_since": "2026-10-07T16:20-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "ETH"
+  ],
+  "event_type": "protocol_upgrade",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/ecosystems/2026-10-07-ethereum-researcher-justin-drake-bunker-mode-planning-private-key-recovery-risk-417954"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/ecosystems/2026-10-07-ethereum-researcher-justin-drake-bunker-mode-planning-private-key-recovery-risk-417954",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/ecosystems/2026-10-07-ethereum-researcher-justin-drake-bunker-mode-planning-private-key-recovery-risk-417954",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/ecosystems/2026-10-07-ethereum-researcher-justin-drake-bunker-mode-planning-private-key-recovery-risk-417954",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Research proposal, nothing live. Headline only; page could not be opened this run."
+  ],
+  "market_significance": "Adds to this week's quantum-risk thread (Europol warning).",
+  "trigger": "The Block headline 2026-10-07",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
  }
 ]
