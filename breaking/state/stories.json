@@ -378,11 +378,15 @@
   "emergency": false,
   "source_urls": [
    "https://cryptoticker.io/en/xrpl-permission-delegation-activation/",
-   "https://www.kucoin.com/news/flash/three-xrp-ledger-upgrades-set-to-activate-on-oct-8-9"
+   "https://www.kucoin.com/news/flash/three-xrp-ledger-upgrades-set-to-activate-on-oct-8-9",
+   "https://pluang.com/en/news-feed/xrp-ledger-delegasi-izin-tidak-sebelum-8-oktober",
+   "https://xrpl.org/blog/2026/xrpld-3.3.0"
   ],
   "source_names": [
    "CryptoTicker",
-   "KuCoin News (CoinPaper)"
+   "KuCoin News (CoinPaper)",
+   "Pluang",
+   "XRPL.org"
   ],
   "sources": [
    {
@@ -400,6 +404,20 @@
     "checked": true,
     "confirms": true,
     "published": "2026-10-02T08:00"
+   },
+   {
+    "url": "https://pluang.com/en/news-feed/xrp-ledger-delegasi-izin-tidak-sebelum-8-oktober",
+    "name": "Pluang",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://xrpl.org/blog/2026/xrpld-3.3.0",
+    "name": "XRPL.org",
+    "kind": "primary",
+    "checked": true,
+    "confirms": false
    }
   ],
   "gate_sources": [
@@ -418,6 +436,20 @@
     "checked": true,
     "confirms": true,
     "published": "2026-10-02T08:00"
+   },
+   {
+    "url": "https://pluang.com/en/news-feed/xrp-ledger-delegasi-izin-tidak-sebelum-8-oktober",
+    "name": "Pluang",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://xrpl.org/blog/2026/xrpld-3.3.0",
+    "name": "XRPL.org",
+    "kind": "primary",
+    "checked": true,
+    "confirms": false
    }
   ],
   "verification_status": "UNVERIFIED",
@@ -441,6 +473,20 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Pluang",
+     "url": "https://pluang.com/en/news-feed/xrp-ledger-delegasi-izin-tidak-sebelum-8-oktober",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "XRPL.org",
+     "url": "https://xrpl.org/blog/2026/xrpld-3.3.0",
+     "category": "primary",
+     "counts": false,
+     "note": "primary (known official domain); opened but does not confirm the claim"
     }
    ]
   },
@@ -454,7 +500,17 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-07T07:16-04:00",
+    "headline": "XRP Ledger permission delegation amendment could activate October 8",
+    "summary": "Re-check: PermissionDelegationV1_1 still expected to activate October 8 after the two-week validator majority window that began September 24. Not yet live.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -3114,6 +3170,456 @@
   ],
   "market_significance": "Minor; legacy contract risk.",
   "trigger": "web search",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261007_ce3df0",
+  "headline": "Bitcoin slips below $84,000 as oil tops $101 on Hormuz tanker attacks; $547M liquidated",
+  "summary": "BTC about $83,860, down about 2.7% in 24 hours; ETH down about 4.8%, XRP down about 3.9%, SOL down about 2.1%. Liquidations jumped to about $547 million as Iran stepped up tanker attacks and Brent topped $101. Layer-2 tokens led losses; Optimism fell 10%.",
+  "detected_at": "2026-10-07T07:16-04:00",
+  "active_since": "2026-10-07T07:16-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "BTC",
+   "ETH",
+   "XRP",
+   "SOL"
+  ],
+  "event_type": "market_move",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {
+   "pct_move_24h": -2.74
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/markets/2026/10/07/liquidations-jump-to-usd547-million-as-oil-rally-drags-bitcoin-below-usd84-000",
+   "https://www.fxstreet.com/cryptocurrencies/news/crypto-today-bitcoin-ethereum-and-xrp-fall-liquidating-550m-202610071103"
+  ],
+  "source_names": [
+   "CoinDesk",
+   "FXStreet"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/07/liquidations-jump-to-usd547-million-as-oil-rally-drags-bitcoin-below-usd84-000",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.fxstreet.com/cryptocurrencies/news/crypto-today-bitcoin-ethereum-and-xrp-fall-liquidating-550m-202610071103",
+    "name": "FXStreet",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/07/liquidations-jump-to-usd547-million-as-oil-rally-drags-bitcoin-below-usd84-000",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.fxstreet.com/cryptocurrencies/news/crypto-today-bitcoin-ethereum-and-xrp-fall-liquidating-550m-202610071103",
+    "name": "FXStreet",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/10/07/liquidations-jump-to-usd547-million-as-oil-rally-drags-bitcoin-below-usd84-000",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "FXStreet",
+     "url": "https://www.fxstreet.com/cryptocurrencies/news/crypto-today-bitcoin-ethereum-and-xrp-fall-liquidating-550m-202610071103",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Routine pullback well under move thresholds",
+   "price rule: BTC moved 2.7% in 24h (thresholds 7%/12%) -> NORMAL"
+  ],
+  "market_significance": "Third day of correction after rejection near $87,200",
+  "trigger": "Oil jump on Iranian tanker attacks; long liquidations",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261007_6aad6a",
+  "headline": "U.S. government moves about 834 BTC to Coinbase Prime and 40,285 BNB; no sale confirmed",
+  "summary": "Arkham flagged U.S. government wallets moving 833.6 BTC (about $71.6M) to Coinbase Prime deposit addresses and 40,285 BNB (about $31.6M) to unlabeled wallets. A transfer is not a sale; no sale confirmed.",
+  "detected_at": "2026-10-07T07:16-04:00",
+  "active_since": "2026-10-07T07:16-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "BTC",
+   "BNB"
+  ],
+  "event_type": "other",
+  "event_time": "2026-10-07T01:58-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/markets/2026/10/07/u-s-government-moves-over-usd100-million-in-btc-and-bnb-a-sale-hasn-t-been-confirmed"
+  ],
+  "source_names": [
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/07/u-s-government-moves-over-usd100-million-in-btc-and-bnb-a-sale-hasn-t-been-confirmed",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/07/u-s-government-moves-over-usd100-million-in-btc-and-bnb-a-sale-hasn-t-been-confirmed",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/10/07/u-s-government-moves-over-usd100-million-in-btc-and-bnb-a-sale-hasn-t-been-confirmed",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: On-chain transfer, no confirmed sale"
+  ],
+  "market_significance": "Traders watch government wallets for possible selling",
+  "trigger": "On-chain transfer",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261007_659ed3",
+  "headline": "Robinhood adds $25 million of bitcoin to its balance sheet",
+  "summary": "Robinhood crypto chief Johann Kerbrat said in an interview at DAS Asia that the company added about $25 million of bitcoin to its balance sheet. Robinhood has not formally confirmed it.",
+  "detected_at": "2026-10-07T07:16-04:00",
+  "active_since": "2026-10-07T07:16-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "institutional",
+  "event_time": "2026-10-07T04:53-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/markets/2026/10/07/robinhood-adds-bitcoin-worth-usd25-million-to-its-balance-sheet-report"
+  ],
+  "source_names": [
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/07/robinhood-adds-bitcoin-worth-usd25-million-to-its-balance-sheet-report",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/07/robinhood-adds-bitcoin-worth-usd25-million-to-its-balance-sheet-report",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/10/07/robinhood-adds-bitcoin-worth-usd25-million-to-its-balance-sheet-report",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Small treasury purchase"
+  ],
+  "market_significance": "Another public company holding BTC",
+  "trigger": "Company disclosure",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261007_6d6998",
+  "headline": "Winklevoss-backed group files for a spot Zcash ETF with a 0.25% fee, ticker WINK",
+  "summary": "The Block reports a Winklevoss group filed to launch a spot Zcash ETF with a 0.25% fee under the proposed ticker WINK.",
+  "detected_at": "2026-10-07T07:16-04:00",
+  "active_since": "2026-10-07T07:16-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "ZEC"
+  ],
+  "event_type": "etf",
+  "event_time": "2026-10-06T12:43-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/markets/2026-10-06-winklevoss-files-spot-zcash-etf-wink-417826"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-10-06-winklevoss-files-spot-zcash-etf-wink-417826",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-10-06-winklevoss-files-spot-zcash-etf-wink-417826",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/markets/2026-10-06-winklevoss-files-spot-zcash-etf-wink-417826",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Filing only, no decision"
+  ],
+  "market_significance": "Adds to the queue of altcoin ETF filings",
+  "trigger": "ETF filing",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261007_bfbe5b",
+  "headline": "Conduit sues Tether over a $2.76 million USDT freeze",
+  "summary": "The Block reports Conduit sued Tether over a $2.76 million freeze, saying Tether has no legal entitlement to the funds.",
+  "detected_at": "2026-10-07T07:16-04:00",
+  "active_since": "2026-10-07T07:16-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "USDT"
+  ],
+  "event_type": "legal",
+  "event_time": "2026-10-06T13:54-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/regulation/2026-10-06-conduit-sues-tether-usdt-freeze-417831"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-10-06-conduit-sues-tether-usdt-freeze-417831",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-10-06-conduit-sues-tether-usdt-freeze-417831",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-10-06-conduit-sues-tether-usdt-freeze-417831",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Small civil suit"
+  ],
+  "market_significance": "Tests stablecoin issuers' power to freeze funds",
+  "trigger": "Lawsuit",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261007_496aaa",
+  "headline": "Brevan Howard to use Ripple Prime for brokerage, clearing and financing",
+  "summary": "The Block reports hedge fund Brevan Howard will use Ripple Prime for multi-asset prime brokerage, clearing and financing.",
+  "detected_at": "2026-10-07T07:16-04:00",
+  "active_since": "2026-10-07T07:16-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "XRP"
+  ],
+  "event_type": "partnership",
+  "event_time": "2026-10-06T10:36-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-10-06-ripple-prime-brevan-howard-prime-brokerage-clearing-financing-417801"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-06-ripple-prime-brevan-howard-prime-brokerage-clearing-financing-417801",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-06-ripple-prime-brevan-howard-prime-brokerage-clearing-financing-417801",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-10-06-ripple-prime-brevan-howard-prime-brokerage-clearing-financing-417801",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Client win, not market-moving"
+  ],
+  "market_significance": "Institutional use of Ripple's prime broker",
+  "trigger": "Partnership announcement",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
