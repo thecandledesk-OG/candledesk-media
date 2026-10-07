@@ -4220,5 +4220,355 @@
   "updates": [],
   "posts": [],
   "needs_followup": false
+ },
+ {
+  "id": "st_20261007_20b0a4",
+  "headline": "Wells Fargo reportedly in talks with Kraken parent Payward for crypto trading liquidity",
+  "summary": "Reports say Wells Fargo is discussing a crypto liquidity arrangement with Payward, Kraken's parent. Talks only; no deal announced by either company.",
+  "detected_at": "2026-10-07T19:14-04:00",
+  "active_since": "2026-10-07T19:14-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "TOTAL_MARKET",
+   "BTC"
+  ],
+  "event_type": "institutional",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://cryptobriefing.com/wells-fargo-payward-kraken-crypto-liquidity-talks/",
+   "https://coingape.com/2-3t-wells-fargo-in-talks-with-kraken-parent-payward-for-crypto-trading-liquidity/"
+  ],
+  "source_names": [
+   "Crypto Briefing",
+   "CoinGape"
+  ],
+  "sources": [
+   {
+    "url": "https://cryptobriefing.com/wells-fargo-payward-kraken-crypto-liquidity-talks/",
+    "name": "Crypto Briefing",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://coingape.com/2-3t-wells-fargo-in-talks-with-kraken-parent-payward-for-crypto-trading-liquidity/",
+    "name": "CoinGape",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://cryptobriefing.com/wells-fargo-payward-kraken-crypto-liquidity-talks/",
+    "name": "Crypto Briefing",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://coingape.com/2-3t-wells-fargo-in-talks-with-kraken-parent-payward-for-crypto-trading-liquidity/",
+    "name": "CoinGape",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Crypto Briefing",
+     "url": "https://cryptobriefing.com/wells-fargo-payward-kraken-crypto-liquidity-talks/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinGape",
+     "url": "https://coingape.com/2-3t-wells-fargo-in-talks-with-kraken-parent-payward-for-crypto-trading-liquidity/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Talks reported, not confirmed by either company"
+  ],
+  "market_significance": "Large U.S. bank exploring crypto trading access",
+  "trigger": "search results Oct 7",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261007_998854",
+  "headline": "Jury convicts Uranium Finance hacker over $53 million theft",
+  "summary": "A New York federal jury convicted a cybersecurity consultant of stealing about $53 million from Uranium Finance in 2021; he faces up to 20 years.",
+  "detected_at": "2026-10-07T19:14-04:00",
+  "active_since": "2026-10-07T19:14-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "legal",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.law360.com/articles/2534766/breaking-cyber-consultant-convicted-of-53m-uranium-finance-heist",
+   "https://cryptobriefing.com/uranium-finance-hacker-spalletta-found-guilty/"
+  ],
+  "source_names": [
+   "Law360",
+   "Crypto Briefing"
+  ],
+  "sources": [
+   {
+    "url": "https://www.law360.com/articles/2534766/breaking-cyber-consultant-convicted-of-53m-uranium-finance-heist",
+    "name": "Law360",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptobriefing.com/uranium-finance-hacker-spalletta-found-guilty/",
+    "name": "Crypto Briefing",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.law360.com/articles/2534766/breaking-cyber-consultant-convicted-of-53m-uranium-finance-heist",
+    "name": "Law360",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptobriefing.com/uranium-finance-hacker-spalletta-found-guilty/",
+    "name": "Crypto Briefing",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Law360",
+     "url": "https://www.law360.com/articles/2534766/breaking-cyber-consultant-convicted-of-53m-uranium-finance-heist",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Crypto Briefing",
+     "url": "https://cryptobriefing.com/uranium-finance-hacker-spalletta-found-guilty/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Court verdict on an old exploit"
+  ],
+  "market_significance": "Rare conviction in a DeFi exploit case",
+  "trigger": "search results Oct 7",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261007_de78b1",
+  "headline": "Paxos lets partners offer XRP trading, custody and transfers",
+  "summary": "Paxos added XRP to its crypto brokerage platform, so partner firms can offer XRP trading, custody and transfers.",
+  "detected_at": "2026-10-07T19:14-04:00",
+  "active_since": "2026-10-07T19:14-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "XRP"
+  ],
+  "event_type": "exchange",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://crypto.news/paxos-enables-partners-to-offer-xrp-trading/",
+   "https://cryptobriefing.com/paxos-crypto-brokerage-adds-xrp/"
+  ],
+  "source_names": [
+   "crypto.news",
+   "Crypto Briefing"
+  ],
+  "sources": [
+   {
+    "url": "https://crypto.news/paxos-enables-partners-to-offer-xrp-trading/",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptobriefing.com/paxos-crypto-brokerage-adds-xrp/",
+    "name": "Crypto Briefing",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://crypto.news/paxos-enables-partners-to-offer-xrp-trading/",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptobriefing.com/paxos-crypto-brokerage-adds-xrp/",
+    "name": "Crypto Briefing",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/paxos-enables-partners-to-offer-xrp-trading/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Crypto Briefing",
+     "url": "https://cryptobriefing.com/paxos-crypto-brokerage-adds-xrp/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Product addition at an infrastructure provider"
+  ],
+  "market_significance": "Wider institutional access to XRP",
+  "trigger": "search results Oct 7",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261007_06d9d5",
+  "headline": "Evernorth pushes XRPN Nasdaq trading debut to October 12",
+  "summary": "Evernorth delayed the Nasdaq debut of its XRP treasury company shares, ticker XRPN, to October 12.",
+  "detected_at": "2026-10-07T19:14-04:00",
+  "active_since": "2026-10-07T19:14-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "XRP"
+  ],
+  "event_type": "institutional",
+  "event_time": null,
+  "scheduled_event": true,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://crypto.news/evernorth-pushes-xrpn-nasdaq-trading-debut-to-oct-12/"
+  ],
+  "source_names": [
+   "crypto.news"
+  ],
+  "sources": [
+   {
+    "url": "https://crypto.news/evernorth-pushes-xrpn-nasdaq-trading-debut-to-oct-12/",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://crypto.news/evernorth-pushes-xrpn-nasdaq-trading-debut-to-oct-12/",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/evernorth-pushes-xrpn-nasdaq-trading-debut-to-oct-12/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Schedule change for a listing"
+  ],
+  "market_significance": "XRP treasury company listing",
+  "trigger": "search results Oct 7",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
  }
 ]
