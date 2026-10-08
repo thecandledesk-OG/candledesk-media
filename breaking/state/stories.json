@@ -5618,5 +5618,76 @@
   "updates": [],
   "posts": [],
   "needs_followup": false
+ },
+ {
+  "id": "st_20261008_406bfa",
+  "headline": "Solana DEX token Meteora (MET) reportedly jumps about 51% as the broader market falls",
+  "summary": "An aggregator headline says Meteora's MET token rose about 51% on October 8 while bitcoin and ether fell. The move and its cause could not be confirmed this run (source pages could not be opened).",
+  "detected_at": "2026-10-08T10:19-04:00",
+  "active_since": "2026-10-08T10:19-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.3,
+  "assets": [
+   "MET",
+   "SOL"
+  ],
+  "event_type": "market_move",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coingabbar.com/en/crypto-news-today-october-8-2026-bitcoin-ethereum-price-falls"
+  ],
+  "source_names": [
+   "CoinGabbar"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coingabbar.com/en/crypto-news-today-october-8-2026-bitcoin-ethereum-price-falls",
+    "name": "CoinGabbar",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coingabbar.com/en/crypto-news-today-october-8-2026-bitcoin-ethereum-price-falls",
+    "name": "CoinGabbar",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinGabbar",
+     "url": "https://www.coingabbar.com/en/crypto-news-today-october-8-2026-bitcoin-ethereum-price-falls",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Single low-tier aggregator headline; size of move unconfirmed; source pages not opened this run."
+  ],
+  "market_significance": "Small-cap outlier on a down day; possible lead for the daily show if confirmed.",
+  "trigger": "WebSearch result title (coingabbar.com) Oct 8",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
  }
 ]
