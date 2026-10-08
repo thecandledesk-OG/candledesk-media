@@ -5567,10 +5567,14 @@
   "metrics": {},
   "emergency": false,
   "source_urls": [
-   "https://crypto.news/why-are-btc-eth-xrp-and-sol-in-the-red-today/"
+   "https://crypto.news/why-are-btc-eth-xrp-and-sol-in-the-red-today/",
+   "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-october-8-2026-crypto-values-fall-as-oil-prices-soar-113341860.html",
+   "https://cryptoticker.io/en/crypto-crash-reason-bitcoin-ethereum-october-2026"
   ],
   "source_names": [
-   "crypto.news"
+   "crypto.news",
+   "Yahoo Finance",
+   "CryptoTicker"
   ],
   "sources": [
    {
@@ -5579,6 +5583,20 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-october-8-2026-crypto-values-fall-as-oil-prices-soar-113341860.html",
+    "name": "Yahoo Finance",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://cryptoticker.io/en/crypto-crash-reason-bitcoin-ethereum-october-2026",
+    "name": "CryptoTicker",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
    }
   ],
   "gate_sources": [
@@ -5588,6 +5606,20 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-october-8-2026-crypto-values-fall-as-oil-prices-soar-113341860.html",
+    "name": "Yahoo Finance",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://cryptoticker.io/en/crypto-crash-reason-bitcoin-ethereum-october-2026",
+    "name": "CryptoTicker",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
    }
   ],
   "verification_status": "UNVERIFIED",
@@ -5604,6 +5636,20 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-october-8-2026-crypto-values-fall-as-oil-prices-soar-113341860.html",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "CryptoTicker",
+     "url": "https://cryptoticker.io/en/crypto-crash-reason-bitcoin-ethereum-october-2026",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -5615,7 +5661,17 @@
   "content_created": false,
   "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-08T13:15-04:00",
+    "headline": "Bitcoin extends slide toward $81,000 as oil climbs and Fed minutes point to more hikes",
+    "summary": "Search-result headlines on Oct 8 say bitcoin slipped below $83,000 and reportedly under $81,000, with altcoins falling harder, as oil prices rose and Fed minutes signaled possible further rate hikes. Size of the 24h move not confirmed; pages could not be opened this run.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
