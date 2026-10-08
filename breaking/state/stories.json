@@ -509,6 +509,15 @@
     "level": "NORMAL",
     "sources_added": 2,
     "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-07T22:09-04:00",
+    "headline": "XRP Ledger PermissionDelegationV1_1 expected to activate around 21:25 UTC October 8",
+    "summary": "PermissionDelegationV1_1 is expected to activate around 21:25 UTC on Oct 8, followed by fixBatchV1_2 and BatchV1_1 on Oct 9, if validator support holds. Not yet live.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
    }
   ],
   "posts": [],
@@ -2008,10 +2017,12 @@
   "metrics": {},
   "emergency": false,
   "source_urls": [
-   "https://www.theblock.co/news/business/2026-10-05-tom-lee-says-ether-dwarfing-other-macro-assets-as-bitmine-adds-15112-eth-417660"
+   "https://www.theblock.co/news/business/2026-10-05-tom-lee-says-ether-dwarfing-other-macro-assets-as-bitmine-adds-15112-eth-417660",
+   "https://www.coindesk.com/markets/2026/10/07/ether-is-about-to-lose-a-steady-buyer-as-tom-lee-says-bitmine-will-stop-token-purchases"
   ],
   "source_names": [
-   "The Block"
+   "The Block",
+   "CoinDesk"
   ],
   "sources": [
    {
@@ -2019,6 +2030,13 @@
     "name": "The Block",
     "kind": "secondary",
     "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/07/ether-is-about-to-lose-a-steady-buyer-as-tom-lee-says-bitmine-will-stop-token-purchases",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
     "confirms": true
    }
   ],
@@ -2029,15 +2047,22 @@
     "kind": "secondary",
     "checked": false,
     "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/07/ether-is-about-to-lose-a-steady-buyer-as-tom-lee-says-bitmine-will-stop-token-purchases",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "UNVERIFIED",
   "verification": {
    "status": "UNVERIFIED",
-   "independent_sources": 0,
+   "independent_sources": 1,
    "has_primary": false,
-   "score": 0.0,
-   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
    "sources_checked": [
     {
      "name": "The Block",
@@ -2045,6 +2070,13 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/10/07/ether-is-about-to-lose-a-steady-buyer-as-tom-lee-says-bitmine-will-stop-token-purchases",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -2056,7 +2088,17 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-07T22:09-04:00",
+    "headline": "Bitmine will stop buying ether once it holds 5% of supply, Tom Lee says",
+    "summary": "Bitmine chairman Tom Lee said at TOKEN2049 the firm will be done stacking ETH at 5% of circulating supply. Bitmine held about 6.02 million ETH (about 4.9%) as of Oct 5, roughly 100,000 ETH short of the target.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -4077,11 +4119,15 @@
   "emergency": false,
   "source_urls": [
    "https://finance.yahoo.com/markets/crypto/articles/bitcoin-reacts-fed-minutes-reveal-181307960.html",
-   "https://finance.yahoo.com/markets/crypto/articles/fed-minutes-point-another-rate-180521715.html"
+   "https://finance.yahoo.com/markets/crypto/articles/fed-minutes-point-another-rate-180521715.html",
+   "https://cryptotimes.io/2026/10/08/bitcoin-ethereum-slide-as-fed-minutes-point-to-year-end-rate-hike",
+   "https://www.coindesk.com/price/ethereum"
   ],
   "source_names": [
    "Yahoo Finance",
-   "Yahoo Finance"
+   "Yahoo Finance",
+   "The Crypto Times",
+   "CoinDesk"
   ],
   "sources": [
    {
@@ -4097,6 +4143,20 @@
     "kind": "secondary",
     "checked": false,
     "confirms": false
+   },
+   {
+    "url": "https://cryptotimes.io/2026/10/08/bitcoin-ethereum-slide-as-fed-minutes-point-to-year-end-rate-hike",
+    "name": "The Crypto Times",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/price/ethereum",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -4113,15 +4173,29 @@
     "kind": "secondary",
     "checked": false,
     "confirms": false
+   },
+   {
+    "url": "https://cryptotimes.io/2026/10/08/bitcoin-ethereum-slide-as-fed-minutes-point-to-year-end-rate-hike",
+    "name": "The Crypto Times",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/price/ethereum",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "UNVERIFIED",
   "verification": {
    "status": "UNVERIFIED",
-   "independent_sources": 0,
+   "independent_sources": 1,
    "has_primary": false,
-   "score": 0.0,
-   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
    "sources_checked": [
     {
      "name": "Yahoo Finance",
@@ -4136,6 +4210,20 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "The Crypto Times",
+     "url": "https://cryptotimes.io/2026/10/08/bitcoin-ethereum-slide-as-fed-minutes-point-to-year-end-rate-hike",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/price/ethereum",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -4147,7 +4235,17 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-07T22:09-04:00",
+    "headline": "Crypto slides after Fed minutes: BTC down about 2.5%, ETH 4.7%, XRP 5.4%, SOL 3.9%",
+    "summary": "Bitcoin traded near $83,300 and ether near $2,564 after Fed minutes showed most officials expect another hike by year-end; about $713M liquidated in 24 hours. Moves are below the engine's thresholds.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -4564,6 +4662,360 @@
   ],
   "market_significance": "XRP treasury company listing",
   "trigger": "search results Oct 7",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261007_0be6aa",
+  "headline": "Solana DeFi protocol Orca merges with Loopscale to finance AI, robotics and defense",
+  "summary": "Orca and Loopscale are merging in a push into financing for AI, robotics and defense, per The Block.",
+  "detected_at": "2026-10-07T22:09-04:00",
+  "active_since": "2026-10-07T22:09-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "SOL",
+   "ORCA"
+  ],
+  "event_type": "partnership",
+  "event_time": "2026-10-07T18:01-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/defi/2026-10-07-solanas-orca-merges-with-loopscale-push-to-finance-ai-robotics-defense-417924"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/defi/2026-10-07-solanas-orca-merges-with-loopscale-push-to-finance-ai-robotics-defense-417924",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/defi/2026-10-07-solanas-orca-merges-with-loopscale-push-to-finance-ai-robotics-defense-417924",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/defi/2026-10-07-solanas-orca-merges-with-loopscale-push-to-finance-ai-robotics-defense-417924",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Small protocol merger."
+  ],
+  "market_significance": "Solana DeFi consolidation.",
+  "trigger": "The Block latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261007_69f9d0",
+  "headline": "Grayscale says crypto ETFs are entering a new phase as its Zcash ETF tops $1 billion",
+  "summary": "Grayscale says the crypto ETF market is moving beyond bitcoin and ether, with its Zcash ETF passing $1 billion.",
+  "detected_at": "2026-10-07T22:09-04:00",
+  "active_since": "2026-10-07T22:09-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "ZEC"
+  ],
+  "event_type": "etf",
+  "event_time": "2026-10-07T14:37-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/markets/2026-10-07-grayscale-crypto-etf-market-beyond-bitcoin-ether-417953"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-10-07-grayscale-crypto-etf-market-beyond-bitcoin-ether-417953",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-10-07-grayscale-crypto-etf-market-beyond-bitcoin-ether-417953",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/markets/2026-10-07-grayscale-crypto-etf-market-beyond-bitcoin-ether-417953",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Asset-manager commentary and fund milestone."
+  ],
+  "market_significance": "Altcoin ETF demand.",
+  "trigger": "The Block latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261007_9d756c",
+  "headline": "Kazakhstan's central bank taps Tether to explore stablecoins and tokenization",
+  "summary": "Tether was tapped by Kazakhstan's central bank to explore stablecoin and tokenization work, per CoinDesk.",
+  "detected_at": "2026-10-07T22:09-04:00",
+  "active_since": "2026-10-07T22:09-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "USDT"
+  ],
+  "event_type": "partnership",
+  "event_time": "2026-10-07T15:00-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/business/2026/10/07/tether-tapped-by-kazakhstan-s-central-bank-to-explore-stablecoin-and-tokenization"
+  ],
+  "source_names": [
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/business/2026/10/07/tether-tapped-by-kazakhstan-s-central-bank-to-explore-stablecoin-and-tokenization",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/business/2026/10/07/tether-tapped-by-kazakhstan-s-central-bank-to-explore-stablecoin-and-tokenization",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/business/2026/10/07/tether-tapped-by-kazakhstan-s-central-bank-to-explore-stablecoin-and-tokenization",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Exploratory partnership."
+  ],
+  "market_significance": "Stablecoin adoption by a central bank.",
+  "trigger": "CoinDesk latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261007_a02dda",
+  "headline": "Polygon and TRON link the USDT ecosystem to U.S. banking rails",
+  "summary": "Polygon's Open Money Stack expands to TRON, aiming to connect TRON's roughly $94 billion USDT supply to regulated U.S. payment rails.",
+  "detected_at": "2026-10-07T22:09-04:00",
+  "active_since": "2026-10-07T22:09-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "POL",
+   "TRX",
+   "USDT"
+  ],
+  "event_type": "partnership",
+  "event_time": "2026-10-07T17:00-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/business/2026/10/07/polygon-and-tron-partner-to-bridge-usd94-billion-usdt-ecosystem-with-u-s-banking-rails"
+  ],
+  "source_names": [
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/business/2026/10/07/polygon-and-tron-partner-to-bridge-usd94-billion-usdt-ecosystem-with-u-s-banking-rails",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/business/2026/10/07/polygon-and-tron-partner-to-bridge-usd94-billion-usdt-ecosystem-with-u-s-banking-rails",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/business/2026/10/07/polygon-and-tron-partner-to-bridge-usd94-billion-usdt-ecosystem-with-u-s-banking-rails",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Partnership announcement."
+  ],
+  "market_significance": "Stablecoin payments infrastructure.",
+  "trigger": "CoinDesk latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261007_4a6f4a",
+  "headline": "Coinbase Pro returns as Deribit integration creates Coinbase Global Exchange",
+  "summary": "Coinbase is bringing back Coinbase Pro and integrating Deribit into a new Coinbase Global Exchange, per The Block.",
+  "detected_at": "2026-10-07T22:09-04:00",
+  "active_since": "2026-10-07T22:09-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.65,
+  "assets": [
+   "TOTAL_MARKET",
+   "BTC"
+  ],
+  "event_type": "exchange",
+  "event_time": "2026-10-06T23:00-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-10-06-coinbase-pro-deribit-integration-coinbase-global-exchange-417867"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-06-coinbase-pro-deribit-integration-coinbase-global-exchange-417867",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-06-coinbase-pro-deribit-integration-coinbase-global-exchange-417867",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-10-06-coinbase-pro-deribit-integration-coinbase-global-exchange-417867",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Reported more than 12 hours ago; for the daily show."
+  ],
+  "market_significance": "Major exchange product change.",
+  "trigger": "The Block latest news",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
