@@ -4489,6 +4489,15 @@
     "level": "NORMAL",
     "sources_added": 2,
     "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-08T16:19-04:00",
+    "headline": "Vitalik Buterin warns against hasty wallet migrations amid AI security threats",
+    "summary": "Ethereum co-founder Vitalik Buterin urged users not to rush wallet migrations in response to growing AI-driven security warnings. Search snippet only; not opened this run.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
    }
   ],
   "posts": [],
@@ -5569,12 +5578,18 @@
   "source_urls": [
    "https://crypto.news/why-are-btc-eth-xrp-and-sol-in-the-red-today/",
    "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-october-8-2026-crypto-values-fall-as-oil-prices-soar-113341860.html",
-   "https://cryptoticker.io/en/crypto-crash-reason-bitcoin-ethereum-october-2026"
+   "https://cryptoticker.io/en/crypto-crash-reason-bitcoin-ethereum-october-2026",
+   "https://www.coindesk.com/markets/2026/10/08/crypto-crumbles-as-anniversary-of-flash-crash-nears",
+   "https://www.theblock.co/news/markets/2026-10-08-bitcoin-q4-forecast-418052",
+   "https://stocktwits.com/news-articles/markets/cryptocurrency/btc-price-drops-below-81k-1b-crypto-liquidations-stock-selloff/cZDUYIYRBNU"
   ],
   "source_names": [
    "crypto.news",
    "Yahoo Finance",
-   "CryptoTicker"
+   "CryptoTicker",
+   "CoinDesk",
+   "The Block",
+   "Stocktwits"
   ],
   "sources": [
    {
@@ -5595,6 +5610,27 @@
     "url": "https://cryptoticker.io/en/crypto-crash-reason-bitcoin-ethereum-october-2026",
     "name": "CryptoTicker",
     "kind": "other",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/08/crypto-crumbles-as-anniversary-of-flash-crash-nears",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://www.theblock.co/news/markets/2026-10-08-bitcoin-q4-forecast-418052",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://stocktwits.com/news-articles/markets/cryptocurrency/btc-price-drops-below-81k-1b-crypto-liquidations-stock-selloff/cZDUYIYRBNU",
+    "name": "Stocktwits",
+    "kind": "social",
     "checked": false,
     "confirms": false
    }
@@ -5618,6 +5654,27 @@
     "url": "https://cryptoticker.io/en/crypto-crash-reason-bitcoin-ethereum-october-2026",
     "name": "CryptoTicker",
     "kind": "other",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/08/crypto-crumbles-as-anniversary-of-flash-crash-nears",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://www.theblock.co/news/markets/2026-10-08-bitcoin-q4-forecast-418052",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://stocktwits.com/news-articles/markets/cryptocurrency/btc-price-drops-below-81k-1b-crypto-liquidations-stock-selloff/cZDUYIYRBNU",
+    "name": "Stocktwits",
+    "kind": "social",
     "checked": false,
     "confirms": false
    }
@@ -5650,6 +5707,27 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/10/08/crypto-crumbles-as-anniversary-of-flash-crash-nears",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/markets/2026-10-08-bitcoin-q4-forecast-418052",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "Stocktwits",
+     "url": "https://stocktwits.com/news-articles/markets/cryptocurrency/btc-price-drops-below-81k-1b-crypto-liquidations-stock-selloff/cZDUYIYRBNU",
+     "category": "social",
+     "counts": false,
+     "note": "social/community post — can trigger investigation, never verifies"
     }
    ]
   },
@@ -5669,6 +5747,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 2,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-08T16:19-04:00",
+    "headline": "Bitcoin falls toward $80,000 as altcoins drop harder and liquidations near $1 billion",
+    "summary": "Bitcoin slid to around $80,000 to $81,000 on October 8, extending the oil- and yield-driven selloff, with altcoins falling further and liquidations reported near $1 billion. Search snippets only; pages could not be opened this run, so exact 24h moves are unconfirmed.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 3,
     "verification": "UNVERIFIED"
    }
   ],
@@ -5739,6 +5826,77 @@
   ],
   "market_significance": "Small-cap outlier on a down day; possible lead for the daily show if confirmed.",
   "trigger": "WebSearch result title (coingabbar.com) Oct 8",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261008_ee42c6",
+  "headline": "JPMorgan estimates $50 billion has flowed into crypto this year",
+  "summary": "JPMorgan analysts estimate about $50 billion of net inflows into crypto in 2026 so far, via ETFs and futures, and see momentum improving into Q4. Search snippet only; not opened this run.",
+  "detected_at": "2026-10-08T16:19-04:00",
+  "active_since": "2026-10-08T16:19-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "TOTAL_MARKET",
+   "BTC"
+  ],
+  "event_type": "institutional",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/markets/2026-10-08-jpmorgan-crypto-inflows-50-billion-etf-futures-q4-418115"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-10-08-jpmorgan-crypto-inflows-50-billion-etf-futures-q4-418115",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-10-08-jpmorgan-crypto-inflows-50-billion-etf-futures-q4-418115",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/markets/2026-10-08-jpmorgan-crypto-inflows-50-billion-etf-futures-q4-418115",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Analyst estimate, not a market event."
+  ],
+  "market_significance": "Context on institutional flows.",
+  "trigger": "The Block headline",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
