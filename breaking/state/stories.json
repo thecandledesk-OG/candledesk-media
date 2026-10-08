@@ -2097,6 +2097,15 @@
     "level": "NORMAL",
     "sources_added": 1,
     "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-08T07:17-04:00",
+    "headline": "Bitmine will stop buying ether once it holds 5% of supply, Tom Lee says",
+    "summary": "Bitmine chairman Tom Lee said at TOKEN2049 that the company will stop buying ETH once it holds 5 percent of circulating supply, about 100,000 more tokens away. Ether fell about 5 percent over 24 hours.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
    }
   ],
   "posts": [],
@@ -3279,14 +3288,18 @@
    "https://www.fxstreet.com/cryptocurrencies/news/crypto-today-bitcoin-ethereum-and-xrp-fall-liquidating-550m-202610071103",
    "https://www.coindesk.com/markets/2026/10/07/down-but-not-out-bitcoin-s-stair-step-bullish-trajectory-is-still-intact",
    "https://www.coindesk.com/price/bitcoin",
-   "https://crypto.news/why-is-crypto-market-going-down-today/"
+   "https://crypto.news/why-is-crypto-market-going-down-today/",
+   "https://www.investing.com/news/cryptocurrency-news/bitcoin-falls-below-83k-as-meast-tensions-soaring-yields-dent-crypto-appetite-4937967",
+   "https://www.coindesk.com/latest-crypto-news"
   ],
   "source_names": [
    "CoinDesk",
    "FXStreet",
    "CoinDesk",
    "CoinDesk",
-   "crypto.news"
+   "crypto.news",
+   "Investing.com",
+   "CoinDesk prices"
   ],
   "sources": [
    {
@@ -3321,6 +3334,20 @@
     "url": "https://crypto.news/why-is-crypto-market-going-down-today/",
     "name": "crypto.news",
     "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-falls-below-83k-as-meast-tensions-soaring-yields-dent-crypto-appetite-4937967",
+    "name": "Investing.com",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/latest-crypto-news",
+    "name": "CoinDesk prices",
+    "kind": "secondary",
     "checked": true,
     "confirms": true
    }
@@ -3358,6 +3385,20 @@
     "url": "https://crypto.news/why-is-crypto-market-going-down-today/",
     "name": "crypto.news",
     "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-falls-below-83k-as-meast-tensions-soaring-yields-dent-crypto-appetite-4937967",
+    "name": "Investing.com",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/latest-crypto-news",
+    "name": "CoinDesk prices",
+    "kind": "secondary",
     "checked": true,
     "confirms": true
    }
@@ -3404,6 +3445,20 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Investing.com",
+     "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-falls-below-83k-as-meast-tensions-soaring-yields-dent-crypto-appetite-4937967",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinDesk prices",
+     "url": "https://www.coindesk.com/latest-crypto-news",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -3448,6 +3503,15 @@
     "at": "2026-10-07T10:18-04:00",
     "headline": "Bitcoin falls to about $83,200, down 3.9% in 24 hours; ether down 4.2%",
     "summary": "Bitcoin trades near $83,198, down 3.92% in 24 hours per CoinDesk at 10:16 AM ET; ETH $2,597 (-4.19%), XRP $1.45 (-3.66%), SOL $117.75 (-2.06%). Oil above $101 and 10-year yields near 5.3% weigh; about $555M liquidated in 24h.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-08T07:17-04:00",
+    "headline": "Bitcoin slips below $83,000 as Middle East tensions and high Treasury yields weigh on crypto",
+    "summary": "Bitcoin fell to about $83,150 early Thursday after briefly touching about $82,300, a near three-week low. Ether, XRP and Solana also fell, roughly 2.5 to 5 percent on the day, as oil-driven inflation worries and 24-year-high 10-year yields hit risk appetite.",
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 2,
@@ -4121,13 +4185,17 @@
    "https://finance.yahoo.com/markets/crypto/articles/bitcoin-reacts-fed-minutes-reveal-181307960.html",
    "https://finance.yahoo.com/markets/crypto/articles/fed-minutes-point-another-rate-180521715.html",
    "https://cryptotimes.io/2026/10/08/bitcoin-ethereum-slide-as-fed-minutes-point-to-year-end-rate-hike",
-   "https://www.coindesk.com/price/ethereum"
+   "https://www.coindesk.com/price/ethereum",
+   "https://www.cryptotimes.io/2026/10/08/bitcoin-ethereum-slide-as-fed-minutes-point-to-year-end-rate-hike/",
+   "https://blockchainreporter.net/why-is-bitcoin-down-today-btc-slips-below-83k"
   ],
   "source_names": [
    "Yahoo Finance",
    "Yahoo Finance",
    "The Crypto Times",
-   "CoinDesk"
+   "CoinDesk",
+   "The Crypto Times",
+   "Blockchain Reporter"
   ],
   "sources": [
    {
@@ -4154,6 +4222,20 @@
    {
     "url": "https://www.coindesk.com/price/ethereum",
     "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.cryptotimes.io/2026/10/08/bitcoin-ethereum-slide-as-fed-minutes-point-to-year-end-rate-hike/",
+    "name": "The Crypto Times",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://blockchainreporter.net/why-is-bitcoin-down-today-btc-slips-below-83k",
+    "name": "Blockchain Reporter",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -4184,6 +4266,20 @@
    {
     "url": "https://www.coindesk.com/price/ethereum",
     "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.cryptotimes.io/2026/10/08/bitcoin-ethereum-slide-as-fed-minutes-point-to-year-end-rate-hike/",
+    "name": "The Crypto Times",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://blockchainreporter.net/why-is-bitcoin-down-today-btc-slips-below-83k",
+    "name": "Blockchain Reporter",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -4224,6 +4320,20 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "The Crypto Times",
+     "url": "https://www.cryptotimes.io/2026/10/08/bitcoin-ethereum-slide-as-fed-minutes-point-to-year-end-rate-hike/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Blockchain Reporter",
+     "url": "https://blockchainreporter.net/why-is-bitcoin-down-today-btc-slips-below-83k",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -4233,13 +4343,22 @@
   "market_significance": "Rate-hike expectations feed into crypto risk appetite alongside rising Treasury yields.",
   "trigger": "Search results 2026-10-07 afternoon",
   "content_created": false,
-  "publication_status": "QUEUED_FOR_DAILY",
+  "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
   "updates": [
    {
     "at": "2026-10-07T22:09-04:00",
     "headline": "Crypto slides after Fed minutes: BTC down about 2.5%, ETH 4.7%, XRP 5.4%, SOL 3.9%",
     "summary": "Bitcoin traded near $83,300 and ether near $2,564 after Fed minutes showed most officials expect another hike by year-end; about $713M liquidated in 24 hours. Moves are below the engine's thresholds.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-08T07:18-04:00",
+    "headline": "Fed minutes show most officials expect another rate hike this year as 10-year yields top 5.3%",
+    "summary": "Check the yields first. Fed minutes say most officials expect another hike this year.",
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 2,
@@ -4267,9 +4386,13 @@
   "metrics": {},
   "emergency": false,
   "source_urls": [
-   "https://www.theblock.co/news/ecosystems/2026-10-07-ethereum-researcher-justin-drake-bunker-mode-planning-private-key-recovery-risk-417954"
+   "https://www.theblock.co/news/ecosystems/2026-10-07-ethereum-researcher-justin-drake-bunker-mode-planning-private-key-recovery-risk-417954",
+   "https://www.theblock.co/news/defi/2026-10-08-vitalik-buterin-warns-hasty-wallet-migrations-418007",
+   "https://www.theblock.co/news/defi/2026-10-08-crypto-industry-split-over-justin-drakes-ai-warning-418021"
   ],
   "source_names": [
+   "The Block",
+   "The Block",
    "The Block"
   ],
   "sources": [
@@ -4279,6 +4402,20 @@
     "kind": "secondary",
     "checked": false,
     "confirms": false
+   },
+   {
+    "url": "https://www.theblock.co/news/defi/2026-10-08-vitalik-buterin-warns-hasty-wallet-migrations-418007",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/defi/2026-10-08-crypto-industry-split-over-justin-drakes-ai-warning-418021",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -4288,6 +4425,20 @@
     "kind": "secondary",
     "checked": false,
     "confirms": false
+   },
+   {
+    "url": "https://www.theblock.co/news/defi/2026-10-08-vitalik-buterin-warns-hasty-wallet-migrations-418007",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/defi/2026-10-08-crypto-industry-split-over-justin-drakes-ai-warning-418021",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
    }
   ],
   "verification_status": "UNVERIFIED",
@@ -4304,6 +4455,20 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/defi/2026-10-08-vitalik-buterin-warns-hasty-wallet-migrations-418007",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/defi/2026-10-08-crypto-industry-split-over-justin-drakes-ai-warning-418021",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
     }
    ]
   },
@@ -4315,7 +4480,17 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-08T07:17-04:00",
+    "headline": "Vitalik Buterin warns against hasty wallet migrations over AI and quantum threats",
+    "summary": "Ethereum co-founder Vitalik Buterin cautioned against rushing wallet migrations amid growing AI-driven security worries, as the industry splits over Justin Drake's warning.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -5018,6 +5193,427 @@
   "trigger": "The Block latest news",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261008_b64aff",
+  "headline": "Samsung Wallet picks Solana for USDC transfers on 82 million U.S. Galaxy phones",
+  "summary": "The Solana Foundation and Samsung announced that Samsung Wallet and Samsung Pay will support stablecoins on Solana. Eligible U.S. users can send cross-border USDC transfers, with fiat on- and off-ramps, starting the last week of October 2026 on 82 million Galaxy devices. More markets later, subject to regulation. Planned launch, not live yet.",
+  "detected_at": "2026-10-08T07:17-04:00",
+  "active_since": "2026-10-08T07:17-04:00",
+  "classification": "IMPORTANT",
+  "proposed_level": "IMPORTANT",
+  "confidence": 0.9,
+  "assets": [
+   "SOL",
+   "USDC"
+  ],
+  "event_type": "partnership",
+  "event_time": "2026-10-07T20:05-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://solana.com/news/samsung-wallet",
+   "https://www.prnewswire.com/news-releases/samsung-partners-with-solana-to-natively-deliver-stablecoins-in-samsung-wallet-to-82-million-us-galaxy-devices-302901200.html",
+   "https://www.coindesk.com/tech/2026/10/08/solana-partners-with-samsung-to-integrate-usdc-in-82-million-phones",
+   "https://decrypt.co/380377/samsung-wallet-taps-solana-for-usdc-transfers-on-82m-us-galaxy-devices",
+   "https://x.com/solana/status/2107994265104339166",
+   "https://cryptoticker.io/en/solana-price-samsung-wallet-usdc-82-million-galaxy"
+  ],
+  "source_names": [
+   "Solana Foundation",
+   "PR Newswire (Solana Foundation release)",
+   "CoinDesk",
+   "Decrypt",
+   "Solana on X",
+   "CryptoTicker"
+  ],
+  "sources": [
+   {
+    "url": "https://solana.com/news/samsung-wallet",
+    "name": "Solana Foundation",
+    "kind": "primary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.prnewswire.com/news-releases/samsung-partners-with-solana-to-natively-deliver-stablecoins-in-samsung-wallet-to-82-million-us-galaxy-devices-302901200.html",
+    "name": "PR Newswire (Solana Foundation release)",
+    "kind": "other",
+    "checked": true,
+    "confirms": true,
+    "origin": "Solana Foundation"
+   },
+   {
+    "url": "https://www.coindesk.com/tech/2026/10/08/solana-partners-with-samsung-to-integrate-usdc-in-82-million-phones",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/380377/samsung-wallet-taps-solana-for-usdc-transfers-on-82m-us-galaxy-devices",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://x.com/solana/status/2107994265104339166",
+    "name": "Solana on X",
+    "kind": "social",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptoticker.io/en/solana-price-samsung-wallet-usdc-82-million-galaxy",
+    "name": "CryptoTicker",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://solana.com/news/samsung-wallet",
+    "name": "Solana Foundation",
+    "kind": "primary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.prnewswire.com/news-releases/samsung-partners-with-solana-to-natively-deliver-stablecoins-in-samsung-wallet-to-82-million-us-galaxy-devices-302901200.html",
+    "name": "PR Newswire (Solana Foundation release)",
+    "kind": "other",
+    "checked": true,
+    "confirms": true,
+    "origin": "Solana Foundation"
+   },
+   {
+    "url": "https://www.coindesk.com/tech/2026/10/08/solana-partners-with-samsung-to-integrate-usdc-in-82-million-phones",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/380377/samsung-wallet-taps-solana-for-usdc-transfers-on-82m-us-galaxy-devices",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://x.com/solana/status/2107994265104339166",
+    "name": "Solana on X",
+    "kind": "social",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptoticker.io/en/solana-price-samsung-wallet-usdc-82-million-galaxy",
+    "name": "CryptoTicker",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "VERIFIED",
+  "verification": {
+   "status": "VERIFIED",
+   "independent_sources": 3,
+   "has_primary": true,
+   "score": 1.0,
+   "reason": "3 independent credible sources confirm it (incl. a primary source)",
+   "sources_checked": [
+    {
+     "name": "Solana Foundation",
+     "url": "https://solana.com/news/samsung-wallet",
+     "category": "primary",
+     "counts": true,
+     "note": "primary (known official domain)"
+    },
+    {
+     "name": "PR Newswire (Solana Foundation release)",
+     "url": "https://www.prnewswire.com/news-releases/samsung-partners-with-solana-to-natively-deliver-stablecoins-in-samsung-wallet-to-82-million-us-galaxy-devices-302901200.html",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/tech/2026/10/08/solana-partners-with-samsung-to-integrate-usdc-in-82-million-phones",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/380377/samsung-wallet-taps-solana-for-usdc-transfers-on-82m-us-galaxy-devices",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Solana on X",
+     "url": "https://x.com/solana/status/2107994265104339166",
+     "category": "social",
+     "counts": false,
+     "note": "social/community post — can trigger investigation, never verifies"
+    },
+    {
+     "name": "CryptoTicker",
+     "url": "https://cryptoticker.io/en/solana-price-samsung-wallet-usdc-82-million-galaxy",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed IMPORTANT: Major consumer-tech partnership: one of the largest phone makers integrating Solana stablecoin payments natively into its wallet for 82 million U.S. devices."
+  ],
+  "market_significance": "Puts USDC on Solana into a default wallet on tens of millions of phones; a big distribution step for stablecoins and Solana payments.",
+  "trigger": "Solana Foundation press release Oct 7, 8:05 PM ET; CoinDesk and Decrypt coverage Oct 8.",
+  "content_created": false,
+  "publication_status": "READY_FOR_APPROVAL",
+  "related_story_ids": [],
+  "updates": [
+   {
+    "at": "2026-10-08T07:18-04:00",
+    "headline": "Samsung Wallet adds USDC transfers on Solana for 82 million U.S. Galaxy users",
+    "summary": "Samsung Wallet adds USDC transfers on Solana for eighty-two million American Galaxy users.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   }
+  ],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261008_1aeb4f",
+  "headline": "Standard Chartered plans institutional crypto custody in Singapore by year-end",
+  "summary": "Standard Chartered's Singapore unit plans to offer institutional custody for selected crypto assets, stablecoins and tokenized assets, targeted by the end of the year and subject to regulatory requirements, extending custody it runs in the UAE, Luxembourg and Hong Kong.",
+  "detected_at": "2026-10-08T07:17-04:00",
+  "active_since": "2026-10-08T07:17-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "institutional",
+  "event_time": "2026-10-08T03:55-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-10-08-standard-chartered-crypto-custody-singapore-418017"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-08-standard-chartered-crypto-custody-singapore-418017",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-08-standard-chartered-crypto-custody-singapore-418017",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-10-08-standard-chartered-crypto-custody-singapore-418017",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Incremental institutional expansion, planned not live."
+  ],
+  "market_significance": "Another global bank deepening crypto custody in Asia.",
+  "trigger": "The Block report citing a Standard Chartered press release.",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261008_ca131a",
+  "headline": "Spot bitcoin ETFs lose $485 million on October 7, the biggest outflow since June",
+  "summary": "Here's what moved the chain today. Bitcoin ETFs lost four hundred eighty-five million dollars.",
+  "detected_at": "2026-10-08T07:18-04:00",
+  "active_since": "2026-10-08T07:18-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "etf",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://crypto.news/bitcoin-etfs-post-biggest-outflow-since-june/"
+  ],
+  "source_names": [
+   "crypto.news"
+  ],
+  "sources": [
+   {
+    "url": "https://crypto.news/bitcoin-etfs-post-biggest-outflow-since-june/",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://crypto.news/bitcoin-etfs-post-biggest-outflow-since-june/",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/bitcoin-etfs-post-biggest-outflow-since-june/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [
+   {
+    "at": "2026-10-08T07:18-04:00",
+    "headline": "24,073 BTC left exchanges on Monday, the most in seven months",
+    "summary": "Psst... twenty-four thousand bitcoin left exchanges Monday, the most in seven months.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   }
+  ],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261008_c229c7",
+  "headline": "Analysts call the crypto drop a leverage flush as $487 million in longs are liquidated",
+  "summary": "Green candles only! Analysts call this a leverage flush, not a new downtrend.",
+  "detected_at": "2026-10-08T07:18-04:00",
+  "active_since": "2026-10-08T07:18-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "BTC",
+   "ETH",
+   "XRP",
+   "SOL"
+  ],
+  "event_type": "market_move",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://crypto.news/why-are-btc-eth-xrp-and-sol-in-the-red-today/"
+  ],
+  "source_names": [
+   "crypto.news"
+  ],
+  "sources": [
+   {
+    "url": "https://crypto.news/why-are-btc-eth-xrp-and-sol-in-the-red-today/",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://crypto.news/why-are-btc-eth-xrp-and-sol-in-the-red-today/",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/why-are-btc-eth-xrp-and-sol-in-the-red-today/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
   "updates": [],
   "posts": [],

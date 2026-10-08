@@ -1,0 +1,86 @@
+{
+ "story_id": "st_20261008_b64aff",
+ "date_label": "OCT 8",
+ "headline": "Samsung Wallet picks Solana for USDC transfers",
+ "sources": [
+  {
+   "name": "Solana Foundation",
+   "url": "https://solana.com/news/samsung-wallet"
+  },
+  {
+   "name": "CoinDesk",
+   "url": "https://www.coindesk.com/tech/2026/10/08/solana-partners-with-samsung-to-integrate-usdc-in-82-million-phones"
+  },
+  {
+   "name": "Decrypt",
+   "url": "https://decrypt.co/380377/samsung-wallet-taps-solana-for-usdc-transfers-on-82m-us-galaxy-devices"
+  }
+ ],
+ "scenes": [
+  {
+   "beat": "hook",
+   "who": "ledger",
+   "vo": "Samsung is putting stablecoins in the wallet on eighty-two million American Galaxy phones, using Solana. Here's what changed.",
+   "chunks": [
+    "Samsung picks Solana",
+    "*Eighty-two million*",
+    "Galaxy phones"
+   ]
+  },
+  {
+   "beat": "what_happened",
+   "who": "ledger",
+   "vo": "Samsung Wallet and Samsung Pay will support stablecoins on Solana. Starting the last week of October, users in the U S can send USDC across borders, with cash in and out built in.",
+   "chunks": [
+    "Samsung Wallet",
+    "*USDC on Solana*",
+    "Late October launch"
+   ],
+   "stat": {
+    "label": "Sources",
+    "text": "Solana · CoinDesk · Decrypt"
+   }
+  },
+  {
+   "beat": "why_it_matters",
+   "who": "bruno",
+   "vo": "Here's why traders are watching it. Most people will never download a crypto app. This puts digital dollars in a wallet that already ships on their phone.",
+   "chunks": [
+    "No new app",
+    "*Already on the phone*",
+    "Digital dollars"
+   ]
+  },
+  {
+   "beat": "why_it_matters",
+   "who": "ursa",
+   "vo": "The catch. It isn't live yet, it starts in the U S only, and other countries depend on local rules. Users send USDC, not SOL itself.",
+   "chunks": [
+    "Not live yet",
+    "*U.S. only*",
+    "Rules decide the rest"
+   ]
+  },
+  {
+   "beat": "watch_next",
+   "who": "moby",
+   "vo": "Here's what happens next. Watch the late October launch, how many people actually use it, and which countries come next.",
+   "chunks": [
+    "Late October launch",
+    "*Real usage*",
+    "Next countries"
+   ]
+  },
+  {
+   "beat": "cta",
+   "who": "all",
+   "vo": "Follow The Candle Desk for crypto news without the hype. Not financial advice.",
+   "chunks": [
+    "Follow The Candle Desk",
+    "*No hype*",
+    "Just the news"
+   ],
+   "foot": "NOT FINANCIAL ADVICE"
+  }
+ ]
+}
