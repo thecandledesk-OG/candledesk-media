@@ -3540,10 +3540,14 @@
   "metrics": {},
   "emergency": false,
   "source_urls": [
-   "https://www.coindesk.com/markets/2026/10/07/u-s-government-moves-over-usd100-million-in-btc-and-bnb-a-sale-hasn-t-been-confirmed"
+   "https://www.coindesk.com/markets/2026/10/07/u-s-government-moves-over-usd100-million-in-btc-and-bnb-a-sale-hasn-t-been-confirmed",
+   "https://thecryptobasic.com/2026/10/09/bitcoin-update-bitcoin-drops-7-u-s-government-holdings-fall-by-17468-btc-short-term-holders-send-45-6k-btc-to-exchanges/",
+   "https://www.tokenpost.com/news/investing/27667"
   ],
   "source_names": [
-   "CoinDesk"
+   "CoinDesk",
+   "The Crypto Basic",
+   "TokenPost"
   ],
   "sources": [
    {
@@ -3552,6 +3556,20 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://thecryptobasic.com/2026/10/09/bitcoin-update-bitcoin-drops-7-u-s-government-holdings-fall-by-17468-btc-short-term-holders-send-45-6k-btc-to-exchanges/",
+    "name": "The Crypto Basic",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://www.tokenpost.com/news/investing/27667",
+    "name": "TokenPost",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
    }
   ],
   "gate_sources": [
@@ -3561,6 +3579,20 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://thecryptobasic.com/2026/10/09/bitcoin-update-bitcoin-drops-7-u-s-government-holdings-fall-by-17468-btc-short-term-holders-send-45-6k-btc-to-exchanges/",
+    "name": "The Crypto Basic",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://www.tokenpost.com/news/investing/27667",
+    "name": "TokenPost",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
    }
   ],
   "verification_status": "UNVERIFIED",
@@ -3577,6 +3609,20 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "The Crypto Basic",
+     "url": "https://thecryptobasic.com/2026/10/09/bitcoin-update-bitcoin-drops-7-u-s-government-holdings-fall-by-17468-btc-short-term-holders-send-45-6k-btc-to-exchanges/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "TokenPost",
+     "url": "https://www.tokenpost.com/news/investing/27667",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -3596,6 +3642,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-09T07:15-04:00",
+    "headline": "U.S. government bitcoin holdings fall to about 319,086 BTC after transfers, CryptoQuant data shows",
+    "summary": "On-chain data cited by CryptoQuant and aggregators shows tracked U.S. government bitcoin holdings fell by about 17,468 BTC to roughly 319,086 BTC by October 7; analysts link the transfers to bitcoin's roughly 7% weekly drop. No sale has been officially confirmed.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
     "verification": "UNVERIFIED"
    }
   ],
@@ -5584,7 +5639,9 @@
    "https://stocktwits.com/news-articles/markets/cryptocurrency/btc-price-drops-below-81k-1b-crypto-liquidations-stock-selloff/cZDUYIYRBNU",
    "https://fxstreet.com/cryptocurrencies/news/crypto-today-bitcoin-ethereum-xrp-extend-sell-off-amid-etf-outflows-202610081127",
    "https://kucoin.com/news/flash/us-bitcoin-and-ethereum-etfs-record-net-outflows-on-october-8",
-   "https://coindesk.com/markets/2026/10/08/bitcoin-slips-below-usd83-000-as-ethereum-researcher-s-bunker-mode-call-divides-crypto"
+   "https://coindesk.com/markets/2026/10/08/bitcoin-slips-below-usd83-000-as-ethereum-researcher-s-bunker-mode-call-divides-crypto",
+   "https://www.coindesk.com/markets/2026/10/09/bitcoin-steadies-near-usd82-500-after-trump-rules-out-iran-strike-before-midterms",
+   "https://www.coindesk.com/markets/2026/10/09/ether-bets-were-wiped-out-at-six-times-bitcoin-s-rate-in-crypto-s-usd1-billion-flush"
   ],
   "source_names": [
    "crypto.news",
@@ -5595,6 +5652,8 @@
    "Stocktwits",
    "FXStreet",
    "KuCoin News",
+   "CoinDesk",
+   "CoinDesk",
    "CoinDesk"
   ],
   "sources": [
@@ -5660,6 +5719,20 @@
     "kind": "secondary",
     "checked": false,
     "confirms": false
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/09/bitcoin-steadies-near-usd82-500-after-trump-rules-out-iran-strike-before-midterms",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/09/ether-bets-were-wiped-out-at-six-times-bitcoin-s-rate-in-crypto-s-usd1-billion-flush",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
    }
   ],
   "gate_sources": [
@@ -5721,6 +5794,20 @@
    },
    {
     "url": "https://coindesk.com/markets/2026/10/08/bitcoin-slips-below-usd83-000-as-ethereum-researcher-s-bunker-mode-call-divides-crypto",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/09/bitcoin-steadies-near-usd82-500-after-trump-rules-out-iran-strike-before-midterms",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/09/ether-bets-were-wiped-out-at-six-times-bitcoin-s-rate-in-crypto-s-usd1-billion-flush",
     "name": "CoinDesk",
     "kind": "secondary",
     "checked": false,
@@ -5797,6 +5884,20 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/10/09/bitcoin-steadies-near-usd82-500-after-trump-rules-out-iran-strike-before-midterms",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/10/09/ether-bets-were-wiped-out-at-six-times-bitcoin-s-rate-in-crypto-s-usd1-billion-flush",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
     }
    ]
   },
@@ -5834,6 +5935,24 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 3,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-09T07:15-04:00",
+    "headline": "Bitcoin steadies near $82,500 after Trump rules out an Iran strike before the midterms",
+    "summary": "CoinDesk reports bitcoin steadied near $82,500 on October 9 after President Trump ruled out a strike on Iran before the U.S. midterm elections, following this week's oil-driven sell-off.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-09T07:15-04:00",
+    "headline": "Ether bets were wiped out at six times bitcoin's rate in crypto's $1 billion liquidation flush",
+    "summary": "CoinDesk says ether leveraged positions were liquidated at about six times bitcoin's rate during this week's roughly $1 billion liquidation wave.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "UNVERIFIED"
    }
   ],
