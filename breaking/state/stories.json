@@ -2531,10 +2531,12 @@
   "metrics": {},
   "emergency": false,
   "source_urls": [
-   "https://www.coindesk.com/tech/2026/10/06/ethereum-s-glamsterdam-test-gets-last-minute-fix-before-major-capacity-jump"
+   "https://www.coindesk.com/tech/2026/10/06/ethereum-s-glamsterdam-test-gets-last-minute-fix-before-major-capacity-jump",
+   "https://decrypt.co/380538/ethereum-test-raises-block-limit-3x-current-capacity"
   ],
   "source_names": [
-   "CoinDesk"
+   "CoinDesk",
+   "Decrypt"
   ],
   "sources": [
    {
@@ -2542,6 +2544,13 @@
     "name": "CoinDesk",
     "kind": "secondary",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/380538/ethereum-test-raises-block-limit-3x-current-capacity",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -2551,6 +2560,13 @@
     "name": "CoinDesk",
     "kind": "secondary",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/380538/ethereum-test-raises-block-limit-3x-current-capacity",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -2568,6 +2584,13 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/380538/ethereum-test-raises-block-limit-3x-current-capacity",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
     }
    ]
   },
@@ -2579,7 +2602,17 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-09T10:11-04:00",
+    "headline": "Ethereum's Sepolia testnet activates Glamsterdam with a gas limit over 3x mainnet",
+    "summary": "Glamsterdam went live on Sepolia, raising the test network's block limit to more than three times mainnet capacity.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -3290,7 +3323,9 @@
    "https://www.coindesk.com/price/bitcoin",
    "https://crypto.news/why-is-crypto-market-going-down-today/",
    "https://www.investing.com/news/cryptocurrency-news/bitcoin-falls-below-83k-as-meast-tensions-soaring-yields-dent-crypto-appetite-4937967",
-   "https://www.coindesk.com/latest-crypto-news"
+   "https://www.coindesk.com/latest-crypto-news",
+   "https://en.cryptonomist.ch/2026/10/09/bitcoin-price-liquidations-drop/",
+   "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-9-2026"
   ],
   "source_names": [
    "CoinDesk",
@@ -3299,7 +3334,9 @@
    "CoinDesk",
    "crypto.news",
    "Investing.com",
-   "CoinDesk prices"
+   "CoinDesk prices",
+   "The Cryptonomist",
+   "KuCoin News"
   ],
   "sources": [
    {
@@ -3347,6 +3384,20 @@
    {
     "url": "https://www.coindesk.com/latest-crypto-news",
     "name": "CoinDesk prices",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://en.cryptonomist.ch/2026/10/09/bitcoin-price-liquidations-drop/",
+    "name": "The Cryptonomist",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-9-2026",
+    "name": "KuCoin News",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -3398,6 +3449,20 @@
    {
     "url": "https://www.coindesk.com/latest-crypto-news",
     "name": "CoinDesk prices",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://en.cryptonomist.ch/2026/10/09/bitcoin-price-liquidations-drop/",
+    "name": "The Cryptonomist",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-9-2026",
+    "name": "KuCoin News",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -3459,6 +3524,20 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "The Cryptonomist",
+     "url": "https://en.cryptonomist.ch/2026/10/09/bitcoin-price-liquidations-drop/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "KuCoin News",
+     "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-9-2026",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -3515,6 +3594,51 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 2,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-09T10:11-04:00",
+    "headline": "Crypto liquidations hit about $1.1 billion in 24 hours, the most since August 21",
+    "summary": "Here's what moved the chain today. One point one billion dollars in crypto liquidations.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-09T10:11-04:00",
+    "headline": "Bitcoin flushes leverage and rebounds to about $82,500 from $80,350",
+    "summary": "Green candles only! Bitcoin flushed the leverage and bounced to eighty-two thousand five hundred.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-09T10:11-04:00",
+    "headline": "Ten-year Treasury yield hits 5.31% intraday, squeezing risk assets",
+    "summary": "Check the yields first. Ten-year Treasury yields hit five point three one percent.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-09T10:11-04:00",
+    "headline": "Senate Democrat Blumenthal probes ties between Cantor Fitzgerald and Tether",
+    "summary": "Sen. Richard Blumenthal is examining Tether's U.S. financial partnership with Cantor Fitzgerald.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-09T10:11-04:00",
+    "headline": "ESMA gives crypto platforms three months to remove non-MiCA stablecoins",
+    "summary": "The EU securities regulator told platforms to block new access to stablecoins that don't meet MiCA rules within three months.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
     "verification": "UNVERIFIED"
    }
   ],
@@ -6094,6 +6218,666 @@
   ],
   "market_significance": "Context on institutional flows.",
   "trigger": "The Block headline",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261009_3bd733",
+  "headline": "U.S. government moves 12,267 BTC (about $1 billion) tied to the Bitfinex hack, no sale indicated",
+  "summary": "Psst... big wallets are moving. Uncle Sam moved over twelve thousand bitcoin, no exchange deposit.",
+  "detected_at": "2026-10-09T10:11-04:00",
+  "active_since": "2026-10-09T10:11-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "institutional",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/business/2026/10/08/u-s-government-moves-usd1-billion-in-bitcoin-from-bitfinex-hack-wallet-no-sale-indicated"
+  ],
+  "source_names": [
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/business/2026/10/08/u-s-government-moves-usd1-billion-in-bitcoin-from-bitfinex-hack-wallet-no-sale-indicated",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/business/2026/10/08/u-s-government-moves-usd1-billion-in-bitcoin-from-bitfinex-hack-wallet-no-sale-indicated",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/business/2026/10/08/u-s-government-moves-usd1-billion-in-bitcoin-from-bitfinex-hack-wallet-no-sale-indicated",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261009_c32114",
+  "headline": "Starknet weighs becoming its own layer one; STRK jumps about 40%",
+  "summary": "Wildcard: Starknet is weighing becoming its own layer one. Its token jumped forty percent.",
+  "detected_at": "2026-10-09T10:11-04:00",
+  "active_since": "2026-10-09T10:11-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "STRK"
+  ],
+  "event_type": "protocol_upgrade",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.cryptotimes.io/2026/10/09/starknet-strk-price-jumps-40-1-as-network-weighs-move-beyond-ethereum/"
+  ],
+  "source_names": [
+   "The Crypto Times"
+  ],
+  "sources": [
+   {
+    "url": "https://www.cryptotimes.io/2026/10/09/starknet-strk-price-jumps-40-1-as-network-weighs-move-beyond-ethereum/",
+    "name": "The Crypto Times",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.cryptotimes.io/2026/10/09/starknet-strk-price-jumps-40-1-as-network-weighs-move-beyond-ethereum/",
+    "name": "The Crypto Times",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Crypto Times",
+     "url": "https://www.cryptotimes.io/2026/10/09/starknet-strk-price-jumps-40-1-as-network-weighs-move-beyond-ethereum/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261009_7b5ba9",
+  "headline": "Thailand SEC issues bitcoin and ether ETF rules, effective October 16",
+  "summary": "Thailand's securities regulator finalized rules allowing bitcoin and ether ETFs, taking effect October 16.",
+  "detected_at": "2026-10-09T10:11-04:00",
+  "active_since": "2026-10-09T10:11-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "BTC",
+   "ETH"
+  ],
+  "event_type": "etf",
+  "event_time": "2026-10-09T06:40-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/regulation/2026-10-09-thailand-sec-issues-bitcoin-and-ether-etf-rules-set-to-take-effect-oct-16-418132"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-10-09-thailand-sec-issues-bitcoin-and-ether-etf-rules-set-to-take-effect-oct-16-418132",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-10-09-thailand-sec-issues-bitcoin-and-ether-etf-rules-set-to-take-effect-oct-16-418132",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-10-09-thailand-sec-issues-bitcoin-and-ether-etf-rules-set-to-take-effect-oct-16-418132",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Foreign regulator finalizing local ETF rules; no product launch yet"
+  ],
+  "market_significance": "Opens a new regional ETF market for BTC and ETH",
+  "trigger": "The Block latest feed",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261009_38bba5",
+  "headline": "UK sanctions crypto firms Cryptomus and TokenSpot in new Russia package",
+  "summary": "The UK's latest Russia sanctions round names payment processor Cryptomus and TokenSpot.",
+  "detected_at": "2026-10-09T10:11-04:00",
+  "active_since": "2026-10-09T10:11-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "regulatory",
+  "event_time": "2026-10-09T05:00-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://decrypt.co/380568/uk-targets-cryptomus-and-tokenspot-in-new-russia-sanctions-package"
+  ],
+  "source_names": [
+   "Decrypt"
+  ],
+  "sources": [
+   {
+    "url": "https://decrypt.co/380568/uk-targets-cryptomus-and-tokenspot-in-new-russia-sanctions-package",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://decrypt.co/380568/uk-targets-cryptomus-and-tokenspot-in-new-russia-sanctions-package",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/380568/uk-targets-cryptomus-and-tokenspot-in-new-russia-sanctions-package",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Targeted sanctions on two small firms"
+  ],
+  "market_significance": "Continued sanctions pressure on Russia-linked crypto rails",
+  "trigger": "Decrypt news feed",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261009_8b3748",
+  "headline": "Bitcoin life insurer Meanwhile raises $37.5 million led by Bain Capital Crypto",
+  "summary": "Sam Altman-backed Meanwhile raised a $37.5 million round led by Bain Capital Crypto.",
+  "detected_at": "2026-10-09T10:11-04:00",
+  "active_since": "2026-10-09T10:11-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "institutional",
+  "event_time": "2026-10-09T06:33-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/deals/2026-10-09-sam-altman-backed-bitcoin-life-insurer-meanwhile-raises-37-5-million-round-led-by-bain-capital-crypto-418131"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/deals/2026-10-09-sam-altman-backed-bitcoin-life-insurer-meanwhile-raises-37-5-million-round-led-by-bain-capital-crypto-418131",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/deals/2026-10-09-sam-altman-backed-bitcoin-life-insurer-meanwhile-raises-37-5-million-round-led-by-bain-capital-crypto-418131",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/deals/2026-10-09-sam-altman-backed-bitcoin-life-insurer-meanwhile-raises-37-5-million-round-led-by-bain-capital-crypto-418131",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Funding round"
+  ],
+  "market_significance": "Bitcoin-denominated insurance draws VC money",
+  "trigger": "The Block latest feed",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261009_dc03c7",
+  "headline": "Empire Market co-creator sentenced to 40 years over $430 million dark web market",
+  "summary": "A co-creator of the Empire darknet marketplace received a 40-year sentence.",
+  "detected_at": "2026-10-09T10:11-04:00",
+  "active_since": "2026-10-09T10:11-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "legal",
+  "event_time": "2026-10-09T04:00-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://decrypt.co/380561/empire-market-co-creator-sentenced-to-40-years-over-430m-dark-web-bazaar"
+  ],
+  "source_names": [
+   "Decrypt"
+  ],
+  "sources": [
+   {
+    "url": "https://decrypt.co/380561/empire-market-co-creator-sentenced-to-40-years-over-430m-dark-web-bazaar",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://decrypt.co/380561/empire-market-co-creator-sentenced-to-40-years-over-430m-dark-web-bazaar",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/380561/empire-market-co-creator-sentenced-to-40-years-over-430m-dark-web-bazaar",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Criminal sentencing, no market impact"
+  ],
+  "market_significance": "Enforcement against crypto darknet markets",
+  "trigger": "Decrypt news feed",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261009_7a4015",
+  "headline": "Crypto majors drift lower in 'Uptober': SOL down about 3.5%, BTC near $82,500",
+  "summary": "BTC about -0.2%, ETH about -1.1%, XRP about -0.6%, SOL about -3.5% over 24 hours, all below alert thresholds.",
+  "detected_at": "2026-10-09T10:11-04:00",
+  "active_since": "2026-10-09T10:11-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "BTC",
+   "ETH",
+   "XRP",
+   "SOL"
+  ],
+  "event_type": "market_move",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {
+   "pct_move_24h": -3.5
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/price/solana",
+   "https://decrypt.co/380569/morning-minute-uptober-turns-sour-as-crypto-majors-slide"
+  ],
+  "source_names": [
+   "CoinDesk",
+   "Decrypt"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/price/solana",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/380569/morning-minute-uptober-turns-sour-as-crypto-majors-slide",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/price/solana",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/380569/morning-minute-uptober-turns-sour-as-crypto-majors-slide",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/price/solana",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/380569/morning-minute-uptober-turns-sour-as-crypto-majors-slide",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Moves far below thresholds",
+   "price rule: BTC moved 3.5% in 24h (thresholds 7%/12%) -> NORMAL"
+  ],
+  "market_significance": "Slow bleed continues after the leverage flush",
+  "trigger": "CoinDesk price pages",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261009_98db7c",
+  "headline": "Securitize launches 1:1-backed tokenized U.S. stocks on Solana, with NYSE trading planned",
+  "summary": "Securitize rolled out tokenized Apple, Nvidia, Tesla and Strategy shares on Solana, backed one-to-one.",
+  "detected_at": "2026-10-09T10:11-04:00",
+  "active_since": "2026-10-09T10:11-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "SOL"
+  ],
+  "event_type": "partnership",
+  "event_time": "2026-10-08T10:04-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/markets/2026-10-08-securitize-launches-tokenized-us-stocks-solana-418043"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-10-08-securitize-launches-tokenized-us-stocks-solana-418043",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-10-08-securitize-launches-tokenized-us-stocks-solana-418043",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/markets/2026-10-08-securitize-launches-tokenized-us-stocks-solana-418043",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Product launch reported Oct 8 morning; old for a Short"
+  ],
+  "market_significance": "Tokenized equities on Solana",
+  "trigger": "The Block latest feed",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261009_919524",
+  "headline": "100 bitcoin mined in 2010 move for the first time in 16 years",
+  "summary": "About 100 BTC from 2010 mining rewards, worth about $8.3 million, moved on-chain.",
+  "detected_at": "2026-10-09T10:11-04:00",
+  "active_since": "2026-10-09T10:11-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "other",
+  "event_time": "2026-10-08T12:00-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://decrypt.co/380514/satoshi-era-bitcoin-mined-2010-moves-16-years"
+  ],
+  "source_names": [
+   "Decrypt"
+  ],
+  "sources": [
+   {
+    "url": "https://decrypt.co/380514/satoshi-era-bitcoin-mined-2010-moves-16-years",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://decrypt.co/380514/satoshi-era-bitcoin-mined-2010-moves-16-years",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/380514/satoshi-era-bitcoin-mined-2010-moves-16-years",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Dormant coin movement"
+  ],
+  "market_significance": "On-chain curiosity",
+  "trigger": "Decrypt news feed",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
