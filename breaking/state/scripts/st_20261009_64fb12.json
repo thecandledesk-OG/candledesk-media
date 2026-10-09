@@ -1,0 +1,43 @@
+{
+ "story_id": "st_20261009_64fb12",
+ "date_label": "OCT 9",
+ "headline": "Ledger probes reported wallet drains tied to a reseller",
+ "sources": [
+  {"name": "CoinDesk", "url": "https://www.coindesk.com/business/2026/10/09/ledger-investigates-potential-wallet-tampering-after-reports-of-usd86-million-in-crypto-stolen"},
+  {"name": "The Block", "url": "https://www.theblock.co/news/business/2026-10-09-ledger-cryptobilis-fund-losses-418163"}
+ ],
+ "scenes": [
+  {
+   "beat": "hook",
+   "who": "ledger",
+   "vo": "Ledger is investigating reports that buyers from one of its resellers lost crypto. Blockchain sleuths estimate more than eighty-six million dollars. Here's what changed.",
+   "chunks": ["Ledger probe", "*Over eighty-six million*", "Reported drained"]
+  },
+  {
+   "beat": "what_happened",
+   "who": "ledger",
+   "vo": "The reports involve CryptoBilis, an official reseller in Indonesia, Malaysia and the Philippines. Ledger told it to pause all sales and shipments while it investigates.",
+   "chunks": ["One reseller", "*Sales paused*", "Southeast Asia"],
+   "stat": {"label": "Sources", "text": "CoinDesk · The Block"}
+  },
+  {
+   "beat": "why_it_matters",
+   "who": "ursa",
+   "vo": "The catch. Ledger has not confirmed the amount or the cause. There is no confirmed sign its own systems were hacked. One theory is tampered devices sold through that reseller.",
+   "chunks": ["Amount unconfirmed", "*Cause unknown*", "Tampering suspected"]
+  },
+  {
+   "beat": "watch_next",
+   "who": "moby",
+   "vo": "Bought from that reseller in the last ninety days? Ledger says don't set it up. If you already did, move funds to a new device with a new recovery phrase. Watch for Ledger's findings.",
+   "chunks": ["Bought there?", "*Don't set it up*", "New recovery phrase"]
+  },
+  {
+   "beat": "cta",
+   "who": "all",
+   "vo": "Follow The Candle Desk for crypto news without the hype. Not financial advice.",
+   "chunks": ["Follow The Candle Desk", "*No hype*", "Just the news"],
+   "foot": "NOT FINANCIAL ADVICE"
+  }
+ ]
+}
