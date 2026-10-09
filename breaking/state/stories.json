@@ -6734,11 +6734,15 @@
   "emergency": false,
   "source_urls": [
    "https://www.coindesk.com/price/solana",
-   "https://decrypt.co/380569/morning-minute-uptober-turns-sour-as-crypto-majors-slide"
+   "https://decrypt.co/380569/morning-minute-uptober-turns-sour-as-crypto-majors-slide",
+   "https://blockchainreporter.net/bitcoin-price-today-btc-rebounds-above-82000",
+   "https://fxstreet.com/cryptocurrencies/news/cryptocurrencies-price-prediction-xrp-bitcoin-cryptos-american-wrap-09-october-202610091615"
   ],
   "source_names": [
    "CoinDesk",
-   "Decrypt"
+   "Decrypt",
+   "Blockchain Reporter",
+   "FXStreet"
   ],
   "sources": [
    {
@@ -6754,6 +6758,20 @@
     "kind": "secondary",
     "checked": false,
     "confirms": true
+   },
+   {
+    "url": "https://blockchainreporter.net/bitcoin-price-today-btc-rebounds-above-82000",
+    "name": "Blockchain Reporter",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://fxstreet.com/cryptocurrencies/news/cryptocurrencies-price-prediction-xrp-bitcoin-cryptos-american-wrap-09-october-202610091615",
+    "name": "FXStreet",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
    }
   ],
   "gate_sources": [
@@ -6770,6 +6788,20 @@
     "kind": "secondary",
     "checked": false,
     "confirms": true
+   },
+   {
+    "url": "https://blockchainreporter.net/bitcoin-price-today-btc-rebounds-above-82000",
+    "name": "Blockchain Reporter",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://fxstreet.com/cryptocurrencies/news/cryptocurrencies-price-prediction-xrp-bitcoin-cryptos-american-wrap-09-october-202610091615",
+    "name": "FXStreet",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
    }
   ],
   "verification_status": "UNVERIFIED",
@@ -6793,6 +6825,20 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "Blockchain Reporter",
+     "url": "https://blockchainreporter.net/bitcoin-price-today-btc-rebounds-above-82000",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "FXStreet",
+     "url": "https://fxstreet.com/cryptocurrencies/news/cryptocurrencies-price-prediction-xrp-bitcoin-cryptos-american-wrap-09-october-202610091615",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -6805,7 +6851,17 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-09T19:14-04:00",
+    "headline": "Bitcoin rebounds above $82,000 after a soft start to October",
+    "summary": "Bitcoin climbed back above $82,000 on October 9; majors remain within normal daily ranges. Headline-level only; pages could not be opened this run.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -7850,6 +7906,78 @@
   ],
   "market_significance": "Wallet safety reminder for viewers.",
   "trigger": "WebSearch results",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261009_b5d124",
+  "headline": "XRP ETFs take in money as bitcoin and ether funds lose about $317 million",
+  "summary": "Reported fund-flow data show XRP ETFs adding inflows while bitcoin and ether ETFs saw combined outflows of roughly $317 million. Not opened this run (fetch unavailable); headline-level only.",
+  "detected_at": "2026-10-09T19:14-04:00",
+  "active_since": "2026-10-09T19:14-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "XRP",
+   "BTC",
+   "ETH"
+  ],
+  "event_type": "etf",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://247wallst.com/investing/cryptocurrency/2026/10/09/xrp-etfs-gain-as-bitcoin-and-ethereum-funds-lose-317-million-is-it-a-trend"
+  ],
+  "source_names": [
+   "24/7 Wall St."
+  ],
+  "sources": [
+   {
+    "url": "https://247wallst.com/investing/cryptocurrency/2026/10/09/xrp-etfs-gain-as-bitcoin-and-ethereum-funds-lose-317-million-is-it-a-trend",
+    "name": "24/7 Wall St.",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://247wallst.com/investing/cryptocurrency/2026/10/09/xrp-etfs-gain-as-bitcoin-and-ethereum-funds-lose-317-million-is-it-a-trend",
+    "name": "24/7 Wall St.",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "24/7 Wall St.",
+     "url": "https://247wallst.com/investing/cryptocurrency/2026/10/09/xrp-etfs-gain-as-bitcoin-and-ethereum-funds-lose-317-million-is-it-a-trend",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Routine weekly fund-flow update"
+  ],
+  "market_significance": "Shows rotation within crypto ETFs",
+  "trigger": "WebSearch headline",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
