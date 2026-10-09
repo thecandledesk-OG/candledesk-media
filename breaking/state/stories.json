@@ -5765,7 +5765,9 @@
    "https://kucoin.com/news/flash/us-bitcoin-and-ethereum-etfs-record-net-outflows-on-october-8",
    "https://coindesk.com/markets/2026/10/08/bitcoin-slips-below-usd83-000-as-ethereum-researcher-s-bunker-mode-call-divides-crypto",
    "https://www.coindesk.com/markets/2026/10/09/bitcoin-steadies-near-usd82-500-after-trump-rules-out-iran-strike-before-midterms",
-   "https://www.coindesk.com/markets/2026/10/09/ether-bets-were-wiped-out-at-six-times-bitcoin-s-rate-in-crypto-s-usd1-billion-flush"
+   "https://www.coindesk.com/markets/2026/10/09/ether-bets-were-wiped-out-at-six-times-bitcoin-s-rate-in-crypto-s-usd1-billion-flush",
+   "https://cryptobriefing.com/bitcoin-slides-toward-80k-as-crypto-long-liquidations-top-1-billion/",
+   "https://www.benzinga.com/crypto/cryptocurrency/26/10/62263108/bitcoin-slides-to-80000-as-ethereum-xrp-dogecoin-trigger-1b-liquidation-cascade"
   ],
   "source_names": [
    "crypto.news",
@@ -5778,7 +5780,9 @@
    "KuCoin News",
    "CoinDesk",
    "CoinDesk",
-   "CoinDesk"
+   "CoinDesk",
+   "Crypto Briefing",
+   "Benzinga"
   ],
   "sources": [
    {
@@ -5854,6 +5858,20 @@
    {
     "url": "https://www.coindesk.com/markets/2026/10/09/ether-bets-were-wiped-out-at-six-times-bitcoin-s-rate-in-crypto-s-usd1-billion-flush",
     "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://cryptobriefing.com/bitcoin-slides-toward-80k-as-crypto-long-liquidations-top-1-billion/",
+    "name": "Crypto Briefing",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62263108/bitcoin-slides-to-80000-as-ethereum-xrp-dogecoin-trigger-1b-liquidation-cascade",
+    "name": "Benzinga",
     "kind": "secondary",
     "checked": false,
     "confirms": false
@@ -5933,6 +5951,20 @@
    {
     "url": "https://www.coindesk.com/markets/2026/10/09/ether-bets-were-wiped-out-at-six-times-bitcoin-s-rate-in-crypto-s-usd1-billion-flush",
     "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://cryptobriefing.com/bitcoin-slides-toward-80k-as-crypto-long-liquidations-top-1-billion/",
+    "name": "Crypto Briefing",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62263108/bitcoin-slides-to-80000-as-ethereum-xrp-dogecoin-trigger-1b-liquidation-cascade",
+    "name": "Benzinga",
     "kind": "secondary",
     "checked": false,
     "confirms": false
@@ -6022,6 +6054,20 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "Crypto Briefing",
+     "url": "https://cryptobriefing.com/bitcoin-slides-toward-80k-as-crypto-long-liquidations-top-1-billion/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Benzinga",
+     "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62263108/bitcoin-slides-to-80000-as-ethereum-xrp-dogecoin-trigger-1b-liquidation-cascade",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -6086,6 +6132,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-09T16:19-04:00",
+    "headline": "Bitcoin slides toward $80,000 as crypto liquidations top $1 billion",
+    "summary": "Bitcoin fell toward $80,000 with long liquidations across BTC, ETH, XRP and DOGE reported above $1 billion. Market dipped about 2.5% per secondary reports; 24h moves well below thresholds. Pages could not be opened this run.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
     "verification": "UNVERIFIED"
    }
   ],
@@ -7038,10 +7093,14 @@
   "metrics": {},
   "emergency": false,
   "source_urls": [
-   "https://www.theblock.co/news/regulation/2026-10-09-us-targets-1-billion-iran-linked-crypto-seizure-bessent-says-we-know-where-it-is-418151"
+   "https://www.theblock.co/news/regulation/2026-10-09-us-targets-1-billion-iran-linked-crypto-seizure-bessent-says-we-know-where-it-is-418151",
+   "https://www.theblock.co/post/403075/us-has-seized-nearly-1-billion-in-crypto-from-iran-bessent-says",
+   "https://decrypt.co/369522/treasurys-bessent-says-us-grabbed-1-billion-crypto-iran"
   ],
   "source_names": [
-   "The Block"
+   "The Block",
+   "The Block",
+   "Decrypt"
   ],
   "sources": [
    {
@@ -7050,6 +7109,20 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/post/403075/us-has-seized-nearly-1-billion-in-crypto-from-iran-bessent-says",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://decrypt.co/369522/treasurys-bessent-says-us-grabbed-1-billion-crypto-iran",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
    }
   ],
   "gate_sources": [
@@ -7059,6 +7132,20 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/post/403075/us-has-seized-nearly-1-billion-in-crypto-from-iran-bessent-says",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://decrypt.co/369522/treasurys-bessent-says-us-grabbed-1-billion-crypto-iran",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
    }
   ],
   "verification_status": "UNVERIFIED",
@@ -7075,6 +7162,20 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/post/403075/us-has-seized-nearly-1-billion-in-crypto-from-iran-bessent-says",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/369522/treasurys-bessent-says-us-grabbed-1-billion-crypto-iran",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
     }
    ]
   },
@@ -7086,7 +7187,17 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-09T16:19-04:00",
+    "headline": "Bessent says the U.S. has now seized nearly $1 billion in Iranian crypto",
+    "summary": "Treasury Secretary Scott Bessent said the U.S. has already seized close to $1 billion in Iran-linked crypto, after earlier saying a seizure was likely this week. Reported by The Block and Decrypt; pages could not be opened this run.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -7669,6 +7780,76 @@
   ],
   "market_significance": "Institutional tooling on XRPL.",
   "trigger": "CoinDesk",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261009_131da0",
+  "headline": "Sixteen malicious Firefox extensions pose as Rabby and OKX wallets to steal recovery phrases",
+  "summary": "Security researchers reported 16 fake Firefox add-ons imitating Rabby and OKX wallets that harvest seed phrases. Page could not be opened this run.",
+  "detected_at": "2026-10-09T16:19-04:00",
+  "active_since": "2026-10-09T16:19-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "ETH"
+  ],
+  "event_type": "hack_exploit",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://thehackernews.com/2026/10/16-malicious-firefox-extensions-pose-as.html"
+  ],
+  "source_names": [
+   "The Hacker News"
+  ],
+  "sources": [
+   {
+    "url": "https://thehackernews.com/2026/10/16-malicious-firefox-extensions-pose-as.html",
+    "name": "The Hacker News",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://thehackernews.com/2026/10/16-malicious-firefox-extensions-pose-as.html",
+    "name": "The Hacker News",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Hacker News",
+     "url": "https://thehackernews.com/2026/10/16-malicious-firefox-extensions-pose-as.html",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Phishing campaign, no confirmed loss total."
+  ],
+  "market_significance": "Wallet safety reminder for viewers.",
+  "trigger": "WebSearch results",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
