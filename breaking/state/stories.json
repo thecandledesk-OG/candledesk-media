@@ -8073,10 +8073,12 @@
   "metrics": {},
   "emergency": false,
   "source_urls": [
-   "https://247wallst.com/investing/cryptocurrency/2026/10/09/xrp-etfs-gain-as-bitcoin-and-ethereum-funds-lose-317-million-is-it-a-trend"
+   "https://247wallst.com/investing/cryptocurrency/2026/10/09/xrp-etfs-gain-as-bitcoin-and-ethereum-funds-lose-317-million-is-it-a-trend",
+   "https://www.theblock.co/news/markets/2026-10-10-ether-etfs-extend-outflow-streak-to-nine-days-as-solana-funds-snap-record-14-week-inflow-run-418215"
   ],
   "source_names": [
-   "24/7 Wall St."
+   "24/7 Wall St.",
+   "The Block"
   ],
   "sources": [
    {
@@ -8085,6 +8087,13 @@
     "kind": "other",
     "checked": false,
     "confirms": false
+   },
+   {
+    "url": "https://www.theblock.co/news/markets/2026-10-10-ether-etfs-extend-outflow-streak-to-nine-days-as-solana-funds-snap-record-14-week-inflow-run-418215",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -8094,15 +8103,22 @@
     "kind": "other",
     "checked": false,
     "confirms": false
+   },
+   {
+    "url": "https://www.theblock.co/news/markets/2026-10-10-ether-etfs-extend-outflow-streak-to-nine-days-as-solana-funds-snap-record-14-week-inflow-run-418215",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "UNVERIFIED",
   "verification": {
    "status": "UNVERIFIED",
-   "independent_sources": 0,
+   "independent_sources": 1,
    "has_primary": false,
-   "score": 0.0,
-   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
    "sources_checked": [
     {
      "name": "24/7 Wall St.",
@@ -8110,6 +8126,13 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/markets/2026-10-10-ether-etfs-extend-outflow-streak-to-nine-days-as-solana-funds-snap-record-14-week-inflow-run-418215",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -8121,7 +8144,17 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-10T13:09-04:00",
+    "headline": "Crypto ETFs lose about $1.25 billion in a week as ether funds extend outflow streak to nine days and Solana funds end 14-week inflow run",
+    "summary": "U.S. spot ether ETFs lost $542.1 million last week, nine straight days of outflows, while Solana ETFs saw $24.8 million out, ending a record 14-week inflow streak. Bitcoin ETFs lost $681.1 million. Data from SoSoValue via The Block.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
