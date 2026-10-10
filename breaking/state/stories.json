@@ -5672,15 +5672,24 @@
   "metrics": {},
   "emergency": false,
   "source_urls": [
-   "https://crypto.news/bitcoin-etfs-post-biggest-outflow-since-june/"
+   "https://crypto.news/bitcoin-etfs-post-biggest-outflow-since-june/",
+   "https://247wallst.com/investing/cryptocurrency/2026/10/09/xrp-etfs-gain-as-bitcoin-and-ethereum-funds-lose-317-million-is-it-a-trend/"
   ],
   "source_names": [
-   "crypto.news"
+   "crypto.news",
+   "24/7 Wall St."
   ],
   "sources": [
    {
     "url": "https://crypto.news/bitcoin-etfs-post-biggest-outflow-since-june/",
     "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://247wallst.com/investing/cryptocurrency/2026/10/09/xrp-etfs-gain-as-bitcoin-and-ethereum-funds-lose-317-million-is-it-a-trend/",
+    "name": "24/7 Wall St.",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -5690,6 +5699,13 @@
    {
     "url": "https://crypto.news/bitcoin-etfs-post-biggest-outflow-since-june/",
     "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://247wallst.com/investing/cryptocurrency/2026/10/09/xrp-etfs-gain-as-bitcoin-and-ethereum-funds-lose-317-million-is-it-a-trend/",
+    "name": "24/7 Wall St.",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -5706,6 +5722,13 @@
     {
      "name": "crypto.news",
      "url": "https://crypto.news/bitcoin-etfs-post-biggest-outflow-since-june/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "24/7 Wall St.",
+     "url": "https://247wallst.com/investing/cryptocurrency/2026/10/09/xrp-etfs-gain-as-bitcoin-and-ethereum-funds-lose-317-million-is-it-a-trend/",
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
@@ -5728,6 +5751,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-10T10:08-04:00",
+    "headline": "U.S. bitcoin and ether ETFs lose $317 million",
+    "summary": "Check the yields first. American bitcoin and Ether funds just lost three hundred seventeen million dollars.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "UNVERIFIED"
    }
   ],
@@ -6448,10 +6480,12 @@
   "metrics": {},
   "emergency": false,
   "source_urls": [
-   "https://www.theblock.co/news/regulation/2026-10-09-thailand-sec-issues-bitcoin-and-ether-etf-rules-set-to-take-effect-oct-16-418132"
+   "https://www.theblock.co/news/regulation/2026-10-09-thailand-sec-issues-bitcoin-and-ether-etf-rules-set-to-take-effect-oct-16-418132",
+   "https://crypto.news/thailand-to-allow-bitcoin-ethereum-etfs/"
   ],
   "source_names": [
-   "The Block"
+   "The Block",
+   "crypto.news"
   ],
   "sources": [
    {
@@ -6459,6 +6493,13 @@
     "name": "The Block",
     "kind": "secondary",
     "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://crypto.news/thailand-to-allow-bitcoin-ethereum-etfs/",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
     "confirms": true
    }
   ],
@@ -6468,6 +6509,13 @@
     "name": "The Block",
     "kind": "secondary",
     "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://crypto.news/thailand-to-allow-bitcoin-ethereum-etfs/",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
     "confirms": true
    }
   ],
@@ -6485,6 +6533,13 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/thailand-to-allow-bitcoin-ethereum-etfs/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -6494,9 +6549,19 @@
   "market_significance": "Opens a new regional ETF market for BTC and ETH",
   "trigger": "The Block latest feed",
   "content_created": false,
-  "publication_status": "QUEUED_FOR_DAILY",
+  "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-10T10:08-04:00",
+    "headline": "Thailand clears bitcoin and ether ETFs starting October 16",
+    "summary": "Green candles only! Thailand clears bitcoin and Ether ETFs, starting October sixteenth!",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -7054,9 +7119,19 @@
   "market_significance": "On-chain curiosity",
   "trigger": "Decrypt news feed",
   "content_created": false,
-  "publication_status": "QUEUED_FOR_DAILY",
+  "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-10T10:08-04:00",
+    "headline": "100 bitcoin mined in 2010 move after 16 years",
+    "summary": "Psst... one hundred bitcoin mined in twenty ten just woke up after sixteen years.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -7962,9 +8037,19 @@
   "market_significance": "Wallet safety reminder for viewers.",
   "trigger": "WebSearch results",
   "content_created": false,
-  "publication_status": "QUEUED_FOR_DAILY",
+  "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-10T10:08-04:00",
+    "headline": "Sixteen fake Firefox wallet extensions steal recovery phrases",
+    "summary": "Wildcard: sixteen fake Firefox wallet extensions are stealing recovery phrases. Check before installing.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -8152,6 +8237,287 @@
   ],
   "market_significance": "Puts a self-custody crypto wallet in front of Telegram's very large user base over the coming weeks.",
   "trigger": "Walt post and Durov Telegram post, reported by Crypto Times and TechFlow on October 9-10.",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261010_43bcaf",
+  "headline": "Crypto Fear and Greed index jumps to 64",
+  "summary": "Here's what moved the chain today. Fear and Greed just jumped to sixty-four.",
+  "detected_at": "2026-10-10T10:08-04:00",
+  "active_since": "2026-10-10T10:08-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "TOTAL_MARKET",
+   "BTC"
+  ],
+  "event_type": "market_move",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-10-2026"
+  ],
+  "source_names": [
+   "KuCoin News"
+  ],
+  "sources": [
+   {
+    "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-10-2026",
+    "name": "KuCoin News",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-10-2026",
+    "name": "KuCoin News",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "KuCoin News",
+     "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-10-2026",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261010_4d345d",
+  "headline": "CFTC moves to fold event contracts into its swaps rules as the prediction-market legal fight continues",
+  "summary": "CoinDesk reports the CFTC is moving to bring event contracts under its swaps regulations while court fights over prediction markets continue. Article not opened this run; details unconfirmed.",
+  "detected_at": "2026-10-10T10:24-04:00",
+  "active_since": "2026-10-10T10:24-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "regulatory",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/policy/2026/10/09/u-s-cftc-moves-to-fold-event-contracts-into-swaps-regulations-as-legal-fight-rages"
+  ],
+  "source_names": [
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/policy/2026/10/09/u-s-cftc-moves-to-fold-event-contracts-into-swaps-regulations-as-legal-fight-rages",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/policy/2026/10/09/u-s-cftc-moves-to-fold-event-contracts-into-swaps-regulations-as-legal-fight-rages",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/policy/2026/10/09/u-s-cftc-moves-to-fold-event-contracts-into-swaps-regulations-as-legal-fight-rages",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Regulatory step on prediction markets, not a crypto-asset decision; only seen in a headline listing."
+  ],
+  "market_significance": "Shapes how prediction markets on crypto platforms are regulated.",
+  "trigger": "CoinDesk latest-news listing",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261010_611943",
+  "headline": "Robinhood Chain considers technology that gives paying traders transaction priority",
+  "summary": "CoinDesk reports Robinhood Chain is weighing technology that would let traders pay for priority ordering. Consideration only, nothing launched.",
+  "detected_at": "2026-10-10T10:24-04:00",
+  "active_since": "2026-10-10T10:24-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "ETH"
+  ],
+  "event_type": "exchange",
+  "event_time": null,
+  "scheduled_event": true,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/business/2026/10/09/robinhood-chain-considers-technology-that-gives-paying-traders-priority"
+  ],
+  "source_names": [
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/business/2026/10/09/robinhood-chain-considers-technology-that-gives-paying-traders-priority",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/business/2026/10/09/robinhood-chain-considers-technology-that-gives-paying-traders-priority",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/business/2026/10/09/robinhood-chain-considers-technology-that-gives-paying-traders-priority",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Under consideration, not live."
+  ],
+  "market_significance": "Raises fairness questions about ordering on Robinhood's layer two.",
+  "trigger": "CoinDesk latest-news listing",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261010_49b089",
+  "headline": "Senate Democrat presses Cantor Fitzgerald on Tether ties and Lutnick family profits",
+  "summary": "Decrypt reports a Senate Democrat sent questions to Cantor Fitzgerald about its Tether relationship and profits tied to the Lutnick family.",
+  "detected_at": "2026-10-10T10:24-04:00",
+  "active_since": "2026-10-10T10:24-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "USDT"
+  ],
+  "event_type": "regulatory",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://decrypt.co/380619/senate-democrat-cantor-fitzgerald-tether-lutnick"
+  ],
+  "source_names": [
+   "Decrypt"
+  ],
+  "sources": [
+   {
+    "url": "https://decrypt.co/380619/senate-democrat-cantor-fitzgerald-tether-lutnick",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://decrypt.co/380619/senate-democrat-cantor-fitzgerald-tether-lutnick",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/380619/senate-democrat-cantor-fitzgerald-tether-lutnick",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Political letter, no regulatory action."
+  ],
+  "market_significance": "Political scrutiny of Tether's U.S. banking ties.",
+  "trigger": "Decrypt news listing",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
