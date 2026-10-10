@@ -2,7 +2,7 @@
   "_help": "Breaking News Engine settings. Edit values here; every run reads this file fresh. Times are America/New_York.",
 
   "_mode": "Approval mode since Oct 4, 2026: Shorts are rendered and saved as Buffer drafts; Aaron approves each one. Auto-publish stays off until he says so.",
-  "_schedule": "Back to hourly (6 AM-11 PM ET) since Oct 10, 2026, after the Buffer upgrade.",
+  "_schedule": "Every 3 hours (7 AM-10 PM ET) to fit the current Claude plan; back to hourly (6 AM-11 PM ET) if Aaron upgrades his Claude plan. Buffer is on an unlimited plan since Oct 10, 2026.",
   "BREAKING_NEWS_ENABLED": true,
   "DRY_RUN": false,
   "AUTO_PUBLISH_LEVEL_2": false,
