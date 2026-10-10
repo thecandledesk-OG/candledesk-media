@@ -8039,5 +8039,124 @@
   "updates": [],
   "posts": [],
   "needs_followup": false
+ },
+ {
+  "id": "st_20261010_3c9372",
+  "headline": "Telegram renames its Gram wallet 'Money' and widens access inside the messenger",
+  "summary": "Telegram's invite-only Gram wallet is now called Money, a non-custodial wallet for storing and sending GRAM and buying gifts and usernames; Walt, the former Wallet in Telegram, says access is widening, while Durov says rollout is gradual over coming weeks. GRAM rose about 8.7% to roughly $1.47 on October 9 per CoinGecko.",
+  "detected_at": "2026-10-10T07:16-04:00",
+  "active_since": "2026-10-10T07:16-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "GRAM",
+   "TON"
+  ],
+  "event_type": "exchange",
+  "event_time": "2026-10-09T14:25-04:00",
+  "scheduled_event": false,
+  "metrics": {
+   "pct_move_24h": 8.7
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://www.cryptotimes.io/2026/10/10/gram-rises-8-7-as-telegram-expands-money-wallet-access/",
+   "https://www.techflowpost.com/en-US/article/34450",
+   "https://t.me/durov/546"
+  ],
+  "source_names": [
+   "Crypto Times",
+   "TechFlow",
+   "Pavel Durov (Telegram)"
+  ],
+  "sources": [
+   {
+    "url": "https://www.cryptotimes.io/2026/10/10/gram-rises-8-7-as-telegram-expands-money-wallet-access/",
+    "name": "Crypto Times",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.techflowpost.com/en-US/article/34450",
+    "name": "TechFlow",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://t.me/durov/546",
+    "name": "Pavel Durov (Telegram)",
+    "kind": "social",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.cryptotimes.io/2026/10/10/gram-rises-8-7-as-telegram-expands-money-wallet-access/",
+    "name": "Crypto Times",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.techflowpost.com/en-US/article/34450",
+    "name": "TechFlow",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://t.me/durov/546",
+    "name": "Pavel Durov (Telegram)",
+    "kind": "social",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Crypto Times",
+     "url": "https://www.cryptotimes.io/2026/10/10/gram-rises-8-7-as-telegram-expands-money-wallet-access/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "TechFlow",
+     "url": "https://www.techflowpost.com/en-US/article/34450",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Pavel Durov (Telegram)",
+     "url": "https://t.me/durov/546",
+     "category": "social",
+     "counts": false,
+     "note": "social/community post — can trigger investigation, never verifies"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Product rollout with a single-digit token move; not market-wide."
+  ],
+  "market_significance": "Puts a self-custody crypto wallet in front of Telegram's very large user base over the coming weeks.",
+  "trigger": "Walt post and Durov Telegram post, reported by Crypto Times and TechFlow on October 9-10.",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
  }
 ]
