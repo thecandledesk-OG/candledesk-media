@@ -6736,13 +6736,17 @@
    "https://www.coindesk.com/price/solana",
    "https://decrypt.co/380569/morning-minute-uptober-turns-sour-as-crypto-majors-slide",
    "https://blockchainreporter.net/bitcoin-price-today-btc-rebounds-above-82000",
-   "https://fxstreet.com/cryptocurrencies/news/cryptocurrencies-price-prediction-xrp-bitcoin-cryptos-american-wrap-09-october-202610091615"
+   "https://fxstreet.com/cryptocurrencies/news/cryptocurrencies-price-prediction-xrp-bitcoin-cryptos-american-wrap-09-october-202610091615",
+   "https://www.riotimesonline.com/crypto-markets-bitcoin-majors-friday-october-9-2026",
+   "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-october-9-2026-bitcoin-ethereum-open-at-lowest-levels-in-about-3-weeks-113350511.html"
   ],
   "source_names": [
    "CoinDesk",
    "Decrypt",
    "Blockchain Reporter",
-   "FXStreet"
+   "FXStreet",
+   "Rio Times",
+   "Yahoo Finance"
   ],
   "sources": [
    {
@@ -6770,6 +6774,20 @@
     "url": "https://fxstreet.com/cryptocurrencies/news/cryptocurrencies-price-prediction-xrp-bitcoin-cryptos-american-wrap-09-october-202610091615",
     "name": "FXStreet",
     "kind": "other",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://www.riotimesonline.com/crypto-markets-bitcoin-majors-friday-october-9-2026",
+    "name": "Rio Times",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-october-9-2026-bitcoin-ethereum-open-at-lowest-levels-in-about-3-weeks-113350511.html",
+    "name": "Yahoo Finance",
+    "kind": "secondary",
     "checked": false,
     "confirms": false
    }
@@ -6800,6 +6818,20 @@
     "url": "https://fxstreet.com/cryptocurrencies/news/cryptocurrencies-price-prediction-xrp-bitcoin-cryptos-american-wrap-09-october-202610091615",
     "name": "FXStreet",
     "kind": "other",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://www.riotimesonline.com/crypto-markets-bitcoin-majors-friday-october-9-2026",
+    "name": "Rio Times",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-october-9-2026-bitcoin-ethereum-open-at-lowest-levels-in-about-3-weeks-113350511.html",
+    "name": "Yahoo Finance",
+    "kind": "secondary",
     "checked": false,
     "confirms": false
    }
@@ -6839,6 +6871,20 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Rio Times",
+     "url": "https://www.riotimesonline.com/crypto-markets-bitcoin-majors-friday-october-9-2026",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-october-9-2026-bitcoin-ethereum-open-at-lowest-levels-in-about-3-weeks-113350511.html",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
     }
    ]
   },
@@ -6856,6 +6902,15 @@
     "at": "2026-10-09T19:14-04:00",
     "headline": "Bitcoin rebounds above $82,000 after a soft start to October",
     "summary": "Bitcoin climbed back above $82,000 on October 9; majors remain within normal daily ranges. Headline-level only; pages could not be opened this run.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-09T22:14-04:00",
+    "headline": "Bitcoin ends the week about 2.8% lower near $82,100 while ether falls about 6.8%",
+    "summary": "Weekly wrap: bitcoin closed Friday around $82,123, down about 2.8% on the week; ether fell about 6.8%. BTC and ETH opened Friday at their lowest levels in about three weeks. No single catalyst; oil and Treasury yields remain the macro backdrop.",
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 2,
