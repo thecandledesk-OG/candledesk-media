@@ -7108,6 +7108,15 @@
     "level": "NORMAL",
     "sources_added": 1,
     "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-11T19:09-04:00",
+    "headline": "Quiet Sunday: bitcoin near $82,800, ether, XRP and solana move less than 1%",
+    "summary": "Majors were flat over 24 hours: BTC about $82,800 (+0.3%), ETH about $2,500 (+0.4%), XRP about $1.39 (-0.8%), SOL about $109 (-0.2%).",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
    }
   ],
   "posts": [],
@@ -9300,6 +9309,78 @@
   ],
   "market_significance": "Official IMF view on tokenized stocks as Solana, Robinhood and others push the products",
   "trigger": "CoinDesk latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261011_40c693",
+  "headline": "Trader nets about $1.28 million on new 1,000x exchange Papertrade by moving Hyperliquid's ETH prices",
+  "summary": "The Block reports a trader made roughly $1.28 million on Papertrade, a new exchange offering up to 1,000x leverage, by pushing ETH prices on Hyperliquid, which Papertrade relies on. Details come from one outlet so far.",
+  "detected_at": "2026-10-11T19:09-04:00",
+  "active_since": "2026-10-11T19:09-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "ETH"
+  ],
+  "event_type": "market_move",
+  "event_time": "2026-10-11T18:26-04:00",
+  "scheduled_event": false,
+  "metrics": {
+   "loss_usd": 1280000
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/latest-crypto-news"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/latest-crypto-news",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/latest-crypto-news",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/latest-crypto-news",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Single-outlet report on a small venue; loss well under hack thresholds."
+  ],
+  "market_significance": "Shows the risk of thin price feeds on very high leverage venues.",
+  "trigger": "The Block latest news, Oct 11 6:26 PM ET",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
