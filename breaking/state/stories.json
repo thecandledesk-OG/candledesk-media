@@ -3325,7 +3325,8 @@
    "https://www.investing.com/news/cryptocurrency-news/bitcoin-falls-below-83k-as-meast-tensions-soaring-yields-dent-crypto-appetite-4937967",
    "https://www.coindesk.com/latest-crypto-news",
    "https://en.cryptonomist.ch/2026/10/09/bitcoin-price-liquidations-drop/",
-   "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-9-2026"
+   "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-9-2026",
+   "https://www.coindesk.com/markets/2026/10/10/one-year-after-10-10-bitcoin-and-ether-liquidity-have-rebuilt-but-other-altcoins-still-face-risks"
   ],
   "source_names": [
    "CoinDesk",
@@ -3336,7 +3337,8 @@
    "Investing.com",
    "CoinDesk prices",
    "The Cryptonomist",
-   "KuCoin News"
+   "KuCoin News",
+   "CoinDesk"
   ],
   "sources": [
    {
@@ -3400,6 +3402,13 @@
     "name": "KuCoin News",
     "kind": "secondary",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/10/one-year-after-10-10-bitcoin-and-ether-liquidity-have-rebuilt-but-other-altcoins-still-face-risks",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -3465,6 +3474,13 @@
     "name": "KuCoin News",
     "kind": "secondary",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/10/one-year-after-10-10-bitcoin-and-ether-liquidity-have-rebuilt-but-other-altcoins-still-face-risks",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -3538,6 +3554,13 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/10/10/one-year-after-10-10-bitcoin-and-ether-liquidity-have-rebuilt-but-other-altcoins-still-face-risks",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
     }
    ]
   },
@@ -3648,6 +3671,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-11T07:10-04:00",
+    "headline": "One year after the 10/10 flash crash, bitcoin and ether liquidity has rebuilt but altcoins still lag",
+    "summary": "A year after the October 10, 2025 crash that wiped out about $19 billion in leveraged positions, CoinDesk reports bitcoin and ether order-book depth has recovered while many altcoins remain thin. Markets are flat: BTC near $82,800, ETH near $2,500, XRP near $1.40, SOL near $109, all within 1% on the day.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "UNVERIFIED"
    }
   ],
@@ -8189,6 +8221,15 @@
     "level": "NORMAL",
     "sources_added": 0,
     "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-11T07:10-04:00",
+    "headline": "Ether ETFs extend outflows to nine straight days as Solana funds end a record 14-week inflow run",
+    "summary": "U.S. spot ether ETFs posted a ninth consecutive day of net outflows, while Solana investment products ended a record 14-week streak of weekly inflows, according to fund-flow data reported by The Block.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
    }
   ],
   "posts": [],
@@ -8750,6 +8791,78 @@
   ],
   "market_significance": "Adoption check on a new brokerage-run chain",
   "trigger": "CoinDesk latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261011_2854c7",
+  "headline": "French budget committee backs a stablecoin swap tax and crypto exit tax, then rejects the budget",
+  "summary": "A French parliamentary committee approved amendments for a tax on stablecoin swaps and a crypto exit tax before voting down the overall budget bill, leaving the measures' fate uncertain.",
+  "detected_at": "2026-10-11T07:10-04:00",
+  "active_since": "2026-10-11T07:10-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "USDT",
+   "USDC",
+   "TOTAL_MARKET"
+  ],
+  "event_type": "regulatory",
+  "event_time": "2026-10-10T12:00-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://decrypt.co/380630/france-stablecoin-swap-crypto-exit-tax"
+  ],
+  "source_names": [
+   "Decrypt"
+  ],
+  "sources": [
+   {
+    "url": "https://decrypt.co/380630/france-stablecoin-swap-crypto-exit-tax",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://decrypt.co/380630/france-stablecoin-swap-crypto-exit-tax",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/380630/france-stablecoin-swap-crypto-exit-tax",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Committee-stage amendments inside a rejected bill; not law."
+  ],
+  "market_significance": "Signals European appetite to tax stablecoin activity.",
+  "trigger": "Decrypt news feed",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
