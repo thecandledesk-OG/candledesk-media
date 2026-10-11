@@ -4407,7 +4407,9 @@
    "https://cryptotimes.io/2026/10/08/bitcoin-ethereum-slide-as-fed-minutes-point-to-year-end-rate-hike",
    "https://www.coindesk.com/price/ethereum",
    "https://www.cryptotimes.io/2026/10/08/bitcoin-ethereum-slide-as-fed-minutes-point-to-year-end-rate-hike/",
-   "https://blockchainreporter.net/why-is-bitcoin-down-today-btc-slips-below-83k"
+   "https://blockchainreporter.net/why-is-bitcoin-down-today-btc-slips-below-83k",
+   "https://www.coindesk.com/price/bitcoin",
+   "https://cryptoticker.io/en/crypto-week-in-review-portfolio-week-41-2026/"
   ],
   "source_names": [
    "Yahoo Finance",
@@ -4415,7 +4417,9 @@
    "The Crypto Times",
    "CoinDesk",
    "The Crypto Times",
-   "Blockchain Reporter"
+   "Blockchain Reporter",
+   "CoinDesk BTC price",
+   "CryptoTicker"
   ],
   "sources": [
    {
@@ -4457,6 +4461,20 @@
     "url": "https://blockchainreporter.net/why-is-bitcoin-down-today-btc-slips-below-83k",
     "name": "Blockchain Reporter",
     "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/price/bitcoin",
+    "name": "CoinDesk BTC price",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptoticker.io/en/crypto-week-in-review-portfolio-week-41-2026/",
+    "name": "CryptoTicker",
+    "kind": "other",
     "checked": true,
     "confirms": true
    }
@@ -4501,6 +4519,20 @@
     "url": "https://blockchainreporter.net/why-is-bitcoin-down-today-btc-slips-below-83k",
     "name": "Blockchain Reporter",
     "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/price/bitcoin",
+    "name": "CoinDesk BTC price",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptoticker.io/en/crypto-week-in-review-portfolio-week-41-2026/",
+    "name": "CryptoTicker",
+    "kind": "other",
     "checked": true,
     "confirms": true
    }
@@ -4554,6 +4586,20 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinDesk BTC price",
+     "url": "https://www.coindesk.com/price/bitcoin",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "CryptoTicker",
+     "url": "https://cryptoticker.io/en/crypto-week-in-review-portfolio-week-41-2026/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -4579,6 +4625,15 @@
     "at": "2026-10-08T07:18-04:00",
     "headline": "Fed minutes show most officials expect another rate hike this year as 10-year yields top 5.3%",
     "summary": "Check the yields first. Fed minutes say most officials expect another hike this year.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-11T13:10-04:00",
+    "headline": "Quiet Sunday for crypto majors: bitcoin near $82,800 and ether near $2,500, both up under half a percent",
+    "summary": "Bitcoin traded around $82,800, up about 0.3% in 24 hours, and ether around $2,500, up about 0.4%. Over the week ether fell about 7%, XRP about 6% and SOL about 8%, while bitcoin slipped about 2%.",
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 2,
@@ -8147,11 +8202,13 @@
   "emergency": false,
   "source_urls": [
    "https://247wallst.com/investing/cryptocurrency/2026/10/09/xrp-etfs-gain-as-bitcoin-and-ethereum-funds-lose-317-million-is-it-a-trend",
-   "https://www.theblock.co/news/markets/2026-10-10-ether-etfs-extend-outflow-streak-to-nine-days-as-solana-funds-snap-record-14-week-inflow-run-418215"
+   "https://www.theblock.co/news/markets/2026-10-10-ether-etfs-extend-outflow-streak-to-nine-days-as-solana-funds-snap-record-14-week-inflow-run-418215",
+   "https://cryptoticker.io/en/solana-etf-inflow-streak-ends"
   ],
   "source_names": [
    "24/7 Wall St.",
-   "The Block"
+   "The Block",
+   "CryptoTicker"
   ],
   "sources": [
    {
@@ -8166,6 +8223,13 @@
     "name": "The Block",
     "kind": "secondary",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptoticker.io/en/solana-etf-inflow-streak-ends",
+    "name": "CryptoTicker",
+    "kind": "other",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -8182,6 +8246,13 @@
     "name": "The Block",
     "kind": "secondary",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptoticker.io/en/solana-etf-inflow-streak-ends",
+    "name": "CryptoTicker",
+    "kind": "other",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -8206,6 +8277,13 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "CryptoTicker",
+     "url": "https://cryptoticker.io/en/solana-etf-inflow-streak-ends",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -8270,6 +8348,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-11T13:10-04:00",
+    "headline": "Ether ETFs extend outflow streak to nine days as Solana funds end a record 14-week inflow run",
+    "summary": "U.S. spot ether ETFs logged a ninth straight day of outflows, while Solana ETFs saw their first weekly outflow after 14 weeks of inflows, about $24.8 million out.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "UNVERIFIED"
    }
   ],
