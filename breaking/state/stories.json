@@ -6844,7 +6844,8 @@
    "https://blockchainreporter.net/bitcoin-price-today-btc-rebounds-above-82000",
    "https://fxstreet.com/cryptocurrencies/news/cryptocurrencies-price-prediction-xrp-bitcoin-cryptos-american-wrap-09-october-202610091615",
    "https://www.riotimesonline.com/crypto-markets-bitcoin-majors-friday-october-9-2026",
-   "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-october-9-2026-bitcoin-ethereum-open-at-lowest-levels-in-about-3-weeks-113350511.html"
+   "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-october-9-2026-bitcoin-ethereum-open-at-lowest-levels-in-about-3-weeks-113350511.html",
+   "https://www.coindesk.com/price/bitcoin"
   ],
   "source_names": [
    "CoinDesk",
@@ -6852,7 +6853,8 @@
    "Blockchain Reporter",
    "FXStreet",
    "Rio Times",
-   "Yahoo Finance"
+   "Yahoo Finance",
+   "CoinDesk prices"
   ],
   "sources": [
    {
@@ -6896,6 +6898,13 @@
     "kind": "secondary",
     "checked": false,
     "confirms": false
+   },
+   {
+    "url": "https://www.coindesk.com/price/bitcoin",
+    "name": "CoinDesk prices",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -6940,6 +6949,13 @@
     "kind": "secondary",
     "checked": false,
     "confirms": false
+   },
+   {
+    "url": "https://www.coindesk.com/price/bitcoin",
+    "name": "CoinDesk prices",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "UNVERIFIED",
@@ -6991,6 +7007,13 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "CoinDesk prices",
+     "url": "https://www.coindesk.com/price/bitcoin",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -7020,6 +7043,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 2,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-11T10:11-04:00",
+    "headline": "Quiet Sunday for crypto majors: BTC near $82,800, ETH, XRP and SOL move less than 1%",
+    "summary": "Bitcoin trades near $82,820, up about 0.3% in 24 hours; ether about +0.4%, XRP about +1%, solana about -0.2%. No major moves overnight.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "UNVERIFIED"
    }
   ],
@@ -8183,7 +8215,7 @@
   "market_significance": "Shows rotation within crypto ETFs",
   "trigger": "WebSearch headline",
   "content_created": false,
-  "publication_status": "QUEUED_FOR_DAILY",
+  "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
   "updates": [
    {
@@ -8226,6 +8258,15 @@
     "at": "2026-10-11T07:10-04:00",
     "headline": "Ether ETFs extend outflows to nine straight days as Solana funds end a record 14-week inflow run",
     "summary": "U.S. spot ether ETFs posted a ninth consecutive day of net outflows, while Solana investment products ended a record 14-week streak of weekly inflows, according to fund-flow data reported by The Block.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-11T10:09-04:00",
+    "headline": "Ether ETFs extend outflow streak to nine days, about $697 million out, as Solana funds snap inflow run",
+    "summary": "Psst... ether ETFs just bled nine straight days, almost seven hundred million dollars out.",
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
@@ -8722,9 +8763,19 @@
   "market_significance": "Security disclosure for a major chain; supply integrity",
   "trigger": "CoinDesk latest news",
   "content_created": false,
-  "publication_status": "QUEUED_FOR_DAILY",
+  "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-11T10:09-04:00",
+    "headline": "XRP Ledger patched a decade-old bug that could have minted 18 trillion XRP; no exploit found",
+    "summary": "And the XRP Ledger patched a decade-old bug that could mint eighteen trillion XRP. No exploit found.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -8863,6 +8914,250 @@
   ],
   "market_significance": "Signals European appetite to tax stablecoin activity.",
   "trigger": "Decrypt news feed",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261011_94e778",
+  "headline": "One year after the $19 billion October 10 liquidation crash",
+  "summary": "Here's what moved the chain today. One year ago, nineteen billion dollars in bets vanished in a day.",
+  "detected_at": "2026-10-11T10:09-04:00",
+  "active_since": "2026-10-11T10:09-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "BTC",
+   "TOTAL_MARKET"
+  ],
+  "event_type": "market_move",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/markets/2026/10/10/bitcoin-s-usd19-billion-wake-up-call-one-year-later-has-crypto-learned-anything"
+  ],
+  "source_names": [
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/10/bitcoin-s-usd19-billion-wake-up-call-one-year-later-has-crypto-learned-anything",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/10/bitcoin-s-usd19-billion-wake-up-call-one-year-later-has-crypto-learned-anything",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/10/10/bitcoin-s-usd19-billion-wake-up-call-one-year-later-has-crypto-learned-anything",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261011_1cd8a5",
+  "headline": "Bitcoin order book depth is 75% deeper than on the October 10 crash day",
+  "summary": "Green candles only! Bitcoin order books are now seventy-five percent deeper than on crash day!",
+  "detected_at": "2026-10-11T10:09-04:00",
+  "active_since": "2026-10-11T10:09-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "market_move",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/markets/2026/10/10/one-year-after-10-10-bitcoin-and-ether-liquidity-have-rebuilt-but-other-altcoins-still-face-risks"
+  ],
+  "source_names": [
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/10/one-year-after-10-10-bitcoin-and-ether-liquidity-have-rebuilt-but-other-altcoins-still-face-risks",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/10/one-year-after-10-10-bitcoin-and-ether-liquidity-have-rebuilt-but-other-altcoins-still-face-risks",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/10/10/one-year-after-10-10-bitcoin-and-ether-liquidity-have-rebuilt-but-other-altcoins-still-face-risks",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [
+   {
+    "at": "2026-10-11T10:09-04:00",
+    "headline": "Altcoin order book depth down about a third since early 2025 while leverage remains",
+    "summary": "Check the yields first. Altcoin depth is down a third, and the leverage never left.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   }
+  ],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261011_3f39d8",
+  "headline": "IMF finds demand for tokenized U.S. stocks but says the market is still volatile and illiquid",
+  "summary": "An IMF Global Financial Stability Report chapter on tokenization studied the five most-traded tokenized U.S. equities: over half of activity happens outside U.S. market hours, about 80% of trades are under one share, and the tokens are roughly 1.5 times as volatile as the underlying shares and far less liquid. The IMF calls for stronger legal, liquidity and interoperability safeguards.",
+  "detected_at": "2026-10-11T10:11-04:00",
+  "active_since": "2026-10-11T10:11-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "macro",
+  "event_time": "2026-10-11T09:00-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/business/2026/10/11/imf-finds-demand-for-tokenized-stocks-says-the-market-is-still-volatile-illiquid",
+   "https://www.imf.org/-/media/files/publications/gfsr/2026/october/english/ch3.pdf"
+  ],
+  "source_names": [
+   "CoinDesk",
+   "IMF GFSR ch. 3"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/business/2026/10/11/imf-finds-demand-for-tokenized-stocks-says-the-market-is-still-volatile-illiquid",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.imf.org/-/media/files/publications/gfsr/2026/october/english/ch3.pdf",
+    "name": "IMF GFSR ch. 3",
+    "kind": "primary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/business/2026/10/11/imf-finds-demand-for-tokenized-stocks-says-the-market-is-still-volatile-illiquid",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.imf.org/-/media/files/publications/gfsr/2026/october/english/ch3.pdf",
+    "name": "IMF GFSR ch. 3",
+    "kind": "primary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/business/2026/10/11/imf-finds-demand-for-tokenized-stocks-says-the-market-is-still-volatile-illiquid",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "IMF GFSR ch. 3",
+     "url": "https://www.imf.org/-/media/files/publications/gfsr/2026/october/english/ch3.pdf",
+     "category": "primary",
+     "counts": false,
+     "note": "primary (claimed official source; domain not on the known list); not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Research report, no direct market impact"
+  ],
+  "market_significance": "Official IMF view on tokenized stocks as Solana, Robinhood and others push the products",
+  "trigger": "CoinDesk latest news",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
