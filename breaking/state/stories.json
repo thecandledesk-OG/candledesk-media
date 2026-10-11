@@ -8203,12 +8203,16 @@
   "source_urls": [
    "https://247wallst.com/investing/cryptocurrency/2026/10/09/xrp-etfs-gain-as-bitcoin-and-ethereum-funds-lose-317-million-is-it-a-trend",
    "https://www.theblock.co/news/markets/2026-10-10-ether-etfs-extend-outflow-streak-to-nine-days-as-solana-funds-snap-record-14-week-inflow-run-418215",
-   "https://cryptoticker.io/en/solana-etf-inflow-streak-ends"
+   "https://cryptoticker.io/en/solana-etf-inflow-streak-ends",
+   "https://en.cryptonomist.ch/2026/10/11/crypto-etfs-october-outflows",
+   "https://theblock.co/news/markets/2026-10-10-ether-etfs-extend-outflow-streak-to-nine-days-as-solana-funds-snap-record-14-week-inflow-run-418215"
   ],
   "source_names": [
    "24/7 Wall St.",
    "The Block",
-   "CryptoTicker"
+   "CryptoTicker",
+   "The Cryptonomist",
+   "The Block"
   ],
   "sources": [
    {
@@ -8231,6 +8235,20 @@
     "kind": "other",
     "checked": false,
     "confirms": true
+   },
+   {
+    "url": "https://en.cryptonomist.ch/2026/10/11/crypto-etfs-october-outflows",
+    "name": "The Cryptonomist",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://theblock.co/news/markets/2026-10-10-ether-etfs-extend-outflow-streak-to-nine-days-as-solana-funds-snap-record-14-week-inflow-run-418215",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
    }
   ],
   "gate_sources": [
@@ -8254,6 +8272,20 @@
     "kind": "other",
     "checked": false,
     "confirms": true
+   },
+   {
+    "url": "https://en.cryptonomist.ch/2026/10/11/crypto-etfs-october-outflows",
+    "name": "The Cryptonomist",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://theblock.co/news/markets/2026-10-10-ether-etfs-extend-outflow-streak-to-nine-days-as-solana-funds-snap-record-14-week-inflow-run-418215",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
    }
   ],
   "verification_status": "UNVERIFIED",
@@ -8284,6 +8316,20 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "The Cryptonomist",
+     "url": "https://en.cryptonomist.ch/2026/10/11/crypto-etfs-october-outflows",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "The Block",
+     "url": "https://theblock.co/news/markets/2026-10-10-ether-etfs-extend-outflow-streak-to-nine-days-as-solana-funds-snap-record-14-week-inflow-run-418215",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
     }
    ]
   },
@@ -8357,6 +8403,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-11T16:13-04:00",
+    "headline": "Crypto ETF outflows persist in October despite Friday inflows",
+    "summary": "Crypto ETFs are still net negative for October even after inflows on Friday, October 9; ether ETFs have extended an outflow streak while Solana funds ended a long inflow run. Based on headlines only; articles could not be opened this run.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
     "verification": "UNVERIFIED"
    }
   ],
