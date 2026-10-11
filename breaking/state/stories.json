@@ -3640,6 +3640,15 @@
     "level": "NORMAL",
     "sources_added": 0,
     "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-10T22:08-04:00",
+    "headline": "Crypto majors flat on a quiet Saturday: BTC near $82,500, ETH near $2,495, XRP near $1.40, SOL near $110",
+    "summary": "24h moves under 1% for BTC (+0.2%), ETH (-0.1%), XRP (+1%) and SOL (-0.1%) per CoinDesk price data.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
    }
   ],
   "posts": [],
@@ -8171,6 +8180,15 @@
     "level": "NORMAL",
     "sources_added": 0,
     "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-10T22:08-04:00",
+    "headline": "Crypto ETFs lose about $1.25 billion in a week: ether funds' worst week since January, Solana funds end 14-week inflow run",
+    "summary": "Per SoSoValue data analyzed by The Block, spot bitcoin ETFs lost $681.1M, spot ether ETFs $542.1M (nine-day outflow streak, $697.2M) and spot Solana ETFs $24.8M, ending a record 14-week inflow streak.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
    }
   ],
   "posts": [],
@@ -8569,6 +8587,169 @@
   ],
   "market_significance": "Political scrutiny of Tether's U.S. banking ties.",
   "trigger": "Decrypt news listing",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261010_bb6832",
+  "headline": "XRP Ledger discloses patched decade-old bug that could have created XRP from nothing; no exploit found",
+  "summary": "RippleX disclosed a counting bug in the XRP Ledger's built-in exchange, believed to date to 2015, that could have minted XRP outside the 100 billion supply. Reported Sept. 22, fixed in xrpld 3.4.1 on Sept. 25. RippleX found no evidence it was exploited; no funds lost.",
+  "detected_at": "2026-10-10T22:08-04:00",
+  "active_since": "2026-10-10T22:08-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.85,
+  "assets": [
+   "XRP"
+  ],
+  "event_type": "protocol_upgrade",
+  "event_time": "2026-10-09T12:00-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://xrpl.org/blog/2026/vulnerabilitydisclosurereport-bug-20261009",
+   "https://www.coindesk.com/tech/2026/10/10/xrp-ledger-patched-decade-old-bug-that-could-create-billions-of-dollars-in-xrp-from-nothing"
+  ],
+  "source_names": [
+   "XRPL.org",
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://xrpl.org/blog/2026/vulnerabilitydisclosurereport-bug-20261009",
+    "name": "XRPL.org",
+    "kind": "primary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/tech/2026/10/10/xrp-ledger-patched-decade-old-bug-that-could-create-billions-of-dollars-in-xrp-from-nothing",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://xrpl.org/blog/2026/vulnerabilitydisclosurereport-bug-20261009",
+    "name": "XRPL.org",
+    "kind": "primary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/tech/2026/10/10/xrp-ledger-patched-decade-old-bug-that-could-create-billions-of-dollars-in-xrp-from-nothing",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "XRPL.org",
+     "url": "https://xrpl.org/blog/2026/vulnerabilitydisclosurereport-bug-20261009",
+     "category": "primary",
+     "counts": false,
+     "note": "primary (known official domain); not opened, so it doesn't count"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/tech/2026/10/10/xrp-ledger-patched-decade-old-bug-that-could-create-billions-of-dollars-in-xrp-from-nothing",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Already-patched bug disclosure, no exploitation or losses"
+  ],
+  "market_significance": "Security disclosure for a major chain; supply integrity",
+  "trigger": "CoinDesk latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261010_4c20b4",
+  "headline": "Robinhood Chain transactions fall more than 40% from mid-September as the slowdown spreads to trading",
+  "summary": "Daily transactions averaged 6.2 million in Oct. 2-8, down 42% from mid-September; spot volume fell 21% week over week to $7.45B. Robinhood will pay network fees on wallet swaps over 50 cents until Dec. 31.",
+  "detected_at": "2026-10-10T22:08-04:00",
+  "active_since": "2026-10-10T22:08-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "ETH"
+  ],
+  "event_type": "other",
+  "event_time": "2026-10-10T00:44-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/markets/2026/10/10/robinhood-chain-slowdown-spreads-from-fees-to-trading-as-transactions-fall-more-than-40"
+  ],
+  "source_names": [
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/10/robinhood-chain-slowdown-spreads-from-fees-to-trading-as-transactions-fall-more-than-40",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/10/robinhood-chain-slowdown-spreads-from-fees-to-trading-as-transactions-fall-more-than-40",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/10/10/robinhood-chain-slowdown-spreads-from-fees-to-trading-as-transactions-fall-more-than-40",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: On-chain activity data"
+  ],
+  "market_significance": "Adoption check on a new brokerage-run chain",
+  "trigger": "CoinDesk latest news",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
