@@ -7540,6 +7540,15 @@
     "level": "IMPORTANT",
     "sources_added": 2,
     "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-12T13:10-04:00",
+    "headline": "Ledger says up to $93 million traced and $10 million frozen in CryptoBilis reseller thefts; hardware implant confirmed in one device",
+    "summary": "Bitquery traced about $93.2 million taken from 315 wallets across six chains; Tether froze $10 million in USDT. Ledger confirmed an unauthorized hardware implant in at least one CryptoBilis-sold device and says all confirmed cases involve that reseller.",
+    "new_development": false,
+    "level": "IMPORTANT",
+    "sources_added": 0,
+    "verification": "VERIFIED"
    }
   ],
   "posts": [
@@ -10153,10 +10162,12 @@
   "metrics": {},
   "emergency": false,
   "source_urls": [
-   "https://cryptobriefing.com/xrp-treasury-firm-evens-nasdaq-debut/"
+   "https://cryptobriefing.com/xrp-treasury-firm-evens-nasdaq-debut/",
+   "https://www.theblock.co/news/business/2026-10-12-evernorth-former-coinbase-investment-chief-steer-473-million-xrp-treasury-nasdaq-debut-418225"
   ],
   "source_names": [
-   "Crypto Briefing"
+   "Crypto Briefing",
+   "The Block"
   ],
   "sources": [
    {
@@ -10164,6 +10175,13 @@
     "name": "Crypto Briefing",
     "kind": "secondary",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-12-evernorth-former-coinbase-investment-chief-steer-473-million-xrp-treasury-nasdaq-debut-418225",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -10173,6 +10191,13 @@
     "name": "Crypto Briefing",
     "kind": "secondary",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-12-evernorth-former-coinbase-investment-chief-steer-473-million-xrp-treasury-nasdaq-debut-418225",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -10190,6 +10215,13 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-10-12-evernorth-former-coinbase-investment-chief-steer-473-million-xrp-treasury-nasdaq-debut-418225",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
     }
    ]
   },
@@ -10201,7 +10233,17 @@
   "content_created": false,
   "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-12T13:10-04:00",
+    "headline": "Evernorth hires former Coinbase investment chief to run its 473 million XRP treasury",
+    "summary": "Evernorth named a former Coinbase investment executive to manage its XRP treasury ahead of its Nasdaq debut.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -10902,6 +10944,226 @@
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
   "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261012_6a5644",
+  "headline": "StoneX raises its Securitize price target by 50% on tokenized-stock revenue",
+  "summary": "Brokerage StoneX lifted its price target on Securitize, citing a new revenue stream from its tokenized U.S. stock platform.",
+  "detected_at": "2026-10-12T13:10-04:00",
+  "active_since": "2026-10-12T13:10-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "SOL"
+  ],
+  "event_type": "institutional",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/markets/2026-10-12-stonex-raises-securitize-price-target-tokenized-stocks-418313"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-10-12-stonex-raises-securitize-price-target-tokenized-stocks-418313",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-10-12-stonex-raises-securitize-price-target-tokenized-stocks-418313",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/markets/2026-10-12-stonex-raises-securitize-price-target-tokenized-stocks-418313",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Analyst note, routine."
+  ],
+  "market_significance": "Tokenization",
+  "trigger": "The Block latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261012_84d2d5",
+  "headline": "DeFi Development raises its SOL holdings 12%",
+  "summary": "Solana treasury firm DeFi Development expanded its SOL holdings by about 12%.",
+  "detected_at": "2026-10-12T13:10-04:00",
+  "active_since": "2026-10-12T13:10-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "SOL"
+  ],
+  "event_type": "institutional",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-10-12-defi-development-sol-holdings-2-59-million-chad-418307"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-12-defi-development-sol-holdings-2-59-million-chad-418307",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-12-defi-development-sol-holdings-2-59-million-chad-418307",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-10-12-defi-development-sol-holdings-2-59-million-chad-418307",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Routine treasury purchase."
+  ],
+  "market_significance": "Corporate SOL treasuries",
+  "trigger": "The Block latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261012_a60fe6",
+  "headline": "Former bitcoin miner IREN reportedly signs multiyear cloud deal with Anthropic",
+  "summary": "IREN, which moved from bitcoin mining into AI infrastructure, reportedly signed a multiyear cloud services agreement with Anthropic, per The Information; shares rose about 4% premarket.",
+  "detected_at": "2026-10-12T13:10-04:00",
+  "active_since": "2026-10-12T13:10-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "partnership",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/markets/2026/10/12/bitcoin-holds-usd83-000-as-dollar-strength-keeps-markets-on-edge"
+  ],
+  "source_names": [
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/12/bitcoin-holds-usd83-000-as-dollar-strength-keeps-markets-on-edge",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/12/bitcoin-holds-usd83-000-as-dollar-strength-keeps-markets-on-edge",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/10/12/bitcoin-holds-usd83-000-as-dollar-strength-keeps-markets-on-edge",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Single-report miner-to-AI deal."
+  ],
+  "market_significance": "Miners pivoting to AI",
+  "trigger": "CoinDesk markets",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [
+   {
+    "at": "2026-10-12T13:10-04:00",
+    "headline": "Bitcoin holds near $83,000 as a strong dollar and rising yields keep markets cautious",
+    "summary": "BTC about $83,300 (up 0.3% in 24 hours), ETH about $2,544 (up 1.6%), XRP $1.40 (up 0.6%), SOL $111 (up 1.5%).",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  }
