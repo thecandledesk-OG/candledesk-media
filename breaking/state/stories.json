@@ -6900,7 +6900,9 @@
    "https://fxstreet.com/cryptocurrencies/news/cryptocurrencies-price-prediction-xrp-bitcoin-cryptos-american-wrap-09-october-202610091615",
    "https://www.riotimesonline.com/crypto-markets-bitcoin-majors-friday-october-9-2026",
    "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-october-9-2026-bitcoin-ethereum-open-at-lowest-levels-in-about-3-weeks-113350511.html",
-   "https://www.coindesk.com/price/bitcoin"
+   "https://www.coindesk.com/price/bitcoin",
+   "https://www.coindesk.com/markets/2026/10/12/altcoins-rally-on-thin-trading-as-bitcoin-holds-near-usd84-000",
+   "https://coindesk.com/markets/2026/10/12/bitcoin-shrugs-off-etf-outflows-to-trade-above-usd84-000-as-oil-falls"
   ],
   "source_names": [
    "CoinDesk",
@@ -6909,7 +6911,9 @@
    "FXStreet",
    "Rio Times",
    "Yahoo Finance",
-   "CoinDesk prices"
+   "CoinDesk prices",
+   "CoinDesk",
+   "CoinDesk"
   ],
   "sources": [
    {
@@ -6957,6 +6961,20 @@
    {
     "url": "https://www.coindesk.com/price/bitcoin",
     "name": "CoinDesk prices",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/12/altcoins-rally-on-thin-trading-as-bitcoin-holds-near-usd84-000",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://coindesk.com/markets/2026/10/12/bitcoin-shrugs-off-etf-outflows-to-trade-above-usd84-000-as-oil-falls",
+    "name": "CoinDesk",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -7008,6 +7026,20 @@
    {
     "url": "https://www.coindesk.com/price/bitcoin",
     "name": "CoinDesk prices",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/12/altcoins-rally-on-thin-trading-as-bitcoin-holds-near-usd84-000",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://coindesk.com/markets/2026/10/12/bitcoin-shrugs-off-etf-outflows-to-trade-above-usd84-000-as-oil-falls",
+    "name": "CoinDesk",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -7069,6 +7101,20 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/10/12/altcoins-rally-on-thin-trading-as-bitcoin-holds-near-usd84-000",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://coindesk.com/markets/2026/10/12/bitcoin-shrugs-off-etf-outflows-to-trade-above-usd84-000-as-oil-falls",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -7113,6 +7159,24 @@
     "at": "2026-10-11T19:09-04:00",
     "headline": "Quiet Sunday: bitcoin near $82,800, ether, XRP and solana move less than 1%",
     "summary": "Majors were flat over 24 hours: BTC about $82,800 (+0.3%), ETH about $2,500 (+0.4%), XRP about $1.39 (-0.8%), SOL about $109 (-0.2%).",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-12T07:14-04:00",
+    "headline": "Altcoins outpace bitcoin as BTC holds near $84,000; LayerZero jumps 21%",
+    "summary": "Smaller tokens led on Monday. The CoinDesk 80 rose about 3% in 24 hours versus 1.2% for the CoinDesk 5. Bitcoin topped $84,000 on Sunday and traded near $83,400, ether near $2,550 (up about 2%), XRP about $1.40 and SOL about $111, each up about 1-2%. LayerZero (ZRO) rose 21% to $2.41, its highest since May 2025. Traders are watching U.S. CPI on October 14.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-12T07:14-04:00",
+    "headline": "Spot bitcoin ETFs post $681 million in weekly outflows, the most since June",
+    "summary": "U.S. spot bitcoin ETFs saw $681 million in net outflows last week, per SoSoValue, the largest weekly withdrawal since June, mostly on Wednesday and Thursday. Spot ether ETFs have not had an inflow day since September 28.",
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
