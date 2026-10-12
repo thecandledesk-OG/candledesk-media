@@ -8635,9 +8635,11 @@
   "metrics": {},
   "emergency": false,
   "source_urls": [
-   "https://www.coindesk.com/policy/2026/10/09/u-s-cftc-moves-to-fold-event-contracts-into-swaps-regulations-as-legal-fight-rages"
+   "https://www.coindesk.com/policy/2026/10/09/u-s-cftc-moves-to-fold-event-contracts-into-swaps-regulations-as-legal-fight-rages",
+   "https://www.coindesk.com/policy/2026/10/11/everyone-wants-scotus-to-take-up-prediction-markets-state-of-crypto"
   ],
   "source_names": [
+   "CoinDesk",
    "CoinDesk"
   ],
   "sources": [
@@ -8647,11 +8649,25 @@
     "kind": "secondary",
     "checked": false,
     "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/policy/2026/10/11/everyone-wants-scotus-to-take-up-prediction-markets-state-of-crypto",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
    }
   ],
   "gate_sources": [
    {
     "url": "https://www.coindesk.com/policy/2026/10/09/u-s-cftc-moves-to-fold-event-contracts-into-swaps-regulations-as-legal-fight-rages",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/policy/2026/10/11/everyone-wants-scotus-to-take-up-prediction-markets-state-of-crypto",
     "name": "CoinDesk",
     "kind": "secondary",
     "checked": false,
@@ -8672,6 +8688,13 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/policy/2026/10/11/everyone-wants-scotus-to-take-up-prediction-markets-state-of-crypto",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
     }
    ]
   },
@@ -8683,7 +8706,17 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-11T22:18-04:00",
+    "headline": "Prediction-market fight heads toward the Supreme Court as all sides seek a ruling",
+    "summary": "CoinDesk's State of Crypto says states, platforms and regulators all want the Supreme Court to settle the prediction-market legal fight.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -9381,6 +9414,242 @@
   ],
   "market_significance": "Shows the risk of thin price feeds on very high leverage venues.",
   "trigger": "The Block latest news, Oct 11 6:26 PM ET",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261011_fa869f",
+  "headline": "Sui Foundation invests $30 million in DATA Network as the AI data protocol moves to Sui",
+  "summary": "The Block reports the Sui Foundation is investing 30 million dollars in DATA Network, an AI data protocol that is migrating to the Sui blockchain.",
+  "detected_at": "2026-10-11T22:18-04:00",
+  "active_since": "2026-10-11T22:18-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "SUI"
+  ],
+  "event_type": "partnership",
+  "event_time": "2026-10-11T12:00-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://theblock.co/news/ecosystems/2026-10-11-sui-foundation-invests-30-million-data-network-418243"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://theblock.co/news/ecosystems/2026-10-11-sui-foundation-invests-30-million-data-network-418243",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://theblock.co/news/ecosystems/2026-10-11-sui-foundation-invests-30-million-data-network-418243",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://theblock.co/news/ecosystems/2026-10-11-sui-foundation-invests-30-million-data-network-418243",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Ecosystem investment; single outlet seen in search, not opened this run."
+  ],
+  "market_significance": "Low-medium: ecosystem funding",
+  "trigger": "search",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261011_d4b915",
+  "headline": "Crypto executives see upside in the Clarity Act's failure as legal experts warn of lasting uncertainty",
+  "summary": "A CoinDesk policy piece says some crypto executives think the Clarity Act's September Senate defeat could speed innovation, while lawyers warn regulatory uncertainty will persist as agencies act on their own.",
+  "detected_at": "2026-10-11T22:18-04:00",
+  "active_since": "2026-10-11T22:18-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "regulatory",
+  "event_time": "2026-10-11T10:00-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/policy/2026/10/11/clarity-s-failure-could-speed-crypto-innovation-while-shielding-incumbents"
+  ],
+  "source_names": [
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/policy/2026/10/11/clarity-s-failure-could-speed-crypto-innovation-while-shielding-incumbents",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/policy/2026/10/11/clarity-s-failure-could-speed-crypto-innovation-while-shielding-incumbents",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/policy/2026/10/11/clarity-s-failure-could-speed-crypto-innovation-while-shielding-incumbents",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Analysis of a September event; no new regulatory action."
+  ],
+  "market_significance": "Context for U.S. regulation",
+  "trigger": "search",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261011_907a13",
+  "headline": "Bitcoin hovers near $83,000 to $85,000 heading into a week of U.S. inflation data",
+  "summary": "Weekend reports put bitcoin just under 85,000 dollars and around 83,000 dollars into a week with U.S. CPI data and bank earnings; no unusual 24-hour moves seen for the majors.",
+  "detected_at": "2026-10-11T22:18-04:00",
+  "active_since": "2026-10-11T22:18-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "BTC",
+   "ETH",
+   "XRP",
+   "SOL"
+  ],
+  "event_type": "market_move",
+  "event_time": "2026-10-11T18:00-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://financefeeds.com/bitcoin-price-83000-week-ahead-cpi-bank-earnings-bull-87500-bear-80000/",
+   "https://cryptoticker.io/en/crypto-price-today-bitcoin-altcoins-upcoming-events/"
+  ],
+  "source_names": [
+   "FinanceFeeds",
+   "CryptoTicker"
+  ],
+  "sources": [
+   {
+    "url": "https://financefeeds.com/bitcoin-price-83000-week-ahead-cpi-bank-earnings-bull-87500-bear-80000/",
+    "name": "FinanceFeeds",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptoticker.io/en/crypto-price-today-bitcoin-altcoins-upcoming-events/",
+    "name": "CryptoTicker",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://financefeeds.com/bitcoin-price-83000-week-ahead-cpi-bank-earnings-bull-87500-bear-80000/",
+    "name": "FinanceFeeds",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptoticker.io/en/crypto-price-today-bitcoin-altcoins-upcoming-events/",
+    "name": "CryptoTicker",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "FinanceFeeds",
+     "url": "https://financefeeds.com/bitcoin-price-83000-week-ahead-cpi-bank-earnings-bull-87500-bear-80000/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CryptoTicker",
+     "url": "https://cryptoticker.io/en/crypto-price-today-bitcoin-altcoins-upcoming-events/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Routine weekend range; 24h % could not be confirmed this run."
+  ],
+  "market_significance": "Sets up CPI week",
+  "trigger": "search",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
