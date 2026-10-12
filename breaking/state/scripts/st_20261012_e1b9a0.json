@@ -1,0 +1,82 @@
+{
+ "story_id": "st_20261012_e1b9a0",
+ "date_label": "OCT 12",
+ "headline": "Standard Chartered goes live with RLUSD custody on the XRP Ledger",
+ "sources": [
+  {
+   "name": "The Block",
+   "url": "https://www.theblock.co/news/business/2026-10-12-standard-chartered-custody-ripple-rlusd-418258"
+  },
+  {
+   "name": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/10/12/standard-chartered-offers-rlusd-custody-in-dubai-and-plans-lmax-collateral-link"
+  }
+ ],
+ "scenes": [
+  {
+   "beat": "hook",
+   "who": "ledger",
+   "vo": "One of the world's biggest banks now holds Ripple's stablecoin for its clients. Here's what changed.",
+   "chunks": [
+    "Big bank",
+    "*Holds RLUSD*",
+    "Live now"
+   ]
+  },
+  {
+   "beat": "what_happened",
+   "who": "ledger",
+   "vo": "Standard Chartered's Dubai branch has launched custody for R L U S D, Ripple's dollar stablecoin on the XRP Ledger. Eligible institutional clients can hold it with the bank today.",
+   "chunks": [
+    "Standard Chartered",
+    "*Dubai branch*",
+    "On the XRP Ledger"
+   ],
+   "stat": {
+    "label": "Sources",
+    "text": "The Block · CoinDesk"
+   }
+  },
+  {
+   "beat": "why_it_matters",
+   "who": "bruno",
+   "vo": "Here's why traders are watching it. Institutions want crypto held by a regulated global bank. Now they get that for a stablecoin on the XRP Ledger.",
+   "chunks": [
+    "Regulated custody",
+    "*Global bank*",
+    "For institutions"
+   ]
+  },
+  {
+   "beat": "why_it_matters",
+   "who": "ursa",
+   "vo": "The catch. This is custody, not trading. It covers Dubai only for now, and the bank shared no numbers on how much it holds.",
+   "chunks": [
+    "Custody only",
+    "*Dubai for now*",
+    "No figures yet"
+   ]
+  },
+  {
+   "beat": "watch_next",
+   "who": "moby",
+   "vo": "Here's what happens next. The bank, Ripple and L Max plan to let clients use that stablecoin as trading collateral without moving it. That still needs testing and regulatory approval.",
+   "chunks": [
+    "Next step",
+    "*Collateral link*",
+    "Needs approval"
+   ]
+  },
+  {
+   "beat": "cta",
+   "who": "all",
+   "vo": "Follow The Candle Desk for crypto news without the hype. Not financial advice.",
+   "chunks": [
+    "Follow The Candle Desk",
+    "*No hype*",
+    "Just the news"
+   ],
+   "foot": "NOT FINANCIAL ADVICE"
+  }
+ ]
+}

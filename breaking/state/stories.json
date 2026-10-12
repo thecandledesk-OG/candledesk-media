@@ -7392,12 +7392,16 @@
   "source_urls": [
    "https://www.coindesk.com/business/2026/10/09/ledger-investigates-potential-wallet-tampering-after-reports-of-usd86-million-in-crypto-stolen",
    "https://www.theblock.co/news/business/2026-10-09-ledger-cryptobilis-fund-losses-418163",
-   "https://x.com/Ledger_Support/status/2108551100613714002"
+   "https://x.com/Ledger_Support/status/2108551100613714002",
+   "https://www.coindesk.com/tech/2026/10/12/ledger-claims-cryptobilis-cases-are-limited-as-up-to-usd93m-is-traced-usd10m-frozen",
+   "https://www.coindesk.com/tech/2026/10/12/ledger-says-unauthorized-implant-found-in-at-least-one-device-sold-by-cryptobilis"
   ],
   "source_names": [
    "CoinDesk",
    "The Block",
-   "Ledger Support on X"
+   "Ledger Support on X",
+   "CoinDesk",
+   "CoinDesk"
   ],
   "sources": [
    {
@@ -7418,6 +7422,20 @@
     "url": "https://x.com/Ledger_Support/status/2108551100613714002",
     "name": "Ledger Support on X",
     "kind": "social",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/tech/2026/10/12/ledger-claims-cryptobilis-cases-are-limited-as-up-to-usd93m-is-traced-usd10m-frozen",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/tech/2026/10/12/ledger-says-unauthorized-implant-found-in-at-least-one-device-sold-by-cryptobilis",
+    "name": "CoinDesk",
+    "kind": "secondary",
     "checked": false,
     "confirms": true
    }
@@ -7441,6 +7459,20 @@
     "url": "https://x.com/Ledger_Support/status/2108551100613714002",
     "name": "Ledger Support on X",
     "kind": "social",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/tech/2026/10/12/ledger-claims-cryptobilis-cases-are-limited-as-up-to-usd93m-is-traced-usd10m-frozen",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/tech/2026/10/12/ledger-says-unauthorized-implant-found-in-at-least-one-device-sold-by-cryptobilis",
+    "name": "CoinDesk",
+    "kind": "secondary",
     "checked": false,
     "confirms": true
    }
@@ -7473,6 +7505,20 @@
      "category": "social",
      "counts": false,
      "note": "social/community post — can trigger investigation, never verifies"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/tech/2026/10/12/ledger-claims-cryptobilis-cases-are-limited-as-up-to-usd93m-is-traced-usd10m-frozen",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/tech/2026/10/12/ledger-says-unauthorized-implant-found-in-at-least-one-device-sold-by-cryptobilis",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
     }
    ]
   },
@@ -7485,7 +7531,17 @@
   "content_created": true,
   "publication_status": "DRAFTED",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-12T10:34-04:00",
+    "headline": "Ledger confirms unauthorized implant in a CryptoBilis-sold device as up to $93 million is traced and $10 million frozen",
+    "summary": "Ledger says it found an unauthorized hardware implant in at least one device sold by reseller CryptoBilis; Bitquery traced about $93 million from 315 wallets and Tether froze about $10 million in USDT.",
+    "new_development": true,
+    "level": "IMPORTANT",
+    "sources_added": 2,
+    "verification": "VERIFIED"
+   }
+  ],
   "posts": [
    "6ac92224810582311aebd197",
    "6ac92226a5e49fef9bbdfb86",
@@ -10324,6 +10380,524 @@
   ],
   "market_significance": "low",
   "trigger": "Decrypt news page",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261012_e1b9a0",
+  "headline": "Standard Chartered launches custody for Ripple's RLUSD stablecoin on the XRP Ledger in Dubai",
+  "summary": "Standard Chartered's Dubai (DIFC) branch now offers regulated institutional custody for Ripple's RLUSD stablecoin on the XRP Ledger. The bank, Ripple and LMAX are also working to let clients use RLUSD held at the bank as trading collateral on LMAX, pending testing and approvals.",
+  "detected_at": "2026-10-12T10:34-04:00",
+  "active_since": "2026-10-12T10:34-04:00",
+  "classification": "IMPORTANT",
+  "proposed_level": "IMPORTANT",
+  "confidence": 0.8,
+  "assets": [
+   "XRP"
+  ],
+  "event_type": "institutional",
+  "event_time": "2026-10-12T05:35-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-10-12-standard-chartered-custody-ripple-rlusd-418258",
+   "https://www.coindesk.com/business/2026/10/12/standard-chartered-offers-rlusd-custody-in-dubai-and-plans-lmax-collateral-link"
+  ],
+  "source_names": [
+   "The Block",
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-12-standard-chartered-custody-ripple-rlusd-418258",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/business/2026/10/12/standard-chartered-offers-rlusd-custody-in-dubai-and-plans-lmax-collateral-link",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-12-standard-chartered-custody-ripple-rlusd-418258",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/business/2026/10/12/standard-chartered-offers-rlusd-custody-in-dubai-and-plans-lmax-collateral-link",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "VERIFIED",
+  "verification": {
+   "status": "VERIFIED",
+   "independent_sources": 2,
+   "has_primary": false,
+   "score": 0.8,
+   "reason": "2 independent credible sources confirm it (no primary source yet)",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-10-12-standard-chartered-custody-ripple-rlusd-418258",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/business/2026/10/12/standard-chartered-offers-rlusd-custody-in-dubai-and-plans-lmax-collateral-link",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed IMPORTANT: A global systemically important bank going live with custody for a major stablecoin on XRPL; confirmed independently by two outlets citing the bank's statement"
+  ],
+  "market_significance": "Major bank adoption of XRPL-based stablecoin infrastructure",
+  "trigger": "CoinDesk and The Block latest news",
+  "content_created": true,
+  "publication_status": "DRAFTED",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [
+   "6accf1e58e6d8348ee2149b6",
+   "6accf1e8e7630ddbbba735d4",
+   "6accf1ebe7630ddbbba73639"
+  ],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261012_2fc00b",
+  "headline": "South Korea's Jeonbuk Bank begins first bitcoin-backed corporate loans",
+  "summary": "Jeonbuk Bank, part of JB Financial Group, has started offering won-denominated loans to corporate clients backed by bitcoin, and one loan has been executed; no amounts were disclosed.",
+  "detected_at": "2026-10-12T10:34-04:00",
+  "active_since": "2026-10-12T10:34-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.65,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "institutional",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/business/2026/10/12/south-korea-just-got-its-first-traditional-bank-loans-backed-by-bitcoin"
+  ],
+  "source_names": [
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/business/2026/10/12/south-korea-just-got-its-first-traditional-bank-loans-backed-by-bitcoin",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/business/2026/10/12/south-korea-just-got-its-first-traditional-bank-loans-backed-by-bitcoin",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/business/2026/10/12/south-korea-just-got-its-first-traditional-bank-loans-backed-by-bitcoin",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: First in Korea but small and undisclosed; one credible outlet opened"
+  ],
+  "market_significance": "medium",
+  "trigger": "CoinDesk",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261012_c3ade9",
+  "headline": "Strategy buys 250 more bitcoin for $21.5 million, bringing holdings to 848,250 BTC",
+  "summary": "Michael Saylor's Strategy bought another 250 bitcoin for about $21.5 million.",
+  "detected_at": "2026-10-12T10:34-04:00",
+  "active_since": "2026-10-12T10:34-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.75,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "institutional",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-10-12-theres-always-room-for-more-orange-michael-saylors-strategy-scoops-up-another-250-bitcoin-for-21-5-million-as-holdings-reach-848250-btc-418275"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-12-theres-always-room-for-more-orange-michael-saylors-strategy-scoops-up-another-250-bitcoin-for-21-5-million-as-holdings-reach-848250-btc-418275",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-12-theres-always-room-for-more-orange-michael-saylors-strategy-scoops-up-another-250-bitcoin-for-21-5-million-as-holdings-reach-848250-btc-418275",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-10-12-theres-always-room-for-more-orange-michael-saylors-strategy-scoops-up-another-250-bitcoin-for-21-5-million-as-holdings-reach-848250-btc-418275",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Routine weekly purchase"
+  ],
+  "market_significance": "low",
+  "trigger": "The Block",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261012_56453c",
+  "headline": "Bitmine adds 12,532 ETH to its ether treasury",
+  "summary": "Bitmine added about 12,500 ETH; chairman Tom Lee flagged the possibility of a record crypto bull market.",
+  "detected_at": "2026-10-12T10:34-04:00",
+  "active_since": "2026-10-12T10:34-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "ETH"
+  ],
+  "event_type": "institutional",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-10-12-bitmine-eth-holdings-6-million-ether-treasury-418296"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-12-bitmine-eth-holdings-6-million-ether-treasury-418296",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-12-bitmine-eth-holdings-6-million-ether-treasury-418296",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-10-12-bitmine-eth-holdings-6-million-ether-treasury-418296",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Routine treasury purchase"
+  ],
+  "market_significance": "low",
+  "trigger": "The Block",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261012_7315d3",
+  "headline": "Morgan Stanley expects to support tokenized equities in the first quarter of 2027",
+  "summary": "Morgan Stanley's head of digital asset strategy told The Block the bank expects to support tokenized equities in Q1 2027.",
+  "detected_at": "2026-10-12T10:34-04:00",
+  "active_since": "2026-10-12T10:34-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "institutional",
+  "event_time": null,
+  "scheduled_event": true,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/markets/2026-10-12-morgan-stanley-tokenized-equities-q1-2027-418256"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-10-12-morgan-stanley-tokenized-equities-q1-2027-418256",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-10-12-morgan-stanley-tokenized-equities-q1-2027-418256",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/markets/2026-10-12-morgan-stanley-tokenized-equities-q1-2027-418256",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Future plan, not live"
+  ],
+  "market_significance": "medium",
+  "trigger": "The Block",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261012_7b892c",
+  "headline": "Global financial watchdog calls for cross-border information sharing and stablecoin crisis planning",
+  "summary": "A global financial watchdog urged regulators to share information across borders and plan for a stablecoin crisis.",
+  "detected_at": "2026-10-12T10:34-04:00",
+  "active_since": "2026-10-12T10:34-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "USDT",
+   "USDC"
+  ],
+  "event_type": "regulatory",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/policy/2026/10/12/global-financial-watchdog-calls-for-cross-border-information-sharing-planning-for-stablecoin-crisis"
+  ],
+  "source_names": [
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/policy/2026/10/12/global-financial-watchdog-calls-for-cross-border-information-sharing-planning-for-stablecoin-crisis",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/policy/2026/10/12/global-financial-watchdog-calls-for-cross-border-information-sharing-planning-for-stablecoin-crisis",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/policy/2026/10/12/global-financial-watchdog-calls-for-cross-border-information-sharing-planning-for-stablecoin-crisis",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Recommendation, not a rule"
+  ],
+  "market_significance": "low",
+  "trigger": "CoinDesk",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261012_5c4921",
+  "headline": "SWI raises $894 million to turn former FTX-backed bitcoin miner Genesis Digital toward AI",
+  "summary": "SWI raised $894 million to repurpose bitcoin miner Genesis Digital for AI computing.",
+  "detected_at": "2026-10-12T10:34-04:00",
+  "active_since": "2026-10-12T10:34-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "institutional",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/business/2026/10/12/swi-raises-usd894-million-to-repurpose-former-ftx-bitcoin-miner-genesis-digital-to-ai"
+  ],
+  "source_names": [
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/business/2026/10/12/swi-raises-usd894-million-to-repurpose-former-ftx-bitcoin-miner-genesis-digital-to-ai",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/business/2026/10/12/swi-raises-usd894-million-to-repurpose-former-ftx-bitcoin-miner-genesis-digital-to-ai",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/business/2026/10/12/swi-raises-usd894-million-to-repurpose-former-ftx-bitcoin-miner-genesis-digital-to-ai",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Miner-to-AI pivot financing"
+  ],
+  "market_significance": "low",
+  "trigger": "CoinDesk",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
