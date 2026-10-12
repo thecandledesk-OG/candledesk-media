@@ -6902,7 +6902,8 @@
    "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-october-9-2026-bitcoin-ethereum-open-at-lowest-levels-in-about-3-weeks-113350511.html",
    "https://www.coindesk.com/price/bitcoin",
    "https://www.coindesk.com/markets/2026/10/12/altcoins-rally-on-thin-trading-as-bitcoin-holds-near-usd84-000",
-   "https://coindesk.com/markets/2026/10/12/bitcoin-shrugs-off-etf-outflows-to-trade-above-usd84-000-as-oil-falls"
+   "https://coindesk.com/markets/2026/10/12/bitcoin-shrugs-off-etf-outflows-to-trade-above-usd84-000-as-oil-falls",
+   "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-october-12-2026-how-bond-yields-threaten-crypto-prices-114018710.html"
   ],
   "source_names": [
    "CoinDesk",
@@ -6913,7 +6914,8 @@
    "Yahoo Finance",
    "CoinDesk prices",
    "CoinDesk",
-   "CoinDesk"
+   "CoinDesk",
+   "Yahoo Finance"
   ],
   "sources": [
    {
@@ -6975,6 +6977,13 @@
    {
     "url": "https://coindesk.com/markets/2026/10/12/bitcoin-shrugs-off-etf-outflows-to-trade-above-usd84-000-as-oil-falls",
     "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-october-12-2026-how-bond-yields-threaten-crypto-prices-114018710.html",
+    "name": "Yahoo Finance",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -7043,15 +7052,22 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-october-12-2026-how-bond-yields-threaten-crypto-prices-114018710.html",
+    "name": "Yahoo Finance",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
-  "verification_status": "UNVERIFIED",
+  "verification_status": "VERIFIED",
   "verification": {
-   "status": "UNVERIFIED",
-   "independent_sources": 1,
+   "status": "VERIFIED",
+   "independent_sources": 2,
    "has_primary": false,
-   "score": 0.4,
-   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "score": 0.8,
+   "reason": "2 independent credible sources confirm it (no primary source yet)",
    "sources_checked": [
     {
      "name": "CoinDesk",
@@ -7112,6 +7128,13 @@
     {
      "name": "CoinDesk",
      "url": "https://coindesk.com/markets/2026/10/12/bitcoin-shrugs-off-etf-outflows-to-trade-above-usd84-000-as-oil-falls",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-october-12-2026-how-bond-yields-threaten-crypto-prices-114018710.html",
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
@@ -7181,6 +7204,15 @@
     "level": "NORMAL",
     "sources_added": 0,
     "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-12T10:23-04:00",
+    "headline": "Crypto holds steady as record Treasury yields weigh on risk assets; bitcoin near $83,000",
+    "summary": "Bitcoin traded around $82,700 to $83,800 on Monday, roughly flat over 24 hours, with ether up about one percent; analysts point to high bond yields, AI-bubble worries and Middle East tensions ahead of Wednesday's CPI.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
    }
   ],
   "posts": [],
@@ -8278,14 +8310,18 @@
    "https://www.theblock.co/news/markets/2026-10-10-ether-etfs-extend-outflow-streak-to-nine-days-as-solana-funds-snap-record-14-week-inflow-run-418215",
    "https://cryptoticker.io/en/solana-etf-inflow-streak-ends",
    "https://en.cryptonomist.ch/2026/10/11/crypto-etfs-october-outflows",
-   "https://theblock.co/news/markets/2026-10-10-ether-etfs-extend-outflow-streak-to-nine-days-as-solana-funds-snap-record-14-week-inflow-run-418215"
+   "https://theblock.co/news/markets/2026-10-10-ether-etfs-extend-outflow-streak-to-nine-days-as-solana-funds-snap-record-14-week-inflow-run-418215",
+   "https://news.bitcoin.com/market-updates/bitcoin-ether-etfs-lose-1-2-billion-as-institutional-demand-cracks/",
+   "https://decrypt.co/380640/bitcoin-ethereum-solana-etfs-red-october"
   ],
   "source_names": [
    "24/7 Wall St.",
    "The Block",
    "CryptoTicker",
    "The Cryptonomist",
-   "The Block"
+   "The Block",
+   "Bitcoin.com News",
+   "Decrypt"
   ],
   "sources": [
    {
@@ -8322,6 +8358,20 @@
     "kind": "secondary",
     "checked": false,
     "confirms": false
+   },
+   {
+    "url": "https://news.bitcoin.com/market-updates/bitcoin-ether-etfs-lose-1-2-billion-as-institutional-demand-cracks/",
+    "name": "Bitcoin.com News",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/380640/bitcoin-ethereum-solana-etfs-red-october",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -8359,6 +8409,20 @@
     "kind": "secondary",
     "checked": false,
     "confirms": false
+   },
+   {
+    "url": "https://news.bitcoin.com/market-updates/bitcoin-ether-etfs-lose-1-2-billion-as-institutional-demand-cracks/",
+    "name": "Bitcoin.com News",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/380640/bitcoin-ethereum-solana-etfs-red-october",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
    }
   ],
   "verification_status": "UNVERIFIED",
@@ -8400,6 +8464,20 @@
     {
      "name": "The Block",
      "url": "https://theblock.co/news/markets/2026-10-10-ether-etfs-extend-outflow-streak-to-nine-days-as-solana-funds-snap-record-14-week-inflow-run-418215",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "Bitcoin.com News",
+     "url": "https://news.bitcoin.com/market-updates/bitcoin-ether-etfs-lose-1-2-billion-as-institutional-demand-cracks/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/380640/bitcoin-ethereum-solana-etfs-red-october",
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; not opened, so it doesn't count"
@@ -8482,6 +8560,15 @@
     "at": "2026-10-11T16:13-04:00",
     "headline": "Crypto ETF outflows persist in October despite Friday inflows",
     "summary": "Crypto ETFs are still net negative for October even after inflows on Friday, October 9; ether ETFs have extended an outflow streak while Solana funds ended a long inflow run. Based on headlines only; articles could not be opened this run.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-12T10:23-04:00",
+    "headline": "Bitcoin and ether ETFs lose more than $1.2 billion in a week; Solana ETFs end a 14-week inflow streak",
+    "summary": "U.S. bitcoin ETFs saw about $681 million of net outflows and ether ETFs about $542 million in the week through October 9, while Solana ETFs lost about $25 million and XRP ETFs took in about $11 million.",
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 2,
@@ -8629,15 +8716,33 @@
   "metrics": {},
   "emergency": false,
   "source_urls": [
-   "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-10-2026"
+   "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-10-2026",
+   "https://cryptotimes.io/2026/10/12/bitcoin-price-today-btc-back-above-84k-as-etf-selling-eases-and-shorts-unwind",
+   "https://coindesk.com/markets/2026/10/12/altcoins-rally-on-thin-trading-as-bitcoin-holds-near-usd84-000"
   ],
   "source_names": [
-   "KuCoin News"
+   "KuCoin News",
+   "The Crypto Times",
+   "CoinDesk"
   ],
   "sources": [
    {
     "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-10-2026",
     "name": "KuCoin News",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptotimes.io/2026/10/12/bitcoin-price-today-btc-back-above-84k-as-etf-selling-eases-and-shorts-unwind",
+    "name": "The Crypto Times",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://coindesk.com/markets/2026/10/12/altcoins-rally-on-thin-trading-as-bitcoin-holds-near-usd84-000",
+    "name": "CoinDesk",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -8650,15 +8755,29 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://cryptotimes.io/2026/10/12/bitcoin-price-today-btc-back-above-84k-as-etf-selling-eases-and-shorts-unwind",
+    "name": "The Crypto Times",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://coindesk.com/markets/2026/10/12/altcoins-rally-on-thin-trading-as-bitcoin-holds-near-usd84-000",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "UNVERIFIED",
   "verification": {
    "status": "UNVERIFIED",
-   "independent_sources": 0,
+   "independent_sources": 1,
    "has_primary": false,
-   "score": 0.0,
-   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
    "sources_checked": [
     {
      "name": "KuCoin News",
@@ -8666,6 +8785,20 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "The Crypto Times",
+     "url": "https://cryptotimes.io/2026/10/12/bitcoin-price-today-btc-back-above-84k-as-etf-selling-eases-and-shorts-unwind",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://coindesk.com/markets/2026/10/12/altcoins-rally-on-thin-trading-as-bitcoin-holds-near-usd84-000",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -8677,7 +8810,26 @@
   "content_created": false,
   "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-12T10:10-04:00",
+    "headline": "Bitcoin back above $84,000 as shorts unwind",
+    "summary": "Here's what moved the chain today. Bitcoin's back above eighty-four thousand dollars.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-12T10:10-04:00",
+    "headline": "Altcoins rally; Starknet (STRK) up 76% this week",
+    "summary": "Green candles only! Altcoins are sprinting, and Starknet is up seventy-six percent this week!",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -9714,6 +9866,464 @@
   ],
   "market_significance": "Sets up CPI week",
   "trigger": "search",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261012_a04359",
+  "headline": "Thin-volume rally ahead of US CPI, forecast 3.7%",
+  "summary": "Check the yields first. Thin volume rally, with CPI expected at three point seven percent.",
+  "detected_at": "2026-10-12T10:10-04:00",
+  "active_since": "2026-10-12T10:10-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "BTC",
+   "TOTAL_MARKET"
+  ],
+  "event_type": "macro",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://coingape.com/markets/bitcoin-price-prediction-ahead-of-us-inflation-data-and-kevin-warshs-speech/"
+  ],
+  "source_names": [
+   "CoinGape"
+  ],
+  "sources": [
+   {
+    "url": "https://coingape.com/markets/bitcoin-price-prediction-ahead-of-us-inflation-data-and-kevin-warshs-speech/",
+    "name": "CoinGape",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://coingape.com/markets/bitcoin-price-prediction-ahead-of-us-inflation-data-and-kevin-warshs-speech/",
+    "name": "CoinGape",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinGape",
+     "url": "https://coingape.com/markets/bitcoin-price-prediction-ahead-of-us-inflation-data-and-kevin-warshs-speech/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261012_9d55fe",
+  "headline": "Ledger reseller drainer sends about 2,990 ETH into Tornado Cash",
+  "summary": "Psst... the Ledger reseller drainer sent about three thousand Ether into Tornado Cash.",
+  "detected_at": "2026-10-12T10:10-04:00",
+  "active_since": "2026-10-12T10:10-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "ETH"
+  ],
+  "event_type": "hack_exploit",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://kucoin.com/news/articles/crypto-daily-market-report-october-12-2026",
+   "https://protos.com/ledger-says-southeast-asia-reseller-linked-to-86m-draining/",
+   "https://coingabbar.com/en/crypto-news-today-bitcoin-top-gainers-losers-trending-coins"
+  ],
+  "source_names": [
+   "KuCoin",
+   "Protos",
+   "CoinGabbar"
+  ],
+  "sources": [
+   {
+    "url": "https://kucoin.com/news/articles/crypto-daily-market-report-october-12-2026",
+    "name": "KuCoin",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://protos.com/ledger-says-southeast-asia-reseller-linked-to-86m-draining/",
+    "name": "Protos",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://coingabbar.com/en/crypto-news-today-bitcoin-top-gainers-losers-trending-coins",
+    "name": "CoinGabbar",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://kucoin.com/news/articles/crypto-daily-market-report-october-12-2026",
+    "name": "KuCoin",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://protos.com/ledger-says-southeast-asia-reseller-linked-to-86m-draining/",
+    "name": "Protos",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://coingabbar.com/en/crypto-news-today-bitcoin-top-gainers-losers-trending-coins",
+    "name": "CoinGabbar",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "KuCoin",
+     "url": "https://kucoin.com/news/articles/crypto-daily-market-report-october-12-2026",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Protos",
+     "url": "https://protos.com/ledger-says-southeast-asia-reseller-linked-to-86m-draining/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinGabbar",
+     "url": "https://coingabbar.com/en/crypto-news-today-bitcoin-top-gainers-losers-trending-coins",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [
+   {
+    "at": "2026-10-12T10:23-04:00",
+    "headline": "Argentina's central bank reaffirms its ban on banks offering crypto",
+    "summary": "Argentina's central bank reaffirmed its crypto ban for banks; an official said banks may eventually handle crypto but no policy change is expected this year or next.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-12T10:23-04:00",
+    "headline": "RAIN unlocks about 5% of circulating supply, worth roughly $369 million",
+    "summary": "RAIN's scheduled token unlock of about 5.11% of circulating supply, valued near $369 million, falls on October 12.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   }
+  ],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261012_8886ef",
+  "headline": "XRP treasury firm Evernorth (XRPN) set to list on Nasdaq holding 473 million XRP",
+  "summary": "And Evernorth is set to list on Nasdaq today, holding four hundred seventy-three million XRP.",
+  "detected_at": "2026-10-12T10:10-04:00",
+  "active_since": "2026-10-12T10:10-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "XRP"
+  ],
+  "event_type": "institutional",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://cryptobriefing.com/xrp-treasury-firm-evens-nasdaq-debut/"
+  ],
+  "source_names": [
+   "Crypto Briefing"
+  ],
+  "sources": [
+   {
+    "url": "https://cryptobriefing.com/xrp-treasury-firm-evens-nasdaq-debut/",
+    "name": "Crypto Briefing",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://cryptobriefing.com/xrp-treasury-firm-evens-nasdaq-debut/",
+    "name": "Crypto Briefing",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Crypto Briefing",
+     "url": "https://cryptobriefing.com/xrp-treasury-firm-evens-nasdaq-debut/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261012_13be6c",
+  "headline": "Ontology briefly pauses block production after an ecosystem security report, then resumes",
+  "summary": "Ontology paused mainnet block production with its consensus nodes as a precaution after a report flagged risks in an ecosystem project; block production has resumed and the team says no funds on the network itself were lost.",
+  "detected_at": "2026-10-12T10:23-04:00",
+  "active_since": "2026-10-12T10:23-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "ONT"
+  ],
+  "event_type": "outage",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.chaincatcher.com/en/article/2295662",
+   "https://coingabbar.com/en/crypto-news-today-bitcoin-top-gainers-losers-trending-coins"
+  ],
+  "source_names": [
+   "ChainCatcher",
+   "CoinGabbar"
+  ],
+  "sources": [
+   {
+    "url": "https://www.chaincatcher.com/en/article/2295662",
+    "name": "ChainCatcher",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://coingabbar.com/en/crypto-news-today-bitcoin-top-gainers-losers-trending-coins",
+    "name": "CoinGabbar",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.chaincatcher.com/en/article/2295662",
+    "name": "ChainCatcher",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://coingabbar.com/en/crypto-news-today-bitcoin-top-gainers-losers-trending-coins",
+    "name": "CoinGabbar",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "ChainCatcher",
+     "url": "https://www.chaincatcher.com/en/article/2295662",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinGabbar",
+     "url": "https://coingabbar.com/en/crypto-news-today-bitcoin-top-gainers-losers-trending-coins",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Short precautionary pause on a non-major network, already resumed, no confirmed losses"
+  ],
+  "market_significance": "low",
+  "trigger": "coingabbar daily roundup",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [
+   {
+    "at": "2026-10-12T10:23-04:00",
+    "headline": "COLDCARD's X account posts a fake firmware alert with phishing links; posts deleted",
+    "summary": "A fake firmware vulnerability alert with phishing links appeared on COLDCARD's X account; the posts were deleted and no abnormal logins were reported.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-12T10:23-04:00",
+    "headline": "Japan arrests six over alleged laundering of about 91 million yen via bitcoin and USDT",
+    "summary": "Japanese police arrested six people accused of laundering about 91 million yen, roughly $580,000, in fraud proceeds through bitcoin and USDT.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   }
+  ],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261012_4e7b57",
+  "headline": "UK freezes $12 million London penthouse of alleged Prince Group finance chief",
+  "summary": "Decrypt reports the UK froze a London penthouse worth about twelve million dollars linked to the alleged finance chief of Cambodia's Prince Group, which U.S. authorities tied to a large bitcoin seizure.",
+  "detected_at": "2026-10-12T10:23-04:00",
+  "active_since": "2026-10-12T10:23-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "legal",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://decrypt.co/380661/uk-freezes-12m-london-penthouse-of-alleged-prince-group-finance-chief"
+  ],
+  "source_names": [
+   "Decrypt"
+  ],
+  "sources": [
+   {
+    "url": "https://decrypt.co/380661/uk-freezes-12m-london-penthouse-of-alleged-prince-group-finance-chief",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://decrypt.co/380661/uk-freezes-12m-london-penthouse-of-alleged-prince-group-finance-chief",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/380661/uk-freezes-12m-london-penthouse-of-alleged-prince-group-finance-chief",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Enforcement follow-up, not market-moving; article could not be opened this run"
+  ],
+  "market_significance": "low",
+  "trigger": "Decrypt news page",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
