@@ -6903,7 +6903,8 @@
    "https://www.coindesk.com/price/bitcoin",
    "https://www.coindesk.com/markets/2026/10/12/altcoins-rally-on-thin-trading-as-bitcoin-holds-near-usd84-000",
    "https://coindesk.com/markets/2026/10/12/bitcoin-shrugs-off-etf-outflows-to-trade-above-usd84-000-as-oil-falls",
-   "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-october-12-2026-how-bond-yields-threaten-crypto-prices-114018710.html"
+   "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-october-12-2026-how-bond-yields-threaten-crypto-prices-114018710.html",
+   "https://coincodex.com/article/93456/daily-market-update-for-october-12-2026"
   ],
   "source_names": [
    "CoinDesk",
@@ -6915,7 +6916,8 @@
    "CoinDesk prices",
    "CoinDesk",
    "CoinDesk",
-   "Yahoo Finance"
+   "Yahoo Finance",
+   "CoinCodex"
   ],
   "sources": [
    {
@@ -6985,6 +6987,13 @@
     "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-october-12-2026-how-bond-yields-threaten-crypto-prices-114018710.html",
     "name": "Yahoo Finance",
     "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://coincodex.com/article/93456/daily-market-update-for-october-12-2026",
+    "name": "CoinCodex",
+    "kind": "other",
     "checked": true,
     "confirms": true
    }
@@ -7057,6 +7066,13 @@
     "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-october-12-2026-how-bond-yields-threaten-crypto-prices-114018710.html",
     "name": "Yahoo Finance",
     "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://coincodex.com/article/93456/daily-market-update-for-october-12-2026",
+    "name": "CoinCodex",
+    "kind": "other",
     "checked": true,
     "confirms": true
    }
@@ -7138,6 +7154,13 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "CoinCodex",
+     "url": "https://coincodex.com/article/93456/daily-market-update-for-october-12-2026",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -7209,6 +7232,15 @@
     "at": "2026-10-12T10:23-04:00",
     "headline": "Crypto holds steady as record Treasury yields weigh on risk assets; bitcoin near $83,000",
     "summary": "Bitcoin traded around $82,700 to $83,800 on Monday, roughly flat over 24 hours, with ether up about one percent; analysts point to high bond yields, AI-bubble worries and Middle East tensions ahead of Wednesday's CPI.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-12T16:20-04:00",
+    "headline": "Reserve Rights and Wormhole jump nearly 60% as 92% of top coins gain on the day",
+    "summary": "RSR rose about 59% and Wormhole about 58% in 24 hours as total crypto market cap edged up about 1% to $2.82 trillion; BTC up about 1%, ETH up about 2%.",
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 1,
@@ -11164,6 +11196,79 @@
     "verification": "UNVERIFIED"
    }
   ],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261012_f9f8f1",
+  "headline": "NEAR slips about 3% after a 30% three-day rally as Bitwise NEAR ETF logs another $13 million weekly inflow",
+  "summary": "NEAR fell about 3% on Monday after rallying roughly 30% over the prior three days. Bitwise's NEAR ETF recorded its second straight weekly inflow above $13 million.",
+  "detected_at": "2026-10-12T16:20-04:00",
+  "active_since": "2026-10-12T16:20-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "NEAR"
+  ],
+  "event_type": "market_move",
+  "event_time": "2026-10-12T06:00-04:00",
+  "scheduled_event": false,
+  "metrics": {
+   "pct_move_24h": -3
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://fxstreet.com/cryptocurrencies/news/cryptocurrencies-price-prediction-near-bitcoin-crypto-european-wrap-12-october-202610121210"
+  ],
+  "source_names": [
+   "FXStreet"
+  ],
+  "sources": [
+   {
+    "url": "https://fxstreet.com/cryptocurrencies/news/cryptocurrencies-price-prediction-near-bitcoin-crypto-european-wrap-12-october-202610121210",
+    "name": "FXStreet",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://fxstreet.com/cryptocurrencies/news/cryptocurrencies-price-prediction-near-bitcoin-crypto-european-wrap-12-october-202610121210",
+    "name": "FXStreet",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "FXStreet",
+     "url": "https://fxstreet.com/cryptocurrencies/news/cryptocurrencies-price-prediction-near-bitcoin-crypto-european-wrap-12-october-202610121210",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Routine altcoin pullback and ETF flow data",
+   "price rule: DEFAULT moved 3.0% in 24h (thresholds 12%/20%) -> NORMAL"
+  ],
+  "market_significance": "Shows ETF demand reaching mid-cap altcoins",
+  "trigger": "FXStreet European wrap",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
   "posts": [],
   "needs_followup": false
  }
