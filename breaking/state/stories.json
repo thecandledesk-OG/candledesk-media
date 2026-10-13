@@ -10447,12 +10447,22 @@
   "source_urls": [
    "https://kucoin.com/news/articles/crypto-daily-market-report-october-12-2026",
    "https://protos.com/ledger-says-southeast-asia-reseller-linked-to-86m-draining/",
-   "https://coingabbar.com/en/crypto-news-today-bitcoin-top-gainers-losers-trending-coins"
+   "https://coingabbar.com/en/crypto-news-today-bitcoin-top-gainers-losers-trending-coins",
+   "https://www.coindesk.com/tech/2026/10/13/ledger-says-spy-chip-inside-cryptobilis-ledger-devices-transmitted-wallet-keys-over-mobile-network",
+   "https://cointelegraph.com/news/trezor-preventative-steps-wallet-tampering-reports",
+   "https://crypto.news/ledger-reveals-how-hidden-chips-stole-recovery-phrases/",
+   "https://x.com/Ledger/status/2109896739985453358",
+   "https://x.com/Trezor/status/2110000774314873020"
   ],
   "source_names": [
    "KuCoin",
    "Protos",
-   "CoinGabbar"
+   "CoinGabbar",
+   "CoinDesk",
+   "Cointelegraph",
+   "crypto.news",
+   "Ledger on X",
+   "Trezor on X"
   ],
   "sources": [
    {
@@ -10474,6 +10484,41 @@
     "name": "CoinGabbar",
     "kind": "other",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/tech/2026/10/13/ledger-says-spy-chip-inside-cryptobilis-ledger-devices-transmitted-wallet-keys-over-mobile-network",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cointelegraph.com/news/trezor-preventative-steps-wallet-tampering-reports",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://crypto.news/ledger-reveals-how-hidden-chips-stole-recovery-phrases/",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://x.com/Ledger/status/2109896739985453358",
+    "name": "Ledger on X",
+    "kind": "social",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://x.com/Trezor/status/2110000774314873020",
+    "name": "Trezor on X",
+    "kind": "social",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -10498,15 +10543,50 @@
     "kind": "other",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/tech/2026/10/13/ledger-says-spy-chip-inside-cryptobilis-ledger-devices-transmitted-wallet-keys-over-mobile-network",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cointelegraph.com/news/trezor-preventative-steps-wallet-tampering-reports",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://crypto.news/ledger-reveals-how-hidden-chips-stole-recovery-phrases/",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://x.com/Ledger/status/2109896739985453358",
+    "name": "Ledger on X",
+    "kind": "social",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://x.com/Trezor/status/2110000774314873020",
+    "name": "Trezor on X",
+    "kind": "social",
+    "checked": false,
+    "confirms": true
    }
   ],
-  "verification_status": "UNVERIFIED",
+  "verification_status": "VERIFIED",
   "verification": {
-   "status": "UNVERIFIED",
-   "independent_sources": 0,
+   "status": "VERIFIED",
+   "independent_sources": 2,
    "has_primary": false,
-   "score": 0.0,
-   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "score": 0.8,
+   "reason": "2 independent credible sources confirm it (no primary source yet)",
    "sources_checked": [
     {
      "name": "KuCoin",
@@ -10528,6 +10608,41 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/tech/2026/10/13/ledger-says-spy-chip-inside-cryptobilis-ledger-devices-transmitted-wallet-keys-over-mobile-network",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Cointelegraph",
+     "url": "https://cointelegraph.com/news/trezor-preventative-steps-wallet-tampering-reports",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/ledger-reveals-how-hidden-chips-stole-recovery-phrases/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Ledger on X",
+     "url": "https://x.com/Ledger/status/2109896739985453358",
+     "category": "social",
+     "counts": false,
+     "note": "social/community post — can trigger investigation, never verifies"
+    },
+    {
+     "name": "Trezor on X",
+     "url": "https://x.com/Trezor/status/2110000774314873020",
+     "category": "social",
+     "counts": false,
+     "note": "social/community post — can trigger investigation, never verifies"
     }
    ]
   },
@@ -10557,6 +10672,24 @@
     "level": "NORMAL",
     "sources_added": 0,
     "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-13T19:17-04:00",
+    "headline": "Ledger confirms a hidden LTE spy chip in reseller-sold wallets captured recovery phrases",
+    "summary": "Ledger says a covert implant inside some signers sold by Southeast Asian reseller CryptoBilis read 24-word recovery phrases off the screen and sent them out over LTE using an eSIM. It did not alter the secure element or OS. Ledger has not confirmed total losses; onchain researchers estimate roughly $72M-$102M across 300+ wallets. Users of CryptoBilis devices are told to move funds to a new device with a new phrase.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 4,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-13T19:17-04:00",
+    "headline": "Trezor cuts back its reseller list as a precaution after the Ledger tampering reports",
+    "summary": "Trezor says it will remove some resellers from its authorized list from January 1 as a preventive step, says there is no evidence its devices were compromised, and urges buying direct, checking seals and considering multisig across brands.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
    }
   ],
   "posts": [],
@@ -11036,14 +11169,18 @@
    "https://www.theblock.co/news/business/2026-10-13-strive-buys-3311-bitcoin-280-million-largest-acquisition-since-january-418430",
    "https://www.sec.gov/ix?doc=/Archives/edgar/data/0001920406/000162828026065595/asst-20261013.htm",
    "https://www.theblock.co/news#strive-3311-btc",
-   "https://theblock.co/news/business/2026-10-13-strive-buys-3311-bitcoin-280-million-largest-acquisition-since-january-418430"
+   "https://theblock.co/news/business/2026-10-13-strive-buys-3311-bitcoin-280-million-largest-acquisition-since-january-418430",
+   "https://cointelegraph.com/news/strive-bitcoin-holdings-32773-btc-warrant-exercises",
+   "https://www.sec.gov/Archives/edgar/data/1920406/000162828026065595/asst-20261013.htm"
   ],
   "source_names": [
    "The Block",
    "The Block",
    "SEC 8-K",
    "The Block (latest news list)",
-   "The Block"
+   "The Block",
+   "Cointelegraph",
+   "SEC filing"
   ],
   "sources": [
    {
@@ -11079,6 +11216,20 @@
     "name": "The Block",
     "kind": "secondary",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cointelegraph.com/news/strive-bitcoin-holdings-32773-btc-warrant-exercises",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.sec.gov/Archives/edgar/data/1920406/000162828026065595/asst-20261013.htm",
+    "name": "SEC filing",
+    "kind": "primary",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -11117,15 +11268,29 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://cointelegraph.com/news/strive-bitcoin-holdings-32773-btc-warrant-exercises",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.sec.gov/Archives/edgar/data/1920406/000162828026065595/asst-20261013.htm",
+    "name": "SEC filing",
+    "kind": "primary",
+    "checked": false,
+    "confirms": true
    }
   ],
-  "verification_status": "UNVERIFIED",
+  "verification_status": "VERIFIED",
   "verification": {
-   "status": "UNVERIFIED",
-   "independent_sources": 1,
+   "status": "VERIFIED",
+   "independent_sources": 2,
    "has_primary": false,
-   "score": 0.4,
-   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "score": 0.8,
+   "reason": "2 independent credible sources confirm it (no primary source yet)",
    "sources_checked": [
     {
      "name": "The Block",
@@ -11161,6 +11326,20 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "Cointelegraph",
+     "url": "https://cointelegraph.com/news/strive-bitcoin-holdings-32773-btc-warrant-exercises",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "SEC filing",
+     "url": "https://www.sec.gov/Archives/edgar/data/1920406/000162828026065595/asst-20261013.htm",
+     "category": "primary",
+     "counts": false,
+     "note": "primary (known official domain); not opened, so it doesn't count"
     }
    ]
   },
@@ -11199,6 +11378,15 @@
     "level": "NORMAL",
     "sources_added": 1,
     "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-13T19:17-04:00",
+    "headline": "Strive buys 3,311 bitcoin, bringing holdings to 32,773 BTC",
+    "summary": "Strive bought 3,311 BTC in the week ending Oct 9 at about $84,500 each, lifting holdings to 32,773 BTC, fifth among public companies, helped by $208M in warrant exercises.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "VERIFIED"
    }
   ],
   "posts": [],
@@ -11806,7 +11994,8 @@
    "https://cointelegraph.com/markets/bitcoin-drops-22-as-ukraine-iran-strikes-send-oil-toward-one-month-high",
    "https://www.coindesk.com/price/bitcoin",
    "https://www.coindesk.com/markets/2026/10/13/live-updates-bitcoin-whipsaws-between-usd81-000-and-usd84-000-as-altcoins-slide",
-   "https://www.coindesk.com/markets"
+   "https://www.coindesk.com/markets",
+   "https://fameex.com/en-US/news/crypto-news-recap-20261013"
   ],
   "source_names": [
    "The Block",
@@ -11814,7 +12003,8 @@
    "Cointelegraph",
    "CoinDesk",
    "CoinDesk live",
-   "CoinDesk"
+   "CoinDesk",
+   "FameEX"
   ],
   "sources": [
    {
@@ -11856,6 +12046,13 @@
     "url": "https://www.coindesk.com/markets",
     "name": "CoinDesk",
     "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://fameex.com/en-US/news/crypto-news-recap-20261013",
+    "name": "FameEX",
+    "kind": "other",
     "checked": true,
     "confirms": true
    }
@@ -11900,6 +12097,13 @@
     "url": "https://www.coindesk.com/markets",
     "name": "CoinDesk",
     "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://fameex.com/en-US/news/crypto-news-recap-20261013",
+    "name": "FameEX",
+    "kind": "other",
     "checked": true,
     "confirms": true
    }
@@ -11953,6 +12157,13 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "FameEX",
+     "url": "https://fameex.com/en-US/news/crypto-news-recap-20261013",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -11988,6 +12199,15 @@
     "at": "2026-10-13T16:16-04:00",
     "headline": "Bitcoin slips back below $83,000 as XRP and SOL lose about 4% ahead of U.S. inflation data",
     "summary": "Afternoon CoinDesk ticker: BTC about $82,600 (-1.2% 24h), ETH about $2,490 (-1.7%), XRP $1.36 (-3.8%), SOL about $107 (-3.6%). Bitcoin had bounced from $81,000 to $84,000 overnight; a strong dollar and rising yields weighed.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-13T19:17-04:00",
+    "headline": "Bitcoin steadies near $83,000 after dipping below $81,000; spot ether ETFs log a tenth straight day of outflows",
+    "summary": "BTC recovered to about $83,300, up about 1% in 24 hours per CoinDesk, after briefly falling below $81,000. ETH about $2,510 (+0.8%), XRP about $1.37 (-1.8%), SOL about $107.5 (-0.2%). U.S. spot bitcoin ETFs saw about $65M of outflows on Oct 12 and spot ether ETFs about $85M, their tenth straight outflow day. U.S. CPI due Oct 15.",
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 1,
@@ -13448,6 +13668,99 @@
   ],
   "market_significance": "Competes with OKX and Bitget pre-IPO products.",
   "trigger": "CoinDesk headline 11:52 AM ET",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261013_05ddfd",
+  "headline": "Aptos launches an encrypted mempool on mainnet to curb front-running",
+  "summary": "Aptos turned on an encrypted mempool that hides transaction details until ordering is final, aimed at sandwich attacks; tests showed about 20 milliseconds of extra time per block.",
+  "detected_at": "2026-10-13T19:17-04:00",
+  "active_since": "2026-10-13T19:17-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "APT"
+  ],
+  "event_type": "protocol_upgrade",
+  "event_time": "2026-10-12T12:00-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://cointelegraph.com/news/what-happened-in-crypto-today",
+   "https://fameex.com/en-US/news/crypto-news-recap-20261013"
+  ],
+  "source_names": [
+   "Cointelegraph",
+   "FameEX"
+  ],
+  "sources": [
+   {
+    "url": "https://cointelegraph.com/news/what-happened-in-crypto-today",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://fameex.com/en-US/news/crypto-news-recap-20261013",
+    "name": "FameEX",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://cointelegraph.com/news/what-happened-in-crypto-today",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://fameex.com/en-US/news/crypto-news-recap-20261013",
+    "name": "FameEX",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Cointelegraph",
+     "url": "https://cointelegraph.com/news/what-happened-in-crypto-today",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "FameEX",
+     "url": "https://fameex.com/en-US/news/crypto-news-recap-20261013",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Upgrade on a non-major chain."
+  ],
+  "market_significance": "MEV protection.",
+  "trigger": "Cointelegraph daily recap, FameEX recap",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
