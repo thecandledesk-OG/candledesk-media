@@ -1,0 +1,82 @@
+{
+ "story_id": "st_20261013_e36555",
+ "date_label": "OCT 13",
+ "headline": "South Korea blocks 27 unregistered crypto exchanges, including KuCoin and MEXC",
+ "sources": [
+  {
+   "name": "CoinDesk",
+   "url": "https://www.coindesk.com/policy/2026/10/13/south-korea-blocks-27-crypto-exchanges-including-bitmart-and-kucoin"
+  },
+  {
+   "name": "Cointelegraph",
+   "url": "https://cointelegraph.com/news/south-korea-moves-to-block-27-crypto-websites-including-kucoin-mexc"
+  }
+ ],
+ "scenes": [
+  {
+   "beat": "hook",
+   "who": "ledger",
+   "vo": "South Korea is cutting off twenty-seven crypto exchanges, including Koo Coin and M E X C. Here's what changed.",
+   "chunks": [
+    "South Korea",
+    "*Blocks 27 exchanges*",
+    "KuCoin and MEXC"
+   ]
+  },
+  {
+   "beat": "what_happened",
+   "who": "ledger",
+   "vo": "Korea's Financial Intelligence Unit says these exchanges never registered. Their websites get blocked inside the country. Bit Mart and Fee mex are on the list too.",
+   "chunks": [
+    "Never registered",
+    "*Websites blocked*",
+    "BitMart, Phemex too"
+   ],
+   "stat": {
+    "label": "Sources",
+    "text": "CoinDesk · Cointelegraph"
+   }
+  },
+  {
+   "beat": "why_it_matters",
+   "who": "bruno",
+   "vo": "Here's why traders are watching it. Korea is a huge retail crypto market, yet only twenty-eight exchanges are registered there.",
+   "chunks": [
+    "Huge retail market",
+    "*Only 28 registered*",
+    "Out of reach"
+   ]
+  },
+  {
+   "beat": "why_it_matters",
+   "who": "ursa",
+   "vo": "The catch. The regulator warned users of these platforms may struggle to get their money back. It says it will help with withdrawals.",
+   "chunks": [
+    "The catch",
+    "*Withdrawals at risk*",
+    "Help promised"
+   ]
+  },
+  {
+   "beat": "watch_next",
+   "who": "moby",
+   "vo": "Here's what happens next. Watch whether blocked sites pop up at new addresses. The regulator says it will block those too.",
+   "chunks": [
+    "Watch for",
+    "*New web addresses*",
+    "Blocked again"
+   ]
+  },
+  {
+   "beat": "cta",
+   "who": "all",
+   "vo": "Follow The Candle Desk for crypto news without the hype. Not financial advice.",
+   "chunks": [
+    "Follow The Candle Desk",
+    "*No hype*",
+    "Just the news"
+   ],
+   "foot": "NOT FINANCIAL ADVICE"
+  }
+ ]
+}

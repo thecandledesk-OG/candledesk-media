@@ -7459,7 +7459,10 @@
    "https://x.com/Ledger_Support/status/2108551100613714002",
    "https://www.coindesk.com/tech/2026/10/12/ledger-claims-cryptobilis-cases-are-limited-as-up-to-usd93m-is-traced-usd10m-frozen",
    "https://www.coindesk.com/tech/2026/10/12/ledger-says-unauthorized-implant-found-in-at-least-one-device-sold-by-cryptobilis",
-   "https://decrypt.co/380706/ledger-says-all-confirmed-cases-in-suspected-87m-drain-tied-to-reseller-cryptobilis"
+   "https://decrypt.co/380706/ledger-says-all-confirmed-cases-in-suspected-87m-drain-tied-to-reseller-cryptobilis",
+   "https://www.coindesk.com/tech/2026/10/13/ledger-says-spy-chip-inside-cryptobilis-ledger-devices-transmitted-wallet-keys-over-mobile-network",
+   "https://decrypt.co/380826/ledger-finds-lte-implant-that-stole-recovery-phrases-in-suspected-86m-drain",
+   "https://x.com/Ledger/status/2109896739985453358"
   ],
   "source_names": [
    "CoinDesk",
@@ -7467,7 +7470,10 @@
    "Ledger Support on X",
    "CoinDesk",
    "CoinDesk",
-   "Decrypt"
+   "Decrypt",
+   "CoinDesk",
+   "Decrypt",
+   "Ledger on X"
   ],
   "sources": [
    {
@@ -7511,6 +7517,27 @@
     "kind": "secondary",
     "checked": true,
     "confirms": false
+   },
+   {
+    "url": "https://www.coindesk.com/tech/2026/10/13/ledger-says-spy-chip-inside-cryptobilis-ledger-devices-transmitted-wallet-keys-over-mobile-network",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/380826/ledger-finds-lte-implant-that-stole-recovery-phrases-in-suspected-86m-drain",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://x.com/Ledger/status/2109896739985453358",
+    "name": "Ledger on X",
+    "kind": "social",
+    "checked": false,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -7555,15 +7582,36 @@
     "kind": "secondary",
     "checked": true,
     "confirms": false
+   },
+   {
+    "url": "https://www.coindesk.com/tech/2026/10/13/ledger-says-spy-chip-inside-cryptobilis-ledger-devices-transmitted-wallet-keys-over-mobile-network",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/380826/ledger-finds-lte-implant-that-stole-recovery-phrases-in-suspected-86m-drain",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://x.com/Ledger/status/2109896739985453358",
+    "name": "Ledger on X",
+    "kind": "social",
+    "checked": false,
+    "confirms": true
    }
   ],
   "verification_status": "VERIFIED",
   "verification": {
    "status": "VERIFIED",
-   "independent_sources": 2,
+   "independent_sources": 3,
    "has_primary": false,
    "score": 0.8,
-   "reason": "2 independent credible sources confirm it (no primary source yet)",
+   "reason": "3 independent credible sources confirm it (no primary source yet)",
    "sources_checked": [
     {
      "name": "CoinDesk",
@@ -7606,6 +7654,27 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; opened but does not confirm the claim"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/tech/2026/10/13/ledger-says-spy-chip-inside-cryptobilis-ledger-devices-transmitted-wallet-keys-over-mobile-network",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/380826/ledger-finds-lte-implant-that-stole-recovery-phrases-in-suspected-86m-drain",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Ledger on X",
+     "url": "https://x.com/Ledger/status/2109896739985453358",
+     "category": "social",
+     "counts": false,
+     "note": "social/community post — can trigger investigation, never verifies"
     }
    ]
   },
@@ -7653,6 +7722,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-13T10:19-04:00",
+    "headline": "Ledger says a hidden LTE chip in CryptoBilis-sold devices stole recovery phrases",
+    "summary": "Ledger's Donjon team says an unauthorized implant in signers sold by reseller CryptoBilis read the 24-word recovery phrase off the screen during setup and sent it over LTE via an eSIM. Secure element and OS untouched. Losses unconfirmed by Ledger; researchers estimate $86M-$93M across 300+ wallets; Tether froze $10M; MediaMarkt Saturn paused Ledger sales.",
+    "new_development": true,
+    "level": "IMPORTANT",
+    "sources_added": 3,
     "verification": "VERIFIED"
    }
   ],
@@ -8482,7 +8560,8 @@
    "https://en.cryptonomist.ch/2026/10/11/crypto-etfs-october-outflows",
    "https://theblock.co/news/markets/2026-10-10-ether-etfs-extend-outflow-streak-to-nine-days-as-solana-funds-snap-record-14-week-inflow-run-418215",
    "https://news.bitcoin.com/market-updates/bitcoin-ether-etfs-lose-1-2-billion-as-institutional-demand-cracks/",
-   "https://decrypt.co/380640/bitcoin-ethereum-solana-etfs-red-october"
+   "https://decrypt.co/380640/bitcoin-ethereum-solana-etfs-red-october",
+   "https://tedpillows.substack.com/p/crypto-and-finance-market-report-acb"
   ],
   "source_names": [
    "24/7 Wall St.",
@@ -8491,7 +8570,8 @@
    "The Cryptonomist",
    "The Block",
    "Bitcoin.com News",
-   "Decrypt"
+   "Decrypt",
+   "Crypto & Finance report"
   ],
   "sources": [
    {
@@ -8541,6 +8621,13 @@
     "name": "Decrypt",
     "kind": "secondary",
     "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://tedpillows.substack.com/p/crypto-and-finance-market-report-acb",
+    "name": "Crypto & Finance report",
+    "kind": "secondary",
+    "checked": true,
     "confirms": true
    }
   ],
@@ -8592,6 +8679,13 @@
     "name": "Decrypt",
     "kind": "secondary",
     "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://tedpillows.substack.com/p/crypto-and-finance-market-report-acb",
+    "name": "Crypto & Finance report",
+    "kind": "secondary",
+    "checked": true,
     "confirms": true
    }
   ],
@@ -8651,6 +8745,13 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "Crypto & Finance report",
+     "url": "https://tedpillows.substack.com/p/crypto-and-finance-market-report-acb",
+     "category": "social",
+     "counts": false,
+     "note": "social/community post — can trigger investigation, never verifies"
     }
    ]
   },
@@ -8742,6 +8843,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 2,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-13T10:08-04:00",
+    "headline": "Ether ETFs see nine straight sessions of outflows, $577 million in five days",
+    "summary": "Psst... Ether ETFs saw outflows nine sessions straight, five hundred seventy-seven million in five days.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "UNVERIFIED"
    }
   ],
@@ -9519,6 +9629,15 @@
     "level": "NORMAL",
     "sources_added": 1,
     "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-13T10:19-04:00",
+    "headline": "French proposal to make holders report wallets over $112,000 draws crypto backlash",
+    "summary": "A French proposal would require reporting of crypto wallets holding more than about $112,000, drawing pushback from the crypto community.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
    }
   ],
   "posts": [],
@@ -9543,15 +9662,51 @@
   "metrics": {},
   "emergency": false,
   "source_urls": [
-   "https://www.coindesk.com/markets/2026/10/10/bitcoin-s-usd19-billion-wake-up-call-one-year-later-has-crypto-learned-anything"
+   "https://www.coindesk.com/markets/2026/10/10/bitcoin-s-usd19-billion-wake-up-call-one-year-later-has-crypto-learned-anything",
+   "https://bitcoinfoundation.org/news/analysis/why-is-crypto-down-today-bitcoin-sell-off-deepens-as-771m-in-leveraged-bets-get-wiped-out/",
+   "https://www.coingecko.com/en/coins/bitcoin",
+   "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-13-2026",
+   "https://www.theblock.co/news/ecosystems/2026-10-12-blur-nft-marketplace-shutting-down-frontend-blend-418363"
   ],
   "source_names": [
-   "CoinDesk"
+   "CoinDesk",
+   "Bitcoin Foundation",
+   "CoinGecko",
+   "KuCoin",
+   "The Block"
   ],
   "sources": [
    {
     "url": "https://www.coindesk.com/markets/2026/10/10/bitcoin-s-usd19-billion-wake-up-call-one-year-later-has-crypto-learned-anything",
     "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://bitcoinfoundation.org/news/analysis/why-is-crypto-down-today-bitcoin-sell-off-deepens-as-771m-in-leveraged-bets-get-wiped-out/",
+    "name": "Bitcoin Foundation",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coingecko.com/en/coins/bitcoin",
+    "name": "CoinGecko",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-13-2026",
+    "name": "KuCoin",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/ecosystems/2026-10-12-blur-nft-marketplace-shutting-down-frontend-blend-418363",
+    "name": "The Block",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -9564,19 +9719,75 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://bitcoinfoundation.org/news/analysis/why-is-crypto-down-today-bitcoin-sell-off-deepens-as-771m-in-leveraged-bets-get-wiped-out/",
+    "name": "Bitcoin Foundation",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coingecko.com/en/coins/bitcoin",
+    "name": "CoinGecko",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-13-2026",
+    "name": "KuCoin",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/ecosystems/2026-10-12-blur-nft-marketplace-shutting-down-frontend-blend-418363",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
-  "verification_status": "UNVERIFIED",
+  "verification_status": "VERIFIED",
   "verification": {
-   "status": "UNVERIFIED",
-   "independent_sources": 1,
+   "status": "VERIFIED",
+   "independent_sources": 2,
    "has_primary": false,
-   "score": 0.4,
-   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "score": 0.8,
+   "reason": "2 independent credible sources confirm it (no primary source yet)",
    "sources_checked": [
     {
      "name": "CoinDesk",
      "url": "https://www.coindesk.com/markets/2026/10/10/bitcoin-s-usd19-billion-wake-up-call-one-year-later-has-crypto-learned-anything",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Bitcoin Foundation",
+     "url": "https://bitcoinfoundation.org/news/analysis/why-is-crypto-down-today-bitcoin-sell-off-deepens-as-771m-in-leveraged-bets-get-wiped-out/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinGecko",
+     "url": "https://www.coingecko.com/en/coins/bitcoin",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "KuCoin",
+     "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-13-2026",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/ecosystems/2026-10-12-blur-nft-marketplace-shutting-down-frontend-blend-418363",
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
@@ -9591,7 +9802,44 @@
   "content_created": false,
   "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-13T10:08-04:00",
+    "headline": "$771 million in leveraged crypto bets liquidated",
+    "summary": "Here's what moved the chain today. Seven hundred seventy-one million dollars in crypto bets, liquidated.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-13T10:08-04:00",
+    "headline": "Bitcoin dips near $81,000 and bounces back above $83,000",
+    "summary": "Green candles only! Bitcoin dipped near eighty-one thousand and bounced back above eighty-three!",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-13T10:08-04:00",
+    "headline": "10-year yields above 5% as US CPI lands Wednesday, forecast 3.7%",
+    "summary": "Check the yields first. Ten-year yields sit above five percent, and CPI lands tomorrow.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-13T10:08-04:00",
+    "headline": "NFT marketplace Blur is shutting its website next month; BLUR token drops over 20%",
+    "summary": "NFT marketplace Blur is shutting its website next month. Its token dropped over twenty percent.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -10752,16 +11000,34 @@
   "metrics": {},
   "emergency": false,
   "source_urls": [
-   "https://www.theblock.co/news/business/2026-10-12-theres-always-room-for-more-orange-michael-saylors-strategy-scoops-up-another-250-bitcoin-for-21-5-million-as-holdings-reach-848250-btc-418275"
+   "https://www.theblock.co/news/business/2026-10-12-theres-always-room-for-more-orange-michael-saylors-strategy-scoops-up-another-250-bitcoin-for-21-5-million-as-holdings-reach-848250-btc-418275",
+   "https://www.theblock.co/news/business/2026-10-13-strive-buys-3311-bitcoin-280-million-largest-acquisition-since-january-418430",
+   "https://www.sec.gov/ix?doc=/Archives/edgar/data/0001920406/000162828026065595/asst-20261013.htm"
   ],
   "source_names": [
-   "The Block"
+   "The Block",
+   "The Block",
+   "SEC 8-K"
   ],
   "sources": [
    {
     "url": "https://www.theblock.co/news/business/2026-10-12-theres-always-room-for-more-orange-michael-saylors-strategy-scoops-up-another-250-bitcoin-for-21-5-million-as-holdings-reach-848250-btc-418275",
     "name": "The Block",
     "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-13-strive-buys-3311-bitcoin-280-million-largest-acquisition-since-january-418430",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.sec.gov/ix?doc=/Archives/edgar/data/0001920406/000162828026065595/asst-20261013.htm",
+    "name": "SEC 8-K",
+    "kind": "primary",
     "checked": false,
     "confirms": true
    }
@@ -10773,15 +11039,29 @@
     "kind": "secondary",
     "checked": false,
     "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-13-strive-buys-3311-bitcoin-280-million-largest-acquisition-since-january-418430",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.sec.gov/ix?doc=/Archives/edgar/data/0001920406/000162828026065595/asst-20261013.htm",
+    "name": "SEC 8-K",
+    "kind": "primary",
+    "checked": false,
+    "confirms": true
    }
   ],
   "verification_status": "UNVERIFIED",
   "verification": {
    "status": "UNVERIFIED",
-   "independent_sources": 0,
+   "independent_sources": 1,
    "has_primary": false,
-   "score": 0.0,
-   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
    "sources_checked": [
     {
      "name": "The Block",
@@ -10789,6 +11069,20 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-10-13-strive-buys-3311-bitcoin-280-million-largest-acquisition-since-january-418430",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "SEC 8-K",
+     "url": "https://www.sec.gov/ix?doc=/Archives/edgar/data/0001920406/000162828026065595/asst-20261013.htm",
+     "category": "primary",
+     "counts": false,
+     "note": "primary (known official domain); not opened, so it doesn't count"
     }
    ]
   },
@@ -10800,7 +11094,17 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-13T10:19-04:00",
+    "headline": "Strive buys 3,311 bitcoin for about $280 million, its largest buy since January",
+    "summary": "Strive bought 3,311 BTC between Oct 5 and 9 at about $84,500 each, per an 8-K filed Oct 13, bringing holdings to 32,773 BTC.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -11404,13 +11708,15 @@
    "https://www.theblock.co/news/markets/2026-10-12-bitcoin-slides-crypto-liquidations-surge-418374",
    "https://www.benzinga.com/crypto/cryptocurrency/26/10/62313359/bitcoin-ethereum-xrp-dogecoin-tumble-as-geopolitical-risks-weigh-on-oil-prices-analyst-says-upcoming-cpi-remains-a-catalyst",
    "https://cointelegraph.com/markets/bitcoin-drops-22-as-ukraine-iran-strikes-send-oil-toward-one-month-high",
-   "https://www.coindesk.com/price/bitcoin"
+   "https://www.coindesk.com/price/bitcoin",
+   "https://www.coindesk.com/markets/2026/10/13/live-updates-bitcoin-whipsaws-between-usd81-000-and-usd84-000-as-altcoins-slide"
   ],
   "source_names": [
    "The Block",
    "Benzinga",
    "Cointelegraph",
-   "CoinDesk"
+   "CoinDesk",
+   "CoinDesk live"
   ],
   "sources": [
    {
@@ -11437,6 +11743,13 @@
    {
     "url": "https://www.coindesk.com/price/bitcoin",
     "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/13/live-updates-bitcoin-whipsaws-between-usd81-000-and-usd84-000-as-altcoins-slide",
+    "name": "CoinDesk live",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -11467,6 +11780,13 @@
    {
     "url": "https://www.coindesk.com/price/bitcoin",
     "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/13/live-updates-bitcoin-whipsaws-between-usd81-000-and-usd84-000-as-altcoins-slide",
+    "name": "CoinDesk live",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -11507,6 +11827,13 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk live",
+     "url": "https://www.coindesk.com/markets/2026/10/13/live-updates-bitcoin-whipsaws-between-usd81-000-and-usd84-000-as-altcoins-slide",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -11524,6 +11851,15 @@
     "at": "2026-10-13T07:10-04:00",
     "headline": "Bitcoin dips below $82,000 as liquidations top $770 million, then recovers toward $83,500",
     "summary": "BTC fell to about $81,400 Monday night with about $771 million in liquidations, mostly longs, amid a strong dollar, ETF outflows and a Kospi selloff, then recovered to about $83,500 early Tuesday. ETH, XRP and SOL fell about 5 to 8% in 24 hours.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-13T10:19-04:00",
+    "headline": "Bitcoin steadies near $83,500 as altcoins lag; SOL down about 5%, XRP about 3%",
+    "summary": "BTC trades near $83,500, roughly flat to up 1% in 24 hours after whipsawing between $81,000 and $84,000. ETH down about 2.4%, XRP about 3.4%, SOL about 4.7%, ZEC near 8%. Fear and Greed 57.",
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 1,
@@ -12135,6 +12471,575 @@
   ],
   "market_significance": "Key macro catalyst for crypto this week.",
   "trigger": "CoinDesk week ahead",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261013_e36555",
+  "headline": "South Korea blocks access to 27 unregistered crypto exchanges, including KuCoin and MEXC",
+  "summary": "South Korea's Financial Intelligence Unit said domestic access to the websites of 27 unregistered crypto exchanges, including KuCoin, MEXC, BitMart and Phemex, will be blocked after the communications standards commission approved it on Oct 6-7. Domestic operators face termination; the FIU warned users may struggle to withdraw and will help via DAXA. Only 28 providers are registered.",
+  "detected_at": "2026-10-13T10:19-04:00",
+  "active_since": "2026-10-13T10:19-04:00",
+  "classification": "IMPORTANT",
+  "proposed_level": "IMPORTANT",
+  "confidence": 0.85,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "regulatory",
+  "event_time": "2026-10-12T22:41-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/policy/2026/10/13/south-korea-blocks-27-crypto-exchanges-including-bitmart-and-kucoin",
+   "https://cointelegraph.com/news/south-korea-moves-to-block-27-crypto-websites-including-kucoin-mexc",
+   "https://en.sedaily.com/finance/2026/10/13/fiu-blocks-27-unregistered-crypto-exchange-sites-including",
+   "https://www.fsc.go.kr/no010101/87916"
+  ],
+  "source_names": [
+   "CoinDesk",
+   "Cointelegraph",
+   "Seoul Economic Daily",
+   "Korea FSC / FIU notice"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/policy/2026/10/13/south-korea-blocks-27-crypto-exchanges-including-bitmart-and-kucoin",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cointelegraph.com/news/south-korea-moves-to-block-27-crypto-websites-including-kucoin-mexc",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://en.sedaily.com/finance/2026/10/13/fiu-blocks-27-unregistered-crypto-exchange-sites-including",
+    "name": "Seoul Economic Daily",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.fsc.go.kr/no010101/87916",
+    "name": "Korea FSC / FIU notice",
+    "kind": "primary",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/policy/2026/10/13/south-korea-blocks-27-crypto-exchanges-including-bitmart-and-kucoin",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cointelegraph.com/news/south-korea-moves-to-block-27-crypto-websites-including-kucoin-mexc",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://en.sedaily.com/finance/2026/10/13/fiu-blocks-27-unregistered-crypto-exchange-sites-including",
+    "name": "Seoul Economic Daily",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.fsc.go.kr/no010101/87916",
+    "name": "Korea FSC / FIU notice",
+    "kind": "primary",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "verification_status": "VERIFIED",
+  "verification": {
+   "status": "VERIFIED",
+   "independent_sources": 2,
+   "has_primary": false,
+   "score": 0.8,
+   "reason": "2 independent credible sources confirm it (no primary source yet)",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/policy/2026/10/13/south-korea-blocks-27-crypto-exchanges-including-bitmart-and-kucoin",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Cointelegraph",
+     "url": "https://cointelegraph.com/news/south-korea-moves-to-block-27-crypto-websites-including-kucoin-mexc",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Seoul Economic Daily",
+     "url": "https://en.sedaily.com/finance/2026/10/13/fiu-blocks-27-unregistered-crypto-exchange-sites-including",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Korea FSC / FIU notice",
+     "url": "https://www.fsc.go.kr/no010101/87916",
+     "category": "primary",
+     "counts": false,
+     "note": "primary (claimed official source; domain not on the known list); not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed IMPORTANT: Regulator-ordered block of 27 offshore exchanges including top-20 venues in one of crypto's biggest retail markets; affects user withdrawals."
+  ],
+  "market_significance": "Korean users on KuCoin, MEXC and others lose website access; FIU warns funds may be hard to recover.",
+  "trigger": "FIU announcement Oct 13 KST",
+  "content_created": true,
+  "publication_status": "DRAFTED",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [
+   "6ace3f85a0d6c5bb1ec2b1a4",
+   "6ace3f87844852c82c797cb2",
+   "6ace3f8a0e025f0122f549c1"
+  ],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261013_60bfcb",
+  "headline": "Russia's Sberbank added to central bank's crypto exchange register, plans Dec 1 launch",
+  "summary": "The Bank of Russia added Sberbank to its register of crypto exchange operators on Oct 12, per Interfax, after giving it depository status Oct 6. Sberbank plans to open trading to clients Dec 1 and is testing BTC, ETH and USDT trades. Domestic crypto payments stay banned.",
+  "detected_at": "2026-10-13T10:19-04:00",
+  "active_since": "2026-10-13T10:19-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.75,
+  "assets": [
+   "BTC",
+   "ETH",
+   "USDT"
+  ],
+  "event_type": "institutional",
+  "event_time": "2026-10-12T12:00-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/business/2026/10/13/russia-s-largest-bank-sberbank-secures-approval-to-trade-crypto",
+   "https://unchainedcrypto.com/sberbank-lands-on-both-of-russias-crypto-registers-with-bank-of-russia-exchange-listing/"
+  ],
+  "source_names": [
+   "CoinDesk",
+   "Unchained"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/business/2026/10/13/russia-s-largest-bank-sberbank-secures-approval-to-trade-crypto",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "origin": "Interfax"
+   },
+   {
+    "url": "https://unchainedcrypto.com/sberbank-lands-on-both-of-russias-crypto-registers-with-bank-of-russia-exchange-listing/",
+    "name": "Unchained",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "origin": "Interfax"
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/business/2026/10/13/russia-s-largest-bank-sberbank-secures-approval-to-trade-crypto",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "origin": "Interfax"
+   },
+   {
+    "url": "https://unchainedcrypto.com/sberbank-lands-on-both-of-russias-crypto-registers-with-bank-of-russia-exchange-listing/",
+    "name": "Unchained",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "origin": "Interfax"
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/business/2026/10/13/russia-s-largest-bank-sberbank-secures-approval-to-trade-crypto",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Unchained",
+     "url": "https://unchainedcrypto.com/sberbank-lands-on-both-of-russias-crypto-registers-with-bank-of-russia-exchange-listing/",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Incremental step on a previously announced plan; both outlets rely on Interfax."
+  ],
+  "market_significance": "Russia's largest bank moving toward retail crypto trading.",
+  "trigger": "Interfax report",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261013_58ed71",
+  "headline": "Binance to shut down its mining pool, cloud mining and transaction accelerator on Nov 10",
+  "summary": "Binance is closing Binance Pool, Pool Savings, Cloud Mining and Transaction Accelerator effective Nov 10 at 7 a.m. UTC, citing a product review; miners must move hashrate to another pool. Pool pages close Nov 24.",
+  "detected_at": "2026-10-13T10:19-04:00",
+  "active_since": "2026-10-13T10:19-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.85,
+  "assets": [
+   "BNB",
+   "BTC"
+  ],
+  "event_type": "exchange",
+  "event_time": "2026-10-13T07:40-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-10-13-binance-to-shut-down-mining-pool-cloud-mining-and-related-services-418410",
+   "https://www.binance.com/en/support/announcement/detail/2b45800173fd44f48b4517f25f941434"
+  ],
+  "source_names": [
+   "The Block",
+   "Binance announcement"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-13-binance-to-shut-down-mining-pool-cloud-mining-and-related-services-418410",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.binance.com/en/support/announcement/detail/2b45800173fd44f48b4517f25f941434",
+    "name": "Binance announcement",
+    "kind": "primary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-13-binance-to-shut-down-mining-pool-cloud-mining-and-related-services-418410",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.binance.com/en/support/announcement/detail/2b45800173fd44f48b4517f25f941434",
+    "name": "Binance announcement",
+    "kind": "primary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-10-13-binance-to-shut-down-mining-pool-cloud-mining-and-related-services-418410",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Binance announcement",
+     "url": "https://www.binance.com/en/support/announcement/detail/2b45800173fd44f48b4517f25f941434",
+     "category": "primary",
+     "counts": false,
+     "note": "primary (known official domain); not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Product closure; affects miners, not traders."
+  ],
+  "market_significance": "Miners on Binance Pool must switch pools.",
+  "trigger": "Binance announcement",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261013_4a76e8",
+  "headline": "Federated Hermes plans its first onchain fund shares",
+  "summary": "Federated Hermes joins Wall Street's tokenization push with plans for its first onchain fund share class.",
+  "detected_at": "2026-10-13T10:19-04:00",
+  "active_since": "2026-10-13T10:19-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "institutional",
+  "event_time": "2026-10-13T09:00-04:00",
+  "scheduled_event": true,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/business/2026/10/13/federated-hermes-joins-wall-street-s-tokenization-push-with-plans-for-first-onchain-fund-shares"
+  ],
+  "source_names": [
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/business/2026/10/13/federated-hermes-joins-wall-street-s-tokenization-push-with-plans-for-first-onchain-fund-shares",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/business/2026/10/13/federated-hermes-joins-wall-street-s-tokenization-push-with-plans-for-first-onchain-fund-shares",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/business/2026/10/13/federated-hermes-joins-wall-street-s-tokenization-push-with-plans-for-first-onchain-fund-shares",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Plan, not launch."
+  ],
+  "market_significance": "Another asset manager moving toward tokenized funds.",
+  "trigger": "CoinDesk report",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261013_815042",
+  "headline": "Stacks' STX, a bitcoin layer-2 token, is up about 50% in four weeks",
+  "summary": "STX has surged roughly 50% over four weeks, per CoinDesk's daybook.",
+  "detected_at": "2026-10-13T10:19-04:00",
+  "active_since": "2026-10-13T10:19-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "STX"
+  ],
+  "event_type": "market_move",
+  "event_time": "2026-10-13T09:00-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/daybook-us/2026/10/13/stacks-stx-a-bitcoin-layer-2-token-has-surged-by-50-in-four-weeks"
+  ],
+  "source_names": [
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/daybook-us/2026/10/13/stacks-stx-a-bitcoin-layer-2-token-has-surged-by-50-in-four-weeks",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/daybook-us/2026/10/13/stacks-stx-a-bitcoin-layer-2-token-has-surged-by-50-in-four-weeks",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/daybook-us/2026/10/13/stacks-stx-a-bitcoin-layer-2-token-has-surged-by-50-in-four-weeks",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Four-week move on a mid-cap token."
+  ],
+  "market_significance": "Bitcoin layer-2 interest.",
+  "trigger": "CoinDesk daybook",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261013_3d854e",
+  "headline": "Dormant bitcoin whale that held through March 2020 moves $378 million",
+  "summary": "A wallet dormant for about six years moved roughly $378 million in BTC, per onchain data; no sale confirmed.",
+  "detected_at": "2026-10-13T10:19-04:00",
+  "active_since": "2026-10-13T10:19-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "other",
+  "event_time": "2026-10-13T00:18-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/markets/2026-10-13-bitcoin-whale-moves-378-million-418383",
+   "https://www.coindesk.com/markets/2026/10/13/bitcoin-whale-that-sat-through-the-march-2020-crash-moves-usd378-million"
+  ],
+  "source_names": [
+   "The Block",
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-10-13-bitcoin-whale-moves-378-million-418383",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/13/bitcoin-whale-that-sat-through-the-march-2020-crash-moves-usd378-million",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-10-13-bitcoin-whale-moves-378-million-418383",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/13/bitcoin-whale-that-sat-through-the-march-2020-crash-moves-usd378-million",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/markets/2026-10-13-bitcoin-whale-moves-378-million-418383",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/10/13/bitcoin-whale-that-sat-through-the-march-2020-crash-moves-usd378-million",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Onchain move, no sale confirmed."
+  ],
+  "market_significance": "Old coins moving get traders' attention.",
+  "trigger": "Onchain data",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
