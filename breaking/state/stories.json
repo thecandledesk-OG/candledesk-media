@@ -7338,15 +7338,24 @@
   "metrics": {},
   "emergency": false,
   "source_urls": [
-   "https://decrypt.co/380514/satoshi-era-bitcoin-mined-2010-moves-16-years"
+   "https://decrypt.co/380514/satoshi-era-bitcoin-mined-2010-moves-16-years",
+   "https://www.theblock.co/news/markets/2026-10-13-bitcoin-whale-moves-378-million-418383"
   ],
   "source_names": [
-   "Decrypt"
+   "Decrypt",
+   "The Block"
   ],
   "sources": [
    {
     "url": "https://decrypt.co/380514/satoshi-era-bitcoin-mined-2010-moves-16-years",
     "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/markets/2026-10-13-bitcoin-whale-moves-378-million-418383",
+    "name": "The Block",
     "kind": "secondary",
     "checked": false,
     "confirms": true
@@ -7356,6 +7365,13 @@
    {
     "url": "https://decrypt.co/380514/satoshi-era-bitcoin-mined-2010-moves-16-years",
     "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/markets/2026-10-13-bitcoin-whale-moves-378-million-418383",
+    "name": "The Block",
     "kind": "secondary",
     "checked": false,
     "confirms": true
@@ -7372,6 +7388,13 @@
     {
      "name": "Decrypt",
      "url": "https://decrypt.co/380514/satoshi-era-bitcoin-mined-2010-moves-16-years",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/markets/2026-10-13-bitcoin-whale-moves-378-million-418383",
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; not opened, so it doesn't count"
@@ -7394,6 +7417,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-13T07:10-04:00",
+    "headline": "Bitcoin whale moves $378 million in BTC after six years dormant",
+    "summary": "Onchain data shows a long-dormant bitcoin wallet moved about $378 million in BTC for the first time in six years. No sale is confirmed.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "UNVERIFIED"
    }
   ],
@@ -7612,6 +7644,15 @@
     "new_development": true,
     "level": "NORMAL",
     "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-13T07:10-04:00",
+    "headline": "Ledger says up to $93 million traced and $10 million frozen in CryptoBilis reseller drains",
+    "summary": "Ledger says the CryptoBilis cases are limited to devices from that reseller, with up to $93 million traced and about $10 million frozen; it found an unauthorized implant in at least one device sold by the reseller.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
     "verification": "VERIFIED"
    }
   ],
@@ -9398,9 +9439,11 @@
   "metrics": {},
   "emergency": false,
   "source_urls": [
-   "https://decrypt.co/380630/france-stablecoin-swap-crypto-exit-tax"
+   "https://decrypt.co/380630/france-stablecoin-swap-crypto-exit-tax",
+   "https://decrypt.co/380808/leave-crypto-backlash-over-french-proposal-to-report-wallets-over-112k"
   ],
   "source_names": [
+   "Decrypt",
    "Decrypt"
   ],
   "sources": [
@@ -9410,6 +9453,13 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/380808/leave-crypto-backlash-over-french-proposal-to-report-wallets-over-112k",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -9418,6 +9468,13 @@
     "name": "Decrypt",
     "kind": "secondary",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/380808/leave-crypto-backlash-over-french-proposal-to-report-wallets-over-112k",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -9435,6 +9492,13 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/380808/leave-crypto-backlash-over-french-proposal-to-report-wallets-over-112k",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
     }
    ]
   },
@@ -9446,7 +9510,17 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-13T07:10-04:00",
+    "headline": "French proposal to make holders report crypto wallets over $112,000 draws backlash",
+    "summary": "A French proposal would require reporting of crypto wallets holding more than about $112,000, drawing pushback from the crypto community.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -11329,12 +11403,14 @@
   "source_urls": [
    "https://www.theblock.co/news/markets/2026-10-12-bitcoin-slides-crypto-liquidations-surge-418374",
    "https://www.benzinga.com/crypto/cryptocurrency/26/10/62313359/bitcoin-ethereum-xrp-dogecoin-tumble-as-geopolitical-risks-weigh-on-oil-prices-analyst-says-upcoming-cpi-remains-a-catalyst",
-   "https://cointelegraph.com/markets/bitcoin-drops-22-as-ukraine-iran-strikes-send-oil-toward-one-month-high"
+   "https://cointelegraph.com/markets/bitcoin-drops-22-as-ukraine-iran-strikes-send-oil-toward-one-month-high",
+   "https://www.coindesk.com/price/bitcoin"
   ],
   "source_names": [
    "The Block",
    "Benzinga",
-   "Cointelegraph"
+   "Cointelegraph",
+   "CoinDesk"
   ],
   "sources": [
    {
@@ -11357,6 +11433,13 @@
     "kind": "secondary",
     "checked": true,
     "confirms": false
+   },
+   {
+    "url": "https://www.coindesk.com/price/bitcoin",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -11380,15 +11463,22 @@
     "kind": "secondary",
     "checked": true,
     "confirms": false
+   },
+   {
+    "url": "https://www.coindesk.com/price/bitcoin",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
-  "verification_status": "UNVERIFIED",
+  "verification_status": "VERIFIED",
   "verification": {
-   "status": "UNVERIFIED",
-   "independent_sources": 1,
+   "status": "VERIFIED",
+   "independent_sources": 2,
    "has_primary": false,
-   "score": 0.4,
-   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "score": 0.8,
+   "reason": "2 independent credible sources confirm it (no primary source yet)",
    "sources_checked": [
     {
      "name": "The Block",
@@ -11410,6 +11500,13 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; opened but does not confirm the claim"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/price/bitcoin",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -11422,7 +11519,17 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-13T07:10-04:00",
+    "headline": "Bitcoin dips below $82,000 as liquidations top $770 million, then recovers toward $83,500",
+    "summary": "BTC fell to about $81,400 Monday night with about $771 million in liquidations, mostly longs, amid a strong dollar, ETF outflows and a Kospi selloff, then recovered to about $83,500 early Tuesday. ETH, XRP and SOL fell about 5 to 8% in 24 hours.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -11582,6 +11689,452 @@
   ],
   "market_significance": "More fee competition for spot Solana funds in Asia.",
   "trigger": "crypto.news report",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261013_4622b4",
+  "headline": "UK High Court rules Chinese law governs victims' claims to 61,000 seized bitcoin",
+  "summary": "A London High Court judge ruled that Chinese law governs fraud victims' claims to about 61,000 BTC (around $5 billion) seized from Zhimin Qian, a setback for victims. Who keeps the coins is still undecided; a further hearing will rule on Chinese law and any victim interests.",
+  "detected_at": "2026-10-13T07:10-04:00",
+  "active_since": "2026-10-13T07:10-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "legal",
+  "event_time": "2026-10-12T10:00-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://decrypt.co/380818/uk-moves-closer-to-keeping-5b-bitcoin-haul-after-high-court-ruling"
+  ],
+  "source_names": [
+   "Decrypt"
+  ],
+  "sources": [
+   {
+    "url": "https://decrypt.co/380818/uk-moves-closer-to-keeping-5b-bitcoin-haul-after-high-court-ruling",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://decrypt.co/380818/uk-moves-closer-to-keeping-5b-bitcoin-haul-after-high-court-ruling",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/380818/uk-moves-closer-to-keeping-5b-bitcoin-haul-after-high-court-ruling",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Procedural ruling on governing law; does not decide ownership or force any sale; ruling was handed down Monday."
+  ],
+  "market_significance": "Raises odds the UK keeps the coins, but no final decision and no market-moving action yet.",
+  "trigger": "Decrypt latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261013_5f2744",
+  "headline": "NFT marketplace Blur to shut down its website and stop new Blend loans next month",
+  "summary": "Blur says it will shut down its frontend and stop new Blend loans next month as NFT trading volume dwindles.",
+  "detected_at": "2026-10-13T07:10-04:00",
+  "active_since": "2026-10-13T07:10-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.75,
+  "assets": [
+   "BLUR",
+   "ETH"
+  ],
+  "event_type": "protocol_shutdown",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/ecosystems/2026-10-12-blur-nft-marketplace-shutting-down-frontend-blend-418363",
+   "https://decrypt.co/380802/nft-marketplace-blur-to-shut-down-website-stop-new-blend-loans-next-month"
+  ],
+  "source_names": [
+   "The Block",
+   "Decrypt"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/ecosystems/2026-10-12-blur-nft-marketplace-shutting-down-frontend-blend-418363",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/380802/nft-marketplace-blur-to-shut-down-website-stop-new-blend-loans-next-month",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/ecosystems/2026-10-12-blur-nft-marketplace-shutting-down-frontend-blend-418363",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/380802/nft-marketplace-blur-to-shut-down-website-stop-new-blend-loans-next-month",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/ecosystems/2026-10-12-blur-nft-marketplace-shutting-down-frontend-blend-418363",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/380802/nft-marketplace-blur-to-shut-down-website-stop-new-blend-loans-next-month",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Planned wind-down of a smaller NFT venue; not market-wide."
+  ],
+  "market_significance": "Another sign of the NFT market's decline.",
+  "trigger": "The Block, Decrypt",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261013_d76d35",
+  "headline": "Crypto Fear and Greed index falls back to pre-rally August lows",
+  "summary": "The Crypto Fear and Greed index has dropped back to levels last seen in August, before the recent rally.",
+  "detected_at": "2026-10-13T07:10-04:00",
+  "active_since": "2026-10-13T07:10-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "TOTAL_MARKET",
+   "BTC"
+  ],
+  "event_type": "market_move",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://decrypt.co/380708/bitcoin-spooked-crypto-fear-greed-drops"
+  ],
+  "source_names": [
+   "Decrypt"
+  ],
+  "sources": [
+   {
+    "url": "https://decrypt.co/380708/bitcoin-spooked-crypto-fear-greed-drops",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://decrypt.co/380708/bitcoin-spooked-crypto-fear-greed-drops",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/380708/bitcoin-spooked-crypto-fear-greed-drops",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Sentiment gauge only."
+  ],
+  "market_significance": "Mood shift ahead of CPI.",
+  "trigger": "Decrypt",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261013_81aeb1",
+  "headline": "TD Cowen says the CFTC's new crypto framework could face a 2028 election deadline",
+  "summary": "TD Cowen analysts say the CFTC's new crypto framework may need to be finished before the 2028 election to stick.",
+  "detected_at": "2026-10-13T07:10-04:00",
+  "active_since": "2026-10-13T07:10-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "regulatory",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/regulation/2026-10-12-cftcs-new-crypto-framework-could-face-2028-election-deadline-td-cowen-418358"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-10-12-cftcs-new-crypto-framework-could-face-2028-election-deadline-td-cowen-418358",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-10-12-cftcs-new-crypto-framework-could-face-2028-election-deadline-td-cowen-418358",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-10-12-cftcs-new-crypto-framework-could-face-2028-election-deadline-td-cowen-418358",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Analyst commentary."
+  ],
+  "market_significance": "Timeline risk for U.S. crypto rules.",
+  "trigger": "The Block",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261013_1f05f2",
+  "headline": "Binance rolls out its AI trading tool globally after a 150,000-user beta",
+  "summary": "Binance launched its AI trading interface to all users after a beta with 150,000 users.",
+  "detected_at": "2026-10-13T07:10-04:00",
+  "active_since": "2026-10-13T07:10-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "BNB"
+  ],
+  "event_type": "exchange",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-10-12-binance-ai-trading-interface-global-rollout-418349"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-12-binance-ai-trading-interface-global-rollout-418349",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-12-binance-ai-trading-interface-global-rollout-418349",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-10-12-binance-ai-trading-interface-global-rollout-418349",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Product launch."
+  ],
+  "market_significance": "Exchange product news.",
+  "trigger": "The Block",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261013_4664b2",
+  "headline": "U.S. September CPI due Wednesday at 8:30 AM ET, forecast 3.6% year over year",
+  "summary": "The September consumer price index is due October 14 at 8:30 AM ET; estimates are 3.6% year over year and core 2.5%.",
+  "detected_at": "2026-10-13T07:10-04:00",
+  "active_since": "2026-10-13T07:10-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "BTC",
+   "TOTAL_MARKET"
+  ],
+  "event_type": "macro",
+  "event_time": "2026-10-14T08:30-04:00",
+  "scheduled_event": true,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/markets/2026/10/12/u-s-inflation-ethereum-upgrade-talks-crypto-week-ahead"
+  ],
+  "source_names": [
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/12/u-s-inflation-ethereum-upgrade-talks-crypto-week-ahead",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/12/u-s-inflation-ethereum-upgrade-talks-crypto-week-ahead",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/10/12/u-s-inflation-ethereum-upgrade-talks-crypto-week-ahead",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Scheduled event, not yet happened."
+  ],
+  "market_significance": "Key macro catalyst for crypto this week.",
+  "trigger": "CoinDesk week ahead",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
