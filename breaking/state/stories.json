@@ -7462,7 +7462,8 @@
    "https://decrypt.co/380706/ledger-says-all-confirmed-cases-in-suspected-87m-drain-tied-to-reseller-cryptobilis",
    "https://www.coindesk.com/tech/2026/10/13/ledger-says-spy-chip-inside-cryptobilis-ledger-devices-transmitted-wallet-keys-over-mobile-network",
    "https://decrypt.co/380826/ledger-finds-lte-implant-that-stole-recovery-phrases-in-suspected-86m-drain",
-   "https://x.com/Ledger/status/2109896739985453358"
+   "https://x.com/Ledger/status/2109896739985453358",
+   "https://www.theblock.co/news/business/2026-10-13-ledger-confirms-hardware-implant-cryptobilis-reseller-units-mediamarkt-suspends-sales-europe-418442"
   ],
   "source_names": [
    "CoinDesk",
@@ -7473,7 +7474,8 @@
    "Decrypt",
    "CoinDesk",
    "Decrypt",
-   "Ledger on X"
+   "Ledger on X",
+   "The Block"
   ],
   "sources": [
    {
@@ -7537,6 +7539,13 @@
     "name": "Ledger on X",
     "kind": "social",
     "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-13-ledger-confirms-hardware-implant-cryptobilis-reseller-units-mediamarkt-suspends-sales-europe-418442",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
     "confirms": true
    }
   ],
@@ -7602,6 +7611,13 @@
     "name": "Ledger on X",
     "kind": "social",
     "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-13-ledger-confirms-hardware-implant-cryptobilis-reseller-units-mediamarkt-suspends-sales-europe-418442",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
     "confirms": true
    }
   ],
@@ -7675,6 +7691,13 @@
      "category": "social",
      "counts": false,
      "note": "social/community post — can trigger investigation, never verifies"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-10-13-ledger-confirms-hardware-implant-cryptobilis-reseller-units-mediamarkt-suspends-sales-europe-418442",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -7731,6 +7754,15 @@
     "new_development": true,
     "level": "IMPORTANT",
     "sources_added": 3,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-13T13:16-04:00",
+    "headline": "MediaMarkt Saturn pulls Ledger wallets from sale as Ledger details LTE spy implant in CryptoBilis units",
+    "summary": "Ledger published technical findings: a covert implant inside some signers sold by reseller CryptoBilis read the 24-word recovery phrase during setup and sent it out over LTE using an eSIM; it did not modify the Secure Element or firmware. On October 13 MediaMarkt Saturn stopped selling Ledger devices in stores and online after a customer in Germany reported an implant (no funds lost in that case). Onchain researchers estimate losses of $86M to $93.2M across 300+ wallets; Ledger has not verified those figures. Tether froze $10M of USDT tied to the theft.",
+    "new_development": true,
+    "level": "IMPORTANT",
+    "sources_added": 1,
     "verification": "VERIFIED"
    }
   ],
@@ -11002,12 +11034,14 @@
   "source_urls": [
    "https://www.theblock.co/news/business/2026-10-12-theres-always-room-for-more-orange-michael-saylors-strategy-scoops-up-another-250-bitcoin-for-21-5-million-as-holdings-reach-848250-btc-418275",
    "https://www.theblock.co/news/business/2026-10-13-strive-buys-3311-bitcoin-280-million-largest-acquisition-since-january-418430",
-   "https://www.sec.gov/ix?doc=/Archives/edgar/data/0001920406/000162828026065595/asst-20261013.htm"
+   "https://www.sec.gov/ix?doc=/Archives/edgar/data/0001920406/000162828026065595/asst-20261013.htm",
+   "https://www.theblock.co/news#strive-3311-btc"
   ],
   "source_names": [
    "The Block",
    "The Block",
-   "SEC 8-K"
+   "SEC 8-K",
+   "The Block (latest news list)"
   ],
   "sources": [
    {
@@ -11029,6 +11063,13 @@
     "name": "SEC 8-K",
     "kind": "primary",
     "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news#strive-3311-btc",
+    "name": "The Block (latest news list)",
+    "kind": "secondary",
+    "checked": true,
     "confirms": true
    }
   ],
@@ -11052,6 +11093,13 @@
     "name": "SEC 8-K",
     "kind": "primary",
     "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news#strive-3311-btc",
+    "name": "The Block (latest news list)",
+    "kind": "secondary",
+    "checked": true,
     "confirms": true
    }
   ],
@@ -11083,6 +11131,13 @@
      "category": "primary",
      "counts": false,
      "note": "primary (known official domain); not opened, so it doesn't count"
+    },
+    {
+     "name": "The Block (latest news list)",
+     "url": "https://www.theblock.co/news#strive-3311-btc",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -11102,6 +11157,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 2,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-13T13:16-04:00",
+    "headline": "Strive buys 3,311 bitcoin for $280 million, its largest purchase since January",
+    "summary": "Bitcoin treasury company Strive bought 3,311 BTC for about $280 million, its biggest acquisition since January.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "UNVERIFIED"
    }
   ],
@@ -13040,6 +13104,216 @@
   ],
   "market_significance": "Old coins moving get traders' attention.",
   "trigger": "Onchain data",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261013_5cfee0",
+  "headline": "Interactive Brokers adds Ethereum staking through Zerohash",
+  "summary": "Interactive Brokers is adding ETH staking to its crypto services, powered by Zerohash's staking infrastructure for brokerages.",
+  "detected_at": "2026-10-13T13:16-04:00",
+  "active_since": "2026-10-13T13:16-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "ETH"
+  ],
+  "event_type": "institutional",
+  "event_time": "2026-10-13T11:24-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news#ibkr-eth-staking"
+  ],
+  "source_names": [
+   "The Block (latest news list)"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news#ibkr-eth-staking",
+    "name": "The Block (latest news list)",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news#ibkr-eth-staking",
+    "name": "The Block (latest news list)",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block (latest news list)",
+     "url": "https://www.theblock.co/news#ibkr-eth-staking",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Brokerage product addition; headline only so far."
+  ],
+  "market_significance": "More mainstream brokerage access to staking yield.",
+  "trigger": "The Block headline 11:24 AM ET",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261013_1b392a",
+  "headline": "Ripple and Stripe-owned Privy plan embedded wallets on the XRP Ledger",
+  "summary": "Ripple and Privy, the wallet infrastructure firm owned by Stripe, plan to bring embedded wallets to the XRP Ledger.",
+  "detected_at": "2026-10-13T13:16-04:00",
+  "active_since": "2026-10-13T13:16-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "XRP"
+  ],
+  "event_type": "partnership",
+  "event_time": "2026-10-13T12:00-04:00",
+  "scheduled_event": true,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news#ripple-privy-xrpl"
+  ],
+  "source_names": [
+   "The Block (latest news list)"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news#ripple-privy-xrpl",
+    "name": "The Block (latest news list)",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news#ripple-privy-xrpl",
+    "name": "The Block (latest news list)",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block (latest news list)",
+     "url": "https://www.theblock.co/news#ripple-privy-xrpl",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Planned integration, not yet live."
+  ],
+  "market_significance": "Could make XRPL wallets easier to add inside apps.",
+  "trigger": "The Block headline 12:00 PM ET",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261013_a1b850",
+  "headline": "DRW and Marex complete an OTC swap on a tokenized S&P iBoxx index",
+  "summary": "Trading firm DRW and broker Marex completed an over-the-counter swap referencing a tokenized S&P iBoxx index.",
+  "detected_at": "2026-10-13T13:16-04:00",
+  "active_since": "2026-10-13T13:16-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "institutional",
+  "event_time": "2026-10-13T11:00-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news#drw-marex-iboxx-swap"
+  ],
+  "source_names": [
+   "The Block (latest news list)"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news#drw-marex-iboxx-swap",
+    "name": "The Block (latest news list)",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news#drw-marex-iboxx-swap",
+    "name": "The Block (latest news list)",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block (latest news list)",
+     "url": "https://www.theblock.co/news#drw-marex-iboxx-swap",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Tokenization milestone, niche."
+  ],
+  "market_significance": "Tokenized benchmarks moving into derivatives.",
+  "trigger": "The Block headline 11:00 AM ET",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
