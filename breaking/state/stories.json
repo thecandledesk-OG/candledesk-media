@@ -11035,13 +11035,15 @@
    "https://www.theblock.co/news/business/2026-10-12-theres-always-room-for-more-orange-michael-saylors-strategy-scoops-up-another-250-bitcoin-for-21-5-million-as-holdings-reach-848250-btc-418275",
    "https://www.theblock.co/news/business/2026-10-13-strive-buys-3311-bitcoin-280-million-largest-acquisition-since-january-418430",
    "https://www.sec.gov/ix?doc=/Archives/edgar/data/0001920406/000162828026065595/asst-20261013.htm",
-   "https://www.theblock.co/news#strive-3311-btc"
+   "https://www.theblock.co/news#strive-3311-btc",
+   "https://theblock.co/news/business/2026-10-13-strive-buys-3311-bitcoin-280-million-largest-acquisition-since-january-418430"
   ],
   "source_names": [
    "The Block",
    "The Block",
    "SEC 8-K",
-   "The Block (latest news list)"
+   "The Block (latest news list)",
+   "The Block"
   ],
   "sources": [
    {
@@ -11068,6 +11070,13 @@
    {
     "url": "https://www.theblock.co/news#strive-3311-btc",
     "name": "The Block (latest news list)",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://theblock.co/news/business/2026-10-13-strive-buys-3311-bitcoin-280-million-largest-acquisition-since-january-418430",
+    "name": "The Block",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -11098,6 +11107,13 @@
    {
     "url": "https://www.theblock.co/news#strive-3311-btc",
     "name": "The Block (latest news list)",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://theblock.co/news/business/2026-10-13-strive-buys-3311-bitcoin-280-million-largest-acquisition-since-january-418430",
+    "name": "The Block",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -11138,6 +11154,13 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "The Block",
+     "url": "https://theblock.co/news/business/2026-10-13-strive-buys-3311-bitcoin-280-million-largest-acquisition-since-january-418430",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -11163,6 +11186,15 @@
     "at": "2026-10-13T13:16-04:00",
     "headline": "Strive buys 3,311 bitcoin for $280 million, its largest purchase since January",
     "summary": "Bitcoin treasury company Strive bought 3,311 BTC for about $280 million, its biggest acquisition since January.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-13T16:16-04:00",
+    "headline": "Strive buys 3,311 bitcoin for about $280 million, its largest purchase since January",
+    "summary": "Strive (ASST) disclosed in an 8-K filed Oct 13 that it bought 3,311 BTC between Oct 5 and Oct 9 at about $84,500 each, bringing holdings to 32,773 BTC.",
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 1,
@@ -11773,14 +11805,16 @@
    "https://www.benzinga.com/crypto/cryptocurrency/26/10/62313359/bitcoin-ethereum-xrp-dogecoin-tumble-as-geopolitical-risks-weigh-on-oil-prices-analyst-says-upcoming-cpi-remains-a-catalyst",
    "https://cointelegraph.com/markets/bitcoin-drops-22-as-ukraine-iran-strikes-send-oil-toward-one-month-high",
    "https://www.coindesk.com/price/bitcoin",
-   "https://www.coindesk.com/markets/2026/10/13/live-updates-bitcoin-whipsaws-between-usd81-000-and-usd84-000-as-altcoins-slide"
+   "https://www.coindesk.com/markets/2026/10/13/live-updates-bitcoin-whipsaws-between-usd81-000-and-usd84-000-as-altcoins-slide",
+   "https://www.coindesk.com/markets"
   ],
   "source_names": [
    "The Block",
    "Benzinga",
    "Cointelegraph",
    "CoinDesk",
-   "CoinDesk live"
+   "CoinDesk live",
+   "CoinDesk"
   ],
   "sources": [
    {
@@ -11814,6 +11848,13 @@
    {
     "url": "https://www.coindesk.com/markets/2026/10/13/live-updates-bitcoin-whipsaws-between-usd81-000-and-usd84-000-as-altcoins-slide",
     "name": "CoinDesk live",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets",
+    "name": "CoinDesk",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -11851,6 +11892,13 @@
    {
     "url": "https://www.coindesk.com/markets/2026/10/13/live-updates-bitcoin-whipsaws-between-usd81-000-and-usd84-000-as-altcoins-slide",
     "name": "CoinDesk live",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets",
+    "name": "CoinDesk",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -11898,6 +11946,13 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -11924,6 +11979,15 @@
     "at": "2026-10-13T10:19-04:00",
     "headline": "Bitcoin steadies near $83,500 as altcoins lag; SOL down about 5%, XRP about 3%",
     "summary": "BTC trades near $83,500, roughly flat to up 1% in 24 hours after whipsawing between $81,000 and $84,000. ETH down about 2.4%, XRP about 3.4%, SOL about 4.7%, ZEC near 8%. Fear and Greed 57.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-13T16:16-04:00",
+    "headline": "Bitcoin slips back below $83,000 as XRP and SOL lose about 4% ahead of U.S. inflation data",
+    "summary": "Afternoon CoinDesk ticker: BTC about $82,600 (-1.2% 24h), ETH about $2,490 (-1.7%), XRP $1.36 (-3.8%), SOL about $107 (-3.6%). Bitcoin had bounced from $81,000 to $84,000 overnight; a strong dollar and rising yields weighed.",
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 1,
@@ -13314,6 +13378,76 @@
   ],
   "market_significance": "Tokenized benchmarks moving into derivatives.",
   "trigger": "The Block headline 11:00 AM ET",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261013_f1ba2c",
+  "headline": "New exchange MNX launches pre-IPO futures on OpenAI, Anthropic and other AI firms",
+  "summary": "MNX, built on MegaETH by former Manifold executives, launched with futures tied to OpenAI, Anthropic, DeepSeek and Moonshot, expiring end of 2027, up to 3x leverage, no funding fees; not available to U.S. customers.",
+  "detected_at": "2026-10-13T16:16-04:00",
+  "active_since": "2026-10-13T16:16-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "ETH"
+  ],
+  "event_type": "exchange",
+  "event_time": "2026-10-13T11:52-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/business/2026/10/13/new-crypto-exchange-takes-on-okx-bitget-with-unique-way-to-trade-ai-giants"
+  ],
+  "source_names": [
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/business/2026/10/13/new-crypto-exchange-takes-on-okx-bitget-with-unique-way-to-trade-ai-giants",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/business/2026/10/13/new-crypto-exchange-takes-on-okx-bitget-with-unique-way-to-trade-ai-giants",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/business/2026/10/13/new-crypto-exchange-takes-on-okx-bitget-with-unique-way-to-trade-ai-giants",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Small new venue launch."
+  ],
+  "market_significance": "Competes with OKX and Bitget pre-IPO products.",
+  "trigger": "CoinDesk headline 11:52 AM ET",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
