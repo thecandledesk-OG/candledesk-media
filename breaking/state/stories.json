@@ -7426,14 +7426,16 @@
    "https://www.theblock.co/news/business/2026-10-09-ledger-cryptobilis-fund-losses-418163",
    "https://x.com/Ledger_Support/status/2108551100613714002",
    "https://www.coindesk.com/tech/2026/10/12/ledger-claims-cryptobilis-cases-are-limited-as-up-to-usd93m-is-traced-usd10m-frozen",
-   "https://www.coindesk.com/tech/2026/10/12/ledger-says-unauthorized-implant-found-in-at-least-one-device-sold-by-cryptobilis"
+   "https://www.coindesk.com/tech/2026/10/12/ledger-says-unauthorized-implant-found-in-at-least-one-device-sold-by-cryptobilis",
+   "https://decrypt.co/380706/ledger-says-all-confirmed-cases-in-suspected-87m-drain-tied-to-reseller-cryptobilis"
   ],
   "source_names": [
    "CoinDesk",
    "The Block",
    "Ledger Support on X",
    "CoinDesk",
-   "CoinDesk"
+   "CoinDesk",
+   "Decrypt"
   ],
   "sources": [
    {
@@ -7470,6 +7472,13 @@
     "kind": "secondary",
     "checked": false,
     "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/380706/ledger-says-all-confirmed-cases-in-suspected-87m-drain-tied-to-reseller-cryptobilis",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": false
    }
   ],
   "gate_sources": [
@@ -7507,6 +7516,13 @@
     "kind": "secondary",
     "checked": false,
     "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/380706/ledger-says-all-confirmed-cases-in-suspected-87m-drain-tied-to-reseller-cryptobilis",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": false
    }
   ],
   "verification_status": "VERIFIED",
@@ -7551,6 +7567,13 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/380706/ledger-says-all-confirmed-cases-in-suspected-87m-drain-tied-to-reseller-cryptobilis",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; opened but does not confirm the claim"
     }
    ]
   },
@@ -7580,6 +7603,15 @@
     "new_development": false,
     "level": "IMPORTANT",
     "sources_added": 0,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-12T22:18-04:00",
+    "headline": "Ledger confirms a hardware implant in one CryptoBilis-sold device; Tether freezes $10 million",
+    "summary": "Ledger said at least one affected device sold by reseller CryptoBilis contained an unauthorized hardware implant, and that all confirmed cases trace to that reseller. On-chain researchers estimate $86 million to $93 million taken from more than 300 wallets; Tether froze about $10 million in USDT. Ledger has not confirmed a loss total or reimbursement plan.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "VERIFIED"
    }
   ],
@@ -11265,6 +11297,291 @@
   ],
   "market_significance": "Shows ETF demand reaching mid-cap altcoins",
   "trigger": "FXStreet European wrap",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261012_c2fb52",
+  "headline": "Bitcoin slides toward $81,000 as crypto liquidations top $770 million; XRP and SOL fall about 6 to 8%",
+  "summary": "Bitcoin fell about 2.8% to roughly $81,400 Monday night after touching about $84,200 earlier in the day. Ether fell about 4.6% to near $2,425, XRP about 6.4% and Solana about 7.5%. CoinGlass data shows about $771 million in liquidations over 24 hours, mostly longs. Analysts point to higher oil prices, Treasury yields, ETF outflows and caution before Wednesday's U.S. CPI report; South Korea's Kospi also fell sharply on Tuesday morning.",
+  "detected_at": "2026-10-12T22:18-04:00",
+  "active_since": "2026-10-12T22:18-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.85,
+  "assets": [
+   "BTC",
+   "ETH",
+   "XRP",
+   "SOL"
+  ],
+  "event_type": "market_move",
+  "event_time": "2026-10-12T21:20-04:00",
+  "scheduled_event": false,
+  "metrics": {
+   "pct_move_24h": -2.8
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/markets/2026-10-12-bitcoin-slides-crypto-liquidations-surge-418374",
+   "https://www.benzinga.com/crypto/cryptocurrency/26/10/62313359/bitcoin-ethereum-xrp-dogecoin-tumble-as-geopolitical-risks-weigh-on-oil-prices-analyst-says-upcoming-cpi-remains-a-catalyst",
+   "https://cointelegraph.com/markets/bitcoin-drops-22-as-ukraine-iran-strikes-send-oil-toward-one-month-high"
+  ],
+  "source_names": [
+   "The Block",
+   "Benzinga",
+   "Cointelegraph"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-10-12-bitcoin-slides-crypto-liquidations-surge-418374",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62313359/bitcoin-ethereum-xrp-dogecoin-tumble-as-geopolitical-risks-weigh-on-oil-prices-analyst-says-upcoming-cpi-remains-a-catalyst",
+    "name": "Benzinga",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cointelegraph.com/markets/bitcoin-drops-22-as-ukraine-iran-strikes-send-oil-toward-one-month-high",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": false
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-10-12-bitcoin-slides-crypto-liquidations-surge-418374",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62313359/bitcoin-ethereum-xrp-dogecoin-tumble-as-geopolitical-risks-weigh-on-oil-prices-analyst-says-upcoming-cpi-remains-a-catalyst",
+    "name": "Benzinga",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cointelegraph.com/markets/bitcoin-drops-22-as-ukraine-iran-strikes-send-oil-toward-one-month-high",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": false
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/markets/2026-10-12-bitcoin-slides-crypto-liquidations-surge-418374",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Benzinga",
+     "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62313359/bitcoin-ethereum-xrp-dogecoin-tumble-as-geopolitical-risks-weigh-on-oil-prices-analyst-says-upcoming-cpi-remains-a-catalyst",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Cointelegraph",
+     "url": "https://cointelegraph.com/markets/bitcoin-drops-22-as-ukraine-iran-strikes-send-oil-toward-one-month-high",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; opened but does not confirm the claim"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Broad pullback, but every 24h move is below the IMPORTANT thresholds (BTC 2.8%, ETH 4.6%, XRP 6.4%, SOL 7.5%).",
+   "price rule: BTC moved 2.8% in 24h (thresholds 7%/12%) -> NORMAL"
+  ],
+  "market_significance": "Reverses Monday's thin-volume rally ahead of CPI; leverage flush across majors.",
+  "trigger": "The Block and Benzinga evening market reports",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261012_3f57cc",
+  "headline": "Kraken parent Payward gets full Dubai VARA approval, plans UAE launch within weeks",
+  "summary": "Payward, Kraken's parent, received full market approval from Dubai's Virtual Assets Regulatory Authority, completing the process that began with a preliminary approval in May. It plans to serve UAE retail, professional and institutional clients in the coming weeks, starting with spot and margin trading in dirham pairs.",
+  "detected_at": "2026-10-12T22:18-04:00",
+  "active_since": "2026-10-12T22:18-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.85,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "exchange",
+  "event_time": "2026-10-12T05:41-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://cointelegraph.com/news/kraken-receives-vara-approval-uae-expansion",
+   "https://www.financemagnates.com/cryptocurrency/exchange/kraken-gets-final-dubai-crypto-license-plans-uae-launch-within-weeks/"
+  ],
+  "source_names": [
+   "Cointelegraph",
+   "Finance Magnates"
+  ],
+  "sources": [
+   {
+    "url": "https://cointelegraph.com/news/kraken-receives-vara-approval-uae-expansion",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.financemagnates.com/cryptocurrency/exchange/kraken-gets-final-dubai-crypto-license-plans-uae-launch-within-weeks/",
+    "name": "Finance Magnates",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://cointelegraph.com/news/kraken-receives-vara-approval-uae-expansion",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.financemagnates.com/cryptocurrency/exchange/kraken-gets-final-dubai-crypto-license-plans-uae-launch-within-weeks/",
+    "name": "Finance Magnates",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Cointelegraph",
+     "url": "https://cointelegraph.com/news/kraken-receives-vara-approval-uae-expansion",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Finance Magnates",
+     "url": "https://www.financemagnates.com/cryptocurrency/exchange/kraken-gets-final-dubai-crypto-license-plans-uae-launch-within-weeks/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Regional license for a major exchange; no launch date yet."
+  ],
+  "market_significance": "Kraken joins Binance, Crypto.com and Bybit as licensed in the UAE.",
+  "trigger": "Cointelegraph report",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261012_f69e79",
+  "headline": "Hong Kong's second spot Solana ETF, from Pando Finance, set to list October 13",
+  "summary": "Pando Finance's spot Solana ETF (ticker 02831) is scheduled to list on the Hong Kong exchange on October 13 with a 0.6% management fee, below ChinaAMC's 0.99%. It holds spot SOL through HashKey, with no staking or leverage.",
+  "detected_at": "2026-10-12T22:18-04:00",
+  "active_since": "2026-10-12T22:18-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.75,
+  "assets": [
+   "SOL"
+  ],
+  "event_type": "etf",
+  "event_time": "2026-10-13T09:30+08:00",
+  "scheduled_event": true,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://crypto.news/pando-to-launch-hong-kongs-second-spot-solana-etf-on-october-13/"
+  ],
+  "source_names": [
+   "crypto.news"
+  ],
+  "sources": [
+   {
+    "url": "https://crypto.news/pando-to-launch-hong-kongs-second-spot-solana-etf-on-october-13/",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://crypto.news/pando-to-launch-hong-kongs-second-spot-solana-etf-on-october-13/",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/pando-to-launch-hong-kongs-second-spot-solana-etf-on-october-13/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Second product of its kind in a smaller market; scheduled listing."
+  ],
+  "market_significance": "More fee competition for spot Solana funds in Asia.",
+  "trigger": "crypto.news report",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
