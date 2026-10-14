@@ -10985,6 +10985,15 @@
     "level": "NORMAL",
     "sources_added": 0,
     "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-14T16:14-04:00",
+    "headline": "Evernorth taps Ripple, Kraken, Coinbase and BitGo to put its $648 million XRP treasury to work",
+    "summary": "XRP treasury firm Evernorth named Ripple, Kraken, Coinbase and BitGo as partners to deploy its roughly $648 million XRP holdings.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
    }
   ],
   "posts": [],
@@ -13121,14 +13130,16 @@
    "https://www.coindesk.com/markets/2026/10/14/u-s-september-cpi-comes-in-hot-sending-bitcoin-sharply-lower",
    "https://cryptopotato.com/bitcoin-price-plunges-as-september-cpi-comes-out-higher-than-expected/",
    "https://www.theblock.co/news/markets/2026-10-14-bitcoin-falls-below-82000-core-inflation-fed-rate-hike-418582",
-   "https://www.coindesk.com/price/bitcoin"
+   "https://www.coindesk.com/price/bitcoin",
+   "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-october-14-2026-crypto-prices-sliding-after-higher-inflation-report-133306768.html"
   ],
   "source_names": [
    "CoinDesk",
    "CoinDesk",
    "CryptoPotato",
    "The Block",
-   "CoinDesk price"
+   "CoinDesk price",
+   "Yahoo Finance"
   ],
   "sources": [
    {
@@ -13165,6 +13176,13 @@
     "kind": "secondary",
     "checked": true,
     "confirms": false
+   },
+   {
+    "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-october-14-2026-crypto-prices-sliding-after-higher-inflation-report-133306768.html",
+    "name": "Yahoo Finance",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -13202,15 +13220,22 @@
     "kind": "secondary",
     "checked": true,
     "confirms": false
+   },
+   {
+    "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-october-14-2026-crypto-prices-sliding-after-higher-inflation-report-133306768.html",
+    "name": "Yahoo Finance",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "VERIFIED",
   "verification": {
    "status": "VERIFIED",
-   "independent_sources": 2,
+   "independent_sources": 3,
    "has_primary": false,
    "score": 0.8,
-   "reason": "2 independent credible sources confirm it (no primary source yet)",
+   "reason": "3 independent credible sources confirm it (no primary source yet)",
    "sources_checked": [
     {
      "name": "CoinDesk",
@@ -13246,6 +13271,13 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; opened but does not confirm the claim"
+    },
+    {
+     "name": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-october-14-2026-crypto-prices-sliding-after-higher-inflation-report-133306768.html",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -13274,6 +13306,15 @@
     "new_development": true,
     "level": "NORMAL",
     "sources_added": 2,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-14T16:14-04:00",
+    "headline": "Hotter September CPI at 3.7% sends bitcoin below $82,000; ETH, XRP and SOL fall about 3%",
+    "summary": "September CPI rose 3.7% year over year versus 3.6% expected; core rose 0.3% month over month versus 0.2%. Bitcoin slipped about 2% to under $82,000 as Treasury yields jumped and Fed hike odds rose; ether, XRP and solana fell about 3%.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "VERIFIED"
    }
   ],
@@ -15223,6 +15264,146 @@
   ],
   "market_significance": "Treasury company funding risk",
   "trigger": "Research note",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261014_aaa2e8",
+  "headline": "Kalshi CEO defends prediction markets amid insider trading concerns",
+  "summary": "Kalshi's CEO pushed back on insider trading criticism of prediction markets, saying anyone trading on inside information is committing a crime in broad daylight.",
+  "detected_at": "2026-10-14T16:14-04:00",
+  "active_since": "2026-10-14T16:14-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "regulatory",
+  "event_time": "2026-10-14T13:47-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/regulation/2026-10-14-youre-committing-crime-broad-daylight-kalshi-ceo-defends-prediction-markets-insider-trading-concerns-418601"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-10-14-youre-committing-crime-broad-daylight-kalshi-ceo-defends-prediction-markets-insider-trading-concerns-418601",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-10-14-youre-committing-crime-broad-daylight-kalshi-ceo-defends-prediction-markets-insider-trading-concerns-418601",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-10-14-youre-committing-crime-broad-daylight-kalshi-ceo-defends-prediction-markets-insider-trading-concerns-418601",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Executive commentary; no regulatory action."
+  ],
+  "market_significance": "Prediction-market oversight debate continues.",
+  "trigger": "The Block report",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261014_67cf5d",
+  "headline": "Major shareholder presses SkyAI over Solana sales after its SOL treasury shrinks 70% in a month",
+  "summary": "Shareholder Bastion is challenging SkyAI's tender offer and its sales of SOL after the company's solana treasury shrank about 70% in a month.",
+  "detected_at": "2026-10-14T16:14-04:00",
+  "active_since": "2026-10-14T16:14-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "SOL"
+  ],
+  "event_type": "institutional",
+  "event_time": "2026-10-14T14:25-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-10-14-solana-treasury-skyai-bastion-sol-sales-tender-offer-418598"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-14-solana-treasury-skyai-bastion-sol-sales-tender-offer-418598",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-14-solana-treasury-skyai-bastion-sol-sales-tender-offer-418598",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-10-14-solana-treasury-skyai-bastion-sol-sales-tender-offer-418598",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Single-company treasury dispute."
+  ],
+  "market_significance": "Shows pressure on crypto treasury companies in a weak market.",
+  "trigger": "The Block report",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
