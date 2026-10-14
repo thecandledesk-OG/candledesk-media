@@ -11995,7 +11995,8 @@
    "https://www.coindesk.com/price/bitcoin",
    "https://www.coindesk.com/markets/2026/10/13/live-updates-bitcoin-whipsaws-between-usd81-000-and-usd84-000-as-altcoins-slide",
    "https://www.coindesk.com/markets",
-   "https://fameex.com/en-US/news/crypto-news-recap-20261013"
+   "https://fameex.com/en-US/news/crypto-news-recap-20261013",
+   "https://www.coindesk.com/markets/2026/10/13/bitcoin-rebounds-above-usd83-000-as-it-decouples-from-tumbling-korean-stocks-and-nasdaq-futures"
   ],
   "source_names": [
    "The Block",
@@ -12004,7 +12005,8 @@
    "CoinDesk",
    "CoinDesk live",
    "CoinDesk",
-   "FameEX"
+   "FameEX",
+   "CoinDesk"
   ],
   "sources": [
    {
@@ -12055,6 +12057,13 @@
     "kind": "other",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/13/bitcoin-rebounds-above-usd83-000-as-it-decouples-from-tumbling-korean-stocks-and-nasdaq-futures",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
    }
   ],
   "gate_sources": [
@@ -12106,6 +12115,13 @@
     "kind": "other",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/13/bitcoin-rebounds-above-usd83-000-as-it-decouples-from-tumbling-korean-stocks-and-nasdaq-futures",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
    }
   ],
   "verification_status": "VERIFIED",
@@ -12164,6 +12180,13 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/10/13/bitcoin-rebounds-above-usd83-000-as-it-decouples-from-tumbling-korean-stocks-and-nasdaq-futures",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
     }
    ]
   },
@@ -12208,6 +12231,15 @@
     "at": "2026-10-13T19:17-04:00",
     "headline": "Bitcoin steadies near $83,000 after dipping below $81,000; spot ether ETFs log a tenth straight day of outflows",
     "summary": "BTC recovered to about $83,300, up about 1% in 24 hours per CoinDesk, after briefly falling below $81,000. ETH about $2,510 (+0.8%), XRP about $1.37 (-1.8%), SOL about $107.5 (-0.2%). U.S. spot bitcoin ETFs saw about $65M of outflows on Oct 12 and spot ether ETFs about $85M, their tenth straight outflow day. U.S. CPI due Oct 15.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-13T22:14-04:00",
+    "headline": "Bitcoin trades in a tight range near $83,000 ahead of Wednesday's U.S. CPI, decoupling from falling Korean stocks",
+    "summary": "Bitcoin whipsawed between about $81,000 and $84,000 on Tuesday and rebounded above $83,000 while Korean stocks and Nasdaq futures fell; altcoins slid. Traders are watching Wednesday's 8:30 AM ET CPI print.",
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 1,
