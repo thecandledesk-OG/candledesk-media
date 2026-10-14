@@ -11171,7 +11171,8 @@
    "https://www.theblock.co/news#strive-3311-btc",
    "https://theblock.co/news/business/2026-10-13-strive-buys-3311-bitcoin-280-million-largest-acquisition-since-january-418430",
    "https://cointelegraph.com/news/strive-bitcoin-holdings-32773-btc-warrant-exercises",
-   "https://www.sec.gov/Archives/edgar/data/1920406/000162828026065595/asst-20261013.htm"
+   "https://www.sec.gov/Archives/edgar/data/1920406/000162828026065595/asst-20261013.htm",
+   "https://www.coindesk.com/markets/2026/10/13/strive-to-ipo-second-preferred-share-class-as-it-looks-to-further-build-bitcoin-treasury"
   ],
   "source_names": [
    "The Block",
@@ -11180,7 +11181,8 @@
    "The Block (latest news list)",
    "The Block",
    "Cointelegraph",
-   "SEC filing"
+   "SEC filing",
+   "CoinDesk"
   ],
   "sources": [
    {
@@ -11229,6 +11231,13 @@
     "url": "https://www.sec.gov/Archives/edgar/data/1920406/000162828026065595/asst-20261013.htm",
     "name": "SEC filing",
     "kind": "primary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/13/strive-to-ipo-second-preferred-share-class-as-it-looks-to-further-build-bitcoin-treasury",
+    "name": "CoinDesk",
+    "kind": "secondary",
     "checked": false,
     "confirms": true
    }
@@ -11280,6 +11289,13 @@
     "url": "https://www.sec.gov/Archives/edgar/data/1920406/000162828026065595/asst-20261013.htm",
     "name": "SEC filing",
     "kind": "primary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/13/strive-to-ipo-second-preferred-share-class-as-it-looks-to-further-build-bitcoin-treasury",
+    "name": "CoinDesk",
+    "kind": "secondary",
     "checked": false,
     "confirms": true
    }
@@ -11340,6 +11356,13 @@
      "category": "primary",
      "counts": false,
      "note": "primary (known official domain); not opened, so it doesn't count"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/10/13/strive-to-ipo-second-preferred-share-class-as-it-looks-to-further-build-bitcoin-treasury",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
     }
    ]
   },
@@ -11386,6 +11409,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 2,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-14T07:11-04:00",
+    "headline": "Strive raising $500 million through a new preferred share class to buy more bitcoin",
+    "summary": "Bitcoin treasury firm Strive plans a second preferred share class to raise about $500 million for more bitcoin, after buying 3,311 BTC for $280 million.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "VERIFIED"
    }
   ],
@@ -11996,7 +12028,8 @@
    "https://www.coindesk.com/markets/2026/10/13/live-updates-bitcoin-whipsaws-between-usd81-000-and-usd84-000-as-altcoins-slide",
    "https://www.coindesk.com/markets",
    "https://fameex.com/en-US/news/crypto-news-recap-20261013",
-   "https://www.coindesk.com/markets/2026/10/13/bitcoin-rebounds-above-usd83-000-as-it-decouples-from-tumbling-korean-stocks-and-nasdaq-futures"
+   "https://www.coindesk.com/markets/2026/10/13/bitcoin-rebounds-above-usd83-000-as-it-decouples-from-tumbling-korean-stocks-and-nasdaq-futures",
+   "https://www.coindesk.com/markets/2026/10/14/bitcoin-climbs-toward-usd84-000-after-fed-s-williams-sees-no-rate-hikes-in-2027"
   ],
   "source_names": [
    "The Block",
@@ -12006,6 +12039,7 @@
    "CoinDesk live",
    "CoinDesk",
    "FameEX",
+   "CoinDesk",
    "CoinDesk"
   ],
   "sources": [
@@ -12064,6 +12098,13 @@
     "kind": "secondary",
     "checked": false,
     "confirms": false
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/14/bitcoin-climbs-toward-usd84-000-after-fed-s-williams-sees-no-rate-hikes-in-2027",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -12122,6 +12163,13 @@
     "kind": "secondary",
     "checked": false,
     "confirms": false
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/14/bitcoin-climbs-toward-usd84-000-after-fed-s-williams-sees-no-rate-hikes-in-2027",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "VERIFIED",
@@ -12187,6 +12235,13 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/10/14/bitcoin-climbs-toward-usd84-000-after-fed-s-williams-sees-no-rate-hikes-in-2027",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -12240,6 +12295,15 @@
     "at": "2026-10-13T22:14-04:00",
     "headline": "Bitcoin trades in a tight range near $83,000 ahead of Wednesday's U.S. CPI, decoupling from falling Korean stocks",
     "summary": "Bitcoin whipsawed between about $81,000 and $84,000 on Tuesday and rebounded above $83,000 while Korean stocks and Nasdaq futures fell; altcoins slid. Traders are watching Wednesday's 8:30 AM ET CPI print.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-14T07:11-04:00",
+    "headline": "Bitcoin climbs toward $84,000 after Fed's Williams sees no rate hikes in 2027",
+    "summary": "Bitcoin rose about 1 to 1.5% to near $83,900 and ether about 2% to $2,520 in Asian trading after New York Fed President John Williams said he sees no rate hikes in 2027. XRP and SOL gained about 1 to 2.5%; Zcash rose nearly 7%. Traders are watching the next U.S. inflation report.",
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 1,
@@ -13793,6 +13857,452 @@
   ],
   "market_significance": "MEV protection.",
   "trigger": "Cointelegraph daily recap, FameEX recap",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261014_77a69c",
+  "headline": "Kraken parent Payward agrees to buy Lithuania's Saldo Bank, gaining an EU banking license",
+  "summary": "Payward, the parent of Kraken, is buying Lithuanian lender Saldo Bank, which has held an EU banking license since 2021. The FT reports it is the first digital asset company to buy a bank in Europe. Price not disclosed; the deal needs regulatory approval and is expected to close in 2027. Lending and cards come first.",
+  "detected_at": "2026-10-14T07:11-04:00",
+  "active_since": "2026-10-14T07:11-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "exchange",
+  "event_time": "2026-10-14T04:00-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://decrypt.co/380912/kraken-owner-payward-to-buy-lithuanias-saldo-bank-in-eu-push"
+  ],
+  "source_names": [
+   "Decrypt"
+  ],
+  "sources": [
+   {
+    "url": "https://decrypt.co/380912/kraken-owner-payward-to-buy-lithuanias-saldo-bank-in-eu-push",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "origin": "Financial Times"
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://decrypt.co/380912/kraken-owner-payward-to-buy-lithuanias-saldo-bank-in-eu-push",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "origin": "Financial Times"
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/380912/kraken-owner-payward-to-buy-lithuanias-saldo-bank-in-eu-push",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Acquisition announced but needs approvals and closes in 2027; no immediate market impact."
+  ],
+  "market_significance": "First crypto firm to buy an EU bank, per the FT.",
+  "trigger": "Decrypt latest news, citing Financial Times",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261014_226422",
+  "headline": "Philippines' largest crypto exchange Coins.ph said to face central bank regulatory action",
+  "summary": "CoinDesk reports, citing unnamed sources, that the Bangko Sentral ng Pilipinas is preparing punitive action against Coins.ph over alleged service to offshore gambling firms, and reportedly restricted deposits through its wallet firm DCPay. Coins.ph denies knowingly serving gambling operators and says user funds are safe. The central bank has not commented.",
+  "detected_at": "2026-10-14T07:11-04:00",
+  "active_since": "2026-10-14T07:11-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "USDT",
+   "TOTAL_MARKET"
+  ],
+  "event_type": "regulatory",
+  "event_time": "2026-10-13T21:00-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/policy/2026/10/13/largest-philippines-crypto-exchange-coins-ph-said-to-face-central-bank-regulatory-action"
+  ],
+  "source_names": [
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/policy/2026/10/13/largest-philippines-crypto-exchange-coins-ph-said-to-face-central-bank-regulatory-action",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/policy/2026/10/13/largest-philippines-crypto-exchange-coins-ph-said-to-face-central-bank-regulatory-action",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/policy/2026/10/13/largest-philippines-crypto-exchange-coins-ph-said-to-face-central-bank-regulatory-action",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Single-outlet report from unnamed sources; regulator has not confirmed; company denies."
+  ],
+  "market_significance": "Coins.ph has 18 million customers and most of the peso-to-stablecoin liquidity.",
+  "trigger": "CoinDesk latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261014_59bec5",
+  "headline": "Solana sets October 21 for its Alpenglow consensus upgrade targeting 150-millisecond finality",
+  "summary": "The Solana Foundation published a timetable for the Alpenglow upgrade, set for epoch 1064 around 15:00 UTC on October 21. It replaces TowerBFT voting and targets about 150 millisecond finality. Validators need Agave 4.3.0, and headline transaction counts may drop because vote transactions leave blocks.",
+  "detected_at": "2026-10-14T07:11-04:00",
+  "active_since": "2026-10-14T07:11-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.75,
+  "assets": [
+   "SOL"
+  ],
+  "event_type": "protocol_upgrade",
+  "event_time": "2026-10-21T11:00-04:00",
+  "scheduled_event": true,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/tech/2026/10/14/solana-sets-oct-21-for-alpenglow-upgrade-targeting-150-millisecond-finality"
+  ],
+  "source_names": [
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/tech/2026/10/14/solana-sets-oct-21-for-alpenglow-upgrade-targeting-150-millisecond-finality",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/tech/2026/10/14/solana-sets-oct-21-for-alpenglow-upgrade-targeting-150-millisecond-finality",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/tech/2026/10/14/solana-sets-oct-21-for-alpenglow-upgrade-targeting-150-millisecond-finality",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Scheduled upgrade, not live yet."
+  ],
+  "market_significance": "Largest change to Solana consensus since 2020.",
+  "trigger": "CoinDesk latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261014_9d38e6",
+  "headline": "Coinbase lays out designs for Bitcoin's post-quantum migration and urges work to start now",
+  "summary": "Coinbase, which custodies about 5% of all bitcoin, published proposals for how Bitcoin could migrate to quantum-resistant signatures and says the work should begin now.",
+  "detected_at": "2026-10-14T07:11-04:00",
+  "active_since": "2026-10-14T07:11-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "other",
+  "event_time": "2026-10-13T22:49-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/tech/2026/10/14/coinbase-which-holds-5-of-all-bitcoin-wants-the-quantum-fix-started-now",
+   "https://www.theblock.co/news/ecosystems/2026-10-13-coinbase-bitcoin-post-quantum-migration-418509"
+  ],
+  "source_names": [
+   "CoinDesk",
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/tech/2026/10/14/coinbase-which-holds-5-of-all-bitcoin-wants-the-quantum-fix-started-now",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/ecosystems/2026-10-13-coinbase-bitcoin-post-quantum-migration-418509",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/tech/2026/10/14/coinbase-which-holds-5-of-all-bitcoin-wants-the-quantum-fix-started-now",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/ecosystems/2026-10-13-coinbase-bitcoin-post-quantum-migration-418509",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/tech/2026/10/14/coinbase-which-holds-5-of-all-bitcoin-wants-the-quantum-fix-started-now",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/ecosystems/2026-10-13-coinbase-bitcoin-post-quantum-migration-418509",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Research and advocacy, no protocol change."
+  ],
+  "market_significance": "Large custodian weighing in on quantum debate.",
+  "trigger": "CoinDesk and The Block latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261014_a6bfaf",
+  "headline": "BNY and Citadel Securities test tokenized U.S. Treasuries to speed up Wall Street financing",
+  "summary": "BNY and Citadel Securities tested using tokenized U.S. Treasuries to speed up financing transactions.",
+  "detected_at": "2026-10-14T07:11-04:00",
+  "active_since": "2026-10-14T07:11-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "institutional",
+  "event_time": "2026-10-13T17:00-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/business/2026/10/13/bny-citadel-securities-test-tokenized-u-s-treasuries-to-speed-up-wall-street-financing"
+  ],
+  "source_names": [
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/business/2026/10/13/bny-citadel-securities-test-tokenized-u-s-treasuries-to-speed-up-wall-street-financing",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/business/2026/10/13/bny-citadel-securities-test-tokenized-u-s-treasuries-to-speed-up-wall-street-financing",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/business/2026/10/13/bny-citadel-securities-test-tokenized-u-s-treasuries-to-speed-up-wall-street-financing",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Pilot test, part of the steady tokenization trend."
+  ],
+  "market_significance": "Large Wall Street names on tokenization.",
+  "trigger": "CoinDesk latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261014_36ffd7",
+  "headline": "BitMEX sued in the UK for return of $27 million in bitcoin over unlicensed derivatives",
+  "summary": "A UK lawsuit seeks the return of about $27 million in bitcoin from BitMEX, arguing its derivatives were offered without a license.",
+  "detected_at": "2026-10-14T07:11-04:00",
+  "active_since": "2026-10-14T07:11-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.55,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "legal",
+  "event_time": "2026-10-14T03:00-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://decrypt.co/380904/bitmex-sued-in-uk-for-return-of-27m-in-bitcoin-over-unlicensed-derivatives"
+  ],
+  "source_names": [
+   "Decrypt"
+  ],
+  "sources": [
+   {
+    "url": "https://decrypt.co/380904/bitmex-sued-in-uk-for-return-of-27m-in-bitcoin-over-unlicensed-derivatives",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://decrypt.co/380904/bitmex-sued-in-uk-for-return-of-27m-in-bitcoin-over-unlicensed-derivatives",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/380904/bitmex-sued-in-uk-for-return-of-27m-in-bitcoin-over-unlicensed-derivatives",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Civil lawsuit, no ruling."
+  ],
+  "market_significance": "Tests UK licensing exposure for offshore exchanges.",
+  "trigger": "Decrypt latest news",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
