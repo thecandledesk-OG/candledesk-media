@@ -9698,14 +9698,20 @@
    "https://bitcoinfoundation.org/news/analysis/why-is-crypto-down-today-bitcoin-sell-off-deepens-as-771m-in-leveraged-bets-get-wiped-out/",
    "https://www.coingecko.com/en/coins/bitcoin",
    "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-13-2026",
-   "https://www.theblock.co/news/ecosystems/2026-10-12-blur-nft-marketplace-shutting-down-frontend-blend-418363"
+   "https://www.theblock.co/news/ecosystems/2026-10-12-blur-nft-marketplace-shutting-down-frontend-blend-418363",
+   "https://www.coindesk.com/",
+   "https://www.coingabbar.com/en/us-cpi-data-today-bitcoin-at-83k-faces-key-inflation-test",
+   "https://kucoin.com/news/articles/crypto-daily-market-report-october-14-2026"
   ],
   "source_names": [
    "CoinDesk",
    "Bitcoin Foundation",
    "CoinGecko",
    "KuCoin",
-   "The Block"
+   "The Block",
+   "CoinDesk",
+   "Coin Gabbar",
+   "KuCoin"
   ],
   "sources": [
    {
@@ -9739,6 +9745,27 @@
    {
     "url": "https://www.theblock.co/news/ecosystems/2026-10-12-blur-nft-marketplace-shutting-down-frontend-blend-418363",
     "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coingabbar.com/en/us-cpi-data-today-bitcoin-at-83k-faces-key-inflation-test",
+    "name": "Coin Gabbar",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://kucoin.com/news/articles/crypto-daily-market-report-october-14-2026",
+    "name": "KuCoin",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -9776,6 +9803,27 @@
    {
     "url": "https://www.theblock.co/news/ecosystems/2026-10-12-blur-nft-marketplace-shutting-down-frontend-blend-418363",
     "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coingabbar.com/en/us-cpi-data-today-bitcoin-at-83k-faces-key-inflation-test",
+    "name": "Coin Gabbar",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://kucoin.com/news/articles/crypto-daily-market-report-october-14-2026",
+    "name": "KuCoin",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -9823,6 +9871,27 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Coin Gabbar",
+     "url": "https://www.coingabbar.com/en/us-cpi-data-today-bitcoin-at-83k-faces-key-inflation-test",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "KuCoin",
+     "url": "https://kucoin.com/news/articles/crypto-daily-market-report-october-14-2026",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -9866,6 +9935,33 @@
     "at": "2026-10-13T10:08-04:00",
     "headline": "NFT marketplace Blur is shutting its website next month; BLUR token drops over 20%",
     "summary": "NFT marketplace Blur is shutting its website next month. Its token dropped over twenty percent.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-14T10:09-04:00",
+    "headline": "Bitcoin holds above $83,000 ahead of U.S. CPI at 8:30 AM",
+    "summary": "Here's what moved the chain today. Bitcoin holds above eighty-three thousand dollars, with CPI due at eight thirty.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-14T10:09-04:00",
+    "headline": "U.S. September CPI forecast at 3.6%, up from 3.4%",
+    "summary": "Check the yields first. CPI is forecast at three point six percent, up from three point four.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-14T10:09-04:00",
+    "headline": "Dormant bitcoin whale moves $378 million",
+    "summary": "Psst... a dormant bitcoin whale just moved three hundred seventy-eight million dollars.",
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 1,
@@ -10452,7 +10548,9 @@
    "https://cointelegraph.com/news/trezor-preventative-steps-wallet-tampering-reports",
    "https://crypto.news/ledger-reveals-how-hidden-chips-stole-recovery-phrases/",
    "https://x.com/Ledger/status/2109896739985453358",
-   "https://x.com/Trezor/status/2110000774314873020"
+   "https://x.com/Trezor/status/2110000774314873020",
+   "https://decrypt.co/380826/ledger-finds-lte-implant-that-stole-recovery-phrases-in-suspected-86m-drain",
+   "https://twitter.com/Ledger/status/2109896739985453358"
   ],
   "source_names": [
    "KuCoin",
@@ -10462,7 +10560,9 @@
    "Cointelegraph",
    "crypto.news",
    "Ledger on X",
-   "Trezor on X"
+   "Trezor on X",
+   "Decrypt",
+   "Ledger on X"
   ],
   "sources": [
    {
@@ -10517,6 +10617,20 @@
    {
     "url": "https://x.com/Trezor/status/2110000774314873020",
     "name": "Trezor on X",
+    "kind": "social",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/380826/ledger-finds-lte-implant-that-stole-recovery-phrases-in-suspected-86m-drain",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://twitter.com/Ledger/status/2109896739985453358",
+    "name": "Ledger on X",
     "kind": "social",
     "checked": false,
     "confirms": true
@@ -10578,15 +10692,29 @@
     "kind": "social",
     "checked": false,
     "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/380826/ledger-finds-lte-implant-that-stole-recovery-phrases-in-suspected-86m-drain",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://twitter.com/Ledger/status/2109896739985453358",
+    "name": "Ledger on X",
+    "kind": "social",
+    "checked": false,
+    "confirms": true
    }
   ],
   "verification_status": "VERIFIED",
   "verification": {
    "status": "VERIFIED",
-   "independent_sources": 2,
+   "independent_sources": 3,
    "has_primary": false,
    "score": 0.8,
-   "reason": "2 independent credible sources confirm it (no primary source yet)",
+   "reason": "3 independent credible sources confirm it (no primary source yet)",
    "sources_checked": [
     {
      "name": "KuCoin",
@@ -10643,6 +10771,20 @@
      "category": "social",
      "counts": false,
      "note": "social/community post — can trigger investigation, never verifies"
+    },
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/380826/ledger-finds-lte-implant-that-stole-recovery-phrases-in-suspected-86m-drain",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Ledger on X",
+     "url": "https://twitter.com/Ledger/status/2109896739985453358",
+     "category": "social",
+     "counts": false,
+     "note": "social/community post — can trigger investigation, never verifies"
     }
    ]
   },
@@ -10690,6 +10832,15 @@
     "level": "NORMAL",
     "sources_added": 1,
     "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-14T10:12-04:00",
+    "headline": "Ledger finds LTE implant in reseller devices that stole recovery phrases; suspected thefts top $86 million",
+    "summary": "Ledger's Donjon team found a hardware implant in signers sold by reseller CryptoBilis that reads the 24-word phrase and sends it over LTE. Ledger hasn't confirmed losses; an on-chain investigator traced over $86 million in suspected thefts.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "VERIFIED"
    }
   ],
   "posts": [],
@@ -10714,10 +10865,12 @@
   "emergency": false,
   "source_urls": [
    "https://cryptobriefing.com/xrp-treasury-firm-evens-nasdaq-debut/",
-   "https://www.theblock.co/news/business/2026-10-12-evernorth-former-coinbase-investment-chief-steer-473-million-xrp-treasury-nasdaq-debut-418225"
+   "https://www.theblock.co/news/business/2026-10-12-evernorth-former-coinbase-investment-chief-steer-473-million-xrp-treasury-nasdaq-debut-418225",
+   "https://www.theblock.co/news/deals/2026-10-14-evernorth-taps-ripple-kraken-coinbase-bitgo-xrp-treasury-work-418503"
   ],
   "source_names": [
    "Crypto Briefing",
+   "The Block",
    "The Block"
   ],
   "sources": [
@@ -10733,6 +10886,13 @@
     "name": "The Block",
     "kind": "secondary",
     "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/deals/2026-10-14-evernorth-taps-ripple-kraken-coinbase-bitgo-xrp-treasury-work-418503",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
     "confirms": true
    }
   ],
@@ -10750,15 +10910,22 @@
     "kind": "secondary",
     "checked": false,
     "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/deals/2026-10-14-evernorth-taps-ripple-kraken-coinbase-bitgo-xrp-treasury-work-418503",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "UNVERIFIED",
   "verification": {
    "status": "UNVERIFIED",
-   "independent_sources": 0,
+   "independent_sources": 1,
    "has_primary": false,
-   "score": 0.0,
-   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
    "sources_checked": [
     {
      "name": "Crypto Briefing",
@@ -10773,6 +10940,13 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/deals/2026-10-14-evernorth-taps-ripple-kraken-coinbase-bitgo-xrp-treasury-work-418503",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -10790,6 +10964,15 @@
     "headline": "Evernorth hires former Coinbase investment chief to run its 473 million XRP treasury",
     "summary": "Evernorth named a former Coinbase investment executive to manage its XRP treasury ahead of its Nasdaq debut.",
     "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-14T10:12-04:00",
+    "headline": "Evernorth taps Ripple, Kraken, Coinbase and BitGo to put its $648 million XRP treasury to work",
+    "summary": "Nasdaq-listed Evernorth (XRPN), holding 473 million XRP, will start deploying the treasury through institutional strategies in Q4 2026, with lending and on-chain DeFi on the XRP Ledger later.",
+    "new_development": true,
     "level": "NORMAL",
     "sources_added": 1,
     "verification": "UNVERIFIED"
@@ -11172,7 +11355,9 @@
    "https://theblock.co/news/business/2026-10-13-strive-buys-3311-bitcoin-280-million-largest-acquisition-since-january-418430",
    "https://cointelegraph.com/news/strive-bitcoin-holdings-32773-btc-warrant-exercises",
    "https://www.sec.gov/Archives/edgar/data/1920406/000162828026065595/asst-20261013.htm",
-   "https://www.coindesk.com/markets/2026/10/13/strive-to-ipo-second-preferred-share-class-as-it-looks-to-further-build-bitcoin-treasury"
+   "https://www.coindesk.com/markets/2026/10/13/strive-to-ipo-second-preferred-share-class-as-it-looks-to-further-build-bitcoin-treasury",
+   "https://coincodex.com/article/93604/daily-market-update-for-october-14-2026",
+   "https://coingabbar.com/en/crypto-news-today-october-14-bitcoin-ethereum-price-update"
   ],
   "source_names": [
    "The Block",
@@ -11182,7 +11367,9 @@
    "The Block",
    "Cointelegraph",
    "SEC filing",
-   "CoinDesk"
+   "CoinDesk",
+   "CoinCodex",
+   "Coin Gabbar"
   ],
   "sources": [
    {
@@ -11239,6 +11426,20 @@
     "name": "CoinDesk",
     "kind": "secondary",
     "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://coincodex.com/article/93604/daily-market-update-for-october-14-2026",
+    "name": "CoinCodex",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://coingabbar.com/en/crypto-news-today-october-14-bitcoin-ethereum-price-update",
+    "name": "Coin Gabbar",
+    "kind": "secondary",
+    "checked": true,
     "confirms": true
    }
   ],
@@ -11297,6 +11498,20 @@
     "name": "CoinDesk",
     "kind": "secondary",
     "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://coincodex.com/article/93604/daily-market-update-for-october-14-2026",
+    "name": "CoinCodex",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://coingabbar.com/en/crypto-news-today-october-14-bitcoin-ethereum-price-update",
+    "name": "Coin Gabbar",
+    "kind": "secondary",
+    "checked": true,
     "confirms": true
    }
   ],
@@ -11363,6 +11578,20 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "CoinCodex",
+     "url": "https://coincodex.com/article/93604/daily-market-update-for-october-14-2026",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Coin Gabbar",
+     "url": "https://coingabbar.com/en/crypto-news-today-october-14-bitcoin-ethereum-price-update",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -11372,7 +11601,7 @@
   "market_significance": "low",
   "trigger": "The Block",
   "content_created": false,
-  "publication_status": "QUEUED_FOR_DAILY",
+  "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
   "updates": [
    {
@@ -11418,6 +11647,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-14T10:09-04:00",
+    "headline": "Strive raising $500 million through SATS preferred to buy more bitcoin",
+    "summary": "Green candles only! Strive is raising five hundred million dollars to stack more bitcoin!",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
     "verification": "VERIFIED"
    }
   ],
@@ -12870,16 +13108,34 @@
   "metrics": {},
   "emergency": false,
   "source_urls": [
-   "https://www.coindesk.com/markets/2026/10/12/u-s-inflation-ethereum-upgrade-talks-crypto-week-ahead"
+   "https://www.coindesk.com/markets/2026/10/12/u-s-inflation-ethereum-upgrade-talks-crypto-week-ahead",
+   "https://www.coindesk.com/markets/2026/10/14/u-s-september-cpi-comes-in-hot-sending-bitcoin-sharply-lower",
+   "https://cryptopotato.com/bitcoin-price-plunges-as-september-cpi-comes-out-higher-than-expected/"
   ],
   "source_names": [
-   "CoinDesk"
+   "CoinDesk",
+   "CoinDesk",
+   "CryptoPotato"
   ],
   "sources": [
    {
     "url": "https://www.coindesk.com/markets/2026/10/12/u-s-inflation-ethereum-upgrade-talks-crypto-week-ahead",
     "name": "CoinDesk",
     "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/14/u-s-september-cpi-comes-in-hot-sending-bitcoin-sharply-lower",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptopotato.com/bitcoin-price-plunges-as-september-cpi-comes-out-higher-than-expected/",
+    "name": "CryptoPotato",
+    "kind": "other",
     "checked": true,
     "confirms": true
    }
@@ -12889,6 +13145,20 @@
     "url": "https://www.coindesk.com/markets/2026/10/12/u-s-inflation-ethereum-upgrade-talks-crypto-week-ahead",
     "name": "CoinDesk",
     "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/14/u-s-september-cpi-comes-in-hot-sending-bitcoin-sharply-lower",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptopotato.com/bitcoin-price-plunges-as-september-cpi-comes-out-higher-than-expected/",
+    "name": "CryptoPotato",
+    "kind": "other",
     "checked": true,
     "confirms": true
    }
@@ -12907,6 +13177,20 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/10/14/u-s-september-cpi-comes-in-hot-sending-bitcoin-sharply-lower",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "CryptoPotato",
+     "url": "https://cryptopotato.com/bitcoin-price-plunges-as-september-cpi-comes-out-higher-than-expected/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -12918,7 +13202,17 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-14T10:12-04:00",
+    "headline": "U.S. September CPI comes in hot at 3.7%, bitcoin drops about $1,000 to near $82,800",
+    "summary": "Headline CPI rose 3.7% year over year versus a 3.6% forecast; core CPI 2.6% versus 2.5%. Bitcoin fell from about $83,800 to $82,800 (about 1.2%) right after the 8:30 AM ET release.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -14303,6 +14597,216 @@
   ],
   "market_significance": "Tests UK licensing exposure for offshore exchanges.",
   "trigger": "Decrypt latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261014_edd304",
+  "headline": "THEO bridge exploit on Base mints 19 million tokens, price crashes 92%",
+  "summary": "A bridge exploit minted nineteen million THEO tokens, and the price crashed ninety-two percent.",
+  "detected_at": "2026-10-14T10:09-04:00",
+  "active_since": "2026-10-14T10:09-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "THEO"
+  ],
+  "event_type": "hack_exploit",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://en.cryptonomist.ch/2026/10/13/theo-token-exploit-base/"
+  ],
+  "source_names": [
+   "The Cryptonomist"
+  ],
+  "sources": [
+   {
+    "url": "https://en.cryptonomist.ch/2026/10/13/theo-token-exploit-base/",
+    "name": "The Cryptonomist",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://en.cryptonomist.ch/2026/10/13/theo-token-exploit-base/",
+    "name": "The Cryptonomist",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Cryptonomist",
+     "url": "https://en.cryptonomist.ch/2026/10/13/theo-token-exploit-base/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261014_942a31",
+  "headline": "DriveWealth to use Ripple's RLUSD stablecoin for settlement and cross-border payments",
+  "summary": "Brokerage infrastructure firm DriveWealth will use RLUSD on the XRP Ledger for stablecoin settlement, payments and custody, starting in Europe then the U.S.",
+  "detected_at": "2026-10-14T10:12-04:00",
+  "active_since": "2026-10-14T10:12-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "XRP"
+  ],
+  "event_type": "partnership",
+  "event_time": "2026-10-14T09:00-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-10-14-drivewealth-ripple-rlusd-stablecoin-settlement-418479"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-14-drivewealth-ripple-rlusd-stablecoin-settlement-418479",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-14-drivewealth-ripple-rlusd-stablecoin-settlement-418479",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-10-14-drivewealth-ripple-rlusd-stablecoin-settlement-418479",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Mid-size partnership, single outlet"
+  ],
+  "market_significance": "Another institutional RLUSD user the same week as Standard Chartered",
+  "trigger": "The Block report",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261014_5d3b80",
+  "headline": "Polygon Labs completes Coinme acquisition, adding U.S. money transmitter licenses",
+  "summary": "Polygon Labs closed the Coinme part of its $250 million deal, adding 37 state money transmitter licenses and 11 exemptions plus FinCEN registration.",
+  "detected_at": "2026-10-14T10:12-04:00",
+  "active_since": "2026-10-14T10:12-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "POL"
+  ],
+  "event_type": "institutional",
+  "event_time": "2026-10-14T09:00-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-10-14-polygon-labs-completes-coinme-acquisition-bringing-regulated-payments-coverage-across-48-us-states-418518"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-14-polygon-labs-completes-coinme-acquisition-bringing-regulated-payments-coverage-across-48-us-states-418518",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-14-polygon-labs-completes-coinme-acquisition-bringing-regulated-payments-coverage-across-48-us-states-418518",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-10-14-polygon-labs-completes-coinme-acquisition-bringing-regulated-payments-coverage-across-48-us-states-418518",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Closing of a deal announced in January"
+  ],
+  "market_significance": "Regulated U.S. payments for Polygon's stablecoin stack",
+  "trigger": "The Block report",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
