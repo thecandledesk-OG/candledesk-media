@@ -12246,9 +12246,11 @@
   "metrics": {},
   "emergency": false,
   "source_urls": [
-   "https://www.theblock.co/news/business/2026-10-12-defi-development-sol-holdings-2-59-million-chad-418307"
+   "https://www.theblock.co/news/business/2026-10-12-defi-development-sol-holdings-2-59-million-chad-418307",
+   "https://www.theblock.co/news/markets/2026-10-15-defi-development-chad-dividend-rate-14-418694"
   ],
   "source_names": [
+   "The Block",
    "The Block"
   ],
   "sources": [
@@ -12258,11 +12260,25 @@
     "kind": "secondary",
     "checked": false,
     "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/markets/2026-10-15-defi-development-chad-dividend-rate-14-418694",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
    }
   ],
   "gate_sources": [
    {
     "url": "https://www.theblock.co/news/business/2026-10-12-defi-development-sol-holdings-2-59-million-chad-418307",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/markets/2026-10-15-defi-development-chad-dividend-rate-14-418694",
     "name": "The Block",
     "kind": "secondary",
     "checked": false,
@@ -12283,6 +12299,13 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/markets/2026-10-15-defi-development-chad-dividend-rate-14-418694",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
     }
    ]
   },
@@ -12294,7 +12317,17 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-15T13:12-04:00",
+    "headline": "DeFi Development raises its CHAD dividend to 14% to grow its Solana holdings",
+    "summary": "Solana treasury firm DeFi Development lifted the dividend rate on its CHAD shares to 14% as part of its push to add SOL.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -12485,7 +12518,8 @@
    "https://www.coindesk.com/markets/2026/10/14/bitcoin-climbs-toward-usd84-000-after-fed-s-williams-sees-no-rate-hikes-in-2027",
    "https://www.theblock.co/news/markets/2026-10-15-bitcoin-drops-asian-equities-tumble-418623",
    "https://www.coindesk.com/markets/2026/10/15/bitcoin-holds-above-usd80-000-as-an-asian-stock-rout-drags-altcoins-lower",
-   "https://www.coindesk.com/business/2026/10/15/live-updates-bitcoin-back-under-usd81-000-as-ai-selloff-worsens"
+   "https://www.coindesk.com/business/2026/10/15/live-updates-bitcoin-back-under-usd81-000-as-ai-selloff-worsens",
+   "https://www.coindesk.com/markets/2026/10/15/nearly-usd1-billion-in-crypto-bets-liquidated-as-bitcoin-ether-and-xrp-slide"
   ],
   "source_names": [
    "The Block",
@@ -12499,7 +12533,8 @@
    "CoinDesk",
    "The Block",
    "CoinDesk",
-   "CoinDesk live updates"
+   "CoinDesk live updates",
+   "CoinDesk"
   ],
   "sources": [
    {
@@ -12582,6 +12617,13 @@
    {
     "url": "https://www.coindesk.com/business/2026/10/15/live-updates-bitcoin-back-under-usd81-000-as-ai-selloff-worsens",
     "name": "CoinDesk live updates",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/15/nearly-usd1-billion-in-crypto-bets-liquidated-as-bitcoin-ether-and-xrp-slide",
+    "name": "CoinDesk",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -12668,6 +12710,13 @@
    {
     "url": "https://www.coindesk.com/business/2026/10/15/live-updates-bitcoin-back-under-usd81-000-as-ai-selloff-worsens",
     "name": "CoinDesk live updates",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/15/nearly-usd1-billion-in-crypto-bets-liquidated-as-bitcoin-ether-and-xrp-slide",
+    "name": "CoinDesk",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -12761,6 +12810,13 @@
     {
      "name": "CoinDesk live updates",
      "url": "https://www.coindesk.com/business/2026/10/15/live-updates-bitcoin-back-under-usd81-000-as-ai-selloff-worsens",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/10/15/nearly-usd1-billion-in-crypto-bets-liquidated-as-bitcoin-ether-and-xrp-slide",
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
@@ -12865,6 +12921,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-15T13:12-04:00",
+    "headline": "Nearly $1 billion in crypto bets liquidated as ether falls about 6% and bitcoin drops near $81,000",
+    "summary": "Leveraged positions were wiped out over 24 hours as uncertainty over the Fed's next rate move hit crypto. Ether fell about 6% to roughly $2,350, bitcoin about 3% to near $81,000, while XRP, SOL and DOGE dropped around 5 to 6%.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "VERIFIED"
    }
   ],
@@ -13918,11 +13983,13 @@
   "source_urls": [
    "https://www.theblock.co/news/business/2026-10-13-binance-to-shut-down-mining-pool-cloud-mining-and-related-services-418410",
    "https://www.binance.com/en/support/announcement/detail/2b45800173fd44f48b4517f25f941434",
-   "https://www.coindesk.com/latest-crypto-news"
+   "https://www.coindesk.com/latest-crypto-news",
+   "https://www.coindesk.com/markets/2026/10/15/bitcoin-mining-pool-once-handling-2-3-of-network-shuts-after-hashrate-falls-65"
   ],
   "source_names": [
    "The Block",
    "Binance announcement",
+   "CoinDesk",
    "CoinDesk"
   ],
   "sources": [
@@ -13946,6 +14013,13 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/15/bitcoin-mining-pool-once-handling-2-3-of-network-shuts-after-hashrate-falls-65",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -13965,6 +14039,13 @@
    },
    {
     "url": "https://www.coindesk.com/latest-crypto-news",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/15/bitcoin-mining-pool-once-handling-2-3-of-network-shuts-after-hashrate-falls-65",
     "name": "CoinDesk",
     "kind": "secondary",
     "checked": true,
@@ -13999,6 +14080,13 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/10/15/bitcoin-mining-pool-once-handling-2-3-of-network-shuts-after-hashrate-falls-65",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -14015,6 +14103,15 @@
     "at": "2026-10-15T07:11-04:00",
     "headline": "Binance Pool's hashrate falls 65% ahead of its November 10 shutdown",
     "summary": "CoinDesk reports Binance's mining pool, once about 2.3% of Bitcoin's hashrate, has lost 65% of its hashrate ahead of the Nov 10 closure.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-15T13:12-04:00",
+    "headline": "Binance Pool's hashrate fell about 65% before its Nov. 10 shutdown",
+    "summary": "Hashrate Index data show Binance Pool dropped from about 26 EH/s, 2.3% of the network, in December to about 9.2 EH/s ahead of the Nov. 10 closure.",
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 1,
@@ -16198,13 +16295,17 @@
    "https://dailycoin.com/us-economic-events-this-week-cpi-ppi-fed-crypto/",
    "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-14-2026",
    "https://www.bls.gov/news.release/ppi.nr0.htm",
-   "https://en.sedaily.com/international/2026/10/15/us-producer-prices-jump-13-percent-in-september-most-in"
+   "https://en.sedaily.com/international/2026/10/15/us-producer-prices-jump-13-percent-in-september-most-in",
+   "https://cointelegraph.com/markets/bitcoin-price-breaks-under-80k-after-us-ppi-gains-most-in-over-4-years",
+   "https://cryptoslate.com/bitcoin-loses-80k-because-us-ppi-just-hit-6-matching-2022-levels-stoking-inflation-fears/"
   ],
   "source_names": [
    "DailyCoin",
    "KuCoin News",
    "BLS",
-   "Seoul Economic Daily"
+   "Seoul Economic Daily",
+   "Cointelegraph",
+   "CryptoSlate"
   ],
   "sources": [
    {
@@ -16234,6 +16335,20 @@
     "name": "Seoul Economic Daily",
     "kind": "other",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cointelegraph.com/markets/bitcoin-price-breaks-under-80k-after-us-ppi-gains-most-in-over-4-years",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptoslate.com/bitcoin-loses-80k-because-us-ppi-just-hit-6-matching-2022-levels-stoking-inflation-fears/",
+    "name": "CryptoSlate",
+    "kind": "other",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -16266,15 +16381,29 @@
     "kind": "other",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://cointelegraph.com/markets/bitcoin-price-breaks-under-80k-after-us-ppi-gains-most-in-over-4-years",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptoslate.com/bitcoin-loses-80k-because-us-ppi-just-hit-6-matching-2022-levels-stoking-inflation-fears/",
+    "name": "CryptoSlate",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
    }
   ],
-  "verification_status": "UNVERIFIED",
+  "verification_status": "VERIFIED",
   "verification": {
-   "status": "UNVERIFIED",
-   "independent_sources": 1,
+   "status": "VERIFIED",
+   "independent_sources": 2,
    "has_primary": true,
-   "score": 0.6,
-   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "score": 1.0,
+   "reason": "2 independent credible sources confirm it (incl. a primary source)",
    "sources_checked": [
     {
      "name": "DailyCoin",
@@ -16303,6 +16432,20 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Cointelegraph",
+     "url": "https://cointelegraph.com/markets/bitcoin-price-breaks-under-80k-after-us-ppi-gains-most-in-over-4-years",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "CryptoSlate",
+     "url": "https://cryptoslate.com/bitcoin-loses-80k-because-us-ppi-just-hit-6-matching-2022-levels-stoking-inflation-fears/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -16323,6 +16466,15 @@
     "level": "NORMAL",
     "sources_added": 2,
     "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-15T13:12-04:00",
+    "headline": "Hot U.S. September PPI of 6.3% versus 5.3% expected sends bitcoin briefly below $80,000",
+    "summary": "Producer prices rose 6.3% year over year in September against a 5.3% forecast, the largest monthly jump since March 2022 per the BLS. Core PPI hit 5%. Bitcoin dipped under $80,000, its lowest since Sept. 18, then recovered to about $81,000.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "VERIFIED"
    }
   ],
   "posts": [],
@@ -16775,6 +16927,455 @@
   ],
   "market_significance": "Cross-ecosystem leadership move.",
   "trigger": "announcement",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261015_18d02a",
+  "headline": "South Korea's Kospi plunges 8% and triggers circuit breakers in global risk-off move",
+  "summary": "South Korea's main stock index fell 8%, triggering circuit breakers, as hot U.S. inflation data and Fed worries spread risk-off selling. Nasdaq futures were down about 1% and bitcoin sat near $81,000.",
+  "detected_at": "2026-10-15T13:12-04:00",
+  "active_since": "2026-10-15T13:12-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.75,
+  "assets": [
+   "TOTAL_MARKET",
+   "BTC"
+  ],
+  "event_type": "macro",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/markets/2026/10/15/bitcoin-is-back-below-usd81-000-as-fed-rate-uncertainty-weighs"
+  ],
+  "source_names": [
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/15/bitcoin-is-back-below-usd81-000-as-fed-rate-uncertainty-weighs",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/15/bitcoin-is-back-below-usd81-000-as-fed-rate-uncertainty-weighs",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/10/15/bitcoin-is-back-below-usd81-000-as-fed-rate-uncertainty-weighs",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Traditional market move, not a crypto event."
+  ],
+  "market_significance": "Korea is a major retail crypto market; risk-off backdrop.",
+  "trigger": "CoinDesk markets",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261015_28e73c",
+  "headline": "Ripple Prime adds real-world asset perpetual swaps tied to Trade.xyz markets on Hyperliquid",
+  "summary": "Ripple's prime brokerage now offers institutions 24/7 swaps referencing more than 100 Trade.xyz perpetual markets on Hyperliquid covering stocks, indices, metals, energy and FX, with RLUSD accepted as collateral. Virtu is an early user.",
+  "detected_at": "2026-10-15T13:12-04:00",
+  "active_since": "2026-10-15T13:12-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "XRP",
+   "HYPE"
+  ],
+  "event_type": "institutional",
+  "event_time": "2026-10-15T10:43-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-10-15-ripple-prime-rwa-swaps-perpetual-futures-hyperliquid-418681",
+   "https://www.businesswire.com/news/home/20261015834919/en/Ripple-Launches-Support-for-Institutions-to-Access-Real-World-Asset-Perpetual-Swaps"
+  ],
+  "source_names": [
+   "The Block",
+   "Ripple via Business Wire"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-15-ripple-prime-rwa-swaps-perpetual-futures-hyperliquid-418681",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.businesswire.com/news/home/20261015834919/en/Ripple-Launches-Support-for-Institutions-to-Access-Real-World-Asset-Perpetual-Swaps",
+    "name": "Ripple via Business Wire",
+    "kind": "primary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-15-ripple-prime-rwa-swaps-perpetual-futures-hyperliquid-418681",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.businesswire.com/news/home/20261015834919/en/Ripple-Launches-Support-for-Institutions-to-Access-Real-World-Asset-Perpetual-Swaps",
+    "name": "Ripple via Business Wire",
+    "kind": "primary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-10-15-ripple-prime-rwa-swaps-perpetual-futures-hyperliquid-418681",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Ripple via Business Wire",
+     "url": "https://www.businesswire.com/news/home/20261015834919/en/Ripple-Launches-Support-for-Institutions-to-Access-Real-World-Asset-Perpetual-Swaps",
+     "category": "primary",
+     "counts": false,
+     "note": "primary (claimed official source; domain not on the known list); not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Product expansion, not a major partnership."
+  ],
+  "market_significance": "Ripple keeps building institutional rails around RLUSD.",
+  "trigger": "The Block",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261015_16a183",
+  "headline": "Starknet opens a seven-day vote on exploring an independent post-quantum Layer 1",
+  "summary": "Starknet's community vote, open until about Oct. 22, asks whether to research becoming an independent Layer 1 with its own security as quantum risks grow. A yes starts research, not an immediate move. Early votes are 99.9% in favor.",
+  "detected_at": "2026-10-15T13:12-04:00",
+  "active_since": "2026-10-15T13:12-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "STRK",
+   "ETH"
+  ],
+  "event_type": "protocol_upgrade",
+  "event_time": "2026-10-15T10:26-04:00",
+  "scheduled_event": true,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/ecosystems/2026-10-15-starknet-opens-seven-day-vote-on-independent-layer-1-over-quantum-risks-418673"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/ecosystems/2026-10-15-starknet-opens-seven-day-vote-on-independent-layer-1-over-quantum-risks-418673",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/ecosystems/2026-10-15-starknet-opens-seven-day-vote-on-independent-layer-1-over-quantum-risks-418673",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/ecosystems/2026-10-15-starknet-opens-seven-day-vote-on-independent-layer-1-over-quantum-risks-418673",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Governance vote, nothing has changed yet."
+  ],
+  "market_significance": "A major Ethereum layer 2 weighing leaving Ethereum's security.",
+  "trigger": "The Block",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261015_591d8c",
+  "headline": "Pirate Chain rolls back its blockchain after an exploit; Gamdom reports about $4.3 million stolen",
+  "summary": "Pirate Chain developers rolled the ARRR chain back to its Oct. 14 state after an exploit of its Ironwood supply tracker, and exchanges paused deposits. Separately, gambling site Gamdom lost about $4.3 million across several chains.",
+  "detected_at": "2026-10-15T13:12-04:00",
+  "active_since": "2026-10-15T13:12-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "ARRR"
+  ],
+  "event_type": "hack_exploit",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {
+   "loss_usd": 4300000
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://ambcrypto.com/cryptos-security-crisis-deepens-3-exploits-rattle-the-market-in-24-hours/"
+  ],
+  "source_names": [
+   "AMBCrypto"
+  ],
+  "sources": [
+   {
+    "url": "https://ambcrypto.com/cryptos-security-crisis-deepens-3-exploits-rattle-the-market-in-24-hours/",
+    "name": "AMBCrypto",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://ambcrypto.com/cryptos-security-crisis-deepens-3-exploits-rattle-the-market-in-24-hours/",
+    "name": "AMBCrypto",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "AMBCrypto",
+     "url": "https://ambcrypto.com/cryptos-security-crisis-deepens-3-exploits-rattle-the-market-in-24-hours/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Small assets and losses below the $10 million threshold.",
+   "hack rule: about $4M lost (thresholds $10M/$100M) -> NORMAL"
+  ],
+  "market_significance": "Security incidents keep piling up in 2026.",
+  "trigger": "AMBCrypto roundup",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261015_a3917e",
+  "headline": "CleanSpark and BitFuFu bitcoin production slips in September",
+  "summary": "Bitcoin miners CleanSpark and BitFuFu mined fewer coins in September, while Canaan's output was flat.",
+  "detected_at": "2026-10-15T13:12-04:00",
+  "active_since": "2026-10-15T13:12-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "other",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-10-15-cleanspark-bitfufu-bitcoin-production-slip-september-canaan-remains-flat-418686"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-15-cleanspark-bitfufu-bitcoin-production-slip-september-canaan-remains-flat-418686",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-15-cleanspark-bitfufu-bitcoin-production-slip-september-canaan-remains-flat-418686",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-10-15-cleanspark-bitfufu-bitcoin-production-slip-september-canaan-remains-flat-418686",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Routine monthly miner update."
+  ],
+  "market_significance": "Miner squeeze with bitcoin near $81,000.",
+  "trigger": "The Block",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261015_a93fc0",
+  "headline": "Tokenized asset settlement platform Multiliquid raises $8 million",
+  "summary": "Multiliquid, which settles trades in tokenized assets, closed an $8 million funding round.",
+  "detected_at": "2026-10-15T13:12-04:00",
+  "active_since": "2026-10-15T13:12-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "other",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/deals/2026-10-15-multiliquid-tokenized-assets-funding-418693"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/deals/2026-10-15-multiliquid-tokenized-assets-funding-418693",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/deals/2026-10-15-multiliquid-tokenized-assets-funding-418693",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/deals/2026-10-15-multiliquid-tokenized-assets-funding-418693",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Small funding round."
+  ],
+  "market_significance": "Tokenization funding continues.",
+  "trigger": "The Block",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
