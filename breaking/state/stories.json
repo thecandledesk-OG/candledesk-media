@@ -10550,7 +10550,10 @@
    "https://x.com/Ledger/status/2109896739985453358",
    "https://x.com/Trezor/status/2110000774314873020",
    "https://decrypt.co/380826/ledger-finds-lte-implant-that-stole-recovery-phrases-in-suspected-86m-drain",
-   "https://twitter.com/Ledger/status/2109896739985453358"
+   "https://twitter.com/Ledger/status/2109896739985453358",
+   "https://theblock.co/news/business/2026-10-13-ledger-confirms-hardware-implant-cryptobilis-reseller-units-mediamarkt-suspends-sales-europe-418442",
+   "https://thedefiant.io/news/security/ledger-asks-resellers-to-halt-sales-in-seven-asian-markets",
+   "https://cointelegraph.com/news/ledger-confirms-unauthorized-hardware-implant-losses-may-exceed-86m"
   ],
   "source_names": [
    "KuCoin",
@@ -10562,7 +10565,10 @@
    "Ledger on X",
    "Trezor on X",
    "Decrypt",
-   "Ledger on X"
+   "Ledger on X",
+   "The Block",
+   "The Defiant",
+   "Cointelegraph"
   ],
   "sources": [
    {
@@ -10633,6 +10639,27 @@
     "name": "Ledger on X",
     "kind": "social",
     "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://theblock.co/news/business/2026-10-13-ledger-confirms-hardware-implant-cryptobilis-reseller-units-mediamarkt-suspends-sales-europe-418442",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://thedefiant.io/news/security/ledger-asks-resellers-to-halt-sales-in-seven-asian-markets",
+    "name": "The Defiant",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cointelegraph.com/news/ledger-confirms-unauthorized-hardware-implant-losses-may-exceed-86m",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
     "confirms": true
    }
   ],
@@ -10706,15 +10733,36 @@
     "kind": "social",
     "checked": false,
     "confirms": true
+   },
+   {
+    "url": "https://theblock.co/news/business/2026-10-13-ledger-confirms-hardware-implant-cryptobilis-reseller-units-mediamarkt-suspends-sales-europe-418442",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://thedefiant.io/news/security/ledger-asks-resellers-to-halt-sales-in-seven-asian-markets",
+    "name": "The Defiant",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cointelegraph.com/news/ledger-confirms-unauthorized-hardware-implant-losses-may-exceed-86m",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "VERIFIED",
   "verification": {
    "status": "VERIFIED",
-   "independent_sources": 3,
+   "independent_sources": 5,
    "has_primary": false,
    "score": 0.8,
-   "reason": "3 independent credible sources confirm it (no primary source yet)",
+   "reason": "5 independent credible sources confirm it (no primary source yet)",
    "sources_checked": [
     {
      "name": "KuCoin",
@@ -10785,6 +10833,27 @@
      "category": "social",
      "counts": false,
      "note": "social/community post — can trigger investigation, never verifies"
+    },
+    {
+     "name": "The Block",
+     "url": "https://theblock.co/news/business/2026-10-13-ledger-confirms-hardware-implant-cryptobilis-reseller-units-mediamarkt-suspends-sales-europe-418442",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "The Defiant",
+     "url": "https://thedefiant.io/news/security/ledger-asks-resellers-to-halt-sales-in-seven-asian-markets",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Cointelegraph",
+     "url": "https://cointelegraph.com/news/ledger-confirms-unauthorized-hardware-implant-losses-may-exceed-86m",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -10840,6 +10909,15 @@
     "new_development": true,
     "level": "NORMAL",
     "sources_added": 2,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-15T07:11-04:00",
+    "headline": "Ledger confirms LTE hardware implants in CryptoBilis-sold devices and asks resellers in seven Asian markets to pause sales",
+    "summary": "Ledger confirmed unauthorized LTE implants in signers sold by Southeast Asian reseller CryptoBilis that capture the recovery phrase at setup. It asked resellers in six Southeast Asian countries and Hong Kong to pause sales; MediaMarkt paused sales in Europe. Onchain researchers estimate losses above $86 million; Ledger has not confirmed the figure.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 3,
     "verification": "VERIFIED"
    }
   ],
@@ -12285,7 +12363,9 @@
    "https://www.coindesk.com/markets",
    "https://fameex.com/en-US/news/crypto-news-recap-20261013",
    "https://www.coindesk.com/markets/2026/10/13/bitcoin-rebounds-above-usd83-000-as-it-decouples-from-tumbling-korean-stocks-and-nasdaq-futures",
-   "https://www.coindesk.com/markets/2026/10/14/bitcoin-climbs-toward-usd84-000-after-fed-s-williams-sees-no-rate-hikes-in-2027"
+   "https://www.coindesk.com/markets/2026/10/14/bitcoin-climbs-toward-usd84-000-after-fed-s-williams-sees-no-rate-hikes-in-2027",
+   "https://www.theblock.co/news/markets/2026-10-15-bitcoin-drops-asian-equities-tumble-418623",
+   "https://www.coindesk.com/markets/2026/10/15/bitcoin-holds-above-usd80-000-as-an-asian-stock-rout-drags-altcoins-lower"
   ],
   "source_names": [
    "The Block",
@@ -12296,6 +12376,8 @@
    "CoinDesk",
    "FameEX",
    "CoinDesk",
+   "CoinDesk",
+   "The Block",
    "CoinDesk"
   ],
   "sources": [
@@ -12361,6 +12443,20 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/markets/2026-10-15-bitcoin-drops-asian-equities-tumble-418623",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/15/bitcoin-holds-above-usd80-000-as-an-asian-stock-rout-drags-altcoins-lower",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -12422,6 +12518,20 @@
    },
    {
     "url": "https://www.coindesk.com/markets/2026/10/14/bitcoin-climbs-toward-usd84-000-after-fed-s-williams-sees-no-rate-hikes-in-2027",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/markets/2026-10-15-bitcoin-drops-asian-equities-tumble-418623",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/15/bitcoin-holds-above-usd80-000-as-an-asian-stock-rout-drags-altcoins-lower",
     "name": "CoinDesk",
     "kind": "secondary",
     "checked": true,
@@ -12498,6 +12608,20 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/markets/2026-10-15-bitcoin-drops-asian-equities-tumble-418623",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/10/15/bitcoin-holds-above-usd80-000-as-an-asian-stock-rout-drags-altcoins-lower",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -12563,6 +12687,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-15T07:11-04:00",
+    "headline": "Kospi circuit breaker and hot core inflation drag crypto; liquidations near $1 billion",
+    "summary": "Bitcoin fell about 3.6% to near $80,800 and ether about 6.5% after a hot U.S. core CPI print and an 8% Kospi plunge that triggered circuit breakers. About $951 million in crypto positions were liquidated in 24 hours, mostly longs, per CoinGlass. XRP and SOL fell about 5%.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
     "verification": "VERIFIED"
    }
   ],
@@ -13615,11 +13748,13 @@
   "emergency": false,
   "source_urls": [
    "https://www.theblock.co/news/business/2026-10-13-binance-to-shut-down-mining-pool-cloud-mining-and-related-services-418410",
-   "https://www.binance.com/en/support/announcement/detail/2b45800173fd44f48b4517f25f941434"
+   "https://www.binance.com/en/support/announcement/detail/2b45800173fd44f48b4517f25f941434",
+   "https://www.coindesk.com/latest-crypto-news"
   ],
   "source_names": [
    "The Block",
-   "Binance announcement"
+   "Binance announcement",
+   "CoinDesk"
   ],
   "sources": [
    {
@@ -13634,6 +13769,13 @@
     "name": "Binance announcement",
     "kind": "primary",
     "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/latest-crypto-news",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
     "confirms": true
    }
   ],
@@ -13651,15 +13793,22 @@
     "kind": "primary",
     "checked": false,
     "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/latest-crypto-news",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
-  "verification_status": "UNVERIFIED",
+  "verification_status": "VERIFIED",
   "verification": {
-   "status": "UNVERIFIED",
-   "independent_sources": 1,
+   "status": "VERIFIED",
+   "independent_sources": 2,
    "has_primary": false,
-   "score": 0.4,
-   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "score": 0.8,
+   "reason": "2 independent credible sources confirm it (no primary source yet)",
    "sources_checked": [
     {
      "name": "The Block",
@@ -13674,6 +13823,13 @@
      "category": "primary",
      "counts": false,
      "note": "primary (known official domain); not opened, so it doesn't count"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/latest-crypto-news",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -13685,7 +13841,17 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-15T07:11-04:00",
+    "headline": "Binance Pool's hashrate falls 65% ahead of its November 10 shutdown",
+    "summary": "CoinDesk reports Binance's mining pool, once about 2.3% of Bitcoin's hashrate, has lost 65% of its hashrate ahead of the Nov 10 closure.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -15928,6 +16094,76 @@
   ],
   "market_significance": "Follows a hot CPI; a second hot print could keep pressure on rate-hike odds.",
   "trigger": "DailyCoin week-ahead calendar",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261015_e0302e",
+  "headline": "Brooklyn prosecutors take down 112 servers behind a crypto scam targeting Russian speakers",
+  "summary": "Decrypt reports Brooklyn prosecutors dismantled 112 servers behind a multinational crypto investment scam aimed at Russian-speaking residents.",
+  "detected_at": "2026-10-15T07:11-04:00",
+  "active_since": "2026-10-15T07:11-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "legal",
+  "event_time": "2026-10-15T06:00-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://decrypt.co/news"
+  ],
+  "source_names": [
+   "Decrypt"
+  ],
+  "sources": [
+   {
+    "url": "https://decrypt.co/news",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://decrypt.co/news",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/news",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Local enforcement action, not market-moving."
+  ],
+  "market_significance": "Consumer-protection angle.",
+  "trigger": "Brooklyn DA action",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
