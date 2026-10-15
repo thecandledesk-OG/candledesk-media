@@ -16297,7 +16297,11 @@
    "https://www.bls.gov/news.release/ppi.nr0.htm",
    "https://en.sedaily.com/international/2026/10/15/us-producer-prices-jump-13-percent-in-september-most-in",
    "https://cointelegraph.com/markets/bitcoin-price-breaks-under-80k-after-us-ppi-gains-most-in-over-4-years",
-   "https://cryptoslate.com/bitcoin-loses-80k-because-us-ppi-just-hit-6-matching-2022-levels-stoking-inflation-fears/"
+   "https://cryptoslate.com/bitcoin-loses-80k-because-us-ppi-just-hit-6-matching-2022-levels-stoking-inflation-fears/",
+   "https://www.coindesk.com/price/bitcoin",
+   "https://www.bls.gov/news.release/archives/ppi_10152026.htm",
+   "https://bloomberg.com/news/articles/2026-10-15/bitcoin-briefly-dips-below-80-000-as-volatility-roils-markets",
+   "https://www.kucoin.com/news/flash/bitcoin-falls-below-80-000-amid-surprising-us-ppi-data"
   ],
   "source_names": [
    "DailyCoin",
@@ -16305,7 +16309,11 @@
    "BLS",
    "Seoul Economic Daily",
    "Cointelegraph",
-   "CryptoSlate"
+   "CryptoSlate",
+   "CoinDesk price page",
+   "BLS PPI release",
+   "Bloomberg",
+   "KuCoin News"
   ],
   "sources": [
    {
@@ -16349,6 +16357,34 @@
     "name": "CryptoSlate",
     "kind": "other",
     "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/price/bitcoin",
+    "name": "CoinDesk price page",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": false
+   },
+   {
+    "url": "https://www.bls.gov/news.release/archives/ppi_10152026.htm",
+    "name": "BLS PPI release",
+    "kind": "primary",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://bloomberg.com/news/articles/2026-10-15/bitcoin-briefly-dips-below-80-000-as-volatility-roils-markets",
+    "name": "Bloomberg",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://www.kucoin.com/news/flash/bitcoin-falls-below-80-000-amid-surprising-us-ppi-data",
+    "name": "KuCoin News",
+    "kind": "other",
+    "checked": true,
     "confirms": true
    }
   ],
@@ -16394,6 +16430,34 @@
     "name": "CryptoSlate",
     "kind": "other",
     "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/price/bitcoin",
+    "name": "CoinDesk price page",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": false
+   },
+   {
+    "url": "https://www.bls.gov/news.release/archives/ppi_10152026.htm",
+    "name": "BLS PPI release",
+    "kind": "primary",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://bloomberg.com/news/articles/2026-10-15/bitcoin-briefly-dips-below-80-000-as-volatility-roils-markets",
+    "name": "Bloomberg",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://www.kucoin.com/news/flash/bitcoin-falls-below-80-000-amid-surprising-us-ppi-data",
+    "name": "KuCoin News",
+    "kind": "other",
+    "checked": true,
     "confirms": true
    }
   ],
@@ -16446,6 +16510,34 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinDesk price page",
+     "url": "https://www.coindesk.com/price/bitcoin",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; opened but does not confirm the claim"
+    },
+    {
+     "name": "BLS PPI release",
+     "url": "https://www.bls.gov/news.release/archives/ppi_10152026.htm",
+     "category": "primary",
+     "counts": false,
+     "note": "primary (known official domain); not opened, so it doesn't count"
+    },
+    {
+     "name": "Bloomberg",
+     "url": "https://bloomberg.com/news/articles/2026-10-15/bitcoin-briefly-dips-below-80-000-as-volatility-roils-markets",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "KuCoin News",
+     "url": "https://www.kucoin.com/news/flash/bitcoin-falls-below-80-000-amid-surprising-us-ppi-data",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -16474,6 +16566,15 @@
     "new_development": true,
     "level": "NORMAL",
     "sources_added": 2,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-15T16:21-04:00",
+    "headline": "Bitcoin briefly dips below $80,000 after September PPI comes in hot at 6.3%",
+    "summary": "The U.S. September producer price index rose 6.3% year over year against a 5.3% forecast, with core at 5% versus 4.4%, the biggest jump in over four years. Bitcoin briefly slipped under $80,000, its lowest since September 18, then rebounded near $81,000 to $82,000. BTC is down roughly 2 to 3% and ETH roughly 3 to 4.5% over 24 hours, with nearly $1 billion in leveraged bets liquidated.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 4,
     "verification": "VERIFIED"
    }
   ],
@@ -17376,6 +17477,100 @@
   ],
   "market_significance": "Tokenization funding continues.",
   "trigger": "The Block",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261015_718658",
+  "headline": "Standard Chartered opens bitcoin and ether trading to wealthy UAE clients after Dubai VARA approval",
+  "summary": "Standard Chartered received authorization from Dubai's VARA to offer bitcoin and ether trading to wealth clients in the UAE.",
+  "detected_at": "2026-10-15T16:21-04:00",
+  "active_since": "2026-10-15T16:21-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "BTC",
+   "ETH"
+  ],
+  "event_type": "institutional",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://decrypt.co/380967/standard-chartered-bitcoin-ethereum-trading",
+   "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-15-2026"
+  ],
+  "source_names": [
+   "Decrypt",
+   "KuCoin daily report"
+  ],
+  "sources": [
+   {
+    "url": "https://decrypt.co/380967/standard-chartered-bitcoin-ethereum-trading",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-15-2026",
+    "name": "KuCoin daily report",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://decrypt.co/380967/standard-chartered-bitcoin-ethereum-trading",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-15-2026",
+    "name": "KuCoin daily report",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/380967/standard-chartered-bitcoin-ethereum-trading",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "KuCoin daily report",
+     "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-15-2026",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Bank expanding crypto access in one market; first reported Oct 14, routine institutional update."
+  ],
+  "market_significance": "More bank-based crypto access in the Gulf.",
+  "trigger": "Decrypt report Oct 14",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
