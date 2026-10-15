@@ -13131,7 +13131,8 @@
    "https://cryptopotato.com/bitcoin-price-plunges-as-september-cpi-comes-out-higher-than-expected/",
    "https://www.theblock.co/news/markets/2026-10-14-bitcoin-falls-below-82000-core-inflation-fed-rate-hike-418582",
    "https://www.coindesk.com/price/bitcoin",
-   "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-october-14-2026-crypto-prices-sliding-after-higher-inflation-report-133306768.html"
+   "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-october-14-2026-crypto-prices-sliding-after-higher-inflation-report-133306768.html",
+   "https://cryptoticker.io/en/crypto-selloff-liquidations-rates/"
   ],
   "source_names": [
    "CoinDesk",
@@ -13139,7 +13140,8 @@
    "CryptoPotato",
    "The Block",
    "CoinDesk price",
-   "Yahoo Finance"
+   "Yahoo Finance",
+   "CryptoTicker"
   ],
   "sources": [
    {
@@ -13181,6 +13183,13 @@
     "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-october-14-2026-crypto-prices-sliding-after-higher-inflation-report-133306768.html",
     "name": "Yahoo Finance",
     "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptoticker.io/en/crypto-selloff-liquidations-rates/",
+    "name": "CryptoTicker",
+    "kind": "other",
     "checked": true,
     "confirms": true
    }
@@ -13225,6 +13234,13 @@
     "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-october-14-2026-crypto-prices-sliding-after-higher-inflation-report-133306768.html",
     "name": "Yahoo Finance",
     "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptoticker.io/en/crypto-selloff-liquidations-rates/",
+    "name": "CryptoTicker",
+    "kind": "other",
     "checked": true,
     "confirms": true
    }
@@ -13278,6 +13294,13 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "CryptoTicker",
+     "url": "https://cryptoticker.io/en/crypto-selloff-liquidations-rates/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -13313,6 +13336,15 @@
     "headline": "Hotter September CPI at 3.7% sends bitcoin below $82,000; ETH, XRP and SOL fall about 3%",
     "summary": "September CPI rose 3.7% year over year versus 3.6% expected; core rose 0.3% month over month versus 0.2%. Bitcoin slipped about 2% to under $82,000 as Treasury yields jumped and Fed hike odds rose; ether, XRP and solana fell about 3%.",
     "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-14T22:15-04:00",
+    "headline": "Crypto extends post-CPI slide: bitcoin near $81,700, ether down about 3.5%",
+    "summary": "After the hotter September CPI, bitcoin trades near $81,700, down about 1.9% in 24 hours. Ether is near $2,420, down about 3.5%, XRP about 3.2% lower and SOL about 2.9% lower. Coinglass shows 24-hour liquidations around $150 million, well below Monday's $489 million.",
+    "new_development": false,
     "level": "NORMAL",
     "sources_added": 1,
     "verification": "VERIFIED"
@@ -15802,6 +15834,100 @@
   ],
   "market_significance": "European stablecoin competition",
   "trigger": "CoinDesk homepage headline",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261014_462cb6",
+  "headline": "U.S. PPI and retail sales due Thursday at 8:30 AM ET after hot CPI",
+  "summary": "September producer prices and retail sales are scheduled for Thursday, October 15, at 8:30 AM ET alongside weekly jobless claims. Retail sales are expected to rise 0.3% after a 1.2% jump. Traders are watching for confirmation of Wednesday's hotter inflation print.",
+  "detected_at": "2026-10-14T22:15-04:00",
+  "active_since": "2026-10-14T22:15-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "BTC",
+   "TOTAL_MARKET"
+  ],
+  "event_type": "macro",
+  "event_time": "2026-10-15T08:30-04:00",
+  "scheduled_event": true,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://dailycoin.com/us-economic-events-this-week-cpi-ppi-fed-crypto/",
+   "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-14-2026"
+  ],
+  "source_names": [
+   "DailyCoin",
+   "KuCoin News"
+  ],
+  "sources": [
+   {
+    "url": "https://dailycoin.com/us-economic-events-this-week-cpi-ppi-fed-crypto/",
+    "name": "DailyCoin",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-14-2026",
+    "name": "KuCoin News",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://dailycoin.com/us-economic-events-this-week-cpi-ppi-fed-crypto/",
+    "name": "DailyCoin",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-14-2026",
+    "name": "KuCoin News",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "DailyCoin",
+     "url": "https://dailycoin.com/us-economic-events-this-week-cpi-ppi-fed-crypto/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "KuCoin News",
+     "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-14-2026",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Scheduled macro data, not yet released."
+  ],
+  "market_significance": "Follows a hot CPI; a second hot print could keep pressure on rate-hike odds.",
+  "trigger": "DailyCoin week-ahead calendar",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
