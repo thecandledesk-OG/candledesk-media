@@ -9701,7 +9701,11 @@
    "https://www.theblock.co/news/ecosystems/2026-10-12-blur-nft-marketplace-shutting-down-frontend-blend-418363",
    "https://www.coindesk.com/",
    "https://www.coingabbar.com/en/us-cpi-data-today-bitcoin-at-83k-faces-key-inflation-test",
-   "https://kucoin.com/news/articles/crypto-daily-market-report-october-14-2026"
+   "https://kucoin.com/news/articles/crypto-daily-market-report-october-14-2026",
+   "https://coincentral.com/solana-sol-price-can-bulls-defend-100-after-a-959m-liquidation-flush",
+   "https://www.cryptotimes.io/2026/10/15/why-is-the-crypto-market-down-today-bitcoin-and-ethereum-price-update/",
+   "https://coincodex.com/article/93676/daily-market-update-for-october-15-2026",
+   "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-15-2026"
   ],
   "source_names": [
    "CoinDesk",
@@ -9711,6 +9715,10 @@
    "The Block",
    "CoinDesk",
    "Coin Gabbar",
+   "KuCoin",
+   "CoinCentral",
+   "The Crypto Times",
+   "CoinCodex",
    "KuCoin"
   ],
   "sources": [
@@ -9769,6 +9777,34 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://coincentral.com/solana-sol-price-can-bulls-defend-100-after-a-959m-liquidation-flush",
+    "name": "CoinCentral",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.cryptotimes.io/2026/10/15/why-is-the-crypto-market-down-today-bitcoin-and-ethereum-price-update/",
+    "name": "The Crypto Times",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://coincodex.com/article/93676/daily-market-update-for-october-15-2026",
+    "name": "CoinCodex",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-15-2026",
+    "name": "KuCoin",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -9823,6 +9859,34 @@
    },
    {
     "url": "https://kucoin.com/news/articles/crypto-daily-market-report-october-14-2026",
+    "name": "KuCoin",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://coincentral.com/solana-sol-price-can-bulls-defend-100-after-a-959m-liquidation-flush",
+    "name": "CoinCentral",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.cryptotimes.io/2026/10/15/why-is-the-crypto-market-down-today-bitcoin-and-ethereum-price-update/",
+    "name": "The Crypto Times",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://coincodex.com/article/93676/daily-market-update-for-october-15-2026",
+    "name": "CoinCodex",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-15-2026",
     "name": "KuCoin",
     "kind": "secondary",
     "checked": true,
@@ -9889,6 +9953,34 @@
     {
      "name": "KuCoin",
      "url": "https://kucoin.com/news/articles/crypto-daily-market-report-october-14-2026",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinCentral",
+     "url": "https://coincentral.com/solana-sol-price-can-bulls-defend-100-after-a-959m-liquidation-flush",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "The Crypto Times",
+     "url": "https://www.cryptotimes.io/2026/10/15/why-is-the-crypto-market-down-today-bitcoin-and-ethereum-price-update/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinCodex",
+     "url": "https://coincodex.com/article/93676/daily-market-update-for-october-15-2026",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "KuCoin",
+     "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-15-2026",
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
@@ -9962,6 +10054,33 @@
     "at": "2026-10-14T10:09-04:00",
     "headline": "Dormant bitcoin whale moves $378 million",
     "summary": "Psst... a dormant bitcoin whale just moved three hundred seventy-eight million dollars.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-15T10:08-04:00",
+    "headline": "Hot CPI wipes out $959 million in crypto bets in 24 hours",
+    "summary": "Here's what moved the chain today. Hot inflation wiped out nearly a billion in bets.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 3,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-15T10:08-04:00",
+    "headline": "Longs made up $880 million of the $959 million crypto liquidations",
+    "summary": "Green candles only! Ninety percent of those wipeouts were longs. Leverage is flushed!",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-15T10:08-04:00",
+    "headline": "US CPI hits 3.7% and October Fed hike odds touch 50%",
+    "summary": "Check the yields first. CPI hit three point seven percent; hike odds touched fifty percent.",
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 1,
@@ -12365,7 +12484,8 @@
    "https://www.coindesk.com/markets/2026/10/13/bitcoin-rebounds-above-usd83-000-as-it-decouples-from-tumbling-korean-stocks-and-nasdaq-futures",
    "https://www.coindesk.com/markets/2026/10/14/bitcoin-climbs-toward-usd84-000-after-fed-s-williams-sees-no-rate-hikes-in-2027",
    "https://www.theblock.co/news/markets/2026-10-15-bitcoin-drops-asian-equities-tumble-418623",
-   "https://www.coindesk.com/markets/2026/10/15/bitcoin-holds-above-usd80-000-as-an-asian-stock-rout-drags-altcoins-lower"
+   "https://www.coindesk.com/markets/2026/10/15/bitcoin-holds-above-usd80-000-as-an-asian-stock-rout-drags-altcoins-lower",
+   "https://www.coindesk.com/business/2026/10/15/live-updates-bitcoin-back-under-usd81-000-as-ai-selloff-worsens"
   ],
   "source_names": [
    "The Block",
@@ -12378,7 +12498,8 @@
    "CoinDesk",
    "CoinDesk",
    "The Block",
-   "CoinDesk"
+   "CoinDesk",
+   "CoinDesk live updates"
   ],
   "sources": [
    {
@@ -12454,6 +12575,13 @@
    {
     "url": "https://www.coindesk.com/markets/2026/10/15/bitcoin-holds-above-usd80-000-as-an-asian-stock-rout-drags-altcoins-lower",
     "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/business/2026/10/15/live-updates-bitcoin-back-under-usd81-000-as-ai-selloff-worsens",
+    "name": "CoinDesk live updates",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -12533,6 +12661,13 @@
    {
     "url": "https://www.coindesk.com/markets/2026/10/15/bitcoin-holds-above-usd80-000-as-an-asian-stock-rout-drags-altcoins-lower",
     "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/business/2026/10/15/live-updates-bitcoin-back-under-usd81-000-as-ai-selloff-worsens",
+    "name": "CoinDesk live updates",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -12622,6 +12757,13 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk live updates",
+     "url": "https://www.coindesk.com/business/2026/10/15/live-updates-bitcoin-back-under-usd81-000-as-ai-selloff-worsens",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -12696,6 +12838,33 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 2,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-15T10:16-04:00",
+    "headline": "Bitcoin dips near $80,000 as Kospi plunges 8% and AI stock selloff hits risk assets; ether down about 5%",
+    "summary": "BTC fell to just above $80,000 overnight, near last week's low, and trades around $80,400 to $81,000, down roughly 2.5 to 3% in 24 hours. ETH is down about 5% near $2,370, XRP and SOL down about 5%. South Korea's Kospi plunged 8% and triggered circuit breakers; Nasdaq 100 futures fell about 1%. US spot bitcoin ETFs saw about $261 million in outflows Wednesday.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-15T10:16-04:00",
+    "headline": "Australia's ASIC seeks stiffer rules for crypto exchanges ahead of licensing deadline",
+    "summary": "Australia's financial watchdog is seeking stricter rules for crypto exchanges ahead of a licensing deadline (CoinDesk headline; details not yet read).",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-15T10:16-04:00",
+    "headline": "Bitcoin mining pool that once handled 2.3% of hashrate shuts down after a 65% hashrate drop",
+    "summary": "A bitcoin mining pool that once processed about 2.3% of network hashrate has shut down after its hashrate fell 65% (CoinDesk headline; pool name not yet confirmed).",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
     "verification": "VERIFIED"
    }
   ],
@@ -16027,11 +16196,15 @@
   "emergency": false,
   "source_urls": [
    "https://dailycoin.com/us-economic-events-this-week-cpi-ppi-fed-crypto/",
-   "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-14-2026"
+   "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-14-2026",
+   "https://www.bls.gov/news.release/ppi.nr0.htm",
+   "https://en.sedaily.com/international/2026/10/15/us-producer-prices-jump-13-percent-in-september-most-in"
   ],
   "source_names": [
    "DailyCoin",
-   "KuCoin News"
+   "KuCoin News",
+   "BLS",
+   "Seoul Economic Daily"
   ],
   "sources": [
    {
@@ -16044,6 +16217,21 @@
    {
     "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-14-2026",
     "name": "KuCoin News",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.bls.gov/news.release/ppi.nr0.htm",
+    "name": "BLS",
+    "kind": "primary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-15T08:30:00-04:00"
+   },
+   {
+    "url": "https://en.sedaily.com/international/2026/10/15/us-producer-prices-jump-13-percent-in-september-most-in",
+    "name": "Seoul Economic Daily",
     "kind": "other",
     "checked": true,
     "confirms": true
@@ -16063,15 +16251,30 @@
     "kind": "other",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.bls.gov/news.release/ppi.nr0.htm",
+    "name": "BLS",
+    "kind": "primary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-15T08:30:00-04:00"
+   },
+   {
+    "url": "https://en.sedaily.com/international/2026/10/15/us-producer-prices-jump-13-percent-in-september-most-in",
+    "name": "Seoul Economic Daily",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "UNVERIFIED",
   "verification": {
    "status": "UNVERIFIED",
-   "independent_sources": 0,
-   "has_primary": false,
-   "score": 0.0,
-   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "independent_sources": 1,
+   "has_primary": true,
+   "score": 0.6,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
    "sources_checked": [
     {
      "name": "DailyCoin",
@@ -16086,6 +16289,20 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "BLS",
+     "url": "https://www.bls.gov/news.release/ppi.nr0.htm",
+     "category": "primary",
+     "counts": true,
+     "note": "primary (known official domain)"
+    },
+    {
+     "name": "Seoul Economic Daily",
+     "url": "https://en.sedaily.com/international/2026/10/15/us-producer-prices-jump-13-percent-in-september-most-in",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -16097,7 +16314,17 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-15T10:16-04:00",
+    "headline": "US producer prices jump 1.3% in September, the most since March 2022; retail sales beat at 0.8%",
+    "summary": "The September PPI rose 1.3% month over month against a 0.6% forecast, and 6.3% year over year, the biggest annual rise since December 2022. Retail sales rose 0.8% vs 0.4% expected. Adds to Fed hike worries after Wednesday's hot CPI, ahead of the Oct 27-28 Fed meeting.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -16164,6 +16391,390 @@
   ],
   "market_significance": "Consumer-protection angle.",
   "trigger": "Brooklyn DA action",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261015_8a528e",
+  "headline": "Mystery buyer pulls 1,162 BTC (about $97 million) from Wintermute",
+  "summary": "Psst... big wallets are moving. A mystery buyer pulled eleven hundred sixty-two bitcoin from Wintermute.",
+  "detected_at": "2026-10-15T10:08-04:00",
+  "active_since": "2026-10-15T10:08-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "institutional",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://news.bitcoin.com/crypto-news/cryptoquant-bitcoin-whales-back-mystery-buyer-97m-wintermute"
+  ],
+  "source_names": [
+   "Bitcoin.com"
+  ],
+  "sources": [
+   {
+    "url": "https://news.bitcoin.com/crypto-news/cryptoquant-bitcoin-whales-back-mystery-buyer-97m-wintermute",
+    "name": "Bitcoin.com",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://news.bitcoin.com/crypto-news/cryptoquant-bitcoin-whales-back-mystery-buyer-97m-wintermute",
+    "name": "Bitcoin.com",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Bitcoin.com",
+     "url": "https://news.bitcoin.com/crypto-news/cryptoquant-bitcoin-whales-back-mystery-buyer-97m-wintermute",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261015_4a4b93",
+  "headline": "SEC approves Cboe binary options on Coinbase, MARA and Robinhood KPIs",
+  "summary": "Wildcard: the SEC approved yes-or-no bets on Coinbase and Robinhood business numbers.",
+  "detected_at": "2026-10-15T10:08-04:00",
+  "active_since": "2026-10-15T10:08-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "regulatory",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.cryptotimes.io/2026/10/15/sec-approves-cboe-binary-options-on-coinbase-mara-and-robinhood-kpis/"
+  ],
+  "source_names": [
+   "The Crypto Times"
+  ],
+  "sources": [
+   {
+    "url": "https://www.cryptotimes.io/2026/10/15/sec-approves-cboe-binary-options-on-coinbase-mara-and-robinhood-kpis/",
+    "name": "The Crypto Times",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.cryptotimes.io/2026/10/15/sec-approves-cboe-binary-options-on-coinbase-mara-and-robinhood-kpis/",
+    "name": "The Crypto Times",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Crypto Times",
+     "url": "https://www.cryptotimes.io/2026/10/15/sec-approves-cboe-binary-options-on-coinbase-mara-and-robinhood-kpis/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261015_2c609d",
+  "headline": "EU banking regulator names Circle's USDC the first 'significant' e-money token under MiCA",
+  "summary": "The EBA classified USDC as a significant EMT, the first of 45 notified in the EU. From Nov 12 the EBA directly supervises USDC's own funds, reserves, liquidity and redemption plans, taking those over from France's ACPR. The EBA also signed an MoU with New York's DFS.",
+  "detected_at": "2026-10-15T10:16-04:00",
+  "active_since": "2026-10-15T10:16-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "IMPORTANT",
+  "confidence": 0.9,
+  "assets": [
+   "USDC"
+  ],
+  "event_type": "regulatory",
+  "event_time": "2026-10-14",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.eba.europa.eu/publications-and-media/press-releases/eba-classifies-usdc-first-significant-e-money-token-european-union",
+   "https://www.theblock.co/news/regulation/2026-10-15-eba-designates-circles-usdc-as-the-eus-first-significant-e-money-token-418637"
+  ],
+  "source_names": [
+   "European Banking Authority",
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.eba.europa.eu/publications-and-media/press-releases/eba-classifies-usdc-first-significant-e-money-token-european-union",
+    "name": "European Banking Authority",
+    "kind": "primary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-14"
+   },
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-10-15-eba-designates-circles-usdc-as-the-eus-first-significant-e-money-token-418637",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-15T07:10:00-04:00"
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.eba.europa.eu/publications-and-media/press-releases/eba-classifies-usdc-first-significant-e-money-token-european-union",
+    "name": "European Banking Authority",
+    "kind": "primary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-14"
+   },
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-10-15-eba-designates-circles-usdc-as-the-eus-first-significant-e-money-token-418637",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-15T07:10:00-04:00"
+   }
+  ],
+  "verification_status": "VERIFIED",
+  "verification": {
+   "status": "VERIFIED",
+   "independent_sources": 2,
+   "has_primary": true,
+   "score": 1.0,
+   "reason": "2 independent credible sources confirm it (incl. a primary source)",
+   "sources_checked": [
+    {
+     "name": "European Banking Authority",
+     "url": "https://www.eba.europa.eu/publications-and-media/press-releases/eba-classifies-usdc-first-significant-e-money-token-european-union",
+     "category": "primary",
+     "counts": true,
+     "note": "primary (claimed official source; domain not on the known list)"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-10-15-eba-designates-circles-usdc-as-the-eus-first-significant-e-money-token-418637",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed IMPORTANT: First significant-EMT designation under MiCA moves direct supervision of the second-largest stablecoin to an EU authority.",
+   "first reported 2026-10-14T00:00-04:00, older than 12h -> NORMAL (daily show)",
+   "final level NORMAL (changed from AI's IMPORTANT)"
+  ],
+  "market_significance": "Sets the template for how the EU supervises large stablecoins.",
+  "trigger": "EBA press release",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261015_e441f1",
+  "headline": "Ledger unveils Atom Android signing device with Solana Mobile support amid reseller tampering probe",
+  "summary": "Ledger revealed Atom, an Android device with a separate Secure Mode for signing, Solana Mobile Seeker app support and new anti-tamper features; $849 founder's edition, shipping summer 2027. Ledger is still investigating modified wallets sold via its CryptoBilis reseller in Southeast Asia; onchain researchers link over $86 million in suspected losses, which Ledger has not confirmed.",
+  "detected_at": "2026-10-15T10:16-04:00",
+  "active_since": "2026-10-15T10:16-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "SOL"
+  ],
+  "event_type": "other",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://theblock.co/news/business/2026-10-15-ledger-atom-solana-mobile-418644"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://theblock.co/news/business/2026-10-15-ledger-atom-solana-mobile-418644",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-15T08:00:00-04:00"
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://theblock.co/news/business/2026-10-15-ledger-atom-solana-mobile-418644",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-15T08:00:00-04:00"
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://theblock.co/news/business/2026-10-15-ledger-atom-solana-mobile-418644",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Product launch; the tampering-loss figure is unconfirmed by Ledger."
+  ],
+  "market_significance": "Hardware wallet security after the reseller incident.",
+  "trigger": "Ledger Op3n event",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261015_dae719",
+  "headline": "Helius CEO Mert Mumtaz joins the NEAR Foundation Council",
+  "summary": "Mert Mumtaz, CEO of Solana infrastructure firm Helius, has joined the NEAR Foundation Council.",
+  "detected_at": "2026-10-15T10:16-04:00",
+  "active_since": "2026-10-15T10:16-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "NEAR",
+   "SOL"
+  ],
+  "event_type": "other",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://theblock.co/news/business/2026-10-15-helius-ceo-mert-mumtaz-joins-near-foundation-council-418656"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://theblock.co/news/business/2026-10-15-helius-ceo-mert-mumtaz-joins-near-foundation-council-418656",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true,
+    "published": "2026-10-15T09:00:00-04:00"
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://theblock.co/news/business/2026-10-15-helius-ceo-mert-mumtaz-joins-near-foundation-council-418656",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true,
+    "published": "2026-10-15T09:00:00-04:00"
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://theblock.co/news/business/2026-10-15-helius-ceo-mert-mumtaz-joins-near-foundation-council-418656",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Governance appointment."
+  ],
+  "market_significance": "Cross-ecosystem leadership move.",
+  "trigger": "announcement",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
