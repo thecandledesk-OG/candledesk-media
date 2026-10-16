@@ -12519,7 +12519,8 @@
    "https://www.theblock.co/news/markets/2026-10-15-bitcoin-drops-asian-equities-tumble-418623",
    "https://www.coindesk.com/markets/2026/10/15/bitcoin-holds-above-usd80-000-as-an-asian-stock-rout-drags-altcoins-lower",
    "https://www.coindesk.com/business/2026/10/15/live-updates-bitcoin-back-under-usd81-000-as-ai-selloff-worsens",
-   "https://www.coindesk.com/markets/2026/10/15/nearly-usd1-billion-in-crypto-bets-liquidated-as-bitcoin-ether-and-xrp-slide"
+   "https://www.coindesk.com/markets/2026/10/15/nearly-usd1-billion-in-crypto-bets-liquidated-as-bitcoin-ether-and-xrp-slide",
+   "https://coindesk.com/markets/2026/10/16/altcoins-outpace-bitcoin-as-celestia-jumps-16-warsh-silent-on-interest-rate-plans"
   ],
   "source_names": [
    "The Block",
@@ -12534,6 +12535,7 @@
    "The Block",
    "CoinDesk",
    "CoinDesk live updates",
+   "CoinDesk",
    "CoinDesk"
   ],
   "sources": [
@@ -12627,6 +12629,13 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://coindesk.com/markets/2026/10/16/altcoins-outpace-bitcoin-as-celestia-jumps-16-warsh-silent-on-interest-rate-plans",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -12716,6 +12725,13 @@
    },
    {
     "url": "https://www.coindesk.com/markets/2026/10/15/nearly-usd1-billion-in-crypto-bets-liquidated-as-bitcoin-ether-and-xrp-slide",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://coindesk.com/markets/2026/10/16/altcoins-outpace-bitcoin-as-celestia-jumps-16-warsh-silent-on-interest-rate-plans",
     "name": "CoinDesk",
     "kind": "secondary",
     "checked": true,
@@ -12817,6 +12833,13 @@
     {
      "name": "CoinDesk",
      "url": "https://www.coindesk.com/markets/2026/10/15/nearly-usd1-billion-in-crypto-bets-liquidated-as-bitcoin-ether-and-xrp-slide",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://coindesk.com/markets/2026/10/16/altcoins-outpace-bitcoin-as-celestia-jumps-16-warsh-silent-on-interest-rate-plans",
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
@@ -12939,6 +12962,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-16T13:09-04:00",
+    "headline": "Celestia jumps about 16% to a 2026 high as altcoins outpace bitcoin near $82,000",
+    "summary": "Celestia's TIA rose about 16% to around $0.68, leading the CoinDesk 100, with Injective up 7.7% and LayerZero up 7.3%. Bitcoin held near $82,100 and ether near $2,450. Liquidations fell to $311 million from nearly $1 billion the day before; Fed chair Warsh gave no rate signal.",
+    "new_development": false,
+    "level": "BREAKING",
+    "sources_added": 1,
     "verification": "VERIFIED"
    }
   ],
@@ -18986,6 +19018,76 @@
   ],
   "market_significance": "Exchange licensing in Australia",
   "trigger": "CoinDesk latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261016_98e3d8",
+  "headline": "Circle details USDC revenue split: $819 million went to partners and costs in the first half of 2026",
+  "summary": "Circle says it made about $1.4 billion in H1 2026 revenue, paid $819 million to USDC distribution partners and transaction costs, reinvested about $473 million, and kept roughly 7 cents of profit per dollar. USDC handled about 77% of global stablecoin transaction volume in June. Q3 results due November 4.",
+  "detected_at": "2026-10-16T13:09-04:00",
+  "active_since": "2026-10-16T13:09-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "USDC"
+  ],
+  "event_type": "institutional",
+  "event_time": "2026-10-16T10:58-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-10-16-circle-usdc-revenue-split-partners-418826"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-16-circle-usdc-revenue-split-partners-418826",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-16-circle-usdc-revenue-split-partners-418826",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-10-16-circle-usdc-revenue-split-partners-418826",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Company disclosure on revenue economics; not market-moving."
+  ],
+  "market_significance": "Stablecoin economics debate as new issuers enter.",
+  "trigger": "Circle blog post Oct 16",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
