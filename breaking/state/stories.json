@@ -19244,5 +19244,76 @@
   ],
   "posts": [],
   "needs_followup": false
+ },
+ {
+  "id": "st_20261016_41a231",
+  "headline": "Coinbase to power stablecoin-backed payment cards for Marqeta's business customers, settling on Base",
+  "summary": "Marqeta is expanding its partnership with Coinbase so businesses can issue cards funded by customers' stablecoin holdings. Coinbase holds and converts the stablecoins; Base provides onchain settlement. Fees, rollout date and supported stablecoins were not disclosed.",
+  "detected_at": "2026-10-16T19:15-04:00",
+  "active_since": "2026-10-16T19:15-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "USDC",
+   "TOTAL_MARKET"
+  ],
+  "event_type": "partnership",
+  "event_time": "2026-10-16T13:21-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-10-16-coinbase-to-power-stablecoin-backed-cards-for-marqeta-customers-418833"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-16-coinbase-to-power-stablecoin-backed-cards-for-marqeta-customers-418833",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-16-coinbase-to-power-stablecoin-backed-cards-for-marqeta-customers-418833",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-10-16-coinbase-to-power-stablecoin-backed-cards-for-marqeta-customers-418833",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Incremental partnership expansion with no launch date or figures"
+  ],
+  "market_significance": "Adds stablecoin card rails for Marqeta clients",
+  "trigger": "Marqeta press release reported by The Block",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
  }
 ]
