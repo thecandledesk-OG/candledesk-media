@@ -17786,7 +17786,9 @@
    "https://www.bloomberg.com/news/articles/2026-10-15/msci-decision-moves-michael-saylor-s-strategy-toward-index-exit",
    "https://app2.msci.com/webapp/index_ann/DocGet?pub_key=akYg4WzbEDk%3D&lang=en&format=html",
    "https://cointelegraph.com/news/msci-adopts-index-exclusion-rules-that-could-oust-strategy",
-   "https://thedefiant.io/converge/tradfi-and-fintech/msci-adopts-rules-putting-strategy-and-metaplanet-at-risk-of-index-removal"
+   "https://thedefiant.io/converge/tradfi-and-fintech/msci-adopts-rules-putting-strategy-and-metaplanet-at-risk-of-index-removal",
+   "https://www.coindesk.com/markets/2026/10/16/live-updates-bitcoin-back-above-usd82-000-zec-jumps-11-as-etf-outflows-continue",
+   "https://finance.yahoo.com/markets/stocks/articles/strategy-shares-fall-3-msci-105357613.html"
   ],
   "source_names": [
    "The Block",
@@ -17794,7 +17796,9 @@
    "Bloomberg",
    "MSCI consultation announcement (Aug 3)",
    "Cointelegraph",
-   "The Defiant"
+   "The Defiant",
+   "CoinDesk",
+   "Yahoo Finance"
   ],
   "sources": [
    {
@@ -17838,6 +17842,20 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/16/live-updates-bitcoin-back-above-usd82-000-zec-jumps-11-as-etf-outflows-continue",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://finance.yahoo.com/markets/stocks/articles/strategy-shares-fall-3-msci-105357613.html",
+    "name": "Yahoo Finance",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
    }
   ],
   "gate_sources": [
@@ -17882,15 +17900,29 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/16/live-updates-bitcoin-back-above-usd82-000-zec-jumps-11-as-etf-outflows-continue",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://finance.yahoo.com/markets/stocks/articles/strategy-shares-fall-3-msci-105357613.html",
+    "name": "Yahoo Finance",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
    }
   ],
   "verification_status": "VERIFIED",
   "verification": {
    "status": "VERIFIED",
-   "independent_sources": 3,
+   "independent_sources": 4,
    "has_primary": false,
    "score": 0.8,
-   "reason": "3 independent credible sources confirm it (no primary source yet)",
+   "reason": "4 independent credible sources confirm it (no primary source yet)",
    "sources_checked": [
     {
      "name": "The Block",
@@ -17933,6 +17965,20 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/10/16/live-updates-bitcoin-back-above-usd82-000-zec-jumps-11-as-etf-outflows-continue",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/strategy-shares-fall-3-msci-105357613.html",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
     }
    ]
   },
@@ -17951,6 +17997,15 @@
     "summary": "Re-check: MSCI said Thursday it will adopt its non-operating company methodology (operating assets plus five financial ratios). Strategy and Metaplanet are at risk; current members are removed only after failing two annual periods. Final list due November 11, effective after the November 30 close.",
     "new_development": false,
     "level": "IMPORTANT",
+    "sources_added": 2,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-16T16:14-04:00",
+    "headline": "Strategy shares fall as MSCI's new index rules threaten removal of crypto treasury firms",
+    "summary": "Strategy stock fell on Friday after MSCI finalized index eligibility rules that could lead to its removal; CoinDesk showed MSTR down about 9% by early afternoon amid a broader tech selloff.",
+    "new_development": false,
+    "level": "NORMAL",
     "sources_added": 2,
     "verification": "VERIFIED"
    }
@@ -19092,6 +19147,101 @@
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
   "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261016_11f981",
+  "headline": "Crypto stocks slide as oil tops $100 on reported Saudi pipeline attack; bitcoin eases to about $81,300",
+  "summary": "Oil jumped more than 3% to about $101 a barrel on reports of an attack on Saudi Arabia's East-West pipeline, the 10-year Treasury yield rose to about 5.125% and the Nasdaq fell 1.5%. Bitcoin slipped to about $81,300 (about -1% on the day); ETH -1.4%, XRP -3%, SOL -2%. Strategy fell about 9%, Coinbase 3.5%, Circle 4%.",
+  "detected_at": "2026-10-16T16:14-04:00",
+  "active_since": "2026-10-16T16:14-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "BTC",
+   "ETH",
+   "XRP",
+   "SOL",
+   "TOTAL_MARKET"
+  ],
+  "event_type": "macro",
+  "event_time": "2026-10-16T13:02-04:00",
+  "scheduled_event": false,
+  "metrics": {
+   "pct_move_24h": -1.2
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/markets/2026/10/16/live-updates-bitcoin-back-above-usd82-000-zec-jumps-11-as-etf-outflows-continue"
+  ],
+  "source_names": [
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/16/live-updates-bitcoin-back-above-usd82-000-zec-jumps-11-as-etf-outflows-continue",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/16/live-updates-bitcoin-back-above-usd82-000-zec-jumps-11-as-etf-outflows-continue",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/10/16/live-updates-bitcoin-back-above-usd82-000-zec-jumps-11-as-etf-outflows-continue",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Small crypto moves well below thresholds; macro-driven risk-off."
+  ],
+  "market_significance": "Oil and yields are the macro pressure traders are watching for crypto.",
+  "trigger": "CoinDesk live updates 1:02 PM ET",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [
+   {
+    "at": "2026-10-16T16:14-04:00",
+    "headline": "Strive upsizes its SATS preferred stock offering to $630 million",
+    "summary": "Strive upsized its SATS preferred offering to 7 million shares at $90 each, raising about $630 million gross; the 15% dividend implies an effective yield near 16.7%.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-16T16:14-04:00",
+    "headline": "Strategy proposes switching its STRC preferred to daily dividends from November 1, pending an October 28 vote",
+    "summary": "Strategy announced a conditional switch to daily dividends for its STRC preferred stock starting November 1, subject to a shareholder vote with results due October 28. STRC has traded just below par.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  }
