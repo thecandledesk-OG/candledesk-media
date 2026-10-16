@@ -12931,6 +12931,15 @@
     "level": "NORMAL",
     "sources_added": 1,
     "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-15T22:10-04:00",
+    "headline": "Nearly $1 billion in crypto bets liquidated as bitcoin, ether and XRP slide",
+    "summary": "About $483 million in bitcoin and ether futures were liquidated in 24 hours, ether leading with about $286 million. Bitcoin fell about 3% to roughly $81,000, ether about 6% to about $2,350, XRP and SOL about 5%.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "VERIFIED"
    }
   ],
   "posts": [],
@@ -14116,6 +14125,15 @@
     "level": "NORMAL",
     "sources_added": 1,
     "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-15T22:10-04:00",
+    "headline": "Binance shuts Binance Pool on November 10 after its bitcoin hashrate falls about 65%",
+    "summary": "Binance will close Binance Pool, Pool Savings, Cloud Mining and its transaction accelerator at 7 AM UTC on November 10. The pool's hashrate fell from about 26 EH/s to 9.2 EH/s, now under 1% of the network.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "VERIFIED"
    }
   ],
   "posts": [],
@@ -15261,16 +15279,25 @@
   "metrics": {},
   "emergency": false,
   "source_urls": [
-   "https://www.theblock.co/news/business/2026-10-14-drivewealth-ripple-rlusd-stablecoin-settlement-418479"
+   "https://www.theblock.co/news/business/2026-10-14-drivewealth-ripple-rlusd-stablecoin-settlement-418479",
+   "https://thecryptobasic.com/2026/10/15/tcb-daily-edition-what-happened-in-crypto-on-october-15-2026/"
   ],
   "source_names": [
-   "The Block"
+   "The Block",
+   "The Crypto Basic"
   ],
   "sources": [
    {
     "url": "https://www.theblock.co/news/business/2026-10-14-drivewealth-ripple-rlusd-stablecoin-settlement-418479",
     "name": "The Block",
     "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://thecryptobasic.com/2026/10/15/tcb-daily-edition-what-happened-in-crypto-on-october-15-2026/",
+    "name": "The Crypto Basic",
+    "kind": "other",
     "checked": true,
     "confirms": true
    }
@@ -15280,6 +15307,13 @@
     "url": "https://www.theblock.co/news/business/2026-10-14-drivewealth-ripple-rlusd-stablecoin-settlement-418479",
     "name": "The Block",
     "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://thecryptobasic.com/2026/10/15/tcb-daily-edition-what-happened-in-crypto-on-october-15-2026/",
+    "name": "The Crypto Basic",
+    "kind": "other",
     "checked": true,
     "confirms": true
    }
@@ -15298,6 +15332,13 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "The Crypto Basic",
+     "url": "https://thecryptobasic.com/2026/10/15/tcb-daily-edition-what-happened-in-crypto-on-october-15-2026/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -15309,7 +15350,35 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-15T22:10-04:00",
+    "headline": "Cross River lets fintech clients use Ripple's RLUSD for round-the-clock cross-border settlement",
+    "summary": "Cross River's fintech clients can use RLUSD for international transfers and settlement over the XRP Ledger through one API, limited to selected U.S. states.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-15T22:10-04:00",
+    "headline": "Lido staking now accepts ETH directly on Arbitrum, Base, Linea and Optimism",
+    "summary": "Lido's interface lets users stake ETH from four Layer 2 networks, using Chainlink CCIP to move funds, and returns wstETH on the starting network.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-15T22:10-04:00",
+    "headline": "Australia's ASIC opens consultation on custody and settlement standards for digital asset platforms",
+    "summary": "ASIC released a consultation on implementing Australia's digital asset framework, covering custody, transaction and settlement standards and financial requirements. Feedback is due November 27.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -17632,13 +17701,17 @@
    "https://www.theblock.co/news/business/2026-10-15-msci-rules-could-exclude-strategy-mstr-from-indexes-418729",
    "https://cryptobriefing.com/msci-strategy-index-removal-november-30/",
    "https://www.bloomberg.com/news/articles/2026-10-15/msci-decision-moves-michael-saylor-s-strategy-toward-index-exit",
-   "https://app2.msci.com/webapp/index_ann/DocGet?pub_key=akYg4WzbEDk%3D&lang=en&format=html"
+   "https://app2.msci.com/webapp/index_ann/DocGet?pub_key=akYg4WzbEDk%3D&lang=en&format=html",
+   "https://cointelegraph.com/news/msci-adopts-index-exclusion-rules-that-could-oust-strategy",
+   "https://thedefiant.io/converge/tradfi-and-fintech/msci-adopts-rules-putting-strategy-and-metaplanet-at-risk-of-index-removal"
   ],
   "source_names": [
    "The Block",
    "Crypto Briefing",
    "Bloomberg",
-   "MSCI consultation announcement (Aug 3)"
+   "MSCI consultation announcement (Aug 3)",
+   "Cointelegraph",
+   "The Defiant"
   ],
   "sources": [
    {
@@ -17668,6 +17741,20 @@
     "kind": "primary",
     "checked": true,
     "confirms": false
+   },
+   {
+    "url": "https://cointelegraph.com/news/msci-adopts-index-exclusion-rules-that-could-oust-strategy",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://thedefiant.io/converge/tradfi-and-fintech/msci-adopts-rules-putting-strategy-and-metaplanet-at-risk-of-index-removal",
+    "name": "The Defiant",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -17698,15 +17785,29 @@
     "kind": "primary",
     "checked": true,
     "confirms": false
+   },
+   {
+    "url": "https://cointelegraph.com/news/msci-adopts-index-exclusion-rules-that-could-oust-strategy",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://thedefiant.io/converge/tradfi-and-fintech/msci-adopts-rules-putting-strategy-and-metaplanet-at-risk-of-index-removal",
+    "name": "The Defiant",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
-  "verification_status": "UNVERIFIED",
+  "verification_status": "VERIFIED",
   "verification": {
-   "status": "UNVERIFIED",
-   "independent_sources": 1,
+   "status": "VERIFIED",
+   "independent_sources": 3,
    "has_primary": false,
-   "score": 0.4,
-   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "score": 0.8,
+   "reason": "3 independent credible sources confirm it (no primary source yet)",
    "sources_checked": [
     {
      "name": "The Block",
@@ -17735,6 +17836,20 @@
      "category": "primary",
      "counts": false,
      "note": "primary (claimed official source; domain not on the known list); opened but does not confirm the claim"
+    },
+    {
+     "name": "Cointelegraph",
+     "url": "https://cointelegraph.com/news/msci-adopts-index-exclusion-rules-that-could-oust-strategy",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "The Defiant",
+     "url": "https://thedefiant.io/converge/tradfi-and-fintech/msci-adopts-rules-putting-strategy-and-metaplanet-at-risk-of-index-removal",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -17743,11 +17858,25 @@
   ],
   "market_significance": "Could force index-tracking funds to sell shares of bitcoin treasury companies, the biggest corporate buyers of BTC.",
   "trigger": "The Block report 6:15 PM ET Oct 15; MSCI said results were due on or before Oct 16.",
-  "content_created": false,
-  "publication_status": "BLOCKED_UNVERIFIED",
+  "content_created": true,
+  "publication_status": "DRAFTED",
   "related_story_ids": [],
-  "updates": [],
-  "posts": [],
+  "updates": [
+   {
+    "at": "2026-10-15T22:10-04:00",
+    "headline": "MSCI finalizes index rules that could remove Strategy and other crypto treasury firms from its indexes",
+    "summary": "Re-check: MSCI said Thursday it will adopt its non-operating company methodology (operating assets plus five financial ratios). Strategy and Metaplanet are at risk; current members are removed only after failing two annual periods. Final list due November 11, effective after the November 30 close.",
+    "new_development": false,
+    "level": "IMPORTANT",
+    "sources_added": 2,
+    "verification": "VERIFIED"
+   }
+  ],
+  "posts": [
+   "6ad18910e991a49db3c409d4",
+   "6ad18912e991a49db3c40a7b",
+   "6ad18915fb64fffcf1aece11"
+  ],
   "needs_followup": false
  },
  {
@@ -17813,6 +17942,76 @@
   ],
   "market_significance": "Ownership change for a crypto social network.",
   "trigger": "The Block 5:41 PM ET Oct 15.",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261015_400d4f",
+  "headline": "South Korea's FSC confirms breaches at 16 financial firms, including crypto exchange operators Streami and Prabang",
+  "summary": "South Korea's Financial Services Commission says security incidents at 16 financial firms, including Gopax operator Streami, exposed about 100,000 customer records, and proposed cybersecurity reforms.",
+  "detected_at": "2026-10-15T22:10-04:00",
+  "active_since": "2026-10-15T22:10-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "regulatory",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://financefeeds.com/south-korea-targets-crypto-firms/"
+  ],
+  "source_names": [
+   "FinanceFeeds"
+  ],
+  "sources": [
+   {
+    "url": "https://financefeeds.com/south-korea-targets-crypto-firms/",
+    "name": "FinanceFeeds",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://financefeeds.com/south-korea-targets-crypto-firms/",
+    "name": "FinanceFeeds",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "FinanceFeeds",
+     "url": "https://financefeeds.com/south-korea-targets-crypto-firms/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Data exposure, no reported crypto losses"
+  ],
+  "market_significance": "Tighter security rules for Korean exchanges",
+  "trigger": "Search",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
