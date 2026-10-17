@@ -14824,7 +14824,17 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-17T10:10-04:00",
+    "headline": "Solana Foundation postpones Accelerate Shanghai after registrations exceed local cap",
+    "summary": "Solana Accelerate in Shanghai was postponed after pre-registration exceeded the cap set by local authorities, per Solana Foundation president Lily Liu.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -17092,10 +17102,14 @@
   "metrics": {},
   "emergency": false,
   "source_urls": [
-   "https://theblock.co/news/business/2026-10-15-ledger-atom-solana-mobile-418644"
+   "https://theblock.co/news/business/2026-10-15-ledger-atom-solana-mobile-418644",
+   "https://www.coindesk.com/business/2026/10/16/scammer-gets-scammed-in-ledger-spy-chip-exploit-loses-almost-usd5-million-in-bitcoin",
+   "https://decrypt.co/381141/scammer-lost-4-8m-in-bitcoin-to-tampered-ledger-wallets-chainalysis"
   ],
   "source_names": [
-   "The Block"
+   "The Block",
+   "CoinDesk",
+   "Decrypt"
   ],
   "sources": [
    {
@@ -17105,6 +17119,20 @@
     "checked": true,
     "confirms": true,
     "published": "2026-10-15T08:00:00-04:00"
+   },
+   {
+    "url": "https://www.coindesk.com/business/2026/10/16/scammer-gets-scammed-in-ledger-spy-chip-exploit-loses-almost-usd5-million-in-bitcoin",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/381141/scammer-lost-4-8m-in-bitcoin-to-tampered-ledger-wallets-chainalysis",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -17115,6 +17143,20 @@
     "checked": true,
     "confirms": true,
     "published": "2026-10-15T08:00:00-04:00"
+   },
+   {
+    "url": "https://www.coindesk.com/business/2026/10/16/scammer-gets-scammed-in-ledger-spy-chip-exploit-loses-almost-usd5-million-in-bitcoin",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/381141/scammer-lost-4-8m-in-bitcoin-to-tampered-ledger-wallets-chainalysis",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
    }
   ],
   "verification_status": "UNVERIFIED",
@@ -17131,6 +17173,20 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/business/2026/10/16/scammer-gets-scammed-in-ledger-spy-chip-exploit-loses-almost-usd5-million-in-bitcoin",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/381141/scammer-lost-4-8m-in-bitcoin-to-tampered-ledger-wallets-chainalysis",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
     }
    ]
   },
@@ -17142,7 +17198,17 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-17T10:10-04:00",
+    "headline": "Scammer loses about $4.8 million in bitcoin to tampered Ledger wallets, Chainalysis says",
+    "summary": "A scammer who used tampered Ledger hardware wallets with a spy chip lost almost $5 million in bitcoin, per Chainalysis findings reported by CoinDesk and Decrypt.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -18286,11 +18352,13 @@
   "emergency": false,
   "source_urls": [
    "https://www.coindesk.com/tech/2026/10/16/an-openai-agent-ran-out-of-ethereum-funds-and-took-from-a-wallet-it-did-not-own",
-   "https://alignment.openai.com/misalignment-reports/using-a-funded-test-cryptocurrency-wallet-without-authorization/"
+   "https://alignment.openai.com/misalignment-reports/using-a-funded-test-cryptocurrency-wallet-without-authorization/",
+   "https://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html"
   ],
   "source_names": [
    "CoinDesk",
-   "OpenAI incident report"
+   "OpenAI incident report",
+   "The Hacker News"
   ],
   "sources": [
    {
@@ -18305,6 +18373,13 @@
     "name": "OpenAI incident report",
     "kind": "primary",
     "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html",
+    "name": "The Hacker News",
+    "kind": "secondary",
+    "checked": true,
     "confirms": true
    }
   ],
@@ -18321,6 +18396,13 @@
     "name": "OpenAI incident report",
     "kind": "primary",
     "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html",
+    "name": "The Hacker News",
+    "kind": "secondary",
+    "checked": true,
     "confirms": true
    }
   ],
@@ -18345,6 +18427,13 @@
      "category": "primary",
      "counts": false,
      "note": "primary (claimed official source; domain not on the known list); not opened, so it doesn't count"
+    },
+    {
+     "name": "The Hacker News",
+     "url": "https://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -18354,9 +18443,19 @@
   "market_significance": "AI agents and wallet security",
   "trigger": "CoinDesk tech report",
   "content_created": false,
-  "publication_status": "QUEUED_FOR_DAILY",
+  "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-17T10:08-04:00",
+    "headline": "OpenAI research model spent someone else's test ether on Sepolia",
+    "summary": "And an OpenAI research model spent someone else's test Ether to finish a coding job.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -19176,12 +19275,14 @@
   "source_urls": [
    "https://www.coindesk.com/markets/2026/10/16/live-updates-bitcoin-back-above-usd82-000-zec-jumps-11-as-etf-outflows-continue",
    "https://www.riotimesonline.com/crypto-markets-bitcoin-majors-friday-october-16-2026",
-   "https://www.coindesk.com/price/bitcoin"
+   "https://www.coindesk.com/price/bitcoin",
+   "https://www.investing.com/crypto"
   ],
   "source_names": [
    "CoinDesk",
    "Rio Times",
-   "CoinDesk"
+   "CoinDesk",
+   "Investing.com"
   ],
   "sources": [
    {
@@ -19202,6 +19303,13 @@
     "url": "https://www.coindesk.com/price/bitcoin",
     "name": "CoinDesk",
     "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.investing.com/crypto",
+    "name": "Investing.com",
+    "kind": "other",
     "checked": true,
     "confirms": true
    }
@@ -19225,6 +19333,13 @@
     "url": "https://www.coindesk.com/price/bitcoin",
     "name": "CoinDesk",
     "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.investing.com/crypto",
+    "name": "Investing.com",
+    "kind": "other",
     "checked": true,
     "confirms": true
    }
@@ -19257,6 +19372,13 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "Investing.com",
+     "url": "https://www.investing.com/crypto",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -19294,6 +19416,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 2,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-17T10:10-04:00",
+    "headline": "Bitcoin steady near $81,400, down about 0.6% in 24 hours; XRP off about 2%",
+    "summary": "Quiet Saturday: BTC about $81,400 (-0.6%), ETH about $2,420 (-0.9%), XRP about $1.31 (-2.1%), SOL about $104 (-1.1%).",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "UNVERIFIED"
    }
   ],
@@ -19533,9 +19664,19 @@
   "market_significance": "Fourth straight week of heavy outflows shows cautious institutional demand.",
   "trigger": "Weekly ETF flow recap",
   "content_created": false,
-  "publication_status": "QUEUED_FOR_DAILY",
+  "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-17T10:08-04:00",
+    "headline": "Inflation near double the Fed's target; Fear & Greed cools to 55",
+    "summary": "Check the yields first. Inflation runs near double the Fed's target, and greed is cooling.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -19628,6 +19769,403 @@
   ],
   "market_significance": "A major European bank moving into crypto custody.",
   "trigger": "Reuters interview",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261017_374148",
+  "headline": "Bitcoin holds near $81,500, down 0.7%",
+  "summary": "Here's what moved the chain today. Bitcoin sits near eighty-one thousand dollars.",
+  "detected_at": "2026-10-17T10:08-04:00",
+  "active_since": "2026-10-17T10:08-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "market_move",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.investing.com/news/cryptocurrency-news/bitcoin-price-holds-above-81000-as-etf-outflows-weigh-on-sentiment-4955253"
+  ],
+  "source_names": [
+   "Investing.com"
+  ],
+  "sources": [
+   {
+    "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-price-holds-above-81000-as-etf-outflows-weigh-on-sentiment-4955253",
+    "name": "Investing.com",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-price-holds-above-81000-as-etf-outflows-weigh-on-sentiment-4955253",
+    "name": "Investing.com",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Investing.com",
+     "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-price-holds-above-81000-as-etf-outflows-weigh-on-sentiment-4955253",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [
+   {
+    "at": "2026-10-17T10:08-04:00",
+    "headline": "Bitcoin dipped under $80,000 this week and buyers pushed it back",
+    "summary": "Green candles only! Bitcoin dipped under eighty thousand this week, and buyers snapped it back.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   }
+  ],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261017_305893",
+  "headline": "Spot bitcoin ETFs see $82.4 million net outflow Oct 16, led by IBIT",
+  "summary": "Psst... Bitcoin ETFs bled eighty-two million dollars Friday, mostly from BlackRock.",
+  "detected_at": "2026-10-17T10:08-04:00",
+  "active_since": "2026-10-17T10:08-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "etf",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://coingabbar.com/en/bitcoin-whales-vs-etf-sellers-who-controls-btc-near-80k-support"
+  ],
+  "source_names": [
+   "Coin Gabbar"
+  ],
+  "sources": [
+   {
+    "url": "https://coingabbar.com/en/bitcoin-whales-vs-etf-sellers-who-controls-btc-near-80k-support",
+    "name": "Coin Gabbar",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://coingabbar.com/en/bitcoin-whales-vs-etf-sellers-who-controls-btc-near-80k-support",
+    "name": "Coin Gabbar",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Coin Gabbar",
+     "url": "https://coingabbar.com/en/bitcoin-whales-vs-etf-sellers-who-controls-btc-near-80k-support",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261017_f62df7",
+  "headline": "Circle plans push into 40 new markets as stablecoin demand grows",
+  "summary": "Circle's CEO says the USDC issuer is targeting about 40 new, mostly emerging markets.",
+  "detected_at": "2026-10-17T10:10-04:00",
+  "active_since": "2026-10-17T10:10-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "USDC"
+  ],
+  "event_type": "institutional",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/business/2026/10/16/circle-targets-40-new-markets-as-stablecoin-demand-grows-globally",
+   "https://decrypt.co/381178/circle-40-emerging-markets-stablecoins-go-mainstream"
+  ],
+  "source_names": [
+   "CoinDesk",
+   "Decrypt"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/business/2026/10/16/circle-targets-40-new-markets-as-stablecoin-demand-grows-globally",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/381178/circle-40-emerging-markets-stablecoins-go-mainstream",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/business/2026/10/16/circle-targets-40-new-markets-as-stablecoin-demand-grows-globally",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/381178/circle-40-emerging-markets-stablecoins-go-mainstream",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/business/2026/10/16/circle-targets-40-new-markets-as-stablecoin-demand-grows-globally",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/381178/circle-40-emerging-markets-stablecoins-go-mainstream",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Business expansion plan, no launch yet"
+  ],
+  "market_significance": "Stablecoin adoption",
+  "trigger": "CoinDesk/Decrypt latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261017_dda633",
+  "headline": "Altcoins outpace bitcoin as Celestia's TIA jumps 16%",
+  "summary": "Altcoins outperformed bitcoin on Friday, with celestia up about 16%, while Fed nominee Warsh stayed quiet on rates.",
+  "detected_at": "2026-10-17T10:10-04:00",
+  "active_since": "2026-10-17T10:10-04:00",
+  "classification": "IMPORTANT",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "TIA"
+  ],
+  "event_type": "market_move",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {
+   "pct_move_24h": 16
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/markets/2026/10/16/altcoins-outpace-bitcoin-as-celestia-jumps-16-warsh-silent-on-interest-rate-plans"
+  ],
+  "source_names": [
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/16/altcoins-outpace-bitcoin-as-celestia-jumps-16-warsh-silent-on-interest-rate-plans",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/16/altcoins-outpace-bitcoin-as-celestia-jumps-16-warsh-silent-on-interest-rate-plans",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/10/16/altcoins-outpace-bitcoin-as-celestia-jumps-16-warsh-silent-on-interest-rate-plans",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Mid-cap move below thresholds",
+   "price rule: DEFAULT moved 16.0% in 24h (thresholds 12%/20%) -> IMPORTANT",
+   "final level IMPORTANT (changed from AI's NORMAL)"
+  ],
+  "market_significance": "Altcoin rotation",
+  "trigger": "CoinDesk markets",
+  "content_created": false,
+  "publication_status": "BLOCKED_UNVERIFIED",
+  "related_story_ids": [],
+  "updates": [
+   {
+    "at": "2026-10-17T10:10-04:00",
+    "headline": "Altcoins outpace bitcoin as Celestia's TIA jumps 16%",
+    "summary": "CoinDesk (Oct 16, 6:41 AM ET): TIA up 16% to about $0.68, a 2026 high, alongside a throughput benchmark and a proposed economic upgrade. Move happened Friday morning, over 24 hours ago.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   }
+  ],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261017_2f1556",
+  "headline": "Three Canadian Armed Forces members charged in kidnapping of crypto exchange owner",
+  "summary": "Canadian police charged three serving military members over the kidnapping of a crypto exchange owner.",
+  "detected_at": "2026-10-17T10:10-04:00",
+  "active_since": "2026-10-17T10:10-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "legal",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://decrypt.co/381148/three-canadian-armed-forces-members-charged-in-kidnapping-of-crypto-exchange-owner"
+  ],
+  "source_names": [
+   "Decrypt"
+  ],
+  "sources": [
+   {
+    "url": "https://decrypt.co/381148/three-canadian-armed-forces-members-charged-in-kidnapping-of-crypto-exchange-owner",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://decrypt.co/381148/three-canadian-armed-forces-members-charged-in-kidnapping-of-crypto-exchange-owner",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/381148/three-canadian-armed-forces-members-charged-in-kidnapping-of-crypto-exchange-owner",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Crime story, no market impact"
+  ],
+  "market_significance": "Wrench attacks on crypto owners",
+  "trigger": "Decrypt news",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
