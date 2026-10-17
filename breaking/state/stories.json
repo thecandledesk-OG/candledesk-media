@@ -18548,11 +18548,13 @@
   "emergency": false,
   "source_urls": [
    "https://www.theblock.co/news/web3/2026-10-16-google-quantum-computing-breakthrough-418787",
-   "https://decrypt.co/381102/google-cracked-quantum-computing-biggest-bottlenecks"
+   "https://decrypt.co/381102/google-cracked-quantum-computing-biggest-bottlenecks",
+   "https://www.coindesk.com/tech/2026/10/16/satoshi-era-bitcoin-faces-a-bigger-quantum-threat-after-google-s-new-willow-breakthrough"
   ],
   "source_names": [
    "The Block",
-   "Decrypt"
+   "Decrypt",
+   "CoinDesk"
   ],
   "sources": [
    {
@@ -18567,6 +18569,13 @@
     "name": "Decrypt",
     "kind": "secondary",
     "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/tech/2026/10/16/satoshi-era-bitcoin-faces-a-bigger-quantum-threat-after-google-s-new-willow-breakthrough",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
     "confirms": true
    }
   ],
@@ -18584,15 +18593,22 @@
     "kind": "secondary",
     "checked": false,
     "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/tech/2026/10/16/satoshi-era-bitcoin-faces-a-bigger-quantum-threat-after-google-s-new-willow-breakthrough",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
-  "verification_status": "UNVERIFIED",
+  "verification_status": "VERIFIED",
   "verification": {
-   "status": "UNVERIFIED",
-   "independent_sources": 1,
+   "status": "VERIFIED",
+   "independent_sources": 2,
    "has_primary": false,
-   "score": 0.4,
-   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "score": 0.8,
+   "reason": "2 independent credible sources confirm it (no primary source yet)",
    "sources_checked": [
     {
      "name": "The Block",
@@ -18607,6 +18623,13 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/tech/2026/10/16/satoshi-era-bitcoin-faces-a-bigger-quantum-threat-after-google-s-new-willow-breakthrough",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -18618,7 +18641,17 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-17T13:10-04:00",
+    "headline": "Google's Willow magic-state result raises quantum questions for Satoshi-era bitcoin",
+    "summary": "CoinDesk analysis: Google's Willow chip cut errors about 40-fold while producing magic states (published in Science), reaching about 99.99% fidelity but with only about 8% of attempts succeeding. CoinDesk says this does not make an attack on bitcoin 40 times cheaper, but early-era coins with exposed public keys face the most risk over time.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -19794,15 +19827,24 @@
   "metrics": {},
   "emergency": false,
   "source_urls": [
-   "https://www.investing.com/news/cryptocurrency-news/bitcoin-price-holds-above-81000-as-etf-outflows-weigh-on-sentiment-4955253"
+   "https://www.investing.com/news/cryptocurrency-news/bitcoin-price-holds-above-81000-as-etf-outflows-weigh-on-sentiment-4955253",
+   "https://www.coindesk.com/latest-crypto-news"
   ],
   "source_names": [
-   "Investing.com"
+   "Investing.com",
+   "CoinDesk prices"
   ],
   "sources": [
    {
     "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-price-holds-above-81000-as-etf-outflows-weigh-on-sentiment-4955253",
     "name": "Investing.com",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/latest-crypto-news",
+    "name": "CoinDesk prices",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -19815,15 +19857,22 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/latest-crypto-news",
+    "name": "CoinDesk prices",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "UNVERIFIED",
   "verification": {
    "status": "UNVERIFIED",
-   "independent_sources": 0,
+   "independent_sources": 1,
    "has_primary": false,
-   "score": 0.0,
-   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
    "sources_checked": [
     {
      "name": "Investing.com",
@@ -19831,6 +19880,13 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinDesk prices",
+     "url": "https://www.coindesk.com/latest-crypto-news",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -19850,6 +19906,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-17T13:10-04:00",
+    "headline": "Bitcoin steady near $81,500 on a quiet Saturday; ether, XRP and solana slightly lower",
+    "summary": "CoinDesk prices: BTC about $81,509 (down 0.7%), ETH about $2,427 (down 0.7%), XRP about $1.31 (down 2.1%), SOL about $104.83 (down 1.0%). No major market moves.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "UNVERIFIED"
    }
   ],
@@ -20039,10 +20104,16 @@
   },
   "emergency": false,
   "source_urls": [
-   "https://www.coindesk.com/markets/2026/10/16/altcoins-outpace-bitcoin-as-celestia-jumps-16-warsh-silent-on-interest-rate-plans"
+   "https://www.coindesk.com/markets/2026/10/16/altcoins-outpace-bitcoin-as-celestia-jumps-16-warsh-silent-on-interest-rate-plans",
+   "https://www.kucoin.com/price/tia",
+   "https://www.coingecko.com/en/coins/celestia",
+   "https://crypto.com/en-kr/price/celestia/usd"
   ],
   "source_names": [
-   "CoinDesk"
+   "CoinDesk",
+   "KuCoin price page",
+   "CoinGecko",
+   "Crypto.com price page"
   ],
   "sources": [
    {
@@ -20051,6 +20122,27 @@
     "kind": "secondary",
     "checked": false,
     "confirms": true
+   },
+   {
+    "url": "https://www.kucoin.com/price/tia",
+    "name": "KuCoin price page",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coingecko.com/en/coins/celestia",
+    "name": "CoinGecko",
+    "kind": "other",
+    "checked": true,
+    "confirms": false
+   },
+   {
+    "url": "https://crypto.com/en-kr/price/celestia/usd",
+    "name": "Crypto.com price page",
+    "kind": "other",
+    "checked": true,
+    "confirms": false
    }
   ],
   "gate_sources": [
@@ -20060,6 +20152,27 @@
     "kind": "secondary",
     "checked": false,
     "confirms": true
+   },
+   {
+    "url": "https://www.kucoin.com/price/tia",
+    "name": "KuCoin price page",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coingecko.com/en/coins/celestia",
+    "name": "CoinGecko",
+    "kind": "other",
+    "checked": true,
+    "confirms": false
+   },
+   {
+    "url": "https://crypto.com/en-kr/price/celestia/usd",
+    "name": "Crypto.com price page",
+    "kind": "other",
+    "checked": true,
+    "confirms": false
    }
   ],
   "verification_status": "UNVERIFIED",
@@ -20076,6 +20189,27 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "KuCoin price page",
+     "url": "https://www.kucoin.com/price/tia",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinGecko",
+     "url": "https://www.coingecko.com/en/coins/celestia",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Crypto.com price page",
+     "url": "https://crypto.com/en-kr/price/celestia/usd",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -20097,6 +20231,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-17T13:10-04:00",
+    "headline": "Altcoins outpace bitcoin as Celestia's TIA jumps 16%",
+    "summary": "Re-check: TIA price data conflicts. KuCoin shows about $0.754, up about 24% in 24 hours; CoinGecko shows about $0.665, down 4.6% in 24 hours (up about 37% on the week); Crypto.com shows about $0.661, down 6.5%. No credible outlet reports a TIA move or catalyst today.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 3,
     "verification": "UNVERIFIED"
    }
   ],
