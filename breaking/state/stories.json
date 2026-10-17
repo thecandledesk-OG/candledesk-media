@@ -19440,5 +19440,199 @@
   "updates": [],
   "posts": [],
   "needs_followup": false
+ },
+ {
+  "id": "st_20261017_c06537",
+  "headline": "U.S. crypto ETFs lose $610.7 million in a week as ether funds lead outflows",
+  "summary": "U.S. crypto ETFs saw $610.7 million in net outflows from Oct 12 to 16, per Farside data. Ether ETFs lost $320.1 million, led by BlackRock's ETHA, and bitcoin ETFs lost $228.4 million. Bitcoin is near $81,400, down about 0.7% in 24 hours, with ether also down about 0.7%.",
+  "detected_at": "2026-10-17T07:14-04:00",
+  "active_since": "2026-10-17T07:14-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "BTC",
+   "ETH",
+   "SOL",
+   "TOTAL_MARKET"
+  ],
+  "event_type": "etf",
+  "event_time": "2026-10-17T03:40-04:00",
+  "scheduled_event": false,
+  "metrics": {
+   "pct_move_24h": -0.7
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://crypto.news/crypto-etfs-weekly-outflows-ethereum-bitcoin/",
+   "https://www.coingabbar.com/en/crypto-news-october-17-bitcoin-eth-fell-us-inflation-fed-rates"
+  ],
+  "source_names": [
+   "crypto.news",
+   "CoinGabbar (prices)"
+  ],
+  "sources": [
+   {
+    "url": "https://crypto.news/crypto-etfs-weekly-outflows-ethereum-bitcoin/",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coingabbar.com/en/crypto-news-october-17-bitcoin-eth-fell-us-inflation-fed-rates",
+    "name": "CoinGabbar (prices)",
+    "kind": "other",
+    "checked": true,
+    "confirms": false
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://crypto.news/crypto-etfs-weekly-outflows-ethereum-bitcoin/",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coingabbar.com/en/crypto-news-october-17-bitcoin-eth-fell-us-inflation-fed-rates",
+    "name": "CoinGabbar (prices)",
+    "kind": "other",
+    "checked": true,
+    "confirms": false
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/crypto-etfs-weekly-outflows-ethereum-bitcoin/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinGabbar (prices)",
+     "url": "https://www.coingabbar.com/en/crypto-news-october-17-bitcoin-eth-fell-us-inflation-fed-rates",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Weekly fund flow data; routine."
+  ],
+  "market_significance": "Fourth straight week of heavy outflows shows cautious institutional demand.",
+  "trigger": "Weekly ETF flow recap",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261017_1729ad",
+  "headline": "Deutsche Bank says its bitcoin and ether custody launch is weeks away",
+  "summary": "Deutsche Bank's corporate banking co-head told Reuters on Oct 16 that the bank's bitcoin and ether custody service for institutional clients will launch within weeks, starting in Germany. It first announced the service on Sept 16. No exact date or first client was given.",
+  "detected_at": "2026-10-17T07:14-04:00",
+  "active_since": "2026-10-17T07:14-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "BTC",
+   "ETH"
+  ],
+  "event_type": "institutional",
+  "event_time": "2026-10-16T12:00-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://cryptoticker.io/en/bitcoin-price-deutsche-bank-custody-launch/",
+   "https://theblock.co/news/business/2026-09-16-deutsche-bank-plans-bitcoin-ether-custody-for-institutional-clients-in-europe-415251"
+  ],
+  "source_names": [
+   "CryptoTicker (citing Reuters)",
+   "The Block (Sept 16 announcement)"
+  ],
+  "sources": [
+   {
+    "url": "https://cryptoticker.io/en/bitcoin-price-deutsche-bank-custody-launch/",
+    "name": "CryptoTicker (citing Reuters)",
+    "kind": "other",
+    "checked": true,
+    "confirms": true,
+    "origin": "Reuters"
+   },
+   {
+    "url": "https://theblock.co/news/business/2026-09-16-deutsche-bank-plans-bitcoin-ether-custody-for-institutional-clients-in-europe-415251",
+    "name": "The Block (Sept 16 announcement)",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://cryptoticker.io/en/bitcoin-price-deutsche-bank-custody-launch/",
+    "name": "CryptoTicker (citing Reuters)",
+    "kind": "other",
+    "checked": true,
+    "confirms": true,
+    "origin": "Reuters"
+   },
+   {
+    "url": "https://theblock.co/news/business/2026-09-16-deutsche-bank-plans-bitcoin-ether-custody-for-institutional-clients-in-europe-415251",
+    "name": "The Block (Sept 16 announcement)",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CryptoTicker (citing Reuters)",
+     "url": "https://cryptoticker.io/en/bitcoin-price-deutsche-bank-custody-launch/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "The Block (Sept 16 announcement)",
+     "url": "https://theblock.co/news/business/2026-09-16-deutsche-bank-plans-bitcoin-ether-custody-for-institutional-clients-in-europe-415251",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Timing update on an already-announced service; launch has not happened."
+  ],
+  "market_significance": "A major European bank moving into crypto custody.",
+  "trigger": "Reuters interview",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
  }
 ]
