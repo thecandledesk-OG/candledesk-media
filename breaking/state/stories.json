@@ -13756,6 +13756,15 @@
     "level": "NORMAL",
     "sources_added": 1,
     "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-17T16:09-04:00",
+    "headline": "Crypto market quiet: bitcoin near $81,400, XRP down about 2.7% in 24 hours",
+    "summary": "Bitcoin trades near $81,400, down about 0.6% in 24 hours; ether near $2,425, down 0.8%; XRP near $1.30, down 2.7%; solana near $103, down 0.4%.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "VERIFIED"
    }
   ],
   "posts": [],
@@ -15564,9 +15573,11 @@
   "metrics": {},
   "emergency": false,
   "source_urls": [
-   "https://www.theblock.co/news/regulation/2026-10-14-hex-pulsechain-founder-richard-heart-detained-istanbul-turkish-media-reports-418574"
+   "https://www.theblock.co/news/regulation/2026-10-14-hex-pulsechain-founder-richard-heart-detained-istanbul-turkish-media-reports-418574",
+   "https://www.theblock.co/news/regulation/2026-10-17-turkey-confirms-hex-founder-richard-hearts-arrest-says-police-seized-7-15-million-and-six-cold-wallets-418852"
   ],
   "source_names": [
+   "The Block",
    "The Block"
   ],
   "sources": [
@@ -15576,11 +15587,25 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-10-17-turkey-confirms-hex-founder-richard-hearts-arrest-says-police-seized-7-15-million-and-six-cold-wallets-418852",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "gate_sources": [
    {
     "url": "https://www.theblock.co/news/regulation/2026-10-14-hex-pulsechain-founder-richard-heart-detained-istanbul-turkish-media-reports-418574",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-10-17-turkey-confirms-hex-founder-richard-hearts-arrest-says-police-seized-7-15-million-and-six-cold-wallets-418852",
     "name": "The Block",
     "kind": "secondary",
     "checked": true,
@@ -15601,6 +15626,13 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-10-17-turkey-confirms-hex-founder-richard-hearts-arrest-says-police-seized-7-15-million-and-six-cold-wallets-418852",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -15612,7 +15644,17 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-17T16:09-04:00",
+    "headline": "Turkey confirms HEX founder Richard Heart's arrest, says police seized $7.15 million and six cold wallets",
+    "summary": "Turkish Justice Minister Akin Gurlek confirmed Richard Heart's arrest in Istanbul, linking it to an Interpol Red Notice issued for Finland. Police seized $7.15 million in cash, six cold wallets, firearms and luxury goods. No extradition request confirmed.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -17206,6 +17248,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 2,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-17T16:09-04:00",
+    "headline": "Scammer loses almost $5 million in bitcoin to tampered Ledger wallets, Chainalysis says",
+    "summary": "A scammer lost about $4.8 million in bitcoin after using Ledger devices tampered with spy chips by a reseller, according to Chainalysis, as reported by CoinDesk and Decrypt.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
     "verification": "UNVERIFIED"
    }
   ],
@@ -20309,6 +20360,99 @@
   ],
   "market_significance": "Wrench attacks on crypto owners",
   "trigger": "Decrypt news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261017_cb4e08",
+  "headline": "CoreWeave, Broadcom, Verizon among nine companies objecting to tokenized trading of their shares on OKXICE",
+  "summary": "Nine companies including CoreWeave, Broadcom, Verizon and UnitedHealth filed objections that bar the OKX and ICE joint venture OKXICE from offering tokenized versions of their shares under the SEC innovation exemption.",
+  "detected_at": "2026-10-17T16:09-04:00",
+  "active_since": "2026-10-17T16:09-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.85,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "exchange",
+  "event_time": "2026-10-17T15:56-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/markets/2026-10-17-coreweave-broadcom-verizon-among-nine-companies-objecting-to-tokenized-trading-of-their-shares-on-okxice-418859",
+   "https://www.okx.com/cdn/assets/files/2610/F085D8D65135AB9C.pdf"
+  ],
+  "source_names": [
+   "The Block",
+   "OKXICE notice"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-10-17-coreweave-broadcom-verizon-among-nine-companies-objecting-to-tokenized-trading-of-their-shares-on-okxice-418859",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.okx.com/cdn/assets/files/2610/F085D8D65135AB9C.pdf",
+    "name": "OKXICE notice",
+    "kind": "primary",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-10-17-coreweave-broadcom-verizon-among-nine-companies-objecting-to-tokenized-trading-of-their-shares-on-okxice-418859",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.okx.com/cdn/assets/files/2610/F085D8D65135AB9C.pdf",
+    "name": "OKXICE notice",
+    "kind": "primary",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/markets/2026-10-17-coreweave-broadcom-verizon-among-nine-companies-objecting-to-tokenized-trading-of-their-shares-on-okxice-418859",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "OKXICE notice",
+     "url": "https://www.okx.com/cdn/assets/files/2610/F085D8D65135AB9C.pdf",
+     "category": "primary",
+     "counts": false,
+     "note": "primary (claimed official source; domain not on the known list); not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Early test of the SEC tokenized-stock exemption's issuer objection rule"
+  ],
+  "market_significance": "Shows public companies can block third-party tokenization venue by venue",
+  "trigger": "OKXICE public notice reported by The Block",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
