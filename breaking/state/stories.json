@@ -15574,11 +15574,13 @@
   "emergency": false,
   "source_urls": [
    "https://www.theblock.co/news/regulation/2026-10-14-hex-pulsechain-founder-richard-heart-detained-istanbul-turkish-media-reports-418574",
-   "https://www.theblock.co/news/regulation/2026-10-17-turkey-confirms-hex-founder-richard-hearts-arrest-says-police-seized-7-15-million-and-six-cold-wallets-418852"
+   "https://www.theblock.co/news/regulation/2026-10-17-turkey-confirms-hex-founder-richard-hearts-arrest-says-police-seized-7-15-million-and-six-cold-wallets-418852",
+   "https://x.com/abakingurlek/status/2111340326115831858"
   ],
   "source_names": [
    "The Block",
-   "The Block"
+   "The Block",
+   "Akin Gurlek on X"
   ],
   "sources": [
    {
@@ -15593,6 +15595,13 @@
     "name": "The Block",
     "kind": "secondary",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://x.com/abakingurlek/status/2111340326115831858",
+    "name": "Akin Gurlek on X",
+    "kind": "social",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -15609,6 +15618,13 @@
     "name": "The Block",
     "kind": "secondary",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://x.com/abakingurlek/status/2111340326115831858",
+    "name": "Akin Gurlek on X",
+    "kind": "social",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -15633,6 +15649,13 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "Akin Gurlek on X",
+     "url": "https://x.com/abakingurlek/status/2111340326115831858",
+     "category": "social",
+     "counts": false,
+     "note": "social/community post — can trigger investigation, never verifies"
     }
    ]
   },
@@ -15649,6 +15672,15 @@
     "at": "2026-10-17T16:09-04:00",
     "headline": "Turkey confirms HEX founder Richard Heart's arrest, says police seized $7.15 million and six cold wallets",
     "summary": "Turkish Justice Minister Akin Gurlek confirmed Richard Heart's arrest in Istanbul, linking it to an Interpol Red Notice issued for Finland. Police seized $7.15 million in cash, six cold wallets, firearms and luxury goods. No extradition request confirmed.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-17T19:09-04:00",
+    "headline": "Turkey's justice minister confirms Hex founder Richard Heart's arrest; police seized $7.15 million in cash and six cold wallets",
+    "summary": "Turkish Justice Minister Akin Gurlek confirmed on Oct 17 that Hex and PulseChain founder Richard Heart (Richard James Schueler) was detained in Istanbul on Oct 14. Searches of 15 addresses turned up $7.15 million in cash, six cold wallets and firearms. Heart has had an Interpol Red Notice since December 2024 on Finland's behalf; no Turkish charges described and no extradition request confirmed.",
     "new_development": true,
     "level": "NORMAL",
     "sources_added": 1,
@@ -19879,11 +19911,13 @@
   "emergency": false,
   "source_urls": [
    "https://www.investing.com/news/cryptocurrency-news/bitcoin-price-holds-above-81000-as-etf-outflows-weigh-on-sentiment-4955253",
-   "https://www.coindesk.com/latest-crypto-news"
+   "https://www.coindesk.com/latest-crypto-news",
+   "https://www.coindesk.com/price/bitcoin"
   ],
   "source_names": [
    "Investing.com",
-   "CoinDesk prices"
+   "CoinDesk prices",
+   "CoinDesk"
   ],
   "sources": [
    {
@@ -19896,6 +19930,13 @@
    {
     "url": "https://www.coindesk.com/latest-crypto-news",
     "name": "CoinDesk prices",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/price/bitcoin",
+    "name": "CoinDesk",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -19912,6 +19953,13 @@
    {
     "url": "https://www.coindesk.com/latest-crypto-news",
     "name": "CoinDesk prices",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/price/bitcoin",
+    "name": "CoinDesk",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -19935,6 +19983,13 @@
     {
      "name": "CoinDesk prices",
      "url": "https://www.coindesk.com/latest-crypto-news",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/price/bitcoin",
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
@@ -19963,6 +20018,15 @@
     "at": "2026-10-17T13:10-04:00",
     "headline": "Bitcoin steady near $81,500 on a quiet Saturday; ether, XRP and solana slightly lower",
     "summary": "CoinDesk prices: BTC about $81,509 (down 0.7%), ETH about $2,427 (down 0.7%), XRP about $1.31 (down 2.1%), SOL about $104.83 (down 1.0%). No major market moves.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-17T19:09-04:00",
+    "headline": "Crypto majors drift lower on a quiet Saturday: bitcoin near $81,400, XRP down about 2.7%",
+    "summary": "BTC about $81,410 (-0.6% 24h), ETH about $2,425 (-0.8%), XRP about $1.30 (-2.7%), SOL about $103 (-0.4%) per CoinDesk price pages.",
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 1,
@@ -20272,7 +20336,7 @@
   "market_significance": "Altcoin rotation",
   "trigger": "CoinDesk markets",
   "content_created": false,
-  "publication_status": "BLOCKED_UNVERIFIED",
+  "publication_status": "HUMAN_REVIEW",
   "related_story_ids": [],
   "updates": [
    {
