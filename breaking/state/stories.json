@@ -19174,9 +19174,13 @@
   },
   "emergency": false,
   "source_urls": [
-   "https://www.coindesk.com/markets/2026/10/16/live-updates-bitcoin-back-above-usd82-000-zec-jumps-11-as-etf-outflows-continue"
+   "https://www.coindesk.com/markets/2026/10/16/live-updates-bitcoin-back-above-usd82-000-zec-jumps-11-as-etf-outflows-continue",
+   "https://www.riotimesonline.com/crypto-markets-bitcoin-majors-friday-october-16-2026",
+   "https://www.coindesk.com/price/bitcoin"
   ],
   "source_names": [
+   "CoinDesk",
+   "Rio Times",
    "CoinDesk"
   ],
   "sources": [
@@ -19186,11 +19190,39 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.riotimesonline.com/crypto-markets-bitcoin-majors-friday-october-16-2026",
+    "name": "Rio Times",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/price/bitcoin",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "gate_sources": [
    {
     "url": "https://www.coindesk.com/markets/2026/10/16/live-updates-bitcoin-back-above-usd82-000-zec-jumps-11-as-etf-outflows-continue",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.riotimesonline.com/crypto-markets-bitcoin-majors-friday-october-16-2026",
+    "name": "Rio Times",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/price/bitcoin",
     "name": "CoinDesk",
     "kind": "secondary",
     "checked": true,
@@ -19208,6 +19240,20 @@
     {
      "name": "CoinDesk",
      "url": "https://www.coindesk.com/markets/2026/10/16/live-updates-bitcoin-back-above-usd82-000-zec-jumps-11-as-etf-outflows-continue",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Rio Times",
+     "url": "https://www.riotimesonline.com/crypto-markets-bitcoin-majors-friday-october-16-2026",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/price/bitcoin",
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
@@ -19239,6 +19285,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-16T22:10-04:00",
+    "headline": "Bitcoin ends the week roughly flat near $82,000 while Coinbase and Strategy shares fall harder",
+    "summary": "Bitcoin closed Friday near $82,000, down about 0.6% on the week; ether was flat near $2,440. Coinbase fell about 5.8% and Strategy about 9.6% as the Nasdaq dropped 2.1%.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
     "verification": "UNVERIFIED"
    }
   ],
@@ -19309,6 +19364,76 @@
   ],
   "market_significance": "Adds stablecoin card rails for Marqeta clients",
   "trigger": "Marqeta press release reported by The Block",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261016_d9b66c",
+  "headline": "TD Cowen raises its Strive price target 27% after the firm's bitcoin buying",
+  "summary": "TD Cowen raised its price target on bitcoin treasury company Strive by 27%, citing its recent bitcoin purchases.",
+  "detected_at": "2026-10-16T22:10-04:00",
+  "active_since": "2026-10-16T22:10-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "institutional",
+  "event_time": "2026-10-16T16:22-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/markets/2026-10-16-strives-bitcoin-buying-spree-earns-27-price-target-hike-td-cowen-418839"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-10-16-strives-bitcoin-buying-spree-earns-27-price-target-hike-td-cowen-418839",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-10-16-strives-bitcoin-buying-spree-earns-27-price-target-hike-td-cowen-418839",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/markets/2026-10-16-strives-bitcoin-buying-spree-earns-27-price-target-hike-td-cowen-418839",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Analyst note on a bitcoin treasury stock; routine."
+  ],
+  "market_significance": "low",
+  "trigger": "The Block latest news",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
