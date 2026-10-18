@@ -13540,7 +13540,8 @@
    "https://www.theblock.co/news/markets/2026-10-14-bitcoin-falls-below-82000-core-inflation-fed-rate-hike-418582",
    "https://www.coindesk.com/price/bitcoin",
    "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-october-14-2026-crypto-prices-sliding-after-higher-inflation-report-133306768.html",
-   "https://cryptoticker.io/en/crypto-selloff-liquidations-rates/"
+   "https://cryptoticker.io/en/crypto-selloff-liquidations-rates/",
+   "https://www.coindesk.com/"
   ],
   "source_names": [
    "CoinDesk",
@@ -13549,7 +13550,8 @@
    "The Block",
    "CoinDesk price",
    "Yahoo Finance",
-   "CryptoTicker"
+   "CryptoTicker",
+   "CoinDesk"
   ],
   "sources": [
    {
@@ -13598,6 +13600,13 @@
     "url": "https://cryptoticker.io/en/crypto-selloff-liquidations-rates/",
     "name": "CryptoTicker",
     "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/",
+    "name": "CoinDesk",
+    "kind": "secondary",
     "checked": true,
     "confirms": true
    }
@@ -13649,6 +13658,13 @@
     "url": "https://cryptoticker.io/en/crypto-selloff-liquidations-rates/",
     "name": "CryptoTicker",
     "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/",
+    "name": "CoinDesk",
+    "kind": "secondary",
     "checked": true,
     "confirms": true
    }
@@ -13709,6 +13725,13 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -13764,6 +13787,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-18T07:10-04:00",
+    "headline": "Bitcoin steady near $81,600 over the weekend; ether, XRP and solana dip about 1%",
+    "summary": "Bitcoin trades around $81,630, roughly flat, while ether is near $2,408 (down about 1%), XRP near $1.30 (down about 0.9%) and solana near $103.50 (down about 1.4%).",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "VERIFIED"
    }
   ],
@@ -15575,12 +15607,14 @@
   "source_urls": [
    "https://www.theblock.co/news/regulation/2026-10-14-hex-pulsechain-founder-richard-heart-detained-istanbul-turkish-media-reports-418574",
    "https://www.theblock.co/news/regulation/2026-10-17-turkey-confirms-hex-founder-richard-hearts-arrest-says-police-seized-7-15-million-and-six-cold-wallets-418852",
-   "https://x.com/abakingurlek/status/2111340326115831858"
+   "https://x.com/abakingurlek/status/2111340326115831858",
+   "https://www.theblock.co/latest-crypto-news"
   ],
   "source_names": [
    "The Block",
    "The Block",
-   "Akin Gurlek on X"
+   "Akin Gurlek on X",
+   "The Block"
   ],
   "sources": [
    {
@@ -15602,6 +15636,13 @@
     "name": "Akin Gurlek on X",
     "kind": "social",
     "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/latest-crypto-news",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
     "confirms": true
    }
   ],
@@ -15625,6 +15666,13 @@
     "name": "Akin Gurlek on X",
     "kind": "social",
     "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/latest-crypto-news",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
     "confirms": true
    }
   ],
@@ -15656,6 +15704,13 @@
      "category": "social",
      "counts": false,
      "note": "social/community post — can trigger investigation, never verifies"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/latest-crypto-news",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -15681,6 +15736,15 @@
     "at": "2026-10-17T19:09-04:00",
     "headline": "Turkey's justice minister confirms Hex founder Richard Heart's arrest; police seized $7.15 million in cash and six cold wallets",
     "summary": "Turkish Justice Minister Akin Gurlek confirmed on Oct 17 that Hex and PulseChain founder Richard Heart (Richard James Schueler) was detained in Istanbul on Oct 14. Searches of 15 addresses turned up $7.15 million in cash, six cold wallets and firearms. Heart has had an Interpol Red Notice since December 2024 on Finland's behalf; no Turkish charges described and no extradition request confirmed.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-18T07:10-04:00",
+    "headline": "Turkey confirms arrest of HEX founder Richard Heart, says police seized about $7.15 million and six cold wallets",
+    "summary": "Turkish authorities confirmed the arrest of HEX and PulseChain founder Richard Heart, saying police seized about $7.15 million and six cold wallets.",
     "new_development": true,
     "level": "NORMAL",
     "sources_added": 1,
@@ -16915,7 +16979,17 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-18T07:10-04:00",
+    "headline": "Crypto super PAC Fairshake's spending against Sherrod Brown tops $40 million",
+    "summary": "A filing signed October 15 shows Fairshake has now spent more than $40 million to defeat Ohio Senate candidate Sherrod Brown.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -19313,15 +19387,24 @@
   "metrics": {},
   "emergency": false,
   "source_urls": [
-   "https://www.theblock.co/news/business/2026-10-16-circle-usdc-revenue-split-partners-418826"
+   "https://www.theblock.co/news/business/2026-10-16-circle-usdc-revenue-split-partners-418826",
+   "https://www.coindesk.com/business/2026/10/17/circle-defends-usdc-economics-as-stablecoin-rivals-court-its-partners-with-bigger-cut"
   ],
   "source_names": [
-   "The Block"
+   "The Block",
+   "CoinDesk"
   ],
   "sources": [
    {
     "url": "https://www.theblock.co/news/business/2026-10-16-circle-usdc-revenue-split-partners-418826",
     "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/business/2026/10/17/circle-defends-usdc-economics-as-stablecoin-rivals-court-its-partners-with-bigger-cut",
+    "name": "CoinDesk",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -19334,19 +19417,33 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/business/2026/10/17/circle-defends-usdc-economics-as-stablecoin-rivals-court-its-partners-with-bigger-cut",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
-  "verification_status": "UNVERIFIED",
+  "verification_status": "VERIFIED",
   "verification": {
-   "status": "UNVERIFIED",
-   "independent_sources": 1,
+   "status": "VERIFIED",
+   "independent_sources": 2,
    "has_primary": false,
-   "score": 0.4,
-   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "score": 0.8,
+   "reason": "2 independent credible sources confirm it (no primary source yet)",
    "sources_checked": [
     {
      "name": "The Block",
      "url": "https://www.theblock.co/news/business/2026-10-16-circle-usdc-revenue-split-partners-418826",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/business/2026/10/17/circle-defends-usdc-economics-as-stablecoin-rivals-court-its-partners-with-bigger-cut",
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
@@ -19361,7 +19458,17 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-18T07:10-04:00",
+    "headline": "Circle defends USDC economics as rival stablecoin networks court its partners with a bigger cut",
+    "summary": "Circle's chief commercial officer says the company kept about 7 cents of net profit per dollar of revenue in the first half of 2026, with $819 million of roughly $1.4 billion going to distribution and transaction costs, as Coinbase also backs the rival Open USD network.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -20587,6 +20694,77 @@
   ],
   "market_significance": "Shows Wall Street banks positioning around tokenization.",
   "trigger": "CoinDesk latest-news page, Oct 17",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261018_88ac8e",
+  "headline": "Chip-stock perpetual bets lose about $52 million in 10 minutes while Wall Street is closed",
+  "summary": "Around 21:22 UTC Saturday, roughly $51.6 million in leveraged chip-stock and semiconductor-fund contracts were liquidated on Binance and Hyperliquid-based Trade XYZ within 10 minutes, about $38 million of it from long bets. With U.S. stock markets shut, prices were set only by crypto traders.",
+  "detected_at": "2026-10-18T07:10-04:00",
+  "active_since": "2026-10-18T07:10-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "HYPE",
+   "TOTAL_MARKET"
+  ],
+  "event_type": "market_move",
+  "event_time": "2026-10-17T17:22-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/markets/2026/10/18/chip-stock-bets-lost-usd52-million-in-10-minutes-with-wall-street-shut"
+  ],
+  "source_names": [
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/18/chip-stock-bets-lost-usd52-million-in-10-minutes-with-wall-street-shut",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/18/chip-stock-bets-lost-usd52-million-in-10-minutes-with-wall-street-shut",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/10/18/chip-stock-bets-lost-usd52-million-in-10-minutes-with-wall-street-shut",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Liquidation event on tokenized-stock perps; no hack, no major-asset price move."
+  ],
+  "market_significance": "Shows weekend pricing risk of stock-tracking crypto derivatives.",
+  "trigger": "CoinDesk latest news",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
