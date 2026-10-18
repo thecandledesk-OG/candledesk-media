@@ -16250,12 +16250,14 @@
   "source_urls": [
    "https://www.theblock.co/news/regulation/2026-10-14-white-house-crypto-adviser-patrick-witt-departs-418611",
    "https://www.yahoo.com/news/politics/articles/white-house-crypto-council-loses-210000780.html",
-   "https://coingape.com/patrick-witt-exits-white-house-crypto-council-as-executive-director/"
+   "https://coingape.com/patrick-witt-exits-white-house-crypto-council-as-executive-director/",
+   "https://www.coindesk.com/policy/2026/10/18/the-white-house-s-crypto-chief-departs-state-of-crypto"
   ],
   "source_names": [
    "The Block",
    "Yahoo News",
-   "CoinGape"
+   "CoinGape",
+   "CoinDesk"
   ],
   "sources": [
    {
@@ -16278,6 +16280,13 @@
     "kind": "other",
     "checked": false,
     "confirms": false
+   },
+   {
+    "url": "https://www.coindesk.com/policy/2026/10/18/the-white-house-s-crypto-chief-departs-state-of-crypto",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -16301,15 +16310,22 @@
     "kind": "other",
     "checked": false,
     "confirms": false
+   },
+   {
+    "url": "https://www.coindesk.com/policy/2026/10/18/the-white-house-s-crypto-chief-departs-state-of-crypto",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
-  "verification_status": "UNVERIFIED",
+  "verification_status": "VERIFIED",
   "verification": {
-   "status": "UNVERIFIED",
-   "independent_sources": 1,
+   "status": "VERIFIED",
+   "independent_sources": 2,
    "has_primary": false,
-   "score": 0.4,
-   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "score": 0.8,
+   "reason": "2 independent credible sources confirm it (no primary source yet)",
    "sources_checked": [
     {
      "name": "The Block",
@@ -16331,6 +16347,13 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/policy/2026/10/18/the-white-house-s-crypto-chief-departs-state-of-crypto",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -16342,7 +16365,17 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-18T16:14-04:00",
+    "headline": "White House has no named crypto chief after Patrick Witt's exit; official says Clarity Act stays a focus",
+    "summary": "CoinDesk's State of Crypto says the White House has no publicly named crypto head after Witt's departure; an official said crypto and the Clarity Act remain a priority. No new facts on the departure itself.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -16658,7 +16691,9 @@
    "https://bloomberg.com/news/articles/2026-10-15/bitcoin-briefly-dips-below-80-000-as-volatility-roils-markets",
    "https://www.kucoin.com/news/flash/bitcoin-falls-below-80-000-amid-surprising-us-ppi-data",
    "https://www.tradingkey.com/analysis/economic/indicators/262218745-us-september-ppi-inflation-surges-fed-challenge-tradingkey",
-   "https://coindesk.com/markets/2026/10/18/wall-street-freaked-out-friday-vix-and-bitcoin-say-it-may-not-last"
+   "https://coindesk.com/markets/2026/10/18/wall-street-freaked-out-friday-vix-and-bitcoin-say-it-may-not-last",
+   "https://www.coindesk.com/markets/2026/10/18/wall-street-freaked-out-friday-vix-and-bitcoin-say-it-may-not-last",
+   "https://www.investing.com/crypto"
   ],
   "source_names": [
    "DailyCoin",
@@ -16672,7 +16707,9 @@
    "Bloomberg",
    "KuCoin News",
    "TradingKey",
-   "CoinDesk"
+   "CoinDesk",
+   "CoinDesk",
+   "Investing.com"
   ],
   "sources": [
    {
@@ -16757,6 +16794,20 @@
     "url": "https://coindesk.com/markets/2026/10/18/wall-street-freaked-out-friday-vix-and-bitcoin-say-it-may-not-last",
     "name": "CoinDesk",
     "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/18/wall-street-freaked-out-friday-vix-and-bitcoin-say-it-may-not-last",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.investing.com/crypto",
+    "name": "Investing.com",
+    "kind": "other",
     "checked": true,
     "confirms": true
    }
@@ -16844,6 +16895,20 @@
     "url": "https://coindesk.com/markets/2026/10/18/wall-street-freaked-out-friday-vix-and-bitcoin-say-it-may-not-last",
     "name": "CoinDesk",
     "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/18/wall-street-freaked-out-friday-vix-and-bitcoin-say-it-may-not-last",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.investing.com/crypto",
+    "name": "Investing.com",
+    "kind": "other",
     "checked": true,
     "confirms": true
    }
@@ -16939,6 +17004,20 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/10/18/wall-street-freaked-out-friday-vix-and-bitcoin-say-it-may-not-last",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Investing.com",
+     "url": "https://www.investing.com/crypto",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -17003,6 +17082,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-18T16:14-04:00",
+    "headline": "Bitcoin holds near $82,000 on a quiet Sunday as VIX spike tests weekend nerves",
+    "summary": "Bitcoin traded around $81,600-$82,000, up about 0.2-0.6% in 24 hours, staying above $80,000 through the weekend. Ether (-0.4%), XRP (-0.3%) and SOL (-0.4%) were little changed. CoinDesk notes Friday's 21.5% VIX jump has historically faded the next Monday in 25 of 32 cases; bitcoin implied volatility (BVIV) held just under 40%.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
     "verification": "VERIFIED"
    }
   ],
