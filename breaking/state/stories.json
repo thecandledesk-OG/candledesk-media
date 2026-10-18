@@ -20523,5 +20523,75 @@
   "updates": [],
   "posts": [],
   "needs_followup": false
+ },
+ {
+  "id": "st_20261017_f1c52f",
+  "headline": "Goldman, Wells Fargo and Morgan Stanley frame tokenization as a growth play, not a threat",
+  "summary": "Executives at Goldman Sachs, Wells Fargo and Morgan Stanley say tokenized assets are a business opportunity for big banks rather than a threat, according to CoinDesk.",
+  "detected_at": "2026-10-17T22:23-04:00",
+  "active_since": "2026-10-17T22:23-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "institutional",
+  "event_time": "2026-10-17T15:00-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/business/2026/10/17/goldman-wells-fargo-morgan-stanley-see-tokenization-as-a-growth-play-not-a-threat"
+  ],
+  "source_names": [
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/business/2026/10/17/goldman-wells-fargo-morgan-stanley-see-tokenization-as-a-growth-play-not-a-threat",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/business/2026/10/17/goldman-wells-fargo-morgan-stanley-see-tokenization-as-a-growth-play-not-a-threat",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/business/2026/10/17/goldman-wells-fargo-morgan-stanley-see-tokenization-as-a-growth-play-not-a-threat",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Commentary from bank executives; no new product or decision."
+  ],
+  "market_significance": "Shows Wall Street banks positioning around tokenization.",
+  "trigger": "CoinDesk latest-news page, Oct 17",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
  }
 ]
