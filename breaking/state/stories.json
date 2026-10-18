@@ -15608,13 +15608,17 @@
    "https://www.theblock.co/news/regulation/2026-10-14-hex-pulsechain-founder-richard-heart-detained-istanbul-turkish-media-reports-418574",
    "https://www.theblock.co/news/regulation/2026-10-17-turkey-confirms-hex-founder-richard-hearts-arrest-says-police-seized-7-15-million-and-six-cold-wallets-418852",
    "https://x.com/abakingurlek/status/2111340326115831858",
-   "https://www.theblock.co/latest-crypto-news"
+   "https://www.theblock.co/latest-crypto-news",
+   "https://www.theblock.co/",
+   "https://kucoin.com/news/flash/richard-heart-arrested-in-istanbul-turkey-seizes-7-15m-and-six-cold-wallets"
   ],
   "source_names": [
    "The Block",
    "The Block",
    "Akin Gurlek on X",
-   "The Block"
+   "The Block",
+   "The Block",
+   "KuCoin / Blockchainreporter"
   ],
   "sources": [
    {
@@ -15641,6 +15645,20 @@
    {
     "url": "https://www.theblock.co/latest-crypto-news",
     "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://kucoin.com/news/flash/richard-heart-arrested-in-istanbul-turkey-seizes-7-15m-and-six-cold-wallets",
+    "name": "KuCoin / Blockchainreporter",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -15671,6 +15689,20 @@
    {
     "url": "https://www.theblock.co/latest-crypto-news",
     "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://kucoin.com/news/flash/richard-heart-arrested-in-istanbul-turkey-seizes-7-15m-and-six-cold-wallets",
+    "name": "KuCoin / Blockchainreporter",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -15711,6 +15743,20 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "KuCoin / Blockchainreporter",
+     "url": "https://kucoin.com/news/flash/richard-heart-arrested-in-istanbul-turkey-seizes-7-15m-and-six-cold-wallets",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -15720,7 +15766,7 @@
   "market_significance": "Founder legal risk for PulseChain ecosystem",
   "trigger": "The Block report 11:53 AM ET",
   "content_created": false,
-  "publication_status": "QUEUED_FOR_DAILY",
+  "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
   "updates": [
    {
@@ -15748,6 +15794,15 @@
     "new_development": true,
     "level": "NORMAL",
     "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-18T10:10-04:00",
+    "headline": "HEX founder Richard Heart arrested in Istanbul; police seize $7.15 million and six cold wallets",
+    "summary": "Hex founder Richard Heart was arrested in Istanbul. Police seized six cold wallets.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
     "verification": "UNVERIFIED"
    }
   ],
@@ -16908,6 +16963,15 @@
     "level": "NORMAL",
     "sources_added": 1,
     "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-18T10:11-04:00",
+    "headline": "Bitcoin edges up 0.6% to about $81,900 on a quiet Sunday",
+    "summary": "BTC trades near $81,909, up about 0.6% in 24 hours; ETH, XRP and SOL little changed.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "VERIFIED"
    }
   ],
   "posts": [],
@@ -16984,6 +17048,15 @@
     "at": "2026-10-18T07:10-04:00",
     "headline": "Crypto super PAC Fairshake's spending against Sherrod Brown tops $40 million",
     "summary": "A filing signed October 15 shows Fairshake has now spent more than $40 million to defeat Ohio Senate candidate Sherrod Brown.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-18T10:11-04:00",
+    "headline": "Crypto super PAC Fairshake adds millions more to ads against Sherrod Brown, total spend tops $40 million",
+    "summary": "Fairshake's Republican-focused affiliate has added new ad spending against the former Senate Banking chair, pushing totals past $40 million.",
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
@@ -18706,12 +18779,16 @@
   "source_urls": [
    "https://www.theblock.co/news/web3/2026-10-16-google-quantum-computing-breakthrough-418787",
    "https://decrypt.co/381102/google-cracked-quantum-computing-biggest-bottlenecks",
-   "https://www.coindesk.com/tech/2026/10/16/satoshi-era-bitcoin-faces-a-bigger-quantum-threat-after-google-s-new-willow-breakthrough"
+   "https://www.coindesk.com/tech/2026/10/16/satoshi-era-bitcoin-faces-a-bigger-quantum-threat-after-google-s-new-willow-breakthrough",
+   "https://www.coindesk.com/latest-crypto-news",
+   "https://decrypt.co/news"
   ],
   "source_names": [
    "The Block",
    "Decrypt",
-   "CoinDesk"
+   "CoinDesk",
+   "CoinDesk",
+   "Decrypt"
   ],
   "sources": [
    {
@@ -18731,6 +18808,20 @@
    {
     "url": "https://www.coindesk.com/tech/2026/10/16/satoshi-era-bitcoin-faces-a-bigger-quantum-threat-after-google-s-new-willow-breakthrough",
     "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/latest-crypto-news",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/news",
+    "name": "Decrypt",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -18757,15 +18848,29 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/latest-crypto-news",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/news",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "VERIFIED",
   "verification": {
    "status": "VERIFIED",
-   "independent_sources": 2,
+   "independent_sources": 3,
    "has_primary": false,
    "score": 0.8,
-   "reason": "2 independent credible sources confirm it (no primary source yet)",
+   "reason": "3 independent credible sources confirm it (no primary source yet)",
    "sources_checked": [
     {
      "name": "The Block",
@@ -18784,6 +18889,20 @@
     {
      "name": "CoinDesk",
      "url": "https://www.coindesk.com/tech/2026/10/16/satoshi-era-bitcoin-faces-a-bigger-quantum-threat-after-google-s-new-willow-breakthrough",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/latest-crypto-news",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/news",
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
@@ -18806,6 +18925,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-18T10:11-04:00",
+    "headline": "Crypto firms form a Quantum Alliance as about 6 million bitcoin sit in quantum-exposed addresses",
+    "summary": "Nine crypto firms formed a group to prepare for quantum attacks but disagree on timing and whether vulnerable coins should be frozen.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
     "verification": "VERIFIED"
    }
   ],
@@ -20019,12 +20147,14 @@
   "source_urls": [
    "https://www.investing.com/news/cryptocurrency-news/bitcoin-price-holds-above-81000-as-etf-outflows-weigh-on-sentiment-4955253",
    "https://www.coindesk.com/latest-crypto-news",
-   "https://www.coindesk.com/price/bitcoin"
+   "https://www.coindesk.com/price/bitcoin",
+   "https://www.ittimes.com/news/articleView.html?idxno=87482"
   ],
   "source_names": [
    "Investing.com",
    "CoinDesk prices",
-   "CoinDesk"
+   "CoinDesk",
+   "IT Times"
   ],
   "sources": [
    {
@@ -20044,6 +20174,13 @@
    {
     "url": "https://www.coindesk.com/price/bitcoin",
     "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.ittimes.com/news/articleView.html?idxno=87482",
+    "name": "IT Times",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -20067,6 +20204,13 @@
    {
     "url": "https://www.coindesk.com/price/bitcoin",
     "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.ittimes.com/news/articleView.html?idxno=87482",
+    "name": "IT Times",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -20100,6 +20244,13 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "IT Times",
+     "url": "https://www.ittimes.com/news/articleView.html?idxno=87482",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -20138,6 +20289,33 @@
     "level": "NORMAL",
     "sources_added": 1,
     "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-18T10:10-04:00",
+    "headline": "Bitcoin sits at $81,500, flat on the day",
+    "summary": "Here's what moved the chain today. Bitcoin sits at eighty-one thousand five hundred dollars.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-18T10:10-04:00",
+    "headline": "Bitcoin dipped under $80,000 and buyers pushed it back above $81,000",
+    "summary": "Green candles only! Bitcoin dipped under eighty thousand, and buyers snapped it right back!",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-18T10:11-04:00",
+    "headline": "Circle defends USDC economics as stablecoin rivals court its partners with a bigger revenue cut",
+    "summary": "Circle is pushing back on rival stablecoins offering distribution partners higher payouts, while Coinbase also backs a competing network.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
    }
   ],
   "posts": [],
@@ -20161,15 +20339,24 @@
   "metrics": {},
   "emergency": false,
   "source_urls": [
-   "https://coingabbar.com/en/bitcoin-whales-vs-etf-sellers-who-controls-btc-near-80k-support"
+   "https://coingabbar.com/en/bitcoin-whales-vs-etf-sellers-who-controls-btc-near-80k-support",
+   "https://www.kucoin.com/news/flash/bitcoin-etfs-see-228-4m-net-outflow-this-week-led-by-ibit"
   ],
   "source_names": [
-   "Coin Gabbar"
+   "Coin Gabbar",
+   "KuCoin / Farside"
   ],
   "sources": [
    {
     "url": "https://coingabbar.com/en/bitcoin-whales-vs-etf-sellers-who-controls-btc-near-80k-support",
     "name": "Coin Gabbar",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.kucoin.com/news/flash/bitcoin-etfs-see-228-4m-net-outflow-this-week-led-by-ibit",
+    "name": "KuCoin / Farside",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -20179,6 +20366,13 @@
    {
     "url": "https://coingabbar.com/en/bitcoin-whales-vs-etf-sellers-who-controls-btc-near-80k-support",
     "name": "Coin Gabbar",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.kucoin.com/news/flash/bitcoin-etfs-see-228-4m-net-outflow-this-week-led-by-ibit",
+    "name": "KuCoin / Farside",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -20198,6 +20392,13 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "KuCoin / Farside",
+     "url": "https://www.kucoin.com/news/flash/bitcoin-etfs-see-228-4m-net-outflow-this-week-led-by-ibit",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -20209,7 +20410,17 @@
   "content_created": false,
   "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-18T10:10-04:00",
+    "headline": "Spot bitcoin ETFs post $228.4 million weekly net outflow led by IBIT",
+    "summary": "Check the yields first. Bitcoin ETFs bled two hundred twenty-eight million dollars this week.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -20767,6 +20978,76 @@
   "trigger": "CoinDesk latest news",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261018_fd4ac3",
+  "headline": "XRP combined CVD shows nearly $2 billion of net selling since September 23",
+  "summary": "Psst... XRP order books show nearly two billion dollars of net selling since September.",
+  "detected_at": "2026-10-18T10:10-04:00",
+  "active_since": "2026-10-18T10:10-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "XRP"
+  ],
+  "event_type": "market_move",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://thecryptobasic.com/2026/10/18/xrp-combined-cvd-selling-nears-2-billion/"
+  ],
+  "source_names": [
+   "The Crypto Basic"
+  ],
+  "sources": [
+   {
+    "url": "https://thecryptobasic.com/2026/10/18/xrp-combined-cvd-selling-nears-2-billion/",
+    "name": "The Crypto Basic",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://thecryptobasic.com/2026/10/18/xrp-combined-cvd-selling-nears-2-billion/",
+    "name": "The Crypto Basic",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Crypto Basic",
+     "url": "https://thecryptobasic.com/2026/10/18/xrp-combined-cvd-selling-nears-2-billion/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
   "updates": [],
   "posts": [],
