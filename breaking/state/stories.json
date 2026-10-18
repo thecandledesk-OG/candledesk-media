@@ -16693,7 +16693,8 @@
    "https://www.tradingkey.com/analysis/economic/indicators/262218745-us-september-ppi-inflation-surges-fed-challenge-tradingkey",
    "https://coindesk.com/markets/2026/10/18/wall-street-freaked-out-friday-vix-and-bitcoin-say-it-may-not-last",
    "https://www.coindesk.com/markets/2026/10/18/wall-street-freaked-out-friday-vix-and-bitcoin-say-it-may-not-last",
-   "https://www.investing.com/crypto"
+   "https://www.investing.com/crypto",
+   "https://www.coindesk.com/index/cd20xb/constituents"
   ],
   "source_names": [
    "DailyCoin",
@@ -16709,7 +16710,8 @@
    "TradingKey",
    "CoinDesk",
    "CoinDesk",
-   "Investing.com"
+   "Investing.com",
+   "CoinDesk Indices"
   ],
   "sources": [
    {
@@ -16808,6 +16810,13 @@
     "url": "https://www.investing.com/crypto",
     "name": "Investing.com",
     "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/index/cd20xb/constituents",
+    "name": "CoinDesk Indices",
+    "kind": "secondary",
     "checked": true,
     "confirms": true
    }
@@ -16909,6 +16918,13 @@
     "url": "https://www.investing.com/crypto",
     "name": "Investing.com",
     "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/index/cd20xb/constituents",
+    "name": "CoinDesk Indices",
+    "kind": "secondary",
     "checked": true,
     "confirms": true
    }
@@ -17018,6 +17034,13 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinDesk Indices",
+     "url": "https://www.coindesk.com/index/cd20xb/constituents",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -17091,6 +17114,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 2,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-18T19:16-04:00",
+    "headline": "Quiet Sunday: bitcoin near $81,000 as ether, XRP and solana hold within 2%",
+    "summary": "Bitcoin trades around $80,800 to $81,500, roughly flat to down 1% in 24 hours. Ether is near $2,423, XRP near $1.30 and solana near $104, all within about 2%. No CoinDesk 20 constituent moved more than 5%.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "VERIFIED"
    }
   ],
@@ -21448,6 +21480,241 @@
   ],
   "market_significance": "low",
   "trigger": "Decrypt latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261018_9adb3d",
+  "headline": "Turkey confirms Hex founder Richard Heart's arrest, says police seized $7.15 million and six cold wallets",
+  "summary": "Turkey's justice minister confirmed Hex and PulseChain founder Richard Heart was detained in Istanbul on October 14 on an Interpol Red Notice sought by Finland. Police say they seized $7.15 million in cash, six cold wallets and firearms. HEX fell about 14% in 24 hours.",
+  "detected_at": "2026-10-18T19:16-04:00",
+  "active_since": "2026-10-18T19:16-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "HEX",
+   "PLS"
+  ],
+  "event_type": "legal",
+  "event_time": "2026-10-14T12:00-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/regulation/2026-10-17-turkey-confirms-hex-founder-richard-hearts-arrest-says-police-seized-7-15-million-and-six-cold-wallets-418852"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-10-17-turkey-confirms-hex-founder-richard-hearts-arrest-says-police-seized-7-15-million-and-six-cold-wallets-418852",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-10-17-turkey-confirms-hex-founder-richard-hearts-arrest-says-police-seized-7-15-million-and-six-cold-wallets-418852",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-10-17-turkey-confirms-hex-founder-richard-hearts-arrest-says-police-seized-7-15-million-and-six-cold-wallets-418852",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Arrest happened Oct 14 and was first reported then; The Block confirmation came Oct 17 2:14 PM ET, over 12 hours ago. Small-cap assets."
+  ],
+  "market_significance": "Legal action against a well-known crypto founder; limited market-wide impact.",
+  "trigger": "The Block latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261018_a7ab87",
+  "headline": "Cysic halts its bridge after an attacker mints 10 million CYS on BNB Chain",
+  "summary": "Cysic Foundation suspended its bridge after unauthorized database access let an attacker mint 10 million CYS on BNB Smart Chain on October 17. About 2.8 million CYS were blacklisted; no dollar loss has been confirmed. An outside security firm is reviewing.",
+  "detected_at": "2026-10-18T19:16-04:00",
+  "active_since": "2026-10-18T19:16-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "CYS",
+   "BNB"
+  ],
+  "event_type": "hack_exploit",
+  "event_time": "2026-10-17T08:31-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://crypto.news/cysic-bridge-exploit-10-million-cys-minted/",
+   "https://x.com/cysic_fdn/status/2111761749116637687"
+  ],
+  "source_names": [
+   "crypto.news",
+   "Cysic Foundation on X"
+  ],
+  "sources": [
+   {
+    "url": "https://crypto.news/cysic-bridge-exploit-10-million-cys-minted/",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://x.com/cysic_fdn/status/2111761749116637687",
+    "name": "Cysic Foundation on X",
+    "kind": "social",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://crypto.news/cysic-bridge-exploit-10-million-cys-minted/",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://x.com/cysic_fdn/status/2111761749116637687",
+    "name": "Cysic Foundation on X",
+    "kind": "social",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/cysic-bridge-exploit-10-million-cys-minted/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Cysic Foundation on X",
+     "url": "https://x.com/cysic_fdn/status/2111761749116637687",
+     "category": "social",
+     "counts": false,
+     "note": "social/community post — can trigger investigation, never verifies"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Small-cap token exploit with no confirmed USD loss; event Oct 17 12:31 UTC, over 12 hours old."
+  ],
+  "market_significance": "Another bridge exploit in a heavy year for hacks.",
+  "trigger": "Web search",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261018_6d4008",
+  "headline": "Saylor hints at another Strategy bitcoin buy as the firm holds 848,250 BTC",
+  "summary": "Michael Saylor posted 'We found room for more orange' on Sunday, a usual signal ahead of a Monday purchase filing. Strategy last reported 848,250 BTC at an average cost of about $75,444.",
+  "detected_at": "2026-10-18T19:16-04:00",
+  "active_since": "2026-10-18T19:16-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "institutional",
+  "event_time": "2026-10-19T08:00-04:00",
+  "scheduled_event": true,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://crypto.news/michael-saylor-hints-at-more-bitcoin-buys-as-strategy-holds-848250-btc/"
+  ],
+  "source_names": [
+   "crypto.news"
+  ],
+  "sources": [
+   {
+    "url": "https://crypto.news/michael-saylor-hints-at-more-bitcoin-buys-as-strategy-holds-848250-btc/",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://crypto.news/michael-saylor-hints-at-more-bitcoin-buys-as-strategy-holds-848250-btc/",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/michael-saylor-hints-at-more-bitcoin-buys-as-strategy-holds-848250-btc/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Routine weekly hint; no purchase confirmed yet."
+  ],
+  "market_significance": "Watch Monday's SEC filing.",
+  "trigger": "Web search",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
