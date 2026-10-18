@@ -16657,7 +16657,8 @@
    "https://www.bls.gov/news.release/archives/ppi_10152026.htm",
    "https://bloomberg.com/news/articles/2026-10-15/bitcoin-briefly-dips-below-80-000-as-volatility-roils-markets",
    "https://www.kucoin.com/news/flash/bitcoin-falls-below-80-000-amid-surprising-us-ppi-data",
-   "https://www.tradingkey.com/analysis/economic/indicators/262218745-us-september-ppi-inflation-surges-fed-challenge-tradingkey"
+   "https://www.tradingkey.com/analysis/economic/indicators/262218745-us-september-ppi-inflation-surges-fed-challenge-tradingkey",
+   "https://coindesk.com/markets/2026/10/18/wall-street-freaked-out-friday-vix-and-bitcoin-say-it-may-not-last"
   ],
   "source_names": [
    "DailyCoin",
@@ -16670,7 +16671,8 @@
    "BLS PPI release",
    "Bloomberg",
    "KuCoin News",
-   "TradingKey"
+   "TradingKey",
+   "CoinDesk"
   ],
   "sources": [
    {
@@ -16748,6 +16750,13 @@
     "url": "https://www.tradingkey.com/analysis/economic/indicators/262218745-us-september-ppi-inflation-surges-fed-challenge-tradingkey",
     "name": "TradingKey",
     "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://coindesk.com/markets/2026/10/18/wall-street-freaked-out-friday-vix-and-bitcoin-say-it-may-not-last",
+    "name": "CoinDesk",
+    "kind": "secondary",
     "checked": true,
     "confirms": true
    }
@@ -16830,15 +16839,22 @@
     "kind": "other",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://coindesk.com/markets/2026/10/18/wall-street-freaked-out-friday-vix-and-bitcoin-say-it-may-not-last",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "VERIFIED",
   "verification": {
    "status": "VERIFIED",
-   "independent_sources": 2,
+   "independent_sources": 3,
    "has_primary": true,
    "score": 1.0,
-   "reason": "2 independent credible sources confirm it (incl. a primary source)",
+   "reason": "3 independent credible sources confirm it (incl. a primary source)",
    "sources_checked": [
     {
      "name": "DailyCoin",
@@ -16916,6 +16932,13 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://coindesk.com/markets/2026/10/18/wall-street-freaked-out-friday-vix-and-bitcoin-say-it-may-not-last",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -16971,6 +16994,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-18T13:14-04:00",
+    "headline": "Bitcoin holds above $80,000 over the weekend as traders weigh Friday's VIX spike",
+    "summary": "Bitcoin traded near 81,000 dollars Sunday, roughly flat on the day, while ether, XRP and solana slipped about 1 to 1.6%. Friday's 21% VIX jump has history pointing to calmer Mondays.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "VERIFIED"
    }
   ],
@@ -21048,6 +21080,288 @@
   "trigger": "",
   "content_created": false,
   "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261018_9ab91d",
+  "headline": "Latvia eyes crypto tax payments in 2027 as parliament overhauls crypto taxation",
+  "summary": "Latvia's parliament is overhauling how crypto is taxed, with a plan that could let people pay taxes in crypto from 2027.",
+  "detected_at": "2026-10-18T13:14-04:00",
+  "active_since": "2026-10-18T13:14-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "regulatory",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/policy/2026/10/18/latvia-eyes-crypto-tax-payments-in-2027-as-parliament-overhauls-crypto-taxation"
+  ],
+  "source_names": [
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/policy/2026/10/18/latvia-eyes-crypto-tax-payments-in-2027-as-parliament-overhauls-crypto-taxation",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/policy/2026/10/18/latvia-eyes-crypto-tax-payments-in-2027-as-parliament-overhauls-crypto-taxation",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/policy/2026/10/18/latvia-eyes-crypto-tax-payments-in-2027-as-parliament-overhauls-crypto-taxation",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Single-country tax policy, not market-moving"
+  ],
+  "market_significance": "low",
+  "trigger": "CoinDesk latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261018_87b80c",
+  "headline": "Stablecoin supply stalls but stablecoin payments jump 45% as Visa, Mastercard and Stripe link crypto to cash",
+  "summary": "Total stablecoin supply has flattened, but payment volume rose about 45% as card networks and Stripe connect stablecoins to everyday money.",
+  "detected_at": "2026-10-18T13:14-04:00",
+  "active_since": "2026-10-18T13:14-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "USDC",
+   "USDT"
+  ],
+  "event_type": "other",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/business/2026/10/18/stablecoin-supply-stalls-but-payments-jump-45-as-visa-mastercard-and-stripe-connect-crypto-to-cash"
+  ],
+  "source_names": [
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/business/2026/10/18/stablecoin-supply-stalls-but-payments-jump-45-as-visa-mastercard-and-stripe-connect-crypto-to-cash",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/business/2026/10/18/stablecoin-supply-stalls-but-payments-jump-45-as-visa-mastercard-and-stripe-connect-crypto-to-cash",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/business/2026/10/18/stablecoin-supply-stalls-but-payments-jump-45-as-visa-mastercard-and-stripe-connect-crypto-to-cash",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Trend/analysis piece"
+  ],
+  "market_significance": "low",
+  "trigger": "CoinDesk latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261018_cbea14",
+  "headline": "Hacken says Q3 crypto hacks cost $1.18 billion and audits give investors a false sense of security",
+  "summary": "Security firm Hacken reports crypto hacks cost about 1.18 billion dollars in the third quarter and warns audits alone are not enough.",
+  "detected_at": "2026-10-18T13:14-04:00",
+  "active_since": "2026-10-18T13:14-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "other",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/tech/2026/10/18/crypto-audits-give-investors-false-sense-of-security-as-q3-hacks-cost-usd1-18-billion-hacken-says"
+  ],
+  "source_names": [
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/tech/2026/10/18/crypto-audits-give-investors-false-sense-of-security-as-q3-hacks-cost-usd1-18-billion-hacken-says",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/tech/2026/10/18/crypto-audits-give-investors-false-sense-of-security-as-q3-hacks-cost-usd1-18-billion-hacken-says",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/tech/2026/10/18/crypto-audits-give-investors-false-sense-of-security-as-q3-hacks-cost-usd1-18-billion-hacken-says",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Quarterly report, no new incident"
+  ],
+  "market_significance": "low",
+  "trigger": "CoinDesk latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261018_23c189",
+  "headline": "BIS economists say banks hold a lever over stablecoin adoption",
+  "summary": "Economists at the Bank for International Settlements argue banks' choices will shape how widely stablecoins are adopted.",
+  "detected_at": "2026-10-18T13:14-04:00",
+  "active_since": "2026-10-18T13:14-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "USDC",
+   "USDT"
+  ],
+  "event_type": "macro",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://decrypt.co/"
+  ],
+  "source_names": [
+   "Decrypt"
+  ],
+  "sources": [
+   {
+    "url": "https://decrypt.co/",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://decrypt.co/",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Research commentary"
+  ],
+  "market_significance": "low",
+  "trigger": "Decrypt latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
   "updates": [],
   "posts": [],
