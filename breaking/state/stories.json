@@ -18663,9 +18663,11 @@
   "source_urls": [
    "https://www.coindesk.com/markets/2026/10/16/bitcoin-buyers-snap-up-a-brief-drop-below-usd80-000-as-asian-stocks-rebound",
    "https://www.coindesk.com/price/bitcoin",
-   "https://www.coindesk.com/markets/2026/10/19/bitcoin-korea-s-kospi-and-nasdaq-futures-rally-as-china-gdp-beats-estimates"
+   "https://www.coindesk.com/markets/2026/10/19/bitcoin-korea-s-kospi-and-nasdaq-futures-rally-as-china-gdp-beats-estimates",
+   "https://www.coindesk.com/price/xrp"
   ],
   "source_names": [
+   "CoinDesk",
    "CoinDesk",
    "CoinDesk",
    "CoinDesk"
@@ -18691,6 +18693,13 @@
     "kind": "secondary",
     "checked": false,
     "confirms": false
+   },
+   {
+    "url": "https://www.coindesk.com/price/xrp",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -18714,6 +18723,13 @@
     "kind": "secondary",
     "checked": false,
     "confirms": false
+   },
+   {
+    "url": "https://www.coindesk.com/price/xrp",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "UNVERIFIED",
@@ -18744,6 +18760,13 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/price/xrp",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -18782,6 +18805,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-19T16:11-04:00",
+    "headline": "Crypto majors steady Monday: bitcoin near $83,000, XRP up about 2.5%, solana up about 2%, ether lags",
+    "summary": "Bitcoin traded near $82,900, up about 1% in 24 hours. XRP was up about 2.5% near $1.31 and solana up about 1.9% near $104, while ether lagged, last shown down about 3% near $2,344.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "UNVERIFIED"
    }
   ],
@@ -22047,6 +22079,15 @@
     "level": "NORMAL",
     "sources_added": 0,
     "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-19T16:11-04:00",
+    "headline": "Strategy buys another 267 bitcoin for about $22 million, now holds 848,517 BTC",
+    "summary": "Strategy disclosed in an SEC filing on October 19 that it bought 267 BTC for about $22.1 million between October 12 and 18, at an average of about $82,900, bringing total holdings to 848,517 BTC.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
    }
   ],
   "posts": [],
@@ -23425,6 +23466,100 @@
   ],
   "market_significance": "Crypto miners/AI hosting theme",
   "trigger": "The Block latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261019_531846",
+  "headline": "Hyperliquid Policy Center backs SEC's proposed crypto rules but asks for five changes before comment deadline",
+  "summary": "The Hyperliquid Policy Center filed a comment letter supporting the SEC's proposed Regulation Crypto Assets, asking for clearer treatment of airdrops, secondary trading, a developer safe harbor, token buybacks and state preemption. Comments close October 20.",
+  "detected_at": "2026-10-19T16:11-04:00",
+  "active_since": "2026-10-19T16:11-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "HYPE",
+   "TOTAL_MARKET"
+  ],
+  "event_type": "regulatory",
+  "event_time": "2026-10-19T09:25-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://crypto.news/hyperliquid-sec-crypto-regulation-proposals/",
+   "https://x.com/HyperliquidPC/status/2112153231988031622"
+  ],
+  "source_names": [
+   "crypto.news",
+   "Hyperliquid Policy Center on X"
+  ],
+  "sources": [
+   {
+    "url": "https://crypto.news/hyperliquid-sec-crypto-regulation-proposals/",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://x.com/HyperliquidPC/status/2112153231988031622",
+    "name": "Hyperliquid Policy Center on X",
+    "kind": "social",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://crypto.news/hyperliquid-sec-crypto-regulation-proposals/",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://x.com/HyperliquidPC/status/2112153231988031622",
+    "name": "Hyperliquid Policy Center on X",
+    "kind": "social",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/hyperliquid-sec-crypto-regulation-proposals/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Hyperliquid Policy Center on X",
+     "url": "https://x.com/HyperliquidPC/status/2112153231988031622",
+     "category": "social",
+     "counts": false,
+     "note": "social/community post — can trigger investigation, never verifies"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: A comment letter on a pending proposal, not a regulatory decision."
+  ],
+  "market_significance": "SEC comment period on Regulation Crypto Assets closes Oct 20.",
+  "trigger": "crypto.news report",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
