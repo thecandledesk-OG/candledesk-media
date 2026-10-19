@@ -18664,13 +18664,15 @@
    "https://www.coindesk.com/markets/2026/10/16/bitcoin-buyers-snap-up-a-brief-drop-below-usd80-000-as-asian-stocks-rebound",
    "https://www.coindesk.com/price/bitcoin",
    "https://www.coindesk.com/markets/2026/10/19/bitcoin-korea-s-kospi-and-nasdaq-futures-rally-as-china-gdp-beats-estimates",
-   "https://www.coindesk.com/price/xrp"
+   "https://www.coindesk.com/price/xrp",
+   "https://decrypt.co/381319/bitcoin-price-key-support-oil-ai-fears-squeeze-markets"
   ],
   "source_names": [
    "CoinDesk",
    "CoinDesk",
    "CoinDesk",
-   "CoinDesk"
+   "CoinDesk",
+   "Decrypt"
   ],
   "sources": [
    {
@@ -18697,6 +18699,13 @@
    {
     "url": "https://www.coindesk.com/price/xrp",
     "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/381319/bitcoin-price-key-support-oil-ai-fears-squeeze-markets",
+    "name": "Decrypt",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -18730,15 +18739,22 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/381319/bitcoin-price-key-support-oil-ai-fears-squeeze-markets",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
-  "verification_status": "UNVERIFIED",
+  "verification_status": "VERIFIED",
   "verification": {
-   "status": "UNVERIFIED",
-   "independent_sources": 1,
+   "status": "VERIFIED",
+   "independent_sources": 2,
    "has_primary": false,
-   "score": 0.4,
-   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "score": 0.8,
+   "reason": "2 independent credible sources confirm it (no primary source yet)",
    "sources_checked": [
     {
      "name": "CoinDesk",
@@ -18764,6 +18780,13 @@
     {
      "name": "CoinDesk",
      "url": "https://www.coindesk.com/price/xrp",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/381319/bitcoin-price-key-support-oil-ai-fears-squeeze-markets",
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
@@ -18815,6 +18838,15 @@
     "level": "NORMAL",
     "sources_added": 1,
     "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-19T19:10-04:00",
+    "headline": "Bitcoin holds near $82,000 as XRP and SOL edge up about 2%",
+    "summary": "Bitcoin traded near $82,000, up under 1% on the day, with ether about 1% higher and XRP and solana up a little over 2%, after a rally in Asian stocks on better-than-expected China GDP.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
    }
   ],
   "posts": [],
@@ -21991,11 +22023,13 @@
   "emergency": false,
   "source_urls": [
    "https://crypto.news/michael-saylor-hints-at-more-bitcoin-buys-as-strategy-holds-848250-btc/",
-   "https://www.theblock.co/news/business/2026-10-19-we-found-room-for-more-orange-michael-saylors-strategy-buys-more-bitcoin-418895"
+   "https://www.theblock.co/news/business/2026-10-19-we-found-room-for-more-orange-michael-saylors-strategy-buys-more-bitcoin-418895",
+   "https://decrypt.co/381302/strategy-buys-22m-in-bitcoin-buys-back-193m-of-strc"
   ],
   "source_names": [
    "crypto.news",
-   "The Block"
+   "The Block",
+   "Decrypt"
   ],
   "sources": [
    {
@@ -22011,6 +22045,13 @@
     "kind": "secondary",
     "checked": false,
     "confirms": false
+   },
+   {
+    "url": "https://decrypt.co/381302/strategy-buys-22m-in-bitcoin-buys-back-193m-of-strc",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -22027,6 +22068,13 @@
     "kind": "secondary",
     "checked": false,
     "confirms": false
+   },
+   {
+    "url": "https://decrypt.co/381302/strategy-buys-22m-in-bitcoin-buys-back-193m-of-strc",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
    }
   ],
   "verification_status": "UNVERIFIED",
@@ -22047,6 +22095,13 @@
     {
      "name": "The Block",
      "url": "https://www.theblock.co/news/business/2026-10-19-we-found-room-for-more-orange-michael-saylors-strategy-buys-more-bitcoin-418895",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/381302/strategy-buys-22m-in-bitcoin-buys-back-193m-of-strc",
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; not opened, so it doesn't count"
@@ -22087,6 +22142,15 @@
     "new_development": true,
     "level": "NORMAL",
     "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-19T19:10-04:00",
+    "headline": "Strategy buys another 267 bitcoin for $22 million and buys back $193 million of STRC",
+    "summary": "Strategy said it bought 267 BTC for about $22 million and repurchased about $193 million of its STRC preferred stock, following Michael Saylor's weekend hint.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "UNVERIFIED"
    }
   ],
@@ -23565,6 +23629,126 @@
   "related_story_ids": [],
   "updates": [],
   "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261019_8ef097",
+  "headline": "BlackRock files for a bitcoin ETF with downside protection tied to IBIT",
+  "summary": "BlackRock filed with the SEC on October 19 to register the iShares Bitcoin Managed Protection ETF (ticker PBIT). It would use options on its iShares Bitcoin Trust (IBIT) to give capped upside with roughly a 10% maximum loss per tranche before fees. The filing is a registration, not an approval; the fund cannot launch before about early January 2027. It is BlackRock's third bitcoin ETF filing.",
+  "detected_at": "2026-10-19T19:10-04:00",
+  "active_since": "2026-10-19T19:10-04:00",
+  "classification": "IMPORTANT",
+  "proposed_level": "IMPORTANT",
+  "confidence": 0.85,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "etf",
+  "event_time": "2026-10-19T18:00-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.sec.gov/Archives/edgar/data/1100663/000119312526425335/d144515d485apos.htm",
+   "https://www.theblock.co/news/regulation/2026-10-19-blackrock-files-bitcoin-managed-protect-etf-downside-protection-ibit-421087",
+   "https://cryptobriefing.com/blackrock-files-bitcoin-managed-protection-etf/"
+  ],
+  "source_names": [
+   "SEC filing (iShares Trust N-1A)",
+   "The Block",
+   "Crypto Briefing"
+  ],
+  "sources": [
+   {
+    "url": "https://www.sec.gov/Archives/edgar/data/1100663/000119312526425335/d144515d485apos.htm",
+    "name": "SEC filing (iShares Trust N-1A)",
+    "kind": "primary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-10-19-blackrock-files-bitcoin-managed-protect-etf-downside-protection-ibit-421087",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptobriefing.com/blackrock-files-bitcoin-managed-protection-etf/",
+    "name": "Crypto Briefing",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.sec.gov/Archives/edgar/data/1100663/000119312526425335/d144515d485apos.htm",
+    "name": "SEC filing (iShares Trust N-1A)",
+    "kind": "primary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-10-19-blackrock-files-bitcoin-managed-protect-etf-downside-protection-ibit-421087",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptobriefing.com/blackrock-files-bitcoin-managed-protection-etf/",
+    "name": "Crypto Briefing",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "VERIFIED",
+  "verification": {
+   "status": "VERIFIED",
+   "independent_sources": 2,
+   "has_primary": true,
+   "score": 1.0,
+   "reason": "2 independent credible sources confirm it (incl. a primary source)",
+   "sources_checked": [
+    {
+     "name": "SEC filing (iShares Trust N-1A)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1100663/000119312526425335/d144515d485apos.htm",
+     "category": "primary",
+     "counts": true,
+     "note": "primary (known official domain)"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-10-19-blackrock-files-bitcoin-managed-protect-etf-downside-protection-ibit-421087",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Crypto Briefing",
+     "url": "https://cryptobriefing.com/blackrock-files-bitcoin-managed-protection-etf/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed IMPORTANT: Largest bitcoin ETF issuer files a new bitcoin product; confirmed by the SEC filing itself and The Block."
+  ],
+  "market_significance": "Extends BlackRock's bitcoin lineup to buffered/defined-outcome investors who want bitcoin exposure with a loss floor.",
+  "trigger": "SEC Form N-1A post-effective amendment filed Oct 19, 2026; The Block report 6:00 PM ET.",
+  "content_created": true,
+  "publication_status": "DRAFTED",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [
+   "6ad6a4c69d034d7aedca9abb",
+   "6ad6a4c99d034d7aedca9b5d",
+   "6ad6a4cb2fcafd0f183efdde"
+  ],
   "needs_followup": false
  }
 ]

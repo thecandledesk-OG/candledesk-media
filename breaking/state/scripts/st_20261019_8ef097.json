@@ -1,0 +1,31 @@
+{
+ "story_id": "st_20261019_8ef097",
+ "date_label": "OCT 19",
+ "headline": "BlackRock files for a bitcoin ETF with downside protection",
+ "sources": [
+  {"name": "SEC filing", "url": "https://www.sec.gov/Archives/edgar/data/1100663/000119312526425335/d144515d485apos.htm"},
+  {"name": "The Block", "url": "https://www.theblock.co/news/regulation/2026-10-19-blackrock-files-bitcoin-managed-protect-etf-downside-protection-ibit-421087"}
+ ],
+ "scenes": [
+  {"beat": "hook", "who": "ledger",
+   "vo": "The biggest bitcoin ETF issuer just filed for a fund built to limit your losses. Here's what changed.",
+   "chunks": ["BlackRock files again", "*Bitcoin with a floor*", "Here's what changed"]},
+  {"beat": "what_happened", "who": "ledger",
+   "vo": "BlackRock filed with the SEC on Monday for a new fund, the Bitcoin Managed Protection ETF. It would use options on its bitcoin trust to cap losses at about ten percent, before fees.",
+   "chunks": ["Filed Monday", "*About ten percent floor*", "Before fees"],
+   "stat": {"label": "Sources", "text": "SEC filing · The Block"}},
+  {"beat": "why_it_matters", "who": "bruno",
+   "vo": "Here's why traders are watching it. A loss floor could appeal to cautious investors who have avoided bitcoin's big swings.",
+   "chunks": ["Why it matters", "*Cautious investors*", "Fewer big swings"]},
+  {"beat": "why_it_matters", "who": "ursa",
+   "vo": "The catch. Your upside is capped, the protection resets in stages, and this is only a filing. It could not launch before early next year.",
+   "chunks": ["The catch", "*Upside is capped*", "Not approved yet"]},
+  {"beat": "watch_next", "who": "moby",
+   "vo": "Here's what happens next. Watch for the final fee, the size of the upside cap, and whether rivals file similar bitcoin funds.",
+   "chunks": ["Watch next", "*Fee and cap*", "Rival filings"]},
+  {"beat": "cta", "who": "all",
+   "vo": "Follow The Candle Desk for crypto news without the hype. Not financial advice.",
+   "chunks": ["Follow The Candle Desk", "*No hype*", "Just the news"],
+   "foot": "NOT FINANCIAL ADVICE"}
+ ]
+}
