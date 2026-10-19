@@ -19668,10 +19668,12 @@
   "emergency": false,
   "source_urls": [
    "https://www.theblock.co/news/business/2026-10-16-circle-usdc-revenue-split-partners-418826",
-   "https://www.coindesk.com/business/2026/10/17/circle-defends-usdc-economics-as-stablecoin-rivals-court-its-partners-with-bigger-cut"
+   "https://www.coindesk.com/business/2026/10/17/circle-defends-usdc-economics-as-stablecoin-rivals-court-its-partners-with-bigger-cut",
+   "https://www.coindesk.com/latest-crypto-news"
   ],
   "source_names": [
    "The Block",
+   "CoinDesk",
    "CoinDesk"
   ],
   "sources": [
@@ -19688,6 +19690,13 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/latest-crypto-news",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -19700,6 +19709,13 @@
    },
    {
     "url": "https://www.coindesk.com/business/2026/10/17/circle-defends-usdc-economics-as-stablecoin-rivals-court-its-partners-with-bigger-cut",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/latest-crypto-news",
     "name": "CoinDesk",
     "kind": "secondary",
     "checked": true,
@@ -19727,6 +19743,13 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/latest-crypto-news",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -19744,6 +19767,15 @@
     "headline": "Circle defends USDC economics as rival stablecoin networks court its partners with a bigger cut",
     "summary": "Circle's chief commercial officer says the company kept about 7 cents of net profit per dollar of revenue in the first half of 2026, with $819 million of roughly $1.4 billion going to distribution and transaction costs, as Coinbase also backs the rival Open USD network.",
     "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-18T22:11-04:00",
+    "headline": "Circle defends USDC economics as rival stablecoin networks court its partners with a bigger cut",
+    "summary": "Circle is defending its USDC revenue sharing as rivals such as the Coinbase-backed Open USD network offer partners more of the reserve income, CoinDesk reports.",
+    "new_development": false,
     "level": "NORMAL",
     "sources_added": 1,
     "verification": "VERIFIED"
@@ -20099,11 +20131,15 @@
   "emergency": false,
   "source_urls": [
    "https://crypto.news/crypto-etfs-weekly-outflows-ethereum-bitcoin/",
-   "https://www.coingabbar.com/en/crypto-news-october-17-bitcoin-eth-fell-us-inflation-fed-rates"
+   "https://www.coingabbar.com/en/crypto-news-october-17-bitcoin-eth-fell-us-inflation-fed-rates",
+   "https://decrypt.co/news",
+   "https://www.coindesk.com/price/bitcoin"
   ],
   "source_names": [
    "crypto.news",
-   "CoinGabbar (prices)"
+   "CoinGabbar (prices)",
+   "Decrypt",
+   "CoinDesk"
   ],
   "sources": [
    {
@@ -20117,6 +20153,20 @@
     "url": "https://www.coingabbar.com/en/crypto-news-october-17-bitcoin-eth-fell-us-inflation-fed-rates",
     "name": "CoinGabbar (prices)",
     "kind": "other",
+    "checked": true,
+    "confirms": false
+   },
+   {
+    "url": "https://decrypt.co/news",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/price/bitcoin",
+    "name": "CoinDesk",
+    "kind": "secondary",
     "checked": true,
     "confirms": false
    }
@@ -20135,15 +20185,29 @@
     "kind": "other",
     "checked": true,
     "confirms": false
+   },
+   {
+    "url": "https://decrypt.co/news",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/price/bitcoin",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": false
    }
   ],
   "verification_status": "UNVERIFIED",
   "verification": {
    "status": "UNVERIFIED",
-   "independent_sources": 0,
+   "independent_sources": 1,
    "has_primary": false,
-   "score": 0.0,
-   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
    "sources_checked": [
     {
      "name": "crypto.news",
@@ -20158,6 +20222,20 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/news",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/price/bitcoin",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; opened but does not confirm the claim"
     }
    ]
   },
@@ -20177,6 +20255,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-18T22:11-04:00",
+    "headline": "Bitcoin ETFs shed nearly $1 billion in two weeks as October stays red",
+    "summary": "U.S. spot bitcoin ETFs have lost nearly one billion dollars over two weeks, Decrypt reports; bitcoin sits near $80,800, down about 1% in 24 hours, with ether down about 3%.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
     "verification": "UNVERIFIED"
    }
   ],
@@ -21715,6 +21802,157 @@
   ],
   "market_significance": "Watch Monday's SEC filing.",
   "trigger": "Web search",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261018_bbe653",
+  "headline": "World launches World ID suite for banks and makes its Zoom deepfake check generally available",
+  "summary": "World (formerly Worldcoin) launched a World ID product suite aimed at banks and made its Zoom deepfake check generally available, The Block reports.",
+  "detected_at": "2026-10-18T22:11-04:00",
+  "active_since": "2026-10-18T22:11-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "WLD"
+  ],
+  "event_type": "partnership",
+  "event_time": "2026-10-18T21:10-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/latest-crypto-news"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/latest-crypto-news",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/latest-crypto-news",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/latest-crypto-news",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Product launch, single outlet"
+  ],
+  "market_significance": "low",
+  "trigger": "The Block latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [
+   {
+    "at": "2026-10-18T22:11-04:00",
+    "headline": "Crypto.com and Novig sue Missouri over sports event contracts while Kalshi, Polymarket and Robinhood hold off",
+    "summary": "Crypto.com and Novig filed suit against Missouri over sports event contracts; Kalshi, Polymarket and Robinhood have not joined, The Block reports.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   }
+  ],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261018_cd17e1",
+  "headline": "Crypto.com and Novig sue Missouri over sports event contracts while Kalshi, Polymarket and Robinhood hold off",
+  "summary": "Crypto.com and Novig filed suit against Missouri over sports event contracts, according to a headline on The Block's latest-news page (Oct 18, 3:50 PM ET); Kalshi, Polymarket and Robinhood have not joined. Background: Missouri's attorney general sent cease-and-desist letters to six prediction markets on Sept 18.",
+  "detected_at": "2026-10-18T22:11-04:00",
+  "active_since": "2026-10-18T22:11-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.55,
+  "assets": [
+   "CRO",
+   "TOTAL_MARKET"
+  ],
+  "event_type": "legal",
+  "event_time": "2026-10-18T15:50-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.kctv5.com/2026/09/18/missouri-ag-sends-cease-desist-letters-prediction-market-operators/"
+  ],
+  "source_names": [
+   "KCTV5 (background)"
+  ],
+  "sources": [
+   {
+    "url": "https://www.kctv5.com/2026/09/18/missouri-ag-sends-cease-desist-letters-prediction-market-operators/",
+    "name": "KCTV5 (background)",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.kctv5.com/2026/09/18/missouri-ag-sends-cease-desist-letters-prediction-market-operators/",
+    "name": "KCTV5 (background)",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "KCTV5 (background)",
+     "url": "https://www.kctv5.com/2026/09/18/missouri-ag-sends-cease-desist-letters-prediction-market-operators/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: State-level legal fight over prediction markets, single outlet headline"
+  ],
+  "market_significance": "low",
+  "trigger": "The Block latest news",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
