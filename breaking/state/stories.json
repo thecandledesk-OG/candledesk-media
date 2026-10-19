@@ -18662,9 +18662,11 @@
   "emergency": false,
   "source_urls": [
    "https://www.coindesk.com/markets/2026/10/16/bitcoin-buyers-snap-up-a-brief-drop-below-usd80-000-as-asian-stocks-rebound",
-   "https://www.coindesk.com/price/bitcoin"
+   "https://www.coindesk.com/price/bitcoin",
+   "https://www.coindesk.com/markets/2026/10/19/bitcoin-korea-s-kospi-and-nasdaq-futures-rally-as-china-gdp-beats-estimates"
   ],
   "source_names": [
+   "CoinDesk",
    "CoinDesk",
    "CoinDesk"
   ],
@@ -18682,6 +18684,13 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/19/bitcoin-korea-s-kospi-and-nasdaq-futures-rally-as-china-gdp-beats-estimates",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
    }
   ],
   "gate_sources": [
@@ -18698,6 +18707,13 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/19/bitcoin-korea-s-kospi-and-nasdaq-futures-rally-as-china-gdp-beats-estimates",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
    }
   ],
   "verification_status": "UNVERIFIED",
@@ -18721,6 +18737,13 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/10/19/bitcoin-korea-s-kospi-and-nasdaq-futures-rally-as-china-gdp-beats-estimates",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
     }
    ]
   },
@@ -18738,6 +18761,15 @@
     "at": "2026-10-16T10:12-04:00",
     "headline": "Bitcoin up about 1.7% in 24 hours near $82,000; ether, XRP and solana up roughly 3-4%",
     "summary": "Routine recovery: BTC about +1.7% on the day near $82,000 after briefly dipping below $80,000; ETH, XRP and SOL up about 3-4%.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-19T10:11-04:00",
+    "headline": "Bitcoin, Kospi and Nasdaq futures rally as China GDP beats estimates",
+    "summary": "Stronger-than-expected Chinese GDP and lower oil lifted bitcoin about 1% to near $82,900, with Asian stocks and Nasdaq futures higher.",
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 1,
@@ -20419,13 +20451,21 @@
    "https://www.investing.com/news/cryptocurrency-news/bitcoin-price-holds-above-81000-as-etf-outflows-weigh-on-sentiment-4955253",
    "https://www.coindesk.com/latest-crypto-news",
    "https://www.coindesk.com/price/bitcoin",
-   "https://www.ittimes.com/news/articleView.html?idxno=87482"
+   "https://www.ittimes.com/news/articleView.html?idxno=87482",
+   "https://samzal.com/threads/crypto-prices-today-oct-19-2026.823/",
+   "https://crypto.news/bitcoin-price-black-monday-fears-etf-outflows-october",
+   "https://www.coingabbar.com/en/crypto-news-today-bitcoin-saylor-qubic-events-top-12-headlines",
+   "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-19-2026"
   ],
   "source_names": [
    "Investing.com",
    "CoinDesk prices",
    "CoinDesk",
-   "IT Times"
+   "IT Times",
+   "Samzal",
+   "crypto.news",
+   "CoinGabbar",
+   "KuCoin"
   ],
   "sources": [
    {
@@ -20452,6 +20492,34 @@
    {
     "url": "https://www.ittimes.com/news/articleView.html?idxno=87482",
     "name": "IT Times",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://samzal.com/threads/crypto-prices-today-oct-19-2026.823/",
+    "name": "Samzal",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://crypto.news/bitcoin-price-black-monday-fears-etf-outflows-october",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coingabbar.com/en/crypto-news-today-bitcoin-saylor-qubic-events-top-12-headlines",
+    "name": "CoinGabbar",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-19-2026",
+    "name": "KuCoin",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -20482,6 +20550,34 @@
    {
     "url": "https://www.ittimes.com/news/articleView.html?idxno=87482",
     "name": "IT Times",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://samzal.com/threads/crypto-prices-today-oct-19-2026.823/",
+    "name": "Samzal",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://crypto.news/bitcoin-price-black-monday-fears-etf-outflows-october",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coingabbar.com/en/crypto-news-today-bitcoin-saylor-qubic-events-top-12-headlines",
+    "name": "CoinGabbar",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-19-2026",
+    "name": "KuCoin",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -20519,6 +20615,34 @@
     {
      "name": "IT Times",
      "url": "https://www.ittimes.com/news/articleView.html?idxno=87482",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Samzal",
+     "url": "https://samzal.com/threads/crypto-prices-today-oct-19-2026.823/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/bitcoin-price-black-monday-fears-etf-outflows-october",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinGabbar",
+     "url": "https://www.coingabbar.com/en/crypto-news-today-bitcoin-saylor-qubic-events-top-12-headlines",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "KuCoin",
+     "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-19-2026",
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
@@ -20583,6 +20707,42 @@
     "at": "2026-10-18T10:11-04:00",
     "headline": "Circle defends USDC economics as stablecoin rivals court its partners with a bigger revenue cut",
     "summary": "Circle is pushing back on rival stablecoins offering distribution partners higher payouts, while Coinbase also backs a competing network.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-19T10:09-04:00",
+    "headline": "Bitcoin dodges Black Monday fears, holding near $82,000",
+    "summary": "Here's what moved the chain today. Bitcoin dodged Black Monday, holding eighty-two thousand.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-19T10:09-04:00",
+    "headline": "Black Monday chatter spikes while bitcoin climbs over 1%",
+    "summary": "Green candles only! Black Monday chatter spiked, yet bitcoin climbed over one percent!",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-19T10:09-04:00",
+    "headline": "Spot bitcoin ETFs bleed nearly $1 billion in two weeks",
+    "summary": "Check the yields first. Bitcoin ETFs bled nearly one billion dollars in two weeks.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-19T10:09-04:00",
+    "headline": "Wallet dormant since 2013 moves 411 BTC, about $34 million",
+    "summary": "Psst... a wallet asleep since twenty thirteen just moved four hundred eleven bitcoin.",
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
@@ -21789,10 +21949,12 @@
   "metrics": {},
   "emergency": false,
   "source_urls": [
-   "https://crypto.news/michael-saylor-hints-at-more-bitcoin-buys-as-strategy-holds-848250-btc/"
+   "https://crypto.news/michael-saylor-hints-at-more-bitcoin-buys-as-strategy-holds-848250-btc/",
+   "https://www.theblock.co/news/business/2026-10-19-we-found-room-for-more-orange-michael-saylors-strategy-buys-more-bitcoin-418895"
   ],
   "source_names": [
-   "crypto.news"
+   "crypto.news",
+   "The Block"
   ],
   "sources": [
    {
@@ -21801,6 +21963,13 @@
     "kind": "other",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-19-we-found-room-for-more-orange-michael-saylors-strategy-buys-more-bitcoin-418895",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
    }
   ],
   "gate_sources": [
@@ -21810,6 +21979,13 @@
     "kind": "other",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-19-we-found-room-for-more-orange-michael-saylors-strategy-buys-more-bitcoin-418895",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
    }
   ],
   "verification_status": "UNVERIFIED",
@@ -21826,6 +22002,13 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-10-19-we-found-room-for-more-orange-michael-saylors-strategy-buys-more-bitcoin-418895",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
     }
    ]
   },
@@ -21837,7 +22020,17 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-19T10:11-04:00",
+    "headline": "Strategy buys another 267 bitcoin for about $22 million",
+    "summary": "Michael Saylor's Strategy bought 267 more BTC for about $22 million, following Sunday's hint.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -22012,12 +22205,14 @@
   "source_urls": [
    "https://www.theblock.co/news/business/2026-10-19-jpmorgan-jpm-coin-deposit-token-ethereum-418874",
    "https://www.jpmorgan.com/payments/newsroom/jpm-coin-usd-deposit-token-institutional-clients",
-   "https://coincentral.com/jpmorgan-takes-jpm-coin-beyond-base-as-kinexys-hits-4t"
+   "https://coincentral.com/jpmorgan-takes-jpm-coin-beyond-base-as-kinexys-hits-4t",
+   "https://www.jpmorgan.com/payments/newsroom/jpm-coin-live-on-ethereum"
   ],
   "source_names": [
    "The Block",
    "J.P. Morgan (Nov 2025 Base launch release)",
-   "CoinCentral"
+   "CoinCentral",
+   "J.P. Morgan Kinexys newsroom"
   ],
   "sources": [
    {
@@ -22040,6 +22235,13 @@
     "kind": "other",
     "checked": false,
     "confirms": false
+   },
+   {
+    "url": "https://www.jpmorgan.com/payments/newsroom/jpm-coin-live-on-ethereum",
+    "name": "J.P. Morgan Kinexys newsroom",
+    "kind": "primary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -22063,15 +22265,22 @@
     "kind": "other",
     "checked": false,
     "confirms": false
+   },
+   {
+    "url": "https://www.jpmorgan.com/payments/newsroom/jpm-coin-live-on-ethereum",
+    "name": "J.P. Morgan Kinexys newsroom",
+    "kind": "primary",
+    "checked": true,
+    "confirms": true
    }
   ],
-  "verification_status": "UNVERIFIED",
+  "verification_status": "VERIFIED",
   "verification": {
-   "status": "UNVERIFIED",
-   "independent_sources": 1,
-   "has_primary": false,
-   "score": 0.4,
-   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "status": "VERIFIED",
+   "independent_sources": 2,
+   "has_primary": true,
+   "score": 1.0,
+   "reason": "2 independent credible sources confirm it (incl. a primary source)",
    "sources_checked": [
     {
      "name": "The Block",
@@ -22093,6 +22302,13 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "J.P. Morgan Kinexys newsroom",
+     "url": "https://www.jpmorgan.com/payments/newsroom/jpm-coin-live-on-ethereum",
+     "category": "primary",
+     "counts": true,
+     "note": "primary (claimed official source; domain not on the known list)"
     }
    ]
   },
@@ -22101,11 +22317,25 @@
   ],
   "market_significance": "Bank deposit money moving onto Ethereum's public network for institutional payments",
   "trigger": "The Block latest news",
-  "content_created": false,
-  "publication_status": "BLOCKED_UNVERIFIED",
+  "content_created": true,
+  "publication_status": "DRAFTED",
   "related_story_ids": [],
-  "updates": [],
-  "posts": [],
+  "updates": [
+   {
+    "at": "2026-10-19T10:11-04:00",
+    "headline": "JPMorgan brings its JPM Coin deposit token to Ethereum for institutional clients",
+    "summary": "Kinexys by J.P. Morgan says JPM Coin (JPMD), its USD deposit token, is now live on Ethereum mainnet for institutional clients, alongside Base where it launched in November 2025. It supports peer-to-peer transfers across the EVM ecosystem. JPMorgan's own newsroom now confirms the launch.",
+    "new_development": false,
+    "level": "IMPORTANT",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   }
+  ],
+  "posts": [
+   "6ad62665e21b24048f4f76b6",
+   "6ad6265b298c6036197d280c",
+   "6ad6265d3e5fb9f3ab97dfcb"
+  ],
   "needs_followup": false
  },
  {
@@ -22521,6 +22751,310 @@
   ],
   "market_significance": "US crypto policy staffing",
   "trigger": "CoinDesk State of Crypto",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261019_2cf074",
+  "headline": "Qubic halts mainnet after hackers drain 1,404 wallets",
+  "summary": "Wildcard: Qubic froze its network after hackers drained over fourteen hundred wallets.",
+  "detected_at": "2026-10-19T10:09-04:00",
+  "active_since": "2026-10-19T10:09-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "QUBIC"
+  ],
+  "event_type": "hack_exploit",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://cryptobriefing.com/qubic-halts-mainnet-wallet-drain/"
+  ],
+  "source_names": [
+   "Crypto Briefing"
+  ],
+  "sources": [
+   {
+    "url": "https://cryptobriefing.com/qubic-halts-mainnet-wallet-drain/",
+    "name": "Crypto Briefing",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://cryptobriefing.com/qubic-halts-mainnet-wallet-drain/",
+    "name": "Crypto Briefing",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Crypto Briefing",
+     "url": "https://cryptobriefing.com/qubic-halts-mainnet-wallet-drain/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261019_66108e",
+  "headline": "Strive buys another 1,223 bitcoin for $100 million, now holds 36,818 BTC",
+  "summary": "Strive bought about 1,223 BTC for roughly $100 million, per The Block and an SEC 8-K filing, bringing holdings to 36,818 BTC.",
+  "detected_at": "2026-10-19T10:11-04:00",
+  "active_since": "2026-10-19T10:11-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "institutional",
+  "event_time": "2026-10-19T09:45-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-10-19-strive-scoops-1223-bitcoin-100-million-total-holdings-reach-36818-btc-421020",
+   "https://www.sec.gov/Archives/edgar/data/0001920406/000162828026066222/asst-20261019.htm"
+  ],
+  "source_names": [
+   "The Block",
+   "Strive 8-K"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-19-strive-scoops-1223-bitcoin-100-million-total-holdings-reach-36818-btc-421020",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://www.sec.gov/Archives/edgar/data/0001920406/000162828026066222/asst-20261019.htm",
+    "name": "Strive 8-K",
+    "kind": "primary",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-19-strive-scoops-1223-bitcoin-100-million-total-holdings-reach-36818-btc-421020",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://www.sec.gov/Archives/edgar/data/0001920406/000162828026066222/asst-20261019.htm",
+    "name": "Strive 8-K",
+    "kind": "primary",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-10-19-strive-scoops-1223-bitcoin-100-million-total-holdings-reach-36818-btc-421020",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "Strive 8-K",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001920406/000162828026066222/asst-20261019.htm",
+     "category": "primary",
+     "counts": false,
+     "note": "primary (known official domain); not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Routine treasury-company purchase."
+  ],
+  "market_significance": "Continued corporate bitcoin buying.",
+  "trigger": "The Block latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261019_cab242",
+  "headline": "Bitmine adds 12,535 ETH as its treasury reaches 6.04 million tokens",
+  "summary": "Bitmine added 12,535 ETH, bringing its ether treasury to 6.04 million tokens.",
+  "detected_at": "2026-10-19T10:11-04:00",
+  "active_since": "2026-10-19T10:11-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "ETH"
+  ],
+  "event_type": "institutional",
+  "event_time": "2026-10-19T09:36-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-10-19-bitmine-adds-12535-eth-as-treasury-reaches-6-04-million-tokens-421018"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-19-bitmine-adds-12535-eth-as-treasury-reaches-6-04-million-tokens-421018",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-19-bitmine-adds-12535-eth-as-treasury-reaches-6-04-million-tokens-421018",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-10-19-bitmine-adds-12535-eth-as-treasury-reaches-6-04-million-tokens-421018",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Routine treasury purchase."
+  ],
+  "market_significance": "Largest ether treasury keeps buying.",
+  "trigger": "The Block latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261019_8c3e68",
+  "headline": "CME plans to launch bitcoin cash and Uniswap futures, pending regulatory review",
+  "summary": "CME Group plans to list standard and micro BCH and UNI futures starting October 19, pending regulatory review.",
+  "detected_at": "2026-10-19T10:11-04:00",
+  "active_since": "2026-10-19T10:11-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "BCH",
+   "UNI"
+  ],
+  "event_type": "exchange",
+  "event_time": null,
+  "scheduled_event": true,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/markets/2026/10/19/cme-s-bitcoin-cash-uniswap-futures-global-pmis-crypto-week-ahead"
+  ],
+  "source_names": [
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/19/cme-s-bitcoin-cash-uniswap-futures-global-pmis-crypto-week-ahead",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/19/cme-s-bitcoin-cash-uniswap-futures-global-pmis-crypto-week-ahead",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/10/19/cme-s-bitcoin-cash-uniswap-futures-global-pmis-crypto-week-ahead",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Planned listing, not yet confirmed live."
+  ],
+  "market_significance": "New regulated futures for two altcoins.",
+  "trigger": "CoinDesk Crypto Week Ahead",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],

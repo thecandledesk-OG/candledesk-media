@@ -1,0 +1,31 @@
+{
+ "story_id": "st_20261019_7d583e",
+ "date_label": "OCT 19",
+ "headline": "JPMorgan brings its JPM Coin deposit token to Ethereum",
+ "sources": [
+  {"name": "J.P. Morgan Kinexys", "url": "https://www.jpmorgan.com/payments/newsroom/jpm-coin-live-on-ethereum"},
+  {"name": "The Block", "url": "https://www.theblock.co/news/business/2026-10-19-jpmorgan-jpm-coin-deposit-token-ethereum-418874"}
+ ],
+ "scenes": [
+  {"beat": "hook", "who": "ledger",
+   "vo": "America's biggest bank just put its own dollar token on Ethereum's main network. Here's what changed.",
+   "chunks": ["America's biggest bank", "*JPM Coin*", "Now on Ethereum"]},
+  {"beat": "what_happened", "who": "ledger",
+   "vo": "JPMorgan's blockchain unit, Kinexys, says JPM Coin is now live on Ethereum for institutional clients. Each token stands for a real dollar deposit at the bank.",
+   "chunks": ["Live for institutions", "*Real bank deposits*", "On a public chain"],
+   "stat": {"label": "Sources", "text": "J.P. Morgan · The Block"}},
+  {"beat": "why_it_matters", "who": "bruno",
+   "vo": "Here's why traders are watching it. Clients can now send these dollars to each other directly, on Ethereum and on Base, any time of day.",
+   "chunks": ["Bank to bank", "*Ethereum and Base*", "Around the clock"]},
+  {"beat": "why_it_matters", "who": "ursa",
+   "vo": "The catch. This is for big institutions only, not everyday users, and it doesn't change the price of ether on its own.",
+   "chunks": ["The catch", "*Institutions only*", "Not for everyone"]},
+  {"beat": "watch_next", "who": "moby",
+   "vo": "Here's what happens next. Watch whether more banks follow JPMorgan onto public chains, and how much real money moves through JPM Coin.",
+   "chunks": ["Watch next", "*More banks?*", "Real volume"]},
+  {"beat": "cta", "who": "all",
+   "vo": "Follow The Candle Desk for crypto news without the hype. Not financial advice.",
+   "chunks": ["Follow The Candle Desk", "*No hype*", "Just the news"],
+   "foot": "NOT FINANCIAL ADVICE"}
+ ]
+}
