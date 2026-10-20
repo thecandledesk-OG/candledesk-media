@@ -24954,15 +24954,33 @@
   },
   "emergency": false,
   "source_urls": [
-   "https://coindesk.com/markets/2026/10/20/bitcoin-drops-to-usd81-400-as-asian-chip-stocks-tumble-options-traders-seek-downside-protection"
+   "https://coindesk.com/markets/2026/10/20/bitcoin-drops-to-usd81-400-as-asian-chip-stocks-tumble-options-traders-seek-downside-protection",
+   "https://www.coindesk.com/daybook-us/2026/10/20/equity-weakness-could-damp-demand-for-bitcoin-after-biggest-etf-inflows-in-a-month",
+   "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-tuesday-october-20-2026-crypto-prices-slide-and-oil-costs-soar-as-mid-east-attacks-persist-114152288.html"
   ],
   "source_names": [
-   "CoinDesk"
+   "CoinDesk",
+   "CoinDesk",
+   "Yahoo Finance"
   ],
   "sources": [
    {
     "url": "https://coindesk.com/markets/2026/10/20/bitcoin-drops-to-usd81-400-as-asian-chip-stocks-tumble-options-traders-seek-downside-protection",
     "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/daybook-us/2026/10/20/equity-weakness-could-damp-demand-for-bitcoin-after-biggest-etf-inflows-in-a-month",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-tuesday-october-20-2026-crypto-prices-slide-and-oil-costs-soar-as-mid-east-attacks-persist-114152288.html",
+    "name": "Yahoo Finance",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -24975,19 +24993,47 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/daybook-us/2026/10/20/equity-weakness-could-damp-demand-for-bitcoin-after-biggest-etf-inflows-in-a-month",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-tuesday-october-20-2026-crypto-prices-slide-and-oil-costs-soar-as-mid-east-attacks-persist-114152288.html",
+    "name": "Yahoo Finance",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
-  "verification_status": "UNVERIFIED",
+  "verification_status": "VERIFIED",
   "verification": {
-   "status": "UNVERIFIED",
-   "independent_sources": 1,
+   "status": "VERIFIED",
+   "independent_sources": 2,
    "has_primary": false,
-   "score": 0.4,
-   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "score": 0.8,
+   "reason": "2 independent credible sources confirm it (no primary source yet)",
    "sources_checked": [
     {
      "name": "CoinDesk",
      "url": "https://coindesk.com/markets/2026/10/20/bitcoin-drops-to-usd81-400-as-asian-chip-stocks-tumble-options-traders-seek-downside-protection",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/daybook-us/2026/10/20/equity-weakness-could-damp-demand-for-bitcoin-after-biggest-etf-inflows-in-a-month",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-tuesday-october-20-2026-crypto-prices-slide-and-oil-costs-soar-as-mid-east-attacks-persist-114152288.html",
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
@@ -25003,7 +25049,17 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-20T13:11-04:00",
+    "headline": "Bitcoin slips about 1% near $82,700 while XRP and solana gain about 2%",
+    "summary": "CoinDesk's daybook shows bitcoin down about 1.1% and ether down 1.7% over 24 hours, while XRP and SOL rose about 2.2% and 2.4%, as oil above $111 weighs on risk assets.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "VERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -25211,6 +25267,312 @@
   ],
   "market_significance": "Low",
   "trigger": "The Block",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261020_c0c8b0",
+  "headline": "Drift exploiter moves $61.6 million in ether to Tornado Cash after two months of silence",
+  "summary": "The wallet behind April's roughly $270 million Drift Protocol exploit sent 25,700 ETH, about $61.6 million, to Tornado Cash and still holds about 81,864 ETH, according to on-chain trackers.",
+  "detected_at": "2026-10-20T13:11-04:00",
+  "active_since": "2026-10-20T13:11-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "ETH",
+   "SOL"
+  ],
+  "event_type": "hack_exploit",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://247wallst.com/investing/cryptocurrency/2026/10/20/a-hacker-who-stole-270-million-is-moving-it-into-tornado-cash-can-stolen-crypto-ever-be-recovered/",
+   "https://coinfomania.com/velocitydex-resumes-fund-movements-following-270m/"
+  ],
+  "source_names": [
+   "24/7 Wall St.",
+   "Coinfomania"
+  ],
+  "sources": [
+   {
+    "url": "https://247wallst.com/investing/cryptocurrency/2026/10/20/a-hacker-who-stole-270-million-is-moving-it-into-tornado-cash-can-stolen-crypto-ever-be-recovered/",
+    "name": "24/7 Wall St.",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://coinfomania.com/velocitydex-resumes-fund-movements-following-270m/",
+    "name": "Coinfomania",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://247wallst.com/investing/cryptocurrency/2026/10/20/a-hacker-who-stole-270-million-is-moving-it-into-tornado-cash-can-stolen-crypto-ever-be-recovered/",
+    "name": "24/7 Wall St.",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://coinfomania.com/velocitydex-resumes-fund-movements-following-270m/",
+    "name": "Coinfomania",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "24/7 Wall St.",
+     "url": "https://247wallst.com/investing/cryptocurrency/2026/10/20/a-hacker-who-stole-270-million-is-moving-it-into-tornado-cash-can-stolen-crypto-ever-be-recovered/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Coinfomania",
+     "url": "https://coinfomania.com/velocitydex-resumes-fund-movements-following-270m/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Fund movement from a hack that happened in April; no new loss."
+  ],
+  "market_significance": "Shows stolen funds from a major Solana DeFi exploit are being laundered.",
+  "trigger": "247wallst / on-chain tracker reports",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261020_dabeb1",
+  "headline": "Mastercard opens early access to AI agent payments after pilots with Coinbase, Base and Cloudflare",
+  "summary": "Mastercard opened early access to its Agent Pay for Machines APIs and sandbox after pilots with six firms; a demo used Coinbase's x402 protocol with Base settling the payments. The product is still in pilot.",
+  "detected_at": "2026-10-20T13:11-04:00",
+  "active_since": "2026-10-20T13:11-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "USDC",
+   "TOTAL_MARKET"
+  ],
+  "event_type": "partnership",
+  "event_time": "2026-10-20T12:00-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-10-20-mastercard-opens-early-access-to-ai-agent-payments-following-pilots-with-coinbase-base-and-cloudflare-421406"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-20-mastercard-opens-early-access-to-ai-agent-payments-following-pilots-with-coinbase-base-and-cloudflare-421406",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-20-mastercard-opens-early-access-to-ai-agent-payments-following-pilots-with-coinbase-base-and-cloudflare-421406",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-10-20-mastercard-opens-early-access-to-ai-agent-payments-following-pilots-with-coinbase-base-and-cloudflare-421406",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Early-access developer product, not commercially live."
+  ],
+  "market_significance": "Payments giant testing crypto rails for AI agents.",
+  "trigger": "The Block latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261020_28cde5",
+  "headline": "Ethereum and Solana staking hit records as yields fall, Bitwise says",
+  "summary": "Bitwise's Q3 report says staked ETH reached a record 43.8 million, nearly 36% of supply, while average yield slipped to 2.63%. Staked SOL hit 440.5 million, 69% of supply, as Solana transactions rose 45%.",
+  "detected_at": "2026-10-20T13:11-04:00",
+  "active_since": "2026-10-20T13:11-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "ETH",
+   "SOL"
+  ],
+  "event_type": "other",
+  "event_time": "2026-10-20T12:31-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/ecosystems/2026-10-20-ethereum-solana-staking-record-yields-fall-bitwise-q3-421414"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/ecosystems/2026-10-20-ethereum-solana-staking-record-yields-fall-bitwise-q3-421414",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/ecosystems/2026-10-20-ethereum-solana-staking-record-yields-fall-bitwise-q3-421414",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/ecosystems/2026-10-20-ethereum-solana-staking-record-yields-fall-bitwise-q3-421414",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Quarterly data report."
+  ],
+  "market_significance": "Shows growing lockup of ETH and SOL supply.",
+  "trigger": "The Block latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261020_148d1d",
+  "headline": "Revolut outage hits app, card payments and crypto access in the UK and Europe",
+  "summary": "Revolut users reported a broad outage Tuesday morning; its UK status page listed 30 services, including crypto, as partially unavailable. Revolut said customers' money and data are safe and it was working on a fix.",
+  "detected_at": "2026-10-20T13:11-04:00",
+  "active_since": "2026-10-20T13:11-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "outage",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.cryptotimes.io/2026/10/20/revolut-down-global-outage-hits-app-card-payments-and-crypto-access/"
+  ],
+  "source_names": [
+   "The Crypto Times"
+  ],
+  "sources": [
+   {
+    "url": "https://www.cryptotimes.io/2026/10/20/revolut-down-global-outage-hits-app-card-payments-and-crypto-access/",
+    "name": "The Crypto Times",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.cryptotimes.io/2026/10/20/revolut-down-global-outage-hits-app-card-payments-and-crypto-access/",
+    "name": "The Crypto Times",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Crypto Times",
+     "url": "https://www.cryptotimes.io/2026/10/20/revolut-down-global-outage-hits-app-card-payments-and-crypto-access/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Fintech app outage, not a blockchain network or major crypto exchange; regional."
+  ],
+  "market_significance": "Revolut is a large retail crypto on-ramp in Europe.",
+  "trigger": "Search for outages",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
