@@ -20325,13 +20325,15 @@
    "https://crypto.news/crypto-etfs-weekly-outflows-ethereum-bitcoin/",
    "https://www.coingabbar.com/en/crypto-news-october-17-bitcoin-eth-fell-us-inflation-fed-rates",
    "https://decrypt.co/news",
-   "https://www.coindesk.com/price/bitcoin"
+   "https://www.coindesk.com/price/bitcoin",
+   "https://decrypt.co/381424/zcash-crypto-bounce-surging-bitcoin-reclaims"
   ],
   "source_names": [
    "crypto.news",
    "CoinGabbar (prices)",
    "Decrypt",
-   "CoinDesk"
+   "CoinDesk",
+   "Decrypt"
   ],
   "sources": [
    {
@@ -20361,6 +20363,13 @@
     "kind": "secondary",
     "checked": true,
     "confirms": false
+   },
+   {
+    "url": "https://decrypt.co/381424/zcash-crypto-bounce-surging-bitcoin-reclaims",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -20391,6 +20400,13 @@
     "kind": "secondary",
     "checked": true,
     "confirms": false
+   },
+   {
+    "url": "https://decrypt.co/381424/zcash-crypto-bounce-surging-bitcoin-reclaims",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "UNVERIFIED",
@@ -20428,6 +20444,13 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; opened but does not confirm the claim"
+    },
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/381424/zcash-crypto-bounce-surging-bitcoin-reclaims",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -20456,6 +20479,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 2,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-20T19:11-04:00",
+    "headline": "Bitcoin reclaims $83,000 as Zcash leads a crypto bounce, up 8.5%",
+    "summary": "Bitcoin rose about 1.6% to near $83,200, ether about 2.9% to $2,463, XRP and SOL about 2% each, while Zcash jumped 8.5%.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "UNVERIFIED"
    }
   ],
@@ -21400,11 +21432,13 @@
   "emergency": false,
   "source_urls": [
    "https://www.theblock.co/news/markets/2026-10-17-coreweave-broadcom-verizon-among-nine-companies-objecting-to-tokenized-trading-of-their-shares-on-okxice-418859",
-   "https://www.okx.com/cdn/assets/files/2610/F085D8D65135AB9C.pdf"
+   "https://www.okx.com/cdn/assets/files/2610/F085D8D65135AB9C.pdf",
+   "https://decrypt.co/381448/microsoft-alphabet-goldman-sachs-growing-list-objecting-tokenized-stocks"
   ],
   "source_names": [
    "The Block",
-   "OKXICE notice"
+   "OKXICE notice",
+   "Decrypt"
   ],
   "sources": [
    {
@@ -21420,6 +21454,13 @@
     "kind": "primary",
     "checked": false,
     "confirms": false
+   },
+   {
+    "url": "https://decrypt.co/381448/microsoft-alphabet-goldman-sachs-growing-list-objecting-tokenized-stocks",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -21436,15 +21477,22 @@
     "kind": "primary",
     "checked": false,
     "confirms": false
+   },
+   {
+    "url": "https://decrypt.co/381448/microsoft-alphabet-goldman-sachs-growing-list-objecting-tokenized-stocks",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
-  "verification_status": "UNVERIFIED",
+  "verification_status": "VERIFIED",
   "verification": {
-   "status": "UNVERIFIED",
-   "independent_sources": 1,
+   "status": "VERIFIED",
+   "independent_sources": 2,
    "has_primary": false,
-   "score": 0.4,
-   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "score": 0.8,
+   "reason": "2 independent credible sources confirm it (no primary source yet)",
    "sources_checked": [
     {
      "name": "The Block",
@@ -21459,6 +21507,13 @@
      "category": "primary",
      "counts": false,
      "note": "primary (claimed official source; domain not on the known list); not opened, so it doesn't count"
+    },
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/381448/microsoft-alphabet-goldman-sachs-growing-list-objecting-tokenized-stocks",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -21470,7 +21525,17 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-20T19:11-04:00",
+    "headline": "Microsoft, Alphabet and Goldman Sachs join objectors to tokenized trading of their shares on OKXICE, now 16 companies",
+    "summary": "Seven more issuers including Microsoft, Alphabet, Goldman Sachs, Qualcomm and McDonald's object to their shares trading on the planned OKX and ICE tokenized stock venue, up from nine four days earlier.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -23694,11 +23759,13 @@
   "emergency": false,
   "source_urls": [
    "https://crypto.news/hyperliquid-sec-crypto-regulation-proposals/",
-   "https://x.com/HyperliquidPC/status/2112153231988031622"
+   "https://x.com/HyperliquidPC/status/2112153231988031622",
+   "https://www.theblock.co/news/regulation/2026-10-20-sec-regulation-crypto-assets-comment-period-hyperliquid-sifma-aima-421444"
   ],
   "source_names": [
    "crypto.news",
-   "Hyperliquid Policy Center on X"
+   "Hyperliquid Policy Center on X",
+   "The Block"
   ],
   "sources": [
    {
@@ -23714,6 +23781,13 @@
     "kind": "social",
     "checked": false,
     "confirms": false
+   },
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-10-20-sec-regulation-crypto-assets-comment-period-hyperliquid-sifma-aima-421444",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -23730,15 +23804,22 @@
     "kind": "social",
     "checked": false,
     "confirms": false
+   },
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-10-20-sec-regulation-crypto-assets-comment-period-hyperliquid-sifma-aima-421444",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "UNVERIFIED",
   "verification": {
    "status": "UNVERIFIED",
-   "independent_sources": 0,
+   "independent_sources": 1,
    "has_primary": false,
-   "score": 0.0,
-   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
    "sources_checked": [
     {
      "name": "crypto.news",
@@ -23753,6 +23834,13 @@
      "category": "social",
      "counts": false,
      "note": "social/community post — can trigger investigation, never verifies"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-10-20-sec-regulation-crypto-assets-comment-period-hyperliquid-sifma-aima-421444",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -23764,7 +23852,17 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-20T19:11-04:00",
+    "headline": "SEC comment period on Regulation Crypto Assets closes with more than 100 submissions from Hyperliquid Policy Center, SIFMA and AIMA",
+    "summary": "Industry groups and Wall Street trade bodies asked the SEC to change its proposed Regulation Crypto Assets as the comment window closed Tuesday. No final SEC decision yet.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -25715,6 +25813,218 @@
   ],
   "market_significance": "More retail access to crypto options.",
   "trigger": "The Block latest news 10:31 AM ET",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261020_78365a",
+  "headline": "French lawmakers back a tax on crypto-to-stablecoin swaps by one vote",
+  "summary": "France's National Assembly adopted a budget amendment 38 to 37 that would make swapping crypto into euro or dollar stablecoins taxable from January 2027. It still faces the full revenue vote and the Senate.",
+  "detected_at": "2026-10-20T19:11-04:00",
+  "active_since": "2026-10-20T19:11-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "USDC",
+   "USDT",
+   "TOTAL_MARKET"
+  ],
+  "event_type": "regulatory",
+  "event_time": "2026-10-20T12:00-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://decrypt.co/381413/french-lawmakers-back-stablecoin-swap-tax-by-just-one-vote"
+  ],
+  "source_names": [
+   "Decrypt"
+  ],
+  "sources": [
+   {
+    "url": "https://decrypt.co/381413/french-lawmakers-back-stablecoin-swap-tax-by-just-one-vote",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://decrypt.co/381413/french-lawmakers-back-stablecoin-swap-tax-by-just-one-vote",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/381413/french-lawmakers-back-stablecoin-swap-tax-by-just-one-vote",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Amendment stage only, not law."
+  ],
+  "market_significance": "Could change tax treatment for French crypto holders.",
+  "trigger": "Decrypt news page",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261020_6fa14a",
+  "headline": "Utah sues Kalshi and two Susquehanna firms, calling the prediction market a back-alley gambling den",
+  "summary": "Utah's attorney general accuses Kalshi and two Susquehanna trading firms of running an illegal gambling business and seeks restitution and a block on sports, election and other event bets.",
+  "detected_at": "2026-10-20T19:11-04:00",
+  "active_since": "2026-10-20T19:11-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "legal",
+  "event_time": "2026-10-20T15:12-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/regulation/2026-10-20-utah-likens-kalshi-back-alley-gambling-den-lawsuit-naming-susquehanna-firms-421442"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-10-20-utah-likens-kalshi-back-alley-gambling-den-lawsuit-naming-susquehanna-firms-421442",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-10-20-utah-likens-kalshi-back-alley-gambling-den-lawsuit-naming-susquehanna-firms-421442",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-10-20-utah-likens-kalshi-back-alley-gambling-den-lawsuit-naming-susquehanna-firms-421442",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: State lawsuit against a prediction market, adjacent to crypto."
+  ],
+  "market_significance": "Adds to state pushback on event contracts.",
+  "trigger": "The Block latest news 3:12 PM ET",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261020_a650c6",
+  "headline": "Bitcoin yield platform HoneyB developer raises $5 million at a $30 million valuation",
+  "summary": "The developer behind the HoneyB bitcoin yield platform raised $5 million at a $30 million valuation.",
+  "detected_at": "2026-10-20T19:11-04:00",
+  "active_since": "2026-10-20T19:11-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "other",
+  "event_time": "2026-10-20T13:11-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/deals/2026-10-20-bitcoin-yield-platform-honeyb-funding-valuation-421430"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/deals/2026-10-20-bitcoin-yield-platform-honeyb-funding-valuation-421430",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/deals/2026-10-20-bitcoin-yield-platform-honeyb-funding-valuation-421430",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/deals/2026-10-20-bitcoin-yield-platform-honeyb-funding-valuation-421430",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Small funding round."
+  ],
+  "market_significance": "Minor.",
+  "trigger": "The Block latest news 1:11 PM ET",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
