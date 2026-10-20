@@ -1,0 +1,31 @@
+{
+ "story_id": "st_20261020_5d0de6",
+ "date_label": "OCT 20",
+ "headline": "Switzerland approves its first retail spot bitcoin ETF",
+ "sources": [
+  {"name": "The Block", "url": "https://www.theblock.co/news/regulation/2026-10-20-swiss-regulator-finma-approves-countrys-first-spot-bitcoin-etf-for-retail-investors-421127"},
+  {"name": "Cointelegraph", "url": "https://cointelegraph.com/news/finma-approves-switzerlands-first-bitcoin-etf-retail"}
+ ],
+ "scenes": [
+  {"beat": "hook", "who": "ledger",
+   "vo": "Switzerland just cleared its first bitcoin ETF that everyday investors can buy. Here's what changed.",
+   "chunks": ["Switzerland says yes", "*First retail bitcoin ETF*", "Here's what changed"]},
+  {"beat": "what_happened", "who": "ledger",
+   "vo": "On Tuesday, Swiss regulator Finma approved a fund that holds bitcoin directly under Swiss fund law and is open to retail investors. It did not name the issuer.",
+   "chunks": ["Approved Tuesday", "*Holds real bitcoin*", "Issuer not named"],
+   "stat": {"label": "Sources", "text": "The Block · Cointelegraph"}},
+  {"beat": "why_it_matters", "who": "bruno",
+   "vo": "Here's why traders are watching it. Until now, Swiss savers mostly used bitcoin notes. A regulated fund that owns the coins adds investor protections.",
+   "chunks": ["Why it matters", "*A regulated fund*", "Owns the coins"]},
+  {"beat": "why_it_matters", "who": "ursa",
+   "vo": "The catch. There's no ticker or launch date yet, and Finma warns bitcoin funds carry high risk, including big losses.",
+   "chunks": ["The catch", "*No launch date yet*", "High risk warning"]},
+  {"beat": "watch_next", "who": "moby",
+   "vo": "Here's what happens next. Watch for the issuer's name, the fees, the listing date, and whether other Swiss providers win approval too.",
+   "chunks": ["Watch next", "*Issuer and fees*", "More approvals"]},
+  {"beat": "cta", "who": "all",
+   "vo": "Follow The Candle Desk for crypto news without the hype. Not financial advice.",
+   "chunks": ["Follow The Candle Desk", "*No hype*", "Just the news"],
+   "foot": "NOT FINANCIAL ADVICE"}
+ ]
+}

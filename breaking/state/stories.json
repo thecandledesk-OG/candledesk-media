@@ -20583,7 +20583,9 @@
    "https://samzal.com/threads/crypto-prices-today-oct-19-2026.823/",
    "https://crypto.news/bitcoin-price-black-monday-fears-etf-outflows-october",
    "https://www.coingabbar.com/en/crypto-news-today-bitcoin-saylor-qubic-events-top-12-headlines",
-   "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-19-2026"
+   "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-19-2026",
+   "https://beincrypto.com/bitcoin-etf-inflows-nearly-month-high/",
+   "https://financefeeds.com/bitcoin-etfs-attract-526-7-million-as-crypto-funds-rebound-on-october-19/"
   ],
   "source_names": [
    "Investing.com",
@@ -20593,7 +20595,9 @@
    "Samzal",
    "crypto.news",
    "CoinGabbar",
-   "KuCoin"
+   "KuCoin",
+   "BeInCrypto",
+   "FinanceFeeds"
   ],
   "sources": [
    {
@@ -20648,6 +20652,20 @@
    {
     "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-19-2026",
     "name": "KuCoin",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://beincrypto.com/bitcoin-etf-inflows-nearly-month-high/",
+    "name": "BeInCrypto",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://financefeeds.com/bitcoin-etfs-attract-526-7-million-as-crypto-funds-rebound-on-october-19/",
+    "name": "FinanceFeeds",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -20706,6 +20724,20 @@
    {
     "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-19-2026",
     "name": "KuCoin",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://beincrypto.com/bitcoin-etf-inflows-nearly-month-high/",
+    "name": "BeInCrypto",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://financefeeds.com/bitcoin-etfs-attract-526-7-million-as-crypto-funds-rebound-on-october-19/",
+    "name": "FinanceFeeds",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -20771,6 +20803,20 @@
     {
      "name": "KuCoin",
      "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-19-2026",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "BeInCrypto",
+     "url": "https://beincrypto.com/bitcoin-etf-inflows-nearly-month-high/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "FinanceFeeds",
+     "url": "https://financefeeds.com/bitcoin-etfs-attract-526-7-million-as-crypto-funds-rebound-on-october-19/",
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
@@ -20871,6 +20917,33 @@
     "at": "2026-10-19T10:09-04:00",
     "headline": "Wallet dormant since 2013 moves 411 BTC, about $34 million",
     "summary": "Psst... a wallet asleep since twenty thirteen just moved four hundred eleven bitcoin.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-20T10:09-04:00",
+    "headline": "Spot bitcoin ETFs take in $526 million in a day",
+    "summary": "Here's what moved the chain today. Bitcoin ETFs grabbed five hundred twenty-six million dollars yesterday.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-20T10:09-04:00",
+    "headline": "BlackRock's IBIT scoops $665 million in a day",
+    "summary": "Green candles only! BlackRock's fund alone scooped six hundred sixty-five million dollars!",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-20T10:09-04:00",
+    "headline": "Ether ETFs bleed $103 million, outflows 14 of 15 days",
+    "summary": "Check the yields first. Only one fund bought; ether ETFs bled one hundred three million.",
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
@@ -24520,6 +24593,624 @@
   ],
   "market_significance": "Could simplify U.S. exchange licensing if adopted",
   "trigger": "KuCoin daily report",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261020_4a6ca8",
+  "headline": "LayerZero unlocks 23 million ZRO tokens, about $43 million",
+  "summary": "Psst... LayerZero unlocks twenty-three million tokens today, worth about forty-three million dollars.",
+  "detected_at": "2026-10-20T10:09-04:00",
+  "active_since": "2026-10-20T10:09-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "ZRO"
+  ],
+  "event_type": "other",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://beincrypto.com/token-unlocks-fourth-week-of-october-2026/"
+  ],
+  "source_names": [
+   "BeInCrypto"
+  ],
+  "sources": [
+   {
+    "url": "https://beincrypto.com/token-unlocks-fourth-week-of-october-2026/",
+    "name": "BeInCrypto",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://beincrypto.com/token-unlocks-fourth-week-of-october-2026/",
+    "name": "BeInCrypto",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "BeInCrypto",
+     "url": "https://beincrypto.com/token-unlocks-fourth-week-of-october-2026/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261020_9ff960",
+  "headline": "Solana's Alpenglow upgrade lands October 21, cutting finality to about 150 milliseconds",
+  "summary": "Wildcard: Solana's Alpenglow upgrade lands tomorrow, cutting finality to one hundred fifty milliseconds.",
+  "detected_at": "2026-10-20T10:09-04:00",
+  "active_since": "2026-10-20T10:09-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "SOL"
+  ],
+  "event_type": "protocol_upgrade",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://calebandbrown.com/blog/weekly-rollup-october-20-2026/"
+  ],
+  "source_names": [
+   "Caleb & Brown"
+  ],
+  "sources": [
+   {
+    "url": "https://calebandbrown.com/blog/weekly-rollup-october-20-2026/",
+    "name": "Caleb & Brown",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://calebandbrown.com/blog/weekly-rollup-october-20-2026/",
+    "name": "Caleb & Brown",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Caleb & Brown",
+     "url": "https://calebandbrown.com/blog/weekly-rollup-october-20-2026/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261020_5d0de6",
+  "headline": "Swiss regulator FINMA approves Switzerland's first spot bitcoin ETF for retail investors",
+  "summary": "FINMA approved the first ETF in Switzerland that holds bitcoin directly under Swiss fund law and is open to retail investors. It classed it as an 'other fund for alternative investments' with specific risk. FINMA did not name the issuer; ticker and launch date not announced. Switzerland already had bitcoin ETPs (debt notes) on SIX.",
+  "detected_at": "2026-10-20T10:21-04:00",
+  "active_since": "2026-10-20T10:21-04:00",
+  "classification": "IMPORTANT",
+  "proposed_level": "IMPORTANT",
+  "confidence": 0.85,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "etf",
+  "event_time": "2026-10-20T08:00-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/regulation/2026-10-20-swiss-regulator-finma-approves-countrys-first-spot-bitcoin-etf-for-retail-investors-421127",
+   "https://cointelegraph.com/news/finma-approves-switzerlands-first-bitcoin-etf-retail",
+   "https://www.finma.ch/news/2026/10/20261020-mm-finma-bitcoin-etf/"
+  ],
+  "source_names": [
+   "The Block",
+   "Cointelegraph",
+   "FINMA"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-10-20-swiss-regulator-finma-approves-countrys-first-spot-bitcoin-etf-for-retail-investors-421127",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cointelegraph.com/news/finma-approves-switzerlands-first-bitcoin-etf-retail",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.finma.ch/news/2026/10/20261020-mm-finma-bitcoin-etf/",
+    "name": "FINMA",
+    "kind": "primary",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-10-20-swiss-regulator-finma-approves-countrys-first-spot-bitcoin-etf-for-retail-investors-421127",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cointelegraph.com/news/finma-approves-switzerlands-first-bitcoin-etf-retail",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.finma.ch/news/2026/10/20261020-mm-finma-bitcoin-etf/",
+    "name": "FINMA",
+    "kind": "primary",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "verification_status": "VERIFIED",
+  "verification": {
+   "status": "VERIFIED",
+   "independent_sources": 2,
+   "has_primary": false,
+   "score": 0.8,
+   "reason": "2 independent credible sources confirm it (no primary source yet)",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-10-20-swiss-regulator-finma-approves-countrys-first-spot-bitcoin-etf-for-retail-investors-421127",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Cointelegraph",
+     "url": "https://cointelegraph.com/news/finma-approves-switzerlands-first-bitcoin-etf-retail",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "FINMA",
+     "url": "https://www.finma.ch/news/2026/10/20261020-mm-finma-bitcoin-etf/",
+     "category": "primary",
+     "counts": false,
+     "note": "primary (claimed official source; domain not on the known list); not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed IMPORTANT: Regulator approval of a new retail spot bitcoin fund structure in a major financial centre"
+  ],
+  "market_significance": "First Swiss retail spot bitcoin ETF under fund law; issuer unnamed, so near-term flow impact unclear",
+  "trigger": "The Block regulation headline",
+  "content_created": true,
+  "publication_status": "DRAFTED",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [
+   "6ad77b09ca72dcf89180a33e",
+   "6ad77b0c009aee686442f192",
+   "6ad77b0fca72dcf89180a471"
+  ],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261020_18e6c3",
+  "headline": "Mt. Gox repayment deadline pushed to October 2027 with about 34,000 BTC still to distribute",
+  "summary": "A Tokyo court approved extending Mt. Gox's repayment deadline from Oct 31, 2026 to Oct 31, 2027, per a trustee notice dated Oct 16. Arkham data shows about 34,388 BTC (~$2.8B) remaining.",
+  "detected_at": "2026-10-20T10:21-04:00",
+  "active_since": "2026-10-20T10:21-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "legal",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://decrypt.co/381392/mt-gox-pushes-repayment-deadline-to-2027-with-2-8b-in-bitcoin-still-to-distribute"
+  ],
+  "source_names": [
+   "Decrypt"
+  ],
+  "sources": [
+   {
+    "url": "https://decrypt.co/381392/mt-gox-pushes-repayment-deadline-to-2027-with-2-8b-in-bitcoin-still-to-distribute",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://decrypt.co/381392/mt-gox-pushes-repayment-deadline-to-2027-with-2-8b-in-bitcoin-still-to-distribute",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/381392/mt-gox-pushes-repayment-deadline-to-2027-with-2-8b-in-bitcoin-still-to-distribute",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Deadline extension; no coins moved"
+  ],
+  "market_significance": "Delays a potential supply overhang",
+  "trigger": "Decrypt",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261020_53739e",
+  "headline": "Bitcoin hovers around $81,400 to $83,000 as AI chip-stock selloff weighs; options traders buy downside protection",
+  "summary": "CoinDesk reports BTC near $81,400 early Tuesday amid Asian chip-stock losses, later ticker near $83,100 (+1.1%); ETH +2.3%, XRP +2.1%, SOL +3%. No major coin moved over 10%.",
+  "detected_at": "2026-10-20T10:21-04:00",
+  "active_since": "2026-10-20T10:21-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "BTC",
+   "ETH",
+   "XRP",
+   "SOL",
+   "TOTAL_MARKET"
+  ],
+  "event_type": "market_move",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {
+   "pct_move_24h": 1.1
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://coindesk.com/markets/2026/10/20/bitcoin-drops-to-usd81-400-as-asian-chip-stocks-tumble-options-traders-seek-downside-protection"
+  ],
+  "source_names": [
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://coindesk.com/markets/2026/10/20/bitcoin-drops-to-usd81-400-as-asian-chip-stocks-tumble-options-traders-seek-downside-protection",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://coindesk.com/markets/2026/10/20/bitcoin-drops-to-usd81-400-as-asian-chip-stocks-tumble-options-traders-seek-downside-protection",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://coindesk.com/markets/2026/10/20/bitcoin-drops-to-usd81-400-as-asian-chip-stocks-tumble-options-traders-seek-downside-protection",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Routine move",
+   "price rule: BTC moved 1.1% in 24h (thresholds 7%/12%) -> NORMAL"
+  ],
+  "market_significance": "Low",
+  "trigger": "CoinDesk markets",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261020_c8b8e7",
+  "headline": "JPMorgan projects about 10% annual bitcoin returns over the next decade, ahead of stocks, bonds and gold",
+  "summary": "JPMorgan long-term capital market assumptions put bitcoin's expected annual return near 10% over 10 years.",
+  "detected_at": "2026-10-20T10:21-04:00",
+  "active_since": "2026-10-20T10:21-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "institutional",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/markets/2026/10/20/jpmorgan-sees-10-annual-bitcoin-returns-topping-stocks-bonds-and-gold-over-next-decade"
+  ],
+  "source_names": [
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/20/jpmorgan-sees-10-annual-bitcoin-returns-topping-stocks-bonds-and-gold-over-next-decade",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/20/jpmorgan-sees-10-annual-bitcoin-returns-topping-stocks-bonds-and-gold-over-next-decade",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/10/20/jpmorgan-sees-10-annual-bitcoin-returns-topping-stocks-bonds-and-gold-over-next-decade",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Forecast, not an event"
+  ],
+  "market_significance": "Low",
+  "trigger": "CoinDesk",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261020_ee1d29",
+  "headline": "Coinbase and The Block study: stablecoins move over $400 million per hour, mostly outside banking hours",
+  "summary": "Study finds stablecoin transfers average more than $400M an hour, with off-hours transfers dominating.",
+  "detected_at": "2026-10-20T10:21-04:00",
+  "active_since": "2026-10-20T10:21-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "USDC",
+   "USDT"
+  ],
+  "event_type": "other",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/web3/2026-10-20-stablecoins-move-400-million-per-hour-421111"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/web3/2026-10-20-stablecoins-move-400-million-per-hour-421111",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/web3/2026-10-20-stablecoins-move-400-million-per-hour-421111",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/web3/2026-10-20-stablecoins-move-400-million-per-hour-421111",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Research report"
+  ],
+  "market_significance": "Low",
+  "trigger": "The Block",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261020_a95bc2",
+  "headline": "Injective partners with BDACS to bring a Korean won stablecoin to its RWA ecosystem",
+  "summary": "Injective and Korean custodian BDACS partner on a KRW stablecoin for Injective's real-world-asset ecosystem.",
+  "detected_at": "2026-10-20T10:21-04:00",
+  "active_since": "2026-10-20T10:21-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "INJ"
+  ],
+  "event_type": "partnership",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://theblock.co/news/markets/2026-10-20-injective-partners-bdacs-418883"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://theblock.co/news/markets/2026-10-20-injective-partners-bdacs-418883",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://theblock.co/news/markets/2026-10-20-injective-partners-bdacs-418883",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://theblock.co/news/markets/2026-10-20-injective-partners-bdacs-418883",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Small partnership"
+  ],
+  "market_significance": "Low",
+  "trigger": "The Block",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
