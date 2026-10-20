@@ -24165,5 +24165,366 @@
   "updates": [],
   "posts": [],
   "needs_followup": false
+ },
+ {
+  "id": "st_20261020_c6684f",
+  "headline": "BlackRock's IBIT draws $665 million in a day, its biggest inflow in a year, as spot bitcoin ETFs take in $526.6 million",
+  "summary": "IBIT took in $665.16 million on Monday Oct 19, its largest single-day inflow since October 2025. Total U.S. spot bitcoin ETF net inflows were $526.6 million after Fidelity and Grayscale outflows; spot ether ETFs lost $103.3 million, a fourth straight day of outflows.",
+  "detected_at": "2026-10-20T07:19-04:00",
+  "active_since": "2026-10-20T07:19-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.85,
+  "assets": [
+   "BTC",
+   "ETH"
+  ],
+  "event_type": "etf",
+  "event_time": "2026-10-19T16:00-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/markets/2026-10-20-blackrock-ibit-bitcoin-etf-665-million-421102",
+   "https://www.coindesk.com/markets/2026/10/20/bitcoin-drops-to-usd81-400-as-asian-chip-stocks-tumble-options-traders-seek-downside-protection",
+   "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-20-2026"
+  ],
+  "source_names": [
+   "The Block",
+   "CoinDesk",
+   "KuCoin News"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-10-20-blackrock-ibit-bitcoin-etf-665-million-421102",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/20/bitcoin-drops-to-usd81-400-as-asian-chip-stocks-tumble-options-traders-seek-downside-protection",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-20-2026",
+    "name": "KuCoin News",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-10-20-blackrock-ibit-bitcoin-etf-665-million-421102",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/20/bitcoin-drops-to-usd81-400-as-asian-chip-stocks-tumble-options-traders-seek-downside-protection",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-20-2026",
+    "name": "KuCoin News",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "VERIFIED",
+  "verification": {
+   "status": "VERIFIED",
+   "independent_sources": 2,
+   "has_primary": false,
+   "score": 0.8,
+   "reason": "2 independent credible sources confirm it (no primary source yet)",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/markets/2026-10-20-blackrock-ibit-bitcoin-etf-665-million-421102",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/10/20/bitcoin-drops-to-usd81-400-as-asian-chip-stocks-tumble-options-traders-seek-downside-protection",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "KuCoin News",
+     "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-20-2026",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Daily ETF flow data; notable but routine"
+  ],
+  "market_significance": "Largest IBIT inflow in a year while ether funds keep bleeding",
+  "trigger": "The Block latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [
+   {
+    "at": "2026-10-20T07:19-04:00",
+    "headline": "Bitcoin slips to about $81,400 as Asian chip stocks tumble and options traders buy downside protection",
+    "summary": "Bitcoin eased about 1% to near $81,400 and ether about 1% to $2,385; XRP near $1.30 and SOL near $104 were down under 1%. Korea's Kospi fell 3.7% on AI-spending worries, Brent oil is near $110, and Deribit puts traded at more than twice the volume of calls.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   }
+  ],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261020_aadabd",
+  "headline": "Bitget moves to buy a licensed Thai crypto exchange operator weeks after its $388 million hack",
+  "summary": "A Bitget-linked company, BTGT Management (Thailand), plans to acquire GMO-Z.com Cryptonomics, operator of Z.com EX, from GMO Internet. The share transfer is targeted for Oct 31 but needs Thai regulatory approval; price not disclosed.",
+  "detected_at": "2026-10-20T07:19-04:00",
+  "active_since": "2026-10-20T07:19-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "exchange",
+  "event_time": "2026-10-20T06:00-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://crypto.news/bitget-thai-crypto-exchange-acquisition/"
+  ],
+  "source_names": [
+   "crypto.news"
+  ],
+  "sources": [
+   {
+    "url": "https://crypto.news/bitget-thai-crypto-exchange-acquisition/",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://crypto.news/bitget-thai-crypto-exchange-acquisition/",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/bitget-thai-crypto-exchange-acquisition/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Pending regional acquisition"
+  ],
+  "market_significance": "Bitget seeks a licensed foothold in Thailand after its September hack",
+  "trigger": "crypto.news search result",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261020_9bf553",
+  "headline": "Blockchain Association says Treasury's GENIUS Act rollout needs clearer DeFi and foreign-issuer rules",
+  "summary": "The Blockchain Association asked Treasury for clearer rules on DeFi and foreign stablecoin issuers as it implements the GENIUS Act.",
+  "detected_at": "2026-10-20T07:19-04:00",
+  "active_since": "2026-10-20T07:19-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "USDC",
+   "USDT"
+  ],
+  "event_type": "regulatory",
+  "event_time": "2026-10-20T00:07-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/regulation/2026-10-20-blockchain-association-clearer-rules-genius-act-421092"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-10-20-blockchain-association-clearer-rules-genius-act-421092",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-10-20-blockchain-association-clearer-rules-genius-act-421092",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-10-20-blockchain-association-clearer-rules-genius-act-421092",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Industry comment letter, no decision"
+  ],
+  "market_significance": "Shapes how U.S. stablecoin rules are written",
+  "trigger": "The Block latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261020_bbfc0a",
+  "headline": "CFTC floats Reg CM, a voluntary path for crypto exchanges to choose federal oversight over state licences",
+  "summary": "CFTC senior adviser Michael Passalacqua described Reg CM, a proposed framework letting crypto exchanges opt in to unified federal oversight instead of state-by-state licensing, as a plan B while the Clarity Act stalls.",
+  "detected_at": "2026-10-20T07:19-04:00",
+  "active_since": "2026-10-20T07:19-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.55,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "regulatory",
+  "event_time": "2026-10-18T21:47-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://panews.io/articles/01a151d8-06cf-7431-906e-af5bf7b65c37",
+   "https://www.coindesk.com/video/cftc-s-michael-passalacqua-reveals-plan-b-for-crypto-regulation-after-clarity-act-stalls"
+  ],
+  "source_names": [
+   "PANews",
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://panews.io/articles/01a151d8-06cf-7431-906e-af5bf7b65c37",
+    "name": "PANews",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/video/cftc-s-michael-passalacqua-reveals-plan-b-for-crypto-regulation-after-clarity-act-stalls",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://panews.io/articles/01a151d8-06cf-7431-906e-af5bf7b65c37",
+    "name": "PANews",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/video/cftc-s-michael-passalacqua-reveals-plan-b-for-crypto-regulation-after-clarity-act-stalls",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "PANews",
+     "url": "https://panews.io/articles/01a151d8-06cf-7431-906e-af5bf7b65c37",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/video/cftc-s-michael-passalacqua-reveals-plan-b-for-crypto-regulation-after-clarity-act-stalls",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Proposal described in interview, no formal rule found"
+  ],
+  "market_significance": "Could simplify U.S. exchange licensing if adopted",
+  "trigger": "KuCoin daily report",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
  }
 ]
