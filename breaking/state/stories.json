@@ -24818,10 +24818,14 @@
   "metrics": {},
   "emergency": false,
   "source_urls": [
-   "https://calebandbrown.com/blog/weekly-rollup-october-20-2026/"
+   "https://calebandbrown.com/blog/weekly-rollup-october-20-2026/",
+   "https://www.coindesk.com/tech/2026/10/21/solana-s-alpenglow-its-biggest-network-overhaul-since-2020-goes-live-wednesday",
+   "https://coingape.com/solanas-alpenglow-goes-live-aiming-for-40x-faster-finality-as-votes-move-off-chain/"
   ],
   "source_names": [
-   "Caleb & Brown"
+   "Caleb & Brown",
+   "CoinDesk",
+   "CoinGape"
   ],
   "sources": [
    {
@@ -24830,6 +24834,20 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/tech/2026/10/21/solana-s-alpenglow-its-biggest-network-overhaul-since-2020-goes-live-wednesday",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://coingape.com/solanas-alpenglow-goes-live-aiming-for-40x-faster-finality-as-votes-move-off-chain/",
+    "name": "CoinGape",
+    "kind": "other",
+    "checked": true,
+    "confirms": false
    }
   ],
   "gate_sources": [
@@ -24839,19 +24857,47 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/tech/2026/10/21/solana-s-alpenglow-its-biggest-network-overhaul-since-2020-goes-live-wednesday",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://coingape.com/solanas-alpenglow-goes-live-aiming-for-40x-faster-finality-as-votes-move-off-chain/",
+    "name": "CoinGape",
+    "kind": "other",
+    "checked": true,
+    "confirms": false
    }
   ],
   "verification_status": "UNVERIFIED",
   "verification": {
    "status": "UNVERIFIED",
-   "independent_sources": 0,
+   "independent_sources": 1,
    "has_primary": false,
-   "score": 0.0,
-   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
    "sources_checked": [
     {
      "name": "Caleb & Brown",
      "url": "https://calebandbrown.com/blog/weekly-rollup-october-20-2026/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/tech/2026/10/21/solana-s-alpenglow-its-biggest-network-overhaul-since-2020-goes-live-wednesday",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "CoinGape",
+     "url": "https://coingape.com/solanas-alpenglow-goes-live-aiming-for-40x-faster-finality-as-votes-move-off-chain/",
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
@@ -24866,7 +24912,17 @@
   "content_created": false,
   "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-21T10:21-04:00",
+    "headline": "Solana's Alpenglow upgrade due to activate at epoch 1064 on October 21; activation not yet confirmed",
+    "summary": "CoinDesk says Alpenglow is scheduled to go live Wednesday at the start of epoch 1064, cutting finality from about six seconds to about 150 milliseconds and moving validator votes off-chain. As of this check, no official or credible outlet has confirmed activation.",
+    "new_development": false,
+    "level": "IMPORTANT",
+    "sources_added": 2,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -25424,11 +25480,13 @@
   "emergency": false,
   "source_urls": [
    "https://247wallst.com/investing/cryptocurrency/2026/10/20/a-hacker-who-stole-270-million-is-moving-it-into-tornado-cash-can-stolen-crypto-ever-be-recovered/",
-   "https://coinfomania.com/velocitydex-resumes-fund-movements-following-270m/"
+   "https://coinfomania.com/velocitydex-resumes-fund-movements-following-270m/",
+   "https://coinedition.com/24-hour-crypto-recap-heres-what-happened-in-the-market-80/"
   ],
   "source_names": [
    "24/7 Wall St.",
-   "Coinfomania"
+   "Coinfomania",
+   "Coin Edition"
   ],
   "sources": [
    {
@@ -25442,6 +25500,13 @@
     "url": "https://coinfomania.com/velocitydex-resumes-fund-movements-following-270m/",
     "name": "Coinfomania",
     "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://coinedition.com/24-hour-crypto-recap-heres-what-happened-in-the-market-80/",
+    "name": "Coin Edition",
+    "kind": "secondary",
     "checked": true,
     "confirms": true
    }
@@ -25458,6 +25523,13 @@
     "url": "https://coinfomania.com/velocitydex-resumes-fund-movements-following-270m/",
     "name": "Coinfomania",
     "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://coinedition.com/24-hour-crypto-recap-heres-what-happened-in-the-market-80/",
+    "name": "Coin Edition",
+    "kind": "secondary",
     "checked": true,
     "confirms": true
    }
@@ -25483,6 +25555,13 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Coin Edition",
+     "url": "https://coinedition.com/24-hour-crypto-recap-heres-what-happened-in-the-market-80/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -25492,9 +25571,28 @@
   "market_significance": "Shows stolen funds from a major Solana DeFi exploit are being laundered.",
   "trigger": "247wallst / on-chain tracker reports",
   "content_created": false,
-  "publication_status": "QUEUED_FOR_DAILY",
+  "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-21T10:12-04:00",
+    "headline": "Drift exploiter moves $61.6 million in ether to Tornado Cash",
+    "summary": "Psst... the Drift exploiter just moved sixty-one million dollars of Ether into Tornado Cash.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-21T10:12-04:00",
+    "headline": "Utah sues prediction market Kalshi over 32,000 local accounts",
+    "summary": "Wildcard: Utah is suing prediction market Kalshi over thirty-two thousand local accounts.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -26532,6 +26630,707 @@
   ],
   "market_significance": "State-level mining rules",
   "trigger": "news roundup",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261021_6aad2b",
+  "headline": "Crypto Fear and Greed index jumps to 63, back in greed",
+  "summary": "Here's what moved the chain today. Fear and Greed jumped to sixty-three, back in greed.",
+  "detected_at": "2026-10-21T10:12-04:00",
+  "active_since": "2026-10-21T10:12-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "market_move",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coingabbar.com/en/crypto-news-today-october-21-bitcoin-ethereum-doodles-defi-cpi",
+   "https://coincodex.com/article/94016/daily-market-update-for-october-21-2026"
+  ],
+  "source_names": [
+   "CoinGabbar",
+   "CoinCodex"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coingabbar.com/en/crypto-news-today-october-21-bitcoin-ethereum-doodles-defi-cpi",
+    "name": "CoinGabbar",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://coincodex.com/article/94016/daily-market-update-for-october-21-2026",
+    "name": "CoinCodex",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coingabbar.com/en/crypto-news-today-october-21-bitcoin-ethereum-doodles-defi-cpi",
+    "name": "CoinGabbar",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://coincodex.com/article/94016/daily-market-update-for-october-21-2026",
+    "name": "CoinCodex",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinGabbar",
+     "url": "https://www.coingabbar.com/en/crypto-news-today-october-21-bitcoin-ethereum-doodles-defi-cpi",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinCodex",
+     "url": "https://coincodex.com/article/94016/daily-market-update-for-october-21-2026",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [
+   {
+    "at": "2026-10-21T10:12-04:00",
+    "headline": "91% of coins rise in 24 hours as DeFi gains 3.4%",
+    "summary": "Green candles only! Ninety-one percent of coins rose, and DeFi jumped three point four percent!",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   }
+  ],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261021_fe9d2e",
+  "headline": "Fed decides October 28 as ether ETFs log fifth straight day of outflows",
+  "summary": "Check the yields first. The Fed meets next week, and Ether ETFs bled five days straight.",
+  "detected_at": "2026-10-21T10:12-04:00",
+  "active_since": "2026-10-21T10:12-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "ETH",
+   "TOTAL_MARKET"
+  ],
+  "event_type": "macro",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://tedpillows.substack.com/p/crypto-and-finance-market-report-717",
+   "https://cryptoticker.io/en/bitcoin-price-etf-inflows-fed-meeting-21-october-2026/"
+  ],
+  "source_names": [
+   "Ted Pillows",
+   "CryptoTicker"
+  ],
+  "sources": [
+   {
+    "url": "https://tedpillows.substack.com/p/crypto-and-finance-market-report-717",
+    "name": "Ted Pillows",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptoticker.io/en/bitcoin-price-etf-inflows-fed-meeting-21-october-2026/",
+    "name": "CryptoTicker",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://tedpillows.substack.com/p/crypto-and-finance-market-report-717",
+    "name": "Ted Pillows",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptoticker.io/en/bitcoin-price-etf-inflows-fed-meeting-21-october-2026/",
+    "name": "CryptoTicker",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Ted Pillows",
+     "url": "https://tedpillows.substack.com/p/crypto-and-finance-market-report-717",
+     "category": "social",
+     "counts": false,
+     "note": "social/community post — can trigger investigation, never verifies"
+    },
+    {
+     "name": "CryptoTicker",
+     "url": "https://cryptoticker.io/en/bitcoin-price-etf-inflows-fed-meeting-21-october-2026/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261021_a76f8d",
+  "headline": "OCC finalizes the first GENIUS Act stablecoin rule, effective January 18, 2027",
+  "summary": "The Office of the Comptroller of the Currency issued a final rule implementing the GENIUS Act, setting reserve, redemption, risk-management, custody and foreign-issuer standards for payment stablecoin issuers under its jurisdiction. It is the first regulator to finalize its GENIUS rule. The final rule drops a proposed presumption against certain third-party stablecoin reward arrangements, reviewing them case by case instead. AML and sanctions rules come separately with Treasury; the OCC will announce later when it starts taking applications.",
+  "detected_at": "2026-10-21T10:21-04:00",
+  "active_since": "2026-10-21T10:21-04:00",
+  "classification": "IMPORTANT",
+  "proposed_level": "IMPORTANT",
+  "confidence": 0.92,
+  "assets": [
+   "USDC",
+   "USDT",
+   "TOTAL_MARKET"
+  ],
+  "event_type": "regulatory",
+  "event_time": "2026-10-21T07:00-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://occ.gov/news-issuances/news-releases/2026/nr-occ-2026-92.html",
+   "https://www.theblock.co/news/regulation/2026-10-21-occ-final-rule-implementing-trump-signed-genius-act-421470",
+   "https://decrypt.co/381502/occ-finalizes-genius-act-stablecoin-rules-ahead-of-january-deadline"
+  ],
+  "source_names": [
+   "OCC",
+   "The Block",
+   "Decrypt"
+  ],
+  "sources": [
+   {
+    "url": "https://occ.gov/news-issuances/news-releases/2026/nr-occ-2026-92.html",
+    "name": "OCC",
+    "kind": "primary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-10-21-occ-final-rule-implementing-trump-signed-genius-act-421470",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/381502/occ-finalizes-genius-act-stablecoin-rules-ahead-of-january-deadline",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://occ.gov/news-issuances/news-releases/2026/nr-occ-2026-92.html",
+    "name": "OCC",
+    "kind": "primary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-10-21-occ-final-rule-implementing-trump-signed-genius-act-421470",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/381502/occ-finalizes-genius-act-stablecoin-rules-ahead-of-january-deadline",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "VERIFIED",
+  "verification": {
+   "status": "VERIFIED",
+   "independent_sources": 3,
+   "has_primary": true,
+   "score": 1.0,
+   "reason": "3 independent credible sources confirm it (incl. a primary source)",
+   "sources_checked": [
+    {
+     "name": "OCC",
+     "url": "https://occ.gov/news-issuances/news-releases/2026/nr-occ-2026-92.html",
+     "category": "primary",
+     "counts": true,
+     "note": "primary (known official domain)"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-10-21-occ-final-rule-implementing-trump-signed-genius-act-421470",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/381502/occ-finalizes-genius-act-stablecoin-rules-ahead-of-january-deadline",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed IMPORTANT: Final federal stablecoin rule from a primary U.S. bank regulator; first agency to finalize GENIUS Act rules."
+  ],
+  "market_significance": "Sets the operating rules for bank and non-bank stablecoin issuers ahead of the law's January 18, 2027 effective date; softens the proposed stance on stablecoin rewards.",
+  "trigger": "OCC news release 2026-92",
+  "content_created": true,
+  "publication_status": "DRAFTED",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [
+   "6ad8cc4e7b5905295c2b11a9",
+   "6ad8cc51b535ec9954c60c4f",
+   "6ad8cc54df27e4a2784e5675"
+  ],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261021_b2c202",
+  "headline": "ZEC jumps about 11% as Zcash sets the NU7 mainnet activation height; bitcoin holds near $83,000",
+  "summary": "CoinDesk: ZEC rose about 11% to roughly $1,260 after developers set the NU7 activation height (block times 75 to 25 seconds). BTC about $83,300 (+1.5 to 2.5%), ETH about $2,460 (+2%), XRP $1.36 (+3.5%), SOL $106 (+1.3%).",
+  "detected_at": "2026-10-21T10:21-04:00",
+  "active_since": "2026-10-21T10:21-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "ZEC",
+   "BTC",
+   "ETH",
+   "XRP",
+   "SOL"
+  ],
+  "event_type": "market_move",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {
+   "pct_move_24h": 11
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/markets/2026/10/21/bitcoin-hovers-around-usd83-000-as-ai-earnings-revive-tech-zec-jumps-11",
+   "https://www.coindesk.com/price/bitcoin"
+  ],
+  "source_names": [
+   "CoinDesk",
+   "CoinDesk price"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/21/bitcoin-hovers-around-usd83-000-as-ai-earnings-revive-tech-zec-jumps-11",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/price/bitcoin",
+    "name": "CoinDesk price",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/21/bitcoin-hovers-around-usd83-000-as-ai-earnings-revive-tech-zec-jumps-11",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/price/bitcoin",
+    "name": "CoinDesk price",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/10/21/bitcoin-hovers-around-usd83-000-as-ai-earnings-revive-tech-zec-jumps-11",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk price",
+     "url": "https://www.coindesk.com/price/bitcoin",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Routine moves below thresholds.",
+   "price rule: BTC moved 11.0% in 24h (thresholds 7%/12%) -> IMPORTANT",
+   "final level IMPORTANT (changed from AI's NORMAL)"
+  ],
+  "market_significance": "Zcash upgrade timeline firming up.",
+  "trigger": "Price move",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261021_eae097",
+  "headline": "Bitcoin volatility nears 2026 lows ahead of the Fed decision and U.S. midterms, K33 says",
+  "summary": "BTC 28-day realized volatility fell to 1.2%, near its 2026 low, with BTC range-bound between $80,000 and $84,000. Markets price an 80% chance of no change at the October 28 Fed meeting.",
+  "detected_at": "2026-10-21T10:21-04:00",
+  "active_since": "2026-10-21T10:21-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.75,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "market_move",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/markets/2026-10-21-bitcoin-volatility-nears-2026-lows-as-traders-brace-for-fed-decision-and-us-midterms-421524"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-10-21-bitcoin-volatility-nears-2026-lows-as-traders-brace-for-fed-decision-and-us-midterms-421524",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-10-21-bitcoin-volatility-nears-2026-lows-as-traders-brace-for-fed-decision-and-us-midterms-421524",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/markets/2026-10-21-bitcoin-volatility-nears-2026-lows-as-traders-brace-for-fed-decision-and-us-midterms-421524",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Research note."
+  ],
+  "market_significance": "Low volatility before macro events.",
+  "trigger": "K33 report",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261021_7b00c0",
+  "headline": "Ripple Prime lets institutions trade 24/7 swaps on 100+ stock, commodity and FX markets; HSBC says liquidity is thin",
+  "summary": "Ripple Prime clients can trade swaps tracking Trade.xyz perpetuals on Hyperliquid around the clock, using RLUSD as collateral. Virtu is an early user. HSBC calls it evolutionary, not revolutionary.",
+  "detected_at": "2026-10-21T10:21-04:00",
+  "active_since": "2026-10-21T10:21-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.75,
+  "assets": [
+   "XRP",
+   "HYPE"
+  ],
+  "event_type": "institutional",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/markets/2026/10/21/ripple-brings-wall-street-into-24-7-stock-bets-but-hsbc-warns-markets-are-still-thin"
+  ],
+  "source_names": [
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/21/ripple-brings-wall-street-into-24-7-stock-bets-but-hsbc-warns-markets-are-still-thin",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/21/ripple-brings-wall-street-into-24-7-stock-bets-but-hsbc-warns-markets-are-still-thin",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/10/21/ripple-brings-wall-street-into-24-7-stock-bets-but-hsbc-warns-markets-are-still-thin",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Product announced Oct 15; analysis piece."
+  ],
+  "market_significance": "Tokenized 24/7 trading push.",
+  "trigger": "CoinDesk report",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261021_7e2a04",
+  "headline": "BitGo launches BitGo Labs to build AI-and-crypto applications",
+  "summary": "BitGo's new research unit focuses on AI and crypto; first project is Gokubu, a consumer app with an AI-powered card.",
+  "detected_at": "2026-10-21T10:21-04:00",
+  "active_since": "2026-10-21T10:21-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.75,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "other",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-10-21-bitgo-launches-research-unit-421502"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-21-bitgo-launches-research-unit-421502",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-21-bitgo-launches-research-unit-421502",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-10-21-bitgo-launches-research-unit-421502",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Minor corporate launch."
+  ],
+  "market_significance": "AI-agent payments theme.",
+  "trigger": "The Block report",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261021_9a9b81",
+  "headline": "Certificate authority eMudhra had eight weak private keys cracked; outdated exchange bots and wallets could be exposed",
+  "summary": "Browsers blocked and eMudhra revoked the affected certificates; no attacks reported. Software that skips revocation checks remains at risk; Polygon's Mudit Gupta says it is not crypto-specific.",
+  "detected_at": "2026-10-21T10:21-04:00",
+  "active_since": "2026-10-21T10:21-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "other",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/tech/2026/10/21/a-company-that-vouches-for-websites-had-secret-keys-so-weak-that-8-of-them-were-cracked"
+  ],
+  "source_names": [
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/tech/2026/10/21/a-company-that-vouches-for-websites-had-secret-keys-so-weak-that-8-of-them-were-cracked",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/tech/2026/10/21/a-company-that-vouches-for-websites-had-secret-keys-so-weak-that-8-of-them-were-cracked",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/tech/2026/10/21/a-company-that-vouches-for-websites-had-secret-keys-so-weak-that-8-of-them-were-cracked",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Indirect security risk, no crypto losses."
+  ],
+  "market_significance": "Patch reminder for trading bots and wallet backends.",
+  "trigger": "CoinDesk report",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],

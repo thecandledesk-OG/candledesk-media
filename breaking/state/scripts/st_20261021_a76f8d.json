@@ -1,0 +1,32 @@
+{
+ "story_id": "st_20261021_a76f8d",
+ "date_label": "OCT 21",
+ "headline": "OCC finalizes the first GENIUS Act stablecoin rule",
+ "sources": [
+  {"name": "OCC", "url": "https://occ.gov/news-issuances/news-releases/2026/nr-occ-2026-92.html"},
+  {"name": "The Block", "url": "https://www.theblock.co/news/regulation/2026-10-21-occ-final-rule-implementing-trump-signed-genius-act-421470"},
+  {"name": "Decrypt", "url": "https://decrypt.co/381502/occ-finalizes-genius-act-stablecoin-rules-ahead-of-january-deadline"}
+ ],
+ "scenes": [
+  {"beat": "hook", "who": "ledger",
+   "vo": "The first federal rulebook for stablecoins is final. The OCC just locked in its Genius Act rule. Here's what changed.",
+   "chunks": ["Stablecoin rules", "*Now final*", "Here's what changed"]},
+  {"beat": "what_happened", "who": "ledger",
+   "vo": "On Wednesday, the OCC, a top American bank regulator, set standards for stablecoin reserves, redemptions, custody and foreign issuers. The rules take effect January eighteenth, twenty twenty-seven.",
+   "chunks": ["OCC final rule", "*Reserves and redemptions*", "Starts *Jan 18, 2027*"],
+   "stat": {"label": "Sources", "text": "OCC · The Block · Decrypt"}},
+  {"beat": "why_it_matters", "who": "bruno",
+   "vo": "Here's why traders are watching it. Banks and non-bank firms now get a clear path to issue dollar stablecoins, and the final version softens the proposed stance on stablecoin rewards.",
+   "chunks": ["Why it matters", "*A clear path*", "Softer on *rewards*"]},
+  {"beat": "why_it_matters", "who": "ursa",
+   "vo": "The catch. Anti money laundering and sanctions rules are still missing, and the OCC hasn't said when it will start taking applications.",
+   "chunks": ["The catch", "*AML rules missing*", "No application date"]},
+  {"beat": "watch_next", "who": "moby",
+   "vo": "Here's what happens next. Watch for rules from the other regulators, the Treasury's money laundering rules, and the date applications open.",
+   "chunks": ["Watch next", "*Other regulators*", "Applications open"]},
+  {"beat": "cta", "who": "all",
+   "vo": "Follow The Candle Desk for crypto news without the hype. Not financial advice.",
+   "chunks": ["Follow The Candle Desk", "*No hype*", "Just the news"],
+   "foot": "NOT FINANCIAL ADVICE"}
+ ]
+}
