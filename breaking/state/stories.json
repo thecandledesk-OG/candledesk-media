@@ -25568,12 +25568,14 @@
   "source_urls": [
    "https://247wallst.com/investing/cryptocurrency/2026/10/20/a-hacker-who-stole-270-million-is-moving-it-into-tornado-cash-can-stolen-crypto-ever-be-recovered/",
    "https://coinfomania.com/velocitydex-resumes-fund-movements-following-270m/",
-   "https://coinedition.com/24-hour-crypto-recap-heres-what-happened-in-the-market-80/"
+   "https://coinedition.com/24-hour-crypto-recap-heres-what-happened-in-the-market-80/",
+   "https://cryptobriefing.com/drift-exploiter-tornado-cash-109m-ether/"
   ],
   "source_names": [
    "24/7 Wall St.",
    "Coinfomania",
-   "Coin Edition"
+   "Coin Edition",
+   "Crypto Briefing"
   ],
   "sources": [
    {
@@ -25594,6 +25596,13 @@
     "url": "https://coinedition.com/24-hour-crypto-recap-heres-what-happened-in-the-market-80/",
     "name": "Coin Edition",
     "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptobriefing.com/drift-exploiter-tornado-cash-109m-ether/",
+    "name": "Crypto Briefing",
+    "kind": "other",
     "checked": true,
     "confirms": true
    }
@@ -25617,6 +25626,13 @@
     "url": "https://coinedition.com/24-hour-crypto-recap-heres-what-happened-in-the-market-80/",
     "name": "Coin Edition",
     "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptobriefing.com/drift-exploiter-tornado-cash-109m-ether/",
+    "name": "Crypto Briefing",
+    "kind": "other",
     "checked": true,
     "confirms": true
    }
@@ -25649,6 +25665,13 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Crypto Briefing",
+     "url": "https://cryptobriefing.com/drift-exploiter-tornado-cash-109m-ether/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -25677,6 +25700,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-21T16:14-04:00",
+    "headline": "Drift exploiter has now moved about $109 million in ether to Tornado Cash in two days",
+    "summary": "Wallets tied to April's Drift Protocol hack sent about 44,510 ETH to Tornado Cash over October 20-21 and still hold about 56,569 ETH.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "UNVERIFIED"
    }
   ],
@@ -26370,13 +26402,17 @@
    "https://www.cryptotimes.io/2026/10/21/bitcoin-price-today-btc-stabilizes-amid-mixed-analyst-views-and-modest-100k-odds/",
    "https://www.coindesk.com/daybook-us",
    "https://fortune.com/article/price-of-bitcoin-10-21-2026",
-   "https://news.bitcoin.com/market-updates/bitcoin-price-cracks-84k-as-188-million-in-crypto-shorts-get-wiped-out/"
+   "https://news.bitcoin.com/market-updates/bitcoin-price-cracks-84k-as-188-million-in-crypto-shorts-get-wiped-out/",
+   "https://nexo.com/blog/markets-today-october-21",
+   "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-october-21-2026-crypto-to-outperform-stocks-and-gold-113736970.html"
   ],
   "source_names": [
    "The Crypto Times",
    "CoinDesk",
    "Fortune",
-   "Bitcoin.com"
+   "Bitcoin.com",
+   "Nexo",
+   "Yahoo Finance"
   ],
   "sources": [
    {
@@ -26405,6 +26441,20 @@
     "name": "Bitcoin.com",
     "kind": "other",
     "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://nexo.com/blog/markets-today-october-21",
+    "name": "Nexo",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-october-21-2026-crypto-to-outperform-stocks-and-gold-113736970.html",
+    "name": "Yahoo Finance",
+    "kind": "secondary",
+    "checked": true,
     "confirms": true
    }
   ],
@@ -26436,15 +26486,29 @@
     "kind": "other",
     "checked": false,
     "confirms": true
+   },
+   {
+    "url": "https://nexo.com/blog/markets-today-october-21",
+    "name": "Nexo",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-october-21-2026-crypto-to-outperform-stocks-and-gold-113736970.html",
+    "name": "Yahoo Finance",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "VERIFIED",
   "verification": {
    "status": "VERIFIED",
-   "independent_sources": 2,
+   "independent_sources": 3,
    "has_primary": false,
    "score": 0.8,
-   "reason": "2 independent credible sources confirm it (no primary source yet)",
+   "reason": "3 independent credible sources confirm it (no primary source yet)",
    "sources_checked": [
     {
      "name": "The Crypto Times",
@@ -26473,6 +26537,20 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Nexo",
+     "url": "https://nexo.com/blog/markets-today-october-21",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-october-21-2026-crypto-to-outperform-stocks-and-gold-113736970.html",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -26490,6 +26568,15 @@
     "at": "2026-10-21T13:16-04:00",
     "headline": "Bitcoin climbs to a one-week high near $84,000 as about $188 million in shorts are liquidated",
     "summary": "Bitcoin rose about 2 to 3% in 24 hours to near $84,000, its highest in a week, with short liquidations leading; ether near $2,465, XRP near $1.35, SOL near $106.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-21T16:14-04:00",
+    "headline": "Bitcoin climbs to a one-week high near $84,500 as XRP leads majors, up about 4%",
+    "summary": "BTC up about 2.4%, ETH about 3%, SOL about 2.4% and XRP about 4.4% over 24 hours; total market near $2.8 trillion.",
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 2,
@@ -26999,12 +27086,14 @@
   "source_urls": [
    "https://occ.gov/news-issuances/news-releases/2026/nr-occ-2026-92.html",
    "https://www.theblock.co/news/regulation/2026-10-21-occ-final-rule-implementing-trump-signed-genius-act-421470",
-   "https://decrypt.co/381502/occ-finalizes-genius-act-stablecoin-rules-ahead-of-january-deadline"
+   "https://decrypt.co/381502/occ-finalizes-genius-act-stablecoin-rules-ahead-of-january-deadline",
+   "https://www.theblock.co/news/regulation/2026-10-21-american-bankers-association-accuses-occ-undermining-congress-stablecoin-rewards-rule-421629"
   ],
   "source_names": [
    "OCC",
    "The Block",
-   "Decrypt"
+   "Decrypt",
+   "The Block"
   ],
   "sources": [
    {
@@ -27024,6 +27113,13 @@
    {
     "url": "https://decrypt.co/381502/occ-finalizes-genius-act-stablecoin-rules-ahead-of-january-deadline",
     "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-10-21-american-bankers-association-accuses-occ-undermining-congress-stablecoin-rewards-rule-421629",
+    "name": "The Block",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -27047,6 +27143,13 @@
    {
     "url": "https://decrypt.co/381502/occ-finalizes-genius-act-stablecoin-rules-ahead-of-january-deadline",
     "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-10-21-american-bankers-association-accuses-occ-undermining-congress-stablecoin-rewards-rule-421629",
+    "name": "The Block",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -27080,6 +27183,13 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-10-21-american-bankers-association-accuses-occ-undermining-congress-stablecoin-rewards-rule-421629",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -27091,7 +27201,17 @@
   "content_created": true,
   "publication_status": "DRAFTED",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-21T16:14-04:00",
+    "headline": "American Bankers Association says OCC's final stablecoin rule undermines Congress by leaving room for rewards",
+    "summary": "ABA CEO Rob Nichols criticized the OCC's first GENIUS Act rule for preserving crypto platforms' ability to offer stablecoin yield, warning of deposit flight from banks.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   }
+  ],
   "posts": [
    "6ad8cc4e7b5905295c2b11a9",
    "6ad8cc51b535ec9954c60c4f",
@@ -27826,6 +27946,76 @@
    "AI proposed NORMAL: Small funding round."
   ],
   "market_significance": "AI-crypto funding continues.",
+  "trigger": "The Block report",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261021_34f26c",
+  "headline": "Mizuho says Robinhood single-stock perps could be a strong positive; 94% of surveyed users would trade them",
+  "summary": "Mizuho kept its Outperform rating on HOOD after a survey of 600+ Robinhood users found 94% would likely trade single-stock perpetual futures.",
+  "detected_at": "2026-10-21T16:14-04:00",
+  "active_since": "2026-10-21T16:14-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "other",
+  "event_time": "2026-10-21T14:53-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://theblock.co/news/business/2026-10-21-robinhood-single-stock-perpetual-futures-mizuho-survey-421639"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://theblock.co/news/business/2026-10-21-robinhood-single-stock-perpetual-futures-mizuho-survey-421639",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://theblock.co/news/business/2026-10-21-robinhood-single-stock-perpetual-futures-mizuho-survey-421639",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://theblock.co/news/business/2026-10-21-robinhood-single-stock-perpetual-futures-mizuho-survey-421639",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Analyst note, no product launch."
+  ],
+  "market_significance": "Perps on stocks are a growing crypto-exchange product.",
   "trigger": "The Block report",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
