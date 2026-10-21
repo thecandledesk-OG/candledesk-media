@@ -23760,11 +23760,13 @@
   "source_urls": [
    "https://crypto.news/hyperliquid-sec-crypto-regulation-proposals/",
    "https://x.com/HyperliquidPC/status/2112153231988031622",
-   "https://www.theblock.co/news/regulation/2026-10-20-sec-regulation-crypto-assets-comment-period-hyperliquid-sifma-aima-421444"
+   "https://www.theblock.co/news/regulation/2026-10-20-sec-regulation-crypto-assets-comment-period-hyperliquid-sifma-aima-421444",
+   "https://theblock.co/news/regulation/2026-10-20-sec-regulation-crypto-assets-comment-period-hyperliquid-sifma-aima-421444"
   ],
   "source_names": [
    "crypto.news",
    "Hyperliquid Policy Center on X",
+   "The Block",
    "The Block"
   ],
   "sources": [
@@ -23788,6 +23790,13 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://theblock.co/news/regulation/2026-10-20-sec-regulation-crypto-assets-comment-period-hyperliquid-sifma-aima-421444",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -23810,6 +23819,13 @@
     "name": "The Block",
     "kind": "secondary",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://theblock.co/news/regulation/2026-10-20-sec-regulation-crypto-assets-comment-period-hyperliquid-sifma-aima-421444",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -23841,6 +23857,13 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "The Block",
+     "url": "https://theblock.co/news/regulation/2026-10-20-sec-regulation-crypto-assets-comment-period-hyperliquid-sifma-aima-421444",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
     }
    ]
   },
@@ -23858,6 +23881,15 @@
     "headline": "SEC comment period on Regulation Crypto Assets closes with more than 100 submissions from Hyperliquid Policy Center, SIFMA and AIMA",
     "summary": "Industry groups and Wall Street trade bodies asked the SEC to change its proposed Regulation Crypto Assets as the comment window closed Tuesday. No final SEC decision yet.",
     "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-21T07:19-04:00",
+    "headline": "Crypto firms and Wall Street push SEC to revise Regulation Crypto Assets as the comment period closes",
+    "summary": "As comments closed on the SEC's proposed Regulation Crypto Assets, crypto groups and Wall Street bodies such as SIFMA and AIMA asked for changes, and six blockchain groups urged a digital commodity definition in the binding rules.",
+    "new_development": false,
     "level": "NORMAL",
     "sources_added": 1,
     "verification": "UNVERIFIED"
@@ -26025,6 +26057,481 @@
   ],
   "market_significance": "Minor.",
   "trigger": "The Block latest news 1:11 PM ET",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261021_e2660b",
+  "headline": "MoonPay and Upbit parent Dunamu explore stablecoin cross-border payments and treasury tools",
+  "summary": "MoonPay and Dunamu, the company behind Korea's Upbit exchange, said they will explore working together on stablecoin cross-border payments and corporate treasury infrastructure.",
+  "detected_at": "2026-10-21T07:19-04:00",
+  "active_since": "2026-10-21T07:19-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "USDC",
+   "USDT"
+  ],
+  "event_type": "partnership",
+  "event_time": "2026-10-20T22:29-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-10-20-moonpay-upbit-dunamu-421476",
+   "https://www.coingabbar.com/en/crypto-news-today-october-21-bitcoin-ethereum-doodles-defi-cpi#item-1"
+  ],
+  "source_names": [
+   "The Block",
+   "Coin Gabbar"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-20-moonpay-upbit-dunamu-421476",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coingabbar.com/en/crypto-news-today-october-21-bitcoin-ethereum-doodles-defi-cpi#item-1",
+    "name": "Coin Gabbar",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-20-moonpay-upbit-dunamu-421476",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coingabbar.com/en/crypto-news-today-october-21-bitcoin-ethereum-doodles-defi-cpi#item-1",
+    "name": "Coin Gabbar",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-10-20-moonpay-upbit-dunamu-421476",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "Coin Gabbar",
+     "url": "https://www.coingabbar.com/en/crypto-news-today-october-21-bitcoin-ethereum-doodles-defi-cpi#item-1",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Exploratory agreement, no launch"
+  ],
+  "market_significance": "Korean exchange giant leaning into stablecoin rails",
+  "trigger": "The Block latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261021_0b6871",
+  "headline": "Bitcoin holds near $82,600, up about 1%, as total crypto market rises 1.6%",
+  "summary": "Bitcoin traded near $82,600, up about one percent in 24 hours, with ether near $2,440 and total crypto market value about $2.88 trillion. XRP near $1.30 and SOL near $104 were little changed.",
+  "detected_at": "2026-10-21T07:19-04:00",
+  "active_since": "2026-10-21T07:19-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "BTC",
+   "ETH",
+   "XRP",
+   "SOL",
+   "TOTAL_MARKET"
+  ],
+  "event_type": "market_move",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {
+   "pct_move_24h": 1.0
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://www.cryptotimes.io/2026/10/21/bitcoin-price-today-btc-stabilizes-amid-mixed-analyst-views-and-modest-100k-odds/",
+   "https://www.coindesk.com/daybook-us"
+  ],
+  "source_names": [
+   "The Crypto Times",
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://www.cryptotimes.io/2026/10/21/bitcoin-price-today-btc-stabilizes-amid-mixed-analyst-views-and-modest-100k-odds/",
+    "name": "The Crypto Times",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/daybook-us",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.cryptotimes.io/2026/10/21/bitcoin-price-today-btc-stabilizes-amid-mixed-analyst-views-and-modest-100k-odds/",
+    "name": "The Crypto Times",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/daybook-us",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Crypto Times",
+     "url": "https://www.cryptotimes.io/2026/10/21/bitcoin-price-today-btc-stabilizes-amid-mixed-analyst-views-and-modest-100k-odds/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/daybook-us",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Moves well under thresholds",
+   "price rule: BTC moved 1.0% in 24h (thresholds 7%/12%) -> NORMAL"
+  ],
+  "market_significance": "Calm trading ahead of macro data",
+  "trigger": "price check",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261021_0d5f7a",
+  "headline": "MEXC to halt services in Russia and Belarus for compliance reasons",
+  "summary": "Crypto exchange MEXC is reported to be halting services for users in Russia and Belarus, citing compliance. Not yet confirmed by MEXC or a major outlet.",
+  "detected_at": "2026-10-21T07:19-04:00",
+  "active_since": "2026-10-21T07:19-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "exchange",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coingabbar.com/en/crypto-news-today-october-21-bitcoin-ethereum-doodles-defi-cpi#item-3"
+  ],
+  "source_names": [
+   "Coin Gabbar"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coingabbar.com/en/crypto-news-today-october-21-bitcoin-ethereum-doodles-defi-cpi#item-3",
+    "name": "Coin Gabbar",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coingabbar.com/en/crypto-news-today-october-21-bitcoin-ethereum-doodles-defi-cpi#item-3",
+    "name": "Coin Gabbar",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Coin Gabbar",
+     "url": "https://www.coingabbar.com/en/crypto-news-today-october-21-bitcoin-ethereum-doodles-defi-cpi#item-3",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Single aggregator report"
+  ],
+  "market_significance": "Another offshore exchange exiting sanctioned markets",
+  "trigger": "news roundup",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261021_58df6c",
+  "headline": "SBI VC Trade, SBI XDC and Shinhan Card to test yen stablecoin payments in physical stores",
+  "summary": "SBI VC Trade, SBI XDC Network APAC and Shinhan Card agreed to trial yen stablecoin payments at physical retail stores.",
+  "detected_at": "2026-10-21T07:19-04:00",
+  "active_since": "2026-10-21T07:19-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "partnership",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coingabbar.com/en/crypto-news-today-october-21-bitcoin-ethereum-doodles-defi-cpi#item-4"
+  ],
+  "source_names": [
+   "Coin Gabbar"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coingabbar.com/en/crypto-news-today-october-21-bitcoin-ethereum-doodles-defi-cpi#item-4",
+    "name": "Coin Gabbar",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coingabbar.com/en/crypto-news-today-october-21-bitcoin-ethereum-doodles-defi-cpi#item-4",
+    "name": "Coin Gabbar",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Coin Gabbar",
+     "url": "https://www.coingabbar.com/en/crypto-news-today-october-21-bitcoin-ethereum-doodles-defi-cpi#item-4",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Pilot only"
+  ],
+  "market_significance": "Stablecoin retail payments in Asia",
+  "trigger": "news roundup",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261021_0c25eb",
+  "headline": "OpenSea's app goes public with social trading feeds and Apple Pay funding",
+  "summary": "OpenSea made its app publicly available, adding social trading feeds, Apple Pay funding and cross-wallet tracking.",
+  "detected_at": "2026-10-21T07:19-04:00",
+  "active_since": "2026-10-21T07:19-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "ETH",
+   "SOL"
+  ],
+  "event_type": "other",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coingabbar.com/en/crypto-news-today-october-21-bitcoin-ethereum-doodles-defi-cpi#item-6"
+  ],
+  "source_names": [
+   "Coin Gabbar"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coingabbar.com/en/crypto-news-today-october-21-bitcoin-ethereum-doodles-defi-cpi#item-6",
+    "name": "Coin Gabbar",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coingabbar.com/en/crypto-news-today-october-21-bitcoin-ethereum-doodles-defi-cpi#item-6",
+    "name": "Coin Gabbar",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Coin Gabbar",
+     "url": "https://www.coingabbar.com/en/crypto-news-today-october-21-bitcoin-ethereum-doodles-defi-cpi#item-6",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Product launch"
+  ],
+  "market_significance": "NFT and token marketplace pushes into mobile trading",
+  "trigger": "news roundup",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261021_cddb7f",
+  "headline": "Arkansas asks Eighth Circuit to lift injunction on its foreign-ownership limits for crypto miners",
+  "summary": "Arkansas asked the Eighth Circuit appeals court to lift an injunction that blocks its law limiting foreign ownership of crypto mining firms.",
+  "detected_at": "2026-10-21T07:19-04:00",
+  "active_since": "2026-10-21T07:19-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "legal",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coingabbar.com/en/crypto-news-today-october-21-bitcoin-ethereum-doodles-defi-cpi#item-7"
+  ],
+  "source_names": [
+   "Coin Gabbar"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coingabbar.com/en/crypto-news-today-october-21-bitcoin-ethereum-doodles-defi-cpi#item-7",
+    "name": "Coin Gabbar",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coingabbar.com/en/crypto-news-today-october-21-bitcoin-ethereum-doodles-defi-cpi#item-7",
+    "name": "Coin Gabbar",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Coin Gabbar",
+     "url": "https://www.coingabbar.com/en/crypto-news-today-october-21-bitcoin-ethereum-doodles-defi-cpi#item-7",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Appeal filing"
+  ],
+  "market_significance": "State-level mining rules",
+  "trigger": "news roundup",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
