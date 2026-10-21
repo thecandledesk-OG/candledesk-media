@@ -1,0 +1,32 @@
+{
+ "story_id": "st_20261020_9ff960",
+ "date_label": "OCT 21",
+ "headline": "Solana's Alpenglow upgrade is live on mainnet",
+ "sources": [
+  {"name": "Decrypt", "url": "https://decrypt.co/381484/solana-alpenglow-goes-live-in-most-ambitious-upgrade-since-ethereums-merge"},
+  {"name": "The Block", "url": "https://www.theblock.co/news/ecosystems/2026-10-21-anzas-alpenglow-goes-live-on-solana-cutting-finality-to-150-milliseconds-421508"},
+  {"name": "Cointelegraph", "url": "https://cointelegraph.com/news/solanas-alpenglow-launches-mainnet-99-faster-finality"}
+ ],
+ "scenes": [
+  {"beat": "hook", "who": "ledger",
+   "vo": "Solana just swapped out the engine that has run it since twenty twenty. The Alpenglow upgrade is live. Here's what changed.",
+   "chunks": ["Solana's new engine", "*Alpenglow is live*", "Here's what changed"]},
+  {"beat": "what_happened", "who": "ledger",
+   "vo": "On Wednesday morning, Solana's validators switched to Alpenglow, replacing the old Tower B F T system. Developer Anza says final confirmation drops from about thirteen seconds to around a hundred fifty milliseconds.",
+   "chunks": ["Tower BFT *retired*", "13s to *150 ms*", "Anza's numbers"],
+   "stat": {"label": "Sources", "text": "Decrypt · The Block · Cointelegraph"}},
+  {"beat": "why_it_matters", "who": "bruno",
+   "vo": "Here's why traders are watching it. Faster finality means exchanges and payment apps could treat Solana transactions as settled almost instantly.",
+   "chunks": ["Why it matters", "*Near-instant* finality", "Exchanges and payments"]},
+  {"beat": "why_it_matters", "who": "ursa",
+   "vo": "The catch. That speed is Anza's own figure. Right after the switch, Solana's dashboard still showed about six seconds, and no independent measurement is out yet.",
+   "chunks": ["The catch", "*Dashboard said 6 sec*", "Not yet verified"]},
+  {"beat": "watch_next", "who": "moby",
+   "vo": "Here's what happens next. Watch real finality numbers over the coming days, network stability, and the next phase, called Rotor, which has no date yet.",
+   "chunks": ["Watch next", "*Real finality data*", "Rotor: *no date*"]},
+  {"beat": "cta", "who": "all",
+   "vo": "Follow The Candle Desk for crypto news without the hype. Not financial advice.",
+   "chunks": ["Follow The Candle Desk", "*No hype*", "Just the news"],
+   "foot": "NOT FINANCIAL ADVICE"}
+ ]
+}

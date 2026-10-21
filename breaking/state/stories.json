@@ -24805,10 +24805,10 @@
   "headline": "Solana's Alpenglow upgrade lands October 21, cutting finality to about 150 milliseconds",
   "summary": "Wildcard: Solana's Alpenglow upgrade lands tomorrow, cutting finality to one hundred fifty milliseconds.",
   "detected_at": "2026-10-20T10:09-04:00",
-  "active_since": "2026-10-20T10:09-04:00",
-  "classification": "NORMAL",
+  "active_since": "2026-10-21T13:16-04:00",
+  "classification": "IMPORTANT",
   "proposed_level": "NORMAL",
-  "confidence": 0.5,
+  "confidence": 0.85,
   "assets": [
    "SOL"
   ],
@@ -24820,12 +24820,22 @@
   "source_urls": [
    "https://calebandbrown.com/blog/weekly-rollup-october-20-2026/",
    "https://www.coindesk.com/tech/2026/10/21/solana-s-alpenglow-its-biggest-network-overhaul-since-2020-goes-live-wednesday",
-   "https://coingape.com/solanas-alpenglow-goes-live-aiming-for-40x-faster-finality-as-votes-move-off-chain/"
+   "https://coingape.com/solanas-alpenglow-goes-live-aiming-for-40x-faster-finality-as-votes-move-off-chain/",
+   "https://decrypt.co/381484/solana-alpenglow-goes-live-in-most-ambitious-upgrade-since-ethereums-merge",
+   "https://www.theblock.co/news/ecosystems/2026-10-21-anzas-alpenglow-goes-live-on-solana-cutting-finality-to-150-milliseconds-421508",
+   "https://cointelegraph.com/news/solanas-alpenglow-launches-mainnet-99-faster-finality",
+   "https://solana.com/upgrades/alpenglow",
+   "https://x.com/anza_xyz/status/2112905478921736411"
   ],
   "source_names": [
    "Caleb & Brown",
    "CoinDesk",
-   "CoinGape"
+   "CoinGape",
+   "Decrypt",
+   "The Block",
+   "Cointelegraph",
+   "Solana (upgrade page)",
+   "Anza on X"
   ],
   "sources": [
    {
@@ -24848,69 +24858,133 @@
     "kind": "other",
     "checked": true,
     "confirms": false
+   },
+   {
+    "url": "https://decrypt.co/381484/solana-alpenglow-goes-live-in-most-ambitious-upgrade-since-ethereums-merge",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/ecosystems/2026-10-21-anzas-alpenglow-goes-live-on-solana-cutting-finality-to-150-milliseconds-421508",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cointelegraph.com/news/solanas-alpenglow-launches-mainnet-99-faster-finality",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://solana.com/upgrades/alpenglow",
+    "name": "Solana (upgrade page)",
+    "kind": "primary",
+    "checked": true,
+    "confirms": false
+   },
+   {
+    "url": "https://x.com/anza_xyz/status/2112905478921736411",
+    "name": "Anza on X",
+    "kind": "social",
+    "checked": false,
+    "confirms": true
    }
   ],
   "gate_sources": [
    {
-    "url": "https://calebandbrown.com/blog/weekly-rollup-october-20-2026/",
-    "name": "Caleb & Brown",
+    "url": "https://decrypt.co/381484/solana-alpenglow-goes-live-in-most-ambitious-upgrade-since-ethereums-merge",
+    "name": "Decrypt",
     "kind": "secondary",
     "checked": true,
     "confirms": true
    },
    {
-    "url": "https://www.coindesk.com/tech/2026/10/21/solana-s-alpenglow-its-biggest-network-overhaul-since-2020-goes-live-wednesday",
-    "name": "CoinDesk",
+    "url": "https://www.theblock.co/news/ecosystems/2026-10-21-anzas-alpenglow-goes-live-on-solana-cutting-finality-to-150-milliseconds-421508",
+    "name": "The Block",
     "kind": "secondary",
     "checked": true,
     "confirms": true
    },
    {
-    "url": "https://coingape.com/solanas-alpenglow-goes-live-aiming-for-40x-faster-finality-as-votes-move-off-chain/",
-    "name": "CoinGape",
-    "kind": "other",
+    "url": "https://cointelegraph.com/news/solanas-alpenglow-launches-mainnet-99-faster-finality",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://solana.com/upgrades/alpenglow",
+    "name": "Solana (upgrade page)",
+    "kind": "primary",
     "checked": true,
     "confirms": false
+   },
+   {
+    "url": "https://x.com/anza_xyz/status/2112905478921736411",
+    "name": "Anza on X",
+    "kind": "social",
+    "checked": false,
+    "confirms": true
    }
   ],
-  "verification_status": "UNVERIFIED",
+  "verification_status": "VERIFIED",
   "verification": {
-   "status": "UNVERIFIED",
-   "independent_sources": 1,
+   "status": "VERIFIED",
+   "independent_sources": 3,
    "has_primary": false,
-   "score": 0.4,
-   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "score": 0.8,
+   "reason": "3 independent credible sources confirm it (no primary source yet)",
    "sources_checked": [
     {
-     "name": "Caleb & Brown",
-     "url": "https://calebandbrown.com/blog/weekly-rollup-october-20-2026/",
-     "category": "other",
-     "counts": false,
-     "note": "not on the credible list — logged as evidence only"
-    },
-    {
-     "name": "CoinDesk",
-     "url": "https://www.coindesk.com/tech/2026/10/21/solana-s-alpenglow-its-biggest-network-overhaul-since-2020-goes-live-wednesday",
+     "name": "Decrypt",
+     "url": "https://decrypt.co/381484/solana-alpenglow-goes-live-in-most-ambitious-upgrade-since-ethereums-merge",
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
     },
     {
-     "name": "CoinGape",
-     "url": "https://coingape.com/solanas-alpenglow-goes-live-aiming-for-40x-faster-finality-as-votes-move-off-chain/",
-     "category": "other",
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/ecosystems/2026-10-21-anzas-alpenglow-goes-live-on-solana-cutting-finality-to-150-milliseconds-421508",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Cointelegraph",
+     "url": "https://cointelegraph.com/news/solanas-alpenglow-launches-mainnet-99-faster-finality",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Solana (upgrade page)",
+     "url": "https://solana.com/upgrades/alpenglow",
+     "category": "primary",
      "counts": false,
-     "note": "not on the credible list — logged as evidence only"
+     "note": "primary (known official domain); opened but does not confirm the claim"
+    },
+    {
+     "name": "Anza on X",
+     "url": "https://x.com/anza_xyz/status/2112905478921736411",
+     "category": "social",
+     "counts": false,
+     "note": "social/community post — can trigger investigation, never verifies"
     }
    ]
   },
   "classification_reason": [
-   "AI proposed NORMAL: "
+   "AI proposed NORMAL: ",
+   "AI proposed IMPORTANT: Confirmed major consensus upgrade going live on a top network; last check it was only scheduled."
   ],
   "market_significance": "",
   "trigger": "",
-  "content_created": false,
-  "publication_status": "USED_IN_DAILY",
+  "content_created": true,
+  "publication_status": "DRAFTED",
   "related_story_ids": [],
   "updates": [
    {
@@ -24921,9 +24995,22 @@
     "level": "IMPORTANT",
     "sources_added": 2,
     "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-21T13:16-04:00",
+    "headline": "Solana's Alpenglow upgrade goes live on mainnet, replacing TowerBFT consensus",
+    "summary": "Anza's Alpenglow consensus upgrade activated on Solana mainnet-beta on October 21 at slot 459,653,000, around 14:00 UTC, replacing TowerBFT, which had run Solana since 2020. Anza says finality falls from about 12.8 seconds to about 150 milliseconds; Cointelegraph noted the Solana dashboard still showed about 6.6-second finality at press time, and no independent post-switch measurement has been published.",
+    "new_development": true,
+    "level": "IMPORTANT",
+    "sources_added": 5,
+    "verification": "VERIFIED"
    }
   ],
-  "posts": [],
+  "posts": [
+   "6ad8f4ecef3cb4cfc2fa8936",
+   "6ad8f4efc7be46d3ee9868ba",
+   "6ad8f4f2c7be46d3ee9868f4"
+  ],
   "needs_followup": false
  },
  {
@@ -26281,11 +26368,15 @@
   "emergency": false,
   "source_urls": [
    "https://www.cryptotimes.io/2026/10/21/bitcoin-price-today-btc-stabilizes-amid-mixed-analyst-views-and-modest-100k-odds/",
-   "https://www.coindesk.com/daybook-us"
+   "https://www.coindesk.com/daybook-us",
+   "https://fortune.com/article/price-of-bitcoin-10-21-2026",
+   "https://news.bitcoin.com/market-updates/bitcoin-price-cracks-84k-as-188-million-in-crypto-shorts-get-wiped-out/"
   ],
   "source_names": [
    "The Crypto Times",
-   "CoinDesk"
+   "CoinDesk",
+   "Fortune",
+   "Bitcoin.com"
   ],
   "sources": [
    {
@@ -26300,6 +26391,20 @@
     "name": "CoinDesk",
     "kind": "secondary",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://fortune.com/article/price-of-bitcoin-10-21-2026",
+    "name": "Fortune",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://news.bitcoin.com/market-updates/bitcoin-price-cracks-84k-as-188-million-in-crypto-shorts-get-wiped-out/",
+    "name": "Bitcoin.com",
+    "kind": "other",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -26317,15 +26422,29 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://fortune.com/article/price-of-bitcoin-10-21-2026",
+    "name": "Fortune",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://news.bitcoin.com/market-updates/bitcoin-price-cracks-84k-as-188-million-in-crypto-shorts-get-wiped-out/",
+    "name": "Bitcoin.com",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
    }
   ],
-  "verification_status": "UNVERIFIED",
+  "verification_status": "VERIFIED",
   "verification": {
-   "status": "UNVERIFIED",
-   "independent_sources": 1,
+   "status": "VERIFIED",
+   "independent_sources": 2,
    "has_primary": false,
-   "score": 0.4,
-   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "score": 0.8,
+   "reason": "2 independent credible sources confirm it (no primary source yet)",
    "sources_checked": [
     {
      "name": "The Crypto Times",
@@ -26340,6 +26459,20 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "Fortune",
+     "url": "https://fortune.com/article/price-of-bitcoin-10-21-2026",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Bitcoin.com",
+     "url": "https://news.bitcoin.com/market-updates/bitcoin-price-cracks-84k-as-188-million-in-crypto-shorts-get-wiped-out/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -26352,7 +26485,17 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-21T13:16-04:00",
+    "headline": "Bitcoin climbs to a one-week high near $84,000 as about $188 million in shorts are liquidated",
+    "summary": "Bitcoin rose about 2 to 3% in 24 hours to near $84,000, its highest in a week, with short liquidations leading; ether near $2,465, XRP near $1.35, SOL near $106.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "VERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -27331,6 +27474,359 @@
   ],
   "market_significance": "Patch reminder for trading bots and wallet backends.",
   "trigger": "CoinDesk report",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261021_e1ca92",
+  "headline": "Grayscale opens in-kind subscriptions on 10 crypto ETFs and trusts, including bitcoin, ether, SOL and XRP",
+  "summary": "Eligible investors can now contribute tokens directly for shares in 10 Grayscale products, including the Bitcoin Mini Trust ETF, Ethereum Staking Mini ETF and funds tied to SOL, XRP, DOGE, AVAX, LINK, HYPE, SUI and ZEC. Minimums run from about $80,300 to $364,800.",
+  "detected_at": "2026-10-21T13:16-04:00",
+  "active_since": "2026-10-21T13:16-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "BTC",
+   "ETH",
+   "SOL",
+   "XRP"
+  ],
+  "event_type": "etf",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/markets/2026-10-21-grayscale-expands-in-kind-subscriptions-10-crypto-etfs-421559"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-10-21-grayscale-expands-in-kind-subscriptions-10-crypto-etfs-421559",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-10-21-grayscale-expands-in-kind-subscriptions-10-crypto-etfs-421559",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/markets/2026-10-21-grayscale-expands-in-kind-subscriptions-10-crypto-etfs-421559",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Product-terms change for high-minimum investors, not an approval or rejection."
+  ],
+  "market_significance": "Lets large holders move tokens into ETFs without selling first.",
+  "trigger": "The Block report",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261021_850e75",
+  "headline": "Standard Chartered signs deal to buy all of Zodia Custody",
+  "summary": "Standard Chartered signed definitive agreements to acquire 100% of crypto custodian Zodia Custody; terms were not disclosed and closing needs regulatory approval. Custody joins the bank's Securities Services unit; the software arm becomes Zodia Solutions under SC Ventures.",
+  "detected_at": "2026-10-21T13:16-04:00",
+  "active_since": "2026-10-21T13:16-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "institutional",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-10-21-standard-chartered-signs-definitive-agreements-to-acquire-zodia-custody-421535"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-21-standard-chartered-signs-definitive-agreements-to-acquire-zodia-custody-421535",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-21-standard-chartered-signs-definitive-agreements-to-acquire-zodia-custody-421535",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-10-21-standard-chartered-signs-definitive-agreements-to-acquire-zodia-custody-421535",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Bank taking full ownership of a unit it already backed; no terms."
+  ],
+  "market_significance": "More bank ownership of crypto custody.",
+  "trigger": "The Block report",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261021_53c98a",
+  "headline": "Trump to highlight federal crackdown on overseas crypto investment scams",
+  "summary": "President Trump is expected to highlight federal action against overseas crypto scams at a Washington event on October 21, with FBI, DHS, Defense and Justice leaders. The FBI's 2025 report logged over $11 billion in crypto-related losses.",
+  "detected_at": "2026-10-21T13:16-04:00",
+  "active_since": "2026-10-21T13:16-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "regulatory",
+  "event_time": null,
+  "scheduled_event": true,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://crypto.news/trump-overseas-crypto-scam-crackdown-fbi-losses/"
+  ],
+  "source_names": [
+   "crypto.news"
+  ],
+  "sources": [
+   {
+    "url": "https://crypto.news/trump-overseas-crypto-scam-crackdown-fbi-losses/",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://crypto.news/trump-overseas-crypto-scam-crackdown-fbi-losses/",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/trump-overseas-crypto-scam-crackdown-fbi-losses/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Expected event; no new seizure totals released yet."
+  ],
+  "market_significance": "Enforcement focus on crypto fraud.",
+  "trigger": "crypto.news citing Reuters",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261021_ab8010",
+  "headline": "XRP treasury firm Evernorth registers up to 11.5 million warrant shares to raise about $132 million",
+  "summary": "Nasdaq-listed Evernorth filed a 424B3 prospectus registering up to 11.5 million shares tied to public warrants at $11.50, which could raise about $132.2 million for XRP reserves if fully exercised. It holds about 473 million XRP.",
+  "detected_at": "2026-10-21T13:16-04:00",
+  "active_since": "2026-10-21T13:16-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "XRP"
+  ],
+  "event_type": "institutional",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://u.today/xrp-treasury-wins-key-sec-approval-to-raise-new-capital-main-crypto-news-this-morning"
+  ],
+  "source_names": [
+   "U.Today"
+  ],
+  "sources": [
+   {
+    "url": "https://u.today/xrp-treasury-wins-key-sec-approval-to-raise-new-capital-main-crypto-news-this-morning",
+    "name": "U.Today",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://u.today/xrp-treasury-wins-key-sec-approval-to-raise-new-capital-main-crypto-news-this-morning",
+    "name": "U.Today",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "U.Today",
+     "url": "https://u.today/xrp-treasury-wins-key-sec-approval-to-raise-new-capital-main-crypto-news-this-morning",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Routine registration filing."
+  ],
+  "market_significance": "Potential new capital for XRP purchases.",
+  "trigger": "U.Today morning report",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261021_cde330",
+  "headline": "Dataline raises $10.6 million for a decentralized data network for AI agents and plans an ICO",
+  "summary": "Dataline raised $10.6 million to build a decentralized data network for AI agents and plans a token sale.",
+  "detected_at": "2026-10-21T13:16-04:00",
+  "active_since": "2026-10-21T13:16-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "other",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/deals/2026-10-21-dataline-decentralized-data-network-ai-agents-funding-ico-421596"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/deals/2026-10-21-dataline-decentralized-data-network-ai-agents-funding-ico-421596",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/deals/2026-10-21-dataline-decentralized-data-network-ai-agents-funding-ico-421596",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/deals/2026-10-21-dataline-decentralized-data-network-ai-agents-funding-ico-421596",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Small funding round."
+  ],
+  "market_significance": "AI-crypto funding continues.",
+  "trigger": "The Block report",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
