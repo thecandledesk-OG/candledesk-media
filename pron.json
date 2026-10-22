@@ -13,8 +13,8 @@
  "DAOs": "dows",
  "DeFi": "dee fye",
  "DEX": "decks",
- "DEXes": "decks iz",
- "DEXs": "decks iz",
+ "DEXes": "decksiz",
+ "DEXs": "decksiz",
  "EIP": "E I P",
  "ETF": "E T F",
  "ETF's": "E T Effs",
@@ -69,5 +69,6 @@
  "MSCI": "M S C I",
  "Metaplanet": "meta planet",
  "Szabo": "Sahbo",
- "BIS": "B I S"
+ "BIS": "B I S",
+ "onchain": "on chain"
 }
