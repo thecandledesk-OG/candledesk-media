@@ -26483,7 +26483,9 @@
    "https://www.coindesk.com/price/bitcoin",
    "https://finance.yahoo.com/markets/crypto/articles/crypto-market-today-oct-21-213639350.html",
    "https://www.coindesk.com/daybook-us/2026/10/22/crypto-traders-seek-shelter-in-bitcoin-as-altcoins-slide-and-etf-flows-wobble",
-   "https://decrypt.co/381580/chinese-prosecutors-seek-to-confiscate-5-1b-in-bitcoin-seized-by-uk-in-qian-case"
+   "https://decrypt.co/381580/chinese-prosecutors-seek-to-confiscate-5-1b-in-bitcoin-seized-by-uk-in-qian-case",
+   "https://www.coindesk.com/markets/2026/10/22/bitcoin-slides-below-usd82-000-as-ai-doubts-return-with-defi-tokens-leading-declines",
+   "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-october-22-2026-crypto-gains-wiped-out-as-oil-prices-stay-over-111-a-barrel-113128321.html"
   ],
   "source_names": [
    "The Crypto Times",
@@ -26495,7 +26497,9 @@
    "CoinDesk",
    "Yahoo Finance",
    "CoinDesk",
-   "Decrypt"
+   "Decrypt",
+   "CoinDesk",
+   "Yahoo Finance"
   ],
   "sources": [
    {
@@ -26566,6 +26570,20 @@
     "name": "Decrypt",
     "kind": "secondary",
     "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/22/bitcoin-slides-below-usd82-000-as-ai-doubts-return-with-defi-tokens-leading-declines",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-october-22-2026-crypto-gains-wiped-out-as-oil-prices-stay-over-111-a-barrel-113128321.html",
+    "name": "Yahoo Finance",
+    "kind": "secondary",
+    "checked": true,
     "confirms": true
    }
   ],
@@ -26638,6 +26656,20 @@
     "name": "Decrypt",
     "kind": "secondary",
     "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/22/bitcoin-slides-below-usd82-000-as-ai-doubts-return-with-defi-tokens-leading-declines",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-october-22-2026-crypto-gains-wiped-out-as-oil-prices-stay-over-111-a-barrel-113128321.html",
+    "name": "Yahoo Finance",
+    "kind": "secondary",
+    "checked": true,
     "confirms": true
    }
   ],
@@ -26718,6 +26750,20 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/10/22/bitcoin-slides-below-usd82-000-as-ai-doubts-return-with-defi-tokens-leading-declines",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-october-22-2026-crypto-gains-wiped-out-as-oil-prices-stay-over-111-a-barrel-113128321.html",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -26783,6 +26829,24 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-22T13:11-04:00",
+    "headline": "Chinese prosecutors seek to confiscate 61,896 bitcoin held in the UK from the Qian fraud case",
+    "summary": "A Tianjin court accepted prosecutors' application to confiscate about 61,896 BTC (around $5.1 billion) and other assets tied to Zhimin Qian's fraud. The coins sit in the UK, where a separate legal fight continues; the hearing follows a six-month notice period.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-22T13:11-04:00",
+    "headline": "Bitcoin slides below $82,000 as DeFi tokens lead crypto lower after the run at $85,000",
+    "summary": "Bitcoin fell back to about $81,000 to $82,000 after nearly touching $85,000, down roughly 2 to 4 percent. Ether, XRP and SOL fell about 2 to 5 percent; DeFi tokens led losses and about $431 million was liquidated.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
     "verification": "VERIFIED"
    }
   ],
@@ -29587,7 +29651,17 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-22T13:11-04:00",
+    "headline": "CoinDCX CEO says the exchange is investigating the $16 million transfers and no user funds will be lost",
+    "summary": "CoinDCX still says the roughly $16 million moved from wallets compromised in July 2025, not a new hack; CEO Sumit Gupta says it is investigating and users won't lose funds. ZachXBT disputes the account. No confirmed new loss.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -29935,6 +30009,146 @@
   ],
   "market_significance": "Crypto in money laundering cases.",
   "trigger": "Decrypt news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261022_788b08",
+  "headline": "Bybit gets a Dubai VARA licence for spot crypto trading",
+  "summary": "Bybit Fintech FZE holds a VARA exchange-services licence covering spot trading in Dubai; derivatives need separate approval.",
+  "detected_at": "2026-10-22T13:11-04:00",
+  "active_since": "2026-10-22T13:11-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.75,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "exchange",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://crypto.news/bybit-dubai-vara-licence-spot-trading"
+  ],
+  "source_names": [
+   "crypto.news"
+  ],
+  "sources": [
+   {
+    "url": "https://crypto.news/bybit-dubai-vara-licence-spot-trading",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://crypto.news/bybit-dubai-vara-licence-spot-trading",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/bybit-dubai-vara-licence-spot-trading",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Regional licence; routine exchange news."
+  ],
+  "market_significance": "Expands Bybit's regulated footprint.",
+  "trigger": "crypto.news report",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261022_6f1684",
+  "headline": "Starknet community backs research into becoming an independent post-quantum Layer 1",
+  "summary": "A Starknet community vote overwhelmingly backed researching a move to an independent, post-quantum Layer 1.",
+  "detected_at": "2026-10-22T13:11-04:00",
+  "active_since": "2026-10-22T13:11-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "STRK"
+  ],
+  "event_type": "protocol_upgrade",
+  "event_time": null,
+  "scheduled_event": true,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/ecosystems/2026-10-22-starknet-community-backs-independent-post-quantum-layer-1-421885"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/ecosystems/2026-10-22-starknet-community-backs-independent-post-quantum-layer-1-421885",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/ecosystems/2026-10-22-starknet-community-backs-independent-post-quantum-layer-1-421885",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/ecosystems/2026-10-22-starknet-community-backs-independent-post-quantum-layer-1-421885",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Research vote only, nothing live."
+  ],
+  "market_significance": "Long-term direction for Starknet.",
+  "trigger": "The Block latest feed",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
