@@ -26404,7 +26404,9 @@
    "https://fortune.com/article/price-of-bitcoin-10-21-2026",
    "https://news.bitcoin.com/market-updates/bitcoin-price-cracks-84k-as-188-million-in-crypto-shorts-get-wiped-out/",
    "https://nexo.com/blog/markets-today-october-21",
-   "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-october-21-2026-crypto-to-outperform-stocks-and-gold-113736970.html"
+   "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-october-21-2026-crypto-to-outperform-stocks-and-gold-113736970.html",
+   "https://www.coindesk.com/price/bitcoin",
+   "https://finance.yahoo.com/markets/crypto/articles/crypto-market-today-oct-21-213639350.html"
   ],
   "source_names": [
    "The Crypto Times",
@@ -26412,6 +26414,8 @@
    "Fortune",
    "Bitcoin.com",
    "Nexo",
+   "Yahoo Finance",
+   "CoinDesk",
    "Yahoo Finance"
   ],
   "sources": [
@@ -26456,6 +26460,20 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/price/bitcoin",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://finance.yahoo.com/markets/crypto/articles/crypto-market-today-oct-21-213639350.html",
+    "name": "Yahoo Finance",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -26496,6 +26514,20 @@
    },
    {
     "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-october-21-2026-crypto-to-outperform-stocks-and-gold-113736970.html",
+    "name": "Yahoo Finance",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/price/bitcoin",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://finance.yahoo.com/markets/crypto/articles/crypto-market-today-oct-21-213639350.html",
     "name": "Yahoo Finance",
     "kind": "secondary",
     "checked": true,
@@ -26551,6 +26583,20 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/price/bitcoin",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/crypto/articles/crypto-market-today-oct-21-213639350.html",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -26577,6 +26623,15 @@
     "at": "2026-10-21T16:14-04:00",
     "headline": "Bitcoin climbs to a one-week high near $84,500 as XRP leads majors, up about 4%",
     "summary": "BTC up about 2.4%, ETH about 3%, SOL about 2.4% and XRP about 4.4% over 24 hours; total market near $2.8 trillion.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-21T22:19-04:00",
+    "headline": "Bitcoin near $83,300 after touching about $84,600 as tech stocks rally; ETH, XRP and SOL up modestly",
+    "summary": "Bitcoin trades near $83,262, up about 0.7% in 24 hours per CoinDesk, after reaching about $84,600 during the U.S. session on SpaceX's earnings beat. Yahoo Finance showed ETH about +2%, XRP about +4.7% and SOL about +1.5 to 1.9% earlier in the evening.",
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 2,
@@ -27087,13 +27142,15 @@
    "https://occ.gov/news-issuances/news-releases/2026/nr-occ-2026-92.html",
    "https://www.theblock.co/news/regulation/2026-10-21-occ-final-rule-implementing-trump-signed-genius-act-421470",
    "https://decrypt.co/381502/occ-finalizes-genius-act-stablecoin-rules-ahead-of-january-deadline",
-   "https://www.theblock.co/news/regulation/2026-10-21-american-bankers-association-accuses-occ-undermining-congress-stablecoin-rewards-rule-421629"
+   "https://www.theblock.co/news/regulation/2026-10-21-american-bankers-association-accuses-occ-undermining-congress-stablecoin-rewards-rule-421629",
+   "https://cointelegraph.com/news/american-bankers-association-occ-genius-rules-stablecoins"
   ],
   "source_names": [
    "OCC",
    "The Block",
    "Decrypt",
-   "The Block"
+   "The Block",
+   "Cointelegraph"
   ],
   "sources": [
    {
@@ -27122,6 +27179,13 @@
     "name": "The Block",
     "kind": "secondary",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cointelegraph.com/news/american-bankers-association-occ-genius-rules-stablecoins",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -27152,6 +27216,13 @@
     "name": "The Block",
     "kind": "secondary",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cointelegraph.com/news/american-bankers-association-occ-genius-rules-stablecoins",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -27190,6 +27261,13 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "Cointelegraph",
+     "url": "https://cointelegraph.com/news/american-bankers-association-occ-genius-rules-stablecoins",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
     }
    ]
   },
@@ -27218,6 +27296,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-21T22:19-04:00",
+    "headline": "American Bankers Association says OCC's final stablecoin rule undermines Congress by leaving room for yield",
+    "summary": "The ABA criticized the OCC's GENIUS Act final rule for dropping a presumption against third-party stablecoin reward arrangements; the Blockchain Association praised it and TD Cowen called the case-by-case approach a negative for banks.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "VERIFIED"
    }
   ],
@@ -27804,10 +27891,14 @@
   "metrics": {},
   "emergency": false,
   "source_urls": [
-   "https://crypto.news/trump-overseas-crypto-scam-crackdown-fbi-losses/"
+   "https://crypto.news/trump-overseas-crypto-scam-crackdown-fbi-losses/",
+   "https://cointelegraph.com/news/white-house-cybercrime-roundtable-donald-trump-crypto-ventures",
+   "https://www.coindesk.com/policy/2026/10/21/trump-to-throw-spotlight-on-overseas-crypto-abuses-in-white-house-event"
   ],
   "source_names": [
-   "crypto.news"
+   "crypto.news",
+   "Cointelegraph",
+   "CoinDesk"
   ],
   "sources": [
    {
@@ -27816,6 +27907,20 @@
     "kind": "other",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://cointelegraph.com/news/white-house-cybercrime-roundtable-donald-trump-crypto-ventures",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/policy/2026/10/21/trump-to-throw-spotlight-on-overseas-crypto-abuses-in-white-house-event",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": false
    }
   ],
   "gate_sources": [
@@ -27825,15 +27930,29 @@
     "kind": "other",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://cointelegraph.com/news/white-house-cybercrime-roundtable-donald-trump-crypto-ventures",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/policy/2026/10/21/trump-to-throw-spotlight-on-overseas-crypto-abuses-in-white-house-event",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": false
    }
   ],
   "verification_status": "UNVERIFIED",
   "verification": {
    "status": "UNVERIFIED",
-   "independent_sources": 0,
+   "independent_sources": 1,
    "has_primary": false,
-   "score": 0.0,
-   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
    "sources_checked": [
     {
      "name": "crypto.news",
@@ -27841,6 +27960,20 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Cointelegraph",
+     "url": "https://cointelegraph.com/news/white-house-cybercrime-roundtable-donald-trump-crypto-ventures",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/policy/2026/10/21/trump-to-throw-spotlight-on-overseas-crypto-abuses-in-white-house-event",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; opened but does not confirm the claim"
     }
    ]
   },
@@ -27852,7 +27985,17 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-21T22:19-04:00",
+    "headline": "Trump touts $1 billion in frozen scam funds at White House cybercrime roundtable without saying crypto",
+    "summary": "At the White House cybercrime roundtable Trump said Americans lost over $20 billion to cybercrime in 2025 and officials froze $1 billion in 'cybercurrency' tied to foreign scammers; neither he nor the attorney general said 'cryptocurrency'.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -28525,6 +28668,146 @@
   ],
   "market_significance": "Higher leverage raises volatility risk",
   "trigger": "CoinDesk latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261021_511852",
+  "headline": "UK FCA opens consultations on DeFi financial-crime guidance and crypto regulation exclusions",
+  "summary": "The FCA launched two consultations: guidance for DeFi firms on money laundering and financial crime rules, and exclusions from crypto regulation. Its new crypto regime is expected to be enforced from October 2027.",
+  "detected_at": "2026-10-21T22:19-04:00",
+  "active_since": "2026-10-21T22:19-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "regulatory",
+  "event_time": "2026-10-21T13:25-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://cointelegraph.com/news/uk-fca-consultations-defi-crypto-laws"
+  ],
+  "source_names": [
+   "Cointelegraph"
+  ],
+  "sources": [
+   {
+    "url": "https://cointelegraph.com/news/uk-fca-consultations-defi-crypto-laws",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://cointelegraph.com/news/uk-fca-consultations-defi-crypto-laws",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Cointelegraph",
+     "url": "https://cointelegraph.com/news/uk-fca-consultations-defi-crypto-laws",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Consultation, not a decision"
+  ],
+  "market_significance": "Shapes how DeFi is treated under the UK regime",
+  "trigger": "Cointelegraph report",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261021_bf72e5",
+  "headline": "Tether leads pre-seed round in Bolivian fintech Peso, bringing USDT to food delivery and banking",
+  "summary": "Tether led an undisclosed pre-seed round in Peso, which offers USDT payments through food delivery and local banking networks, to expand across Bolivia, Brazil, Colombia and Argentina.",
+  "detected_at": "2026-10-21T22:19-04:00",
+  "active_since": "2026-10-21T22:19-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "USDT"
+  ],
+  "event_type": "partnership",
+  "event_time": "2026-10-21T16:26-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://cointelegraph.com/news/tether-backs-bolivian-fintech-bringing-usdt-payments-to-food-delivery-and-banking"
+  ],
+  "source_names": [
+   "Cointelegraph"
+  ],
+  "sources": [
+   {
+    "url": "https://cointelegraph.com/news/tether-backs-bolivian-fintech-bringing-usdt-payments-to-food-delivery-and-banking",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://cointelegraph.com/news/tether-backs-bolivian-fintech-bringing-usdt-payments-to-food-delivery-and-banking",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Cointelegraph",
+     "url": "https://cointelegraph.com/news/tether-backs-bolivian-fintech-bringing-usdt-payments-to-food-delivery-and-banking",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Small undisclosed investment"
+  ],
+  "market_significance": "Stablecoin payments push in Latin America",
+  "trigger": "Cointelegraph report",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
