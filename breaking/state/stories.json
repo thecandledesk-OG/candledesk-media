@@ -22923,6 +22923,15 @@
     "level": "NORMAL",
     "sources_added": 1,
     "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-22T19:16-04:00",
+    "headline": "XRP Ledger bug fix fixCleanup3_4_0 slips to November 4 after validator support briefly dipped",
+    "summary": "Validator support for the fixCleanup3_4_0 amendment fell to 26 of 35 for about two hours, resetting its two-week countdown less than two days before the planned October 23 activation. Support recovered and the new activation is listed for November 4.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
    }
   ],
   "posts": [],
@@ -26537,7 +26546,9 @@
    "https://www.coindesk.com/markets/2026/10/22/bitcoin-slides-below-usd82-000-as-ai-doubts-return-with-defi-tokens-leading-declines",
    "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-october-22-2026-crypto-gains-wiped-out-as-oil-prices-stay-over-111-a-barrel-113128321.html",
    "https://www.coindesk.com/markets/2026/10/22/china-seeks-to-seize-61-800-btc-tied-to-usd5-7-billion-fraud-scheme",
-   "https://decrypt.co/news"
+   "https://decrypt.co/news",
+   "https://www.fool.com/coverage/stock-market-today/2026/10/22/crypto-market-today-oct-22-bitcoin-and-altcoins-slide-as-wall-street-fears-spill-into-crypto-markets/",
+   "https://cryptoticker.io/en/crypto-market-selloff-ether-leads/"
   ],
   "source_names": [
    "The Crypto Times",
@@ -26553,7 +26564,9 @@
    "CoinDesk",
    "Yahoo Finance",
    "CoinDesk",
-   "Decrypt"
+   "Decrypt",
+   "The Motley Fool",
+   "CryptoTicker"
   ],
   "sources": [
    {
@@ -26650,6 +26663,20 @@
    {
     "url": "https://decrypt.co/news",
     "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.fool.com/coverage/stock-market-today/2026/10/22/crypto-market-today-oct-22-bitcoin-and-altcoins-slide-as-wall-street-fears-spill-into-crypto-markets/",
+    "name": "The Motley Fool",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptoticker.io/en/crypto-market-selloff-ether-leads/",
+    "name": "CryptoTicker",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -26750,6 +26777,20 @@
    {
     "url": "https://decrypt.co/news",
     "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.fool.com/coverage/stock-market-today/2026/10/22/crypto-market-today-oct-22-bitcoin-and-altcoins-slide-as-wall-street-fears-spill-into-crypto-markets/",
+    "name": "The Motley Fool",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptoticker.io/en/crypto-market-selloff-ether-leads/",
+    "name": "CryptoTicker",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -26860,6 +26901,20 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "The Motley Fool",
+     "url": "https://www.fool.com/coverage/stock-market-today/2026/10/22/crypto-market-today-oct-22-bitcoin-and-altcoins-slide-as-wall-street-fears-spill-into-crypto-markets/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CryptoTicker",
+     "url": "https://cryptoticker.io/en/crypto-market-selloff-ether-leads/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -26967,6 +27022,24 @@
     "at": "2026-10-22T16:11-04:00",
     "headline": "China seeks to confiscate 61,800 BTC seized by the UK in the Qian fraud case",
     "summary": "Chinese prosecutors are seeking to confiscate about 61,800 bitcoin, worth roughly $5 billion, that UK authorities seized in the Qian Zhimin fraud case.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-22T19:16-04:00",
+    "headline": "Bitcoin slips to about $81,200 as altcoins lead a 4% crypto market drop",
+    "summary": "Bitcoin fell about 3 to 4% over 24 hours to roughly $81,200 after failing near $85,000, as Tesla and Meta earnings revived AI-spending doubts. Ether fell about 4 to 5%, XRP about 5 to 6% and SOL about 3 to 4.5%; total crypto market cap fell about 4.2% to $2.83 trillion. DeFi tokens led declines.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-22T19:16-04:00",
+    "headline": "China seeks to seize 61,800 BTC tied to $5.7 billion Tianjin Lantian Gree fraud",
+    "summary": "Chinese prosecutors asked a Tianjin court to confiscate more than 61,800 BTC and other assets linked to Qian Zhimin's alleged 40 billion yuan fraud. The bitcoin is held by UK authorities, where a High Court ruling said Chinese law governs victims' claims.",
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
@@ -30552,6 +30625,99 @@
   ],
   "market_significance": "Policy backdrop",
   "trigger": "The Block",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261022_6c0da6",
+  "headline": "Senator Blumenthal sends letters to Tether and Bo Hines' firm Nxum over consulting payments",
+  "summary": "Sen. Richard Blumenthal, ranking Democrat on the Senate Permanent Subcommittee on Investigations, wrote to Tether and Nxum Group, the consulting firm started by Tether U.S. chief Bo Hines, asking for details of payments the WSJ reported Nxum received while Hines advised the White House on crypto policy.",
+  "detected_at": "2026-10-22T19:16-04:00",
+  "active_since": "2026-10-22T19:16-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "USDT"
+  ],
+  "event_type": "regulatory",
+  "event_time": "2026-10-22T18:43-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/policy/2026/10/22/senate-s-top-democratic-investigator-looking-into-tether-payments-to-bo-hines-firm",
+   "https://www.hsgac.senate.gov/wp-content/uploads/2026-10-22-Letter-from-Sen-Blumenthal-to-Tether.pdf"
+  ],
+  "source_names": [
+   "CoinDesk",
+   "Senate HSGAC letter"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/policy/2026/10/22/senate-s-top-democratic-investigator-looking-into-tether-payments-to-bo-hines-firm",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.hsgac.senate.gov/wp-content/uploads/2026-10-22-Letter-from-Sen-Blumenthal-to-Tether.pdf",
+    "name": "Senate HSGAC letter",
+    "kind": "primary",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/policy/2026/10/22/senate-s-top-democratic-investigator-looking-into-tether-payments-to-bo-hines-firm",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.hsgac.senate.gov/wp-content/uploads/2026-10-22-Letter-from-Sen-Blumenthal-to-Tether.pdf",
+    "name": "Senate HSGAC letter",
+    "kind": "primary",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/policy/2026/10/22/senate-s-top-democratic-investigator-looking-into-tether-payments-to-bo-hines-firm",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Senate HSGAC letter",
+     "url": "https://www.hsgac.senate.gov/wp-content/uploads/2026-10-22-Letter-from-Sen-Blumenthal-to-Tether.pdf",
+     "category": "primary",
+     "counts": false,
+     "note": "primary (known official domain); not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Congressional letters requesting information; no ruling, charge or market impact."
+  ],
+  "market_significance": "Political scrutiny of the largest stablecoin issuer ahead of the midterms.",
+  "trigger": "CoinDesk report 6:43 PM ET",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
