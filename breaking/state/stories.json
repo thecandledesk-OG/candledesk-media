@@ -26548,7 +26548,8 @@
    "https://www.coindesk.com/markets/2026/10/22/china-seeks-to-seize-61-800-btc-tied-to-usd5-7-billion-fraud-scheme",
    "https://decrypt.co/news",
    "https://www.fool.com/coverage/stock-market-today/2026/10/22/crypto-market-today-oct-22-bitcoin-and-altcoins-slide-as-wall-street-fears-spill-into-crypto-markets/",
-   "https://cryptoticker.io/en/crypto-market-selloff-ether-leads/"
+   "https://cryptoticker.io/en/crypto-market-selloff-ether-leads/",
+   "https://cointelegraph.com/markets/bitcoin-circles-815k-etf-cost-basis-as-trump-iran-comments-send-stocks-lower"
   ],
   "source_names": [
    "The Crypto Times",
@@ -26566,7 +26567,8 @@
    "CoinDesk",
    "Decrypt",
    "The Motley Fool",
-   "CryptoTicker"
+   "CryptoTicker",
+   "Cointelegraph"
   ],
   "sources": [
    {
@@ -26677,6 +26679,13 @@
    {
     "url": "https://cryptoticker.io/en/crypto-market-selloff-ether-leads/",
     "name": "CryptoTicker",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cointelegraph.com/markets/bitcoin-circles-815k-etf-cost-basis-as-trump-iran-comments-send-stocks-lower",
+    "name": "Cointelegraph",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -26794,15 +26803,22 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://cointelegraph.com/markets/bitcoin-circles-815k-etf-cost-basis-as-trump-iran-comments-send-stocks-lower",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "VERIFIED",
   "verification": {
    "status": "VERIFIED",
-   "independent_sources": 4,
+   "independent_sources": 5,
    "has_primary": false,
    "score": 0.8,
-   "reason": "4 independent credible sources confirm it (no primary source yet)",
+   "reason": "5 independent credible sources confirm it (no primary source yet)",
    "sources_checked": [
     {
      "name": "The Crypto Times",
@@ -26915,6 +26931,13 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Cointelegraph",
+     "url": "https://cointelegraph.com/markets/bitcoin-circles-815k-etf-cost-basis-as-trump-iran-comments-send-stocks-lower",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -27043,6 +27066,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-22T22:15-04:00",
+    "headline": "Crypto market drops about 4% as oil tops $111 and tech stocks slide; ether and XRP fall over 5%",
+    "summary": "Total crypto market cap fell about 4.2% to $2.83 trillion on Thursday. Bitcoin slipped to around $81,200, near the US spot bitcoin ETF cost basis of about $81,500, while ether fell 5.4%, XRP 5.3% and solana 4.5%. Brent crude above $111, a 2% Nasdaq drop, Trump's Iran comments and roughly $370-400 million in mostly long liquidations drove the move. No hack or crypto-specific event was behind it.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "VERIFIED"
    }
   ],
@@ -30718,6 +30750,147 @@
   ],
   "market_significance": "Political scrutiny of the largest stablecoin issuer ahead of the midterms.",
   "trigger": "CoinDesk report 6:43 PM ET",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261022_a9b4c1",
+  "headline": "Bitcoin hashrate hits a seven-month high above 1 zettahash as miners shift to AI",
+  "summary": "Bitcoin's seven-day average hashrate rose above 1 ZH/s, its highest since March 3, per BlocksBridge Consulting. Difficulty rose 5.92% on October 16 with another ~5% increase projected, even as public miners' realized hashrate fell 23% and their AI/HPC revenue rose 52% quarter over quarter.",
+  "detected_at": "2026-10-22T22:15-04:00",
+  "active_since": "2026-10-22T22:15-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "other",
+  "event_time": "2026-10-22T16:50:00Z",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://cointelegraph.com/news/bitcoin-mining-difficulty-hashrate-recovery-ai-shift"
+  ],
+  "source_names": [
+   "Cointelegraph"
+  ],
+  "sources": [
+   {
+    "url": "https://cointelegraph.com/news/bitcoin-mining-difficulty-hashrate-recovery-ai-shift",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://cointelegraph.com/news/bitcoin-mining-difficulty-hashrate-recovery-ai-shift",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Cointelegraph",
+     "url": "https://cointelegraph.com/news/bitcoin-mining-difficulty-hashrate-recovery-ai-shift",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Network metric update"
+  ],
+  "market_significance": "Mining competition rising despite AI pivot",
+  "trigger": "news scan",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261022_a260ec",
+  "headline": "Underdog taps zerohash to add crypto and stablecoin deposits to its prediction markets",
+  "summary": "Prediction market operator Underdog, being acquired by IG Group, is partnering with zerohash to add crypto and stablecoin deposits later this year. Supported assets were not named.",
+  "detected_at": "2026-10-22T22:15-04:00",
+  "active_since": "2026-10-22T22:15-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "USDC",
+   "TOTAL_MARKET"
+  ],
+  "event_type": "partnership",
+  "event_time": "2026-10-22T17:24:00Z",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://cointelegraph.com/news/underdog-taps-zerohash-to-bring-crypto-deposits-to-prediction-markets"
+  ],
+  "source_names": [
+   "Cointelegraph"
+  ],
+  "sources": [
+   {
+    "url": "https://cointelegraph.com/news/underdog-taps-zerohash-to-bring-crypto-deposits-to-prediction-markets",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://cointelegraph.com/news/underdog-taps-zerohash-to-bring-crypto-deposits-to-prediction-markets",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Cointelegraph",
+     "url": "https://cointelegraph.com/news/underdog-taps-zerohash-to-bring-crypto-deposits-to-prediction-markets",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Small partnership, launch later this year"
+  ],
+  "market_significance": "Prediction markets adding crypto rails",
+  "trigger": "news scan",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
