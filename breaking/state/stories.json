@@ -26549,7 +26549,9 @@
    "https://decrypt.co/news",
    "https://www.fool.com/coverage/stock-market-today/2026/10/22/crypto-market-today-oct-22-bitcoin-and-altcoins-slide-as-wall-street-fears-spill-into-crypto-markets/",
    "https://cryptoticker.io/en/crypto-market-selloff-ether-leads/",
-   "https://cointelegraph.com/markets/bitcoin-circles-815k-etf-cost-basis-as-trump-iran-comments-send-stocks-lower"
+   "https://cointelegraph.com/markets/bitcoin-circles-815k-etf-cost-basis-as-trump-iran-comments-send-stocks-lower",
+   "https://fxstreet.com/cryptocurrencies/news/bitcoin-falls-4-as-chip-stocks-plunge-67-and-oil-surges-202610222333",
+   "https://www.investing.com/news/cryptocurrency-news/bitcoin-slips-below-82k-as-tech-rout-rising-oil-dent-risk-4968158"
   ],
   "source_names": [
    "The Crypto Times",
@@ -26568,7 +26570,9 @@
    "Decrypt",
    "The Motley Fool",
    "CryptoTicker",
-   "Cointelegraph"
+   "Cointelegraph",
+   "FXStreet",
+   "Investing.com"
   ],
   "sources": [
    {
@@ -26686,6 +26690,20 @@
    {
     "url": "https://cointelegraph.com/markets/bitcoin-circles-815k-etf-cost-basis-as-trump-iran-comments-send-stocks-lower",
     "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://fxstreet.com/cryptocurrencies/news/bitcoin-falls-4-as-chip-stocks-plunge-67-and-oil-surges-202610222333",
+    "name": "FXStreet",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-slips-below-82k-as-tech-rout-rising-oil-dent-risk-4968158",
+    "name": "Investing.com",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -26807,6 +26825,20 @@
    {
     "url": "https://cointelegraph.com/markets/bitcoin-circles-815k-etf-cost-basis-as-trump-iran-comments-send-stocks-lower",
     "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://fxstreet.com/cryptocurrencies/news/bitcoin-falls-4-as-chip-stocks-plunge-67-and-oil-surges-202610222333",
+    "name": "FXStreet",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-slips-below-82k-as-tech-rout-rising-oil-dent-risk-4968158",
+    "name": "Investing.com",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -26938,6 +26970,20 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "FXStreet",
+     "url": "https://fxstreet.com/cryptocurrencies/news/bitcoin-falls-4-as-chip-stocks-plunge-67-and-oil-surges-202610222333",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Investing.com",
+     "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-slips-below-82k-as-tech-rout-rising-oil-dent-risk-4968158",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -27075,6 +27121,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-23T07:19-04:00",
+    "headline": "Crypto market drops about 4% as a tech selloff and oil spike hit risk assets; bitcoin near $81,000",
+    "summary": "Bitcoin fell about 4% to roughly $81,000 Thursday, ether about 5%, XRP about 5% and solana about 4.5%, as chip stocks slid and Brent crude hit a five-month high. Roughly $400-474 million in futures were liquidated, mostly longs. By early Friday prices steadied near $81,600-82,000.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
     "verification": "VERIFIED"
    }
   ],
@@ -30891,6 +30946,149 @@
   ],
   "market_significance": "Prediction markets adding crypto rails",
   "trigger": "news scan",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261023_fb4a7f",
+  "headline": "Spot bitcoin ETFs lose $635 million in a day, the biggest outflow since June, turning October negative",
+  "summary": "U.S. spot bitcoin ETFs saw about $635.5 million of outflows Thursday per SoSoValue, ending a three-day inflow streak and leaving October about $175 million net negative. Ether ETFs lost about $111 million and solana ETFs about $9 million, while XRP ETFs took in about $3.6 million.",
+  "detected_at": "2026-10-23T07:19-04:00",
+  "active_since": "2026-10-23T07:19-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "BTC",
+   "ETH",
+   "SOL",
+   "XRP"
+  ],
+  "event_type": "institutional",
+  "event_time": "2026-10-22T20:00-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://cointelegraph.com/markets/bitcoin-etfs-erase-october-gains-outflow"
+  ],
+  "source_names": [
+   "Cointelegraph"
+  ],
+  "sources": [
+   {
+    "url": "https://cointelegraph.com/markets/bitcoin-etfs-erase-october-gains-outflow",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://cointelegraph.com/markets/bitcoin-etfs-erase-october-gains-outflow",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Cointelegraph",
+     "url": "https://cointelegraph.com/markets/bitcoin-etfs-erase-october-gains-outflow",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Routine fund-flow data"
+  ],
+  "market_significance": "Reverses the week's inflow streak",
+  "trigger": "Cointelegraph market report",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261023_f85d66",
+  "headline": "SEC lists OKX-ICE venue OKXICE, TSV and Kephas as proposed tokenized-securities platforms under its innovation exemption",
+  "summary": "A KuCoin daily report says the SEC identified TSV LLC, OKXICE and Kephas as proposing tokenized securities trading platforms under its innovation exemption. Not yet confirmed on SEC.gov in this check.",
+  "detected_at": "2026-10-23T07:19-04:00",
+  "active_since": "2026-10-23T07:19-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "regulatory",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-23-2026"
+  ],
+  "source_names": [
+   "KuCoin News"
+  ],
+  "sources": [
+   {
+    "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-23-2026",
+    "name": "KuCoin News",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-23-2026",
+    "name": "KuCoin News",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "KuCoin News",
+     "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-23-2026",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Single secondary source; procedural step"
+  ],
+  "market_significance": "Tokenized stock trading framework moving forward",
+  "trigger": "KuCoin daily report",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
