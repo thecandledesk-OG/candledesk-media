@@ -26551,7 +26551,8 @@
    "https://cryptoticker.io/en/crypto-market-selloff-ether-leads/",
    "https://cointelegraph.com/markets/bitcoin-circles-815k-etf-cost-basis-as-trump-iran-comments-send-stocks-lower",
    "https://fxstreet.com/cryptocurrencies/news/bitcoin-falls-4-as-chip-stocks-plunge-67-and-oil-surges-202610222333",
-   "https://www.investing.com/news/cryptocurrency-news/bitcoin-slips-below-82k-as-tech-rout-rising-oil-dent-risk-4968158"
+   "https://www.investing.com/news/cryptocurrency-news/bitcoin-slips-below-82k-as-tech-rout-rising-oil-dent-risk-4968158",
+   "https://www.bitbase.com/news/xrp-and-zcash-absorb-millions-amid-635-million-bitcoin-flush-main-crypto-news-this-morning"
   ],
   "source_names": [
    "The Crypto Times",
@@ -26572,7 +26573,8 @@
    "CryptoTicker",
    "Cointelegraph",
    "FXStreet",
-   "Investing.com"
+   "Investing.com",
+   "Bitbase"
   ],
   "sources": [
    {
@@ -26705,6 +26707,13 @@
     "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-slips-below-82k-as-tech-rout-rising-oil-dent-risk-4968158",
     "name": "Investing.com",
     "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.bitbase.com/news/xrp-and-zcash-absorb-millions-amid-635-million-bitcoin-flush-main-crypto-news-this-morning",
+    "name": "Bitbase",
+    "kind": "other",
     "checked": true,
     "confirms": true
    }
@@ -26840,6 +26849,13 @@
     "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-slips-below-82k-as-tech-rout-rising-oil-dent-risk-4968158",
     "name": "Investing.com",
     "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.bitbase.com/news/xrp-and-zcash-absorb-millions-amid-635-million-bitcoin-flush-main-crypto-news-this-morning",
+    "name": "Bitbase",
+    "kind": "other",
     "checked": true,
     "confirms": true
    }
@@ -26981,6 +26997,13 @@
     {
      "name": "Investing.com",
      "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-slips-below-82k-as-tech-rout-rising-oil-dent-risk-4968158",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Bitbase",
+     "url": "https://www.bitbase.com/news/xrp-and-zcash-absorb-millions-amid-635-million-bitcoin-flush-main-crypto-news-this-morning",
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
@@ -27130,6 +27153,33 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 2,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-23T10:20-04:00",
+    "headline": "Bitcoin slips about 2.4% to near $81,400 as a tech-stock sell-off spreads; ether, XRP lower, SOL flat",
+    "summary": "BTC around $81,400, down about 2.4% in 24 hours; ETH near $2,400, XRP near $1.31, SOL near $104. About $332M liquidated in 24 hours, mostly longs. Total market cap about $2.75T.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-23T10:20-04:00",
+    "headline": "South Korea to recognize stablecoins as a payment method from December 3; LG CNS taps Chainlink",
+    "summary": "South Korea's government will recognize stablecoins as a payment method starting December 3, and LG CNS partnered with Chainlink on tokenized won and stablecoin infrastructure.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-23T10:20-04:00",
+    "headline": "Grayscale's Zcash ETF draws a third straight day of inflows ahead of the NU7 upgrade; XRP ETFs add $3.6 million",
+    "summary": "Grayscale's ZCSH took in about $14.2M, its third straight day of inflows, ahead of Zcash's NU7 hard fork on November 5. Spot XRP ETFs added about $3.55M, all to Franklin Templeton's fund. Ether ETFs lost about $26M.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
     "verification": "VERIFIED"
    }
   ],
@@ -29864,11 +29914,13 @@
   "emergency": false,
   "source_urls": [
    "https://crypto.news/coindcx-denies-second-hack-claims-as-zachxbt-questions-wallet-activity",
-   "https://cointelegraph.com/news/coindcx-suspicious-outflows-wallet-compromised-2025-exploit"
+   "https://cointelegraph.com/news/coindcx-suspicious-outflows-wallet-compromised-2025-exploit",
+   "https://www.coindesk.com/markets/2026/10/23/india-s-largest-exchange-denies-hack-after-blockchain-sleuths-pointed-to-usd16-million-in-suspicious-outflows"
   ],
   "source_names": [
    "crypto.news",
-   "Cointelegraph"
+   "Cointelegraph",
+   "CoinDesk"
   ],
   "sources": [
    {
@@ -29884,6 +29936,13 @@
     "kind": "secondary",
     "checked": false,
     "confirms": false
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/23/india-s-largest-exchange-denies-hack-after-blockchain-sleuths-pointed-to-usd16-million-in-suspicious-outflows",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -29900,6 +29959,13 @@
     "kind": "secondary",
     "checked": false,
     "confirms": false
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/23/india-s-largest-exchange-denies-hack-after-blockchain-sleuths-pointed-to-usd16-million-in-suspicious-outflows",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
    }
   ],
   "verification_status": "UNVERIFIED",
@@ -29923,6 +29989,13 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/10/23/india-s-largest-exchange-denies-hack-after-blockchain-sleuths-pointed-to-usd16-million-in-suspicious-outflows",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
     }
    ]
   },
@@ -29942,6 +30015,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-23T10:20-04:00",
+    "headline": "CoinDCX denies a hack, blaming a broken clean-up job for the $16 million outflow",
+    "summary": "India's CoinDCX says the roughly $16 million moved from old deposit addresses came from a malfunctioning clean-up job, not a hack, after on-chain sleuths flagged the outflows.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "UNVERIFIED"
    }
   ],
@@ -31044,16 +31126,25 @@
   "metrics": {},
   "emergency": false,
   "source_urls": [
-   "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-23-2026"
+   "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-23-2026",
+   "https://www.analyticsinsight.net/price-analysis/crypto-prices-today-bitcoin-steady-near-usd-81600-despite-iran-tensions-and-ai-selloff"
   ],
   "source_names": [
-   "KuCoin News"
+   "KuCoin News",
+   "Analytics Insight"
   ],
   "sources": [
    {
     "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-23-2026",
     "name": "KuCoin News",
     "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.analyticsinsight.net/price-analysis/crypto-prices-today-bitcoin-steady-near-usd-81600-despite-iran-tensions-and-ai-selloff",
+    "name": "Analytics Insight",
+    "kind": "secondary",
     "checked": true,
     "confirms": true
    }
@@ -31063,6 +31154,13 @@
     "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-23-2026",
     "name": "KuCoin News",
     "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.analyticsinsight.net/price-analysis/crypto-prices-today-bitcoin-steady-near-usd-81600-despite-iran-tensions-and-ai-selloff",
+    "name": "Analytics Insight",
+    "kind": "secondary",
     "checked": true,
     "confirms": true
    }
@@ -31081,6 +31179,13 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Analytics Insight",
+     "url": "https://www.analyticsinsight.net/price-analysis/crypto-prices-today-bitcoin-steady-near-usd-81600-despite-iran-tensions-and-ai-selloff",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -31090,9 +31195,578 @@
   "market_significance": "Tokenized stock trading framework moving forward",
   "trigger": "KuCoin daily report",
   "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [
+   {
+    "at": "2026-10-23T10:12-04:00",
+    "headline": "US jobless claims hit a three-month low of 194K as bitcoin holds $81K",
+    "summary": "Green candles only! Jobless claims hit a three-month low, and Bitcoin held eighty-one thousand.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-23T10:12-04:00",
+    "headline": "Brent oil rises to $112 and the Nasdaq falls 2.6%",
+    "summary": "Check the yields first. Oil's at one hundred twelve dollars, and tech stocks just cracked.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   }
+  ],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261023_506f43",
+  "headline": "$418 million in long positions liquidated in 24 hours",
+  "summary": "Here's what moved the chain today: four hundred eighteen million in longs, wiped out.",
+  "detected_at": "2026-10-23T10:12-04:00",
+  "active_since": "2026-10-23T10:12-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "TOTAL_MARKET",
+   "BTC"
+  ],
+  "event_type": "market_move",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.cryptotimes.io/2026/10/23/crypto-price-today-bitcoin-price-falls-to-81668-as-635m-etf-outflows-drag-ethereum-xrp/"
+  ],
+  "source_names": [
+   "The Crypto Times"
+  ],
+  "sources": [
+   {
+    "url": "https://www.cryptotimes.io/2026/10/23/crypto-price-today-bitcoin-price-falls-to-81668-as-635m-etf-outflows-drag-ethereum-xrp/",
+    "name": "The Crypto Times",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.cryptotimes.io/2026/10/23/crypto-price-today-bitcoin-price-falls-to-81668-as-635m-etf-outflows-drag-ethereum-xrp/",
+    "name": "The Crypto Times",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Crypto Times",
+     "url": "https://www.cryptotimes.io/2026/10/23/crypto-price-today-bitcoin-price-falls-to-81668-as-635m-etf-outflows-drag-ethereum-xrp/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [
+   {
+    "at": "2026-10-23T10:12-04:00",
+    "headline": "Spot bitcoin ETFs lose $636 million in one day",
+    "summary": "Psst... spot Bitcoin ETFs just bled six hundred thirty-six million dollars in one day.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   }
+  ],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261023_724335",
+  "headline": "Kimchi meme token spikes to $15 million then loses over 95%",
+  "summary": "Wildcard: the Kimchi meme token spiked to fifteen million, then lost over ninety-five percent.",
+  "detected_at": "2026-10-23T10:12-04:00",
+  "active_since": "2026-10-23T10:12-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "OTHER"
+  ],
+  "event_type": "market_move",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://icobench.com/news/kimchi-crypto-pumpfun-token-crash/"
+  ],
+  "source_names": [
+   "ICOBench"
+  ],
+  "sources": [
+   {
+    "url": "https://icobench.com/news/kimchi-crypto-pumpfun-token-crash/",
+    "name": "ICOBench",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://icobench.com/news/kimchi-crypto-pumpfun-token-crash/",
+    "name": "ICOBench",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "ICOBench",
+     "url": "https://icobench.com/news/kimchi-crypto-pumpfun-token-crash/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261023_c84357",
+  "headline": "HSBC launches RedCoin, a licensed Hong Kong dollar stablecoin, for PayMe's 3.3 million users",
+  "summary": "HSBC's RedCoin (RCHKD), issued under HKMA stablecoin licence FRS02, is now live on PayMe for peer-to-peer transfers and payments at 100,000+ merchants; the phased wallet rollout runs over the coming days. HSBC's Oct 23 disclosure shows about HK$80.6M in circulation against HK$81.6M in cash reserves. HSBC HK app access and a tokenized money market fund are planned later in 2026.",
+  "detected_at": "2026-10-23T10:20-04:00",
+  "active_since": "2026-10-23T10:20-04:00",
+  "classification": "IMPORTANT",
+  "proposed_level": "IMPORTANT",
+  "confidence": 0.88,
+  "assets": [
+   "RCHKD",
+   "USDT",
+   "USDC"
+  ],
+  "event_type": "institutional",
+  "event_time": "2026-10-23T00:03-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.hsbc.com.hk/stablecoins/",
+   "https://www.theblock.co/news/business/2026-10-23-hsbc-hkd-stablecoin-redcoin-424018",
+   "https://crypto.news/hsbc-redcoin-stablecoin-payme-hong-kong-launch/",
+   "https://www.ledgerinsights.com/hsbc-goes-live-with-redcoin-stablecoin/"
+  ],
+  "source_names": [
+   "HSBC Hong Kong",
+   "The Block",
+   "crypto.news",
+   "Ledger Insights"
+  ],
+  "sources": [
+   {
+    "url": "https://www.hsbc.com.hk/stablecoins/",
+    "name": "HSBC Hong Kong",
+    "kind": "primary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-23-hsbc-hkd-stablecoin-redcoin-424018",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://crypto.news/hsbc-redcoin-stablecoin-payme-hong-kong-launch/",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.ledgerinsights.com/hsbc-goes-live-with-redcoin-stablecoin/",
+    "name": "Ledger Insights",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.hsbc.com.hk/stablecoins/",
+    "name": "HSBC Hong Kong",
+    "kind": "primary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-23-hsbc-hkd-stablecoin-redcoin-424018",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://crypto.news/hsbc-redcoin-stablecoin-payme-hong-kong-launch/",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.ledgerinsights.com/hsbc-goes-live-with-redcoin-stablecoin/",
+    "name": "Ledger Insights",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "VERIFIED",
+  "verification": {
+   "status": "VERIFIED",
+   "independent_sources": 2,
+   "has_primary": true,
+   "score": 1.0,
+   "reason": "2 independent credible sources confirm it (incl. a primary source)",
+   "sources_checked": [
+    {
+     "name": "HSBC Hong Kong",
+     "url": "https://www.hsbc.com.hk/stablecoins/",
+     "category": "primary",
+     "counts": true,
+     "note": "primary (claimed official source; domain not on the known list)"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-10-23-hsbc-hkd-stablecoin-redcoin-424018",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/hsbc-redcoin-stablecoin-payme-hong-kong-launch/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Ledger Insights",
+     "url": "https://www.ledgerinsights.com/hsbc-goes-live-with-redcoin-stablecoin/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed IMPORTANT: One of the world's largest banks put a regulator-licensed stablecoin into a mass-market retail app; confirmed by HSBC's official page and The Block."
+  ],
+  "market_significance": "First big-bank retail stablecoin rollout under Hong Kong's licensing regime; a test case for bank-issued stablecoins competing with USDT and USDC.",
+  "trigger": "The Block and HSBC product page, Oct 23",
+  "content_created": true,
+  "publication_status": "DRAFTED",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [
+   "6adb6f586fe59a6ed27babfc",
+   "6adb6f5891ffb6bdb08b7000",
+   "6adb6f5910223fea566ac6a8"
+  ],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261023_9d9b8d",
+  "headline": "Ethereum developers delay Glamsterdam's Hoodi testnet fork over gas-change security flaws",
+  "summary": "Ethereum developers postponed the Glamsterdam hard fork on the Hoodi testnet, due Monday, after auditor ChainSecurity flagged security risks in gas changes EIP-8037 and EIP-8038, citing 13 real-world contract examples. No new date is set; mainnet had been targeted for end-2026.",
+  "detected_at": "2026-10-23T10:20-04:00",
+  "active_since": "2026-10-23T10:20-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "ETH"
+  ],
+  "event_type": "protocol_upgrade",
+  "event_time": "2026-10-23T07:49-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://decrypt.co/381681/ethereum-delays-glamsterdam-testnet-fork-over-gas-security-flaws",
+   "https://cointelegraph.com/news/ethereum-delays-glamsterdam-testnet-fork-gas-security-risks"
+  ],
+  "source_names": [
+   "Decrypt",
+   "Cointelegraph"
+  ],
+  "sources": [
+   {
+    "url": "https://decrypt.co/381681/ethereum-delays-glamsterdam-testnet-fork-over-gas-security-flaws",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cointelegraph.com/news/ethereum-delays-glamsterdam-testnet-fork-gas-security-risks",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://decrypt.co/381681/ethereum-delays-glamsterdam-testnet-fork-over-gas-security-flaws",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cointelegraph.com/news/ethereum-delays-glamsterdam-testnet-fork-gas-security-risks",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/381681/ethereum-delays-glamsterdam-testnet-fork-over-gas-security-flaws",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Cointelegraph",
+     "url": "https://cointelegraph.com/news/ethereum-delays-glamsterdam-testnet-fork-gas-security-risks",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Testnet schedule change, no mainnet date affected yet; confirmed by Decrypt and Cointelegraph."
+  ],
+  "market_significance": "Could push Ethereum's next major upgrade past 2026.",
+  "trigger": "ChainSecurity post on X, reported by Decrypt",
+  "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
   "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261023_8197a2",
+  "headline": "DFINITY's Dominic Williams accuses NEAR Intents of using its patented threshold ECDSA technology",
+  "summary": "DFINITY founder Dominic Williams says NEAR Intents is built partly on DFINITY's patented threshold ECDSA signatures without permission; no lawsuit has been disclosed. NEAR fell about 1.3% to $4.96.",
+  "detected_at": "2026-10-23T10:20-04:00",
+  "active_since": "2026-10-23T10:20-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "ICP",
+   "NEAR"
+  ],
+  "event_type": "legal",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coingabbar.com/en/crypto-news-today-october-23-bitcoin-81k-eth-dacity-coin-price"
+  ],
+  "source_names": [
+   "CoinGabbar"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coingabbar.com/en/crypto-news-today-october-23-bitcoin-81k-eth-dacity-coin-price",
+    "name": "CoinGabbar",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coingabbar.com/en/crypto-news-today-october-23-bitcoin-81k-eth-dacity-coin-price",
+    "name": "CoinGabbar",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinGabbar",
+     "url": "https://www.coingabbar.com/en/crypto-news-today-october-23-bitcoin-81k-eth-dacity-coin-price",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Claim only, no filing."
+  ],
+  "market_significance": "Possible IP dispute between two layer ones.",
+  "trigger": "roundup",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [
+   {
+    "at": "2026-10-23T10:20-04:00",
+    "headline": "Circle shareholder sues World Liberty Financial over UAE-linked deals; Circle says it is not involved",
+    "summary": "A Circle shareholder filed suit against World Liberty Financial alleging Trump profited from two UAE-linked deals in violation of the Foreign Emoluments Clause. World Liberty denies wrongdoing.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   }
+  ],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261023_6e6156",
+  "headline": "Polymarket reportedly fires its marketing chief",
+  "summary": "Polymarket has reportedly fired its marketing chief, a close friend of the CEO, CoinDesk reports.",
+  "detected_at": "2026-10-23T10:20-04:00",
+  "active_since": "2026-10-23T10:20-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "OTHER"
+  ],
+  "event_type": "other",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://cryptonews.net/"
+  ],
+  "source_names": [
+   "cryptonews.net (CoinDesk headline)"
+  ],
+  "sources": [
+   {
+    "url": "https://cryptonews.net/",
+    "name": "cryptonews.net (CoinDesk headline)",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://cryptonews.net/",
+    "name": "cryptonews.net (CoinDesk headline)",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "cryptonews.net (CoinDesk headline)",
+     "url": "https://cryptonews.net/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Personnel news."
+  ],
+  "market_significance": "Minor.",
+  "trigger": "cryptonews.net aggregator",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [
+   {
+    "at": "2026-10-23T10:20-04:00",
+    "headline": "UAE-led scam crackdown identifies over $39 billion in funds and crypto",
+    "summary": "A UAE-led crackdown on scam networks identified more than $39 billion in funds and crypto, The Defiant reports.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  }

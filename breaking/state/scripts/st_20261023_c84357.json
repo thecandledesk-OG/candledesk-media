@@ -1,0 +1,82 @@
+{
+ "story_id": "st_20261023_c84357",
+ "date_label": "OCT 23",
+ "headline": "HSBC launches its RedCoin stablecoin in Hong Kong",
+ "sources": [
+  {
+   "name": "HSBC",
+   "url": "https://www.hsbc.com.hk/stablecoins/"
+  },
+  {
+   "name": "The Block",
+   "url": "https://www.theblock.co/news/business/2026-10-23-hsbc-hkd-stablecoin-redcoin-424018"
+  }
+ ],
+ "scenes": [
+  {
+   "beat": "hook",
+   "who": "ledger",
+   "vo": "One of the world's biggest banks just put a stablecoin in an app with three point three million users. Here's what changed.",
+   "chunks": [
+    "HSBC stablecoin",
+    "*Now live*",
+    "Here's what changed"
+   ]
+  },
+  {
+   "beat": "what_happened",
+   "who": "ledger",
+   "vo": "On Friday, HSBC switched on Red Coin, a Hong Kong dollar stablecoin, in its Pay Me app. It's licensed by Hong Kong's central bank and works at over one hundred thousand merchants.",
+   "chunks": [
+    "RedCoin on *PayMe*",
+    "*Licensed* in Hong Kong",
+    "100K+ merchants"
+   ],
+   "stat": {
+    "label": "Sources",
+    "text": "HSBC \u00b7 The Block"
+   }
+  },
+  {
+   "beat": "why_it_matters",
+   "who": "bruno",
+   "vo": "Here's why traders are watching it. A giant bank is issuing a regulated stablecoin to everyday users. It's a real test of bank coins versus Tether and Circle.",
+   "chunks": [
+    "Why it matters",
+    "*A bank-issued coin*",
+    "Versus *USDT and USDC*"
+   ]
+  },
+  {
+   "beat": "why_it_matters",
+   "who": "ursa",
+   "vo": "The catch. It's still small, about eighty million Hong Kong dollars in circulation, and the first independent reserve check comes after year end.",
+   "chunks": [
+    "The catch",
+    "*Still small*",
+    "Audit after Q4"
+   ]
+  },
+  {
+   "beat": "watch_next",
+   "who": "moby",
+   "vo": "Here's what happens next. Watch HSBC's daily supply number, and its planned tokenized money market fund.",
+   "chunks": [
+    "Watch next",
+    "*Daily supply data*",
+    "Tokenized fund"
+   ]
+  },
+  {
+   "beat": "cta",
+   "who": "all",
+   "vo": "Follow The Candle Desk for crypto news without the hype. Not financial advice.",
+   "chunks": [
+    "Follow The Candle Desk",
+    "*No hype*",
+    "Just the news"
+   ],
+   "foot": "NOT FINANCIAL ADVICE"
+  }
+ ]
+}
