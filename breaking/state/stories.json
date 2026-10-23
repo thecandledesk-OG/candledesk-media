@@ -25167,12 +25167,14 @@
   "source_urls": [
    "https://www.theblock.co/news/regulation/2026-10-20-swiss-regulator-finma-approves-countrys-first-spot-bitcoin-etf-for-retail-investors-421127",
    "https://cointelegraph.com/news/finma-approves-switzerlands-first-bitcoin-etf-retail",
-   "https://www.finma.ch/news/2026/10/20261020-mm-finma-bitcoin-etf/"
+   "https://www.finma.ch/news/2026/10/20261020-mm-finma-bitcoin-etf/",
+   "https://cointelegraph.com/news/switzerland-approves-first-spot-bitcoin-etf-for-retail-investors"
   ],
   "source_names": [
    "The Block",
    "Cointelegraph",
-   "FINMA"
+   "FINMA",
+   "Cointelegraph"
   ],
   "sources": [
    {
@@ -25195,6 +25197,13 @@
     "kind": "primary",
     "checked": false,
     "confirms": false
+   },
+   {
+    "url": "https://cointelegraph.com/news/switzerland-approves-first-spot-bitcoin-etf-for-retail-investors",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -25218,6 +25227,13 @@
     "kind": "primary",
     "checked": false,
     "confirms": false
+   },
+   {
+    "url": "https://cointelegraph.com/news/switzerland-approves-first-spot-bitcoin-etf-for-retail-investors",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
    }
   ],
   "verification_status": "VERIFIED",
@@ -25248,6 +25264,13 @@
      "category": "primary",
      "counts": false,
      "note": "primary (claimed official source; domain not on the known list); not opened, so it doesn't count"
+    },
+    {
+     "name": "Cointelegraph",
+     "url": "https://cointelegraph.com/news/switzerland-approves-first-spot-bitcoin-etf-for-retail-investors",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
     }
    ]
   },
@@ -25259,7 +25282,17 @@
   "content_created": true,
   "publication_status": "DRAFTED",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-23T13:11-04:00",
+    "headline": "Switzerland's first retail spot bitcoin ETF targets a November launch",
+    "summary": "Switzerland approved its first spot bitcoin ETF for retail investors, which targets a November launch.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   }
+  ],
   "posts": [
    "6ad77b09ca72dcf89180a33e",
    "6ad77b0c009aee686442f192",
@@ -31239,10 +31272,12 @@
   "metrics": {},
   "emergency": false,
   "source_urls": [
-   "https://www.cryptotimes.io/2026/10/23/crypto-price-today-bitcoin-price-falls-to-81668-as-635m-etf-outflows-drag-ethereum-xrp/"
+   "https://www.cryptotimes.io/2026/10/23/crypto-price-today-bitcoin-price-falls-to-81668-as-635m-etf-outflows-drag-ethereum-xrp/",
+   "https://cointelegraph.com/markets/bitcoin-consolidates-after-3-loss-as-ai-fears-stoke-fresh-stock-market-weakness"
   ],
   "source_names": [
-   "The Crypto Times"
+   "The Crypto Times",
+   "Cointelegraph"
   ],
   "sources": [
    {
@@ -31251,6 +31286,14 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://cointelegraph.com/markets/bitcoin-consolidates-after-3-loss-as-ai-fears-stoke-fresh-stock-market-weakness",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-23T08:23-04:00"
    }
   ],
   "gate_sources": [
@@ -31260,15 +31303,23 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://cointelegraph.com/markets/bitcoin-consolidates-after-3-loss-as-ai-fears-stoke-fresh-stock-market-weakness",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-23T08:23-04:00"
    }
   ],
   "verification_status": "UNVERIFIED",
   "verification": {
    "status": "UNVERIFIED",
-   "independent_sources": 0,
+   "independent_sources": 1,
    "has_primary": false,
-   "score": 0.0,
-   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
    "sources_checked": [
     {
      "name": "The Crypto Times",
@@ -31276,6 +31327,13 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Cointelegraph",
+     "url": "https://cointelegraph.com/markets/bitcoin-consolidates-after-3-loss-as-ai-fears-stoke-fresh-stock-market-weakness",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -31295,6 +31353,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-23T13:11-04:00",
+    "headline": "Bitcoin steadies near $81,700 after Thursday's 3% drop; ether, XRP and solana flat",
+    "summary": "Bitcoin consolidated around $81,700 on Friday after shedding 3.2% Thursday on AI-driven stock weakness; ETH near $2,400, XRP near $1.31, SOL near $104.5, all roughly flat on the day.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "UNVERIFIED"
    }
   ],
@@ -31767,6 +31834,703 @@
     "verification": "UNVERIFIED"
    }
   ],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261023_3b633f",
+  "headline": "Initia halts its layer 1 and rollups after a reported token-mint exploit; about $2.6 million cashed out",
+  "summary": "Initia paused its L1 blockchain and rollups on Oct 23 after a security incident in which an attacker could reportedly mint tokens without limit. Researcher Spreek estimated about $2.6M was cashed out; onchain data shows a 1,135 ETH transfer (~$2.7M). Initia says it is investigating with security teams, validators and exchanges; Upbit and Bithumb reportedly suspended INIT deposits and withdrawals. Loss not confirmed by Initia; halt ongoing.",
+  "detected_at": "2026-10-23T13:11-04:00",
+  "active_since": "2026-10-23T13:11-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "INIT"
+  ],
+  "event_type": "hack_exploit",
+  "event_time": "2026-10-23T11:30-04:00",
+  "scheduled_event": false,
+  "metrics": {
+   "loss_usd": 2700000
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/defi/2026-10-23-initia-halts-network-after-security-incident-attacker-reportedly-mints-tokens-427755",
+   "https://thedefiant.io/news/hacks/initia-halts-l1-and-rollups-after-reported-mint-exploit",
+   "https://panews.io/articles/01a16995-5a5b-710b-91cb-7398e31a1989",
+   "https://x.com/initia/status/2113661738625155217"
+  ],
+  "source_names": [
+   "The Block",
+   "The Defiant",
+   "PANews",
+   "Initia on X"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/defi/2026-10-23-initia-halts-network-after-security-incident-attacker-reportedly-mints-tokens-427755",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-23T13:03-04:00"
+   },
+   {
+    "url": "https://thedefiant.io/news/hacks/initia-halts-l1-and-rollups-after-reported-mint-exploit",
+    "name": "The Defiant",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-23T12:19-04:00"
+   },
+   {
+    "url": "https://panews.io/articles/01a16995-5a5b-710b-91cb-7398e31a1989",
+    "name": "PANews",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://x.com/initia/status/2113661738625155217",
+    "name": "Initia on X",
+    "kind": "social",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/defi/2026-10-23-initia-halts-network-after-security-incident-attacker-reportedly-mints-tokens-427755",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-23T13:03-04:00"
+   },
+   {
+    "url": "https://thedefiant.io/news/hacks/initia-halts-l1-and-rollups-after-reported-mint-exploit",
+    "name": "The Defiant",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-23T12:19-04:00"
+   },
+   {
+    "url": "https://panews.io/articles/01a16995-5a5b-710b-91cb-7398e31a1989",
+    "name": "PANews",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://x.com/initia/status/2113661738625155217",
+    "name": "Initia on X",
+    "kind": "social",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "VERIFIED",
+  "verification": {
+   "status": "VERIFIED",
+   "independent_sources": 2,
+   "has_primary": false,
+   "score": 0.8,
+   "reason": "2 independent credible sources confirm it (no primary source yet)",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/defi/2026-10-23-initia-halts-network-after-security-incident-attacker-reportedly-mints-tokens-427755",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "The Defiant",
+     "url": "https://thedefiant.io/news/hacks/initia-halts-l1-and-rollups-after-reported-mint-exploit",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "PANews",
+     "url": "https://panews.io/articles/01a16995-5a5b-710b-91cb-7398e31a1989",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Initia on X",
+     "url": "https://x.com/initia/status/2113661738625155217",
+     "category": "social",
+     "counts": false,
+     "note": "social/community post — can trigger investigation, never verifies"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Real network halt plus exploit, but on a small-cap chain and the reported loss (~$2.7M, unconfirmed) is far below the $10M hack threshold.",
+   "hack rule: about $3M lost (thresholds $10M/$100M) -> NORMAL"
+  ],
+  "market_significance": "Full L1 and rollup halt; Korean exchanges suspended INIT transfers.",
+  "trigger": "The Block latest feed 1:03 PM ET",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261023_bee417",
+  "headline": "Malaysia and Thailand central banks join Singapore's BLOOM cross-border stablecoin settlement initiative",
+  "summary": "MAS confirmed Bank Negara Malaysia and the Bank of Thailand are joining BLOOM, its project on cross-border settlement with stablecoins and tokenized deposits; participants include Ripple, Visa, Mastercard, Circle, Coinbase, JPMorgan and Stripe.",
+  "detected_at": "2026-10-23T13:11-04:00",
+  "active_since": "2026-10-23T13:11-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.85,
+  "assets": [
+   "USDC",
+   "XRP"
+  ],
+  "event_type": "regulatory",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/regulation/2026-10-23-singapore-malaysia-and-thailand-central-banks-expand-cross-border-stablecoin-initiative-involving-ripple-visa-and-mastercard-426492",
+   "https://cointelegraph.com/news/malaysia-thailand-join-singapores-cross-border-stablecoin-push"
+  ],
+  "source_names": [
+   "The Block",
+   "Cointelegraph"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-10-23-singapore-malaysia-and-thailand-central-banks-expand-cross-border-stablecoin-initiative-involving-ripple-visa-and-mastercard-426492",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-23T08:55-04:00"
+   },
+   {
+    "url": "https://cointelegraph.com/news/malaysia-thailand-join-singapores-cross-border-stablecoin-push",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-10-23-singapore-malaysia-and-thailand-central-banks-expand-cross-border-stablecoin-initiative-involving-ripple-visa-and-mastercard-426492",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-23T08:55-04:00"
+   },
+   {
+    "url": "https://cointelegraph.com/news/malaysia-thailand-join-singapores-cross-border-stablecoin-push",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-10-23-singapore-malaysia-and-thailand-central-banks-expand-cross-border-stablecoin-initiative-involving-ripple-visa-and-mastercard-426492",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Cointelegraph",
+     "url": "https://cointelegraph.com/news/malaysia-thailand-join-singapores-cross-border-stablecoin-push",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Expansion of an existing central-bank pilot; no new rule or launch."
+  ],
+  "market_significance": "Regional stablecoin settlement work broadens.",
+  "trigger": "The Block feed",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261023_7d86cf",
+  "headline": "New York attorney general seeks about $1.37 billion from NovaTech founders over alleged crypto Ponzi scheme",
+  "summary": "New York is seeking over $1.3 billion from the founders of NovaTech, who fled the US, over an alleged crypto Ponzi scheme.",
+  "detected_at": "2026-10-23T13:11-04:00",
+  "active_since": "2026-10-23T13:11-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "legal",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/regulation/2026-10-23-new-york-seeks-over-1-3-billion-from-novatech-founders-after-couple-fled-the-us-424453",
+   "https://cointelegraph.com/news/new-york-ag-novatech-founders-companies-crypto-ponzi"
+  ],
+  "source_names": [
+   "The Block",
+   "Cointelegraph"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-10-23-new-york-seeks-over-1-3-billion-from-novatech-founders-after-couple-fled-the-us-424453",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true,
+    "published": "2026-10-23T06:12-04:00"
+   },
+   {
+    "url": "https://cointelegraph.com/news/new-york-ag-novatech-founders-companies-crypto-ponzi",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-10-23-new-york-seeks-over-1-3-billion-from-novatech-founders-after-couple-fled-the-us-424453",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true,
+    "published": "2026-10-23T06:12-04:00"
+   },
+   {
+    "url": "https://cointelegraph.com/news/new-york-ag-novatech-founders-companies-crypto-ponzi",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-10-23-new-york-seeks-over-1-3-billion-from-novatech-founders-after-couple-fled-the-us-424453",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "Cointelegraph",
+     "url": "https://cointelegraph.com/news/new-york-ag-novatech-founders-companies-crypto-ponzi",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Enforcement action against a fraud scheme; not market-moving."
+  ],
+  "market_significance": "Large fraud penalty sought.",
+  "trigger": "The Block / Cointelegraph feeds",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261023_b039b1",
+  "headline": "Phantom rolls out Kalshi prediction markets to U.S. users despite state lawsuits",
+  "summary": "Phantom wallet launched Kalshi prediction markets for U.S. users, saying it is comfortable with the move amid state lawsuits against Kalshi.",
+  "detected_at": "2026-10-23T13:11-04:00",
+  "active_since": "2026-10-23T13:11-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.75,
+  "assets": [
+   "SOL"
+  ],
+  "event_type": "partnership",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/markets/2026-10-23-phantom-rolls-out-kalshi-prediction-markets-us-421652"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-10-23-phantom-rolls-out-kalshi-prediction-markets-us-421652",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true,
+    "published": "2026-10-23T09:00-04:00"
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-10-23-phantom-rolls-out-kalshi-prediction-markets-us-421652",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true,
+    "published": "2026-10-23T09:00-04:00"
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/markets/2026-10-23-phantom-rolls-out-kalshi-prediction-markets-us-421652",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Product launch; routine."
+  ],
+  "market_significance": "Prediction markets inside a major wallet.",
+  "trigger": "The Block feed",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261023_68cf99",
+  "headline": "South Korea plans to amend its forex law to regulate stablecoins as payment instruments",
+  "summary": "South Korea is set to amend its foreign exchange law so stablecoins are regulated as payment instruments, according to a report.",
+  "detected_at": "2026-10-23T13:11-04:00",
+  "active_since": "2026-10-23T13:11-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "USDT",
+   "USDC"
+  ],
+  "event_type": "regulatory",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/regulation/2026-10-23-south-korea-stablecoins-payment-instruments-424028"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-10-23-south-korea-stablecoins-payment-instruments-424028",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true,
+    "published": "2026-10-23T05:52-04:00"
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-10-23-south-korea-stablecoins-payment-instruments-424028",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true,
+    "published": "2026-10-23T05:52-04:00"
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-10-23-south-korea-stablecoins-payment-instruments-424028",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Reported plan, not enacted."
+  ],
+  "market_significance": "Korean stablecoin framework progressing.",
+  "trigger": "The Block feed",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261023_b97bbc",
+  "headline": "Cysic bridge exploiter sends about $744,000 in ETH and BNB to Tornado Cash after a 10% bounty offer",
+  "summary": "An attacker who used a Cysic bridge flaw to mint 10 million CYS on BNB Chain moved about $744K in ETH and BNB to Tornado Cash; Cysic froze about 2.8M of the minted tokens and says mainnet is unaffected.",
+  "detected_at": "2026-10-23T13:11-04:00",
+  "active_since": "2026-10-23T13:11-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.75,
+  "assets": [
+   "CYS"
+  ],
+  "event_type": "hack_exploit",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {
+   "loss_usd": 744000
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://cointelegraph.com/news/cysic-exploiter-eth-tornado-cash-white-hat-offer"
+  ],
+  "source_names": [
+   "Cointelegraph"
+  ],
+  "sources": [
+   {
+    "url": "https://cointelegraph.com/news/cysic-exploiter-eth-tornado-cash-white-hat-offer",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-23T11:00-04:00"
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://cointelegraph.com/news/cysic-exploiter-eth-tornado-cash-white-hat-offer",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-23T11:00-04:00"
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Cointelegraph",
+     "url": "https://cointelegraph.com/news/cysic-exploiter-eth-tornado-cash-white-hat-offer",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Small exploit, well under thresholds.",
+   "hack rule: about $1M lost (thresholds $10M/$100M) -> NORMAL"
+  ],
+  "market_significance": "Minor bridge exploit follow-up.",
+  "trigger": "Cointelegraph feed",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261023_d0c55c",
+  "headline": "Bitcoin Core changes its security disclosure policy as AI makes bugs easier to find",
+  "summary": "Bitcoin Core updated its security policy, citing AI tools making vulnerabilities easier to find.",
+  "detected_at": "2026-10-23T13:11-04:00",
+  "active_since": "2026-10-23T13:11-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "protocol_upgrade",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://cointelegraph.com/news/bitcoin-core-changes-security-policy-as-ai-makes-bugs-easier-to-find"
+  ],
+  "source_names": [
+   "Cointelegraph"
+  ],
+  "sources": [
+   {
+    "url": "https://cointelegraph.com/news/bitcoin-core-changes-security-policy-as-ai-makes-bugs-easier-to-find",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://cointelegraph.com/news/bitcoin-core-changes-security-policy-as-ai-makes-bugs-easier-to-find",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Cointelegraph",
+     "url": "https://cointelegraph.com/news/bitcoin-core-changes-security-policy-as-ai-makes-bugs-easier-to-find",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Process change, not a software release."
+  ],
+  "market_significance": "Developer security process.",
+  "trigger": "Cointelegraph feed",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261023_eb71f0",
+  "headline": "Circle shareholder sues Trump, World Liberty Financial and Steve Witkoff over crypto deals",
+  "summary": "A Circle shareholder filed a lawsuit against Donald Trump, World Liberty Financial and Steve Witkoff over crypto dealings.",
+  "detected_at": "2026-10-23T13:11-04:00",
+  "active_since": "2026-10-23T13:11-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "USDC"
+  ],
+  "event_type": "legal",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://cointelegraph.com/news/circle-shareholder-lawsuit-donald-trump-world-liberty-financial-steve-witkoff-crypto-corruption"
+  ],
+  "source_names": [
+   "Cointelegraph"
+  ],
+  "sources": [
+   {
+    "url": "https://cointelegraph.com/news/circle-shareholder-lawsuit-donald-trump-world-liberty-financial-steve-witkoff-crypto-corruption",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://cointelegraph.com/news/circle-shareholder-lawsuit-donald-trump-world-liberty-financial-steve-witkoff-crypto-corruption",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Cointelegraph",
+     "url": "https://cointelegraph.com/news/circle-shareholder-lawsuit-donald-trump-world-liberty-financial-steve-witkoff-crypto-corruption",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Shareholder suit; early stage."
+  ],
+  "market_significance": "Political-crypto legal risk.",
+  "trigger": "Cointelegraph feed",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
   "posts": [],
   "needs_followup": false
  }
