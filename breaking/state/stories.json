@@ -27246,6 +27246,15 @@
     "level": "NORMAL",
     "sources_added": 1,
     "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-23T22:14-04:00",
+    "headline": "Bitcoin steadies near $81,700 as memecoins lead an altcoin rebound; PEPE up about 13%",
+    "summary": "Bitcoin held in a tight range near $81,500 to $81,700 on Friday, down about 0.4% in 24 hours, while memecoins led a rebound in altcoins. ETH near $2,395, XRP near $1.32, SOL near $104, all within about half a percent on the day.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "VERIFIED"
    }
   ],
   "posts": [],
@@ -32840,6 +32849,76 @@
   ],
   "market_significance": "Korea's won stablecoin push.",
   "trigger": "The Block latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261023_608b1a",
+  "headline": "Interpol's Operation Serengeti III recovers over $105 million across Africa and shuts illegal crypto mines in Angola",
+  "summary": "Interpol says police in 21 African countries arrested 1,462 suspects and recovered more than $105 million between June 29 and August 31; Angola dismantled two illegal crypto mining centres and Nigeria traced $2.4 million in fraud proceeds laundered partly through crypto.",
+  "detected_at": "2026-10-23T22:14-04:00",
+  "active_since": "2026-10-23T22:14-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.85,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "legal",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://decrypt.co/381690/interpol-recovers-105m-in-african-cybercrime-sweep-that-shut-illegal-crypto-mines"
+  ],
+  "source_names": [
+   "Decrypt"
+  ],
+  "sources": [
+   {
+    "url": "https://decrypt.co/381690/interpol-recovers-105m-in-african-cybercrime-sweep-that-shut-illegal-crypto-mines",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://decrypt.co/381690/interpol-recovers-105m-in-african-cybercrime-sweep-that-shut-illegal-crypto-mines",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/381690/interpol-recovers-105m-in-african-cybercrime-sweep-that-shut-illegal-crypto-mines",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Law-enforcement roundup, no direct market impact"
+  ],
+  "market_significance": "low",
+  "trigger": "Decrypt article citing Interpol press release",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
