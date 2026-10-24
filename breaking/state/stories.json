@@ -33471,11 +33471,17 @@
   "emergency": false,
   "source_urls": [
    "https://www.coindesk.com/",
-   "https://www.marketalleys.com/post/marketalleys-daily-brief-2026-10-24"
+   "https://www.marketalleys.com/post/marketalleys-daily-brief-2026-10-24",
+   "https://www.coindesk.com/price/bitcoin",
+   "https://cryptoticker.io/en/bitcoin-price-50-day-moving-average-24-october-2026/",
+   "https://coincodex.com/article/94256/daily-market-update-for-october-24-2026"
   ],
   "source_names": [
    "CoinDesk",
-   "MarketAlleys (CoinGecko data)"
+   "MarketAlleys (CoinGecko data)",
+   "CoinDesk",
+   "CryptoTicker",
+   "CoinCodex"
   ],
   "sources": [
    {
@@ -33488,6 +33494,27 @@
    {
     "url": "https://www.marketalleys.com/post/marketalleys-daily-brief-2026-10-24",
     "name": "MarketAlleys (CoinGecko data)",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/price/bitcoin",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptoticker.io/en/bitcoin-price-50-day-moving-average-24-october-2026/",
+    "name": "CryptoTicker",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://coincodex.com/article/94256/daily-market-update-for-october-24-2026",
+    "name": "CoinCodex",
     "kind": "other",
     "checked": true,
     "confirms": true
@@ -33504,6 +33531,27 @@
    {
     "url": "https://www.marketalleys.com/post/marketalleys-daily-brief-2026-10-24",
     "name": "MarketAlleys (CoinGecko data)",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/price/bitcoin",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptoticker.io/en/bitcoin-price-50-day-moving-average-24-october-2026/",
+    "name": "CryptoTicker",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://coincodex.com/article/94256/daily-market-update-for-october-24-2026",
+    "name": "CoinCodex",
     "kind": "other",
     "checked": true,
     "confirms": true
@@ -33530,6 +33578,27 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/price/bitcoin",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "CryptoTicker",
+     "url": "https://cryptoticker.io/en/bitcoin-price-50-day-moving-average-24-october-2026/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinCodex",
+     "url": "https://coincodex.com/article/94256/daily-market-update-for-october-24-2026",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -33539,6 +33608,156 @@
   ],
   "market_significance": "Low",
   "trigger": "Price check",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [
+   {
+    "at": "2026-10-24T13:15-04:00",
+    "headline": "Bitcoin dips below its 50-day average for the first time in 66 days, near $80,700",
+    "summary": "Bitcoin is down about 1.5% in 24 hours near $80,700 and trades below its 50-day moving average for the first time in 66 days. Ether is down about 1.1%, XRP about 2.7%, and total market cap about 1% to $2.70 trillion.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 3,
+    "verification": "UNVERIFIED"
+   }
+  ],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261024_ac1545",
+  "headline": "Argentine judge dismisses LIBRA token case against President Milei and 10 others",
+  "summary": "Federal judge Marcelo Martinez de Giorgi dismissed the criminal case over Javier Milei's February 2025 promotion of the LIBRA token, finding no criminally relevant deception by Milei, Karina Milei, Hayden Davis or eight others. The prosecutor had asked for dismissal and is not expected to appeal; opposition lawmakers called it a cover-up.",
+  "detected_at": "2026-10-24T13:15-04:00",
+  "active_since": "2026-10-24T13:15-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "legal",
+  "event_time": "2026-10-23T12:00-03:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/regulation/2026-10-24-argentine-judge-clears-milei-and-10-others-in-libra-case-finding-no-criminally-relevant-deception-431606"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-10-24-argentine-judge-clears-milei-and-10-others-in-libra-case-finding-no-criminally-relevant-deception-431606",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-10-24-argentine-judge-clears-milei-and-10-others-in-libra-case-finding-no-criminally-relevant-deception-431606",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-10-24-argentine-judge-clears-milei-and-10-others-in-libra-case-finding-no-criminally-relevant-deception-431606",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Court ruling on a 2025 memecoin scandal; no direct market impact"
+  ],
+  "market_significance": "Closes the main Argentine criminal probe into the LIBRA collapse, though investors are seeking reinstatement to appeal",
+  "trigger": "The Block report",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261024_6b89d6",
+  "headline": "Coinbase plans to turn six futures, including its Coin50 crypto index, into perpetual-style contracts on October 26",
+  "summary": "Coinbase Derivatives filed to convert six expiring futures (US500, Tech100, Defense10, AI10, China10 and Coin50) to perpetual-style contracts on October 26. An analysis questions whether the CFTC staff no-action letter it relies on covers the crypto index contract and notes that letter's relief window ended October 20.",
+  "detected_at": "2026-10-24T13:15-04:00",
+  "active_since": "2026-10-24T13:15-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "exchange",
+  "event_time": "2026-10-26T00:00-04:00",
+  "scheduled_event": true,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://nulltx.com/coinbases-october-26-perpetual-conversion-the-crypto-index-the-cftc-waiver-excludes"
+  ],
+  "source_names": [
+   "NullTX"
+  ],
+  "sources": [
+   {
+    "url": "https://nulltx.com/coinbases-october-26-perpetual-conversion-the-crypto-index-the-cftc-waiver-excludes",
+    "name": "NullTX",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://nulltx.com/coinbases-october-26-perpetual-conversion-the-crypto-index-the-cftc-waiver-excludes",
+    "name": "NullTX",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "NullTX",
+     "url": "https://nulltx.com/coinbases-october-26-perpetual-conversion-the-crypto-index-the-cftc-waiver-excludes",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Scheduled product change at a US derivatives exchange; based on one analysis article"
+  ],
+  "market_significance": "Expands perpetual-style crypto derivatives in the US",
+  "trigger": "NullTX analysis",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
