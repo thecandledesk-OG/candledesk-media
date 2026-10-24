@@ -26588,7 +26588,8 @@
    "https://www.bitbase.com/news/xrp-and-zcash-absorb-millions-amid-635-million-bitcoin-flush-main-crypto-news-this-morning",
    "https://www.coindesk.com/markets/2026/10/23/live-updates-bitcoin-holds-above-usd81-000-as-the-ai-rout-fades-and-oil-climbs",
    "https://news.bitcoin.com/finance/bitcoin-price-50-day-moving-average-trump-iran-liquidations/",
-   "https://cryptoticker.io/en/bitcoin-price-50-day-moving-average-24-october-2026/"
+   "https://cryptoticker.io/en/bitcoin-price-50-day-moving-average-24-october-2026/",
+   "https://thecryptobasic.com/2026/10/24/crypto-price-analysis-btc-xrp-near-sol-and-zec-october-24-bitcoin-rsi-falls-below-46-as-xrp-loses-daily-support/"
   ],
   "source_names": [
    "The Crypto Times",
@@ -26613,7 +26614,8 @@
    "Bitbase",
    "CoinDesk",
    "Bitcoin.com News",
-   "CryptoTicker"
+   "CryptoTicker",
+   "The Crypto Basic"
   ],
   "sources": [
    {
@@ -26774,6 +26776,13 @@
     "url": "https://cryptoticker.io/en/bitcoin-price-50-day-moving-average-24-october-2026/",
     "name": "CryptoTicker",
     "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://thecryptobasic.com/2026/10/24/crypto-price-analysis-btc-xrp-near-sol-and-zec-october-24-bitcoin-rsi-falls-below-46-as-xrp-loses-daily-support/",
+    "name": "The Crypto Basic",
+    "kind": "secondary",
     "checked": true,
     "confirms": true
    }
@@ -26937,6 +26946,13 @@
     "url": "https://cryptoticker.io/en/bitcoin-price-50-day-moving-average-24-october-2026/",
     "name": "CryptoTicker",
     "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://thecryptobasic.com/2026/10/24/crypto-price-analysis-btc-xrp-near-sol-and-zec-october-24-bitcoin-rsi-falls-below-46-as-xrp-loses-daily-support/",
+    "name": "The Crypto Basic",
+    "kind": "secondary",
     "checked": true,
     "confirms": true
    }
@@ -27109,6 +27125,13 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "The Crypto Basic",
+     "url": "https://thecryptobasic.com/2026/10/24/crypto-price-analysis-btc-xrp-near-sol-and-zec-october-24-bitcoin-rsi-falls-below-46-as-xrp-loses-daily-support/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -27119,7 +27142,7 @@
   "market_significance": "Calm trading ahead of macro data",
   "trigger": "price check",
   "content_created": false,
-  "publication_status": "QUEUED_FOR_DAILY",
+  "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
   "updates": [
    {
@@ -27309,6 +27332,24 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 2,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-24T10:13-04:00",
+    "headline": "Bitcoin closes below its 50-day average, ending a 66-day streak",
+    "summary": "Here's what moved the chain today: Bitcoin broke a sixty-six day streak.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-24T10:13-04:00",
+    "headline": "Bitcoin still about 11% above its 200-day average near $72,900",
+    "summary": "Green candles only! Bitcoin's still nearly eleven percent above its two hundred day average.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "VERIFIED"
    }
   ],
@@ -33187,6 +33228,317 @@
   ],
   "market_significance": "One more XRP ETF issuer",
   "trigger": "ETF calendar search",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261024_f254c7",
+  "headline": "10-year Treasury yield near 5% and Brent oil above $113 weigh on crypto",
+  "summary": "Check the yields first. The ten-year's near five percent, and oil's over one hundred thirteen.",
+  "detected_at": "2026-10-24T10:13-04:00",
+  "active_since": "2026-10-24T10:13-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "macro",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://coingape.com/top-reasons-crypto-market-is-dropping-today/"
+  ],
+  "source_names": [
+   "CoinGape"
+  ],
+  "sources": [
+   {
+    "url": "https://coingape.com/top-reasons-crypto-market-is-dropping-today/",
+    "name": "CoinGape",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://coingape.com/top-reasons-crypto-market-is-dropping-today/",
+    "name": "CoinGape",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinGape",
+     "url": "https://coingape.com/top-reasons-crypto-market-is-dropping-today/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261024_f66a17",
+  "headline": "Arthur Hayes sells about $22 million trading book including 6,400 ETH",
+  "summary": "Psst... Arthur Hayes just sold his whole trading book, about twenty-two million dollars.",
+  "detected_at": "2026-10-24T10:13-04:00",
+  "active_since": "2026-10-24T10:13-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "ETH",
+   "ENA",
+   "UNI"
+  ],
+  "event_type": "other",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://coingape.com/arthur-hayes-cashes-out-22m-eth-ena-uni-portfolio-heres-why/"
+  ],
+  "source_names": [
+   "CoinGape"
+  ],
+  "sources": [
+   {
+    "url": "https://coingape.com/arthur-hayes-cashes-out-22m-eth-ena-uni-portfolio-heres-why/",
+    "name": "CoinGape",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://coingape.com/arthur-hayes-cashes-out-22m-eth-ena-uni-portfolio-heres-why/",
+    "name": "CoinGape",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinGape",
+     "url": "https://coingape.com/arthur-hayes-cashes-out-22m-eth-ena-uni-portfolio-heres-why/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261024_6e97be",
+  "headline": "Matt Damon to speak at Ripple Swell, October 27-29",
+  "summary": "Wildcard: Matt Damon speaks at Ripple's Swell next week, and David Schwartz already roasted him.",
+  "detected_at": "2026-10-24T10:13-04:00",
+  "active_since": "2026-10-24T10:13-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "XRP"
+  ],
+  "event_type": "other",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://dailycoin.com/ripple-emeritus-breaks-silence-on-matt-damon-at-swell"
+  ],
+  "source_names": [
+   "DailyCoin"
+  ],
+  "sources": [
+   {
+    "url": "https://dailycoin.com/ripple-emeritus-breaks-silence-on-matt-damon-at-swell",
+    "name": "DailyCoin",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://dailycoin.com/ripple-emeritus-breaks-silence-on-matt-damon-at-swell",
+    "name": "DailyCoin",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "DailyCoin",
+     "url": "https://dailycoin.com/ripple-emeritus-breaks-silence-on-matt-damon-at-swell",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261024_f7480b",
+  "headline": "Bitcoin slips about 1.4% to near $80,500 as XRP drops about 3% and SOL about 2.7% on a quiet Saturday",
+  "summary": "Crypto drifted lower Saturday morning: BTC about $80,490 (-1.35% 24h), ETH about $2,360 (-1.5%), XRP about $1.28 (-3.2%), SOL about $101 (-2.7%), per CoinDesk; CoinGecko snapshot shows similar moves. All within normal ranges.",
+  "detected_at": "2026-10-24T10:14-04:00",
+  "active_since": "2026-10-24T10:14-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.85,
+  "assets": [
+   "BTC",
+   "ETH",
+   "XRP",
+   "SOL"
+  ],
+  "event_type": "market_move",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {
+   "pct_move_24h": -1.35
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/",
+   "https://www.marketalleys.com/post/marketalleys-daily-brief-2026-10-24"
+  ],
+  "source_names": [
+   "CoinDesk",
+   "MarketAlleys (CoinGecko data)"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.marketalleys.com/post/marketalleys-daily-brief-2026-10-24",
+    "name": "MarketAlleys (CoinGecko data)",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.marketalleys.com/post/marketalleys-daily-brief-2026-10-24",
+    "name": "MarketAlleys (CoinGecko data)",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "MarketAlleys (CoinGecko data)",
+     "url": "https://www.marketalleys.com/post/marketalleys-daily-brief-2026-10-24",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Routine weekend drift, well below move thresholds.",
+   "price rule: BTC moved 1.4% in 24h (thresholds 7%/12%) -> NORMAL"
+  ],
+  "market_significance": "Low",
+  "trigger": "Price check",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
