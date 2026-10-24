@@ -33474,14 +33474,16 @@
    "https://www.marketalleys.com/post/marketalleys-daily-brief-2026-10-24",
    "https://www.coindesk.com/price/bitcoin",
    "https://cryptoticker.io/en/bitcoin-price-50-day-moving-average-24-october-2026/",
-   "https://coincodex.com/article/94256/daily-market-update-for-october-24-2026"
+   "https://coincodex.com/article/94256/daily-market-update-for-october-24-2026",
+   "https://www.theblock.co/news/markets/2026-10-24-crypto-longs-lose-404-million-in-four-hours-as-bitcoin-briefly-slips-below-80000-431608"
   ],
   "source_names": [
    "CoinDesk",
    "MarketAlleys (CoinGecko data)",
    "CoinDesk",
    "CryptoTicker",
-   "CoinCodex"
+   "CoinCodex",
+   "The Block"
   ],
   "sources": [
    {
@@ -33516,6 +33518,13 @@
     "url": "https://coincodex.com/article/94256/daily-market-update-for-october-24-2026",
     "name": "CoinCodex",
     "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/markets/2026-10-24-crypto-longs-lose-404-million-in-four-hours-as-bitcoin-briefly-slips-below-80000-431608",
+    "name": "The Block",
+    "kind": "secondary",
     "checked": true,
     "confirms": true
    }
@@ -33555,15 +33564,22 @@
     "kind": "other",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/markets/2026-10-24-crypto-longs-lose-404-million-in-four-hours-as-bitcoin-briefly-slips-below-80000-431608",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
-  "verification_status": "UNVERIFIED",
+  "verification_status": "VERIFIED",
   "verification": {
-   "status": "UNVERIFIED",
-   "independent_sources": 1,
+   "status": "VERIFIED",
+   "independent_sources": 2,
    "has_primary": false,
-   "score": 0.4,
-   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "score": 0.8,
+   "reason": "2 independent credible sources confirm it (no primary source yet)",
    "sources_checked": [
     {
      "name": "CoinDesk",
@@ -33599,6 +33615,13 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/markets/2026-10-24-crypto-longs-lose-404-million-in-four-hours-as-bitcoin-briefly-slips-below-80000-431608",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -33620,6 +33643,15 @@
     "level": "NORMAL",
     "sources_added": 3,
     "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-24T16:09-04:00",
+    "headline": "Crypto longs lose about $404 million in four hours as bitcoin briefly slips below $80,000",
+    "summary": "Bitcoin dipped to about $79,280 around 11:20 a.m. ET Saturday before recovering near $80,100, down about 1.9% on the day; ether fell about 3.8% to $2,314. CoinGlass data showed $404 million in long liquidations over four hours and about $815 million in 24 hours.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
    }
   ],
   "posts": [],
