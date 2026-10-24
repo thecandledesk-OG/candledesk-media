@@ -26586,7 +26586,9 @@
    "https://fxstreet.com/cryptocurrencies/news/bitcoin-falls-4-as-chip-stocks-plunge-67-and-oil-surges-202610222333",
    "https://www.investing.com/news/cryptocurrency-news/bitcoin-slips-below-82k-as-tech-rout-rising-oil-dent-risk-4968158",
    "https://www.bitbase.com/news/xrp-and-zcash-absorb-millions-amid-635-million-bitcoin-flush-main-crypto-news-this-morning",
-   "https://www.coindesk.com/markets/2026/10/23/live-updates-bitcoin-holds-above-usd81-000-as-the-ai-rout-fades-and-oil-climbs"
+   "https://www.coindesk.com/markets/2026/10/23/live-updates-bitcoin-holds-above-usd81-000-as-the-ai-rout-fades-and-oil-climbs",
+   "https://news.bitcoin.com/finance/bitcoin-price-50-day-moving-average-trump-iran-liquidations/",
+   "https://cryptoticker.io/en/bitcoin-price-50-day-moving-average-24-october-2026/"
   ],
   "source_names": [
    "The Crypto Times",
@@ -26609,7 +26611,9 @@
    "FXStreet",
    "Investing.com",
    "Bitbase",
-   "CoinDesk"
+   "CoinDesk",
+   "Bitcoin.com News",
+   "CryptoTicker"
   ],
   "sources": [
    {
@@ -26757,6 +26761,20 @@
     "name": "CoinDesk",
     "kind": "secondary",
     "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://news.bitcoin.com/finance/bitcoin-price-50-day-moving-average-trump-iran-liquidations/",
+    "name": "Bitcoin.com News",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptoticker.io/en/bitcoin-price-50-day-moving-average-24-october-2026/",
+    "name": "CryptoTicker",
+    "kind": "other",
+    "checked": true,
     "confirms": true
    }
   ],
@@ -26906,6 +26924,20 @@
     "name": "CoinDesk",
     "kind": "secondary",
     "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://news.bitcoin.com/finance/bitcoin-price-50-day-moving-average-trump-iran-liquidations/",
+    "name": "Bitcoin.com News",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptoticker.io/en/bitcoin-price-50-day-moving-average-24-october-2026/",
+    "name": "CryptoTicker",
+    "kind": "other",
+    "checked": true,
     "confirms": true
    }
   ],
@@ -27063,6 +27095,20 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "Bitcoin.com News",
+     "url": "https://news.bitcoin.com/finance/bitcoin-price-50-day-moving-average-trump-iran-liquidations/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CryptoTicker",
+     "url": "https://cryptoticker.io/en/bitcoin-price-50-day-moving-average-24-october-2026/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -27254,6 +27300,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-24T07:15-04:00",
+    "headline": "Bitcoin slips below its 50-day average near $80,700 as about $496 million in longs are liquidated; Trump hints at another Iran operation",
+    "summary": "Bitcoin trades near $80,700, down about 1% in 24 hours, after closing below its 50-day moving average for the first time in 66 days. Ether is down about 1.2%, XRP about 2.8% and SOL about 2.4%. Coinglass shows about $496 million in liquidations, mostly longs, as oil rose and stocks fell after President Trump said the US may do another operation against Iran; spot bitcoin ETFs also lost about $635 million on Oct 22.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
     "verification": "VERIFIED"
    }
   ],
@@ -32919,6 +32974,219 @@
   ],
   "market_significance": "low",
   "trigger": "Decrypt article citing Interpol press release",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261024_a0f2fc",
+  "headline": "Franklin Templeton adds about $150 million in tokenized money-market fund shares to the XRP Ledger, all in one wallet",
+  "summary": "CoinDesk's review of XRP Ledger records shows about $150 million in new sgBENJI shares of Franklin's Singapore-domiciled OnChain U.S. Dollar Short-Term Money Market Fund, taking the wallet to nearly 193 million shares, about $200 million. Franklin has not said whether it is one investor.",
+  "detected_at": "2026-10-24T07:15-04:00",
+  "active_since": "2026-10-24T07:15-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "XRP"
+  ],
+  "event_type": "institutional",
+  "event_time": "2026-10-24T00:45-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/markets/2026/10/24/franklin-templeton-adds-usd150-million-in-fund-shares-to-xrp-ledger-all-in-one-wallet"
+  ],
+  "source_names": [
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/24/franklin-templeton-adds-usd150-million-in-fund-shares-to-xrp-ledger-all-in-one-wallet",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/24/franklin-templeton-adds-usd150-million-in-fund-shares-to-xrp-ledger-all-in-one-wallet",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/10/24/franklin-templeton-adds-usd150-million-in-fund-shares-to-xrp-ledger-all-in-one-wallet",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Tokenized-fund growth on XRPL, single-outlet on-chain report"
+  ],
+  "market_significance": "Real-world asset adoption on XRPL",
+  "trigger": "CoinDesk latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261024_212b19",
+  "headline": "Arkadiko governance attack drains most vault collateral on Stacks; USDA stablecoin loses its peg",
+  "summary": "An attacker got a malicious contract approved through Arkadiko's governance and withdrew most vault collateral, about 2 million stSTX and 1.65 sBTC by preliminary counts. DeFiLlama shows TVL falling from about $1.4 million to about $142,000. Arkadiko paused governance, vault redemptions and liquidations and asked exchanges to freeze funds.",
+  "detected_at": "2026-10-24T07:15-04:00",
+  "active_since": "2026-10-24T07:15-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.65,
+  "assets": [
+   "STX"
+  ],
+  "event_type": "hack_exploit",
+  "event_time": "2026-10-22T20:29+00:00",
+  "scheduled_event": false,
+  "metrics": {
+   "loss_usd": 1300000
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://www.cryptotimes.io/2026/10/23/arkadiko-governance-attack-drains-most-vault-collateral-on-stacks-usda-stablecoin-loses-peg/"
+  ],
+  "source_names": [
+   "The Crypto Times"
+  ],
+  "sources": [
+   {
+    "url": "https://www.cryptotimes.io/2026/10/23/arkadiko-governance-attack-drains-most-vault-collateral-on-stacks-usda-stablecoin-loses-peg/",
+    "name": "The Crypto Times",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.cryptotimes.io/2026/10/23/arkadiko-governance-attack-drains-most-vault-collateral-on-stacks-usda-stablecoin-loses-peg/",
+    "name": "The Crypto Times",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Crypto Times",
+     "url": "https://www.cryptotimes.io/2026/10/23/arkadiko-governance-attack-drains-most-vault-collateral-on-stacks-usda-stablecoin-loses-peg/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Small loss, well below the $10M hack threshold",
+   "hack rule: about $1M lost (thresholds $10M/$100M) -> NORMAL"
+  ],
+  "market_significance": "Governance-attack risk in small DeFi protocols",
+  "trigger": "hack search",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261024_48db70",
+  "headline": "SEC deadline arrives for WisdomTree's spot XRP ETF",
+  "summary": "October 24 is reported as the SEC's deadline to rule on WisdomTree's spot XRP trust filed through Cboe BZX. Several XRP ETFs already trade. No decision has been reported yet.",
+  "detected_at": "2026-10-24T07:15-04:00",
+  "active_since": "2026-10-24T07:15-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.4,
+  "assets": [
+   "XRP"
+  ],
+  "event_type": "etf",
+  "event_time": "2026-10-24T00:00-04:00",
+  "scheduled_event": true,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://startupfortune.com/wisdomtrees-113-billion-fund-faces-the-last-xrp-etf-deadline-of-october/"
+  ],
+  "source_names": [
+   "Startup Fortune"
+  ],
+  "sources": [
+   {
+    "url": "https://startupfortune.com/wisdomtrees-113-billion-fund-faces-the-last-xrp-etf-deadline-of-october/",
+    "name": "Startup Fortune",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://startupfortune.com/wisdomtrees-113-billion-fund-faces-the-last-xrp-etf-deadline-of-october/",
+    "name": "Startup Fortune",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Startup Fortune",
+     "url": "https://startupfortune.com/wisdomtrees-113-billion-fund-faces-the-last-xrp-etf-deadline-of-october/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Expected event, not yet happened; other XRP ETFs already live"
+  ],
+  "market_significance": "One more XRP ETF issuer",
+  "trigger": "ETF calendar search",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
