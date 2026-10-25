@@ -33985,6 +33985,24 @@
     "level": "NORMAL",
     "sources_added": 1,
     "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-25T13:09-04:00",
+    "headline": "Bitcoin dips below $80,000 on reports of U.S. Middle East evacuations, then steadies near $80,800",
+    "summary": "Bitcoin fell about 2.2% to near $79,700 on Saturday, its weakest in over a month, after reports the U.S. is evacuating personnel from the Middle East. ETH, XRP and SOL fell 3 to 4%. By Sunday morning BTC was back near $80,800, roughly flat on the day.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-25T13:09-04:00",
+    "headline": "Strategy and Strive face a balancing act between bitcoin buying and preferred stock dividends",
+    "summary": "CoinDesk analysis: bitcoin treasury firms Strategy and Strive must balance new bitcoin purchases against growing preferred-stock dividend obligations as the price sits near $80,000.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "VERIFIED"
    }
   ],
   "posts": [],
@@ -34468,11 +34486,13 @@
   "emergency": false,
   "source_urls": [
    "https://crypto.news/keystone-wallet-hack-customer-addresses-exposed/",
-   "https://x.com/BitcoinNewsCom/status/2114086032828150203"
+   "https://x.com/BitcoinNewsCom/status/2114086032828150203",
+   "https://www.theblock.co/news/business/2026-10-25-keystone-customers-say-breach-exposed-data-the-hardware-wallet-maker-promised-to-delete-431613"
   ],
   "source_names": [
    "crypto.news",
-   "Bitcoin News (X)"
+   "Bitcoin News (X)",
+   "The Block"
   ],
   "sources": [
    {
@@ -34487,6 +34507,13 @@
     "name": "Bitcoin News (X)",
     "kind": "social",
     "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-25-keystone-customers-say-breach-exposed-data-the-hardware-wallet-maker-promised-to-delete-431613",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
     "confirms": true
    }
   ],
@@ -34504,15 +34531,22 @@
     "kind": "social",
     "checked": false,
     "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-25-keystone-customers-say-breach-exposed-data-the-hardware-wallet-maker-promised-to-delete-431613",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "UNVERIFIED",
   "verification": {
    "status": "UNVERIFIED",
-   "independent_sources": 0,
+   "independent_sources": 1,
    "has_primary": false,
-   "score": 0.0,
-   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
    "sources_checked": [
     {
      "name": "crypto.news",
@@ -34527,6 +34561,13 @@
      "category": "social",
      "counts": false,
      "note": "social/community post — can trigger investigation, never verifies"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-10-25-keystone-customers-say-breach-exposed-data-the-hardware-wallet-maker-promised-to-delete-431613",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -34538,7 +34579,17 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-25T13:09-04:00",
+    "headline": "Keystone customers say the website breach exposed order data the hardware wallet maker had promised to delete",
+    "summary": "Keystone says an unauthorized party accessed its Shopify store and got customer names, contacts, addresses and orders. Some customers claim on X that orders older than 180 days were exposed despite a deletion pledge; The Block could not verify those claims. Keystone says keys, seed phrases and payment data were not exposed.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  }
