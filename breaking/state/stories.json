@@ -31297,11 +31297,13 @@
   "emergency": false,
   "source_urls": [
    "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-23-2026",
-   "https://www.analyticsinsight.net/price-analysis/crypto-prices-today-bitcoin-steady-near-usd-81600-despite-iran-tensions-and-ai-selloff"
+   "https://www.analyticsinsight.net/price-analysis/crypto-prices-today-bitcoin-steady-near-usd-81600-despite-iran-tensions-and-ai-selloff",
+   "https://www.coindesk.com/business/2026/10/24/wells-fargo-cisco-marvell-among-latest-firms-objecting-to-okxice-s-tokenized-stock-plan"
   ],
   "source_names": [
    "KuCoin News",
-   "Analytics Insight"
+   "Analytics Insight",
+   "CoinDesk"
   ],
   "sources": [
    {
@@ -31316,6 +31318,13 @@
     "name": "Analytics Insight",
     "kind": "secondary",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/business/2026/10/24/wells-fargo-cisco-marvell-among-latest-firms-objecting-to-okxice-s-tokenized-stock-plan",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -31332,6 +31341,13 @@
     "name": "Analytics Insight",
     "kind": "secondary",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/business/2026/10/24/wells-fargo-cisco-marvell-among-latest-firms-objecting-to-okxice-s-tokenized-stock-plan",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -31356,6 +31372,13 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/business/2026/10/24/wells-fargo-cisco-marvell-among-latest-firms-objecting-to-okxice-s-tokenized-stock-plan",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
     }
    ]
   },
@@ -31381,6 +31404,15 @@
     "at": "2026-10-23T10:12-04:00",
     "headline": "Brent oil rises to $112 and the Nasdaq falls 2.6%",
     "summary": "Check the yields first. Oil's at one hundred twelve dollars, and tech stocks just cracked.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-24T22:19-04:00",
+    "headline": "Wells Fargo, Cisco and Marvell join companies objecting to OKXICE's tokenized stock plan",
+    "summary": "More listed companies have filed objections to the OKX-ICE venue OKXICE's plan to trade tokenized versions of their shares under the SEC innovation exemption.",
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 1,
@@ -33475,7 +33507,9 @@
    "https://www.coindesk.com/price/bitcoin",
    "https://cryptoticker.io/en/bitcoin-price-50-day-moving-average-24-october-2026/",
    "https://coincodex.com/article/94256/daily-market-update-for-october-24-2026",
-   "https://www.theblock.co/news/markets/2026-10-24-crypto-longs-lose-404-million-in-four-hours-as-bitcoin-briefly-slips-below-80000-431608"
+   "https://www.theblock.co/news/markets/2026-10-24-crypto-longs-lose-404-million-in-four-hours-as-bitcoin-briefly-slips-below-80000-431608",
+   "https://www.coindesk.com/markets/2026/10/24/crypto-under-weekend-pressure-bitcoin-slides-below-usd80-000-on-u-s-middle-east-evacuations",
+   "https://www.cointribune.com/en/bitcoin-sinks-to-79750-as-crypto-liquidations-surge"
   ],
   "source_names": [
    "CoinDesk",
@@ -33483,7 +33517,9 @@
    "CoinDesk",
    "CryptoTicker",
    "CoinCodex",
-   "The Block"
+   "The Block",
+   "CoinDesk",
+   "Cointribune"
   ],
   "sources": [
    {
@@ -33525,6 +33561,20 @@
     "url": "https://www.theblock.co/news/markets/2026-10-24-crypto-longs-lose-404-million-in-four-hours-as-bitcoin-briefly-slips-below-80000-431608",
     "name": "The Block",
     "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/24/crypto-under-weekend-pressure-bitcoin-slides-below-usd80-000-on-u-s-middle-east-evacuations",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.cointribune.com/en/bitcoin-sinks-to-79750-as-crypto-liquidations-surge",
+    "name": "Cointribune",
+    "kind": "other",
     "checked": true,
     "confirms": true
    }
@@ -33569,6 +33619,20 @@
     "url": "https://www.theblock.co/news/markets/2026-10-24-crypto-longs-lose-404-million-in-four-hours-as-bitcoin-briefly-slips-below-80000-431608",
     "name": "The Block",
     "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/24/crypto-under-weekend-pressure-bitcoin-slides-below-usd80-000-on-u-s-middle-east-evacuations",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.cointribune.com/en/bitcoin-sinks-to-79750-as-crypto-liquidations-surge",
+    "name": "Cointribune",
+    "kind": "other",
     "checked": true,
     "confirms": true
    }
@@ -33622,6 +33686,20 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/10/24/crypto-under-weekend-pressure-bitcoin-slides-below-usd80-000-on-u-s-middle-east-evacuations",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "Cointribune",
+     "url": "https://www.cointribune.com/en/bitcoin-sinks-to-79750-as-crypto-liquidations-surge",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -33660,6 +33738,15 @@
     "new_development": true,
     "level": "NORMAL",
     "sources_added": 0,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-24T22:19-04:00",
+    "headline": "Bitcoin slides below $80,000 to a nine-day low as the U.S. orders staff out of Saudi Arabia; about $670 million liquidated",
+    "summary": "Bitcoin touched about $79,750 on Saturday, its lowest in nine days, after the U.S. State Department ordered non-essential staff to leave Saudi Arabia following Houthi attacks. CoinDesk showed BTC down about 0.9%, ETH down about 2.2%, XRP down about 0.9% and SOL down about 2.3% over 24 hours. Nearly $670 million in positions were liquidated in 24 hours, mostly longs.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 2,
     "verification": "VERIFIED"
    }
   ],
@@ -33799,6 +33886,292 @@
   ],
   "market_significance": "Expands perpetual-style crypto derivatives in the US",
   "trigger": "NullTX analysis",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261024_e2e6d7",
+  "headline": "Bank of Russia adds Sberbank and VTB to its approved crypto intermediaries; retail trading planned from December",
+  "summary": "The Bank of Russia added 17 firms including Sberbank and VTB to its register of crypto intermediaries. Retail buyers are capped at 300,000 roubles a year per intermediary, with only bitcoin, ether and tether allowed.",
+  "detected_at": "2026-10-24T22:19-04:00",
+  "active_since": "2026-10-24T22:19-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.55,
+  "assets": [
+   "BTC",
+   "ETH",
+   "USDT"
+  ],
+  "event_type": "regulatory",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.dlnews.com/articles/regulation/bank-of-russia-clears-crypto-exchangers-sberbank-and-vtb/"
+  ],
+  "source_names": [
+   "DL News"
+  ],
+  "sources": [
+   {
+    "url": "https://www.dlnews.com/articles/regulation/bank-of-russia-clears-crypto-exchangers-sberbank-and-vtb/",
+    "name": "DL News",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.dlnews.com/articles/regulation/bank-of-russia-clears-crypto-exchangers-sberbank-and-vtb/",
+    "name": "DL News",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "DL News",
+     "url": "https://www.dlnews.com/articles/regulation/bank-of-russia-clears-crypto-exchangers-sberbank-and-vtb/",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Single secondary report, not opened"
+  ],
+  "market_significance": "Russia's largest banks moving into retail crypto",
+  "trigger": "Bitcoin News Digest roundup",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261024_21c73f",
+  "headline": "Franklin Templeton bitcoin dividend-reinvestment ETFs set to become effective October 27",
+  "summary": "Two Franklin Templeton ETFs that reinvest stock dividends into bitcoin, filed October 22, are set to become effective October 27.",
+  "detected_at": "2026-10-24T22:19-04:00",
+  "active_since": "2026-10-24T22:19-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "etf",
+  "event_time": "2026-10-27T09:30-04:00",
+  "scheduled_event": true,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://bitcoinmagazine.com/news/franklin-templeton-clears-final-hurdle"
+  ],
+  "source_names": [
+   "Bitcoin Magazine"
+  ],
+  "sources": [
+   {
+    "url": "https://bitcoinmagazine.com/news/franklin-templeton-clears-final-hurdle",
+    "name": "Bitcoin Magazine",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://bitcoinmagazine.com/news/franklin-templeton-clears-final-hurdle",
+    "name": "Bitcoin Magazine",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Bitcoin Magazine",
+     "url": "https://bitcoinmagazine.com/news/franklin-templeton-clears-final-hurdle",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Not yet happened; small-allocation products"
+  ],
+  "market_significance": "New bitcoin-linked ETF products",
+  "trigger": "Bitcoin News Digest roundup",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261024_f75502",
+  "headline": "X100 protocol on Ethereum loses about $4.85 million in USDT through a governance takeover",
+  "summary": "Reports say the X100 protocol on Ethereum was drained of about 4.85 million USDT via a governance takeover.",
+  "detected_at": "2026-10-24T22:19-04:00",
+  "active_since": "2026-10-24T22:19-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.4,
+  "assets": [
+   "ETH",
+   "USDT"
+  ],
+  "event_type": "hack_exploit",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {
+   "loss_usd": 4850000
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://phemex.com/news/article/x100-protocol-under-sustained-attack-485m-usdt-drained-via-governance-takeover-100920"
+  ],
+  "source_names": [
+   "Phemex News"
+  ],
+  "sources": [
+   {
+    "url": "https://phemex.com/news/article/x100-protocol-under-sustained-attack-485m-usdt-drained-via-governance-takeover-100920",
+    "name": "Phemex News",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://phemex.com/news/article/x100-protocol-under-sustained-attack-485m-usdt-drained-via-governance-takeover-100920",
+    "name": "Phemex News",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Phemex News",
+     "url": "https://phemex.com/news/article/x100-protocol-under-sustained-attack-485m-usdt-drained-via-governance-takeover-100920",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Below the $10 million hack threshold; one aggregator report",
+   "hack rule: about $5M lost (thresholds $10M/$100M) -> NORMAL"
+  ],
+  "market_significance": "Another governance attack this week",
+  "trigger": "Web search",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261024_303698",
+  "headline": "Electrum ships 4.8.3 as a security update without disclosing the fix",
+  "summary": "Electrum released version 4.8.3 on October 23 as a security update; release notes did not yet say what it fixes.",
+  "detected_at": "2026-10-24T22:19-04:00",
+  "active_since": "2026-10-24T22:19-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "protocol_upgrade",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://github.com/spesmilo/electrum/blob/master/RELEASE-NOTES"
+  ],
+  "source_names": [
+   "Electrum GitHub"
+  ],
+  "sources": [
+   {
+    "url": "https://github.com/spesmilo/electrum/blob/master/RELEASE-NOTES",
+    "name": "Electrum GitHub",
+    "kind": "primary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://github.com/spesmilo/electrum/blob/master/RELEASE-NOTES",
+    "name": "Electrum GitHub",
+    "kind": "primary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Electrum GitHub",
+     "url": "https://github.com/spesmilo/electrum/blob/master/RELEASE-NOTES",
+     "category": "primary",
+     "counts": false,
+     "note": "primary (known official domain); not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Routine wallet release"
+  ],
+  "market_significance": "Users of the Electrum bitcoin wallet should update",
+  "trigger": "Bitcoin News Digest roundup",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
