@@ -33509,7 +33509,10 @@
    "https://coincodex.com/article/94256/daily-market-update-for-october-24-2026",
    "https://www.theblock.co/news/markets/2026-10-24-crypto-longs-lose-404-million-in-four-hours-as-bitcoin-briefly-slips-below-80000-431608",
    "https://www.coindesk.com/markets/2026/10/24/crypto-under-weekend-pressure-bitcoin-slides-below-usd80-000-on-u-s-middle-east-evacuations",
-   "https://www.cointribune.com/en/bitcoin-sinks-to-79750-as-crypto-liquidations-surge"
+   "https://www.cointribune.com/en/bitcoin-sinks-to-79750-as-crypto-liquidations-surge",
+   "https://www.investing.com/news/cryptocurrency-news/bitcoin-price-today-btc-recovers-to-80800-ahead-of-fed-meeting-4971035",
+   "https://coincodex.com/article/94268/daily-market-update-for-october-25-2026",
+   "https://www.coindesk.com/business/2026/10/24/strategy-strive-face-balancing-act-between-bitcoin-buying-and-preferred-stock-dividends"
   ],
   "source_names": [
    "CoinDesk",
@@ -33519,7 +33522,10 @@
    "CoinCodex",
    "The Block",
    "CoinDesk",
-   "Cointribune"
+   "Cointribune",
+   "Investing.com",
+   "CoinCodex",
+   "CoinDesk"
   ],
   "sources": [
    {
@@ -33576,6 +33582,27 @@
     "name": "Cointribune",
     "kind": "other",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-price-today-btc-recovers-to-80800-ahead-of-fed-meeting-4971035",
+    "name": "Investing.com",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://coincodex.com/article/94268/daily-market-update-for-october-25-2026",
+    "name": "CoinCodex",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/business/2026/10/24/strategy-strive-face-balancing-act-between-bitcoin-buying-and-preferred-stock-dividends",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -33634,6 +33661,27 @@
     "name": "Cointribune",
     "kind": "other",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-price-today-btc-recovers-to-80800-ahead-of-fed-meeting-4971035",
+    "name": "Investing.com",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://coincodex.com/article/94268/daily-market-update-for-october-25-2026",
+    "name": "CoinCodex",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/business/2026/10/24/strategy-strive-face-balancing-act-between-bitcoin-buying-and-preferred-stock-dividends",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -33700,6 +33748,27 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Investing.com",
+     "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-price-today-btc-recovers-to-80800-ahead-of-fed-meeting-4971035",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinCodex",
+     "url": "https://coincodex.com/article/94268/daily-market-update-for-october-25-2026",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/business/2026/10/24/strategy-strive-face-balancing-act-between-bitcoin-buying-and-preferred-stock-dividends",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
     }
    ]
   },
@@ -33747,6 +33816,42 @@
     "new_development": true,
     "level": "NORMAL",
     "sources_added": 2,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-25T07:11-04:00",
+    "headline": "Bitcoin steadies near $80,800 Sunday after weekend dip to $79,146; about $810 million liquidated in 24 hours",
+    "summary": "Bitcoin recovered to about $80,800 early Sunday after falling as low as $79,146 on Saturday, its weakest in over a month, as U.S. Middle East evacuations and oil above $110 weighed on risk. Coinglass data showed about $810 million in liquidations, mostly longs. ETH about -1%, XRP about +1.5%, SOL flat. Traders are watching the Fed's October 27-28 decision.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-25T07:11-04:00",
+    "headline": "Hardware wallet maker Keystone discloses a customer data breach; says keys and seed phrases were not exposed",
+    "summary": "Keystone disclosed a breach of customer data and warned users about phishing attempts. It says private keys and recovery phrases were not compromised.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-25T07:11-04:00",
+    "headline": "Strategy and Strive balance bitcoin buying against preferred-stock dividends; Strategy spends $193 million on buybacks while adding 267 BTC",
+    "summary": "Fidelity Digital Assets says perpetual preferred offerings have financed about 136,000 BTC in purchases since 2025. Strategy spent about $193 million repurchasing preferred shares while buying only 267 BTC.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-25T07:11-04:00",
+    "headline": "Strategy and Strive balance bitcoin buying against preferred-stock dividends; Strategy spends $193 million on buybacks while adding 267 BTC",
+    "summary": "Fidelity Digital Assets says perpetual preferred offerings have financed about 136,000 BTC in purchases since 2025. Strategy spent about $193 million repurchasing preferred shares while buying only 267 BTC.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
     "verification": "VERIFIED"
    }
   ],
@@ -34172,6 +34277,99 @@
   ],
   "market_significance": "Users of the Electrum bitcoin wallet should update",
   "trigger": "Bitcoin News Digest roundup",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261025_4af376",
+  "headline": "Hardware wallet maker Keystone confirms a website breach exposing customer names, addresses and orders; keys not affected",
+  "summary": "Keystone says attackers accessed its online store, exposing customer names, contact details, shipping addresses and order details. It detected the breach on October 20. Private keys and recovery phrases were not compromised; users are warned to expect phishing.",
+  "detected_at": "2026-10-25T07:11-04:00",
+  "active_since": "2026-10-25T07:11-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "hack_exploit",
+  "event_time": "2026-10-20",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://crypto.news/keystone-wallet-hack-customer-addresses-exposed/",
+   "https://x.com/BitcoinNewsCom/status/2114086032828150203"
+  ],
+  "source_names": [
+   "crypto.news",
+   "Bitcoin News (X)"
+  ],
+  "sources": [
+   {
+    "url": "https://crypto.news/keystone-wallet-hack-customer-addresses-exposed/",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://x.com/BitcoinNewsCom/status/2114086032828150203",
+    "name": "Bitcoin News (X)",
+    "kind": "social",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://crypto.news/keystone-wallet-hack-customer-addresses-exposed/",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://x.com/BitcoinNewsCom/status/2114086032828150203",
+    "name": "Bitcoin News (X)",
+    "kind": "social",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/keystone-wallet-hack-customer-addresses-exposed/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Bitcoin News (X)",
+     "url": "https://x.com/BitcoinNewsCom/status/2114086032828150203",
+     "category": "social",
+     "counts": false,
+     "note": "social/community post — can trigger investigation, never verifies"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Customer data leak, no funds lost"
+  ],
+  "market_significance": "Phishing and physical-safety risk for hardware wallet buyers",
+  "trigger": "news roundup; X post started the search",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
