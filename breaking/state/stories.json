@@ -31442,11 +31442,13 @@
   "emergency": false,
   "source_urls": [
    "https://www.cryptotimes.io/2026/10/23/crypto-price-today-bitcoin-price-falls-to-81668-as-635m-etf-outflows-drag-ethereum-xrp/",
-   "https://cointelegraph.com/markets/bitcoin-consolidates-after-3-loss-as-ai-fears-stoke-fresh-stock-market-weakness"
+   "https://cointelegraph.com/markets/bitcoin-consolidates-after-3-loss-as-ai-fears-stoke-fresh-stock-market-weakness",
+   "https://crypto.news/bitcoin-price-prediction-etf-outflows-80000"
   ],
   "source_names": [
    "The Crypto Times",
-   "Cointelegraph"
+   "Cointelegraph",
+   "crypto.news"
   ],
   "sources": [
    {
@@ -31463,6 +31465,13 @@
     "checked": true,
     "confirms": true,
     "published": "2026-10-23T08:23-04:00"
+   },
+   {
+    "url": "https://crypto.news/bitcoin-price-prediction-etf-outflows-80000",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -31480,6 +31489,13 @@
     "checked": true,
     "confirms": true,
     "published": "2026-10-23T08:23-04:00"
+   },
+   {
+    "url": "https://crypto.news/bitcoin-price-prediction-etf-outflows-80000",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "UNVERIFIED",
@@ -31503,6 +31519,13 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/bitcoin-price-prediction-etf-outflows-80000",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -31531,6 +31554,33 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-25T10:08-04:00",
+    "headline": "$547 million in crypto liquidations in 24 hours",
+    "summary": "Here's what moved the chain today. Five hundred forty-seven million dollars liquidated in one day.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-25T10:08-04:00",
+    "headline": "Spot bitcoin ETFs bleed $773 million in two days",
+    "summary": "Check the yields first. Spot bitcoin ETFs bled seven hundred seventy-three million in two days.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-25T10:08-04:00",
+    "headline": "32,380 BTC moved onto exchanges",
+    "summary": "Psst... big wallets are moving. Over thirty-two thousand bitcoin moved onto exchanges.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
     "verification": "UNVERIFIED"
    }
   ],
@@ -31997,6 +32047,24 @@
     "at": "2026-10-23T10:20-04:00",
     "headline": "UAE-led scam crackdown identifies over $39 billion in funds and crypto",
     "summary": "A UAE-led crackdown on scam networks identified more than $39 billion in funds and crypto, The Defiant reports.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-25T10:14-04:00",
+    "headline": "Hyperliquid Strategies reportedly triples its share buyback to $100 million as PURR trades below net asset value",
+    "summary": "Aggregator headline says the HYPE treasury company tripled its buyback to $100 million; not yet confirmed by a primary source or major outlet.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-25T10:14-04:00",
+    "headline": "Coinbase reportedly launches prediction trading on BTC, ETH and SOL prices",
+    "summary": "Aggregator headline says Coinbase launched a prediction trading feature for bitcoin, ether and solana; unconfirmed.",
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
@@ -33512,7 +33580,9 @@
    "https://www.cointribune.com/en/bitcoin-sinks-to-79750-as-crypto-liquidations-surge",
    "https://www.investing.com/news/cryptocurrency-news/bitcoin-price-today-btc-recovers-to-80800-ahead-of-fed-meeting-4971035",
    "https://coincodex.com/article/94268/daily-market-update-for-october-25-2026",
-   "https://www.coindesk.com/business/2026/10/24/strategy-strive-face-balancing-act-between-bitcoin-buying-and-preferred-stock-dividends"
+   "https://www.coindesk.com/business/2026/10/24/strategy-strive-face-balancing-act-between-bitcoin-buying-and-preferred-stock-dividends",
+   "https://cryptoticker.io/en/bitcoin-price-winter-time-fed-window-25-october-2026",
+   "https://www.ad-hoc-news.de/boerse/news/marktberichte/strive-adds-1-223-btc-what-it-means-for-the-bitcoin-price/70408045"
   ],
   "source_names": [
    "CoinDesk",
@@ -33525,7 +33595,9 @@
    "Cointribune",
    "Investing.com",
    "CoinCodex",
-   "CoinDesk"
+   "CoinDesk",
+   "CryptoTicker",
+   "ad-hoc-news"
   ],
   "sources": [
    {
@@ -33603,6 +33675,20 @@
     "name": "CoinDesk",
     "kind": "secondary",
     "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptoticker.io/en/bitcoin-price-winter-time-fed-window-25-october-2026",
+    "name": "CryptoTicker",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/strive-adds-1-223-btc-what-it-means-for-the-bitcoin-price/70408045",
+    "name": "ad-hoc-news",
+    "kind": "other",
+    "checked": true,
     "confirms": true
    }
   ],
@@ -33682,6 +33768,20 @@
     "name": "CoinDesk",
     "kind": "secondary",
     "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptoticker.io/en/bitcoin-price-winter-time-fed-window-25-october-2026",
+    "name": "CryptoTicker",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/strive-adds-1-223-btc-what-it-means-for-the-bitcoin-price/70408045",
+    "name": "ad-hoc-news",
+    "kind": "other",
+    "checked": true,
     "confirms": true
    }
   ],
@@ -33769,6 +33869,20 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "CryptoTicker",
+     "url": "https://cryptoticker.io/en/bitcoin-price-winter-time-fed-window-25-october-2026",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "ad-hoc-news",
+     "url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/strive-adds-1-223-btc-what-it-means-for-the-bitcoin-price/70408045",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -33779,7 +33893,7 @@
   "market_significance": "Low",
   "trigger": "Price check",
   "content_created": false,
-  "publication_status": "QUEUED_FOR_DAILY",
+  "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
   "updates": [
    {
@@ -33853,6 +33967,24 @@
     "level": "NORMAL",
     "sources_added": 0,
     "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-25T10:08-04:00",
+    "headline": "Bitcoin reclaims $80,000 as Fed hold odds sit near 90%",
+    "summary": "Green candles only! Bitcoin reclaimed eighty thousand, and Fed hold odds sit near ninety percent.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-25T10:14-04:00",
+    "headline": "Bitcoin holds near $80,600 on a quiet Sunday; ether slips about 1% while XRP gains about 1.3%",
+    "summary": "BTC about -0.2% and ETH about -1.1% over 24 hours, XRP up about 1.3%, total market cap about $2.70 trillion, up about 0.4%, ahead of the October 27-28 Fed meeting.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
    }
   ],
   "posts": [],
@@ -33876,15 +34008,24 @@
   "metrics": {},
   "emergency": false,
   "source_urls": [
-   "https://www.theblock.co/news/regulation/2026-10-24-argentine-judge-clears-milei-and-10-others-in-libra-case-finding-no-criminally-relevant-deception-431606"
+   "https://www.theblock.co/news/regulation/2026-10-24-argentine-judge-clears-milei-and-10-others-in-libra-case-finding-no-criminally-relevant-deception-431606",
+   "https://crypto.news/libra-case-milei-dismissed-argentina/"
   ],
   "source_names": [
-   "The Block"
+   "The Block",
+   "crypto.news"
   ],
   "sources": [
    {
     "url": "https://www.theblock.co/news/regulation/2026-10-24-argentine-judge-clears-milei-and-10-others-in-libra-case-finding-no-criminally-relevant-deception-431606",
     "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://crypto.news/libra-case-milei-dismissed-argentina/",
+    "name": "crypto.news",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -33894,6 +34035,13 @@
    {
     "url": "https://www.theblock.co/news/regulation/2026-10-24-argentine-judge-clears-milei-and-10-others-in-libra-case-finding-no-criminally-relevant-deception-431606",
     "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://crypto.news/libra-case-milei-dismissed-argentina/",
+    "name": "crypto.news",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -33913,6 +34061,13 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/libra-case-milei-dismissed-argentina/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -33922,9 +34077,19 @@
   "market_significance": "Closes the main Argentine criminal probe into the LIBRA collapse, though investors are seeking reinstatement to appeal",
   "trigger": "The Block report",
   "content_created": false,
-  "publication_status": "QUEUED_FOR_DAILY",
+  "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-25T10:08-04:00",
+    "headline": "Argentine judge dismisses LIBRA memecoin case against President Milei and 10 others",
+    "summary": "An Argentine judge tossed the Libra memecoin case against President Milei and ten others.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
