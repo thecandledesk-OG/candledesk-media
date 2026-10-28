@@ -35188,14 +35188,20 @@
    "https://www.coindesk.com/business/2026/10/28/live-updates-bitcoin-climbs-above-usd81-000-as-majors-rally-ahead-of-fed-decision",
    "https://decrypt.co/382092/fed-hold-interest-rate-steady-bitcoin-december-rate-hike",
    "https://finance.yahoo.com/economy/policy/articles/fed-holds-rates-2-officials-180903695.html",
-   "https://coindesk.com/markets/2026/10/28/coinbase-earnings-wall-street-divided-on-trading-rebound-as-robinhood-crypto-revenue-sinks-55"
+   "https://coindesk.com/markets/2026/10/28/coinbase-earnings-wall-street-divided-on-trading-rebound-as-robinhood-crypto-revenue-sinks-55",
+   "https://abcnews.com/Business/federal-reserve-set-issue-interest-rate-decision-midterm/story?id=137599228",
+   "https://www.theblock.co/news/business/2026-10-28-robinhood-earnings-miss-crypto-weakness-wall-street-bullish-outlook-432011",
+   "https://decrypt.co/382004/robinhood-misses-q3-earnings-crypto-prediction-markets"
   ],
   "source_names": [
    "CoinDesk",
    "CoinDesk",
    "Decrypt",
    "Yahoo Finance",
-   "CoinDesk"
+   "CoinDesk",
+   "ABC News",
+   "The Block",
+   "Decrypt"
   ],
   "sources": [
    {
@@ -35229,6 +35235,27 @@
    {
     "url": "https://coindesk.com/markets/2026/10/28/coinbase-earnings-wall-street-divided-on-trading-rebound-as-robinhood-crypto-revenue-sinks-55",
     "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://abcnews.com/Business/federal-reserve-set-issue-interest-rate-decision-midterm/story?id=137599228",
+    "name": "ABC News",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-28-robinhood-earnings-miss-crypto-weakness-wall-street-bullish-outlook-432011",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/382004/robinhood-misses-q3-earnings-crypto-prediction-markets",
+    "name": "Decrypt",
     "kind": "secondary",
     "checked": false,
     "confirms": true
@@ -35266,6 +35293,27 @@
    {
     "url": "https://coindesk.com/markets/2026/10/28/coinbase-earnings-wall-street-divided-on-trading-rebound-as-robinhood-crypto-revenue-sinks-55",
     "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://abcnews.com/Business/federal-reserve-set-issue-interest-rate-decision-midterm/story?id=137599228",
+    "name": "ABC News",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-28-robinhood-earnings-miss-crypto-weakness-wall-street-bullish-outlook-432011",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/382004/robinhood-misses-q3-earnings-crypto-prediction-markets",
+    "name": "Decrypt",
     "kind": "secondary",
     "checked": false,
     "confirms": true
@@ -35313,6 +35361,27 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "ABC News",
+     "url": "https://abcnews.com/Business/federal-reserve-set-issue-interest-rate-decision-midterm/story?id=137599228",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-10-28-robinhood-earnings-miss-crypto-weakness-wall-street-bullish-outlook-432011",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/382004/robinhood-misses-q3-earnings-crypto-prediction-markets",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
     }
    ]
   },
@@ -35350,6 +35419,42 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-28T19:09-04:00",
+    "headline": "Fed holds rates at 3.75% to 4% in a 10-2 vote; December hike odds rise to 86%",
+    "summary": "The Federal Reserve held its policy rate at 3.75%-4% on October 28, as expected, saying inflation remains elevated. Two officials dissented. CME FedWatch odds of a December hike rose to 86%. Bitcoin stayed near $81,000, roughly flat on the day.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-28T19:09-04:00",
+    "headline": "Strategy shareholders back moving preferred stock to daily dividends, preliminary vote shows",
+    "summary": "Preliminary results show 99.3% of votes favored moving Strategy's preferred stock classes to daily dividends. STRC is trading near its $100 par value, the level at which Strategy could resume issuing shares to buy bitcoin.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-28T19:09-04:00",
+    "headline": "Robinhood misses third-quarter estimates as crypto revenue drops; shares fall",
+    "summary": "Robinhood missed third-quarter earnings estimates, with crypto revenue down sharply, and shares fell about 6% premarket. Analysts largely kept bullish outlooks.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-28T19:09-04:00",
+    "headline": "Robinhood misses third-quarter estimates as crypto revenue drops; shares fall",
+    "summary": "Robinhood missed third-quarter earnings estimates, with crypto revenue down sharply, and shares fell about 6% premarket. Analysts largely kept bullish outlooks.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
     "verification": "VERIFIED"
    }
   ],
@@ -36707,6 +36812,76 @@
   ],
   "market_significance": "Read on retail crypto trading activity",
   "trigger": "CoinDesk latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261028_00b7fd",
+  "headline": "Zcash co-founder proposes ending grants funding, citing $125 million treasury",
+  "summary": "A Zcash co-founder proposed ending the network's grants funding, pointing to a treasury of about $125 million.",
+  "detected_at": "2026-10-28T19:09-04:00",
+  "active_since": "2026-10-28T19:09-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "ZEC"
+  ],
+  "event_type": "other",
+  "event_time": "2026-10-27T20:00-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/markets/2026/10/27/zcash-co-founder-proposes-ending-grants-funding-citing-usd125-million-treasury"
+  ],
+  "source_names": [
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/27/zcash-co-founder-proposes-ending-grants-funding-citing-usd125-million-treasury",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/27/zcash-co-founder-proposes-ending-grants-funding-citing-usd125-million-treasury",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/10/27/zcash-co-founder-proposes-ending-grants-funding-citing-usd125-million-treasury",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Governance proposal only"
+  ],
+  "market_significance": "Possible change to Zcash development funding",
+  "trigger": "proposal",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
