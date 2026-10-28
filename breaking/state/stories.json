@@ -33584,7 +33584,8 @@
    "https://cryptoticker.io/en/bitcoin-price-winter-time-fed-window-25-october-2026",
    "https://www.ad-hoc-news.de/boerse/news/marktberichte/strive-adds-1-223-btc-what-it-means-for-the-bitcoin-price/70408045",
    "https://www.coindesk.com/markets/2026/10/26/bitcoin-holds-near-usd80-000-as-oil-retreats-and-the-fed-decision-looms",
-   "https://www.coindesk.com/latest-crypto-news"
+   "https://www.coindesk.com/latest-crypto-news",
+   "https://www.coindesk.com/markets/2026/10/28/bitcoin-nears-usd81-000-ahead-of-fed-decision-as-zec-jumps-8"
   ],
   "source_names": [
    "CoinDesk",
@@ -33601,7 +33602,8 @@
    "CryptoTicker",
    "ad-hoc-news",
    "CoinDesk",
-   "CoinDesk price ticker"
+   "CoinDesk price ticker",
+   "CoinDesk"
   ],
   "sources": [
    {
@@ -33705,6 +33707,13 @@
    {
     "url": "https://www.coindesk.com/latest-crypto-news",
     "name": "CoinDesk price ticker",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/28/bitcoin-nears-usd81-000-ahead-of-fed-decision-as-zec-jumps-8",
+    "name": "CoinDesk",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -33812,6 +33821,13 @@
    {
     "url": "https://www.coindesk.com/latest-crypto-news",
     "name": "CoinDesk price ticker",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/28/bitcoin-nears-usd81-000-ahead-of-fed-decision-as-zec-jumps-8",
+    "name": "CoinDesk",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -33926,6 +33942,13 @@
     {
      "name": "CoinDesk price ticker",
      "url": "https://www.coindesk.com/latest-crypto-news",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/10/28/bitcoin-nears-usd81-000-ahead-of-fed-decision-as-zec-jumps-8",
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
@@ -34057,6 +34080,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 2,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-28T07:20-04:00",
+    "headline": "Bitcoin climbs near $81,000 ahead of the Fed decision; ETH, XRP and SOL up about 2%",
+    "summary": "Bitcoin rose about 1.8% to near $81,250 overnight ahead of today's Fed rate decision at 2 PM ET. Ether rose about 2% to near $2,360, XRP about 1.8% to $1.32 and SOL about 2.5% to $102. Zcash led majors, up about 8%.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "VERIFIED"
    }
   ],
@@ -34575,12 +34607,16 @@
   "source_urls": [
    "https://crypto.news/keystone-wallet-hack-customer-addresses-exposed/",
    "https://x.com/BitcoinNewsCom/status/2114086032828150203",
-   "https://www.theblock.co/news/business/2026-10-25-keystone-customers-say-breach-exposed-data-the-hardware-wallet-maker-promised-to-delete-431613"
+   "https://www.theblock.co/news/business/2026-10-25-keystone-customers-say-breach-exposed-data-the-hardware-wallet-maker-promised-to-delete-431613",
+   "https://decrypt.co/381983/bitcoin-wallet-keystone-devices-destroyed-stolen-key",
+   "https://x.com/KeystoneWallet/status/2114719318722404578"
   ],
   "source_names": [
    "crypto.news",
    "Bitcoin News (X)",
-   "The Block"
+   "The Block",
+   "Decrypt",
+   "Keystone on X"
   ],
   "sources": [
    {
@@ -34602,6 +34638,20 @@
     "name": "The Block",
     "kind": "secondary",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/381983/bitcoin-wallet-keystone-devices-destroyed-stolen-key",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://x.com/KeystoneWallet/status/2114719318722404578",
+    "name": "Keystone on X",
+    "kind": "social",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -34626,15 +34676,29 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/381983/bitcoin-wallet-keystone-devices-destroyed-stolen-key",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://x.com/KeystoneWallet/status/2114719318722404578",
+    "name": "Keystone on X",
+    "kind": "social",
+    "checked": false,
+    "confirms": true
    }
   ],
-  "verification_status": "UNVERIFIED",
+  "verification_status": "VERIFIED",
   "verification": {
-   "status": "UNVERIFIED",
-   "independent_sources": 1,
+   "status": "VERIFIED",
+   "independent_sources": 2,
    "has_primary": false,
-   "score": 0.4,
-   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "score": 0.8,
+   "reason": "2 independent credible sources confirm it (no primary source yet)",
    "sources_checked": [
     {
      "name": "crypto.news",
@@ -34656,6 +34720,20 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/381983/bitcoin-wallet-keystone-devices-destroyed-stolen-key",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Keystone on X",
+     "url": "https://x.com/KeystoneWallet/status/2114719318722404578",
+     "category": "social",
+     "counts": false,
+     "note": "social/community post — can trigger investigation, never verifies"
     }
    ]
   },
@@ -34676,6 +34754,15 @@
     "level": "NORMAL",
     "sources_added": 1,
     "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-28T07:20-04:00",
+    "headline": "Keystone to destroy 18,835 unsold wallets after attacker obtained its device-authenticity key",
+    "summary": "Keystone says an attacker obtained the key that verifies devices are genuine, so it will destroy 18,835 unsold devices and pause shipping from its website. 25,964 buyer records were exposed; Keystone says seed phrases and keys were not involved and devices delivered before October 20 are unaffected.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "VERIFIED"
    }
   ],
   "posts": [],
@@ -35142,6 +35229,357 @@
   ],
   "market_significance": "Macro",
   "trigger": "CoinDesk week preview",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261028_8277eb",
+  "headline": "Bithumb says outsider breached an internal employee system; regulators open on-site probe, no customer funds reported lost",
+  "summary": "South Korea's Bithumb said an unauthorized outsider accessed an internal mobile groupware system used by staff. Bithumb says the system is separate from trading and customer crypto can't be accessed; whether customer data leaked is under investigation. The FSC held an emergency meeting and regulators began an on-site investigation.",
+  "detected_at": "2026-10-28T07:20-04:00",
+  "active_since": "2026-10-28T07:20-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "exchange",
+  "event_time": "2026-10-27T12:00-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/tech/2026/10/28/bithumb-hacked-through-employee-system-as-south-korean-financial-firms-face-cyberattacks",
+   "https://en.sedaily.com/finance/2026/10/28/bithumb-hack-hits-exchange-with-165-million-monthly-users"
+  ],
+  "source_names": [
+   "CoinDesk",
+   "Seoul Economic Daily"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/tech/2026/10/28/bithumb-hacked-through-employee-system-as-south-korean-financial-firms-face-cyberattacks",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://en.sedaily.com/finance/2026/10/28/bithumb-hack-hits-exchange-with-165-million-monthly-users",
+    "name": "Seoul Economic Daily",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/tech/2026/10/28/bithumb-hacked-through-employee-system-as-south-korean-financial-firms-face-cyberattacks",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://en.sedaily.com/finance/2026/10/28/bithumb-hack-hits-exchange-with-165-million-monthly-users",
+    "name": "Seoul Economic Daily",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/tech/2026/10/28/bithumb-hacked-through-employee-system-as-south-korean-financial-firms-face-cyberattacks",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Seoul Economic Daily",
+     "url": "https://en.sedaily.com/finance/2026/10/28/bithumb-hack-hits-exchange-with-165-million-monthly-users",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Data breach, no funds lost, no trading disruption reported"
+  ],
+  "market_significance": "Second-largest Korean exchange; regulators investigating",
+  "trigger": "CoinDesk tech report",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261028_faaa14",
+  "headline": "Coinbase says funds are safe after analytics vendor Amplitude exposed some customer contact data",
+  "summary": "Coinbase denied being hacked, saying a small subset of customer contact data was exposed in an incident at third-party analytics provider Amplitude. It says it found no unauthorized access to its systems, customer funds were not affected, and it is notifying affected customers and regulators. The number of affected users was not disclosed.",
+  "detected_at": "2026-10-28T07:20-04:00",
+  "active_since": "2026-10-28T07:20-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "exchange",
+  "event_time": "2026-10-27T23:11-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/tech/2026/10/28/coinbase-says-customer-funds-are-safe-after-third-party-vendor-exposes-customer-contact-info",
+   "https://www.yahoo.com/news/us/articles/coinbase-ties-customer-contact-data-091549162.html",
+   "https://x.com/CoinbaseSupport/status/2115274731310002356"
+  ],
+  "source_names": [
+   "CoinDesk",
+   "Unchained via Yahoo",
+   "Coinbase Support on X"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/tech/2026/10/28/coinbase-says-customer-funds-are-safe-after-third-party-vendor-exposes-customer-contact-info",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.yahoo.com/news/us/articles/coinbase-ties-customer-contact-data-091549162.html",
+    "name": "Unchained via Yahoo",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "origin": "Unchained"
+   },
+   {
+    "url": "https://x.com/CoinbaseSupport/status/2115274731310002356",
+    "name": "Coinbase Support on X",
+    "kind": "social",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/tech/2026/10/28/coinbase-says-customer-funds-are-safe-after-third-party-vendor-exposes-customer-contact-info",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.yahoo.com/news/us/articles/coinbase-ties-customer-contact-data-091549162.html",
+    "name": "Unchained via Yahoo",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "origin": "Unchained"
+   },
+   {
+    "url": "https://x.com/CoinbaseSupport/status/2115274731310002356",
+    "name": "Coinbase Support on X",
+    "kind": "social",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/tech/2026/10/28/coinbase-says-customer-funds-are-safe-after-third-party-vendor-exposes-customer-contact-info",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Unchained via Yahoo",
+     "url": "https://www.yahoo.com/news/us/articles/coinbase-ties-customer-contact-data-091549162.html",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Coinbase Support on X",
+     "url": "https://x.com/CoinbaseSupport/status/2115274731310002356",
+     "category": "social",
+     "counts": false,
+     "note": "social/community post — can trigger investigation, never verifies"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Vendor data exposure, no funds or systems compromised"
+  ],
+  "market_significance": "Phishing risk for users",
+  "trigger": "CoinDesk report",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261028_21136b",
+  "headline": "Moody's gives Ripple's RLUSD stablecoin investment-grade A2 and P-1 ratings",
+  "summary": "Moody's Ratings assigned RLUSD an A2 long-term and P-1 short-term rating, citing reserves held mostly in short-term US government assets and cash at BNY. Ripple calls it the first stablecoin with a Moody's investment-grade rating. It follows Ripple's final OCC trust-bank approval this week.",
+  "detected_at": "2026-10-28T07:20-04:00",
+  "active_since": "2026-10-28T07:20-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "XRP"
+  ],
+  "event_type": "institutional",
+  "event_time": "2026-10-28T05:15-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/web3/2026-10-28-moodys-ripple-rlusd-stablecoin-431969"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/web3/2026-10-28-moodys-ripple-rlusd-stablecoin-431969",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/web3/2026-10-28-moodys-ripple-rlusd-stablecoin-431969",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/web3/2026-10-28-moodys-ripple-rlusd-stablecoin-431969",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Positive but incremental stablecoin news"
+  ],
+  "market_significance": "Credit-rating milestone for a stablecoin",
+  "trigger": "The Block report",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261028_61b16a",
+  "headline": "Datavault AI stock falls about 50% after saying it can't withdraw bitcoin tied to a $150 million deal",
+  "summary": "Datavault AI shares fell about 50% after an SEC 8-K said it has been unable since June to withdraw bitcoin held in a Biconomy wallet tied to a $150 million share deal with Scilex, and that over a year of financial statements can't be relied on.",
+  "detected_at": "2026-10-28T07:20-04:00",
+  "active_since": "2026-10-28T07:20-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "other",
+  "event_time": "2026-10-27T16:00-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-10-27-datavault-ai-stock-plummets-bitcoin-deal-431962"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-27-datavault-ai-stock-plummets-bitcoin-deal-431962",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-27-datavault-ai-stock-plummets-bitcoin-deal-431962",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-10-27-datavault-ai-stock-plummets-bitcoin-deal-431962",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Small-cap company issue, no market impact"
+  ],
+  "market_significance": "Corporate bitcoin treasury risk",
+  "trigger": "The Block report",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
