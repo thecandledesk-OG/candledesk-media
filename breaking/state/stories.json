@@ -35184,14 +35184,50 @@
   "metrics": {},
   "emergency": false,
   "source_urls": [
-   "https://www.coindesk.com/markets/2026/10/26/fed-ecb-and-boj-interest-rate-decisions-coinbase-earnings-crypto-week-ahead"
+   "https://www.coindesk.com/markets/2026/10/26/fed-ecb-and-boj-interest-rate-decisions-coinbase-earnings-crypto-week-ahead",
+   "https://www.coindesk.com/business/2026/10/28/live-updates-bitcoin-climbs-above-usd81-000-as-majors-rally-ahead-of-fed-decision",
+   "https://decrypt.co/382092/fed-hold-interest-rate-steady-bitcoin-december-rate-hike",
+   "https://finance.yahoo.com/economy/policy/articles/fed-holds-rates-2-officials-180903695.html",
+   "https://coindesk.com/markets/2026/10/28/coinbase-earnings-wall-street-divided-on-trading-rebound-as-robinhood-crypto-revenue-sinks-55"
   ],
   "source_names": [
+   "CoinDesk",
+   "CoinDesk",
+   "Decrypt",
+   "Yahoo Finance",
    "CoinDesk"
   ],
   "sources": [
    {
     "url": "https://www.coindesk.com/markets/2026/10/26/fed-ecb-and-boj-interest-rate-decisions-coinbase-earnings-crypto-week-ahead",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/business/2026/10/28/live-updates-bitcoin-climbs-above-usd81-000-as-majors-rally-ahead-of-fed-decision",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/382092/fed-hold-interest-rate-steady-bitcoin-december-rate-hike",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://finance.yahoo.com/economy/policy/articles/fed-holds-rates-2-officials-180903695.html",
+    "name": "Yahoo Finance",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://coindesk.com/markets/2026/10/28/coinbase-earnings-wall-street-divided-on-trading-rebound-as-robinhood-crypto-revenue-sinks-55",
     "name": "CoinDesk",
     "kind": "secondary",
     "checked": false,
@@ -35205,19 +35241,75 @@
     "kind": "secondary",
     "checked": false,
     "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/business/2026/10/28/live-updates-bitcoin-climbs-above-usd81-000-as-majors-rally-ahead-of-fed-decision",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/382092/fed-hold-interest-rate-steady-bitcoin-december-rate-hike",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://finance.yahoo.com/economy/policy/articles/fed-holds-rates-2-officials-180903695.html",
+    "name": "Yahoo Finance",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://coindesk.com/markets/2026/10/28/coinbase-earnings-wall-street-divided-on-trading-rebound-as-robinhood-crypto-revenue-sinks-55",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
    }
   ],
-  "verification_status": "UNVERIFIED",
+  "verification_status": "VERIFIED",
   "verification": {
-   "status": "UNVERIFIED",
-   "independent_sources": 0,
+   "status": "VERIFIED",
+   "independent_sources": 3,
    "has_primary": false,
-   "score": 0.0,
-   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "score": 0.8,
+   "reason": "3 independent credible sources confirm it (no primary source yet)",
    "sources_checked": [
     {
      "name": "CoinDesk",
      "url": "https://www.coindesk.com/markets/2026/10/26/fed-ecb-and-boj-interest-rate-decisions-coinbase-earnings-crypto-week-ahead",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/business/2026/10/28/live-updates-bitcoin-climbs-above-usd81-000-as-majors-rally-ahead-of-fed-decision",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/382092/fed-hold-interest-rate-steady-bitcoin-december-rate-hike",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/economy/policy/articles/fed-holds-rates-2-officials-180903695.html",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://coindesk.com/markets/2026/10/28/coinbase-earnings-wall-street-divided-on-trading-rebound-as-robinhood-crypto-revenue-sinks-55",
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; not opened, so it doesn't count"
@@ -35232,7 +35324,35 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-28T16:16-04:00",
+    "headline": "Fed holds rates at 3.75%-4% in 10-2 vote; bitcoin little changed near $81,000",
+    "summary": "The Federal Reserve held its target range at 3.75 to 4 percent, with Governor Lisa Cook and Cleveland Fed President Beth Hammack dissenting in favor of a hike. The statement dropped language on policy supporting a return to 2% inflation. Bitcoin briefly rose above $81,000 then eased; markets price a high chance of a December hike.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 3,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-28T16:16-04:00",
+    "headline": "Strategy shareholders approve moving preferred stocks including STRC to daily dividends",
+    "summary": "Strategy shareholders approved switching its preferred stocks, including STRC, to daily dividends, with about 99.3% of votes in favor, according to CoinDesk's live coverage.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-28T16:16-04:00",
+    "headline": "Robinhood crypto revenue falls 55% from a year ago but beats forecasts",
+    "summary": "Robinhood's third-quarter crypto revenue fell about 55% year over year but came in above Wall Street forecasts, a day before Coinbase reports.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
