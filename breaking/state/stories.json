@@ -35586,5 +35586,769 @@
   "updates": [],
   "posts": [],
   "needs_followup": false
+ },
+ {
+  "id": "st_20261028_62a85c",
+  "headline": "Bitcoin back above $81,000 on Fed day",
+  "summary": "Here's what moved the chain today. Bitcoin is back above eighty-one thousand dollars.",
+  "detected_at": "2026-10-28T10:39-04:00",
+  "active_since": "2026-10-28T10:39-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "market_move",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://samzal.com/threads/crypto-prices-today-oct-28-2026.839/",
+   "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-28-2026"
+  ],
+  "source_names": [
+   "Samzal",
+   "KuCoin"
+  ],
+  "sources": [
+   {
+    "url": "https://samzal.com/threads/crypto-prices-today-oct-28-2026.839/",
+    "name": "Samzal",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-28-2026",
+    "name": "KuCoin",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://samzal.com/threads/crypto-prices-today-oct-28-2026.839/",
+    "name": "Samzal",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-28-2026",
+    "name": "KuCoin",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Samzal",
+     "url": "https://samzal.com/threads/crypto-prices-today-oct-28-2026.839/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "KuCoin",
+     "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-28-2026",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261028_d55712",
+  "headline": "Spot bitcoin ETFs take in $176 million on October 27",
+  "summary": "Bitcoin ETFs grabbed one hundred seventy-six million dollars yesterday. Green candles only!",
+  "detected_at": "2026-10-28T10:39-04:00",
+  "active_since": "2026-10-28T10:39-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "etf",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://financefeeds.com/us-crypto-etfs-record-96-6-million-in-net-inflows-on-october-27-as-bitcoin-leads-institutional-demand/",
+   "https://crypto.news/bitcoin-whales-move-nearly-500m-to-coinbase-prime-overnight"
+  ],
+  "source_names": [
+   "FinanceFeeds / Farside",
+   "crypto.news"
+  ],
+  "sources": [
+   {
+    "url": "https://financefeeds.com/us-crypto-etfs-record-96-6-million-in-net-inflows-on-october-27-as-bitcoin-leads-institutional-demand/",
+    "name": "FinanceFeeds / Farside",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://crypto.news/bitcoin-whales-move-nearly-500m-to-coinbase-prime-overnight",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://financefeeds.com/us-crypto-etfs-record-96-6-million-in-net-inflows-on-october-27-as-bitcoin-leads-institutional-demand/",
+    "name": "FinanceFeeds / Farside",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://crypto.news/bitcoin-whales-move-nearly-500m-to-coinbase-prime-overnight",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "FinanceFeeds / Farside",
+     "url": "https://financefeeds.com/us-crypto-etfs-record-96-6-million-in-net-inflows-on-october-27-as-bitcoin-leads-institutional-demand/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/bitcoin-whales-move-nearly-500m-to-coinbase-prime-overnight",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [
+   {
+    "at": "2026-10-28T10:39-04:00",
+    "headline": "Spot ether ETFs see $60 million outflows; Fed decides October 28",
+    "summary": "Ether ETFs bled sixty million, and the Fed decides today. Check the yields first.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-28T10:39-04:00",
+    "headline": "Three whales move 6,168 BTC (about $498.5 million) to Coinbase Prime",
+    "summary": "Psst... three whales moved nearly five hundred million dollars of bitcoin to Coinbase Prime.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   }
+  ],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261028_ca901c",
+  "headline": "PEPE jumps about 10% as Justin Sun-linked wallets hold about $51 million",
+  "summary": "Pepe jumped about ten percent, with wallets tied to Justin Sun holding fifty-one million.",
+  "detected_at": "2026-10-28T10:39-04:00",
+  "active_since": "2026-10-28T10:39-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "PEPE"
+  ],
+  "event_type": "market_move",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://crypto.news/why-is-pepe-price-up-today-justin-sun-whale",
+   "https://coincodex.com/article/94442/daily-market-update-for-october-28-2026"
+  ],
+  "source_names": [
+   "crypto.news",
+   "CoinCodex"
+  ],
+  "sources": [
+   {
+    "url": "https://crypto.news/why-is-pepe-price-up-today-justin-sun-whale",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://coincodex.com/article/94442/daily-market-update-for-october-28-2026",
+    "name": "CoinCodex",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://crypto.news/why-is-pepe-price-up-today-justin-sun-whale",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://coincodex.com/article/94442/daily-market-update-for-october-28-2026",
+    "name": "CoinCodex",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/why-is-pepe-price-up-today-justin-sun-whale",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinCodex",
+     "url": "https://coincodex.com/article/94442/daily-market-update-for-october-28-2026",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261028_e89c1c",
+  "headline": "JPMorgan, Coca-Cola and Dell join companies objecting to OKX-ICE tokenized stock trading plan",
+  "summary": "Nearly half of the venture's original corporate partners now object to their shares trading on the planned tokenized platform.",
+  "detected_at": "2026-10-28T10:39-04:00",
+  "active_since": "2026-10-28T10:39-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "institutional",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/latest-crypto-news#okx-ice",
+   "https://decrypt.co/380157"
+  ],
+  "source_names": [
+   "CoinDesk",
+   "Decrypt"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/latest-crypto-news#okx-ice",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/380157",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/latest-crypto-news#okx-ice",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/380157",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/latest-crypto-news#okx-ice",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/380157",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Tokenized-equities setback; not market-moving for crypto"
+  ],
+  "market_significance": "low-medium",
+  "trigger": "CoinDesk latest news, Oct 28",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261028_a42934",
+  "headline": "XRP Ledger developers propose wallets that start with zero XRP for stablecoin payments",
+  "summary": "A proposed experiment would let companies cover account reserves so users can start with stablecoins and hold no XRP.",
+  "detected_at": "2026-10-28T10:39-04:00",
+  "active_since": "2026-10-28T10:39-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "XRP"
+  ],
+  "event_type": "protocol_upgrade",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/latest-crypto-news#xrpl-zero-xrp"
+  ],
+  "source_names": [
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/latest-crypto-news#xrpl-zero-xrp",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/latest-crypto-news#xrpl-zero-xrp",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/latest-crypto-news#xrpl-zero-xrp",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Proposal only, not live"
+  ],
+  "market_significance": "low-medium",
+  "trigger": "CoinDesk latest news, Oct 28",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261028_1b6ef3",
+  "headline": "Google previews Multi-Party Compute crypto custody system for institutions",
+  "summary": "Google's MPC custody system is in private preview with financial institutions testing it; Alphabet uses it for its own assets.",
+  "detected_at": "2026-10-28T10:39-04:00",
+  "active_since": "2026-10-28T10:39-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "institutional",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/latest-crypto-news#google-mpc"
+  ],
+  "source_names": [
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/latest-crypto-news#google-mpc",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/latest-crypto-news#google-mpc",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/latest-crypto-news#google-mpc",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Private preview, incremental"
+  ],
+  "market_significance": "low-medium",
+  "trigger": "CoinDesk latest news, Oct 28",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261028_55892a",
+  "headline": "Itau Unibanco becomes first Brazilian bank to formalize crypto brokerage under new central bank rules",
+  "summary": "Brazil's largest lender notified the central bank of its crypto trading and custody operations ahead of an October 30 deadline.",
+  "detected_at": "2026-10-28T10:39-04:00",
+  "active_since": "2026-10-28T10:39-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "regulatory",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/latest-crypto-news#itau"
+  ],
+  "source_names": [
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/latest-crypto-news#itau",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/latest-crypto-news#itau",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/latest-crypto-news#itau",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Regional regulatory compliance step"
+  ],
+  "market_significance": "low-medium",
+  "trigger": "CoinDesk latest news, Oct 28",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261028_174748",
+  "headline": "Securitize adds Stellar blockchain for institutional tokenization",
+  "summary": "Securitize announced a Stellar partnership at the Stellar Development Foundation conference in Portugal.",
+  "detected_at": "2026-10-28T10:39-04:00",
+  "active_since": "2026-10-28T10:39-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "XLM"
+  ],
+  "event_type": "partnership",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/latest-crypto-news#securitize-stellar"
+  ],
+  "source_names": [
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/latest-crypto-news#securitize-stellar",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/latest-crypto-news#securitize-stellar",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/latest-crypto-news#securitize-stellar",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Routine partnership"
+  ],
+  "market_significance": "low-medium",
+  "trigger": "CoinDesk latest news, Oct 28",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261028_ebeee3",
+  "headline": "DTCC tokenization service live on two networks with about 20 firms including three large banks",
+  "summary": "Follow-up: DTCC's tokenization service, first reported mid-October, is live on two networks with about 20 firms signed on.",
+  "detected_at": "2026-10-28T10:39-04:00",
+  "active_since": "2026-10-28T10:39-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "institutional",
+  "event_time": "2026-10-16",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/latest-crypto-news#dtcc",
+   "https://genfinity.io/2026/10/16/dtcc-tokenization-service-30-trillion-canton-besu-stellar-arc/"
+  ],
+  "source_names": [
+   "CoinDesk",
+   "Genfinity"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/latest-crypto-news#dtcc",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://genfinity.io/2026/10/16/dtcc-tokenization-service-30-trillion-canton-besu-stellar-arc/",
+    "name": "Genfinity",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/latest-crypto-news#dtcc",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://genfinity.io/2026/10/16/dtcc-tokenization-service-30-trillion-canton-besu-stellar-arc/",
+    "name": "Genfinity",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/latest-crypto-news#dtcc",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Genfinity",
+     "url": "https://genfinity.io/2026/10/16/dtcc-tokenization-service-30-trillion-canton-besu-stellar-arc/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Follow-up on a launch first reported around Oct 16; not new"
+  ],
+  "market_significance": "low-medium",
+  "trigger": "CoinDesk latest news, Oct 28",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
  }
 ]
