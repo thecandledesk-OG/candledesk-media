@@ -34984,11 +34984,15 @@
   "emergency": false,
   "source_urls": [
    "https://www.theblock.co/news/regulation/2026-10-27-cftc-sues-utah-battle-over-prediction-market-regulation-intensifies-431922",
-   "https://www.theblock.co/news/business/2026-10-29-utah-criminal-charges-kalshi-432104"
+   "https://www.theblock.co/news/business/2026-10-29-utah-criminal-charges-kalshi-432104",
+   "https://decrypt.co/",
+   "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-29-2026"
   ],
   "source_names": [
    "The Block",
-   "The Block"
+   "The Block",
+   "Decrypt",
+   "KuCoin"
   ],
   "sources": [
    {
@@ -35002,6 +35006,20 @@
     "url": "https://www.theblock.co/news/business/2026-10-29-utah-criminal-charges-kalshi-432104",
     "name": "The Block",
     "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-29-2026",
+    "name": "KuCoin",
+    "kind": "other",
     "checked": true,
     "confirms": true
    }
@@ -35020,15 +35038,29 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-29-2026",
+    "name": "KuCoin",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
    }
   ],
-  "verification_status": "UNVERIFIED",
+  "verification_status": "VERIFIED",
   "verification": {
-   "status": "UNVERIFIED",
-   "independent_sources": 1,
+   "status": "VERIFIED",
+   "independent_sources": 2,
    "has_primary": false,
-   "score": 0.4,
-   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "score": 0.8,
+   "reason": "2 independent credible sources confirm it (no primary source yet)",
    "sources_checked": [
     {
      "name": "The Block",
@@ -35043,6 +35075,20 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "KuCoin",
+     "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-29-2026",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -35063,6 +35109,33 @@
     "level": "NORMAL",
     "sources_added": 1,
     "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-29T10:20-04:00",
+    "headline": "Utah files felony charges against Kalshi and two co-founders over sports bets",
+    "summary": "Utah filed criminal charges against prediction market Kalshi and its two co-founders, escalating the state's fight with Kalshi as the CFTC sues Utah.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-29T10:20-04:00",
+    "headline": "US Treasury sanctions 11 over North Korean IT worker scheme that moved millions in crypto",
+    "summary": "Treasury sanctioned 11 targets tied to a North Korean IT worker scheme that moved millions of dollars in crypto.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-29T10:20-04:00",
+    "headline": "Polygon extends its stablecoin payments infrastructure to Solana",
+    "summary": "Polygon said it is extending its stablecoin payments infrastructure to the Solana network.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "VERIFIED"
    }
   ],
   "posts": [],
@@ -35709,7 +35782,7 @@
   "market_significance": "Second-largest Korean exchange; regulators investigating",
   "trigger": "CoinDesk tech report",
   "content_created": false,
-  "publication_status": "QUEUED_FOR_DAILY",
+  "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
   "updates": [
    {
@@ -35719,6 +35792,15 @@
     "new_development": true,
     "level": "NORMAL",
     "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-29T10:14-04:00",
+    "headline": "Bithumb staff system breached by hacker; exchange says customer coins safe",
+    "summary": "And in Korea, a hacker breached Bithumb's staff system. It says customer coins stayed safe.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
     "verification": "UNVERIFIED"
    }
   ],
@@ -36002,11 +36084,17 @@
   "emergency": false,
   "source_urls": [
    "https://samzal.com/threads/crypto-prices-today-oct-28-2026.839/",
-   "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-28-2026"
+   "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-28-2026",
+   "https://coindesk.com/markets/2026/10/29/bitcoin-dips-below-usd80-000-as-samsung-led-risk-aversion-in-tech-and-a-hawkish-fed-weigh-on-crypto",
+   "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-29-2026",
+   "https://bravenewcoin.com/insights/crypto-news-today-btc-eth-xrp-slide-after-fed-decision-keeps-rates-unchanged"
   ],
   "source_names": [
    "Samzal",
-   "KuCoin"
+   "KuCoin",
+   "CoinDesk",
+   "KuCoin",
+   "Brave New Coin"
   ],
   "sources": [
    {
@@ -36019,6 +36107,27 @@
    {
     "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-28-2026",
     "name": "KuCoin",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://coindesk.com/markets/2026/10/29/bitcoin-dips-below-usd80-000-as-samsung-led-risk-aversion-in-tech-and-a-hawkish-fed-weigh-on-crypto",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-29-2026",
+    "name": "KuCoin",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://bravenewcoin.com/insights/crypto-news-today-btc-eth-xrp-slide-after-fed-decision-keeps-rates-unchanged",
+    "name": "Brave New Coin",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -36038,15 +36147,36 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://coindesk.com/markets/2026/10/29/bitcoin-dips-below-usd80-000-as-samsung-led-risk-aversion-in-tech-and-a-hawkish-fed-weigh-on-crypto",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-29-2026",
+    "name": "KuCoin",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://bravenewcoin.com/insights/crypto-news-today-btc-eth-xrp-slide-after-fed-decision-keeps-rates-unchanged",
+    "name": "Brave New Coin",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "UNVERIFIED",
   "verification": {
    "status": "UNVERIFIED",
-   "independent_sources": 0,
+   "independent_sources": 1,
    "has_primary": false,
-   "score": 0.0,
-   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
    "sources_checked": [
     {
      "name": "Samzal",
@@ -36061,6 +36191,27 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://coindesk.com/markets/2026/10/29/bitcoin-dips-below-usd80-000-as-samsung-led-risk-aversion-in-tech-and-a-hawkish-fed-weigh-on-crypto",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "KuCoin",
+     "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-29-2026",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Brave New Coin",
+     "url": "https://bravenewcoin.com/insights/crypto-news-today-btc-eth-xrp-slide-after-fed-decision-keeps-rates-unchanged",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -36072,7 +36223,35 @@
   "content_created": false,
   "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-29T10:14-04:00",
+    "headline": "Crypto liquidations hit $356 million in 24 hours as bitcoin dips below $80,000",
+    "summary": "Here's what moved the chain today. Three hundred fifty-six million dollars in crypto liquidations.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-29T10:14-04:00",
+    "headline": "Fed holds rates steady at 3.75%-4% and calls the economy strong",
+    "summary": "Green candles only! The Fed held rates steady, no hike, and called the economy strong!",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-29T10:14-04:00",
+    "headline": "Two Fed officials dissent in favor of a hike; bitcoin slips under $80,000",
+    "summary": "Check the yields first. Two officials wanted a hike. Bitcoin slipped under eighty thousand.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -37189,6 +37368,262 @@
   ],
   "market_significance": "Quiet post-Fed drift.",
   "trigger": "Price check",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261029_6c9fa6",
+  "headline": "Spot ether ETFs see about $170 million in outflows over three sessions",
+  "summary": "Psst... Ether ETFs bled one hundred seventy million dollars over three straight sessions.",
+  "detected_at": "2026-10-29T10:14-04:00",
+  "active_since": "2026-10-29T10:14-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "ETH"
+  ],
+  "event_type": "etf",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://crypto.news/ethereum-price-falls-etf-outflows-october-29-2026"
+  ],
+  "source_names": [
+   "crypto.news"
+  ],
+  "sources": [
+   {
+    "url": "https://crypto.news/ethereum-price-falls-etf-outflows-october-29-2026",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://crypto.news/ethereum-price-falls-etf-outflows-october-29-2026",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/ethereum-price-falls-etf-outflows-october-29-2026",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261029_17a150",
+  "headline": "HTX agrees to leave the UK in settlement with the FCA over illegal crypto promotions",
+  "summary": "The UK Financial Conduct Authority settled its High Court case against HTX (formerly Huobi). HTX no longer takes UK deposits or new UK users and undertook not to unlawfully promote to UK consumers until 2031; terms confidential, no admission of liability.",
+  "detected_at": "2026-10-29T10:20-04:00",
+  "active_since": "2026-10-29T10:20-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.85,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "exchange",
+  "event_time": "2026-10-29T08:00-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://decrypt.co/382138/justin-suns-htx-agrees-to-leave-uk-in-settlement-with-financial-watchdog",
+   "https://cointelegraph.com/news/htx-halt-unlawful-uk-crypto-promotions-fca",
+   "https://bitcoinmagazine.com/news/crypto-exchange-htx-agrees-to-leave-uk"
+  ],
+  "source_names": [
+   "Decrypt",
+   "Cointelegraph",
+   "Bitcoin Magazine"
+  ],
+  "sources": [
+   {
+    "url": "https://decrypt.co/382138/justin-suns-htx-agrees-to-leave-uk-in-settlement-with-financial-watchdog",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cointelegraph.com/news/htx-halt-unlawful-uk-crypto-promotions-fca",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://bitcoinmagazine.com/news/crypto-exchange-htx-agrees-to-leave-uk",
+    "name": "Bitcoin Magazine",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://decrypt.co/382138/justin-suns-htx-agrees-to-leave-uk-in-settlement-with-financial-watchdog",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cointelegraph.com/news/htx-halt-unlawful-uk-crypto-promotions-fca",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://bitcoinmagazine.com/news/crypto-exchange-htx-agrees-to-leave-uk",
+    "name": "Bitcoin Magazine",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "VERIFIED",
+  "verification": {
+   "status": "VERIFIED",
+   "independent_sources": 2,
+   "has_primary": false,
+   "score": 0.8,
+   "reason": "2 independent credible sources confirm it (no primary source yet)",
+   "sources_checked": [
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/382138/justin-suns-htx-agrees-to-leave-uk-in-settlement-with-financial-watchdog",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Cointelegraph",
+     "url": "https://cointelegraph.com/news/htx-halt-unlawful-uk-crypto-promotions-fca",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Bitcoin Magazine",
+     "url": "https://bitcoinmagazine.com/news/crypto-exchange-htx-agrees-to-leave-uk",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Regulatory settlement with a single exchange in one market; HTX had already halted UK onboarding. No market impact."
+  ],
+  "market_significance": "First FCA enforcement case against a crypto firm under UK promotion rules is now closed.",
+  "trigger": "Decrypt latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261029_c3e57b",
+  "headline": "Euronext halts debut of CoinShares Zcash ETP in Paris over settlement issue",
+  "summary": "Euronext halted the Paris debut of a CoinShares Zcash exchange-traded product citing a settlement issue.",
+  "detected_at": "2026-10-29T10:20-04:00",
+  "active_since": "2026-10-29T10:20-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.45,
+  "assets": [
+   "ZEC"
+  ],
+  "event_type": "exchange",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://finance.biggo.com/news/1f5aedab-286d-4ead-8fce-491ebdbfecce"
+  ],
+  "source_names": [
+   "BigGo Finance"
+  ],
+  "sources": [
+   {
+    "url": "https://finance.biggo.com/news/1f5aedab-286d-4ead-8fce-491ebdbfecce",
+    "name": "BigGo Finance",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://finance.biggo.com/news/1f5aedab-286d-4ead-8fce-491ebdbfecce",
+    "name": "BigGo Finance",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "BigGo Finance",
+     "url": "https://finance.biggo.com/news/1f5aedab-286d-4ead-8fce-491ebdbfecce",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Single-product listing delay; one lesser-known source."
+  ],
+  "market_significance": "Small setback for a privacy-coin ETP in Europe.",
+  "trigger": "BitDigest newsletter",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
