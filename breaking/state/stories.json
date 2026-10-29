@@ -37127,15 +37127,52 @@
   "metrics": {},
   "emergency": false,
   "source_urls": [
-   "https://www.coindesk.com/markets/2026/10/28/coinbase-earnings-wall-street-divided-on-trading-rebound-as-robinhood-crypto-revenue-sinks-55"
+   "https://www.coindesk.com/markets/2026/10/28/coinbase-earnings-wall-street-divided-on-trading-rebound-as-robinhood-crypto-revenue-sinks-55",
+   "https://investor.coinbase.com/news/news-details/2026/Coinbase-Q3-2026-Earnings-Show-All-time-high-Coinbase-One-Subscribers-and-Prediction-Markets-Surpassing-200-Million-in-Annualized-Revenue/default.aspx",
+   "https://sg.finance.yahoo.com/news/coinbase-shares-rise-q3-earnings-205555031.html",
+   "https://www.coindesk.com/business/2026/10/29/live-updates-bitcoin-clings-to-usd80-000-as-strategy-s-cushion-thins-before-earnings",
+   "https://decrypt.co/382191/binance-suspected-hack-5-billion-tether-circle-freeze-crypto"
   ],
   "source_names": [
-   "CoinDesk"
+   "CoinDesk",
+   "Coinbase IR",
+   "Investing.com via Yahoo Finance",
+   "CoinDesk",
+   "Decrypt"
   ],
   "sources": [
    {
     "url": "https://www.coindesk.com/markets/2026/10/28/coinbase-earnings-wall-street-divided-on-trading-rebound-as-robinhood-crypto-revenue-sinks-55",
     "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://investor.coinbase.com/news/news-details/2026/Coinbase-Q3-2026-Earnings-Show-All-time-high-Coinbase-One-Subscribers-and-Prediction-Markets-Surpassing-200-Million-in-Annualized-Revenue/default.aspx",
+    "name": "Coinbase IR",
+    "kind": "primary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://sg.finance.yahoo.com/news/coinbase-shares-rise-q3-earnings-205555031.html",
+    "name": "Investing.com via Yahoo Finance",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "origin": "Investing.com"
+   },
+   {
+    "url": "https://www.coindesk.com/business/2026/10/29/live-updates-bitcoin-clings-to-usd80-000-as-strategy-s-cushion-thins-before-earnings",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/382191/binance-suspected-hack-5-billion-tether-circle-freeze-crypto",
+    "name": "Decrypt",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -37148,19 +37185,76 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://investor.coinbase.com/news/news-details/2026/Coinbase-Q3-2026-Earnings-Show-All-time-high-Coinbase-One-Subscribers-and-Prediction-Markets-Surpassing-200-Million-in-Annualized-Revenue/default.aspx",
+    "name": "Coinbase IR",
+    "kind": "primary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://sg.finance.yahoo.com/news/coinbase-shares-rise-q3-earnings-205555031.html",
+    "name": "Investing.com via Yahoo Finance",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "origin": "Investing.com"
+   },
+   {
+    "url": "https://www.coindesk.com/business/2026/10/29/live-updates-bitcoin-clings-to-usd80-000-as-strategy-s-cushion-thins-before-earnings",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/382191/binance-suspected-hack-5-billion-tether-circle-freeze-crypto",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
-  "verification_status": "UNVERIFIED",
+  "verification_status": "VERIFIED",
   "verification": {
-   "status": "UNVERIFIED",
-   "independent_sources": 1,
-   "has_primary": false,
-   "score": 0.4,
-   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "status": "VERIFIED",
+   "independent_sources": 4,
+   "has_primary": true,
+   "score": 1.0,
+   "reason": "4 independent credible sources confirm it (incl. a primary source)",
    "sources_checked": [
     {
      "name": "CoinDesk",
      "url": "https://www.coindesk.com/markets/2026/10/28/coinbase-earnings-wall-street-divided-on-trading-rebound-as-robinhood-crypto-revenue-sinks-55",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Coinbase IR",
+     "url": "https://investor.coinbase.com/news/news-details/2026/Coinbase-Q3-2026-Earnings-Show-All-time-high-Coinbase-One-Subscribers-and-Prediction-Markets-Surpassing-200-Million-in-Annualized-Revenue/default.aspx",
+     "category": "primary",
+     "counts": true,
+     "note": "primary (known official domain)"
+    },
+    {
+     "name": "Investing.com via Yahoo Finance",
+     "url": "https://sg.finance.yahoo.com/news/coinbase-shares-rise-q3-earnings-205555031.html",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/business/2026/10/29/live-updates-bitcoin-clings-to-usd80-000-as-strategy-s-cushion-thins-before-earnings",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/382191/binance-suspected-hack-5-billion-tether-circle-freeze-crypto",
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
@@ -37175,7 +37269,26 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-29T19:15-04:00",
+    "headline": "Coinbase reports Q3: about $719 million net income on crypto investment gains, revenue down 35% year over year, prediction markets top $200 million annualized",
+    "summary": "Coinbase posted third-quarter net income of about $719 million, lifted by gains on its crypto holdings, while revenue of about $1.2 billion was down 35% from a year earlier and in line with estimates. Adjusted EBITDA was $333 million. Prediction markets passed $200 million in annualized revenue; average USDC on platform hit a record $22 billion.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 3,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-29T19:15-04:00",
+    "headline": "Crypto slides with tech stocks: bitcoin dips below $79,000, BNB down about 7% on Binance hack fears",
+    "summary": "Bitcoin fell below $79,000, down about 2 to 3 percent in 24 hours, as the Nasdaq dropped about 1.4% on weak tech guidance and the suspected Binance hack hit sentiment. Ether, solana and XRP fell about 2 to 3 percent; BNB fell about 6 to 7 percent. About $628 million in positions were liquidated in an hour.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -38087,8 +38200,221 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-29T19:15-04:00",
+    "headline": "Polymarket resumes trading after the $2.65 million exploit",
+    "summary": "Polymarket has resumed trading after pausing over a $2.65 million exploit it blamed on a compromised third-party provider.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "VERIFIED"
+   }
+  ],
   "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261029_b14ae4",
+  "headline": "Binance pauses withdrawals and investigates a suspected hack as billions leave its hot wallets; Tether and Circle freeze about $2.4 billion",
+  "summary": "Starting about 4:24 PM ET, billions of dollars in crypto moved out of Binance hot wallets to new addresses (on-chain estimates range from about $1.7 billion to $5.7 billion). Binance says it is investigating reports of a potential security issue, has temporarily suspended withdrawals on multiple networks as a precaution, and says user funds are safe. It has not confirmed a hack or a loss figure. Tether's CEO says it froze more than 1.567 billion USDT and Circle's CEO says it froze more than 800 million USDC. BNB fell about 6 to 7 percent; bitcoin dipped below $79,000.",
+  "detected_at": "2026-10-29T19:15-04:00",
+  "active_since": "2026-10-29T19:15-04:00",
+  "classification": "BREAKING",
+  "proposed_level": "BREAKING",
+  "confidence": 0.85,
+  "assets": [
+   "BNB",
+   "TOTAL_MARKET",
+   "USDT",
+   "USDC",
+   "BTC"
+  ],
+  "event_type": "hack_exploit",
+  "event_time": "2026-10-29T16:24-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/markets/2026-10-29-binance-investigating-hack-suspicious-outflows-5-billion-432171",
+   "https://decrypt.co/382191/binance-suspected-hack-5-billion-tether-circle-freeze-crypto",
+   "https://techcrunch.com/2026/10/29/binance-pauses-withdrawals-as-hackers-suspected-of-stealing-billions-in-crypto/",
+   "https://www.coindesk.com/business/2026/10/29/live-updates-bitcoin-clings-to-usd80-000-as-strategy-s-cushion-thins-before-earnings",
+   "https://gizmodo.com/binance-investigating-possibly-massive-hack-2000832787",
+   "https://x.com/DeItaone/status/2115915902260556021"
+  ],
+  "source_names": [
+   "The Block",
+   "Decrypt",
+   "TechCrunch",
+   "CoinDesk",
+   "Gizmodo",
+   "X (Walter Bloomberg)"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-10-29-binance-investigating-hack-suspicious-outflows-5-billion-432171",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-29T17:48-04:00"
+   },
+   {
+    "url": "https://decrypt.co/382191/binance-suspected-hack-5-billion-tether-circle-freeze-crypto",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-29T17:36-04:00"
+   },
+   {
+    "url": "https://techcrunch.com/2026/10/29/binance-pauses-withdrawals-as-hackers-suspected-of-stealing-billions-in-crypto/",
+    "name": "TechCrunch",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-29T18:27-04:00"
+   },
+   {
+    "url": "https://www.coindesk.com/business/2026/10/29/live-updates-bitcoin-clings-to-usd80-000-as-strategy-s-cushion-thins-before-earnings",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-29T19:07-04:00"
+   },
+   {
+    "url": "https://gizmodo.com/binance-investigating-possibly-massive-hack-2000832787",
+    "name": "Gizmodo",
+    "kind": "other",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-29T18:16-04:00"
+   },
+   {
+    "url": "https://x.com/DeItaone/status/2115915902260556021",
+    "name": "X (Walter Bloomberg)",
+    "kind": "social",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-10-29-binance-investigating-hack-suspicious-outflows-5-billion-432171",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-29T17:48-04:00"
+   },
+   {
+    "url": "https://decrypt.co/382191/binance-suspected-hack-5-billion-tether-circle-freeze-crypto",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-29T17:36-04:00"
+   },
+   {
+    "url": "https://techcrunch.com/2026/10/29/binance-pauses-withdrawals-as-hackers-suspected-of-stealing-billions-in-crypto/",
+    "name": "TechCrunch",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-29T18:27-04:00"
+   },
+   {
+    "url": "https://www.coindesk.com/business/2026/10/29/live-updates-bitcoin-clings-to-usd80-000-as-strategy-s-cushion-thins-before-earnings",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-29T19:07-04:00"
+   },
+   {
+    "url": "https://gizmodo.com/binance-investigating-possibly-massive-hack-2000832787",
+    "name": "Gizmodo",
+    "kind": "other",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-29T18:16-04:00"
+   },
+   {
+    "url": "https://x.com/DeItaone/status/2115915902260556021",
+    "name": "X (Walter Bloomberg)",
+    "kind": "social",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "VERIFIED",
+  "verification": {
+   "status": "VERIFIED",
+   "independent_sources": 4,
+   "has_primary": false,
+   "score": 0.8,
+   "reason": "4 independent credible sources confirm it (no primary source yet)",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/markets/2026-10-29-binance-investigating-hack-suspicious-outflows-5-billion-432171",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/382191/binance-suspected-hack-5-billion-tether-circle-freeze-crypto",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/29/binance-pauses-withdrawals-as-hackers-suspected-of-stealing-billions-in-crypto/",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/business/2026/10/29/live-updates-bitcoin-clings-to-usd80-000-as-strategy-s-cushion-thins-before-earnings",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Gizmodo",
+     "url": "https://gizmodo.com/binance-investigating-possibly-massive-hack-2000832787",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "X (Walter Bloomberg)",
+     "url": "https://x.com/DeItaone/status/2115915902260556021",
+     "category": "social",
+     "counts": false,
+     "note": "social/community post — can trigger investigation, never verifies"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed BREAKING: Suspected hack at the largest crypto exchange with billions in confirmed on-chain outflows, withdrawals paused, and stablecoin issuers freezing about $2.4 billion. Loss amount is NOT confirmed by Binance, so no loss_usd metric is given; the withdrawal pause and the outflows/freezes are the verified facts."
+  ],
+  "market_significance": "Largest exchange pauses withdrawals; if confirmed, the biggest crypto hack on record. Hits BNB and market sentiment broadly.",
+  "trigger": "Search: crypto hack exploit Oct 29; on-chain alerts, then Binance statement",
+  "content_created": true,
+  "publication_status": "DRAFTED",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [
+   "6ae3d4d4ba1ca51fd3e4410c",
+   "6ae3d4d54b8768bfb2caea7b",
+   "6ae3d4d656e01b976375f65d"
+  ],
   "needs_followup": false
  }
 ]

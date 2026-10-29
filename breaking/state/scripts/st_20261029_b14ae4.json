@@ -1,0 +1,90 @@
+{
+ "story_id": "st_20261029_b14ae4",
+ "date_label": "OCT 29",
+ "headline": "Binance pauses withdrawals in suspected hack",
+ "sources": [
+  {
+   "name": "The Block",
+   "url": "https://www.theblock.co/news/markets/2026-10-29-binance-investigating-hack-suspicious-outflows-5-billion-432171"
+  },
+  {
+   "name": "Decrypt",
+   "url": "https://decrypt.co/382191/binance-suspected-hack-5-billion-tether-circle-freeze-crypto"
+  },
+  {
+   "name": "TechCrunch",
+   "url": "https://techcrunch.com/2026/10/29/binance-pauses-withdrawals-as-hackers-suspected-of-stealing-billions-in-crypto/"
+  },
+  {
+   "name": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/10/29/live-updates-bitcoin-clings-to-usd80-000-as-strategy-s-cushion-thins-before-earnings"
+  }
+ ],
+ "scenes": [
+  {
+   "beat": "hook",
+   "who": "ledger",
+   "vo": "Binance, the biggest crypto exchange, has paused withdrawals while it investigates a suspected hack. Here's what changed.",
+   "chunks": [
+    "Breaking tonight",
+    "*Withdrawals paused*",
+    "Suspected hack"
+   ]
+  },
+  {
+   "beat": "what_happened",
+   "who": "ledger",
+   "vo": "This afternoon, billions of dollars in crypto moved out of Binance hot wallets to new addresses. Binance says it is investigating a potential security issue, and says user funds are safe.",
+   "chunks": [
+    "Billions moved out",
+    "*From hot wallets*",
+    "Binance: funds safe"
+   ],
+   "stat": {
+    "label": "Sources",
+    "text": "The Block · Decrypt · TechCrunch"
+   }
+  },
+  {
+   "beat": "why_it_matters",
+   "who": "bruno",
+   "vo": "Here's why traders are watching it. Tether and Circle say they froze more than two billion dollars in stablecoins tied to the transfers, which could limit any damage.",
+   "chunks": [
+    "Stablecoins frozen",
+    "*Over two billion*",
+    "Could limit damage"
+   ]
+  },
+  {
+   "beat": "why_it_matters",
+   "who": "ursa",
+   "vo": "The catch. Binance has not confirmed a hack or a loss figure. Estimates run from under two billion to almost six billion. B N B fell about seven percent.",
+   "chunks": [
+    "No confirmed loss yet",
+    "*Estimates vary widely*",
+    "BNB down about 7%"
+   ]
+  },
+  {
+   "beat": "watch_next",
+   "who": "moby",
+   "vo": "Here's what happens next. Watch for Binance's official update, a confirmed loss figure, and when withdrawals reopen.",
+   "chunks": [
+    "Official update",
+    "*Confirmed loss figure*",
+    "Withdrawals reopen?"
+   ]
+  },
+  {
+   "beat": "cta",
+   "who": "all",
+   "vo": "Follow The Candle Desk for crypto news without the hype. Not financial advice.",
+   "chunks": [
+    "Follow The Candle Desk",
+    "*No hype*",
+    "Just the news"
+   ],
+   "foot": "NOT FINANCIAL ADVICE"
+  }
+ ]
+}
