@@ -34986,13 +34986,15 @@
    "https://www.theblock.co/news/regulation/2026-10-27-cftc-sues-utah-battle-over-prediction-market-regulation-intensifies-431922",
    "https://www.theblock.co/news/business/2026-10-29-utah-criminal-charges-kalshi-432104",
    "https://decrypt.co/",
-   "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-29-2026"
+   "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-29-2026",
+   "https://fingfx.thomsonreuters.com/gfx/legaldocs/akpellzyxvr/10282026utah_kalshi.pdf"
   ],
   "source_names": [
    "The Block",
    "The Block",
    "Decrypt",
-   "KuCoin"
+   "KuCoin",
+   "Utah charging document (via Reuters)"
   ],
   "sources": [
    {
@@ -35022,6 +35024,14 @@
     "kind": "other",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://fingfx.thomsonreuters.com/gfx/legaldocs/akpellzyxvr/10282026utah_kalshi.pdf",
+    "name": "Utah charging document (via Reuters)",
+    "kind": "primary",
+    "checked": false,
+    "confirms": true,
+    "origin": "Reuters"
    }
   ],
   "gate_sources": [
@@ -35052,6 +35062,14 @@
     "kind": "other",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://fingfx.thomsonreuters.com/gfx/legaldocs/akpellzyxvr/10282026utah_kalshi.pdf",
+    "name": "Utah charging document (via Reuters)",
+    "kind": "primary",
+    "checked": false,
+    "confirms": true,
+    "origin": "Reuters"
    }
   ],
   "verification_status": "VERIFIED",
@@ -35089,6 +35107,13 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Utah charging document (via Reuters)",
+     "url": "https://fingfx.thomsonreuters.com/gfx/legaldocs/akpellzyxvr/10282026utah_kalshi.pdf",
+     "category": "primary",
+     "counts": false,
+     "note": "primary (claimed official source; domain not on the known list); not opened, so it doesn't count"
     }
    ]
   },
@@ -35144,6 +35169,15 @@
     "new_development": true,
     "level": "NORMAL",
     "sources_added": 0,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-29T16:14-04:00",
+    "headline": "Utah files criminal charges against Kalshi and its CEO and COO over alleged illegal gambling",
+    "summary": "Utah Attorney General Derek Brown filed criminal charges against Kalshi, CEO Tarek Mansour and COO Luana Lopes Lara, alleging illegal online gambling, a day after the CFTC sued Utah over its case against the prediction market.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "VERIFIED"
    }
   ],
@@ -37931,6 +37965,125 @@
   ],
   "market_significance": "Minor cross-chain payments integration.",
   "trigger": "The Block headline",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261029_3a4fe1",
+  "headline": "Polymarket pauses trading after a $2.65 million exploit it blames on a compromised third-party provider",
+  "summary": "Polymarket put its exchange in cancel-only mode and paused relayer actions after a third-party provider was compromised; on-chain trackers tie about $2.65 million in POL to a suspected attacker. Polymarket says it found and fixed the cause and trading is back online.",
+  "detected_at": "2026-10-29T16:14-04:00",
+  "active_since": "2026-10-29T16:14-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "POL"
+  ],
+  "event_type": "hack_exploit",
+  "event_time": "2026-10-29T14:05-04:00",
+  "scheduled_event": false,
+  "metrics": {
+   "loss_usd": 2650000
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/defi/2026-10-29-polymarket-exploit-2-5-million-cancel-only-mode-432158",
+   "https://thedefiant.io/news/hacks/bubblemaps-traces-2-7-million-outflow-from-polymarket-breach",
+   "https://crypto.news/polymarket-restricts-trading-users-report-drained-wallets/"
+  ],
+  "source_names": [
+   "The Block",
+   "The Defiant",
+   "crypto.news"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/defi/2026-10-29-polymarket-exploit-2-5-million-cancel-only-mode-432158",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://thedefiant.io/news/hacks/bubblemaps-traces-2-7-million-outflow-from-polymarket-breach",
+    "name": "The Defiant",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://crypto.news/polymarket-restricts-trading-users-report-drained-wallets/",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/defi/2026-10-29-polymarket-exploit-2-5-million-cancel-only-mode-432158",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://thedefiant.io/news/hacks/bubblemaps-traces-2-7-million-outflow-from-polymarket-breach",
+    "name": "The Defiant",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://crypto.news/polymarket-restricts-trading-users-report-drained-wallets/",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "VERIFIED",
+  "verification": {
+   "status": "VERIFIED",
+   "independent_sources": 2,
+   "has_primary": false,
+   "score": 0.8,
+   "reason": "2 independent credible sources confirm it (no primary source yet)",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/defi/2026-10-29-polymarket-exploit-2-5-million-cancel-only-mode-432158",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "The Defiant",
+     "url": "https://thedefiant.io/news/hacks/bubblemaps-traces-2-7-million-outflow-from-polymarket-breach",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/polymarket-restricts-trading-users-report-drained-wallets/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Confirmed exploit but loss well below the $10M IMPORTANT threshold; brief trading pause.",
+   "hack rule: about $3M lost (thresholds $10M/$100M) -> NORMAL"
+  ],
+  "market_significance": "Largest prediction market; second security incident this year.",
+  "trigger": "The Block latest news",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
