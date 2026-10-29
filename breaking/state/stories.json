@@ -34763,6 +34763,15 @@
     "level": "NORMAL",
     "sources_added": 2,
     "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-28T22:10-04:00",
+    "headline": "Keystone destroys 18,835 unsold wallets after attacker steals its device-authentication key",
+    "summary": "Keystone says an attacker obtained its factory WebAuth key used to verify genuine devices; it will destroy unsold inventory, suspend shipping and move to preorders. Recovery phrases and private keys not involved; devices delivered before Oct 20 unaffected. Warns of fake 'recall' scams.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "VERIFIED"
    }
   ],
   "posts": [],
@@ -35191,7 +35200,9 @@
    "https://coindesk.com/markets/2026/10/28/coinbase-earnings-wall-street-divided-on-trading-rebound-as-robinhood-crypto-revenue-sinks-55",
    "https://abcnews.com/Business/federal-reserve-set-issue-interest-rate-decision-midterm/story?id=137599228",
    "https://www.theblock.co/news/business/2026-10-28-robinhood-earnings-miss-crypto-weakness-wall-street-bullish-outlook-432011",
-   "https://decrypt.co/382004/robinhood-misses-q3-earnings-crypto-prediction-markets"
+   "https://decrypt.co/382004/robinhood-misses-q3-earnings-crypto-prediction-markets",
+   "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+   "https://www.fool.com/coverage/stock-market-today/2026/10/28/crypto-market-today-oct-28-bitcoin-and-altcoins-gain-as-fed-decision-clears-the-way-for-big-tech-earnings/"
   ],
   "source_names": [
    "CoinDesk",
@@ -35201,7 +35212,9 @@
    "CoinDesk",
    "ABC News",
    "The Block",
-   "Decrypt"
+   "Decrypt",
+   "Federal Reserve",
+   "The Motley Fool"
   ],
   "sources": [
    {
@@ -35258,6 +35271,20 @@
     "name": "Decrypt",
     "kind": "secondary",
     "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+    "name": "Federal Reserve",
+    "kind": "primary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.fool.com/coverage/stock-market-today/2026/10/28/crypto-market-today-oct-28-bitcoin-and-altcoins-gain-as-fed-decision-clears-the-way-for-big-tech-earnings/",
+    "name": "The Motley Fool",
+    "kind": "other",
+    "checked": true,
     "confirms": true
    }
   ],
@@ -35317,15 +35344,29 @@
     "kind": "secondary",
     "checked": false,
     "confirms": true
+   },
+   {
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+    "name": "Federal Reserve",
+    "kind": "primary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.fool.com/coverage/stock-market-today/2026/10/28/crypto-market-today-oct-28-bitcoin-and-altcoins-gain-as-fed-decision-clears-the-way-for-big-tech-earnings/",
+    "name": "The Motley Fool",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "VERIFIED",
   "verification": {
    "status": "VERIFIED",
-   "independent_sources": 3,
-   "has_primary": false,
-   "score": 0.8,
-   "reason": "3 independent credible sources confirm it (no primary source yet)",
+   "independent_sources": 4,
+   "has_primary": true,
+   "score": 1.0,
+   "reason": "4 independent credible sources confirm it (incl. a primary source)",
    "sources_checked": [
     {
      "name": "CoinDesk",
@@ -35382,6 +35423,20 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "Federal Reserve",
+     "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+     "category": "primary",
+     "counts": true,
+     "note": "primary (known official domain)"
+    },
+    {
+     "name": "The Motley Fool",
+     "url": "https://www.fool.com/coverage/stock-market-today/2026/10/28/crypto-market-today-oct-28-bitcoin-and-altcoins-gain-as-fed-decision-clears-the-way-for-big-tech-earnings/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -35452,6 +35507,24 @@
     "at": "2026-10-28T19:09-04:00",
     "headline": "Robinhood misses third-quarter estimates as crypto revenue drops; shares fall",
     "summary": "Robinhood missed third-quarter earnings estimates, with crypto revenue down sharply, and shares fell about 6% premarket. Analysts largely kept bullish outlooks.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-28T22:10-04:00",
+    "headline": "Fed holds rates at 3.75% to 4%; two officials dissent in favor of a hike",
+    "summary": "The FOMC kept the federal funds target range at 3.75 to 4 percent in a 10-2 vote; Lisa Cook and Beth Hammack wanted a quarter-point hike. The statement says inflation remains elevated. Bitcoin held near $80,000 to $81,000; BTC, ETH, XRP and SOL moved roughly 1-2% over 24 hours.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-28T22:10-04:00",
+    "headline": "Strategy shareholders back moving STRC and other preferreds to daily dividends",
+    "summary": "Preliminary results show about 99.3% of votes favored switching Strategy's preferred stocks, including STRC, to daily dividends.",
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
