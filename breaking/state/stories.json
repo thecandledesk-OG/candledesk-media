@@ -35136,6 +35136,15 @@
     "level": "NORMAL",
     "sources_added": 0,
     "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-29T13:13-04:00",
+    "headline": "Utah files criminal charges against Kalshi and its top executives over alleged illegal gambling",
+    "summary": "Utah's attorney general charged Kalshi, CEO Tarek Mansour and COO Luana Lopes Lara, alleging illegal promotion of online gambling, two days after the CFTC sued Utah over its case against the prediction market.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "VERIFIED"
    }
   ],
   "posts": [],
@@ -37371,7 +37380,17 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-29T13:13-04:00",
+    "headline": "Bitcoin holds near $80,000 the day after the Fed hold; ether and XRP down about 2-3%",
+    "summary": "Bitcoin traded near $79,700, down about 1.4% in 24 hours; ether near $2,300, down about 2%; XRP near $1.29, down about 3%.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -37624,6 +37643,294 @@
   ],
   "market_significance": "Small setback for a privacy-coin ETP in Europe.",
   "trigger": "BitDigest newsletter",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261029_8abb4c",
+  "headline": "NYSE owner ICE signs deal with Trade[XYZ] to bring Hyperliquid-based perpetual futures to U.S. users, pending approvals; HYPE jumps about 15%",
+  "summary": "Intercontinental Exchange signed a definitive agreement with Trade[XYZ] to operate a new U.S. retail market and clearing structure for Hyperliquid-based perpetual futures on crypto, equities, commodities and FX, and is taking a minority stake. Launch needs regulatory (CFTC) approvals; no timeline given. HYPE rose roughly 15-19% on the news.",
+  "detected_at": "2026-10-29T13:13-04:00",
+  "active_since": "2026-10-29T13:13-04:00",
+  "classification": "IMPORTANT",
+  "proposed_level": "IMPORTANT",
+  "confidence": 0.92,
+  "assets": [
+   "HYPE"
+  ],
+  "event_type": "institutional",
+  "event_time": "2026-10-29T07:25-04:00",
+  "scheduled_event": false,
+  "metrics": {
+   "pct_move_24h": 15
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://ir.theice.com/press/news-details/2026/Intercontinental-Exchange-and-TradeXYZ-to-Bring-Hyperliquid-Based-Perpetual-Markets-Onshore/default.aspx",
+   "https://finance.yahoo.com/markets/crypto/articles/intercontinental-exchange-trade-xyz-bring-112500120.html",
+   "https://www.coindesk.com/markets/2026/10/29/nyse-owner-takes-steps-to-bring-hyperliquid-perpetual-futures-to-u-s",
+   "https://www.theblock.co/news/business/2026-10-29-ice-tradexyz-hyperliquid-perpetual-futures-us-432132"
+  ],
+  "source_names": [
+   "ICE",
+   "Business Wire via Yahoo Finance",
+   "CoinDesk",
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://ir.theice.com/press/news-details/2026/Intercontinental-Exchange-and-TradeXYZ-to-Bring-Hyperliquid-Based-Perpetual-Markets-Onshore/default.aspx",
+    "name": "ICE",
+    "kind": "primary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://finance.yahoo.com/markets/crypto/articles/intercontinental-exchange-trade-xyz-bring-112500120.html",
+    "name": "Business Wire via Yahoo Finance",
+    "kind": "primary",
+    "checked": true,
+    "confirms": true,
+    "origin": "ICE press release"
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/29/nyse-owner-takes-steps-to-bring-hyperliquid-perpetual-futures-to-u-s",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-29-ice-tradexyz-hyperliquid-perpetual-futures-us-432132",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://ir.theice.com/press/news-details/2026/Intercontinental-Exchange-and-TradeXYZ-to-Bring-Hyperliquid-Based-Perpetual-Markets-Onshore/default.aspx",
+    "name": "ICE",
+    "kind": "primary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://finance.yahoo.com/markets/crypto/articles/intercontinental-exchange-trade-xyz-bring-112500120.html",
+    "name": "Business Wire via Yahoo Finance",
+    "kind": "primary",
+    "checked": true,
+    "confirms": true,
+    "origin": "ICE press release"
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/29/nyse-owner-takes-steps-to-bring-hyperliquid-perpetual-futures-to-u-s",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-29-ice-tradexyz-hyperliquid-perpetual-futures-us-432132",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "VERIFIED",
+  "verification": {
+   "status": "VERIFIED",
+   "independent_sources": 4,
+   "has_primary": true,
+   "score": 1.0,
+   "reason": "4 independent credible sources confirm it (incl. a primary source)",
+   "sources_checked": [
+    {
+     "name": "ICE",
+     "url": "https://ir.theice.com/press/news-details/2026/Intercontinental-Exchange-and-TradeXYZ-to-Bring-Hyperliquid-Based-Perpetual-Markets-Onshore/default.aspx",
+     "category": "primary",
+     "counts": true,
+     "note": "primary (claimed official source; domain not on the known list)"
+    },
+    {
+     "name": "Business Wire via Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/crypto/articles/intercontinental-exchange-trade-xyz-bring-112500120.html",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/10/29/nyse-owner-takes-steps-to-bring-hyperliquid-perpetual-futures-to-u-s",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-10-29-ice-tradexyz-hyperliquid-perpetual-futures-us-432132",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed IMPORTANT: Primary ICE press release plus CoinDesk and The Block confirm the definitive agreement and strategic investment."
+  ],
+  "market_significance": "The NYSE parent plans to run a regulated U.S. venue built on a DeFi protocol's tech, a major step for onchain perpetuals entering U.S. markets.",
+  "trigger": "ICE / Business Wire press release Oct 29, 4:25 AM PT",
+  "content_created": true,
+  "publication_status": "DRAFTED",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [
+   "6ae38028ae648e2953edbeb2",
+   "6ae38029a23f0986fe0747b7",
+   "6ae3802a313060a14e1da0f9"
+  ],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261029_64ae5e",
+  "headline": "Uniswap Labs opens its TJAR fee conversion tool to apps, starting with Robinhood",
+  "summary": "Uniswap Labs is opening its Token Jar fee conversion tool to third-party apps, with Robinhood as the first.",
+  "detected_at": "2026-10-29T13:13-04:00",
+  "active_since": "2026-10-29T13:13-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "UNI"
+  ],
+  "event_type": "partnership",
+  "event_time": "2026-10-29T10:34-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/defi/2026-10-29-uniswap-token-jar-tjar-robinhood-432131"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/defi/2026-10-29-uniswap-token-jar-tjar-robinhood-432131",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/defi/2026-10-29-uniswap-token-jar-tjar-robinhood-432131",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/defi/2026-10-29-uniswap-token-jar-tjar-robinhood-432131",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Product/integration news."
+  ],
+  "market_significance": "Minor DeFi integration.",
+  "trigger": "The Block headline",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261029_ac01dd",
+  "headline": "Polygon adds Solana to its payment stack",
+  "summary": "Polygon said its payments stack now supports Solana.",
+  "detected_at": "2026-10-29T13:13-04:00",
+  "active_since": "2026-10-29T13:13-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "SOL",
+   "POL"
+  ],
+  "event_type": "partnership",
+  "event_time": "2026-10-29T09:00-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/defi/2026-10-29-polygon-adds-solana-payment-stack-432115"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/defi/2026-10-29-polygon-adds-solana-payment-stack-432115",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/defi/2026-10-29-polygon-adds-solana-payment-stack-432115",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/defi/2026-10-29-polygon-adds-solana-payment-stack-432115",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Routine integration."
+  ],
+  "market_significance": "Minor cross-chain payments integration.",
+  "trigger": "The Block headline",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],

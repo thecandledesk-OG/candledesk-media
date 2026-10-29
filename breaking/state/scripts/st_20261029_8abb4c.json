@@ -1,0 +1,86 @@
+{
+ "story_id": "st_20261029_8abb4c",
+ "date_label": "OCT 29",
+ "headline": "NYSE owner plans U.S. Hyperliquid perps",
+ "sources": [
+  {
+   "name": "ICE",
+   "url": "https://ir.theice.com/press/news-details/2026/Intercontinental-Exchange-and-TradeXYZ-to-Bring-Hyperliquid-Based-Perpetual-Markets-Onshore/default.aspx"
+  },
+  {
+   "name": "CoinDesk",
+   "url": "https://www.coindesk.com/markets/2026/10/29/nyse-owner-takes-steps-to-bring-hyperliquid-perpetual-futures-to-u-s"
+  },
+  {
+   "name": "The Block",
+   "url": "https://www.theblock.co/news/business/2026-10-29-ice-tradexyz-hyperliquid-perpetual-futures-us-432132"
+  }
+ ],
+ "scenes": [
+  {
+   "beat": "hook",
+   "who": "ledger",
+   "vo": "The company that owns the New York Stock Exchange wants to bring Hyper Liquid style perpetual futures to American traders. Here's what changed.",
+   "chunks": [
+    "Wall Street meets DeFi",
+    "*NYSE owner signs deal*",
+    "Perps for the U.S."
+   ]
+  },
+  {
+   "beat": "what_happened",
+   "who": "ledger",
+   "vo": "Intercontinental Exchange signed a deal with Trade X Y Z, a big market builder on Hyper Liquid. It plans a regulated U.S. venue for perpetual futures on crypto, stocks and commodities, and it's taking a minority stake.",
+   "chunks": [
+    "Deal with Trade XYZ",
+    "*Regulated U.S. venue*",
+    "Plus a minority stake"
+   ],
+   "stat": {
+    "label": "Sources",
+    "text": "ICE \u00b7 CoinDesk \u00b7 The Block"
+   }
+  },
+  {
+   "beat": "why_it_matters",
+   "who": "bruno",
+   "vo": "Here's why traders are watching it. These markets have mostly been off limits to Americans. The hype token jumped about fifteen percent on the news.",
+   "chunks": [
+    "Mostly offshore so far",
+    "*HYPE up about 15%*",
+    "Big name backing"
+   ]
+  },
+  {
+   "beat": "why_it_matters",
+   "who": "ursa",
+   "vo": "The catch. Nothing is live yet. The plan still needs regulatory approvals, including for leveraged trading, and there's no timeline.",
+   "chunks": [
+    "Not live yet",
+    "*Approvals still needed*",
+    "No launch date"
+   ]
+  },
+  {
+   "beat": "watch_next",
+   "who": "moby",
+   "vo": "Here's what happens next. Watch for CFTC filings, and for which brokers will offer access.",
+   "chunks": [
+    "CFTC filings",
+    "*Which brokers join*",
+    "Who can trade"
+   ]
+  },
+  {
+   "beat": "cta",
+   "who": "all",
+   "vo": "Follow The Candle Desk for crypto news without the hype. Not financial advice.",
+   "chunks": [
+    "Follow The Candle Desk",
+    "*No hype*",
+    "Just the news"
+   ],
+   "foot": "NOT FINANCIAL ADVICE"
+  }
+ ]
+}
