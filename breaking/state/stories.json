@@ -34983,9 +34983,11 @@
   "metrics": {},
   "emergency": false,
   "source_urls": [
-   "https://www.theblock.co/news/regulation/2026-10-27-cftc-sues-utah-battle-over-prediction-market-regulation-intensifies-431922"
+   "https://www.theblock.co/news/regulation/2026-10-27-cftc-sues-utah-battle-over-prediction-market-regulation-intensifies-431922",
+   "https://www.theblock.co/news/business/2026-10-29-utah-criminal-charges-kalshi-432104"
   ],
   "source_names": [
+   "The Block",
    "The Block"
   ],
   "sources": [
@@ -34995,11 +34997,25 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-29-utah-criminal-charges-kalshi-432104",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "gate_sources": [
    {
     "url": "https://www.theblock.co/news/regulation/2026-10-27-cftc-sues-utah-battle-over-prediction-market-regulation-intensifies-431922",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-29-utah-criminal-charges-kalshi-432104",
     "name": "The Block",
     "kind": "secondary",
     "checked": true,
@@ -35020,6 +35036,13 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-10-29-utah-criminal-charges-kalshi-432104",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -35031,7 +35054,17 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-29T07:17-04:00",
+    "headline": "Utah files criminal charges against Kalshi and two executives over alleged illegal gambling",
+    "summary": "Utah Attorney General Derek Brown filed criminal charges on October 28 against prediction market Kalshi, CEO Tarek Mansour and COO Luana Lopes Lara, a day after the CFTC sued Utah over jurisdiction.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -35202,7 +35235,8 @@
    "https://www.theblock.co/news/business/2026-10-28-robinhood-earnings-miss-crypto-weakness-wall-street-bullish-outlook-432011",
    "https://decrypt.co/382004/robinhood-misses-q3-earnings-crypto-prediction-markets",
    "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
-   "https://www.fool.com/coverage/stock-market-today/2026/10/28/crypto-market-today-oct-28-bitcoin-and-altcoins-gain-as-fed-decision-clears-the-way-for-big-tech-earnings/"
+   "https://www.fool.com/coverage/stock-market-today/2026/10/28/crypto-market-today-oct-28-bitcoin-and-altcoins-gain-as-fed-decision-clears-the-way-for-big-tech-earnings/",
+   "https://crypto.news/bitcoin-fed-holds-rates-october-2026/"
   ],
   "source_names": [
    "CoinDesk",
@@ -35214,7 +35248,8 @@
    "The Block",
    "Decrypt",
    "Federal Reserve",
-   "The Motley Fool"
+   "The Motley Fool",
+   "crypto.news"
   ],
   "sources": [
    {
@@ -35284,6 +35319,13 @@
     "url": "https://www.fool.com/coverage/stock-market-today/2026/10/28/crypto-market-today-oct-28-bitcoin-and-altcoins-gain-as-fed-decision-clears-the-way-for-big-tech-earnings/",
     "name": "The Motley Fool",
     "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://crypto.news/bitcoin-fed-holds-rates-october-2026/",
+    "name": "crypto.news",
+    "kind": "secondary",
     "checked": true,
     "confirms": true
    }
@@ -35356,6 +35398,13 @@
     "url": "https://www.fool.com/coverage/stock-market-today/2026/10/28/crypto-market-today-oct-28-bitcoin-and-altcoins-gain-as-fed-decision-clears-the-way-for-big-tech-earnings/",
     "name": "The Motley Fool",
     "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://crypto.news/bitcoin-fed-holds-rates-october-2026/",
+    "name": "crypto.news",
+    "kind": "secondary",
     "checked": true,
     "confirms": true
    }
@@ -35434,6 +35483,13 @@
     {
      "name": "The Motley Fool",
      "url": "https://www.fool.com/coverage/stock-market-today/2026/10/28/crypto-market-today-oct-28-bitcoin-and-altcoins-gain-as-fed-decision-clears-the-way-for-big-tech-earnings/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/bitcoin-fed-holds-rates-october-2026/",
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
@@ -35528,6 +35584,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-29T07:17-04:00",
+    "headline": "Fed holds rates at 3.75% to 4% in a 10-2 vote; two officials wanted another hike",
+    "summary": "The Federal Reserve left its benchmark rate unchanged on October 28 after September's hike. Lisa Cook and Beth Hammack dissented in favor of a further quarter-point increase. Bitcoin hovered near $80,000-$80,800 and gave back a small gain.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "VERIFIED"
    }
   ],
@@ -36955,6 +37020,175 @@
   ],
   "market_significance": "Possible change to Zcash development funding",
   "trigger": "proposal",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261029_fdd565",
+  "headline": "Curve Finance launches StableSwap on Stellar, its first native deployment outside EVM chains",
+  "summary": "Curve and the Stellar Development Foundation launched Curve's StableSwap on Stellar mainnet on October 29, letting users create pools, swap and provide liquidity. FXSwap is planned after an audit.",
+  "detected_at": "2026-10-29T07:17-04:00",
+  "active_since": "2026-10-29T07:17-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "XLM"
+  ],
+  "event_type": "partnership",
+  "event_time": "2026-10-29T07:00-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/defi/2026-10-29-curve-finance-stellar-432121"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/defi/2026-10-29-curve-finance-stellar-432121",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/defi/2026-10-29-curve-finance-stellar-432121",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/defi/2026-10-29-curve-finance-stellar-432121",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: DeFi expansion, single source so far; routine."
+  ],
+  "market_significance": "Adds stablecoin liquidity tooling to Stellar's tokenization push.",
+  "trigger": "Launch announcement",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261029_75ee05",
+  "headline": "Crypto slips after Fed hold: bitcoin near $80,000, XRP down about 3%",
+  "summary": "Bitcoin fell about 1% to roughly $80,000 after the Fed decision; ether about -2% near $2,300, XRP about -3% near $1.30, SOL about -1.8%. Total market cap about $2.8 trillion.",
+  "detected_at": "2026-10-29T07:17-04:00",
+  "active_since": "2026-10-29T07:17-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.75,
+  "assets": [
+   "BTC",
+   "ETH",
+   "XRP",
+   "SOL"
+  ],
+  "event_type": "market_move",
+  "event_time": "2026-10-29T06:00-04:00",
+  "scheduled_event": false,
+  "metrics": {
+   "pct_move_24h": -3.0
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://www.analyticsinsight.net/price-analysis/crypto-prices-today-bitcoin-slips-near-usd-80361-as-fed-hold-keeps-hike-fears-alive",
+   "https://bravenewcoin.com/insights/crypto-news-today-btc-eth-xrp-slide-after-fed-decision-keeps-rates-unchanged"
+  ],
+  "source_names": [
+   "Analytics Insight",
+   "Brave New Coin"
+  ],
+  "sources": [
+   {
+    "url": "https://www.analyticsinsight.net/price-analysis/crypto-prices-today-bitcoin-slips-near-usd-80361-as-fed-hold-keeps-hike-fears-alive",
+    "name": "Analytics Insight",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://bravenewcoin.com/insights/crypto-news-today-btc-eth-xrp-slide-after-fed-decision-keeps-rates-unchanged",
+    "name": "Brave New Coin",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.analyticsinsight.net/price-analysis/crypto-prices-today-bitcoin-slips-near-usd-80361-as-fed-hold-keeps-hike-fears-alive",
+    "name": "Analytics Insight",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://bravenewcoin.com/insights/crypto-news-today-btc-eth-xrp-slide-after-fed-decision-keeps-rates-unchanged",
+    "name": "Brave New Coin",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Analytics Insight",
+     "url": "https://www.analyticsinsight.net/price-analysis/crypto-prices-today-bitcoin-slips-near-usd-80361-as-fed-hold-keeps-hike-fears-alive",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Brave New Coin",
+     "url": "https://bravenewcoin.com/insights/crypto-news-today-btc-eth-xrp-slide-after-fed-decision-keeps-rates-unchanged",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: All moves far below thresholds.",
+   "price rule: BTC moved 3.0% in 24h (thresholds 7%/12%) -> NORMAL"
+  ],
+  "market_significance": "Quiet post-Fed drift.",
+  "trigger": "Price check",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
