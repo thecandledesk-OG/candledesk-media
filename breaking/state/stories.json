@@ -37141,7 +37141,9 @@
    "https://sg.finance.yahoo.com/news/coinbase-shares-rise-q3-earnings-205555031.html",
    "https://www.coindesk.com/business/2026/10/29/live-updates-bitcoin-clings-to-usd80-000-as-strategy-s-cushion-thins-before-earnings",
    "https://decrypt.co/382191/binance-suspected-hack-5-billion-tether-circle-freeze-crypto",
-   "https://decrypt.co/382188/coinbase-beats-719-million-q3-profit-crypto-gains"
+   "https://decrypt.co/382188/coinbase-beats-719-million-q3-profit-crypto-gains",
+   "https://www.coindesk.com/markets/2026/10/30/live-news-binance-hack-rattles-crypto-as-intel-plunges-and-ai-spending-fears-hit-tech",
+   "https://www.kucoin.com/news/flash/coinbase-q3-2026-revenue-falls-short-of-expectations-profits-driven-by-bitcoin-gains"
   ],
   "source_names": [
    "CoinDesk",
@@ -37149,7 +37151,9 @@
    "Investing.com via Yahoo Finance",
    "CoinDesk",
    "Decrypt",
-   "Decrypt"
+   "Decrypt",
+   "CoinDesk live",
+   "KuCoin News"
   ],
   "sources": [
    {
@@ -37192,6 +37196,20 @@
     "url": "https://decrypt.co/382188/coinbase-beats-719-million-q3-profit-crypto-gains",
     "name": "Decrypt",
     "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/30/live-news-binance-hack-rattles-crypto-as-intel-plunges-and-ai-spending-fears-hit-tech",
+    "name": "CoinDesk live",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.kucoin.com/news/flash/coinbase-q3-2026-revenue-falls-short-of-expectations-profits-driven-by-bitcoin-gains",
+    "name": "KuCoin News",
+    "kind": "other",
     "checked": false,
     "confirms": true
    }
@@ -37237,6 +37255,20 @@
     "url": "https://decrypt.co/382188/coinbase-beats-719-million-q3-profit-crypto-gains",
     "name": "Decrypt",
     "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/30/live-news-binance-hack-rattles-crypto-as-intel-plunges-and-ai-spending-fears-hit-tech",
+    "name": "CoinDesk live",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.kucoin.com/news/flash/coinbase-q3-2026-revenue-falls-short-of-expectations-profits-driven-by-bitcoin-gains",
+    "name": "KuCoin News",
+    "kind": "other",
     "checked": false,
     "confirms": true
    }
@@ -37290,6 +37322,20 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "CoinDesk live",
+     "url": "https://www.coindesk.com/markets/2026/10/30/live-news-binance-hack-rattles-crypto-as-intel-plunges-and-ai-spending-fears-hit-tech",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "KuCoin News",
+     "url": "https://www.kucoin.com/news/flash/coinbase-q3-2026-revenue-falls-short-of-expectations-profits-driven-by-bitcoin-gains",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -37327,6 +37373,24 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-30T10:17-04:00",
+    "headline": "Coinbase stock falls about 12% after weaker third-quarter results",
+    "summary": "Coinbase reported third-quarter results Thursday after the close; revenue fell sharply from a year ago and profit leaned on crypto valuation gains. COIN was down about 12% at Friday's open.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-30T10:17-04:00",
+    "headline": "Strategy CFO Andrew Kang resigns; MSTR falls about 11%",
+    "summary": "Strategy's CFO Andrew Kang is resigning as the company posts a record operating profit; MSTR shares fell about 11% at Friday's open.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
     "verification": "VERIFIED"
    }
   ],
@@ -37600,15 +37664,24 @@
   "metrics": {},
   "emergency": false,
   "source_urls": [
-   "https://crypto.news/ethereum-price-falls-etf-outflows-october-29-2026"
+   "https://crypto.news/ethereum-price-falls-etf-outflows-october-29-2026",
+   "https://financefeeds.com/us-crypto-etfs-record-116-million-in-net-outflows-as-ethereum-withdrawals-hit-105-5-million/"
   ],
   "source_names": [
-   "crypto.news"
+   "crypto.news",
+   "FinanceFeeds"
   ],
   "sources": [
    {
     "url": "https://crypto.news/ethereum-price-falls-etf-outflows-october-29-2026",
     "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://financefeeds.com/us-crypto-etfs-record-116-million-in-net-outflows-as-ethereum-withdrawals-hit-105-5-million/",
+    "name": "FinanceFeeds",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -37618,6 +37691,13 @@
    {
     "url": "https://crypto.news/ethereum-price-falls-etf-outflows-october-29-2026",
     "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://financefeeds.com/us-crypto-etfs-record-116-million-in-net-outflows-as-ethereum-withdrawals-hit-105-5-million/",
+    "name": "FinanceFeeds",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -37637,6 +37717,13 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "FinanceFeeds",
+     "url": "https://financefeeds.com/us-crypto-etfs-record-116-million-in-net-outflows-as-ethereum-withdrawals-hit-105-5-million/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -37648,7 +37735,17 @@
   "content_created": false,
   "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-30T10:09-04:00",
+    "headline": "Spot ether ETFs lose $105.5 million Thursday while bitcoin ETFs add $17.2 million",
+    "summary": "Psst... ether ETFs bled one hundred five million Thursday, while bitcoin ETFs added seventeen million.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -38239,7 +38336,7 @@
   "market_significance": "Largest prediction market; second security incident this year.",
   "trigger": "The Block latest news",
   "content_created": false,
-  "publication_status": "QUEUED_FOR_DAILY",
+  "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
   "updates": [
    {
@@ -38247,6 +38344,15 @@
     "headline": "Polymarket resumes trading after the $2.65 million exploit",
     "summary": "Polymarket has resumed trading after pausing over a $2.65 million exploit it blamed on a compromised third-party provider.",
     "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-30T10:09-04:00",
+    "headline": "Polymarket pauses trading after a $2.65 million exploit",
+    "summary": "Even Polymarket got hit, pausing trades after a two point six five million dollar exploit.",
+    "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
     "verification": "VERIFIED"
@@ -38296,7 +38402,11 @@
    "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/",
    "https://finance.yahoo.com/markets/crypto/articles/crypto-platform-binance-confirms-major-013059975.html",
    "https://www.bloomberg.com/news/newsletters/2026-10-30/crypto-s-biggest-ever-heist-hits-binance-in-6-3-billion-hack",
-   "https://www.cnbc.com/2026/10/29/circle-tether-freeze-funds-impacted-by-potential-binance-security-issue.html"
+   "https://www.cnbc.com/2026/10/29/circle-tether-freeze-funds-impacted-by-potential-binance-security-issue.html",
+   "https://www.coindesk.com/business/2026/10/30/binance-arranges-usd6-34-billion-to-cover-losses-from-record-crypto-hack",
+   "https://www.theblock.co/news/ecosystems/2026-10-30-binance-says-it-has-6-34-billion-ready-to-cover-hack-losses-432208",
+   "https://www.coindesk.com/markets/2026/10/30/live-news-binance-hack-rattles-crypto-as-intel-plunges-and-ai-spending-fears-hit-tech",
+   "https://x.com/binance/status/2116121748555153621"
   ],
   "source_names": [
    "The Block",
@@ -38318,7 +38428,11 @@
    "BleepingComputer",
    "AFP via Yahoo Finance",
    "Bloomberg",
-   "CNBC"
+   "CNBC",
+   "CoinDesk",
+   "The Block",
+   "CoinDesk live",
+   "Binance on X"
   ],
   "sources": [
    {
@@ -38474,6 +38588,37 @@
     "kind": "secondary",
     "checked": false,
     "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/business/2026/10/30/binance-arranges-usd6-34-billion-to-cover-losses-from-record-crypto-hack",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-30T08:13-04:00"
+   },
+   {
+    "url": "https://www.theblock.co/news/ecosystems/2026-10-30-binance-says-it-has-6-34-billion-ready-to-cover-hack-losses-432208",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-30T09:14-04:00"
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/30/live-news-binance-hack-rattles-crypto-as-intel-plunges-and-ai-spending-fears-hit-tech",
+    "name": "CoinDesk live",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-30T05:57-04:00"
+   },
+   {
+    "url": "https://x.com/binance/status/2116121748555153621",
+    "name": "Binance on X",
+    "kind": "social",
+    "checked": false,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -38545,15 +38690,46 @@
     "kind": "secondary",
     "checked": false,
     "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/business/2026/10/30/binance-arranges-usd6-34-billion-to-cover-losses-from-record-crypto-hack",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-30T08:13-04:00"
+   },
+   {
+    "url": "https://www.theblock.co/news/ecosystems/2026-10-30-binance-says-it-has-6-34-billion-ready-to-cover-hack-losses-432208",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-30T09:14-04:00"
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/30/live-news-binance-hack-rattles-crypto-as-intel-plunges-and-ai-spending-fears-hit-tech",
+    "name": "CoinDesk live",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-30T05:57-04:00"
+   },
+   {
+    "url": "https://x.com/binance/status/2116121748555153621",
+    "name": "Binance on X",
+    "kind": "social",
+    "checked": false,
+    "confirms": true
    }
   ],
   "verification_status": "VERIFIED",
   "verification": {
    "status": "VERIFIED",
-   "independent_sources": 2,
+   "independent_sources": 3,
    "has_primary": false,
    "score": 0.8,
-   "reason": "2 independent credible sources confirm it (no primary source yet)",
+   "reason": "3 independent credible sources confirm it (no primary source yet)",
    "sources_checked": [
     {
      "name": "CoinDesk",
@@ -38617,6 +38793,34 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/business/2026/10/30/binance-arranges-usd6-34-billion-to-cover-losses-from-record-crypto-hack",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/ecosystems/2026-10-30-binance-says-it-has-6-34-billion-ready-to-cover-hack-losses-432208",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk live",
+     "url": "https://www.coindesk.com/markets/2026/10/30/live-news-binance-hack-rattles-crypto-as-intel-plunges-and-ai-spending-fears-hit-tech",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Binance on X",
+     "url": "https://x.com/binance/status/2116121748555153621",
+     "category": "social",
+     "counts": false,
+     "note": "social/community post — can trigger investigation, never verifies"
     }
    ]
   },
@@ -38645,6 +38849,15 @@
     "new_development": true,
     "level": "BREAKING",
     "sources_added": 8,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-30T10:17-04:00",
+    "headline": "Binance sets aside $6.34 billion to cover hack losses and finds more breach points beyond the first laptop",
+    "summary": "Binance says it has allocated about $6.34 billion of its own funds and reserves to restore affected balances one-for-one, with about $5 billion already held in the affected assets and the rest being bought on the market and over the counter. Separately, its investigation found additional breach points beyond the compromised engineer laptop; unauthorized outflows stopped after withdrawals were suspended, and it says it is on track to resume service in about 45 hours. Withdrawals remain paused; deposits are open. About $3 billion is frozen.",
+    "new_development": true,
+    "level": "IMPORTANT",
+    "sources_added": 4,
     "verification": "VERIFIED"
    }
   ],
@@ -38822,16 +39035,35 @@
   },
   "emergency": false,
   "source_urls": [
-   "https://www.coindesk.com/markets/2026/10/30/crypto-liquidations-jump-to-usd1-57-billion-as-binance-hack-sends-bitcoin-ether-lower"
+   "https://www.coindesk.com/markets/2026/10/30/crypto-liquidations-jump-to-usd1-57-billion-as-binance-hack-sends-bitcoin-ether-lower",
+   "https://www.coindesk.com/markets/2026/10/30/usd6-billion-binance-hack-sends-bitcoin-ether-tumbling-standard-chartered-sees-more-losses-ahead",
+   "https://trendingtopics.eu/binance-hack-bitcoin-76650-dollars-crypto-market"
   ],
   "source_names": [
-   "CoinDesk"
+   "CoinDesk",
+   "CoinDesk",
+   "Trending Topics"
   ],
   "sources": [
    {
     "url": "https://www.coindesk.com/markets/2026/10/30/crypto-liquidations-jump-to-usd1-57-billion-as-binance-hack-sends-bitcoin-ether-lower",
     "name": "CoinDesk",
     "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/30/usd6-billion-binance-hack-sends-bitcoin-ether-tumbling-standard-chartered-sees-more-losses-ahead",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-30T00:00-04:00"
+   },
+   {
+    "url": "https://trendingtopics.eu/binance-hack-bitcoin-76650-dollars-crypto-market",
+    "name": "Trending Topics",
+    "kind": "other",
     "checked": true,
     "confirms": true
    }
@@ -38841,6 +39073,21 @@
     "url": "https://www.coindesk.com/markets/2026/10/30/crypto-liquidations-jump-to-usd1-57-billion-as-binance-hack-sends-bitcoin-ether-lower",
     "name": "CoinDesk",
     "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/30/usd6-billion-binance-hack-sends-bitcoin-ether-tumbling-standard-chartered-sees-more-losses-ahead",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-30T00:00-04:00"
+   },
+   {
+    "url": "https://trendingtopics.eu/binance-hack-bitcoin-76650-dollars-crypto-market",
+    "name": "Trending Topics",
+    "kind": "other",
     "checked": true,
     "confirms": true
    }
@@ -38859,6 +39106,20 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/10/30/usd6-billion-binance-hack-sends-bitcoin-ether-tumbling-standard-chartered-sees-more-losses-ahead",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Trending Topics",
+     "url": "https://trendingtopics.eu/binance-hack-bitcoin-76650-dollars-crypto-market",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -38870,6 +39131,272 @@
   "trigger": "CoinDesk markets",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [
+   {
+    "at": "2026-10-30T10:17-04:00",
+    "headline": "Crypto selloff deepens: bitcoin near $76,700, ether and XRP down about 5%, solana down about 7%",
+    "summary": "Per CoinDesk tickers on Oct 30 morning, BTC about $76,700 (-5.4% 24h), ETH about $2,215 (-5.4%), XRP $1.23 (-5.5%), SOL about $94 (-7.2%). Standard Chartered's Geoffrey Kendrick says the negative price action may have further to go until frozen hack funds are released.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "UNVERIFIED"
+   }
+  ],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261030_c6eb0d",
+  "headline": "Hackers hit Binance for about $6.3 billion",
+  "summary": "Here's what moved the chain today. Hackers hit Binance for six point three billion dollars.",
+  "detected_at": "2026-10-30T10:09-04:00",
+  "active_since": "2026-10-30T10:09-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "BNB",
+   "TOTAL_MARKET"
+  ],
+  "event_type": "hack_exploit",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/markets/2026/10/30/bitcoin-ether-and-xrp-selloff-wipes-out-usd1-5-billion-in-leveraged-crypto-bets",
+   "https://fxnewsgroup.com/forex-news/cryptocurrency/binance-6-3b-north-korea-hack-withdrawals-paused-48-hours-bitcoin-falls/",
+   "https://www.coingabbar.com/en/crypto-news-today-bitcoin-ethereum-price-falls-binance-hacked",
+   "https://cryptoticker.io/en/bitcoin-price-monthly-close-six-week-low/"
+  ],
+  "source_names": [
+   "CoinDesk",
+   "FX News Group",
+   "CoinGabbar",
+   "CryptoTicker"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/30/bitcoin-ether-and-xrp-selloff-wipes-out-usd1-5-billion-in-leveraged-crypto-bets",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://fxnewsgroup.com/forex-news/cryptocurrency/binance-6-3b-north-korea-hack-withdrawals-paused-48-hours-bitcoin-falls/",
+    "name": "FX News Group",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coingabbar.com/en/crypto-news-today-bitcoin-ethereum-price-falls-binance-hacked",
+    "name": "CoinGabbar",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptoticker.io/en/bitcoin-price-monthly-close-six-week-low/",
+    "name": "CryptoTicker",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/30/bitcoin-ether-and-xrp-selloff-wipes-out-usd1-5-billion-in-leveraged-crypto-bets",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://fxnewsgroup.com/forex-news/cryptocurrency/binance-6-3b-north-korea-hack-withdrawals-paused-48-hours-bitcoin-falls/",
+    "name": "FX News Group",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coingabbar.com/en/crypto-news-today-bitcoin-ethereum-price-falls-binance-hacked",
+    "name": "CoinGabbar",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptoticker.io/en/bitcoin-price-monthly-close-six-week-low/",
+    "name": "CryptoTicker",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/10/30/bitcoin-ether-and-xrp-selloff-wipes-out-usd1-5-billion-in-leveraged-crypto-bets",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "FX News Group",
+     "url": "https://fxnewsgroup.com/forex-news/cryptocurrency/binance-6-3b-north-korea-hack-withdrawals-paused-48-hours-bitcoin-falls/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinGabbar",
+     "url": "https://www.coingabbar.com/en/crypto-news-today-bitcoin-ethereum-price-falls-binance-hacked",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CryptoTicker",
+     "url": "https://cryptoticker.io/en/bitcoin-price-monthly-close-six-week-low/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [
+   {
+    "at": "2026-10-30T10:09-04:00",
+    "headline": "About $3 billion of Binance hack funds frozen; Binance pledges to cover losses",
+    "summary": "Green candles only! Three billion is already frozen, and Binance pledges to cover every loss.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-30T10:09-04:00",
+    "headline": "Binance withdrawals paused as $1.5 billion in crypto longs are liquidated",
+    "summary": "Check the yields first. Withdrawals are paused, and one point five billion in longs liquidated.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   }
+  ],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261030_0b71e7",
+  "headline": "Kraken restores trading after about a one-hour outage hit spot and derivatives",
+  "summary": "Kraken's status page reported connectivity and order-placement problems for spot and derivatives clients across web, app and APIs starting 02:42 UTC Oct 30 (10:42 PM ET Oct 29). Crypto.news reports it was resolved about an hour later; no cause given and no reported loss of funds.",
+  "detected_at": "2026-10-30T10:17-04:00",
+  "active_since": "2026-10-30T10:17-04:00",
+  "classification": "IMPORTANT",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [],
+  "event_type": "outage",
+  "event_time": "2026-10-29T22:42-04:00",
+  "scheduled_event": false,
+  "metrics": {
+   "outage_minutes": 60
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://status.kraken.com/incidents/zkqc9db292h5",
+   "https://crypto.news/kraken-trading-outage-resolved/"
+  ],
+  "source_names": [
+   "Kraken status",
+   "crypto.news"
+  ],
+  "sources": [
+   {
+    "url": "https://status.kraken.com/incidents/zkqc9db292h5",
+    "name": "Kraken status",
+    "kind": "primary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-29T22:42-04:00"
+   },
+   {
+    "url": "https://crypto.news/kraken-trading-outage-resolved/",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://status.kraken.com/incidents/zkqc9db292h5",
+    "name": "Kraken status",
+    "kind": "primary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-29T22:42-04:00"
+   },
+   {
+    "url": "https://crypto.news/kraken-trading-outage-resolved/",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": true,
+   "score": 0.6,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Kraken status",
+     "url": "https://status.kraken.com/incidents/zkqc9db292h5",
+     "category": "primary",
+     "counts": true,
+     "note": "primary (known official domain)"
+    },
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/kraken-trading-outage-resolved/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Resolved one-hour exchange outage overnight, no funds lost, not a blockchain network outage.",
+   "outage rule: 60 min, major network=False -> IMPORTANT",
+   "final level IMPORTANT (changed from AI's NORMAL)"
+  ],
+  "market_significance": "Second major exchange disruption during a volatile week.",
+  "trigger": "Kraken status page",
+  "content_created": false,
+  "publication_status": "BLOCKED_UNVERIFIED",
   "related_story_ids": [],
   "updates": [],
   "posts": [],
