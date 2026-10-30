@@ -1,78 +1,70 @@
 {
  "story_id": "st_20261029_b14ae4",
- "date_label": "OCT 29",
- "headline": "Binance pauses withdrawals in suspected hack",
+ "date_label": "OCT 30",
+ "headline": "Binance puts hack at about $6.3 billion",
  "sources": [
   {
-   "name": "The Block",
-   "url": "https://www.theblock.co/news/markets/2026-10-29-binance-investigating-hack-suspicious-outflows-5-billion-432171"
-  },
-  {
-   "name": "Decrypt",
-   "url": "https://decrypt.co/382191/binance-suspected-hack-5-billion-tether-circle-freeze-crypto"
-  },
-  {
-   "name": "TechCrunch",
-   "url": "https://techcrunch.com/2026/10/29/binance-pauses-withdrawals-as-hackers-suspected-of-stealing-billions-in-crypto/"
-  },
-  {
    "name": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/10/29/live-updates-bitcoin-clings-to-usd80-000-as-strategy-s-cushion-thins-before-earnings"
+   "url": "https://www.coindesk.com/business/2026/10/29/potential-multi-billion-binance-hack-hitting-crypto-markets"
+  },
+  {
+   "name": "CCN via Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/crypto/articles/binance-6-3-billion-hack-083916125.html"
   }
  ],
  "scenes": [
   {
    "beat": "hook",
    "who": "ledger",
-   "vo": "Binance, the biggest crypto exchange, has paused withdrawals while it investigates a suspected hack. Here's what changed.",
+   "vo": "Binance now says about six point three billion dollars was taken in this week's hack, the largest crypto theft on record. Here's what changed.",
    "chunks": [
-    "Breaking tonight",
-    "*Withdrawals paused*",
-    "Suspected hack"
+    "Update on Binance",
+    "*About $6.3 billion*",
+    "Largest on record"
    ]
   },
   {
    "beat": "what_happened",
    "who": "ledger",
-   "vo": "This afternoon, billions of dollars in crypto moved out of Binance hot wallets to new addresses. Binance says it is investigating a potential security issue, and says user funds are safe.",
+   "vo": "Binance says its first findings point to a compromised engineer's laptop, with no sign that wallet keys leaked. About three billion dollars has been frozen. Deposits and withdrawals are still paused.",
    "chunks": [
-    "Billions moved out",
-    "*From hot wallets*",
-    "Binance: funds safe"
+    "Engineer's laptop",
+    "*About $3B frozen*",
+    "Withdrawals paused"
    ],
    "stat": {
     "label": "Sources",
-    "text": "The Block · Decrypt · TechCrunch"
+    "text": "CoinDesk \u00b7 CCN"
    }
   },
   {
    "beat": "why_it_matters",
    "who": "bruno",
-   "vo": "Here's why traders are watching it. Tether and Circle say they froze more than two billion dollars in stablecoins tied to the transfers, which could limit any damage.",
+   "vo": "Here's why traders are watching it. Binance says it will cover all losses from its safety fund and company money, and says user funds are safe.",
    "chunks": [
-    "Stablecoins frozen",
-    "*Over two billion*",
-    "Could limit damage"
+    "Losses covered",
+    "*Safety fund*",
+    "Binance: funds safe"
    ]
   },
   {
    "beat": "why_it_matters",
    "who": "ursa",
-   "vo": "The catch. Binance has not confirmed a hack or a loss figure. Estimates run from under two billion to almost six billion. B N B fell about seven percent.",
+   "vo": "The catch. Research firms T R M Labs and Chainalysis link the attack to North Korean hackers. Bitcoin dipped near seventy six thousand dollars as traders were forced out.",
    "chunks": [
-    "No confirmed loss yet",
-    "*Estimates vary widely*",
-    "BNB down about 7%"
+    "Linked to North Korea",
+    "*BTC near $76K*",
+    "Forced selling"
    ]
   },
   {
    "beat": "watch_next",
    "who": "moby",
-   "vo": "Here's what happens next. Watch for Binance's official update, a confirmed loss figure, and when withdrawals reopen.",
+   "vo": "Here's what happens next. Watch for when withdrawals reopen, Binance's promised post mortem, and its updated proof of reserves.",
    "chunks": [
-    "Official update",
-    "*Confirmed loss figure*",
-    "Withdrawals reopen?"
+    "Withdrawals reopen?",
+    "*Post mortem*",
+    "Proof of reserves"
    ]
   },
   {

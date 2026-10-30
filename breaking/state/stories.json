@@ -38260,7 +38260,7 @@
   "headline": "Binance pauses withdrawals and investigates a suspected hack as billions leave its hot wallets; Tether and Circle freeze about $2.4 billion",
   "summary": "Starting about 4:24 PM ET, billions of dollars in crypto moved out of Binance hot wallets to new addresses (on-chain estimates range from about $1.7 billion to $5.7 billion). Binance says it is investigating reports of a potential security issue, has temporarily suspended withdrawals on multiple networks as a precaution, and says user funds are safe. It has not confirmed a hack or a loss figure. Tether's CEO says it froze more than 1.567 billion USDT and Circle's CEO says it froze more than 800 million USDC. BNB fell about 6 to 7 percent; bitcoin dipped below $79,000.",
   "detected_at": "2026-10-29T19:15-04:00",
-  "active_since": "2026-10-29T22:12-04:00",
+  "active_since": "2026-10-30T07:20-04:00",
   "classification": "BREAKING",
   "proposed_level": "BREAKING",
   "confidence": 0.85,
@@ -38288,7 +38288,15 @@
    "https://za.investing.com/news/stock-market-news/binances-possible-hack-triggers-3-billion-freeze-in-crypto-assets-4537520",
    "https://www.asiaone.com/money/binance-hacked-32b-assets-frozen-security-incident",
    "https://news.bitcoin.com/security/inside-the-5-8b-binance-hack-whats-confirmed-and-what-isnt/",
-   "https://finance.yahoo.com/markets/crypto/articles/binance-probes-suspected-hot-wallet-233842276.html"
+   "https://finance.yahoo.com/markets/crypto/articles/binance-probes-suspected-hot-wallet-233842276.html",
+   "https://finance.yahoo.com/markets/crypto/articles/binance-6-3-billion-hack-083916125.html",
+   "https://www.coindesk.com/markets/2026/10/30/usd6-billion-binance-hack-sends-bitcoin-ether-tumbling-standard-chartered-sees-more-losses-ahead",
+   "https://abcnews.com/Business/binance-estimates-security-breach-impact-63-billion/story?id=137698510",
+   "https://www.aljazeera.com/economy/2026/10/30/binance-says-2-54bn-in-crypto-funds-frozen-amid-potential-security-issue",
+   "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/",
+   "https://finance.yahoo.com/markets/crypto/articles/crypto-platform-binance-confirms-major-013059975.html",
+   "https://www.bloomberg.com/news/newsletters/2026-10-30/crypto-s-biggest-ever-heist-hits-binance-in-6-3-billion-hack",
+   "https://www.cnbc.com/2026/10/29/circle-tether-freeze-funds-impacted-by-potential-binance-security-issue.html"
   ],
   "source_names": [
    "The Block",
@@ -38302,7 +38310,15 @@
    "Reuters (via Investing.com)",
    "AsiaOne",
    "Bitcoin.com News",
-   "Yahoo Finance"
+   "Yahoo Finance",
+   "CCN via Yahoo Finance",
+   "CoinDesk Markets",
+   "ABC News",
+   "Al Jazeera",
+   "BleepingComputer",
+   "AFP via Yahoo Finance",
+   "Bloomberg",
+   "CNBC"
   ],
   "sources": [
    {
@@ -38397,6 +38413,67 @@
     "kind": "secondary",
     "checked": true,
     "confirms": false
+   },
+   {
+    "url": "https://finance.yahoo.com/markets/crypto/articles/binance-6-3-billion-hack-083916125.html",
+    "name": "CCN via Yahoo Finance",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "origin": "CCN",
+    "published": "2026-10-30T04:39-04:00"
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/30/usd6-billion-binance-hack-sends-bitcoin-ether-tumbling-standard-chartered-sees-more-losses-ahead",
+    "name": "CoinDesk Markets",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-30T06:55-04:00"
+   },
+   {
+    "url": "https://abcnews.com/Business/binance-estimates-security-breach-impact-63-billion/story?id=137698510",
+    "name": "ABC News",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-30T04:45"
+   },
+   {
+    "url": "https://www.aljazeera.com/economy/2026/10/30/binance-says-2-54bn-in-crypto-funds-frozen-amid-potential-security-issue",
+    "name": "Al Jazeera",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/",
+    "name": "BleepingComputer",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://finance.yahoo.com/markets/crypto/articles/crypto-platform-binance-confirms-major-013059975.html",
+    "name": "AFP via Yahoo Finance",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": false,
+    "origin": "AFP"
+   },
+   {
+    "url": "https://www.bloomberg.com/news/newsletters/2026-10-30/crypto-s-biggest-ever-heist-hits-binance-in-6-3-billion-hack",
+    "name": "Bloomberg",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.cnbc.com/2026/10/29/circle-tether-freeze-funds-impacted-by-potential-binance-security-issue.html",
+    "name": "CNBC",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -38406,54 +38483,77 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true,
-    "published": "2026-10-29T21:28-04:00"
+    "published": "2026-10-30T00:16-04:00"
    },
    {
-    "url": "https://www.globalbankingandfinance.com/binance-2-54-billion-assets-frozen-probes-security-incident/",
-    "name": "Reuters (via Global Banking & Finance Review)",
+    "url": "https://finance.yahoo.com/markets/crypto/articles/binance-6-3-billion-hack-083916125.html",
+    "name": "CCN via Yahoo Finance",
     "kind": "secondary",
     "checked": true,
     "confirms": true,
-    "origin": "Reuters"
+    "origin": "CCN",
+    "published": "2026-10-30T04:39-04:00"
    },
    {
-    "url": "https://za.investing.com/news/stock-market-news/binances-possible-hack-triggers-3-billion-freeze-in-crypto-assets-4537520",
-    "name": "Reuters (via Investing.com)",
+    "url": "https://www.coindesk.com/markets/2026/10/30/usd6-billion-binance-hack-sends-bitcoin-ether-tumbling-standard-chartered-sees-more-losses-ahead",
+    "name": "CoinDesk Markets",
     "kind": "secondary",
     "checked": true,
     "confirms": true,
-    "origin": "Reuters"
+    "published": "2026-10-30T06:55-04:00"
    },
    {
-    "url": "https://www.asiaone.com/money/binance-hacked-32b-assets-frozen-security-incident",
-    "name": "AsiaOne",
-    "kind": "other",
+    "url": "https://abcnews.com/Business/binance-estimates-security-breach-impact-63-billion/story?id=137698510",
+    "name": "ABC News",
+    "kind": "secondary",
     "checked": true,
     "confirms": true,
-    "origin": "Reuters"
+    "published": "2026-10-30T04:45"
    },
    {
-    "url": "https://news.bitcoin.com/security/inside-the-5-8b-binance-hack-whats-confirmed-and-what-isnt/",
-    "name": "Bitcoin.com News",
+    "url": "https://www.aljazeera.com/economy/2026/10/30/binance-says-2-54bn-in-crypto-funds-frozen-amid-potential-security-issue",
+    "name": "Al Jazeera",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/",
+    "name": "BleepingComputer",
     "kind": "other",
     "checked": true,
     "confirms": true
    },
    {
-    "url": "https://finance.yahoo.com/markets/crypto/articles/binance-probes-suspected-hot-wallet-233842276.html",
-    "name": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/markets/crypto/articles/crypto-platform-binance-confirms-major-013059975.html",
+    "name": "AFP via Yahoo Finance",
     "kind": "secondary",
     "checked": true,
-    "confirms": false
+    "confirms": false,
+    "origin": "AFP"
+   },
+   {
+    "url": "https://www.bloomberg.com/news/newsletters/2026-10-30/crypto-s-biggest-ever-heist-hits-binance-in-6-3-billion-hack",
+    "name": "Bloomberg",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.cnbc.com/2026/10/29/circle-tether-freeze-funds-impacted-by-potential-binance-security-issue.html",
+    "name": "CNBC",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
    }
   ],
-  "verification_status": "UNVERIFIED",
+  "verification_status": "VERIFIED",
   "verification": {
-   "status": "UNVERIFIED",
-   "independent_sources": 1,
+   "status": "VERIFIED",
+   "independent_sources": 2,
    "has_primary": false,
-   "score": 0.4,
-   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "score": 0.8,
+   "reason": "2 independent credible sources confirm it (no primary source yet)",
    "sources_checked": [
     {
      "name": "CoinDesk",
@@ -38463,39 +38563,60 @@
      "note": "credible news organization"
     },
     {
-     "name": "Reuters (via Global Banking & Finance Review)",
-     "url": "https://www.globalbankingandfinance.com/binance-2-54-billion-assets-frozen-probes-security-incident/",
+     "name": "CCN via Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/crypto/articles/binance-6-3-billion-hack-083916125.html",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk Markets",
+     "url": "https://www.coindesk.com/markets/2026/10/30/usd6-billion-binance-hack-sends-bitcoin-ether-tumbling-standard-chartered-sees-more-losses-ahead",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "ABC News",
+     "url": "https://abcnews.com/Business/binance-estimates-security-breach-impact-63-billion/story?id=137698510",
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
     },
     {
-     "name": "Reuters (via Investing.com)",
-     "url": "https://za.investing.com/news/stock-market-news/binances-possible-hack-triggers-3-billion-freeze-in-crypto-assets-4537520",
+     "name": "Al Jazeera",
+     "url": "https://www.aljazeera.com/economy/2026/10/30/binance-says-2-54bn-in-crypto-funds-frozen-amid-potential-security-issue",
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
     },
     {
-     "name": "AsiaOne",
-     "url": "https://www.asiaone.com/money/binance-hacked-32b-assets-frozen-security-incident",
+     "name": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/",
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
     },
     {
-     "name": "Bitcoin.com News",
-     "url": "https://news.bitcoin.com/security/inside-the-5-8b-binance-hack-whats-confirmed-and-what-isnt/",
-     "category": "other",
-     "counts": false,
-     "note": "not on the credible list — logged as evidence only"
-    },
-    {
-     "name": "Yahoo Finance",
-     "url": "https://finance.yahoo.com/markets/crypto/articles/binance-probes-suspected-hot-wallet-233842276.html",
+     "name": "AFP via Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/crypto/articles/crypto-platform-binance-confirms-major-013059975.html",
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; opened but does not confirm the claim"
+    },
+    {
+     "name": "Bloomberg",
+     "url": "https://www.bloomberg.com/news/newsletters/2026-10-30/crypto-s-biggest-ever-heist-hits-binance-in-6-3-billion-hack",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "CNBC",
+     "url": "https://www.cnbc.com/2026/10/29/circle-tether-freeze-funds-impacted-by-potential-binance-security-issue.html",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
     }
    ]
   },
@@ -38505,7 +38626,7 @@
   "market_significance": "Largest exchange pauses withdrawals; if confirmed, the biggest crypto hack on record. Hits BNB and market sentiment broadly.",
   "trigger": "Search: crypto hack exploit Oct 29; on-chain alerts, then Binance statement",
   "content_created": true,
-  "publication_status": "BLOCKED_UNVERIFIED",
+  "publication_status": "DRAFTED",
   "related_story_ids": [],
   "updates": [
    {
@@ -38516,14 +38637,26 @@
     "level": "BREAKING",
     "sources_added": 6,
     "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-30T07:20-04:00",
+    "headline": "Binance puts hack losses at about $6.3 billion, the largest crypto theft on record; investigators link it to North Korea",
+    "summary": "New turn on the Binance hot-wallet drain. Binance now estimates the impact of the unauthorized withdrawals at about $6.3 billion, which outlets call the largest crypto theft on record (the 2025 Bybit hack was about $1.5 billion). Binance says its initial investigation points to a compromised DevOps engineer's laptop that let the attacker reach a service container and submit withdrawals; it found no evidence of a private key leak and later found additional points of breach. About $3 billion has been frozen on-chain with partners. Binance says it will cover all losses from its SAFU fund and company funds; deposits and withdrawals remain suspended. Blockchain analytics firms TRM Labs and Chainalysis attribute the attack to North Korea's TraderTraitor group; Binance has not named an attacker. Bitcoin fell to about $76,400 overnight, its lowest since mid-September, and $1.57 billion in futures were liquidated.",
+    "new_development": true,
+    "level": "BREAKING",
+    "sources_added": 8,
+    "verification": "VERIFIED"
    }
   ],
   "posts": [
    "6ae3d4d4ba1ca51fd3e4410c",
    "6ae3d4d54b8768bfb2caea7b",
-   "6ae3d4d656e01b976375f65d"
+   "6ae3d4d656e01b976375f65d",
+   "6ae47ee414812ff59678e52f",
+   "6ae47ee41c1ab1e7bc3335ed",
+   "6ae47ee580f61ee51913c00d"
   ],
-  "needs_followup": true
+  "needs_followup": false
  },
  {
   "id": "st_20261029_e56520",
@@ -38658,6 +38791,83 @@
   ],
   "market_significance": "Can add volatility.",
   "trigger": "Decrypt",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261030_816689",
+  "headline": "Bitcoin slips to lowest since mid-September near $77,000 as $1.57 billion in crypto futures are liquidated",
+  "summary": "After the Binance hack, bitcoin touched about $76,400 overnight and traded near $77,400 Friday morning, down about 3 percent in 24 hours. Ether about $2,240 (down about 3.5 percent), XRP about $1.25 (down about 3 percent), SOL about $97 (down about 3.5 percent), BNB about $700 (down about 5 percent). Futures liquidations jumped to $1.57 billion; the Fear and Greed index is at 36.",
+  "detected_at": "2026-10-30T07:20-04:00",
+  "active_since": "2026-10-30T07:20-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "BTC",
+   "ETH",
+   "XRP",
+   "SOL",
+   "BNB"
+  ],
+  "event_type": "market_move",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {
+   "pct_move_24h": -3.16
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/markets/2026/10/30/crypto-liquidations-jump-to-usd1-57-billion-as-binance-hack-sends-bitcoin-ether-lower"
+  ],
+  "source_names": [
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/30/crypto-liquidations-jump-to-usd1-57-billion-as-binance-hack-sends-bitcoin-ether-lower",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/30/crypto-liquidations-jump-to-usd1-57-billion-as-binance-hack-sends-bitcoin-ether-lower",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/10/30/crypto-liquidations-jump-to-usd1-57-billion-as-binance-hack-sends-bitcoin-ether-lower",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Moves of about 3 to 5 percent are below thresholds.",
+   "price rule: BTC moved 3.2% in 24h (thresholds 7%/12%) -> NORMAL"
+  ],
+  "market_significance": "Market-wide reaction to the Binance hack.",
+  "trigger": "CoinDesk markets",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
