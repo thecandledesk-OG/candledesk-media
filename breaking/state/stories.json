@@ -35179,6 +35179,15 @@
     "level": "NORMAL",
     "sources_added": 1,
     "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-29T22:12-04:00",
+    "headline": "Utah files criminal charges against Kalshi and its executives over alleged illegal gambling",
+    "summary": "Utah filed criminal charges against prediction market Kalshi and executives, escalating its fight with the CFTC over prediction markets.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "VERIFIED"
    }
   ],
   "posts": [],
@@ -37131,13 +37140,15 @@
    "https://investor.coinbase.com/news/news-details/2026/Coinbase-Q3-2026-Earnings-Show-All-time-high-Coinbase-One-Subscribers-and-Prediction-Markets-Surpassing-200-Million-in-Annualized-Revenue/default.aspx",
    "https://sg.finance.yahoo.com/news/coinbase-shares-rise-q3-earnings-205555031.html",
    "https://www.coindesk.com/business/2026/10/29/live-updates-bitcoin-clings-to-usd80-000-as-strategy-s-cushion-thins-before-earnings",
-   "https://decrypt.co/382191/binance-suspected-hack-5-billion-tether-circle-freeze-crypto"
+   "https://decrypt.co/382191/binance-suspected-hack-5-billion-tether-circle-freeze-crypto",
+   "https://decrypt.co/382188/coinbase-beats-719-million-q3-profit-crypto-gains"
   ],
   "source_names": [
    "CoinDesk",
    "Coinbase IR",
    "Investing.com via Yahoo Finance",
    "CoinDesk",
+   "Decrypt",
    "Decrypt"
   ],
   "sources": [
@@ -37176,6 +37187,13 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/382188/coinbase-beats-719-million-q3-profit-crypto-gains",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -37213,6 +37231,13 @@
     "name": "Decrypt",
     "kind": "secondary",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/382188/coinbase-beats-719-million-q3-profit-crypto-gains",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -37258,6 +37283,13 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/382188/coinbase-beats-719-million-q3-profit-crypto-gains",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
     }
    ]
   },
@@ -37283,6 +37315,15 @@
     "at": "2026-10-29T19:15-04:00",
     "headline": "Crypto slides with tech stocks: bitcoin dips below $79,000, BNB down about 7% on Binance hack fears",
     "summary": "Bitcoin fell below $79,000, down about 2 to 3 percent in 24 hours, as the Nasdaq dropped about 1.4% on weak tech guidance and the suspected Binance hack hit sentiment. Ether, solana and XRP fell about 2 to 3 percent; BNB fell about 6 to 7 percent. About $628 million in positions were liquidated in an hour.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-29T22:12-04:00",
+    "headline": "Coinbase swings to a $719 million third-quarter profit on crypto gains",
+    "summary": "Coinbase reported third-quarter results after the close Thursday, posting a $719 million profit helped by gains on its crypto holdings.",
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 1,
@@ -38219,7 +38260,7 @@
   "headline": "Binance pauses withdrawals and investigates a suspected hack as billions leave its hot wallets; Tether and Circle freeze about $2.4 billion",
   "summary": "Starting about 4:24 PM ET, billions of dollars in crypto moved out of Binance hot wallets to new addresses (on-chain estimates range from about $1.7 billion to $5.7 billion). Binance says it is investigating reports of a potential security issue, has temporarily suspended withdrawals on multiple networks as a precaution, and says user funds are safe. It has not confirmed a hack or a loss figure. Tether's CEO says it froze more than 1.567 billion USDT and Circle's CEO says it froze more than 800 million USDC. BNB fell about 6 to 7 percent; bitcoin dipped below $79,000.",
   "detected_at": "2026-10-29T19:15-04:00",
-  "active_since": "2026-10-29T19:15-04:00",
+  "active_since": "2026-10-29T22:12-04:00",
   "classification": "BREAKING",
   "proposed_level": "BREAKING",
   "confidence": 0.85,
@@ -38241,7 +38282,13 @@
    "https://techcrunch.com/2026/10/29/binance-pauses-withdrawals-as-hackers-suspected-of-stealing-billions-in-crypto/",
    "https://www.coindesk.com/business/2026/10/29/live-updates-bitcoin-clings-to-usd80-000-as-strategy-s-cushion-thins-before-earnings",
    "https://gizmodo.com/binance-investigating-possibly-massive-hack-2000832787",
-   "https://x.com/DeItaone/status/2115915902260556021"
+   "https://x.com/DeItaone/status/2115915902260556021",
+   "https://www.coindesk.com/business/2026/10/29/potential-multi-billion-binance-hack-hitting-crypto-markets",
+   "https://www.globalbankingandfinance.com/binance-2-54-billion-assets-frozen-probes-security-incident/",
+   "https://za.investing.com/news/stock-market-news/binances-possible-hack-triggers-3-billion-freeze-in-crypto-assets-4537520",
+   "https://www.asiaone.com/money/binance-hacked-32b-assets-frozen-security-incident",
+   "https://news.bitcoin.com/security/inside-the-5-8b-binance-hack-whats-confirmed-and-what-isnt/",
+   "https://finance.yahoo.com/markets/crypto/articles/binance-probes-suspected-hot-wallet-233842276.html"
   ],
   "source_names": [
    "The Block",
@@ -38249,7 +38296,13 @@
    "TechCrunch",
    "CoinDesk",
    "Gizmodo",
-   "X (Walter Bloomberg)"
+   "X (Walter Bloomberg)",
+   "CoinDesk",
+   "Reuters (via Global Banking & Finance Review)",
+   "Reuters (via Investing.com)",
+   "AsiaOne",
+   "Bitcoin.com News",
+   "Yahoo Finance"
   ],
   "sources": [
    {
@@ -38298,106 +38351,151 @@
     "kind": "social",
     "checked": false,
     "confirms": true
-   }
-  ],
-  "gate_sources": [
-   {
-    "url": "https://www.theblock.co/news/markets/2026-10-29-binance-investigating-hack-suspicious-outflows-5-billion-432171",
-    "name": "The Block",
-    "kind": "secondary",
-    "checked": true,
-    "confirms": true,
-    "published": "2026-10-29T17:48-04:00"
    },
    {
-    "url": "https://decrypt.co/382191/binance-suspected-hack-5-billion-tether-circle-freeze-crypto",
-    "name": "Decrypt",
-    "kind": "secondary",
-    "checked": true,
-    "confirms": true,
-    "published": "2026-10-29T17:36-04:00"
-   },
-   {
-    "url": "https://techcrunch.com/2026/10/29/binance-pauses-withdrawals-as-hackers-suspected-of-stealing-billions-in-crypto/",
-    "name": "TechCrunch",
-    "kind": "secondary",
-    "checked": true,
-    "confirms": true,
-    "published": "2026-10-29T18:27-04:00"
-   },
-   {
-    "url": "https://www.coindesk.com/business/2026/10/29/live-updates-bitcoin-clings-to-usd80-000-as-strategy-s-cushion-thins-before-earnings",
+    "url": "https://www.coindesk.com/business/2026/10/29/potential-multi-billion-binance-hack-hitting-crypto-markets",
     "name": "CoinDesk",
     "kind": "secondary",
     "checked": true,
     "confirms": true,
-    "published": "2026-10-29T19:07-04:00"
+    "published": "2026-10-29T21:28-04:00"
    },
    {
-    "url": "https://gizmodo.com/binance-investigating-possibly-massive-hack-2000832787",
-    "name": "Gizmodo",
+    "url": "https://www.globalbankingandfinance.com/binance-2-54-billion-assets-frozen-probes-security-incident/",
+    "name": "Reuters (via Global Banking & Finance Review)",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "origin": "Reuters"
+   },
+   {
+    "url": "https://za.investing.com/news/stock-market-news/binances-possible-hack-triggers-3-billion-freeze-in-crypto-assets-4537520",
+    "name": "Reuters (via Investing.com)",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "origin": "Reuters"
+   },
+   {
+    "url": "https://www.asiaone.com/money/binance-hacked-32b-assets-frozen-security-incident",
+    "name": "AsiaOne",
     "kind": "other",
     "checked": true,
     "confirms": true,
-    "published": "2026-10-29T18:16-04:00"
+    "origin": "Reuters"
    },
    {
-    "url": "https://x.com/DeItaone/status/2115915902260556021",
-    "name": "X (Walter Bloomberg)",
-    "kind": "social",
-    "checked": false,
+    "url": "https://news.bitcoin.com/security/inside-the-5-8b-binance-hack-whats-confirmed-and-what-isnt/",
+    "name": "Bitcoin.com News",
+    "kind": "other",
+    "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://finance.yahoo.com/markets/crypto/articles/binance-probes-suspected-hot-wallet-233842276.html",
+    "name": "Yahoo Finance",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": false
    }
   ],
-  "verification_status": "VERIFIED",
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/business/2026/10/29/potential-multi-billion-binance-hack-hitting-crypto-markets",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-29T21:28-04:00"
+   },
+   {
+    "url": "https://www.globalbankingandfinance.com/binance-2-54-billion-assets-frozen-probes-security-incident/",
+    "name": "Reuters (via Global Banking & Finance Review)",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "origin": "Reuters"
+   },
+   {
+    "url": "https://za.investing.com/news/stock-market-news/binances-possible-hack-triggers-3-billion-freeze-in-crypto-assets-4537520",
+    "name": "Reuters (via Investing.com)",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "origin": "Reuters"
+   },
+   {
+    "url": "https://www.asiaone.com/money/binance-hacked-32b-assets-frozen-security-incident",
+    "name": "AsiaOne",
+    "kind": "other",
+    "checked": true,
+    "confirms": true,
+    "origin": "Reuters"
+   },
+   {
+    "url": "https://news.bitcoin.com/security/inside-the-5-8b-binance-hack-whats-confirmed-and-what-isnt/",
+    "name": "Bitcoin.com News",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://finance.yahoo.com/markets/crypto/articles/binance-probes-suspected-hot-wallet-233842276.html",
+    "name": "Yahoo Finance",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": false
+   }
+  ],
+  "verification_status": "UNVERIFIED",
   "verification": {
-   "status": "VERIFIED",
-   "independent_sources": 4,
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
    "has_primary": false,
-   "score": 0.8,
-   "reason": "4 independent credible sources confirm it (no primary source yet)",
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
    "sources_checked": [
     {
-     "name": "The Block",
-     "url": "https://www.theblock.co/news/markets/2026-10-29-binance-investigating-hack-suspicious-outflows-5-billion-432171",
-     "category": "secondary",
-     "counts": true,
-     "note": "credible news organization"
-    },
-    {
-     "name": "Decrypt",
-     "url": "https://decrypt.co/382191/binance-suspected-hack-5-billion-tether-circle-freeze-crypto",
-     "category": "secondary",
-     "counts": true,
-     "note": "credible news organization"
-    },
-    {
-     "name": "TechCrunch",
-     "url": "https://techcrunch.com/2026/10/29/binance-pauses-withdrawals-as-hackers-suspected-of-stealing-billions-in-crypto/",
-     "category": "secondary",
-     "counts": true,
-     "note": "credible news organization"
-    },
-    {
      "name": "CoinDesk",
-     "url": "https://www.coindesk.com/business/2026/10/29/live-updates-bitcoin-clings-to-usd80-000-as-strategy-s-cushion-thins-before-earnings",
+     "url": "https://www.coindesk.com/business/2026/10/29/potential-multi-billion-binance-hack-hitting-crypto-markets",
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
     },
     {
-     "name": "Gizmodo",
-     "url": "https://gizmodo.com/binance-investigating-possibly-massive-hack-2000832787",
+     "name": "Reuters (via Global Banking & Finance Review)",
+     "url": "https://www.globalbankingandfinance.com/binance-2-54-billion-assets-frozen-probes-security-incident/",
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
     },
     {
-     "name": "X (Walter Bloomberg)",
-     "url": "https://x.com/DeItaone/status/2115915902260556021",
-     "category": "social",
+     "name": "Reuters (via Investing.com)",
+     "url": "https://za.investing.com/news/stock-market-news/binances-possible-hack-triggers-3-billion-freeze-in-crypto-assets-4537520",
+     "category": "other",
      "counts": false,
-     "note": "social/community post — can trigger investigation, never verifies"
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "AsiaOne",
+     "url": "https://www.asiaone.com/money/binance-hacked-32b-assets-frozen-security-incident",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Bitcoin.com News",
+     "url": "https://news.bitcoin.com/security/inside-the-5-8b-binance-hack-whats-confirmed-and-what-isnt/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/crypto/articles/binance-probes-suspected-hot-wallet-233842276.html",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; opened but does not confirm the claim"
     }
    ]
   },
@@ -38407,14 +38505,164 @@
   "market_significance": "Largest exchange pauses withdrawals; if confirmed, the biggest crypto hack on record. Hits BNB and market sentiment broadly.",
   "trigger": "Search: crypto hack exploit Oct 29; on-chain alerts, then Binance statement",
   "content_created": true,
-  "publication_status": "DRAFTED",
+  "publication_status": "BLOCKED_UNVERIFIED",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-29T22:12-04:00",
+    "headline": "Binance pledges to cover all hacking losses, suspends deposits too, and says about $3 billion of the moved crypto is frozen",
+    "summary": "New turn on the suspected Binance hot-wallet drain. Co-founder and co-CEO Yi He said Binance will cover all hacking losses and that deposits and withdrawals are temporarily suspended; she promised a full post-mortem. Reuters reports Binance said it has frozen about $2.54 billion, later $3 billion, in crypto assets, a figure that could rise as it works with law enforcement. Binance still has not confirmed the cause or a final loss figure; Arkham and Chainalysis estimate about $5.7 to 5.9 billion moved. Arbitrum's Security Council froze tokens in the attacker's wallet and Aave froze lending markets. By about 9 PM ET bitcoin was near $76,500, down about 5 percent in 24 hours; ether down about 6 percent, XRP about 7 percent, SOL about 7 percent, BNB about 8 percent.",
+    "new_development": true,
+    "level": "BREAKING",
+    "sources_added": 6,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [
    "6ae3d4d4ba1ca51fd3e4410c",
    "6ae3d4d54b8768bfb2caea7b",
    "6ae3d4d656e01b976375f65d"
   ],
+  "needs_followup": true
+ },
+ {
+  "id": "st_20261029_e56520",
+  "headline": "Strategy reports $19.5 billion third-quarter net income as preferred holders approve daily dividends",
+  "summary": "Strategy posted $19.5 billion in Q3 net income and preferred shareholders approved daily dividends.",
+  "detected_at": "2026-10-29T22:12-04:00",
+  "active_since": "2026-10-29T22:12-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "institutional",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-10-29-strategy-q3-net-income-preferred-daily-dividends-432141"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-29-strategy-q3-net-income-preferred-daily-dividends-432141",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-29-strategy-q3-net-income-preferred-daily-dividends-432141",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-10-29-strategy-q3-net-income-preferred-daily-dividends-432141",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Earnings, routine."
+  ],
+  "market_significance": "Largest corporate bitcoin holder.",
+  "trigger": "The Block latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261029_dad51d",
+  "headline": "About $11 billion in bitcoin options expire Friday",
+  "summary": "Roughly $11 billion of bitcoin options expire on Friday October 30.",
+  "detected_at": "2026-10-29T22:12-04:00",
+  "active_since": "2026-10-29T22:12-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "market_move",
+  "event_time": null,
+  "scheduled_event": true,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://decrypt.co/382171/11-billion-bitcoin-options-expire-tomorrow-what-means"
+  ],
+  "source_names": [
+   "Decrypt"
+  ],
+  "sources": [
+   {
+    "url": "https://decrypt.co/382171/11-billion-bitcoin-options-expire-tomorrow-what-means",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://decrypt.co/382171/11-billion-bitcoin-options-expire-tomorrow-what-means",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/382171/11-billion-bitcoin-options-expire-tomorrow-what-means",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Routine monthly expiry."
+  ],
+  "market_significance": "Can add volatility.",
+  "trigger": "Decrypt",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
   "needs_followup": false
  }
 ]
