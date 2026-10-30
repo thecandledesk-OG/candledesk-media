@@ -37401,6 +37401,24 @@
     "level": "NORMAL",
     "sources_added": 0,
     "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-30T19:16-04:00",
+    "headline": "Tether reports $1.5 billion third-quarter operating profit and $7.95 billion in excess reserves",
+    "summary": "Tether reported about one point five billion dollars in Q3 net operating profit and four point five billion for the first nine months; excess reserves rose to about seven point nine five billion from four point one billion.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-30T19:16-04:00",
+    "headline": "Coinbase shares fall about 12% after underwhelming third-quarter results",
+    "summary": "Coinbase reported third-quarter results Thursday after the close that came in below hopes; shares fell about 12% at Friday's open alongside a broad crypto stock sell-off.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "VERIFIED"
    }
   ],
   "posts": [],
@@ -38422,7 +38440,9 @@
    "https://twitter.com/binance/status/2116089661408108712",
    "https://www.nextgov.com/cybersecurity/2026/10/fbi-involved-response-63-billion-binance-hack-linked-north-korea/416946/",
    "https://www.trmlabs.com/resources/blog/north-korea-steals-usd-6-36-billion-from-binance-in-the-largest-hack-in-history",
-   "https://www.forbes.com/sites/ninabambysheva/2026/10/30/north-koreas-6-billion-binance-hack-exposes-cryptos-worsening-security-problem/"
+   "https://www.forbes.com/sites/ninabambysheva/2026/10/30/north-koreas-6-billion-binance-hack-exposes-cryptos-worsening-security-problem/",
+   "https://www.forbes.com/sites/antoniopequenoiv/2026/10/30/binance-says-it-plans-to-resume-withdrawals-this-weekend-after-63-billion-hack/",
+   "https://www.theblock.co/news/business/2026-10-30-binance-hack-largest-crypto-hack-north-korea-432225"
   ],
   "source_names": [
    "The Block",
@@ -38455,7 +38475,9 @@
    "Binance on X",
    "Nextgov/FCW",
    "TRM Labs",
-   "Forbes"
+   "Forbes",
+   "Forbes",
+   "The Block"
   ],
   "sources": [
    {
@@ -38693,6 +38715,20 @@
     "kind": "secondary",
     "checked": false,
     "confirms": false
+   },
+   {
+    "url": "https://www.forbes.com/sites/antoniopequenoiv/2026/10/30/binance-says-it-plans-to-resume-withdrawals-this-weekend-after-63-billion-hack/",
+    "name": "Forbes",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-30-binance-hack-largest-crypto-hack-north-korea-432225",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -38846,6 +38882,20 @@
     "kind": "secondary",
     "checked": false,
     "confirms": false
+   },
+   {
+    "url": "https://www.forbes.com/sites/antoniopequenoiv/2026/10/30/binance-says-it-plans-to-resume-withdrawals-this-weekend-after-63-billion-hack/",
+    "name": "Forbes",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-30-binance-hack-largest-crypto-hack-north-korea-432225",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "VERIFIED",
@@ -38995,6 +39045,20 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Forbes",
+     "url": "https://www.forbes.com/sites/antoniopequenoiv/2026/10/30/binance-says-it-plans-to-resume-withdrawals-this-weekend-after-63-billion-hack/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-10-30-binance-hack-largest-crypto-hack-north-korea-432225",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -39050,6 +39114,15 @@
     "new_development": true,
     "level": "IMPORTANT",
     "sources_added": 3,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-30T19:16-04:00",
+    "headline": "Binance says phased withdrawal restart could begin in about 34 hours, pending security checks",
+    "summary": "In a Friday afternoon update, Binance said it plans to start resuming withdrawals in phases in about 34 hours, pending security checks, consistent with its earlier Sunday target. Proof-of-reserves report still targeted for Monday.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
     "verification": "VERIFIED"
    }
   ],
@@ -39263,13 +39336,15 @@
    "https://www.coindesk.com/markets/2026/10/30/crypto-liquidations-jump-to-usd1-57-billion-as-binance-hack-sends-bitcoin-ether-lower",
    "https://www.coindesk.com/markets/2026/10/30/usd6-billion-binance-hack-sends-bitcoin-ether-tumbling-standard-chartered-sees-more-losses-ahead",
    "https://trendingtopics.eu/binance-hack-bitcoin-76650-dollars-crypto-market",
-   "https://www.coindesk.com/markets/2026/10/30/live-news-binance-hack-rattles-crypto-as-intel-plunges-and-ai-spending-fears-hit-tech"
+   "https://www.coindesk.com/markets/2026/10/30/live-news-binance-hack-rattles-crypto-as-intel-plunges-and-ai-spending-fears-hit-tech",
+   "https://finance.yahoo.com/markets/crypto/articles/crypto-market-today-oct-30-211002892.html"
   ],
   "source_names": [
    "CoinDesk",
    "CoinDesk",
    "Trending Topics",
-   "CoinDesk"
+   "CoinDesk",
+   "Yahoo Finance (Motley Fool)"
   ],
   "sources": [
    {
@@ -39300,6 +39375,14 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://finance.yahoo.com/markets/crypto/articles/crypto-market-today-oct-30-211002892.html",
+    "name": "Yahoo Finance (Motley Fool)",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "origin": "Motley Fool"
    }
   ],
   "gate_sources": [
@@ -39331,15 +39414,23 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://finance.yahoo.com/markets/crypto/articles/crypto-market-today-oct-30-211002892.html",
+    "name": "Yahoo Finance (Motley Fool)",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "origin": "Motley Fool"
    }
   ],
-  "verification_status": "UNVERIFIED",
+  "verification_status": "VERIFIED",
   "verification": {
-   "status": "UNVERIFIED",
-   "independent_sources": 1,
+   "status": "VERIFIED",
+   "independent_sources": 2,
    "has_primary": false,
-   "score": 0.4,
-   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "score": 0.8,
+   "reason": "2 independent credible sources confirm it (no primary source yet)",
    "sources_checked": [
     {
      "name": "CoinDesk",
@@ -39365,6 +39456,13 @@
     {
      "name": "CoinDesk",
      "url": "https://www.coindesk.com/markets/2026/10/30/live-news-binance-hack-rattles-crypto-as-intel-plunges-and-ai-spending-fears-hit-tech",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Yahoo Finance (Motley Fool)",
+     "url": "https://finance.yahoo.com/markets/crypto/articles/crypto-market-today-oct-30-211002892.html",
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
@@ -39398,6 +39496,15 @@
     "level": "NORMAL",
     "sources_added": 1,
     "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-30T19:16-04:00",
+    "headline": "Bitcoin heads for a second straight losing October near $76,000, down about 8% for the month",
+    "summary": "Bitcoin traded near seventy-six thousand dollars Friday, down about 8.4% for October and on track for a second straight October decline, as a tech stock sell-off and the Binance hack weighed on risk assets. 24h moves (CoinGecko ~20:16 UTC): BTC -1.2%, ETH -0.4%, XRP -1.8%, SOL -0.6%.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
    }
   ],
   "posts": [],
@@ -39653,7 +39760,7 @@
   "market_significance": "Second major exchange disruption during a volatile week.",
   "trigger": "Kraken status page",
   "content_created": false,
-  "publication_status": "BLOCKED_UNVERIFIED",
+  "publication_status": "HUMAN_REVIEW",
   "related_story_ids": [],
   "updates": [],
   "posts": [],
