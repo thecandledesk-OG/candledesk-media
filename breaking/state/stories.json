@@ -38419,7 +38419,10 @@
    "https://theblock.co/news/ecosystems/2026-10-30-binance-says-it-has-6-34-billion-ready-to-cover-hack-losses-432208",
    "https://decrypt.co/382237/binance-sets-aside-6-34b-to-cover-hack-losses-ceo-says-your-assets-are-safe",
    "https://crypto.news/binance-buys-back-stolen-altcoins-after-hack/",
-   "https://twitter.com/binance/status/2116089661408108712"
+   "https://twitter.com/binance/status/2116089661408108712",
+   "https://www.nextgov.com/cybersecurity/2026/10/fbi-involved-response-63-billion-binance-hack-linked-north-korea/416946/",
+   "https://www.trmlabs.com/resources/blog/north-korea-steals-usd-6-36-billion-from-binance-in-the-largest-hack-in-history",
+   "https://www.forbes.com/sites/ninabambysheva/2026/10/30/north-koreas-6-billion-binance-hack-exposes-cryptos-worsening-security-problem/"
   ],
   "source_names": [
    "The Block",
@@ -38449,7 +38452,10 @@
    "The Block",
    "Decrypt",
    "crypto.news",
-   "Binance on X"
+   "Binance on X",
+   "Nextgov/FCW",
+   "TRM Labs",
+   "Forbes"
   ],
   "sources": [
    {
@@ -38666,6 +38672,27 @@
     "kind": "social",
     "checked": false,
     "confirms": true
+   },
+   {
+    "url": "https://www.nextgov.com/cybersecurity/2026/10/fbi-involved-response-63-billion-binance-hack-linked-north-korea/416946/",
+    "name": "Nextgov/FCW",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.trmlabs.com/resources/blog/north-korea-steals-usd-6-36-billion-from-binance-in-the-largest-hack-in-history",
+    "name": "TRM Labs",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://www.forbes.com/sites/ninabambysheva/2026/10/30/north-koreas-6-billion-binance-hack-exposes-cryptos-worsening-security-problem/",
+    "name": "Forbes",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
    }
   ],
   "gate_sources": [
@@ -38798,6 +38825,27 @@
     "kind": "social",
     "checked": false,
     "confirms": true
+   },
+   {
+    "url": "https://www.nextgov.com/cybersecurity/2026/10/fbi-involved-response-63-billion-binance-hack-linked-north-korea/416946/",
+    "name": "Nextgov/FCW",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.trmlabs.com/resources/blog/north-korea-steals-usd-6-36-billion-from-binance-in-the-largest-hack-in-history",
+    "name": "TRM Labs",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://www.forbes.com/sites/ninabambysheva/2026/10/30/north-koreas-6-billion-binance-hack-exposes-cryptos-worsening-security-problem/",
+    "name": "Forbes",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
    }
   ],
   "verification_status": "VERIFIED",
@@ -38926,6 +38974,27 @@
      "category": "social",
      "counts": false,
      "note": "social/community post — can trigger investigation, never verifies"
+    },
+    {
+     "name": "Nextgov/FCW",
+     "url": "https://www.nextgov.com/cybersecurity/2026/10/fbi-involved-response-63-billion-binance-hack-linked-north-korea/416946/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "TRM Labs",
+     "url": "https://www.trmlabs.com/resources/blog/north-korea-steals-usd-6-36-billion-from-binance-in-the-largest-hack-in-history",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Forbes",
+     "url": "https://www.forbes.com/sites/ninabambysheva/2026/10/30/north-koreas-6-billion-binance-hack-exposes-cryptos-worsening-security-problem/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -38972,6 +39041,15 @@
     "new_development": true,
     "level": "IMPORTANT",
     "sources_added": 4,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-30T16:10-04:00",
+    "headline": "FBI says it is engaged in the response to the $6.3 billion Binance hack; TRM Labs attributes it to North Korea's TraderTraitor",
+    "summary": "Nextgov reports the FBI said it is 'engaged with relevant public and private partners' on the Binance breach and is working to understand its scope; it did not attribute the attack. Blockchain intelligence firm TRM Labs attributes it with high confidence to TraderTraitor, a North Korean group the FBI blamed for the 2025 Bybit hack. No official government attribution yet.",
+    "new_development": true,
+    "level": "IMPORTANT",
+    "sources_added": 3,
     "verification": "VERIFIED"
    }
   ],
@@ -39576,6 +39654,146 @@
   "trigger": "Kraken status page",
   "content_created": false,
   "publication_status": "BLOCKED_UNVERIFIED",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261030_5f19fc",
+  "headline": "Trezor reports a suspected hardware implant in Safe 5 wallets sold by reseller CryptoBilis",
+  "summary": "The Block reports Trezor flagged a suspected hardware implant in Safe 5 devices sold through third-party reseller CryptoBilis.",
+  "detected_at": "2026-10-30T16:10-04:00",
+  "active_since": "2026-10-30T16:10-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "other",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/ecosystems/2026-10-30-trezor-reports-suspected-hardware-implant-432196"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/ecosystems/2026-10-30-trezor-reports-suspected-hardware-implant-432196",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/ecosystems/2026-10-30-trezor-reports-suspected-hardware-implant-432196",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/ecosystems/2026-10-30-trezor-reports-suspected-hardware-implant-432196",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Security warning for a reseller's devices; consumer-safety lead for the daily show."
+  ],
+  "market_significance": "Reminder to buy hardware wallets direct from the maker.",
+  "trigger": "The Block latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261030_c4a6ae",
+  "headline": "Texas brothers sentenced to 15 years for an $8 million crypto home-invasion robbery in Minnesota",
+  "summary": "The Block reports two Texas brothers were sentenced to 15 years for holding a Minnesota family at gunpoint in an $8 million crypto heist.",
+  "detected_at": "2026-10-30T16:10-04:00",
+  "active_since": "2026-10-30T16:10-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "legal",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/regulation/2026-10-30-texas-brothers-sentenced-15-years-8-million-crypto-robbery-minnesota-432221"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-10-30-texas-brothers-sentenced-15-years-8-million-crypto-robbery-minnesota-432221",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-10-30-texas-brothers-sentenced-15-years-8-million-crypto-robbery-minnesota-432221",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-10-30-texas-brothers-sentenced-15-years-8-million-crypto-robbery-minnesota-432221",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Court sentencing; no market impact."
+  ],
+  "market_significance": "Physical 'wrench attack' risk for holders.",
+  "trigger": "The Block latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
   "updates": [],
   "posts": [],
