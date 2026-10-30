@@ -37392,6 +37392,15 @@
     "level": "NORMAL",
     "sources_added": 0,
     "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-30T13:16-04:00",
+    "headline": "Aave reopens lending after a precautionary freeze; USDT, USDC, XAUT and PAXG paused as new collateral",
+    "summary": "Aave reopened lending and borrowing after a precautionary freeze following the Binance hack. USDT, USDC, XAUT and PAXG can't be used as collateral for new loans for now. Aave's founder says the protocol was not affected.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "VERIFIED"
    }
   ],
   "posts": [],
@@ -38406,7 +38415,11 @@
    "https://www.coindesk.com/business/2026/10/30/binance-arranges-usd6-34-billion-to-cover-losses-from-record-crypto-hack",
    "https://www.theblock.co/news/ecosystems/2026-10-30-binance-says-it-has-6-34-billion-ready-to-cover-hack-losses-432208",
    "https://www.coindesk.com/markets/2026/10/30/live-news-binance-hack-rattles-crypto-as-intel-plunges-and-ai-spending-fears-hit-tech",
-   "https://x.com/binance/status/2116121748555153621"
+   "https://x.com/binance/status/2116121748555153621",
+   "https://theblock.co/news/ecosystems/2026-10-30-binance-says-it-has-6-34-billion-ready-to-cover-hack-losses-432208",
+   "https://decrypt.co/382237/binance-sets-aside-6-34b-to-cover-hack-losses-ceo-says-your-assets-are-safe",
+   "https://crypto.news/binance-buys-back-stolen-altcoins-after-hack/",
+   "https://twitter.com/binance/status/2116089661408108712"
   ],
   "source_names": [
    "The Block",
@@ -38432,6 +38445,10 @@
    "CoinDesk",
    "The Block",
    "CoinDesk live",
+   "Binance on X",
+   "The Block",
+   "Decrypt",
+   "crypto.news",
    "Binance on X"
   ],
   "sources": [
@@ -38619,6 +38636,36 @@
     "kind": "social",
     "checked": false,
     "confirms": true
+   },
+   {
+    "url": "https://theblock.co/news/ecosystems/2026-10-30-binance-says-it-has-6-34-billion-ready-to-cover-hack-losses-432208",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-30T09:14-04:00"
+   },
+   {
+    "url": "https://decrypt.co/382237/binance-sets-aside-6-34b-to-cover-hack-losses-ceo-says-your-assets-are-safe",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-30T12:34-04:00"
+   },
+   {
+    "url": "https://crypto.news/binance-buys-back-stolen-altcoins-after-hack/",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://twitter.com/binance/status/2116089661408108712",
+    "name": "Binance on X",
+    "kind": "social",
+    "checked": false,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -38721,15 +38768,45 @@
     "kind": "social",
     "checked": false,
     "confirms": true
+   },
+   {
+    "url": "https://theblock.co/news/ecosystems/2026-10-30-binance-says-it-has-6-34-billion-ready-to-cover-hack-losses-432208",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-30T09:14-04:00"
+   },
+   {
+    "url": "https://decrypt.co/382237/binance-sets-aside-6-34b-to-cover-hack-losses-ceo-says-your-assets-are-safe",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-10-30T12:34-04:00"
+   },
+   {
+    "url": "https://crypto.news/binance-buys-back-stolen-altcoins-after-hack/",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://twitter.com/binance/status/2116089661408108712",
+    "name": "Binance on X",
+    "kind": "social",
+    "checked": false,
+    "confirms": true
    }
   ],
   "verification_status": "VERIFIED",
   "verification": {
    "status": "VERIFIED",
-   "independent_sources": 3,
+   "independent_sources": 4,
    "has_primary": false,
    "score": 0.8,
-   "reason": "3 independent credible sources confirm it (no primary source yet)",
+   "reason": "4 independent credible sources confirm it (no primary source yet)",
    "sources_checked": [
     {
      "name": "CoinDesk",
@@ -38821,6 +38898,34 @@
      "category": "social",
      "counts": false,
      "note": "social/community post — can trigger investigation, never verifies"
+    },
+    {
+     "name": "The Block",
+     "url": "https://theblock.co/news/ecosystems/2026-10-30-binance-says-it-has-6-34-billion-ready-to-cover-hack-losses-432208",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/382237/binance-sets-aside-6-34b-to-cover-hack-losses-ceo-says-your-assets-are-safe",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/binance-buys-back-stolen-altcoins-after-hack/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Binance on X",
+     "url": "https://twitter.com/binance/status/2116089661408108712",
+     "category": "social",
+     "counts": false,
+     "note": "social/community post — can trigger investigation, never verifies"
     }
    ]
   },
@@ -38859,6 +38964,15 @@
     "level": "IMPORTANT",
     "sources_added": 4,
     "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-30T13:16-04:00",
+    "headline": "Binance says it will cover all $6.3 billion in hack losses with $6.34 billion of company funds; withdrawals targeted to restart by Sunday",
+    "summary": "Binance co-CEO Richard Teng says the exchange will cover every loss from the hot-wallet hack with company funds and has set aside more than $6.34 billion; about $5 billion is already held in the affected tokens and the rest is being bought on the market and OTC, which may take longer for thin-liquidity tokens. Teng says customer funds were not touched. Binance says it found breach points beyond a compromised employee laptop and that the attacker used an EIP-7702 delegation to gain approval over a hot wallet. About $3 billion is frozen with partners and law enforcement. Withdrawals are targeted to resume by Sunday, with a full proof-of-reserves report by Monday. Chainalysis and TRM Labs link the theft to North Korean hackers; Binance has not named an attacker.",
+    "new_development": true,
+    "level": "IMPORTANT",
+    "sources_added": 4,
+    "verification": "VERIFIED"
    }
   ],
   "posts": [
@@ -38889,9 +39003,11 @@
   "metrics": {},
   "emergency": false,
   "source_urls": [
-   "https://www.theblock.co/news/business/2026-10-29-strategy-q3-net-income-preferred-daily-dividends-432141"
+   "https://www.theblock.co/news/business/2026-10-29-strategy-q3-net-income-preferred-daily-dividends-432141",
+   "https://www.theblock.co/news/business/2026-10-30-strategy-mstr-preferred-stock-bitcoin-buying-analysts-432214"
   ],
   "source_names": [
+   "The Block",
    "The Block"
   ],
   "sources": [
@@ -38901,11 +39017,25 @@
     "kind": "secondary",
     "checked": false,
     "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-30-strategy-mstr-preferred-stock-bitcoin-buying-analysts-432214",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
    }
   ],
   "gate_sources": [
    {
     "url": "https://www.theblock.co/news/business/2026-10-29-strategy-q3-net-income-preferred-daily-dividends-432141",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/business/2026-10-30-strategy-mstr-preferred-stock-bitcoin-buying-analysts-432214",
     "name": "The Block",
     "kind": "secondary",
     "checked": false,
@@ -38926,6 +39056,13 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-10-30-strategy-mstr-preferred-stock-bitcoin-buying-analysts-432214",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
     }
    ]
   },
@@ -38937,7 +39074,17 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-30T13:16-04:00",
+    "headline": "Analysts say Strategy's preferred-stock fix sets up renewed bitcoin buying",
+    "summary": "The Block reports analysts expect Strategy's preferred-stock changes to let it resume bitcoin purchases.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -39037,12 +39184,14 @@
   "source_urls": [
    "https://www.coindesk.com/markets/2026/10/30/crypto-liquidations-jump-to-usd1-57-billion-as-binance-hack-sends-bitcoin-ether-lower",
    "https://www.coindesk.com/markets/2026/10/30/usd6-billion-binance-hack-sends-bitcoin-ether-tumbling-standard-chartered-sees-more-losses-ahead",
-   "https://trendingtopics.eu/binance-hack-bitcoin-76650-dollars-crypto-market"
+   "https://trendingtopics.eu/binance-hack-bitcoin-76650-dollars-crypto-market",
+   "https://www.coindesk.com/markets/2026/10/30/live-news-binance-hack-rattles-crypto-as-intel-plunges-and-ai-spending-fears-hit-tech"
   ],
   "source_names": [
    "CoinDesk",
    "CoinDesk",
-   "Trending Topics"
+   "Trending Topics",
+   "CoinDesk"
   ],
   "sources": [
    {
@@ -39064,6 +39213,13 @@
     "url": "https://trendingtopics.eu/binance-hack-bitcoin-76650-dollars-crypto-market",
     "name": "Trending Topics",
     "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/30/live-news-binance-hack-rattles-crypto-as-intel-plunges-and-ai-spending-fears-hit-tech",
+    "name": "CoinDesk",
+    "kind": "secondary",
     "checked": true,
     "confirms": true
    }
@@ -39088,6 +39244,13 @@
     "url": "https://trendingtopics.eu/binance-hack-bitcoin-76650-dollars-crypto-market",
     "name": "Trending Topics",
     "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/10/30/live-news-binance-hack-rattles-crypto-as-intel-plunges-and-ai-spending-fears-hit-tech",
+    "name": "CoinDesk",
+    "kind": "secondary",
     "checked": true,
     "confirms": true
    }
@@ -39120,6 +39283,13 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/10/30/live-news-binance-hack-rattles-crypto-as-intel-plunges-and-ai-spending-fears-hit-tech",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -39140,6 +39310,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 2,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-30T13:16-04:00",
+    "headline": "Bitcoin near $77,000, down about 4.5% in 24 hours as Binance hack and tech selloff weigh; SOL down about 6%",
+    "summary": "CoinDesk ticker midday Friday: BTC about $77,170 (-4.5%), ETH about $2,240 (-4.2%), XRP about $1.25 (-3.5%), SOL about $94.80 (-6.1%). Nasdaq down about 2.7% led by a 29% Intel drop. Crypto stocks fell: Coinbase -12%, Strategy -11%, Circle -9.5%.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "UNVERIFIED"
    }
   ],
