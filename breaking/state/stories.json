@@ -37588,11 +37588,13 @@
   "emergency": false,
   "source_urls": [
    "https://www.analyticsinsight.net/price-analysis/crypto-prices-today-bitcoin-slips-near-usd-80361-as-fed-hold-keeps-hike-fears-alive",
-   "https://bravenewcoin.com/insights/crypto-news-today-btc-eth-xrp-slide-after-fed-decision-keeps-rates-unchanged"
+   "https://bravenewcoin.com/insights/crypto-news-today-btc-eth-xrp-slide-after-fed-decision-keeps-rates-unchanged",
+   "https://koinbulteni.com/en/bitcoin-and-altcoins-market-overview-october-31-2026-291495.html"
   ],
   "source_names": [
    "Analytics Insight",
-   "Brave New Coin"
+   "Brave New Coin",
+   "Koin Bulteni"
   ],
   "sources": [
    {
@@ -37605,6 +37607,13 @@
    {
     "url": "https://bravenewcoin.com/insights/crypto-news-today-btc-eth-xrp-slide-after-fed-decision-keeps-rates-unchanged",
     "name": "Brave New Coin",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://koinbulteni.com/en/bitcoin-and-altcoins-market-overview-october-31-2026-291495.html",
+    "name": "Koin Bulteni",
     "kind": "other",
     "checked": true,
     "confirms": true
@@ -37621,6 +37630,13 @@
    {
     "url": "https://bravenewcoin.com/insights/crypto-news-today-btc-eth-xrp-slide-after-fed-decision-keeps-rates-unchanged",
     "name": "Brave New Coin",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://koinbulteni.com/en/bitcoin-and-altcoins-market-overview-october-31-2026-291495.html",
+    "name": "Koin Bulteni",
     "kind": "other",
     "checked": true,
     "confirms": true
@@ -37647,6 +37663,13 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Koin Bulteni",
+     "url": "https://koinbulteni.com/en/bitcoin-and-altcoins-market-overview-october-31-2026-291495.html",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -37667,6 +37690,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-31T07:19-04:00",
+    "headline": "Bitcoin holds near $77,000 Saturday; ether flat, XRP and solana slightly lower",
+    "summary": "Bitcoin traded around $77,300, down about 1.2% in 24 hours; ether near $2,240, flat; XRP about $1.25, down 0.5%; solana near $96, down 1.3%. About $400 million in positions were liquidated over 24 hours.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "UNVERIFIED"
    }
   ],
@@ -38445,7 +38477,9 @@
    "https://www.theblock.co/news/business/2026-10-30-binance-hack-largest-crypto-hack-north-korea-432225",
    "https://www.theblock.co/news/regulation/2026-10-30-trump-looking-into-binance-hack-calls-grow-for-crypto-rules-432236",
    "https://decrypt.co/382285/binance-hack-why-offshore-exchanges-need-us-oversight-cftc-chair",
-   "https://decrypt.co/382268/secret-service-fbi-binance-hack-probe"
+   "https://decrypt.co/382268/secret-service-fbi-binance-hack-probe",
+   "https://www.binance.com/en/support/announcement/detail/d3306d9dca5243548c813b605e1d1751",
+   "https://crypto.news/binance-hack-recovery-withdrawals-proof-of-reserves/"
   ],
   "source_names": [
    "The Block",
@@ -38483,7 +38517,9 @@
    "The Block",
    "The Block",
    "Decrypt",
-   "Decrypt"
+   "Decrypt",
+   "Binance",
+   "crypto.news"
   ],
   "sources": [
    {
@@ -38757,6 +38793,20 @@
     "checked": true,
     "confirms": true,
     "origin": "Reuters"
+   },
+   {
+    "url": "https://www.binance.com/en/support/announcement/detail/d3306d9dca5243548c813b605e1d1751",
+    "name": "Binance",
+    "kind": "primary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://crypto.news/binance-hack-recovery-withdrawals-proof-of-reserves/",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -38946,15 +38996,29 @@
     "checked": true,
     "confirms": true,
     "origin": "Reuters"
+   },
+   {
+    "url": "https://www.binance.com/en/support/announcement/detail/d3306d9dca5243548c813b605e1d1751",
+    "name": "Binance",
+    "kind": "primary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://crypto.news/binance-hack-recovery-withdrawals-proof-of-reserves/",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "VERIFIED",
   "verification": {
    "status": "VERIFIED",
-   "independent_sources": 5,
-   "has_primary": false,
-   "score": 0.8,
-   "reason": "5 independent credible sources confirm it (no primary source yet)",
+   "independent_sources": 6,
+   "has_primary": true,
+   "score": 1.0,
+   "reason": "6 independent credible sources confirm it (incl. a primary source)",
    "sources_checked": [
     {
      "name": "CoinDesk",
@@ -39130,6 +39194,20 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "Binance",
+     "url": "https://www.binance.com/en/support/announcement/detail/d3306d9dca5243548c813b605e1d1751",
+     "category": "primary",
+     "counts": true,
+     "note": "primary (known official domain)"
+    },
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/binance-hack-recovery-withdrawals-proof-of-reserves/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -39203,6 +39281,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 3,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-31T07:19-04:00",
+    "headline": "Binance sets aside $6.34 billion after hack and plans phased restart of withdrawals this weekend",
+    "summary": "Binance's October 30 recovery update says it has set aside more than $6.34 billion, about $5 billion already in the stolen token types, and targets resuming withdrawals in phases within about 34 hours, subject to security checks. Proof of reserves results are due Monday, November 2. Withdrawals had not reopened as of Saturday morning.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
     "verification": "VERIFIED"
    }
   ],
@@ -40081,6 +40168,76 @@
   ],
   "market_significance": "Shows enforcement reach on bridge exploits.",
   "trigger": "Decrypt latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261031_c2cef8",
+  "headline": "Spot bitcoin ETFs lose $643 million on October 30, biggest daily outflow since June",
+  "summary": "US spot bitcoin ETFs saw $643.2 million in net outflows on Friday, led by BlackRock's IBIT at $233.7 million and Fidelity's FBTC at $201 million, per Farside data.",
+  "detected_at": "2026-10-31T07:19-04:00",
+  "active_since": "2026-10-31T07:19-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "etf",
+  "event_time": "2026-10-30T20:00:00Z",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://crypto.news/bitcoin-etfs-643-million-outflows-october-30/"
+  ],
+  "source_names": [
+   "crypto.news"
+  ],
+  "sources": [
+   {
+    "url": "https://crypto.news/bitcoin-etfs-643-million-outflows-october-30/",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://crypto.news/bitcoin-etfs-643-million-outflows-october-30/",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/bitcoin-etfs-643-million-outflows-october-30/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Routine flow data, single outlet checked."
+  ],
+  "market_significance": "Largest daily exit since June amid hack-driven selling.",
+  "trigger": "Farside daily flow data",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
