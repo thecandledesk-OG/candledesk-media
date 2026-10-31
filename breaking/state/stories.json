@@ -40545,6 +40545,15 @@
     "level": "NORMAL",
     "sources_added": 1,
     "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-31T16:10-04:00",
+    "headline": "DNS hijack of a dozen DeFi sites tied to registrar Name.com; about $138,000 stolen so far",
+    "summary": "The Block traced about $138,000 stolen to three EVM wallets after 12 DeFi front ends, all registered with Name.com, were hijacked and rigged with the Step Drainer kit (Blockaid). Affected include Flap, Kintsu, Pickle Finance, Origami Finance, FluxBeam, Echelon. Solana/Aptos losses not yet counted. Kintsu and Origami blame Vercel; Name.com has not given a public explanation.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
    }
   ],
   "posts": [],
