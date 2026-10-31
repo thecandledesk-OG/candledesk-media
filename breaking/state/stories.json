@@ -38479,7 +38479,9 @@
    "https://decrypt.co/382285/binance-hack-why-offshore-exchanges-need-us-oversight-cftc-chair",
    "https://decrypt.co/382268/secret-service-fbi-binance-hack-probe",
    "https://www.binance.com/en/support/announcement/detail/d3306d9dca5243548c813b605e1d1751",
-   "https://crypto.news/binance-hack-recovery-withdrawals-proof-of-reserves/"
+   "https://crypto.news/binance-hack-recovery-withdrawals-proof-of-reserves/",
+   "https://www.forbesafrica.com/current-affairs/2026/10/31/binance-says-it-plans-to-resume-withdrawals-this-weekend-after-6-3-billion-hack",
+   "https://www.chaincatcher.com/en/article/2300556"
   ],
   "source_names": [
    "The Block",
@@ -38519,7 +38521,9 @@
    "Decrypt",
    "Decrypt",
    "Binance",
-   "crypto.news"
+   "crypto.news",
+   "Forbes",
+   "ChainCatcher"
   ],
   "sources": [
    {
@@ -38807,6 +38811,20 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.forbesafrica.com/current-affairs/2026/10/31/binance-says-it-plans-to-resume-withdrawals-this-weekend-after-6-3-billion-hack",
+    "name": "Forbes",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.chaincatcher.com/en/article/2300556",
+    "name": "ChainCatcher",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -39010,6 +39028,20 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.forbesafrica.com/current-affairs/2026/10/31/binance-says-it-plans-to-resume-withdrawals-this-weekend-after-6-3-billion-hack",
+    "name": "Forbes",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.chaincatcher.com/en/article/2300556",
+    "name": "ChainCatcher",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "VERIFIED",
@@ -39208,6 +39240,20 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Forbes",
+     "url": "https://www.forbesafrica.com/current-affairs/2026/10/31/binance-says-it-plans-to-resume-withdrawals-this-weekend-after-6-3-billion-hack",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "ChainCatcher",
+     "url": "https://www.chaincatcher.com/en/article/2300556",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -39290,6 +39336,33 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 2,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-31T10:08-04:00",
+    "headline": "Binance sets aside $6.34 billion to cover hack; withdrawals to resume this weekend",
+    "summary": "Green candles only! Binance set aside six point three four billion; withdrawals return this weekend.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-31T10:08-04:00",
+    "headline": "Binance withdrawals return only in phases as Fear and Greed sits at 29",
+    "summary": "Check the yields first. Withdrawals return only in phases, and fear sits at twenty-nine.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-31T10:08-04:00",
+    "headline": "Tether freezes over $1.56 billion USDT tied to the Binance hack; Circle freezes 800 million USDC",
+    "summary": "Psst... Tether just froze over one point five six billion tied to the hack.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
     "verification": "VERIFIED"
    }
   ],
@@ -39505,7 +39578,9 @@
    "https://trendingtopics.eu/binance-hack-bitcoin-76650-dollars-crypto-market",
    "https://www.coindesk.com/markets/2026/10/30/live-news-binance-hack-rattles-crypto-as-intel-plunges-and-ai-spending-fears-hit-tech",
    "https://finance.yahoo.com/markets/crypto/articles/crypto-market-today-oct-30-211002892.html",
-   "https://u.today/price-analysis/binance-coin-bnb-xrp-bitcoin-btc-and-ethereum-eth-price-analysis-for-october-31-biggest-volatility"
+   "https://u.today/price-analysis/binance-coin-bnb-xrp-bitcoin-btc-and-ethereum-eth-price-analysis-for-october-31-biggest-volatility",
+   "https://samzal.com/threads/crypto-prices-today-oct-31-2026.847/",
+   "https://www.coingabbar.com/en/crypto-news-october-31-bitcoin-eth-price-binance-hack-update"
   ],
   "source_names": [
    "CoinDesk",
@@ -39513,7 +39588,9 @@
    "Trending Topics",
    "CoinDesk",
    "Yahoo Finance (Motley Fool)",
-   "U.Today"
+   "U.Today",
+   "Samzal",
+   "CoinGabbar"
   ],
   "sources": [
    {
@@ -39556,6 +39633,20 @@
    {
     "url": "https://u.today/price-analysis/binance-coin-bnb-xrp-bitcoin-btc-and-ethereum-eth-price-analysis-for-october-31-biggest-volatility",
     "name": "U.Today",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://samzal.com/threads/crypto-prices-today-oct-31-2026.847/",
+    "name": "Samzal",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coingabbar.com/en/crypto-news-october-31-bitcoin-eth-price-binance-hack-update",
+    "name": "CoinGabbar",
     "kind": "other",
     "checked": true,
     "confirms": true
@@ -39602,6 +39693,20 @@
    {
     "url": "https://u.today/price-analysis/binance-coin-bnb-xrp-bitcoin-btc-and-ethereum-eth-price-analysis-for-october-31-biggest-volatility",
     "name": "U.Today",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://samzal.com/threads/crypto-prices-today-oct-31-2026.847/",
+    "name": "Samzal",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coingabbar.com/en/crypto-news-october-31-bitcoin-eth-price-binance-hack-update",
+    "name": "CoinGabbar",
     "kind": "other",
     "checked": true,
     "confirms": true
@@ -39656,6 +39761,20 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Samzal",
+     "url": "https://samzal.com/threads/crypto-prices-today-oct-31-2026.847/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinGabbar",
+     "url": "https://www.coingabbar.com/en/crypto-news-october-31-bitcoin-eth-price-binance-hack-update",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -39704,6 +39823,24 @@
     "level": "NORMAL",
     "sources_added": 1,
     "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-31T10:15-04:00",
+    "headline": "Crypto steadies after October sell-off: bitcoin near $77,000, ether up slightly, Fear and Greed near 30",
+    "summary": "BTC about -1% over 24h near $77,240, ETH about +0.4% near $2,240, XRP about -0.3% near $1.24, SOL about -1.7% near $95. Routine moves after the Binance-hack sell-off.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-31T10:15-04:00",
+    "headline": "Threshold Network pauses tBTC minting, deposits and redemptions for safety maintenance",
+    "summary": "Threshold Network paused new tBTC minting, BTC deposits and redemptions for safety maintenance; no loss reported.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "VERIFIED"
    }
   ],
   "posts": [],
@@ -39731,13 +39868,15 @@
    "https://www.coindesk.com/markets/2026/10/30/bitcoin-ether-and-xrp-selloff-wipes-out-usd1-5-billion-in-leveraged-crypto-bets",
    "https://fxnewsgroup.com/forex-news/cryptocurrency/binance-6-3b-north-korea-hack-withdrawals-paused-48-hours-bitcoin-falls/",
    "https://www.coingabbar.com/en/crypto-news-today-bitcoin-ethereum-price-falls-binance-hacked",
-   "https://cryptoticker.io/en/bitcoin-price-monthly-close-six-week-low/"
+   "https://cryptoticker.io/en/bitcoin-price-monthly-close-six-week-low/",
+   "https://www.spendnode.io/blog/october-300b-wipeout-uptober-collapse-october-2026/"
   ],
   "source_names": [
    "CoinDesk",
    "FX News Group",
    "CoinGabbar",
-   "CryptoTicker"
+   "CryptoTicker",
+   "SpendNode"
   ],
   "sources": [
    {
@@ -39764,6 +39903,13 @@
    {
     "url": "https://cryptoticker.io/en/bitcoin-price-monthly-close-six-week-low/",
     "name": "CryptoTicker",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.spendnode.io/blog/october-300b-wipeout-uptober-collapse-october-2026/",
+    "name": "SpendNode",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -39794,6 +39940,13 @@
    {
     "url": "https://cryptoticker.io/en/bitcoin-price-monthly-close-six-week-low/",
     "name": "CryptoTicker",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.spendnode.io/blog/october-300b-wipeout-uptober-collapse-october-2026/",
+    "name": "SpendNode",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -39834,6 +39987,13 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "SpendNode",
+     "url": "https://www.spendnode.io/blog/october-300b-wipeout-uptober-collapse-october-2026/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -39859,6 +40019,15 @@
     "at": "2026-10-30T10:09-04:00",
     "headline": "Binance withdrawals paused as $1.5 billion in crypto longs are liquidated",
     "summary": "Check the yields first. Withdrawals are paused, and one point five billion in longs liquidated.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-31T10:08-04:00",
+    "headline": "October wiped about $300 billion off the crypto market",
+    "summary": "Here's what moved the chain today. October wiped about three hundred billion dollars off crypto.",
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 1,
@@ -40029,9 +40198,19 @@
   "market_significance": "Reminder to buy hardware wallets direct from the maker.",
   "trigger": "The Block latest news",
   "content_created": false,
-  "publication_status": "QUEUED_FOR_DAILY",
+  "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-10-31T10:08-04:00",
+    "headline": "Trezor warns some Safe 5 wallets from reseller CryptoBilis may hide a phrase-stealing implant",
+    "summary": "Trezor warns some Safe Five wallets from one reseller may hide a phrase-stealing cellular implant.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -40238,6 +40417,262 @@
   ],
   "market_significance": "Largest daily exit since June amid hack-driven selling.",
   "trigger": "Farside daily flow data",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261031_798330",
+  "headline": "DNS hijack wave hits 12 crypto sites with the StepDrainer toolkit; no losses reported yet",
+  "summary": "Blockaid flagged DNS hijacks on 12 DeFi front ends including Flap, Kintsu, StonkFun and Pickle Finance redirecting wallet connections to a drainer. Victims and losses not yet established.",
+  "detected_at": "2026-10-31T10:15-04:00",
+  "active_since": "2026-10-31T10:15-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "hack_exploit",
+  "event_time": "2026-10-31T07:00-04:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://crypto.news/defi-dns-attack-12-sites-step-drainer/",
+   "https://cryptoadventure.com/stepdrainer-hits-12-crypto-sites-in-dns-hijack-wave/"
+  ],
+  "source_names": [
+   "crypto.news",
+   "Crypto Adventure"
+  ],
+  "sources": [
+   {
+    "url": "https://crypto.news/defi-dns-attack-12-sites-step-drainer/",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptoadventure.com/stepdrainer-hits-12-crypto-sites-in-dns-hijack-wave/",
+    "name": "Crypto Adventure",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://crypto.news/defi-dns-attack-12-sites-step-drainer/",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptoadventure.com/stepdrainer-hits-12-crypto-sites-in-dns-hijack-wave/",
+    "name": "Crypto Adventure",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/defi-dns-attack-12-sites-step-drainer/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Crypto Adventure",
+     "url": "https://cryptoadventure.com/stepdrainer-hits-12-crypto-sites-in-dns-hijack-wave/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: No dollar loss reported; small front ends"
+  ],
+  "market_significance": "security warning for DeFi users",
+  "trigger": "crypto.news report",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261031_8c9318",
+  "headline": "Circle starts cutting CCTP V1 burn limits ahead of December 1 shutdown of legacy USDC bridge contracts",
+  "summary": "From October 31 Circle phases down daily burn limits on CCTP V1; V1 contracts pause December 1, so integrations must move to CCTP V2.",
+  "detected_at": "2026-10-31T10:15-04:00",
+  "active_since": "2026-10-31T10:15-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "USDC"
+  ],
+  "event_type": "protocol_upgrade",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://blockchainreporter.net/circle-cctp-v1-deprecation-legacy-usdc-burn-limits/",
+   "https://www.circle.com/blog/migrate-to-cctp-v2-ahead-of-cctp-v1-legacy-deprecation"
+  ],
+  "source_names": [
+   "Blockchain Reporter",
+   "Circle"
+  ],
+  "sources": [
+   {
+    "url": "https://blockchainreporter.net/circle-cctp-v1-deprecation-legacy-usdc-burn-limits/",
+    "name": "Blockchain Reporter",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.circle.com/blog/migrate-to-cctp-v2-ahead-of-cctp-v1-legacy-deprecation",
+    "name": "Circle",
+    "kind": "primary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://blockchainreporter.net/circle-cctp-v1-deprecation-legacy-usdc-burn-limits/",
+    "name": "Blockchain Reporter",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.circle.com/blog/migrate-to-cctp-v2-ahead-of-cctp-v1-legacy-deprecation",
+    "name": "Circle",
+    "kind": "primary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Blockchain Reporter",
+     "url": "https://blockchainreporter.net/circle-cctp-v1-deprecation-legacy-usdc-burn-limits/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Circle",
+     "url": "https://www.circle.com/blog/migrate-to-cctp-v2-ahead-of-cctp-v1-legacy-deprecation",
+     "category": "primary",
+     "counts": false,
+     "note": "primary (known official domain); not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Pre-announced, gradual change"
+  ],
+  "market_significance": "developers and bridges using V1",
+  "trigger": "blockchainreporter report",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261031_af7b8d",
+  "headline": "Bitcoin white paper turns 18",
+  "summary": "Satoshi Nakamoto published the bitcoin white paper on October 31, 2008, eighteen years ago today.",
+  "detected_at": "2026-10-31T10:15-04:00",
+  "active_since": "2026-10-31T10:15-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.9,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "other",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://phemex.com/news/article/bitcoin-whitepaper-marks-18th-anniversary-of-satoshi-nakamotos-landmark-publication-101962"
+  ],
+  "source_names": [
+   "Phemex"
+  ],
+  "sources": [
+   {
+    "url": "https://phemex.com/news/article/bitcoin-whitepaper-marks-18th-anniversary-of-satoshi-nakamotos-landmark-publication-101962",
+    "name": "Phemex",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://phemex.com/news/article/bitcoin-whitepaper-marks-18th-anniversary-of-satoshi-nakamotos-landmark-publication-101962",
+    "name": "Phemex",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Phemex",
+     "url": "https://phemex.com/news/article/bitcoin-whitepaper-marks-18th-anniversary-of-satoshi-nakamotos-landmark-publication-101962",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Anniversary"
+  ],
+  "market_significance": "evergreen",
+  "trigger": "anniversary",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
