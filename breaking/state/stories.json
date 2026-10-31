@@ -40444,12 +40444,14 @@
   "source_urls": [
    "https://crypto.news/defi-dns-attack-12-sites-step-drainer/",
    "https://cryptoadventure.com/stepdrainer-hits-12-crypto-sites-in-dns-hijack-wave/",
-   "https://www.theblock.co/news/defi/2026-10-31-hackers-hijack-a-dozen-defi-websites-all-registered-with-name-com-and-steal-about-138000-432251"
+   "https://www.theblock.co/news/defi/2026-10-31-hackers-hijack-a-dozen-defi-websites-all-registered-with-name-com-and-steal-about-138000-432251",
+   "https://thecybersecguru.com/news/name-com-dns-hijack-step-drainer-defi/"
   ],
   "source_names": [
    "crypto.news",
    "Crypto Adventure",
-   "The Block"
+   "The Block",
+   "The CyberSec Guru"
   ],
   "sources": [
    {
@@ -40470,6 +40472,13 @@
     "url": "https://www.theblock.co/news/defi/2026-10-31-hackers-hijack-a-dozen-defi-websites-all-registered-with-name-com-and-steal-about-138000-432251",
     "name": "The Block",
     "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://thecybersecguru.com/news/name-com-dns-hijack-step-drainer-defi/",
+    "name": "The CyberSec Guru",
+    "kind": "other",
     "checked": true,
     "confirms": true
    }
@@ -40493,6 +40502,13 @@
     "url": "https://www.theblock.co/news/defi/2026-10-31-hackers-hijack-a-dozen-defi-websites-all-registered-with-name-com-and-steal-about-138000-432251",
     "name": "The Block",
     "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://thecybersecguru.com/news/name-com-dns-hijack-step-drainer-defi/",
+    "name": "The CyberSec Guru",
+    "kind": "other",
     "checked": true,
     "confirms": true
    }
@@ -40525,6 +40541,13 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "The CyberSec Guru",
+     "url": "https://thecybersecguru.com/news/name-com-dns-hijack-step-drainer-defi/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -40553,6 +40576,15 @@
     "new_development": true,
     "level": "NORMAL",
     "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-31T19:09-04:00",
+    "headline": "DNS hijack of 12 DeFi sites registered with Name.com: about $138,000 stolen so far via the Step Drainer kit",
+    "summary": "Blockaid flagged 12 DeFi front ends (Flap, Kintsu, Pickle Finance, Origami and others) serving the Step Drainer wallet-drainer kit. All were registered with Name.com; ten were briefly suspended. The Block traced about $138,000 stolen on EVM chains so far; Solana and Aptos losses not yet counted. Root cause unconfirmed.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "UNVERIFIED"
    }
   ],
