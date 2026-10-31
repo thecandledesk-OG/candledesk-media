@@ -38442,7 +38442,10 @@
    "https://www.trmlabs.com/resources/blog/north-korea-steals-usd-6-36-billion-from-binance-in-the-largest-hack-in-history",
    "https://www.forbes.com/sites/ninabambysheva/2026/10/30/north-koreas-6-billion-binance-hack-exposes-cryptos-worsening-security-problem/",
    "https://www.forbes.com/sites/antoniopequenoiv/2026/10/30/binance-says-it-plans-to-resume-withdrawals-this-weekend-after-63-billion-hack/",
-   "https://www.theblock.co/news/business/2026-10-30-binance-hack-largest-crypto-hack-north-korea-432225"
+   "https://www.theblock.co/news/business/2026-10-30-binance-hack-largest-crypto-hack-north-korea-432225",
+   "https://www.theblock.co/news/regulation/2026-10-30-trump-looking-into-binance-hack-calls-grow-for-crypto-rules-432236",
+   "https://decrypt.co/382285/binance-hack-why-offshore-exchanges-need-us-oversight-cftc-chair",
+   "https://decrypt.co/382268/secret-service-fbi-binance-hack-probe"
   ],
   "source_names": [
    "The Block",
@@ -38477,7 +38480,10 @@
    "TRM Labs",
    "Forbes",
    "Forbes",
-   "The Block"
+   "The Block",
+   "The Block",
+   "Decrypt",
+   "Decrypt"
   ],
   "sources": [
    {
@@ -38729,6 +38735,28 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-10-30-trump-looking-into-binance-hack-calls-grow-for-crypto-rules-432236",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/382285/binance-hack-why-offshore-exchanges-need-us-oversight-cftc-chair",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/382268/secret-service-fbi-binance-hack-probe",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "origin": "Reuters"
    }
   ],
   "gate_sources": [
@@ -38896,15 +38924,37 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-10-30-trump-looking-into-binance-hack-calls-grow-for-crypto-rules-432236",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/382285/binance-hack-why-offshore-exchanges-need-us-oversight-cftc-chair",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/382268/secret-service-fbi-binance-hack-probe",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "origin": "Reuters"
    }
   ],
   "verification_status": "VERIFIED",
   "verification": {
    "status": "VERIFIED",
-   "independent_sources": 4,
+   "independent_sources": 5,
    "has_primary": false,
    "score": 0.8,
-   "reason": "4 independent credible sources confirm it (no primary source yet)",
+   "reason": "5 independent credible sources confirm it (no primary source yet)",
    "sources_checked": [
     {
      "name": "CoinDesk",
@@ -39059,6 +39109,27 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-10-30-trump-looking-into-binance-hack-calls-grow-for-crypto-rules-432236",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/382285/binance-hack-why-offshore-exchanges-need-us-oversight-cftc-chair",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/382268/secret-service-fbi-binance-hack-probe",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -39123,6 +39194,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 2,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-30T22:09-04:00",
+    "headline": "Trump says he is looking into the Binance hack as CFTC chair calls for oversight of offshore exchanges; Circle freezes about $823 million in USDC",
+    "summary": "At a Friday press conference Trump said he was looking into the $6.3 billion Binance hack and called crypto 'a little bit dangerous'. CFTC Chair Michael Selig told CNBC the hack proves the case for offshore exchanges registering with the CFTC. Decrypt reports the FBI and Secret Service are working with Binance and that Circle froze about $823 million in USDC tied to the attack. The Digital Chamber urged Congress to pass market-structure rules. No new government action.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 3,
     "verification": "VERIFIED"
    }
   ],
@@ -39337,14 +39417,16 @@
    "https://www.coindesk.com/markets/2026/10/30/usd6-billion-binance-hack-sends-bitcoin-ether-tumbling-standard-chartered-sees-more-losses-ahead",
    "https://trendingtopics.eu/binance-hack-bitcoin-76650-dollars-crypto-market",
    "https://www.coindesk.com/markets/2026/10/30/live-news-binance-hack-rattles-crypto-as-intel-plunges-and-ai-spending-fears-hit-tech",
-   "https://finance.yahoo.com/markets/crypto/articles/crypto-market-today-oct-30-211002892.html"
+   "https://finance.yahoo.com/markets/crypto/articles/crypto-market-today-oct-30-211002892.html",
+   "https://u.today/price-analysis/binance-coin-bnb-xrp-bitcoin-btc-and-ethereum-eth-price-analysis-for-october-31-biggest-volatility"
   ],
   "source_names": [
    "CoinDesk",
    "CoinDesk",
    "Trending Topics",
    "CoinDesk",
-   "Yahoo Finance (Motley Fool)"
+   "Yahoo Finance (Motley Fool)",
+   "U.Today"
   ],
   "sources": [
    {
@@ -39383,6 +39465,13 @@
     "checked": true,
     "confirms": true,
     "origin": "Motley Fool"
+   },
+   {
+    "url": "https://u.today/price-analysis/binance-coin-bnb-xrp-bitcoin-btc-and-ethereum-eth-price-analysis-for-october-31-biggest-volatility",
+    "name": "U.Today",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -39422,6 +39511,13 @@
     "checked": true,
     "confirms": true,
     "origin": "Motley Fool"
+   },
+   {
+    "url": "https://u.today/price-analysis/binance-coin-bnb-xrp-bitcoin-btc-and-ethereum-eth-price-analysis-for-october-31-biggest-volatility",
+    "name": "U.Today",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "VERIFIED",
@@ -39466,6 +39562,13 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "U.Today",
+     "url": "https://u.today/price-analysis/binance-coin-bnb-xrp-bitcoin-btc-and-ethereum-eth-price-analysis-for-october-31-biggest-volatility",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -39501,6 +39604,15 @@
     "at": "2026-10-30T19:16-04:00",
     "headline": "Bitcoin heads for a second straight losing October near $76,000, down about 8% for the month",
     "summary": "Bitcoin traded near seventy-six thousand dollars Friday, down about 8.4% for October and on track for a second straight October decline, as a tech stock sell-off and the Binance hack weighed on risk assets. 24h moves (CoinGecko ~20:16 UTC): BTC -1.2%, ETH -0.4%, XRP -1.8%, SOL -0.6%.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-30T22:09-04:00",
+    "headline": "Bitcoin near $76,600 as crypto ends October lower after the Binance hack; ether, XRP and BNB also down",
+    "summary": "Bitcoin traded around $76,600 late Friday, near its lowest since mid-September. Ether was near $2,220, XRP near $1.24 and BNB near $696. Daily moves stayed in the low single digits.",
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 1,
@@ -39899,6 +40011,76 @@
   ],
   "market_significance": "Physical 'wrench attack' risk for holders.",
   "trigger": "The Block latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261030_ddeb09",
+  "headline": "Israel extradites alleged Nomad bridge exploiter to the U.S. over $2.8 million theft",
+  "summary": "Decrypt, citing a report, says Israel extradited a man accused of taking about $2.8 million in the 2022 Nomad bridge exploit to the United States.",
+  "detected_at": "2026-10-30T22:09-04:00",
+  "active_since": "2026-10-30T22:09-04:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "legal",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://decrypt.co/382230/israel-extradites-alleged-nomad-bridge-exploiter-to-us-over-2-8m-theft-report"
+  ],
+  "source_names": [
+   "Decrypt"
+  ],
+  "sources": [
+   {
+    "url": "https://decrypt.co/382230/israel-extradites-alleged-nomad-bridge-exploiter-to-us-over-2-8m-theft-report",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://decrypt.co/382230/israel-extradites-alleged-nomad-bridge-exploiter-to-us-over-2-8m-theft-report",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/382230/israel-extradites-alleged-nomad-bridge-exploiter-to-us-over-2-8m-theft-report",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Legal follow-up on an old exploit; no market impact."
+  ],
+  "market_significance": "Shows enforcement reach on bridge exploits.",
+  "trigger": "Decrypt latest news",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
