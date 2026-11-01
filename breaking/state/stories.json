@@ -37591,14 +37591,20 @@
    "https://bravenewcoin.com/insights/crypto-news-today-btc-eth-xrp-slide-after-fed-decision-keeps-rates-unchanged",
    "https://koinbulteni.com/en/bitcoin-and-altcoins-market-overview-october-31-2026-291495.html",
    "https://www.coindesk.com/price/bitcoin",
-   "https://www.marketalleys.com/post/ether-rises-0-57-over-24-hours-to-2-261-08-2026-11-01"
+   "https://www.marketalleys.com/post/ether-rises-0-57-over-24-hours-to-2-261-08-2026-11-01",
+   "https://crypto.news/crypto-prices-today-bitcoin-78k-lit-altcoin-gainers/",
+   "https://coincodex.com/article/94686/daily-market-update-for-november-01-2026",
+   "https://coingape.com/markets/top-crypto-market-events-to-watch-this-week-ahead-of-u-s-midterm-elections/"
   ],
   "source_names": [
    "Analytics Insight",
    "Brave New Coin",
    "Koin Bulteni",
    "CoinDesk",
-   "Market Alleys"
+   "Market Alleys",
+   "crypto.news",
+   "CoinCodex",
+   "CoinGape"
   ],
   "sources": [
    {
@@ -37632,6 +37638,27 @@
    {
     "url": "https://www.marketalleys.com/post/ether-rises-0-57-over-24-hours-to-2-261-08-2026-11-01",
     "name": "Market Alleys",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://crypto.news/crypto-prices-today-bitcoin-78k-lit-altcoin-gainers/",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://coincodex.com/article/94686/daily-market-update-for-november-01-2026",
+    "name": "CoinCodex",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://coingape.com/markets/top-crypto-market-events-to-watch-this-week-ahead-of-u-s-midterm-elections/",
+    "name": "CoinGape",
     "kind": "other",
     "checked": true,
     "confirms": true
@@ -37669,6 +37696,27 @@
    {
     "url": "https://www.marketalleys.com/post/ether-rises-0-57-over-24-hours-to-2-261-08-2026-11-01",
     "name": "Market Alleys",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://crypto.news/crypto-prices-today-bitcoin-78k-lit-altcoin-gainers/",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://coincodex.com/article/94686/daily-market-update-for-november-01-2026",
+    "name": "CoinCodex",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://coingape.com/markets/top-crypto-market-events-to-watch-this-week-ahead-of-u-s-midterm-elections/",
+    "name": "CoinGape",
     "kind": "other",
     "checked": true,
     "confirms": true
@@ -37716,6 +37764,27 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/crypto-prices-today-bitcoin-78k-lit-altcoin-gainers/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinCodex",
+     "url": "https://coincodex.com/article/94686/daily-market-update-for-november-01-2026",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinGape",
+     "url": "https://coingape.com/markets/top-crypto-market-events-to-watch-this-week-ahead-of-u-s-midterm-elections/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -37754,6 +37823,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 2,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-01T07:17-05:00",
+    "headline": "Quiet Sunday for crypto: bitcoin near $78,000, ether up about 1%, solana flat",
+    "summary": "Bitcoin traded near $78,000, up under 1% in 24 hours, ether near $2,270 up about 1%, XRP near $1.25 up about half a percent and solana near $95 roughly flat. Total market cap about $2.6 trillion; volume fell sharply over the weekend. This week brings ISM data Monday, US midterm elections Tuesday and the jobs report Friday.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 3,
     "verification": "UNVERIFIED"
    }
   ],
@@ -38540,7 +38618,13 @@
    "https://www.globalbankingandfinance.com/binance-replenishes-90-assets-stolen-security-incident/",
    "https://lufkindailynews.com/news_reuters/top_news/binance-says-it-has-covered-90-of-losses-from-6-3-billion-hack-so-far/article_437278ad-0c4d-5c1e-8800-8f7565db54dc.html",
    "https://cointelegraph.com/news/binance-hack-90-percent-replenished",
-   "https://www.businesstoday.in/technology/news/story/binance-says-90-of-stolen-crypto-assets-replenished-withdrawals-to-resume-on-november-1-564957-2026-10-31"
+   "https://www.businesstoday.in/technology/news/story/binance-says-90-of-stolen-crypto-assets-replenished-withdrawals-to-resume-on-november-1-564957-2026-10-31",
+   "https://www.coindesk.com/policy/2026/10/31/fbi-confirms-north-korea-s-role-in-usd6-billion-binance-hack-asks-defi-community-to-block-btc-eth-sol-addresses",
+   "https://ca.finance.yahoo.com/news/binance-says-resuming-withdrawals-major-070149747.html",
+   "https://www.freemalaysiatoday.com/category/business/2026/11/01/fbi-says-north-korea-behind-us-6bil-crypto-theft-from-binance",
+   "https://cointelegraph.com/news/binance-says-phase-one-of-withdrawals-opens-after-63b-hack",
+   "https://www.fbi.gov/investigate/cyber/alerts/2026/north-korea-responsible-for-6-billion-binance-attack",
+   "https://x.com/binance/status/2116777408074600621"
   ],
   "source_names": [
    "The Block",
@@ -38586,7 +38670,13 @@
    "Reuters (via Global Banking & Finance Review)",
    "Reuters (via Lufkin Daily News)",
    "Cointelegraph",
-   "Business Today"
+   "Business Today",
+   "CoinDesk",
+   "AFP via Yahoo Finance",
+   "AFP via Free Malaysia Today",
+   "Cointelegraph",
+   "FBI",
+   "Binance on X"
   ],
   "sources": [
    {
@@ -38918,6 +39008,50 @@
     "kind": "other",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/policy/2026/10/31/fbi-confirms-north-korea-s-role-in-usd6-billion-binance-hack-asks-defi-community-to-block-btc-eth-sol-addresses",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://ca.finance.yahoo.com/news/binance-says-resuming-withdrawals-major-070149747.html",
+    "name": "AFP via Yahoo Finance",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "origin": "AFP"
+   },
+   {
+    "url": "https://www.freemalaysiatoday.com/category/business/2026/11/01/fbi-says-north-korea-behind-us-6bil-crypto-theft-from-binance",
+    "name": "AFP via Free Malaysia Today",
+    "kind": "other",
+    "checked": true,
+    "confirms": true,
+    "origin": "AFP"
+   },
+   {
+    "url": "https://cointelegraph.com/news/binance-says-phase-one-of-withdrawals-opens-after-63b-hack",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.fbi.gov/investigate/cyber/alerts/2026/north-korea-responsible-for-6-billion-binance-attack",
+    "name": "FBI",
+    "kind": "primary",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://x.com/binance/status/2116777408074600621",
+    "name": "Binance on X",
+    "kind": "social",
+    "checked": false,
+    "confirms": false
    }
   ],
   "gate_sources": [
@@ -39165,15 +39299,59 @@
     "kind": "other",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/policy/2026/10/31/fbi-confirms-north-korea-s-role-in-usd6-billion-binance-hack-asks-defi-community-to-block-btc-eth-sol-addresses",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://ca.finance.yahoo.com/news/binance-says-resuming-withdrawals-major-070149747.html",
+    "name": "AFP via Yahoo Finance",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "origin": "AFP"
+   },
+   {
+    "url": "https://www.freemalaysiatoday.com/category/business/2026/11/01/fbi-says-north-korea-behind-us-6bil-crypto-theft-from-binance",
+    "name": "AFP via Free Malaysia Today",
+    "kind": "other",
+    "checked": true,
+    "confirms": true,
+    "origin": "AFP"
+   },
+   {
+    "url": "https://cointelegraph.com/news/binance-says-phase-one-of-withdrawals-opens-after-63b-hack",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.fbi.gov/investigate/cyber/alerts/2026/north-korea-responsible-for-6-billion-binance-attack",
+    "name": "FBI",
+    "kind": "primary",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://x.com/binance/status/2116777408074600621",
+    "name": "Binance on X",
+    "kind": "social",
+    "checked": false,
+    "confirms": false
    }
   ],
   "verification_status": "VERIFIED",
   "verification": {
    "status": "VERIFIED",
-   "independent_sources": 7,
+   "independent_sources": 8,
    "has_primary": true,
    "score": 1.0,
-   "reason": "7 independent credible sources confirm it (incl. a primary source)",
+   "reason": "8 independent credible sources confirm it (incl. a primary source)",
    "sources_checked": [
     {
      "name": "CoinDesk",
@@ -39405,6 +39583,48 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/policy/2026/10/31/fbi-confirms-north-korea-s-role-in-usd6-billion-binance-hack-asks-defi-community-to-block-btc-eth-sol-addresses",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "AFP via Yahoo Finance",
+     "url": "https://ca.finance.yahoo.com/news/binance-says-resuming-withdrawals-major-070149747.html",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "AFP via Free Malaysia Today",
+     "url": "https://www.freemalaysiatoday.com/category/business/2026/11/01/fbi-says-north-korea-behind-us-6bil-crypto-theft-from-binance",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Cointelegraph",
+     "url": "https://cointelegraph.com/news/binance-says-phase-one-of-withdrawals-opens-after-63b-hack",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "FBI",
+     "url": "https://www.fbi.gov/investigate/cyber/alerts/2026/north-korea-responsible-for-6-billion-binance-attack",
+     "category": "primary",
+     "counts": false,
+     "note": "primary (known official domain); not opened, so it doesn't count"
+    },
+    {
+     "name": "Binance on X",
+     "url": "https://x.com/binance/status/2116777408074600621",
+     "category": "social",
+     "counts": false,
+     "note": "social/community post — can trigger investigation, never verifies"
     }
    ]
   },
@@ -39523,6 +39743,15 @@
     "new_development": true,
     "level": "IMPORTANT",
     "sources_added": 4,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-01T07:17-05:00",
+    "headline": "FBI officially blames North Korea's TraderTraitor for the $6 billion-plus Binance hack; Binance reopens withdrawals in phases starting with bitcoin",
+    "summary": "The FBI, with the Secret Service and IRS-CI, said Saturday night that North Korea's TraderTraitor group stole more than $6 billion in crypto from Binance on or about October 29, listed over 600 Ethereum, about 20 bitcoin and one Solana address, and asked DeFi platforms to block them. On Sunday Binance began phase one of reopening withdrawals, starting with the bitcoin network, and warned of congestion and delays. President Trump said 'We don't know if it's North Korea.'",
+    "new_development": true,
+    "level": "IMPORTANT",
+    "sources_added": 6,
     "verification": "VERIFIED"
    }
   ],
