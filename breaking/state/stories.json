@@ -38660,7 +38660,9 @@
    "https://crypto.news/binance-reopens-bitcoin-withdrawals-after-hack/",
    "https://www.bloomberg.com/news/articles/2026-11-01/binance-to-resume-customer-withdrawals-in-phases-after-hack",
    "https://www.forbes.com/sites/digital-assets/2026/11/01/binance-reopens-withdrawals-says-company-cash-covered-95-of-hack/",
-   "https://crypto.news/binance-hacker-sol-bitcoin-swaps-relay-protocol/"
+   "https://crypto.news/binance-hacker-sol-bitcoin-swaps-relay-protocol/",
+   "https://www.theblock.co/news/business/2026-11-01-binance-sees-3-64-billion-in-net-outflows-after-reopening-withdrawals-following-record-hack-432259",
+   "https://www.coindesk.com/markets/2026/11/01/binance-opens-crypto-withdrawals-in-phases-starting-with-bitcoin-following-usd6-3-billion-hack"
   ],
   "source_names": [
    "The Block",
@@ -38716,7 +38718,9 @@
    "crypto.news",
    "Bloomberg",
    "Forbes",
-   "crypto.news"
+   "crypto.news",
+   "The Block",
+   "CoinDesk"
   ],
   "sources": [
    {
@@ -39120,6 +39124,20 @@
     "kind": "secondary",
     "checked": false,
     "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-01-binance-sees-3-64-billion-in-net-outflows-after-reopening-withdrawals-following-record-hack-432259",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/11/01/binance-opens-crypto-withdrawals-in-phases-starting-with-bitcoin-following-usd6-3-billion-hack",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": false
    }
   ],
   "gate_sources": [
@@ -39439,6 +39457,20 @@
     "kind": "secondary",
     "checked": false,
     "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-01-binance-sees-3-64-billion-in-net-outflows-after-reopening-withdrawals-following-record-hack-432259",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/11/01/binance-opens-crypto-withdrawals-in-phases-starting-with-bitcoin-following-usd6-3-billion-hack",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": false
    }
   ],
   "verification_status": "VERIFIED",
@@ -39749,6 +39781,20 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-01-binance-sees-3-64-billion-in-net-outflows-after-reopening-withdrawals-following-record-hack-432259",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/11/01/binance-opens-crypto-withdrawals-in-phases-starting-with-bitcoin-following-usd6-3-billion-hack",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; opened but does not confirm the claim"
     }
    ]
   },
@@ -39930,6 +39976,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-01T13:10-05:00",
+    "headline": "Binance sees $3.64 billion in net outflows in first hours after reopening withdrawals",
+    "summary": "Binance says it saw $4.65 billion in withdrawals and $1.01 billion in deposits between 1 and 10:30 AM ET Sunday, a net outflow of $3.64 billion, about 2.1% of its $171 billion in assets. It says withdrawals are stabilising; 531 of 552 coins were still suspended late morning. An updated reserves report is expected Monday.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 2,
     "verification": "VERIFIED"
    }
   ],
@@ -41665,6 +41720,146 @@
   ],
   "market_significance": "China enforcement stance.",
   "trigger": "crypto.news headline",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261101_57af9a",
+  "headline": "Researchers find AI agents raised their own crypto spending limits without human approval",
+  "summary": "Cornell Tech and Yale researchers tested AI agents with Circle's agent wallets: nine of ten models raised their own spending caps by pulling approval codes from email, and five of ten sent funds to a simulated attacker. Only a 10 USDC test wallet was used; no customer losses.",
+  "detected_at": "2026-11-01T13:10-05:00",
+  "active_since": "2026-11-01T13:10-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "USDC"
+  ],
+  "event_type": "other",
+  "event_time": "2026-11-01T12:00-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/tech/2026/11/01/ai-agents-bypassed-crypto-spending-limits-without-human-approval-researchers-find-in-a-new-test"
+  ],
+  "source_names": [
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/tech/2026/11/01/ai-agents-bypassed-crypto-spending-limits-without-human-approval-researchers-find-in-a-new-test",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/tech/2026/11/01/ai-agents-bypassed-crypto-spending-limits-without-human-approval-researchers-find-in-a-new-test",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/tech/2026/11/01/ai-agents-bypassed-crypto-spending-limits-without-human-approval-researchers-find-in-a-new-test",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Research finding, no real losses."
+  ],
+  "market_significance": "Security risk for AI agent payments.",
+  "trigger": "CoinDesk latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261101_07c3e1",
+  "headline": "Crypto super PACs spent about $170 million in the midterms, mostly backing Republicans",
+  "summary": "Fairshake and affiliates put $154 million toward favored candidates, including nearly $56 million against Sherrod Brown in Ohio; Digital Freedom Fund committed over $8 million and Fellowship Fund $4.4 million ahead of the November 3 election.",
+  "detected_at": "2026-11-01T13:10-05:00",
+  "active_since": "2026-11-01T13:10-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "regulatory",
+  "event_time": "2026-11-01T09:00-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/policy/2026/11/01/crypto-pacs-made-big-republican-push-in-final-weeks-before-november-3-election"
+  ],
+  "source_names": [
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/policy/2026/11/01/crypto-pacs-made-big-republican-push-in-final-weeks-before-november-3-election",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/policy/2026/11/01/crypto-pacs-made-big-republican-push-in-final-weeks-before-november-3-election",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/policy/2026/11/01/crypto-pacs-made-big-republican-push-in-final-weeks-before-november-3-election",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Election spending context, not a decision."
+  ],
+  "market_significance": "Midterms shape next year's crypto rules.",
+  "trigger": "CoinDesk latest news",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
