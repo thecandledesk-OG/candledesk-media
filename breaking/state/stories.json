@@ -37595,7 +37595,8 @@
    "https://crypto.news/crypto-prices-today-bitcoin-78k-lit-altcoin-gainers/",
    "https://coincodex.com/article/94686/daily-market-update-for-november-01-2026",
    "https://coingape.com/markets/top-crypto-market-events-to-watch-this-week-ahead-of-u-s-midterm-elections/",
-   "https://www.blockchain.com/explorer/prices"
+   "https://www.blockchain.com/explorer/prices",
+   "https://www.coindesk.com/latest-crypto-news"
   ],
   "source_names": [
    "Analytics Insight",
@@ -37606,7 +37607,8 @@
    "crypto.news",
    "CoinCodex",
    "CoinGape",
-   "Blockchain.com"
+   "Blockchain.com",
+   "CoinDesk"
   ],
   "sources": [
    {
@@ -37669,6 +37671,13 @@
     "url": "https://www.blockchain.com/explorer/prices",
     "name": "Blockchain.com",
     "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/latest-crypto-news",
+    "name": "CoinDesk",
+    "kind": "secondary",
     "checked": true,
     "confirms": true
    }
@@ -37734,6 +37743,13 @@
     "url": "https://www.blockchain.com/explorer/prices",
     "name": "Blockchain.com",
     "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/latest-crypto-news",
+    "name": "CoinDesk",
+    "kind": "secondary",
     "checked": true,
     "confirms": true
    }
@@ -37808,6 +37824,13 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/latest-crypto-news",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -37861,6 +37884,15 @@
     "at": "2026-11-01T10:11-05:00",
     "headline": "Crypto steady Sunday: bitcoin near $77,500, ether and solana up about 1%",
     "summary": "BTC ~$77,506 (+0.2% 24h), ETH ~$2,249 (+0.9%), XRP ~$1.25 (+0.1%), SOL ~$95.84 (+1.2%), BNB ~$705 (+0.7%) per Blockchain.com.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-01T16:11-05:00",
+    "headline": "Crypto quiet on Sunday: bitcoin near $79,600, XRP up about 1.6%",
+    "summary": "Prices are steady Sunday afternoon: bitcoin about $79,570 (down 0.5%), ether about $2,300 (down 0.6%), XRP about $1.30 (up 1.6%), solana near $99.60 (down 1%).",
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 1,
@@ -38662,7 +38694,8 @@
    "https://www.forbes.com/sites/digital-assets/2026/11/01/binance-reopens-withdrawals-says-company-cash-covered-95-of-hack/",
    "https://crypto.news/binance-hacker-sol-bitcoin-swaps-relay-protocol/",
    "https://www.theblock.co/news/business/2026-11-01-binance-sees-3-64-billion-in-net-outflows-after-reopening-withdrawals-following-record-hack-432259",
-   "https://www.coindesk.com/markets/2026/11/01/binance-opens-crypto-withdrawals-in-phases-starting-with-bitcoin-following-usd6-3-billion-hack"
+   "https://www.coindesk.com/markets/2026/11/01/binance-opens-crypto-withdrawals-in-phases-starting-with-bitcoin-following-usd6-3-billion-hack",
+   "https://www.theblock.co/news/defi/2026-11-01-north-korean-hackers-launder-242-million-of-binance-loot-via-tron-as-fbi-presses-thorchain-analyst-432257"
   ],
   "source_names": [
    "The Block",
@@ -38720,7 +38753,8 @@
    "Forbes",
    "crypto.news",
    "The Block",
-   "CoinDesk"
+   "CoinDesk",
+   "The Block"
   ],
   "sources": [
    {
@@ -39138,6 +39172,13 @@
     "kind": "secondary",
     "checked": true,
     "confirms": false
+   },
+   {
+    "url": "https://www.theblock.co/news/defi/2026-11-01-north-korean-hackers-launder-242-million-of-binance-loot-via-tron-as-fbi-presses-thorchain-analyst-432257",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -39471,6 +39512,13 @@
     "kind": "secondary",
     "checked": true,
     "confirms": false
+   },
+   {
+    "url": "https://www.theblock.co/news/defi/2026-11-01-north-korean-hackers-launder-242-million-of-binance-loot-via-tron-as-fbi-presses-thorchain-analyst-432257",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "VERIFIED",
@@ -39795,6 +39843,13 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; opened but does not confirm the claim"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/defi/2026-11-01-north-korean-hackers-launder-242-million-of-binance-loot-via-tron-as-fbi-presses-thorchain-analyst-432257",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -39985,6 +40040,24 @@
     "new_development": true,
     "level": "NORMAL",
     "sources_added": 2,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-01T16:11-05:00",
+    "headline": "Binance sees $3.64 billion in net outflows after reopening withdrawals following record hack",
+    "summary": "After reopening withdrawals following its record hack, Binance recorded about $3.64 billion in net outflows, according to The Block.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-01T16:11-05:00",
+    "headline": "North Korean hackers launder $242 million of Binance hack funds via Tron as FBI presses THORChain, analyst says",
+    "summary": "An analyst says North Korean hackers have laundered about $242 million of funds tied to the Binance hack through Tron, while the FBI presses THORChain.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "VERIFIED"
    }
   ],
