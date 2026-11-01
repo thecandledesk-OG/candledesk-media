@@ -37589,12 +37589,16 @@
   "source_urls": [
    "https://www.analyticsinsight.net/price-analysis/crypto-prices-today-bitcoin-slips-near-usd-80361-as-fed-hold-keeps-hike-fears-alive",
    "https://bravenewcoin.com/insights/crypto-news-today-btc-eth-xrp-slide-after-fed-decision-keeps-rates-unchanged",
-   "https://koinbulteni.com/en/bitcoin-and-altcoins-market-overview-october-31-2026-291495.html"
+   "https://koinbulteni.com/en/bitcoin-and-altcoins-market-overview-october-31-2026-291495.html",
+   "https://www.coindesk.com/price/bitcoin",
+   "https://www.marketalleys.com/post/ether-rises-0-57-over-24-hours-to-2-261-08-2026-11-01"
   ],
   "source_names": [
    "Analytics Insight",
    "Brave New Coin",
-   "Koin Bulteni"
+   "Koin Bulteni",
+   "CoinDesk",
+   "Market Alleys"
   ],
   "sources": [
    {
@@ -37614,6 +37618,20 @@
    {
     "url": "https://koinbulteni.com/en/bitcoin-and-altcoins-market-overview-october-31-2026-291495.html",
     "name": "Koin Bulteni",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/price/bitcoin",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.marketalleys.com/post/ether-rises-0-57-over-24-hours-to-2-261-08-2026-11-01",
+    "name": "Market Alleys",
     "kind": "other",
     "checked": true,
     "confirms": true
@@ -37640,15 +37658,29 @@
     "kind": "other",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/price/bitcoin",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.marketalleys.com/post/ether-rises-0-57-over-24-hours-to-2-261-08-2026-11-01",
+    "name": "Market Alleys",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "UNVERIFIED",
   "verification": {
    "status": "UNVERIFIED",
-   "independent_sources": 0,
+   "independent_sources": 1,
    "has_primary": false,
-   "score": 0.0,
-   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
    "sources_checked": [
     {
      "name": "Analytics Insight",
@@ -37667,6 +37699,20 @@
     {
      "name": "Koin Bulteni",
      "url": "https://koinbulteni.com/en/bitcoin-and-altcoins-market-overview-october-31-2026-291495.html",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/price/bitcoin",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Market Alleys",
+     "url": "https://www.marketalleys.com/post/ether-rises-0-57-over-24-hours-to-2-261-08-2026-11-01",
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
@@ -37699,6 +37745,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-10-31T22:14-04:00",
+    "headline": "Crypto market steadies Saturday: bitcoin near $77,700, ether up slightly, XRP and solana a little lower",
+    "summary": "Bitcoin traded near $77,665, up about 0.4% over 24 hours (CoinDesk). Ether rose about 0.6% to about $2,261, XRP fell about 0.4% to $1.26 and solana fell about 1.2% to about $95.66 (CoinGecko via Market Alleys).",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
     "verification": "UNVERIFIED"
    }
   ],
@@ -38481,7 +38536,11 @@
    "https://www.binance.com/en/support/announcement/detail/d3306d9dca5243548c813b605e1d1751",
    "https://crypto.news/binance-hack-recovery-withdrawals-proof-of-reserves/",
    "https://www.forbesafrica.com/current-affairs/2026/10/31/binance-says-it-plans-to-resume-withdrawals-this-weekend-after-6-3-billion-hack",
-   "https://www.chaincatcher.com/en/article/2300556"
+   "https://www.chaincatcher.com/en/article/2300556",
+   "https://www.globalbankingandfinance.com/binance-replenishes-90-assets-stolen-security-incident/",
+   "https://lufkindailynews.com/news_reuters/top_news/binance-says-it-has-covered-90-of-losses-from-6-3-billion-hack-so-far/article_437278ad-0c4d-5c1e-8800-8f7565db54dc.html",
+   "https://cointelegraph.com/news/binance-hack-90-percent-replenished",
+   "https://www.businesstoday.in/technology/news/story/binance-says-90-of-stolen-crypto-assets-replenished-withdrawals-to-resume-on-november-1-564957-2026-10-31"
   ],
   "source_names": [
    "The Block",
@@ -38523,7 +38582,11 @@
    "Binance",
    "crypto.news",
    "Forbes",
-   "ChainCatcher"
+   "ChainCatcher",
+   "Reuters (via Global Banking & Finance Review)",
+   "Reuters (via Lufkin Daily News)",
+   "Cointelegraph",
+   "Business Today"
   ],
   "sources": [
    {
@@ -38825,6 +38888,36 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.globalbankingandfinance.com/binance-replenishes-90-assets-stolen-security-incident/",
+    "name": "Reuters (via Global Banking & Finance Review)",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "origin": "Reuters"
+   },
+   {
+    "url": "https://lufkindailynews.com/news_reuters/top_news/binance-says-it-has-covered-90-of-losses-from-6-3-billion-hack-so-far/article_437278ad-0c4d-5c1e-8800-8f7565db54dc.html",
+    "name": "Reuters (via Lufkin Daily News)",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "origin": "Reuters"
+   },
+   {
+    "url": "https://cointelegraph.com/news/binance-hack-90-percent-replenished",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.businesstoday.in/technology/news/story/binance-says-90-of-stolen-crypto-assets-replenished-withdrawals-to-resume-on-november-1-564957-2026-10-31",
+    "name": "Business Today",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -39042,15 +39135,45 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.globalbankingandfinance.com/binance-replenishes-90-assets-stolen-security-incident/",
+    "name": "Reuters (via Global Banking & Finance Review)",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "origin": "Reuters"
+   },
+   {
+    "url": "https://lufkindailynews.com/news_reuters/top_news/binance-says-it-has-covered-90-of-losses-from-6-3-billion-hack-so-far/article_437278ad-0c4d-5c1e-8800-8f7565db54dc.html",
+    "name": "Reuters (via Lufkin Daily News)",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "origin": "Reuters"
+   },
+   {
+    "url": "https://cointelegraph.com/news/binance-hack-90-percent-replenished",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.businesstoday.in/technology/news/story/binance-says-90-of-stolen-crypto-assets-replenished-withdrawals-to-resume-on-november-1-564957-2026-10-31",
+    "name": "Business Today",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "VERIFIED",
   "verification": {
    "status": "VERIFIED",
-   "independent_sources": 6,
+   "independent_sources": 7,
    "has_primary": true,
    "score": 1.0,
-   "reason": "6 independent credible sources confirm it (incl. a primary source)",
+   "reason": "7 independent credible sources confirm it (incl. a primary source)",
    "sources_checked": [
     {
      "name": "CoinDesk",
@@ -39254,6 +39377,34 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Reuters (via Global Banking & Finance Review)",
+     "url": "https://www.globalbankingandfinance.com/binance-replenishes-90-assets-stolen-security-incident/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Reuters (via Lufkin Daily News)",
+     "url": "https://lufkindailynews.com/news_reuters/top_news/binance-says-it-has-covered-90-of-losses-from-6-3-billion-hack-so-far/article_437278ad-0c4d-5c1e-8800-8f7565db54dc.html",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Cointelegraph",
+     "url": "https://cointelegraph.com/news/binance-hack-90-percent-replenished",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Business Today",
+     "url": "https://www.businesstoday.in/technology/news/story/binance-says-90-of-stolen-crypto-assets-replenished-withdrawals-to-resume-on-november-1-564957-2026-10-31",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -39363,6 +39514,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-10-31T22:14-04:00",
+    "headline": "Binance says it has replaced about 90% of the $6.3 billion stolen in its hack and plans to reopen withdrawals Sunday",
+    "summary": "Binance said Saturday it has replenished about 90% of assets stolen in its record hack, up from about 80% a day earlier, using company funds, part of SAFU and the futures insurance fund. Ten major assets (BTC, ETH, USDT, BNB, SOL, USDC, XRP, USD1, RLUSD, ZEC) are fully backed; the rest are less liquid tokens. A new proof-of-reserves snapshot was taken Oct 31; withdrawals are expected to resume Nov 1.",
+    "new_development": true,
+    "level": "IMPORTANT",
+    "sources_added": 4,
     "verification": "VERIFIED"
    }
   ],
