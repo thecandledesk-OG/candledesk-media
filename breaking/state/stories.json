@@ -37594,7 +37594,8 @@
    "https://www.marketalleys.com/post/ether-rises-0-57-over-24-hours-to-2-261-08-2026-11-01",
    "https://crypto.news/crypto-prices-today-bitcoin-78k-lit-altcoin-gainers/",
    "https://coincodex.com/article/94686/daily-market-update-for-november-01-2026",
-   "https://coingape.com/markets/top-crypto-market-events-to-watch-this-week-ahead-of-u-s-midterm-elections/"
+   "https://coingape.com/markets/top-crypto-market-events-to-watch-this-week-ahead-of-u-s-midterm-elections/",
+   "https://www.blockchain.com/explorer/prices"
   ],
   "source_names": [
    "Analytics Insight",
@@ -37604,7 +37605,8 @@
    "Market Alleys",
    "crypto.news",
    "CoinCodex",
-   "CoinGape"
+   "CoinGape",
+   "Blockchain.com"
   ],
   "sources": [
    {
@@ -37659,6 +37661,13 @@
    {
     "url": "https://coingape.com/markets/top-crypto-market-events-to-watch-this-week-ahead-of-u-s-midterm-elections/",
     "name": "CoinGape",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.blockchain.com/explorer/prices",
+    "name": "Blockchain.com",
     "kind": "other",
     "checked": true,
     "confirms": true
@@ -37717,6 +37726,13 @@
    {
     "url": "https://coingape.com/markets/top-crypto-market-events-to-watch-this-week-ahead-of-u-s-midterm-elections/",
     "name": "CoinGape",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.blockchain.com/explorer/prices",
+    "name": "Blockchain.com",
     "kind": "other",
     "checked": true,
     "confirms": true
@@ -37785,6 +37801,13 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Blockchain.com",
+     "url": "https://www.blockchain.com/explorer/prices",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -37832,6 +37855,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 3,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-01T10:11-05:00",
+    "headline": "Crypto steady Sunday: bitcoin near $77,500, ether and solana up about 1%",
+    "summary": "BTC ~$77,506 (+0.2% 24h), ETH ~$2,249 (+0.9%), XRP ~$1.25 (+0.1%), SOL ~$95.84 (+1.2%), BNB ~$705 (+0.7%) per Blockchain.com.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "UNVERIFIED"
    }
   ],
@@ -38624,7 +38656,11 @@
    "https://www.freemalaysiatoday.com/category/business/2026/11/01/fbi-says-north-korea-behind-us-6bil-crypto-theft-from-binance",
    "https://cointelegraph.com/news/binance-says-phase-one-of-withdrawals-opens-after-63b-hack",
    "https://www.fbi.gov/investigate/cyber/alerts/2026/north-korea-responsible-for-6-billion-binance-attack",
-   "https://x.com/binance/status/2116777408074600621"
+   "https://x.com/binance/status/2116777408074600621",
+   "https://crypto.news/binance-reopens-bitcoin-withdrawals-after-hack/",
+   "https://www.bloomberg.com/news/articles/2026-11-01/binance-to-resume-customer-withdrawals-in-phases-after-hack",
+   "https://www.forbes.com/sites/digital-assets/2026/11/01/binance-reopens-withdrawals-says-company-cash-covered-95-of-hack/",
+   "https://crypto.news/binance-hacker-sol-bitcoin-swaps-relay-protocol/"
   ],
   "source_names": [
    "The Block",
@@ -38676,7 +38712,11 @@
    "AFP via Free Malaysia Today",
    "Cointelegraph",
    "FBI",
-   "Binance on X"
+   "Binance on X",
+   "crypto.news",
+   "Bloomberg",
+   "Forbes",
+   "crypto.news"
   ],
   "sources": [
    {
@@ -39052,6 +39092,34 @@
     "kind": "social",
     "checked": false,
     "confirms": false
+   },
+   {
+    "url": "https://crypto.news/binance-reopens-bitcoin-withdrawals-after-hack/",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.bloomberg.com/news/articles/2026-11-01/binance-to-resume-customer-withdrawals-in-phases-after-hack",
+    "name": "Bloomberg",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.forbes.com/sites/digital-assets/2026/11/01/binance-reopens-withdrawals-says-company-cash-covered-95-of-hack/",
+    "name": "Forbes",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://crypto.news/binance-hacker-sol-bitcoin-swaps-relay-protocol/",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -39343,6 +39411,34 @@
     "kind": "social",
     "checked": false,
     "confirms": false
+   },
+   {
+    "url": "https://crypto.news/binance-reopens-bitcoin-withdrawals-after-hack/",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.bloomberg.com/news/articles/2026-11-01/binance-to-resume-customer-withdrawals-in-phases-after-hack",
+    "name": "Bloomberg",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.forbes.com/sites/digital-assets/2026/11/01/binance-reopens-withdrawals-says-company-cash-covered-95-of-hack/",
+    "name": "Forbes",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://crypto.news/binance-hacker-sol-bitcoin-swaps-relay-protocol/",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
    }
   ],
   "verification_status": "VERIFIED",
@@ -39625,6 +39721,34 @@
      "category": "social",
      "counts": false,
      "note": "social/community post — can trigger investigation, never verifies"
+    },
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/binance-reopens-bitcoin-withdrawals-after-hack/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Bloomberg",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-01/binance-to-resume-customer-withdrawals-in-phases-after-hack",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "Forbes",
+     "url": "https://www.forbes.com/sites/digital-assets/2026/11/01/binance-reopens-withdrawals-says-company-cash-covered-95-of-hack/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/binance-hacker-sol-bitcoin-swaps-relay-protocol/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -39752,6 +39876,60 @@
     "new_development": true,
     "level": "IMPORTANT",
     "sources_added": 6,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-01T10:09-05:00",
+    "headline": "Binance says 95% of $6.3 billion hacked funds are covered",
+    "summary": "Here's what moved the chain today. Binance says ninety-five percent of hacked funds are covered.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-01T10:09-05:00",
+    "headline": "Binance reopens bitcoin withdrawals; ten coins fully backed",
+    "summary": "Green candles only! Bitcoin withdrawals are back, and ten coins are fully backed.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-01T10:09-05:00",
+    "headline": "Binance: about 5% of hacked funds still missing, ZK reserve proof due November 3",
+    "summary": "Check the yields first. Five percent is still missing, and the reserve proof lands Tuesday.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-01T10:11-05:00",
+    "headline": "Binance reopens withdrawals in phases after record hack, says about 95% of losses covered",
+    "summary": "Binance resumed bitcoin withdrawals shortly after 06:00 UTC Nov 1, followed by ETH, BNB, SOL, XRP, USDT, USDC and others, saying about 95% of the ~$6.3B affected amount is replaced; ZK proof of reserves expected by Nov 3. Already covered in today's morning episode.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-01T10:11-05:00",
+    "headline": "FBI attributes Binance hack to North Korea's TraderTraitor unit; attacker still holds about $3.3 billion, Elliptic estimates",
+    "summary": "Forbes reports the FBI on Saturday attributed the Binance theft to TraderTraitor; Elliptic estimates the attacker still holds ~$3.3B including 18,270 BTC, with a Tron wallet moving funds into THORChain. Not yet independently confirmed by a second opened source.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-01T10:11-05:00",
+    "headline": "Binance hacker swaps about $46 million in stolen SOL for bitcoin via Relay",
+    "summary": "crypto.news reports the Binance attacker moved about $46M of stolen SOL into BTC through Relay protocol.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "VERIFIED"
    }
   ],
@@ -40807,9 +40985,19 @@
   "market_significance": "Largest daily exit since June amid hack-driven selling.",
   "trigger": "Farside daily flow data",
   "content_created": false,
-  "publication_status": "QUEUED_FOR_DAILY",
+  "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-11-01T10:09-05:00",
+    "headline": "Spot bitcoin ETFs lose $643 million on October 30, biggest daily outflow since June",
+    "summary": "Psst... big wallets are moving. Bitcoin ETFs pulled six hundred forty-three million dollars Friday.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -41091,10 +41279,12 @@
   "metrics": {},
   "emergency": false,
   "source_urls": [
-   "https://phemex.com/news/article/bitcoin-whitepaper-marks-18th-anniversary-of-satoshi-nakamotos-landmark-publication-101962"
+   "https://phemex.com/news/article/bitcoin-whitepaper-marks-18th-anniversary-of-satoshi-nakamotos-landmark-publication-101962",
+   "https://www.thestreet.com/crypto/markets/halloween-brings-another-test-on-bitcoins-18th-birthday"
   ],
   "source_names": [
-   "Phemex"
+   "Phemex",
+   "TheStreet"
   ],
   "sources": [
    {
@@ -41102,6 +41292,13 @@
     "name": "Phemex",
     "kind": "other",
     "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.thestreet.com/crypto/markets/halloween-brings-another-test-on-bitcoins-18th-birthday",
+    "name": "TheStreet",
+    "kind": "secondary",
+    "checked": true,
     "confirms": true
    }
   ],
@@ -41111,6 +41308,13 @@
     "name": "Phemex",
     "kind": "other",
     "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.thestreet.com/crypto/markets/halloween-brings-another-test-on-bitcoins-18th-birthday",
+    "name": "TheStreet",
+    "kind": "secondary",
+    "checked": true,
     "confirms": true
    }
   ],
@@ -41128,6 +41332,13 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "TheStreet",
+     "url": "https://www.thestreet.com/crypto/markets/halloween-brings-another-test-on-bitcoins-18th-birthday",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -41137,9 +41348,19 @@
   "market_significance": "evergreen",
   "trigger": "anniversary",
   "content_created": false,
-  "publication_status": "QUEUED_FOR_DAILY",
+  "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-11-01T10:09-05:00",
+    "headline": "Bitcoin white paper turns 18",
+    "summary": "And Bitcoin's white paper turned eighteen on Halloween. Nine pages, still haunting Wall Street.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -41229,6 +41450,221 @@
   ],
   "market_significance": "Phishing risk for Chainalysis clients",
   "trigger": "Chainalysis security notice",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261101_1abe50",
+  "headline": "Moscow Exchange plans bitcoin, ether and USDT trading from December 1",
+  "summary": "Per an RBC report cited by crypto.news, Moscow Exchange plans to launch BTC, ETH and USDT trading on Dec 1 on its stock market infrastructure, with purchase caps for non-qualified investors.",
+  "detected_at": "2026-11-01T10:11-05:00",
+  "active_since": "2026-11-01T10:11-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "BTC",
+   "ETH",
+   "USDT"
+  ],
+  "event_type": "exchange",
+  "event_time": "2026-12-01T00:00-05:00",
+  "scheduled_event": true,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://crypto.news/moscow-exchange-bitcoin-ethereum-usdt-trading-december/"
+  ],
+  "source_names": [
+   "crypto.news"
+  ],
+  "sources": [
+   {
+    "url": "https://crypto.news/moscow-exchange-bitcoin-ethereum-usdt-trading-december/",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://crypto.news/moscow-exchange-bitcoin-ethereum-usdt-trading-december/",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/moscow-exchange-bitcoin-ethereum-usdt-trading-december/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Planned, not yet live; single secondary source."
+  ],
+  "market_significance": "Russian regulated venue for crypto.",
+  "trigger": "crypto.news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261101_c8583e",
+  "headline": "Premia Labs loses about $464,000 in Arbitrum exploit",
+  "summary": "crypto.news reports Premia Labs lost about $464K in an Arbitrum exploit, with the hacker swapping funds for BTC.",
+  "detected_at": "2026-11-01T10:11-05:00",
+  "active_since": "2026-11-01T10:11-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "hack_exploit",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {
+   "loss_usd": 464000
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://crypto.news/premia-labs-464k-arbitrum-exploit-chainflip-near-intents/"
+  ],
+  "source_names": [
+   "crypto.news"
+  ],
+  "sources": [
+   {
+    "url": "https://crypto.news/premia-labs-464k-arbitrum-exploit-chainflip-near-intents/",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://crypto.news/premia-labs-464k-arbitrum-exploit-chainflip-near-intents/",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/premia-labs-464k-arbitrum-exploit-chainflip-near-intents/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Small exploit below $10M threshold.",
+   "hack rule: about $0M lost (thresholds $10M/$100M) -> NORMAL"
+  ],
+  "market_significance": "Minor DeFi exploit.",
+  "trigger": "crypto.news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261101_e03a59",
+  "headline": "China calls for tougher crackdown on crypto bribes and corruption",
+  "summary": "crypto.news reports China's Communist Party is calling for a tougher crackdown on crypto used in bribery and corruption.",
+  "detected_at": "2026-11-01T10:11-05:00",
+  "active_since": "2026-11-01T10:11-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "regulatory",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://crypto.news/china-communist-party-crypto-corruption-crackdown/"
+  ],
+  "source_names": [
+   "crypto.news"
+  ],
+  "sources": [
+   {
+    "url": "https://crypto.news/china-communist-party-crypto-corruption-crackdown/",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://crypto.news/china-communist-party-crypto-corruption-crackdown/",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/china-communist-party-crypto-corruption-crackdown/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Policy rhetoric, single unopened source."
+  ],
+  "market_significance": "China enforcement stance.",
+  "trigger": "crypto.news headline",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
