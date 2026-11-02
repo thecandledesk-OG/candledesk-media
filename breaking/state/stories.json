@@ -42329,5 +42329,195 @@
   "updates": [],
   "posts": [],
   "needs_followup": false
+ },
+ {
+  "id": "st_20261102_3ac556",
+  "headline": "BTCPay Server tells operators to shut down servers after reports of drained hot wallets",
+  "summary": "BTCPay Server, the open-source bitcoin payment processor, told operators to shut down instances after reports that attackers logged in as admins and swept hot wallets. Early findings point to versions older than 2.4.2; no loss figure has been disclosed.",
+  "detected_at": "2026-11-02T07:33-05:00",
+  "active_since": "2026-11-02T07:33-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.85,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "hack_exploit",
+  "event_time": "2026-11-01T17:25-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/tech/2026/11/02/btcpay-a-bitcoin-payment-tool-tells-users-to-switch-off-their-servers-after-reports-of-drained-wallets",
+   "https://crypto.news/btcpay-server-warns-of-wallet-drains-urges-server-shutdowns/",
+   "https://x.com/BtcpayServer/status/2117020340815819262"
+  ],
+  "source_names": [
+   "CoinDesk",
+   "crypto.news",
+   "BTCPay Server on X"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/tech/2026/11/02/btcpay-a-bitcoin-payment-tool-tells-users-to-switch-off-their-servers-after-reports-of-drained-wallets",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://crypto.news/btcpay-server-warns-of-wallet-drains-urges-server-shutdowns/",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://x.com/BtcpayServer/status/2117020340815819262",
+    "name": "BTCPay Server on X",
+    "kind": "social",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/tech/2026/11/02/btcpay-a-bitcoin-payment-tool-tells-users-to-switch-off-their-servers-after-reports-of-drained-wallets",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://crypto.news/btcpay-server-warns-of-wallet-drains-urges-server-shutdowns/",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://x.com/BtcpayServer/status/2117020340815819262",
+    "name": "BTCPay Server on X",
+    "kind": "social",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/tech/2026/11/02/btcpay-a-bitcoin-payment-tool-tells-users-to-switch-off-their-servers-after-reports-of-drained-wallets",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/btcpay-server-warns-of-wallet-drains-urges-server-shutdowns/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "BTCPay Server on X",
+     "url": "https://x.com/BtcpayServer/status/2117020340815819262",
+     "category": "social",
+     "counts": false,
+     "note": "social/community post — can trigger investigation, never verifies"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Confirmed security alert by two credible outlets, but losses are unquantified and it is not market-moving."
+  ],
+  "market_significance": "Merchants self-hosting BTCPay with hot wallets are at risk; check version and keep servers down until cleared.",
+  "trigger": "BTCPay Server official alert Nov 1, 22:25 UTC",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261102_c261b1",
+  "headline": "Bitcoin steadies near $78,500 with ether up about 1% ahead of US midterms",
+  "summary": "Bitcoin rose about 1.1% in 24 hours to near $78,400 and ether about 0.9% to near $2,288 as markets consolidate after the Binance hack and ahead of Tuesday's US midterm elections.",
+  "detected_at": "2026-11-02T07:33-05:00",
+  "active_since": "2026-11-02T07:33-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "BTC",
+   "ETH"
+  ],
+  "event_type": "market_move",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {
+   "pct_move_24h": 1.1
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://www.coingabbar.com/en/crypto-news-november-2-bitcoin-ethereum-fear-greed-us-midterms"
+  ],
+  "source_names": [
+   "CoinGabbar"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coingabbar.com/en/crypto-news-november-2-bitcoin-ethereum-fear-greed-us-midterms",
+    "name": "CoinGabbar",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coingabbar.com/en/crypto-news-november-2-bitcoin-ethereum-fear-greed-us-midterms",
+    "name": "CoinGabbar",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinGabbar",
+     "url": "https://www.coingabbar.com/en/crypto-news-november-2-bitcoin-ethereum-fear-greed-us-midterms",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Routine move well under thresholds.",
+   "price rule: BTC moved 1.1% in 24h (thresholds 7%/12%) -> NORMAL"
+  ],
+  "market_significance": "Market calm into midterms.",
+  "trigger": "Daily price check",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
  }
 ]
