@@ -37897,6 +37897,24 @@
     "level": "NORMAL",
     "sources_added": 1,
     "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-01T19:10-05:00",
+    "headline": "Crypto steadies Sunday: bitcoin near $78,000, ether up about 1%, total market near $2.68 trillion",
+    "summary": "Bitcoin rose about 0.9% to near $78,000, ether about 1.2%, XRP about 0.6%, solana flat, with total market cap up about 0.7%.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-01T19:10-05:00",
+    "headline": "Lighter's LIT token jumps about 18%, leading large altcoins",
+    "summary": "Lighter (LIT) rose about 18% to about $3.19, the strongest move among larger altcoins, per crypto.news.",
+    "new_development": false,
+    "level": "IMPORTANT",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
    }
   ],
   "posts": [],
@@ -38695,7 +38713,9 @@
    "https://crypto.news/binance-hacker-sol-bitcoin-swaps-relay-protocol/",
    "https://www.theblock.co/news/business/2026-11-01-binance-sees-3-64-billion-in-net-outflows-after-reopening-withdrawals-following-record-hack-432259",
    "https://www.coindesk.com/markets/2026/11/01/binance-opens-crypto-withdrawals-in-phases-starting-with-bitcoin-following-usd6-3-billion-hack",
-   "https://www.theblock.co/news/defi/2026-11-01-north-korean-hackers-launder-242-million-of-binance-loot-via-tron-as-fbi-presses-thorchain-analyst-432257"
+   "https://www.theblock.co/news/defi/2026-11-01-north-korean-hackers-launder-242-million-of-binance-loot-via-tron-as-fbi-presses-thorchain-analyst-432257",
+   "https://crypto.news/crypto-prices-today-bitcoin-78k-lit-altcoin-gainers/",
+   "https://www.livebitcoinnews.com/binance-reopens-xrp-withdrawals/"
   ],
   "source_names": [
    "The Block",
@@ -38754,7 +38774,9 @@
    "crypto.news",
    "The Block",
    "CoinDesk",
-   "The Block"
+   "The Block",
+   "crypto.news",
+   "LiveBitcoinNews"
   ],
   "sources": [
    {
@@ -39179,6 +39201,20 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://crypto.news/crypto-prices-today-bitcoin-78k-lit-altcoin-gainers/",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.livebitcoinnews.com/binance-reopens-xrp-withdrawals/",
+    "name": "LiveBitcoinNews",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
    }
   ],
   "gate_sources": [
@@ -39519,6 +39555,20 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://crypto.news/crypto-prices-today-bitcoin-78k-lit-altcoin-gainers/",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.livebitcoinnews.com/binance-reopens-xrp-withdrawals/",
+    "name": "LiveBitcoinNews",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
    }
   ],
   "verification_status": "VERIFIED",
@@ -39850,6 +39900,20 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/crypto-prices-today-bitcoin-78k-lit-altcoin-gainers/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "LiveBitcoinNews",
+     "url": "https://www.livebitcoinnews.com/binance-reopens-xrp-withdrawals/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -40058,6 +40122,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-01T19:10-05:00",
+    "headline": "Binance reopens bitcoin and XRP withdrawals in phases, says about 95% of affected assets replenished",
+    "summary": "Binance began reopening bitcoin withdrawals on Sunday and XRP withdrawals in a first phase after last week's record hack, saying it has replenished about 95% of affected assets.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
     "verification": "VERIFIED"
    }
   ],
