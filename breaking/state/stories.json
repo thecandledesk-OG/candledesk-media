@@ -38721,7 +38721,8 @@
    "https://cryptoticker.io/en/bitcoin-price-narrowest-daily-range-november-2026/",
    "https://www.coindesk.com/markets/2026/11/02/binance-hack-fallout-u-s-midterms-and-jobs-report-crypto-week-ahead",
    "https://www.coingabbar.com/en/crypto-news-november-2-bitcoin-ethereum-fear-greed-us-midterms",
-   "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-2-2026"
+   "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-2-2026",
+   "https://www.theblock.co/news/business/2026-11-02-binance-zero-knowledge-proof-of-reserves-snapshot-hack-recovery-432321"
   ],
   "source_names": [
    "The Block",
@@ -38788,7 +38789,8 @@
    "CryptoTicker",
    "CoinDesk",
    "CoinGabbar",
-   "KuCoin"
+   "KuCoin",
+   "The Block"
   ],
   "sources": [
    {
@@ -39270,6 +39272,13 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-02-binance-zero-knowledge-proof-of-reserves-snapshot-hack-recovery-432321",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -39667,6 +39676,13 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-02-binance-zero-knowledge-proof-of-reserves-snapshot-hack-recovery-432321",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "VERIFIED",
@@ -40054,6 +40070,13 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-02-binance-zero-knowledge-proof-of-reserves-snapshot-hack-recovery-432321",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -40361,6 +40384,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-02T13:26-05:00",
+    "headline": "Binance says it has replenished about 95% of hacked assets and plans to restore more withdrawals Tuesday",
+    "summary": "Binance completed a zero-knowledge proof of reserves snapshot covering BTC, ETH, USDT, BNB, SOL, USDC, XRP and others, says it has replaced about 95% of affected assets with its own funds, and expects to gradually restore withdrawals for more networks on November 3. Another snapshot is planned for November 4.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "VERIFIED"
    }
   ],
@@ -42921,6 +42953,224 @@
   ],
   "market_significance": "Corporate accumulation continues",
   "trigger": "The Block news feed",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261102_235a34",
+  "headline": "Brazil's Mercado Bitcoin halts deposits and withdrawals after about $40 million drained across 10 chains",
+  "summary": "Brazil's largest crypto exchange paused deposits and withdrawals Monday after a security incident early that morning. Security firm Hypernative flagged more than $40 million in suspicious transfers across at least 10 blockchains, including Bitcoin, Ethereum, Solana and Tron. The exchange says the incident is contained and no customer lost money, but has not confirmed the amount or a reopening time. Tether froze about 4.5 million USDT tied to it.",
+  "detected_at": "2026-11-02T13:26-05:00",
+  "active_since": "2026-11-02T13:26-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "IMPORTANT",
+  "confidence": 0.85,
+  "assets": [
+   "BTC",
+   "ETH",
+   "SOL",
+   "XLM",
+   "USDT"
+  ],
+  "event_type": "hack_exploit",
+  "event_time": "2026-11-02T06:19:00Z",
+  "scheduled_event": false,
+  "metrics": {
+   "loss_usd": 40000000
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/business/2026/11/02/brazil-s-mercado-bitcoin-halts-withdrawals-after-usd40-million-drained-across-10-chains",
+   "https://decrypt.co/382341/mercado-bitcoin-halts-withdrawals-40-million-hack",
+   "https://cybersecuritynews.com/mercado-bitcoin-suffers-cyberattack/",
+   "https://x.com/MercadoBitcoin/status/2117239507263132056"
+  ],
+  "source_names": [
+   "CoinDesk",
+   "Decrypt",
+   "Cyber Security News",
+   "Mercado Bitcoin on X"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/business/2026/11/02/brazil-s-mercado-bitcoin-halts-withdrawals-after-usd40-million-drained-across-10-chains",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/382341/mercado-bitcoin-halts-withdrawals-40-million-hack",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cybersecuritynews.com/mercado-bitcoin-suffers-cyberattack/",
+    "name": "Cyber Security News",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://x.com/MercadoBitcoin/status/2117239507263132056",
+    "name": "Mercado Bitcoin on X",
+    "kind": "social",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/business/2026/11/02/brazil-s-mercado-bitcoin-halts-withdrawals-after-usd40-million-drained-across-10-chains",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/382341/mercado-bitcoin-halts-withdrawals-40-million-hack",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cybersecuritynews.com/mercado-bitcoin-suffers-cyberattack/",
+    "name": "Cyber Security News",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://x.com/MercadoBitcoin/status/2117239507263132056",
+    "name": "Mercado Bitcoin on X",
+    "kind": "social",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "VERIFIED",
+  "verification": {
+   "status": "VERIFIED",
+   "independent_sources": 2,
+   "has_primary": false,
+   "score": 0.8,
+   "reason": "2 independent credible sources confirm it (no primary source yet)",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/business/2026/11/02/brazil-s-mercado-bitcoin-halts-withdrawals-after-usd40-million-drained-across-10-chains",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/382341/mercado-bitcoin-halts-withdrawals-40-million-hack",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Cyber Security News",
+     "url": "https://cybersecuritynews.com/mercado-bitcoin-suffers-cyberattack/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Mercado Bitcoin on X",
+     "url": "https://x.com/MercadoBitcoin/status/2117239507263132056",
+     "category": "social",
+     "counts": false,
+     "note": "social/community post — can trigger investigation, never verifies"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed IMPORTANT: Exchange hack above the $10M threshold with withdrawals paused at Brazil's largest exchange; confirmed by CoinDesk and Decrypt citing the exchange's own statement.",
+   "hack rule: about $40M lost (thresholds $10M/$100M) -> IMPORTANT",
+   "first reported 2026-11-02T01:19-05:00, older than 12h -> NORMAL (daily show)",
+   "final level NORMAL (changed from AI's IMPORTANT)"
+  ],
+  "market_significance": "Second exchange security incident in a week after the Binance hack; affects a major Latin American exchange's users.",
+  "trigger": "Mercado Bitcoin statement on X; Hypernative analysis",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261102_d8e9de",
+  "headline": "XRP Ledger warns of token-minting flaw in delegated PaymentBurn permission; fix amendment projected for November 4",
+  "summary": "XRPL documentation warns that an account delegated the PaymentBurn permission can, under some conditions, mint issued tokens such as stablecoins (not XRP itself) until the fixCleanup3_4_0 amendment activates. Validators back it, with activation projected around November 4. No fraudulent minting has been reported.",
+  "detected_at": "2026-11-02T13:26-05:00",
+  "active_since": "2026-11-02T13:26-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "XRP"
+  ],
+  "event_type": "protocol_upgrade",
+  "event_time": "2026-11-04T14:46:00Z",
+  "scheduled_event": true,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://crypto.news/xrp-ledger-token-minting-flaw-fix-november-4"
+  ],
+  "source_names": [
+   "crypto.news"
+  ],
+  "sources": [
+   {
+    "url": "https://crypto.news/xrp-ledger-token-minting-flaw-fix-november-4",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://crypto.news/xrp-ledger-token-minting-flaw-fix-november-4",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/xrp-ledger-token-minting-flaw-fix-november-4",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Scheduled fix, not yet live; no losses reported."
+  ],
+  "market_significance": "Affects token issuers on XRPL, including stablecoins.",
+  "trigger": "crypto.news report citing xrpl.org docs",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
