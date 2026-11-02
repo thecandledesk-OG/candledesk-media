@@ -38715,7 +38715,10 @@
    "https://www.coindesk.com/markets/2026/11/01/binance-opens-crypto-withdrawals-in-phases-starting-with-bitcoin-following-usd6-3-billion-hack",
    "https://www.theblock.co/news/defi/2026-11-01-north-korean-hackers-launder-242-million-of-binance-loot-via-tron-as-fbi-presses-thorchain-analyst-432257",
    "https://crypto.news/crypto-prices-today-bitcoin-78k-lit-altcoin-gainers/",
-   "https://www.livebitcoinnews.com/binance-reopens-xrp-withdrawals/"
+   "https://www.livebitcoinnews.com/binance-reopens-xrp-withdrawals/",
+   "https://finance.yahoo.com/markets/crypto/articles/binance-resumes-withdrawals-95-stolen-114906796.html",
+   "https://coindesk.com/policy/2026/10/31/fbi-confirms-north-korea-s-role-in-usd6-billion-binance-hack-asks-defi-community-to-block-btc-eth-sol-addresses",
+   "https://cryptoticker.io/en/bitcoin-price-narrowest-daily-range-november-2026/"
   ],
   "source_names": [
    "The Block",
@@ -38776,7 +38779,10 @@
    "CoinDesk",
    "The Block",
    "crypto.news",
-   "LiveBitcoinNews"
+   "LiveBitcoinNews",
+   "Yahoo Finance (DPA)",
+   "CoinDesk",
+   "CryptoTicker"
   ],
   "sources": [
    {
@@ -39215,6 +39221,28 @@
     "kind": "other",
     "checked": false,
     "confirms": false
+   },
+   {
+    "url": "https://finance.yahoo.com/markets/crypto/articles/binance-resumes-withdrawals-95-stolen-114906796.html",
+    "name": "Yahoo Finance (DPA)",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "origin": "DPA"
+   },
+   {
+    "url": "https://coindesk.com/policy/2026/10/31/fbi-confirms-north-korea-s-role-in-usd6-billion-binance-hack-asks-defi-community-to-block-btc-eth-sol-addresses",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptoticker.io/en/bitcoin-price-narrowest-daily-range-november-2026/",
+    "name": "CryptoTicker",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -39569,15 +39597,37 @@
     "kind": "other",
     "checked": false,
     "confirms": false
+   },
+   {
+    "url": "https://finance.yahoo.com/markets/crypto/articles/binance-resumes-withdrawals-95-stolen-114906796.html",
+    "name": "Yahoo Finance (DPA)",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "origin": "DPA"
+   },
+   {
+    "url": "https://coindesk.com/policy/2026/10/31/fbi-confirms-north-korea-s-role-in-usd6-billion-binance-hack-asks-defi-community-to-block-btc-eth-sol-addresses",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptoticker.io/en/bitcoin-price-narrowest-daily-range-november-2026/",
+    "name": "CryptoTicker",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "VERIFIED",
   "verification": {
    "status": "VERIFIED",
-   "independent_sources": 8,
+   "independent_sources": 9,
    "has_primary": true,
    "score": 1.0,
-   "reason": "8 independent credible sources confirm it (incl. a primary source)",
+   "reason": "9 independent credible sources confirm it (incl. a primary source)",
    "sources_checked": [
     {
      "name": "CoinDesk",
@@ -39914,6 +39964,27 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Yahoo Finance (DPA)",
+     "url": "https://finance.yahoo.com/markets/crypto/articles/binance-resumes-withdrawals-95-stolen-114906796.html",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://coindesk.com/policy/2026/10/31/fbi-confirms-north-korea-s-role-in-usd6-billion-binance-hack-asks-defi-community-to-block-btc-eth-sol-addresses",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "CryptoTicker",
+     "url": "https://cryptoticker.io/en/bitcoin-price-narrowest-daily-range-november-2026/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -40131,6 +40202,42 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 2,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-01T22:15-05:00",
+    "headline": "Binance reopens withdrawals in phases after the $6.3 billion hack and says company funds now cover about 95% of losses",
+    "summary": "Binance restarted withdrawals on November 1 from 06:00 UTC for bitcoin and assets on 15 other networks, including ETH, USDT, USDC, BNB and XRP, with more networks to follow after security checks. It says about 95% of affected assets are replaced from SAFU, its futures insurance fund and corporate treasury; the rest are less liquid tokens. A full proof-of-reserves report is expected around November 3.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-01T22:15-05:00",
+    "headline": "Binance proof-of-reserves report after the hack expected around November 2 to 3",
+    "summary": "Binance took a reserves snapshot at 00:00 UTC on October 31 and says a full zero-knowledge proof-of-reserves report is due Monday to Tuesday.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-01T22:15-05:00",
+    "headline": "FBI confirms North Korea's role in the $6 billion Binance hack and asks DeFi platforms to block stolen-fund addresses",
+    "summary": "The FBI attributed the Binance hack to North Korea and asked DeFi services including THORChain to block BTC, ETH and SOL addresses linked to the theft.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-01T22:15-05:00",
+    "headline": "Bitcoin holds near $78,000 in a tight range ahead of the November 3 U.S. midterms",
+    "summary": "Bitcoin traded around $77,700 to $78,450 on Sunday, up under 1% in 24 hours, in its narrowest daily range since mid-October; ether near $2,295. Crypto PAC spending puts focus on the midterm results.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "VERIFIED"
    }
   ],
@@ -42006,6 +42113,216 @@
   ],
   "market_significance": "Midterms shape next year's crypto rules.",
   "trigger": "CoinDesk latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261101_96596f",
+  "headline": "Bitcoin ETF investors pull money after the record Binance hack",
+  "summary": "Spot bitcoin ETFs saw continued outflows in the days after the Binance hack.",
+  "detected_at": "2026-11-01T22:15-05:00",
+  "active_since": "2026-11-01T22:15-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "institutional",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://decrypt.co/382309/bitcoin-etf-investors-exits-record-binance-hack"
+  ],
+  "source_names": [
+   "Decrypt"
+  ],
+  "sources": [
+   {
+    "url": "https://decrypt.co/382309/bitcoin-etf-investors-exits-record-binance-hack",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://decrypt.co/382309/bitcoin-etf-investors-exits-record-binance-hack",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/382309/bitcoin-etf-investors-exits-record-binance-hack",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Routine flow data."
+  ],
+  "market_significance": "Institutional sentiment.",
+  "trigger": "Decrypt",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261101_53f2e3",
+  "headline": "Hacker drains 97 million CORE tokens from bitcoin staking platform b14g",
+  "summary": "A zero-token withdrawal bug let an attacker drain about 97 million CORE from b14g.",
+  "detected_at": "2026-11-01T22:15-05:00",
+  "active_since": "2026-11-01T22:15-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "CORE"
+  ],
+  "event_type": "hack_exploit",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://cryptoslate.com/zero-token-withdrawals-let-a-hacker-drain-97-million-core-from-bitcoin-staking-platform-b14g/"
+  ],
+  "source_names": [
+   "CryptoSlate"
+  ],
+  "sources": [
+   {
+    "url": "https://cryptoslate.com/zero-token-withdrawals-let-a-hacker-drain-97-million-core-from-bitcoin-staking-platform-b14g/",
+    "name": "CryptoSlate",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://cryptoslate.com/zero-token-withdrawals-let-a-hacker-drain-97-million-core-from-bitcoin-staking-platform-b14g/",
+    "name": "CryptoSlate",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CryptoSlate",
+     "url": "https://cryptoslate.com/zero-token-withdrawals-let-a-hacker-drain-97-million-core-from-bitcoin-staking-platform-b14g/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Dollar loss unconfirmed; single report."
+  ],
+  "market_significance": "DeFi security.",
+  "trigger": "CryptoSlate",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261101_6f664b",
+  "headline": "Scammers used the SEC's website to lure investors into an alleged $130 million crypto fraud",
+  "summary": "Fraudsters allegedly leveraged SEC website content to make an alleged $130 million crypto scheme look legitimate.",
+  "detected_at": "2026-11-01T22:15-05:00",
+  "active_since": "2026-11-01T22:15-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "legal",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://cryptoslate.com/crypto-scammers-used-secs-website-to-lure-investors-into-alleged-130-million-fraud/"
+  ],
+  "source_names": [
+   "CryptoSlate"
+  ],
+  "sources": [
+   {
+    "url": "https://cryptoslate.com/crypto-scammers-used-secs-website-to-lure-investors-into-alleged-130-million-fraud/",
+    "name": "CryptoSlate",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://cryptoslate.com/crypto-scammers-used-secs-website-to-lure-investors-into-alleged-130-million-fraud/",
+    "name": "CryptoSlate",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CryptoSlate",
+     "url": "https://cryptoslate.com/crypto-scammers-used-secs-website-to-lure-investors-into-alleged-130-million-fraud/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Single report, unverified."
+  ],
+  "market_significance": "Investor-protection angle.",
+  "trigger": "CryptoSlate",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
