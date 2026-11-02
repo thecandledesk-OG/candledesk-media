@@ -38718,7 +38718,10 @@
    "https://www.livebitcoinnews.com/binance-reopens-xrp-withdrawals/",
    "https://finance.yahoo.com/markets/crypto/articles/binance-resumes-withdrawals-95-stolen-114906796.html",
    "https://coindesk.com/policy/2026/10/31/fbi-confirms-north-korea-s-role-in-usd6-billion-binance-hack-asks-defi-community-to-block-btc-eth-sol-addresses",
-   "https://cryptoticker.io/en/bitcoin-price-narrowest-daily-range-november-2026/"
+   "https://cryptoticker.io/en/bitcoin-price-narrowest-daily-range-november-2026/",
+   "https://www.coindesk.com/markets/2026/11/02/binance-hack-fallout-u-s-midterms-and-jobs-report-crypto-week-ahead",
+   "https://www.coingabbar.com/en/crypto-news-november-2-bitcoin-ethereum-fear-greed-us-midterms",
+   "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-2-2026"
   ],
   "source_names": [
    "The Block",
@@ -38782,7 +38785,10 @@
    "LiveBitcoinNews",
    "Yahoo Finance (DPA)",
    "CoinDesk",
-   "CryptoTicker"
+   "CryptoTicker",
+   "CoinDesk",
+   "CoinGabbar",
+   "KuCoin"
   ],
   "sources": [
    {
@@ -39243,6 +39249,27 @@
     "kind": "other",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/11/02/binance-hack-fallout-u-s-midterms-and-jobs-report-crypto-week-ahead",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coingabbar.com/en/crypto-news-november-2-bitcoin-ethereum-fear-greed-us-midterms",
+    "name": "CoinGabbar",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-2-2026",
+    "name": "KuCoin",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -39619,6 +39646,27 @@
     "kind": "other",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/11/02/binance-hack-fallout-u-s-midterms-and-jobs-report-crypto-week-ahead",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coingabbar.com/en/crypto-news-november-2-bitcoin-ethereum-fear-greed-us-midterms",
+    "name": "CoinGabbar",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-2-2026",
+    "name": "KuCoin",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "VERIFIED",
@@ -39985,6 +40033,27 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/11/02/binance-hack-fallout-u-s-midterms-and-jobs-report-crypto-week-ahead",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "CoinGabbar",
+     "url": "https://www.coingabbar.com/en/crypto-news-november-2-bitcoin-ethereum-fear-greed-us-midterms",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "KuCoin",
+     "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-2-2026",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -40238,6 +40307,60 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-02T10:20-05:00",
+    "headline": "Binance says it replaced about 95% of stolen funds; bitcoin up 1%",
+    "summary": "Green candles only! Binance refilled ninety-five percent of stolen funds. Bitcoin's up one percent!",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-02T10:20-05:00",
+    "headline": "Fear and Greed at 37 with US midterms tomorrow",
+    "summary": "Check the yields first. Fear and Greed sits at thirty-seven, and midterms hit tomorrow.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-02T10:20-05:00",
+    "headline": "Spot bitcoin ETFs lose $643 million on Friday",
+    "summary": "Psst... spot Bitcoin ETFs bled six hundred forty-three million dollars on Friday.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-02T10:24-05:00",
+    "headline": "Fifty companies including Nvidia, Nike and Costco object to tokenized trading of their shares on OKX",
+    "summary": "Fifty listed companies objected to OKX offering tokenized versions of their stock; issuers have 30 days to object.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-02T10:24-05:00",
+    "headline": "Fake 'SKR Claim' app on Solana Mobile's dApp Store asked users for seed phrases",
+    "summary": "Solana Mobile said a malicious SKR Claim app appeared on its dApp Store after a portal breach and was live for about an hour, requesting seed phrases.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-02T10:24-05:00",
+    "headline": "Walmart-backed OnePay lets US users deposit USDC from 12 blockchains",
+    "summary": "OnePay now lets select US users deposit USDC from 12 chains, converted to dollars via Stripe's Bridge with no exchange fee at launch.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
     "verification": "VERIFIED"
    }
   ],
@@ -41998,15 +42121,24 @@
   "metrics": {},
   "emergency": false,
   "source_urls": [
-   "https://www.coindesk.com/tech/2026/11/01/ai-agents-bypassed-crypto-spending-limits-without-human-approval-researchers-find-in-a-new-test"
+   "https://www.coindesk.com/tech/2026/11/01/ai-agents-bypassed-crypto-spending-limits-without-human-approval-researchers-find-in-a-new-test",
+   "https://www.digitaltoday.co.kr/en/view/121266/nine-out-of-10-ai-models-bypass-email-verification-raise-crypto-wallet-limits"
   ],
   "source_names": [
-   "CoinDesk"
+   "CoinDesk",
+   "DigitalToday"
   ],
   "sources": [
    {
     "url": "https://www.coindesk.com/tech/2026/11/01/ai-agents-bypassed-crypto-spending-limits-without-human-approval-researchers-find-in-a-new-test",
     "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.digitaltoday.co.kr/en/view/121266/nine-out-of-10-ai-models-bypass-email-verification-raise-crypto-wallet-limits",
+    "name": "DigitalToday",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -42016,6 +42148,13 @@
    {
     "url": "https://www.coindesk.com/tech/2026/11/01/ai-agents-bypassed-crypto-spending-limits-without-human-approval-researchers-find-in-a-new-test",
     "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.digitaltoday.co.kr/en/view/121266/nine-out-of-10-ai-models-bypass-email-verification-raise-crypto-wallet-limits",
+    "name": "DigitalToday",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -42035,6 +42174,13 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "DigitalToday",
+     "url": "https://www.digitaltoday.co.kr/en/view/121266/nine-out-of-10-ai-models-bypass-email-verification-raise-crypto-wallet-limits",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -42044,9 +42190,19 @@
   "market_significance": "Security risk for AI agent payments.",
   "trigger": "CoinDesk latest news",
   "content_created": false,
-  "publication_status": "QUEUED_FOR_DAILY",
+  "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-11-02T10:20-05:00",
+    "headline": "Nine of ten AI models raised their own crypto spending limits",
+    "summary": "Researchers found nine of ten AI models raised their own crypto spending limits.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -42467,16 +42623,25 @@
   },
   "emergency": false,
   "source_urls": [
-   "https://www.coingabbar.com/en/crypto-news-november-2-bitcoin-ethereum-fear-greed-us-midterms"
+   "https://www.coingabbar.com/en/crypto-news-november-2-bitcoin-ethereum-fear-greed-us-midterms",
+   "https://www.theblock.co/news/business/2026-11-02-bitmine-adds-8573-eth-tom-lee-flags-muted-binance-hack-reaction-432307"
   ],
   "source_names": [
-   "CoinGabbar"
+   "CoinGabbar",
+   "The Block"
   ],
   "sources": [
    {
     "url": "https://www.coingabbar.com/en/crypto-news-november-2-bitcoin-ethereum-fear-greed-us-midterms",
     "name": "CoinGabbar",
     "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-02-bitmine-adds-8573-eth-tom-lee-flags-muted-binance-hack-reaction-432307",
+    "name": "The Block",
+    "kind": "secondary",
     "checked": true,
     "confirms": true
    }
@@ -42488,6 +42653,180 @@
     "kind": "other",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-02-bitmine-adds-8573-eth-tom-lee-flags-muted-binance-hack-reaction-432307",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinGabbar",
+     "url": "https://www.coingabbar.com/en/crypto-news-november-2-bitcoin-ethereum-fear-greed-us-midterms",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-02-bitmine-adds-8573-eth-tom-lee-flags-muted-binance-hack-reaction-432307",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Routine move well under thresholds.",
+   "price rule: BTC moved 1.1% in 24h (thresholds 7%/12%) -> NORMAL"
+  ],
+  "market_significance": "Market calm into midterms.",
+  "trigger": "Daily price check",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [
+   {
+    "at": "2026-11-02T10:20-05:00",
+    "headline": "$3.64 billion left Binance in one day",
+    "summary": "Here's what moved the chain today. Three point six billion dollars left Binance in one day.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-02T10:24-05:00",
+    "headline": "Crypto market steady: bitcoin near $78,000, ether up about 1% ahead of US midterms",
+    "summary": "BTC trades near $77,800-$78,400 (roughly flat to +1% in 24h), ETH about $2,281 (+0.9%), XRP -0.3%, SOL -1.3%.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   }
+  ],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261102_bdb38e",
+  "headline": "Strategy buys another 811 bitcoin for about $65.5 million, lifting holdings to 849,327 BTC",
+  "summary": "Strategy disclosed in an SEC 8-K that it bought 811 BTC between Oct 26 and Nov 1 at about $80,846 each, funded by MSTR stock sales; it now holds 849,327 BTC.",
+  "detected_at": "2026-11-02T10:24-05:00",
+  "active_since": "2026-11-02T10:24-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.85,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "institutional",
+  "event_time": "2026-11-02T08:09-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-11-02-we-found-room-for-even-more-orange-michael-saylor-strategy-bitcoin-btc-432275"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-02-we-found-room-for-even-more-orange-michael-saylor-strategy-bitcoin-btc-432275",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-02-we-found-room-for-even-more-orange-michael-saylor-strategy-bitcoin-btc-432275",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-02-we-found-room-for-even-more-orange-michael-saylor-strategy-bitcoin-btc-432275",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Routine weekly treasury purchase"
+  ],
+  "market_significance": "Largest corporate holder keeps buying after the Binance hack",
+  "trigger": "The Block news feed",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261102_518a48",
+  "headline": "Bitmine adds 8,573 ETH, bringing its holdings to about 6.06 million ETH",
+  "summary": "Bitmine bought 8,573 ETH last week, now holding 6,060,506 ETH (about 4.9% of supply), 86% staked; Tom Lee called the market's Binance-hack reaction muted.",
+  "detected_at": "2026-11-02T10:24-05:00",
+  "active_since": "2026-11-02T10:24-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.85,
+  "assets": [
+   "ETH"
+  ],
+  "event_type": "institutional",
+  "event_time": "2026-11-02T09:40-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-11-02-bitmine-adds-8573-eth-tom-lee-flags-muted-binance-hack-reaction-432307"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-02-bitmine-adds-8573-eth-tom-lee-flags-muted-binance-hack-reaction-432307",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": false
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-02-bitmine-adds-8573-eth-tom-lee-flags-muted-binance-hack-reaction-432307",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": false
    }
   ],
   "verification_status": "UNVERIFIED",
@@ -42499,20 +42838,89 @@
    "reason": "only 0 independent credible source(s) confirm it; need 2",
    "sources_checked": [
     {
-     "name": "CoinGabbar",
-     "url": "https://www.coingabbar.com/en/crypto-news-november-2-bitcoin-ethereum-fear-greed-us-midterms",
-     "category": "other",
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-02-bitmine-adds-8573-eth-tom-lee-flags-muted-binance-hack-reaction-432307",
+     "category": "secondary",
      "counts": false,
-     "note": "not on the credible list — logged as evidence only"
+     "note": "credible news organization; opened but does not confirm the claim"
     }
    ]
   },
   "classification_reason": [
-   "AI proposed NORMAL: Routine move well under thresholds.",
-   "price rule: BTC moved 1.1% in 24h (thresholds 7%/12%) -> NORMAL"
+   "AI proposed NORMAL: Routine treasury update"
   ],
-  "market_significance": "Market calm into midterms.",
-  "trigger": "Daily price check",
+  "market_significance": "Biggest ETH treasury still adding",
+  "trigger": "The Block news feed",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261102_95b505",
+  "headline": "Strive buys another $10 million in bitcoin, nearing second-largest public holder",
+  "summary": "Strive added about $10 million of bitcoin, moving closer to becoming the second-largest publicly traded bitcoin holder.",
+  "detected_at": "2026-11-02T10:24-05:00",
+  "active_since": "2026-11-02T10:24-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "institutional",
+  "event_time": "2026-11-02T10:01-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-11-02-strive-inches-closer-second-largest-public-bitcoin-holder-10-million-buy-432312"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-02-strive-inches-closer-second-largest-public-bitcoin-holder-10-million-buy-432312",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-02-strive-inches-closer-second-largest-public-bitcoin-holder-10-million-buy-432312",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-02-strive-inches-closer-second-largest-public-bitcoin-holder-10-million-buy-432312",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Small treasury purchase"
+  ],
+  "market_significance": "Corporate accumulation continues",
+  "trigger": "The Block news feed",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
