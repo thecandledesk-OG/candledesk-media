@@ -40394,6 +40394,15 @@
     "level": "NORMAL",
     "sources_added": 1,
     "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-02T16:10-05:00",
+    "headline": "Binance says it has replenished about 95% of hacked assets, publishes new proof of reserves and plans to restore more withdrawals Tuesday",
+    "summary": "Binance published a zero-knowledge proof-of-reserves snapshot for 10 assets including BTC, ETH, XRP, SOL and USDT, said it has replenished about 95% of the assets hit in last week's hack with its own funds, and expects to progressively restore withdrawals on more networks from Tuesday. Net outflows fell to about $3.29 billion a day from a peak near $7 billion.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "VERIFIED"
    }
   ],
   "posts": [
