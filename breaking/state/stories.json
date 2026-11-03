@@ -41135,6 +41135,15 @@
     "level": "NORMAL",
     "sources_added": 1,
     "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-02T22:24-05:00",
+    "headline": "Kim Yo-jong rejects FBI claim that North Korea was behind the $6.3 billion Binance hack",
+    "summary": "North Korean leader Kim Jong-un's sister reportedly denied North Korea was behind the record Binance hack, rejecting the FBI's attribution to the TraderTraitor group, according to Yonhap.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "VERIFIED"
    }
   ],
   "posts": [],
@@ -42730,12 +42739,14 @@
   "source_urls": [
    "https://www.coingabbar.com/en/crypto-news-november-2-bitcoin-ethereum-fear-greed-us-midterms",
    "https://www.theblock.co/news/business/2026-11-02-bitmine-adds-8573-eth-tom-lee-flags-muted-binance-hack-reaction-432307",
-   "https://fortune.com/article/price-of-bitcoin-11-02-2026/"
+   "https://fortune.com/article/price-of-bitcoin-11-02-2026/",
+   "https://decrypt.co/price/bitcoin"
   ],
   "source_names": [
    "CoinGabbar",
    "The Block",
-   "Fortune"
+   "Fortune",
+   "Decrypt prices"
   ],
   "sources": [
    {
@@ -42755,6 +42766,13 @@
    {
     "url": "https://fortune.com/article/price-of-bitcoin-11-02-2026/",
     "name": "Fortune",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/price/bitcoin",
+    "name": "Decrypt prices",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -42781,15 +42799,22 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/price/bitcoin",
+    "name": "Decrypt prices",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "VERIFIED",
   "verification": {
    "status": "VERIFIED",
-   "independent_sources": 2,
+   "independent_sources": 3,
    "has_primary": false,
    "score": 0.8,
-   "reason": "2 independent credible sources confirm it (no primary source yet)",
+   "reason": "3 independent credible sources confirm it (no primary source yet)",
    "sources_checked": [
     {
      "name": "CoinGabbar",
@@ -42808,6 +42833,13 @@
     {
      "name": "Fortune",
      "url": "https://fortune.com/article/price-of-bitcoin-11-02-2026/",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Decrypt prices",
+     "url": "https://decrypt.co/price/bitcoin",
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
@@ -42846,6 +42878,15 @@
     "at": "2026-11-02T19:10-05:00",
     "headline": "Bitcoin flat near $77,750 ahead of US midterms",
     "summary": "Bitcoin traded around $77,750 Monday morning, roughly flat over 24 hours, as markets waited on Tuesday's US midterm elections.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-02T22:24-05:00",
+    "headline": "Bitcoin slips about 2% toward $77,000 as solana drops 3% on the eve of US midterms",
+    "summary": "Bitcoin trades near 77,000 dollars, down about 2.2% in 24 hours; ether down about 1.9%, XRP down 0.5%, solana down about 3.2%, ahead of Tuesday's US midterm elections.",
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 1,
@@ -43493,6 +43534,76 @@
    "AI proposed NORMAL: Analyst note."
   ],
   "market_significance": "Tokenization trend.",
+  "trigger": "The Block",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261102_1b1d45",
+  "headline": "Ark Invest buys $3.4 million of Coinbase and adds Circle and Robinhood as crypto stocks slide",
+  "summary": "Ark Invest bought about 3.4 million dollars of Coinbase, 2.6 million of Circle and some Robinhood on Monday while selling 2.3 million of Bullish; Coinbase closed down about 4%.",
+  "detected_at": "2026-11-02T22:24-05:00",
+  "active_since": "2026-11-02T22:24-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "institutional",
+  "event_time": "2026-11-02T16:00-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-11-02-ark-invest-buys-coinbase-circle-robinhood-432352"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-02-ark-invest-buys-coinbase-circle-robinhood-432352",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-02-ark-invest-buys-coinbase-circle-robinhood-432352",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-02-ark-invest-buys-coinbase-circle-robinhood-432352",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Routine fund trade disclosure."
+  ],
+  "market_significance": "Low.",
   "trigger": "The Block",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
