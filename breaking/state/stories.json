@@ -40910,7 +40910,9 @@
    "https://cryptoticker.io/en/bitcoin-price-monthly-close-six-week-low/",
    "https://www.spendnode.io/blog/october-300b-wipeout-uptober-collapse-october-2026/",
    "https://www.theblock.co/news/regulation/2026-11-02-kim-jong-un-sister-rejects-fbi-claims-linking-north-korea-binance-hack-432344",
-   "https://www.theblock.co/news/business/2026-11-02-binance-zero-knowledge-proof-of-reserves-snapshot-hack-recovery-432321"
+   "https://www.theblock.co/news/business/2026-11-02-binance-zero-knowledge-proof-of-reserves-snapshot-hack-recovery-432321",
+   "https://crypto.news/binance-restores-withdrawals-for-more-ethereum-solana-tokens-after-6-3b-hack/",
+   "https://x.com/binance/status/2117514123089231963"
   ],
   "source_names": [
    "CoinDesk",
@@ -40919,7 +40921,9 @@
    "CryptoTicker",
    "SpendNode",
    "The Block",
-   "The Block"
+   "The Block",
+   "crypto.news",
+   "Binance on X"
   ],
   "sources": [
    {
@@ -40968,6 +40972,20 @@
     "url": "https://www.theblock.co/news/business/2026-11-02-binance-zero-knowledge-proof-of-reserves-snapshot-hack-recovery-432321",
     "name": "The Block",
     "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://crypto.news/binance-restores-withdrawals-for-more-ethereum-solana-tokens-after-6-3b-hack/",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://x.com/binance/status/2117514123089231963",
+    "name": "Binance on X",
+    "kind": "social",
     "checked": false,
     "confirms": true
    }
@@ -41019,6 +41037,20 @@
     "url": "https://www.theblock.co/news/business/2026-11-02-binance-zero-knowledge-proof-of-reserves-snapshot-hack-recovery-432321",
     "name": "The Block",
     "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://crypto.news/binance-restores-withdrawals-for-more-ethereum-solana-tokens-after-6-3b-hack/",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://x.com/binance/status/2117514123089231963",
+    "name": "Binance on X",
+    "kind": "social",
     "checked": false,
     "confirms": true
    }
@@ -41079,6 +41111,20 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/binance-restores-withdrawals-for-more-ethereum-solana-tokens-after-6-3b-hack/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Binance on X",
+     "url": "https://x.com/binance/status/2117514123089231963",
+     "category": "social",
+     "counts": false,
+     "note": "social/community post — can trigger investigation, never verifies"
     }
    ]
   },
@@ -41141,6 +41187,24 @@
     "headline": "Kim Yo-jong rejects FBI claim that North Korea was behind the $6.3 billion Binance hack",
     "summary": "North Korean leader Kim Jong-un's sister reportedly denied North Korea was behind the record Binance hack, rejecting the FBI's attribution to the TraderTraitor group, according to Yonhap.",
     "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-03T07:13-05:00",
+    "headline": "Binance reopens withdrawals for 51 more assets on Ethereum and Solana as hack recovery continues",
+    "summary": "Binance restored withdrawals for 51 more assets on Ethereum and Solana from 04:00 UTC on November 3, after five Ethereum stablecoins earlier in the day. BNB Chain, XRP Ledger, Tron, Base and others are still pending with no completion time.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-03T07:13-05:00",
+    "headline": "Kim Jong-Un's sister rejects FBI claims linking North Korea to the Binance hack",
+    "summary": "Kim Yo Jong rejected FBI claims tying North Korea to the record $6 billion Binance hack, according to reports carried by The Block.",
+    "new_development": true,
     "level": "NORMAL",
     "sources_added": 0,
     "verification": "VERIFIED"
@@ -42740,13 +42804,17 @@
    "https://www.coingabbar.com/en/crypto-news-november-2-bitcoin-ethereum-fear-greed-us-midterms",
    "https://www.theblock.co/news/business/2026-11-02-bitmine-adds-8573-eth-tom-lee-flags-muted-binance-hack-reaction-432307",
    "https://fortune.com/article/price-of-bitcoin-11-02-2026/",
-   "https://decrypt.co/price/bitcoin"
+   "https://decrypt.co/price/bitcoin",
+   "https://www.analyticsinsight.net/price-analysis/crypto-prices-today-bitcoin-slips-to-usd-76500-as-us-midterm-voting-begins",
+   "https://cryptoticker.io/en/why-is-crypto-down-today-november-3-2026/"
   ],
   "source_names": [
    "CoinGabbar",
    "The Block",
    "Fortune",
-   "Decrypt prices"
+   "Decrypt prices",
+   "Analytics Insight",
+   "CryptoTicker"
   ],
   "sources": [
    {
@@ -42774,6 +42842,20 @@
     "url": "https://decrypt.co/price/bitcoin",
     "name": "Decrypt prices",
     "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.analyticsinsight.net/price-analysis/crypto-prices-today-bitcoin-slips-to-usd-76500-as-us-midterm-voting-begins",
+    "name": "Analytics Insight",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptoticker.io/en/why-is-crypto-down-today-november-3-2026/",
+    "name": "CryptoTicker",
+    "kind": "other",
     "checked": true,
     "confirms": true
    }
@@ -42804,6 +42886,20 @@
     "url": "https://decrypt.co/price/bitcoin",
     "name": "Decrypt prices",
     "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.analyticsinsight.net/price-analysis/crypto-prices-today-bitcoin-slips-to-usd-76500-as-us-midterm-voting-begins",
+    "name": "Analytics Insight",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptoticker.io/en/why-is-crypto-down-today-november-3-2026/",
+    "name": "CryptoTicker",
+    "kind": "other",
     "checked": true,
     "confirms": true
    }
@@ -42843,6 +42939,20 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "Analytics Insight",
+     "url": "https://www.analyticsinsight.net/price-analysis/crypto-prices-today-bitcoin-slips-to-usd-76500-as-us-midterm-voting-begins",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CryptoTicker",
+     "url": "https://cryptoticker.io/en/why-is-crypto-down-today-november-3-2026/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -42890,6 +43000,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-03T07:13-05:00",
+    "headline": "Bitcoin slips to about $76,500, down roughly 2%, as US midterm voting begins",
+    "summary": "Bitcoin trades near $76,500, down about 2% in 24 hours; solana is down about 3.5% and ether sits near $2,250. Traders cite Binance hack fallout, ETF outflows, long liquidations and caution ahead of midterm results.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 2,
     "verification": "VERIFIED"
    }
   ],
@@ -43604,6 +43723,194 @@
    "AI proposed NORMAL: Routine fund trade disclosure."
   ],
   "market_significance": "Low.",
+  "trigger": "The Block",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261103_b176c8",
+  "headline": "NEAR governance approves cutting the token issuance ceiling to 1.6% from 2.5%",
+  "summary": "NEAR's House of Stake passed HSP-029, lowering max annual issuance from 2.5% to 1.6% over 24 months. It still needs Security Council review and a validator upgrade after a 90-day grace period. NEAR is down about 8%.",
+  "detected_at": "2026-11-03T07:13-05:00",
+  "active_since": "2026-11-03T07:13-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "NEAR"
+  ],
+  "event_type": "protocol_upgrade",
+  "event_time": "2026-11-03T04:19-05:00",
+  "scheduled_event": false,
+  "metrics": {
+   "pct_move_24h": -8.2
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/defi/2026-11-03-near-governance-approves-proposal-to-cut-token-issuance-432378",
+   "https://x.com/NEARProtocol/status/2117338455189385533"
+  ],
+  "source_names": [
+   "The Block",
+   "NEAR on X"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/defi/2026-11-03-near-governance-approves-proposal-to-cut-token-issuance-432378",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://x.com/NEARProtocol/status/2117338455189385533",
+    "name": "NEAR on X",
+    "kind": "social",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/defi/2026-11-03-near-governance-approves-proposal-to-cut-token-issuance-432378",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://x.com/NEARProtocol/status/2117338455189385533",
+    "name": "NEAR on X",
+    "kind": "social",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/defi/2026-11-03-near-governance-approves-proposal-to-cut-token-issuance-432378",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "NEAR on X",
+     "url": "https://x.com/NEARProtocol/status/2117338455189385533",
+     "category": "social",
+     "counts": false,
+     "note": "social/community post — can trigger investigation, never verifies"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Governance vote, not yet live"
+  ],
+  "market_significance": "Lower token inflation for NEAR",
+  "trigger": "The Block",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261103_9786d9",
+  "headline": "Consensys launches cross-ledger settlement stack for institutional networks",
+  "summary": "Consensys unveiled Sovereign Network Interoperability at Devcon in Mumbai, letting institutions settle across separate blockchains without moving assets off their native ledgers. ClearToken is a named partner; Canton connectivity is planned.",
+  "detected_at": "2026-11-03T07:13-05:00",
+  "active_since": "2026-11-03T07:13-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "ETH"
+  ],
+  "event_type": "institutional",
+  "event_time": "2026-11-03T03:56-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/ecosystems/2026-11-03-consensys-cross-ledger-settlement-routing-stack-432375",
+   "https://consensys.com/blog/consensys-introduces-sovereign-network-interoperability-a-technology-stack-for-connecting-financial-networks"
+  ],
+  "source_names": [
+   "The Block",
+   "Consensys"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/ecosystems/2026-11-03-consensys-cross-ledger-settlement-routing-stack-432375",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://consensys.com/blog/consensys-introduces-sovereign-network-interoperability-a-technology-stack-for-connecting-financial-networks",
+    "name": "Consensys",
+    "kind": "primary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/ecosystems/2026-11-03-consensys-cross-ledger-settlement-routing-stack-432375",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://consensys.com/blog/consensys-introduces-sovereign-network-interoperability-a-technology-stack-for-connecting-financial-networks",
+    "name": "Consensys",
+    "kind": "primary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/ecosystems/2026-11-03-consensys-cross-ledger-settlement-routing-stack-432375",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Consensys",
+     "url": "https://consensys.com/blog/consensys-introduces-sovereign-network-interoperability-a-technology-stack-for-connecting-financial-networks",
+     "category": "primary",
+     "counts": false,
+     "note": "primary (claimed official source; domain not on the known list); not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Product launch, minor market impact"
+  ],
+  "market_significance": "Institutional tokenization infrastructure",
   "trigger": "The Block",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
