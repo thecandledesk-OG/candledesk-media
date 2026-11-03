@@ -40908,14 +40908,18 @@
    "https://fxnewsgroup.com/forex-news/cryptocurrency/binance-6-3b-north-korea-hack-withdrawals-paused-48-hours-bitcoin-falls/",
    "https://www.coingabbar.com/en/crypto-news-today-bitcoin-ethereum-price-falls-binance-hacked",
    "https://cryptoticker.io/en/bitcoin-price-monthly-close-six-week-low/",
-   "https://www.spendnode.io/blog/october-300b-wipeout-uptober-collapse-october-2026/"
+   "https://www.spendnode.io/blog/october-300b-wipeout-uptober-collapse-october-2026/",
+   "https://www.theblock.co/news/regulation/2026-11-02-kim-jong-un-sister-rejects-fbi-claims-linking-north-korea-binance-hack-432344",
+   "https://www.theblock.co/news/business/2026-11-02-binance-zero-knowledge-proof-of-reserves-snapshot-hack-recovery-432321"
   ],
   "source_names": [
    "CoinDesk",
    "FX News Group",
    "CoinGabbar",
    "CryptoTicker",
-   "SpendNode"
+   "SpendNode",
+   "The Block",
+   "The Block"
   ],
   "sources": [
    {
@@ -40951,6 +40955,20 @@
     "name": "SpendNode",
     "kind": "secondary",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-02-kim-jong-un-sister-rejects-fbi-claims-linking-north-korea-binance-hack-432344",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-02-binance-zero-knowledge-proof-of-reserves-snapshot-hack-recovery-432321",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -40989,15 +41007,29 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-02-kim-jong-un-sister-rejects-fbi-claims-linking-north-korea-binance-hack-432344",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-02-binance-zero-knowledge-proof-of-reserves-snapshot-hack-recovery-432321",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
    }
   ],
-  "verification_status": "UNVERIFIED",
+  "verification_status": "VERIFIED",
   "verification": {
-   "status": "UNVERIFIED",
-   "independent_sources": 1,
+   "status": "VERIFIED",
+   "independent_sources": 2,
    "has_primary": false,
-   "score": 0.4,
-   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "score": 0.8,
+   "reason": "2 independent credible sources confirm it (no primary source yet)",
    "sources_checked": [
     {
      "name": "CoinDesk",
@@ -41033,6 +41065,20 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-11-02-kim-jong-un-sister-rejects-fbi-claims-linking-north-korea-binance-hack-432344",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-02-binance-zero-knowledge-proof-of-reserves-snapshot-hack-recovery-432321",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
     }
    ]
   },
@@ -41071,6 +41117,24 @@
     "level": "NORMAL",
     "sources_added": 1,
     "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-02T19:10-05:00",
+    "headline": "Kim Jong-un's sister rejects FBI claims linking North Korea to the Binance hack",
+    "summary": "Yonhap reports Kim Yo-jong dismissed the FBI's attribution of the roughly $6 billion Binance hack to North Korea's TraderTraitor group as brand-building.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-02T19:10-05:00",
+    "headline": "Binance publishes proof of reserves, says it replenished about 95% of hacked assets",
+    "summary": "Binance completed a new proof-of-reserves snapshot and says it has replaced about 95 percent of the assets taken in last week's hack with its own funds while restoring withdrawals.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
    }
   ],
   "posts": [],
@@ -42665,11 +42729,13 @@
   "emergency": false,
   "source_urls": [
    "https://www.coingabbar.com/en/crypto-news-november-2-bitcoin-ethereum-fear-greed-us-midterms",
-   "https://www.theblock.co/news/business/2026-11-02-bitmine-adds-8573-eth-tom-lee-flags-muted-binance-hack-reaction-432307"
+   "https://www.theblock.co/news/business/2026-11-02-bitmine-adds-8573-eth-tom-lee-flags-muted-binance-hack-reaction-432307",
+   "https://fortune.com/article/price-of-bitcoin-11-02-2026/"
   ],
   "source_names": [
    "CoinGabbar",
-   "The Block"
+   "The Block",
+   "Fortune"
   ],
   "sources": [
    {
@@ -42682,6 +42748,13 @@
    {
     "url": "https://www.theblock.co/news/business/2026-11-02-bitmine-adds-8573-eth-tom-lee-flags-muted-binance-hack-reaction-432307",
     "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://fortune.com/article/price-of-bitcoin-11-02-2026/",
+    "name": "Fortune",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -42701,15 +42774,22 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://fortune.com/article/price-of-bitcoin-11-02-2026/",
+    "name": "Fortune",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
-  "verification_status": "UNVERIFIED",
+  "verification_status": "VERIFIED",
   "verification": {
-   "status": "UNVERIFIED",
-   "independent_sources": 1,
+   "status": "VERIFIED",
+   "independent_sources": 2,
    "has_primary": false,
-   "score": 0.4,
-   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "score": 0.8,
+   "reason": "2 independent credible sources confirm it (no primary source yet)",
    "sources_checked": [
     {
      "name": "CoinGabbar",
@@ -42721,6 +42801,13 @@
     {
      "name": "The Block",
      "url": "https://www.theblock.co/news/business/2026-11-02-bitmine-adds-8573-eth-tom-lee-flags-muted-binance-hack-reaction-432307",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Fortune",
+     "url": "https://fortune.com/article/price-of-bitcoin-11-02-2026/",
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
@@ -42754,6 +42841,15 @@
     "level": "NORMAL",
     "sources_added": 1,
     "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-02T19:10-05:00",
+    "headline": "Bitcoin flat near $77,750 ahead of US midterms",
+    "summary": "Bitcoin traded around $77,750 Monday morning, roughly flat over 24 hours, as markets waited on Tuesday's US midterm elections.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
    }
   ],
   "posts": [],
@@ -42974,10 +43070,10 @@
   "headline": "Brazil's Mercado Bitcoin halts deposits and withdrawals after about $40 million drained across 10 chains",
   "summary": "Brazil's largest crypto exchange paused deposits and withdrawals Monday after a security incident early that morning. Security firm Hypernative flagged more than $40 million in suspicious transfers across at least 10 blockchains, including Bitcoin, Ethereum, Solana and Tron. The exchange says the incident is contained and no customer lost money, but has not confirmed the amount or a reopening time. Tether froze about 4.5 million USDT tied to it.",
   "detected_at": "2026-11-02T13:26-05:00",
-  "active_since": "2026-11-02T13:26-05:00",
-  "classification": "NORMAL",
+  "active_since": "2026-11-02T19:10-05:00",
+  "classification": "IMPORTANT",
   "proposed_level": "IMPORTANT",
-  "confidence": 0.85,
+  "confidence": 0.7,
   "assets": [
    "BTC",
    "ETH",
@@ -42996,13 +43092,15 @@
    "https://www.coindesk.com/business/2026/11/02/brazil-s-mercado-bitcoin-halts-withdrawals-after-usd40-million-drained-across-10-chains",
    "https://decrypt.co/382341/mercado-bitcoin-halts-withdrawals-40-million-hack",
    "https://cybersecuritynews.com/mercado-bitcoin-suffers-cyberattack/",
-   "https://x.com/MercadoBitcoin/status/2117239507263132056"
+   "https://x.com/MercadoBitcoin/status/2117239507263132056",
+   "https://www.theblock.co/news/defi/2026-11-02-mercado-bitcoin-hack-46-million-brazil-exchange-432333"
   ],
   "source_names": [
    "CoinDesk",
    "Decrypt",
    "Cyber Security News",
-   "Mercado Bitcoin on X"
+   "Mercado Bitcoin on X",
+   "The Block"
   ],
   "sources": [
    {
@@ -43032,12 +43130,19 @@
     "kind": "social",
     "checked": false,
     "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/defi/2026-11-02-mercado-bitcoin-hack-46-million-brazil-exchange-432333",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "gate_sources": [
    {
-    "url": "https://www.coindesk.com/business/2026/11/02/brazil-s-mercado-bitcoin-halts-withdrawals-after-usd40-million-drained-across-10-chains",
-    "name": "CoinDesk",
+    "url": "https://www.theblock.co/news/defi/2026-11-02-mercado-bitcoin-hack-46-million-brazil-exchange-432333",
+    "name": "The Block",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -43046,21 +43151,14 @@
     "url": "https://decrypt.co/382341/mercado-bitcoin-halts-withdrawals-40-million-hack",
     "name": "Decrypt",
     "kind": "secondary",
-    "checked": true,
-    "confirms": true
-   },
-   {
-    "url": "https://cybersecuritynews.com/mercado-bitcoin-suffers-cyberattack/",
-    "name": "Cyber Security News",
-    "kind": "other",
-    "checked": true,
-    "confirms": true
-   },
-   {
-    "url": "https://x.com/MercadoBitcoin/status/2117239507263132056",
-    "name": "Mercado Bitcoin on X",
-    "kind": "social",
     "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/business/2026/11/02/brazil-s-mercado-bitcoin-halts-withdrawals-after-usd40-million-drained-across-10-chains",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
     "confirms": true
    }
   ],
@@ -43073,8 +43171,8 @@
    "reason": "2 independent credible sources confirm it (no primary source yet)",
    "sources_checked": [
     {
-     "name": "CoinDesk",
-     "url": "https://www.coindesk.com/business/2026/11/02/brazil-s-mercado-bitcoin-halts-withdrawals-after-usd40-million-drained-across-10-chains",
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/defi/2026-11-02-mercado-bitcoin-hack-46-million-brazil-exchange-432333",
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
@@ -43083,22 +43181,15 @@
      "name": "Decrypt",
      "url": "https://decrypt.co/382341/mercado-bitcoin-halts-withdrawals-40-million-hack",
      "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/business/2026/11/02/brazil-s-mercado-bitcoin-halts-withdrawals-after-usd40-million-drained-across-10-chains",
+     "category": "secondary",
      "counts": true,
      "note": "credible news organization"
-    },
-    {
-     "name": "Cyber Security News",
-     "url": "https://cybersecuritynews.com/mercado-bitcoin-suffers-cyberattack/",
-     "category": "other",
-     "counts": false,
-     "note": "not on the credible list — logged as evidence only"
-    },
-    {
-     "name": "Mercado Bitcoin on X",
-     "url": "https://x.com/MercadoBitcoin/status/2117239507263132056",
-     "category": "social",
-     "counts": false,
-     "note": "social/community post — can trigger investigation, never verifies"
     }
    ]
   },
@@ -43106,15 +43197,41 @@
    "AI proposed IMPORTANT: Exchange hack above the $10M threshold with withdrawals paused at Brazil's largest exchange; confirmed by CoinDesk and Decrypt citing the exchange's own statement.",
    "hack rule: about $40M lost (thresholds $10M/$100M) -> IMPORTANT",
    "first reported 2026-11-02T01:19-05:00, older than 12h -> NORMAL (daily show)",
-   "final level NORMAL (changed from AI's IMPORTANT)"
+   "final level NORMAL (changed from AI's IMPORTANT)",
+   "AI proposed NORMAL: Update on an already-logged story: revised loss and a USDT freeze.",
+   "hack rule: about $46M lost (thresholds $10M/$100M) -> IMPORTANT",
+   "final level IMPORTANT (changed from AI's NORMAL)"
   ],
   "market_significance": "Second exchange security incident in a week after the Binance hack; affects a major Latin American exchange's users.",
   "trigger": "Mercado Bitcoin statement on X; Hypernative analysis",
-  "content_created": false,
-  "publication_status": "QUEUED_FOR_DAILY",
+  "content_created": true,
+  "publication_status": "DRAFTED",
   "related_story_ids": [],
-  "updates": [],
-  "posts": [],
+  "updates": [
+   {
+    "at": "2026-11-02T19:10-05:00",
+    "headline": "Mercado Bitcoin breach put at about $46 million as Tether freezes 4.5 million USDT",
+    "summary": "Arkham data puts the Mercado Bitcoin breach at about $46.3 million; Tether's CEO says more than 4.5 million USDT tied to it was frozen. The exchange says customers were not affected; deposits and withdrawals remain paused.",
+    "new_development": true,
+    "level": "IMPORTANT",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-02T19:10-05:00",
+    "headline": "Mercado Bitcoin breach put at about $46 million as Tether freezes 4.5 million USDT",
+    "summary": "Arkham data puts the Mercado Bitcoin breach at about $46.3 million; Tether's CEO says more than 4.5 million USDT tied to it was frozen. The exchange says customers were not affected; deposits and withdrawals remain paused.",
+    "new_development": false,
+    "level": "IMPORTANT",
+    "sources_added": 0,
+    "verification": "VERIFIED"
+   }
+  ],
+  "posts": [
+   "6ae927dbe7e2bb1d6ed77d27",
+   "6ae927dc6f053cdb90b10e6f",
+   "6ae927dc0d3397810d010720"
+  ],
   "needs_followup": false
  },
  {
@@ -43180,6 +43297,203 @@
   ],
   "market_significance": "Affects token issuers on XRPL, including stablecoins.",
   "trigger": "crypto.news report citing xrpl.org docs",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261102_4ebe9b",
+  "headline": "ZachXBT flags suspected $106 million theft from an unnamed EU entity's exchange accounts",
+  "summary": "On-chain investigator ZachXBT says an unnamed European Union entity lost more than $106 million in USDC and USDT from accounts at several centralized exchanges on November 1; funds were swapped to ETH and partly to Monero. Neither the victim nor any exchange has confirmed it.",
+  "detected_at": "2026-11-02T19:10-05:00",
+  "active_since": "2026-11-02T19:10-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "IMPORTANT",
+  "confidence": 0.45,
+  "assets": [
+   "USDC",
+   "USDT",
+   "ETH"
+  ],
+  "event_type": "hack_exploit",
+  "event_time": "2026-11-01",
+  "scheduled_event": false,
+  "metrics": {
+   "loss_usd": 106000000
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://t.me/investigations/372",
+   "https://www.coindesk.com/tech/2026/11/02/eu-entity-suspected-of-losing-usd106-million-from-crypto-exchange-accounts-zachxbt-says",
+   "https://decrypt.co/382383/mystery-106-million-crypto-theft-eu-entity-binance-hack"
+  ],
+  "source_names": [
+   "ZachXBT Telegram",
+   "CoinDesk",
+   "Decrypt"
+  ],
+  "sources": [
+   {
+    "url": "https://t.me/investigations/372",
+    "name": "ZachXBT Telegram",
+    "kind": "social",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/tech/2026/11/02/eu-entity-suspected-of-losing-usd106-million-from-crypto-exchange-accounts-zachxbt-says",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "origin": "ZachXBT"
+   },
+   {
+    "url": "https://decrypt.co/382383/mystery-106-million-crypto-theft-eu-entity-binance-hack",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "origin": "ZachXBT"
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://t.me/investigations/372",
+    "name": "ZachXBT Telegram",
+    "kind": "social",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/tech/2026/11/02/eu-entity-suspected-of-losing-usd106-million-from-crypto-exchange-accounts-zachxbt-says",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "origin": "ZachXBT"
+   },
+   {
+    "url": "https://decrypt.co/382383/mystery-106-million-crypto-theft-eu-entity-binance-hack",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "origin": "ZachXBT"
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "ZachXBT Telegram",
+     "url": "https://t.me/investigations/372",
+     "category": "social",
+     "counts": false,
+     "note": "social/community post — can trigger investigation, never verifies"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/tech/2026/11/02/eu-entity-suspected-of-losing-usd106-million-from-crypto-exchange-accounts-zachxbt-says",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/382383/mystery-106-million-crypto-theft-eu-entity-binance-hack",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed IMPORTANT: Large loss figure but single unconfirmed origin (ZachXBT Telegram); CoinDesk says losses not independently confirmed; victim and exchanges unnamed.",
+   "hack rule: about $106M lost (thresholds $10M/$100M) -> BREAKING",
+   "first reported 2026-11-01T00:00-04:00, older than 12h -> NORMAL (daily show)",
+   "final level NORMAL (changed from AI's IMPORTANT)"
+  ],
+  "market_significance": "Would be one of the largest thefts this year if confirmed, days after the Binance hack.",
+  "trigger": "Decrypt and CoinDesk reports of ZachXBT alert",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261102_fe2c37",
+  "headline": "DTCC tokenization launch could boost Securitize, StoneX says",
+  "summary": "StoneX analysts say DTCC's tokenization launch validates the model and could accelerate adoption, benefiting Securitize.",
+  "detected_at": "2026-11-02T19:10-05:00",
+  "active_since": "2026-11-02T19:10-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "institutional",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/markets/2026-11-02-stonex-dtcc-tokenization-validates-securitize-secz-432331"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-02-stonex-dtcc-tokenization-validates-securitize-secz-432331",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-02-stonex-dtcc-tokenization-validates-securitize-secz-432331",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/markets/2026-11-02-stonex-dtcc-tokenization-validates-securitize-secz-432331",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Analyst note."
+  ],
+  "market_significance": "Tokenization trend.",
+  "trigger": "The Block",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],

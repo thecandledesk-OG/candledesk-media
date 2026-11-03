@@ -1,0 +1,32 @@
+{
+ "story_id": "st_20261102_235a34",
+ "date_label": "NOV 2",
+ "headline": "Brazil's Mercado Bitcoin halts deposits and withdrawals after about $40 million drained",
+ "sources": [
+  {"name": "CoinDesk", "url": "https://www.coindesk.com/business/2026/11/02/brazil-s-mercado-bitcoin-halts-withdrawals-after-usd40-million-drained-across-10-chains"},
+  {"name": "The Block", "url": "https://www.theblock.co/news/defi/2026-11-02-mercado-bitcoin-hack-46-million-brazil-exchange-432333"},
+  {"name": "Decrypt", "url": "https://decrypt.co/382341/mercado-bitcoin-halts-withdrawals-40-million-hack"}
+ ],
+ "scenes": [
+  {"beat": "hook", "who": "ledger",
+   "vo": "Brazil's largest crypto exchange just paused all deposits and withdrawals after a security breach. Here's what changed.",
+   "chunks": ["Brazil's top exchange", "*Withdrawals paused*", "Security breach"]},
+  {"beat": "what_happened", "who": "ledger",
+   "vo": "On Monday, Mercado Bitcoin said it found and contained a security incident. Security firms tracked forty to forty-six million dollars moving out across at least ten blockchains.",
+   "chunks": ["Incident contained", "*About forty million*", "Ten blockchains"],
+   "stat": {"label": "Sources", "text": "CoinDesk · The Block · Decrypt"}},
+  {"beat": "why_it_matters", "who": "bruno",
+   "vo": "Here's why traders are watching it. The exchange says customers lost nothing, and Tether has already frozen more than four and a half million dollars of USDT tied to the attack.",
+   "chunks": ["Customers covered", "*USDT frozen*", "Tether steps in"]},
+  {"beat": "why_it_matters", "who": "ursa",
+   "vo": "The catch. Deposits and withdrawals are still frozen with no restart date. And nobody knows yet how the attacker got access to sign those transfers.",
+   "chunks": ["Still frozen", "*No restart date*", "Access unknown"]},
+  {"beat": "watch_next", "who": "moby",
+   "vo": "Here's what happens next. Watch for a restart date, a confirmed loss figure from the exchange, and whether more of the stolen funds get frozen.",
+   "chunks": ["Restart date", "*Confirmed loss*", "More freezes"]},
+  {"beat": "cta", "who": "all",
+   "vo": "Follow The Candle Desk for crypto news without the hype. Not financial advice.",
+   "chunks": ["Follow The Candle Desk", "*No hype*", "Just the news"],
+   "foot": "NOT FINANCIAL ADVICE"}
+ ]
+}
