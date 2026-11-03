@@ -1,0 +1,82 @@
+{
+ "story_id": "st_20261103_03ff88",
+ "date_label": "NOV 3",
+ "headline": "CFTC clears perps on U.S. stocks",
+ "sources": [
+  {
+   "name": "CFTC",
+   "url": "https://www.cftc.gov/PressRoom/SpeechesTestimony/seligstatement110326"
+  },
+  {
+   "name": "CoinDesk",
+   "url": "https://www.coindesk.com/policy/2026/11/03/cftc-clears-perpetual-futures-on-stocks-bringing-crypto-trading-model-to-wall-street"
+  }
+ ],
+ "scenes": [
+  {
+   "beat": "hook",
+   "who": "ledger",
+   "vo": "Crypto's favorite trading product just got cleared for American stocks. Here's what changed.",
+   "chunks": [
+    "Crypto-style perps",
+    "*Now on U.S. stocks*",
+    "Here's what changed"
+   ]
+  },
+  {
+   "beat": "what_happened",
+   "who": "ledger",
+   "vo": "The CFTC says perpetual futures on individual stocks can trade on U.S. exchanges for the first time. Its chairman says they count as security futures, so the SEC oversees them too.",
+   "chunks": [
+    "CFTC statement today",
+    "*Equity perps cleared*",
+    "CFTC and SEC oversight"
+   ],
+   "stat": {
+    "label": "Sources",
+    "text": "CFTC · CoinDesk"
+   }
+  },
+  {
+   "beat": "why_it_matters",
+   "who": "bruno",
+   "vo": "Here's why traders are watching it. Perpetual futures never expire, and they drive most crypto trading. Now that model is moving onto regulated Wall Street exchanges.",
+   "chunks": [
+    "No expiry date",
+    "*Crypto's core product*",
+    "Now on Wall Street"
+   ]
+  },
+  {
+   "beat": "why_it_matters",
+   "who": "ursa",
+   "vo": "The catch. No exchange, stock or launch date was named. And these contracts usually come with leverage, which can wipe out traders fast.",
+   "chunks": [
+    "No exchange named",
+    "*No launch date yet*",
+    "Leverage cuts both ways"
+   ]
+  },
+  {
+   "beat": "watch_next",
+   "who": "moby",
+   "vo": "Here's what happens next. Watch which exchanges file to list these first, and whether big crypto exchanges get involved.",
+   "chunks": [
+    "Who lists first",
+    "*Exchange filings*",
+    "Crypto venues next?"
+   ]
+  },
+  {
+   "beat": "cta",
+   "who": "all",
+   "vo": "Follow The Candle Desk for crypto news without the hype. Not financial advice.",
+   "chunks": [
+    "Follow The Candle Desk",
+    "*No hype*",
+    "Just the news"
+   ],
+   "foot": "NOT FINANCIAL ADVICE"
+  }
+ ]
+}

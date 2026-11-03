@@ -38722,7 +38722,10 @@
    "https://www.coindesk.com/markets/2026/11/02/binance-hack-fallout-u-s-midterms-and-jobs-report-crypto-week-ahead",
    "https://www.coingabbar.com/en/crypto-news-november-2-bitcoin-ethereum-fear-greed-us-midterms",
    "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-2-2026",
-   "https://www.theblock.co/news/business/2026-11-02-binance-zero-knowledge-proof-of-reserves-snapshot-hack-recovery-432321"
+   "https://www.theblock.co/news/business/2026-11-02-binance-zero-knowledge-proof-of-reserves-snapshot-hack-recovery-432321",
+   "https://www.coindesk.com/business/2026/11/03/binance-s-usd6-3-billion-hack-began-with-a-fake-job-interview-exchange-says",
+   "https://cryptobriefing.com/binance-hackers-fake-job-interview-crypto/",
+   "https://www.crowdfundinsider.com/2026/11/321104-binance-spends-half-its-safu-bitcoin-btc-after-hack-while-north-koreas-kim-jong-un-rejects-blame-for-incident/"
   ],
   "source_names": [
    "The Block",
@@ -38790,7 +38793,10 @@
    "CoinDesk",
    "CoinGabbar",
    "KuCoin",
-   "The Block"
+   "The Block",
+   "CoinDesk",
+   "Crypto Briefing",
+   "Crowdfund Insider"
   ],
   "sources": [
    {
@@ -39279,6 +39285,27 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/business/2026/11/03/binance-s-usd6-3-billion-hack-began-with-a-fake-job-interview-exchange-says",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptobriefing.com/binance-hackers-fake-job-interview-crypto/",
+    "name": "Crypto Briefing",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://www.crowdfundinsider.com/2026/11/321104-binance-spends-half-its-safu-bitcoin-btc-after-hack-while-north-koreas-kim-jong-un-rejects-blame-for-incident/",
+    "name": "Crowdfund Insider",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
    }
   ],
   "gate_sources": [
@@ -39683,6 +39710,27 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/business/2026/11/03/binance-s-usd6-3-billion-hack-began-with-a-fake-job-interview-exchange-says",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptobriefing.com/binance-hackers-fake-job-interview-crypto/",
+    "name": "Crypto Briefing",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://www.crowdfundinsider.com/2026/11/321104-binance-spends-half-its-safu-bitcoin-btc-after-hack-while-north-koreas-kim-jong-un-rejects-blame-for-incident/",
+    "name": "Crowdfund Insider",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
    }
   ],
   "verification_status": "VERIFIED",
@@ -40077,6 +40125,27 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/business/2026/11/03/binance-s-usd6-3-billion-hack-began-with-a-fake-job-interview-exchange-says",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Crypto Briefing",
+     "url": "https://cryptobriefing.com/binance-hackers-fake-job-interview-crypto/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Crowdfund Insider",
+     "url": "https://www.crowdfundinsider.com/2026/11/321104-binance-spends-half-its-safu-bitcoin-btc-after-hack-while-north-koreas-kim-jong-un-rejects-blame-for-incident/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -40402,6 +40471,24 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-03T10:22-05:00",
+    "headline": "Binance says its $6.3 billion hack began with a fake job interview; about $2.85 billion frozen",
+    "summary": "At a Tuesday briefing Binance said attackers reached a wallet engineer via a fake job interview and malware-laced coding test, then used EIP-7702 on a hot wallet. CEO Richard Teng said about $2.85 billion is frozen and about 98% of affected tokens were replenished with company funds.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-03T10:22-05:00",
+    "headline": "Binance has spent about half its SAFU bitcoin, roughly $580 million, after the hack",
+    "summary": "Reports say Binance has used about half of the bitcoin in its SAFU emergency fund, roughly $580 million, while net outflows since the hack reached about $5.3 billion.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "VERIFIED"
    }
   ],
@@ -42448,9 +42535,28 @@
   "market_significance": "Midterms shape next year's crypto rules.",
   "trigger": "CoinDesk latest news",
   "content_created": false,
-  "publication_status": "QUEUED_FOR_DAILY",
+  "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-11-03T10:10-05:00",
+    "headline": "Crypto super PACs spent about $170 million on the midterms",
+    "summary": "Crypto PACs spent nearly one hundred seventy million dollars on these midterms.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-03T10:10-05:00",
+    "headline": "Kalshi gives Democrats 70% odds of taking both chambers",
+    "summary": "Kalshi gives Democrats seventy percent odds of taking both chambers.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -42806,7 +42912,8 @@
    "https://fortune.com/article/price-of-bitcoin-11-02-2026/",
    "https://decrypt.co/price/bitcoin",
    "https://www.analyticsinsight.net/price-analysis/crypto-prices-today-bitcoin-slips-to-usd-76500-as-us-midterm-voting-begins",
-   "https://cryptoticker.io/en/why-is-crypto-down-today-november-3-2026/"
+   "https://cryptoticker.io/en/why-is-crypto-down-today-november-3-2026/",
+   "https://crypto.news/xrp-price-today-november-3"
   ],
   "source_names": [
    "CoinGabbar",
@@ -42814,7 +42921,8 @@
    "Fortune",
    "Decrypt prices",
    "Analytics Insight",
-   "CryptoTicker"
+   "CryptoTicker",
+   "crypto.news"
   ],
   "sources": [
    {
@@ -42856,6 +42964,13 @@
     "url": "https://cryptoticker.io/en/why-is-crypto-down-today-november-3-2026/",
     "name": "CryptoTicker",
     "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://crypto.news/xrp-price-today-november-3",
+    "name": "crypto.news",
+    "kind": "secondary",
     "checked": true,
     "confirms": true
    }
@@ -42900,6 +43015,13 @@
     "url": "https://cryptoticker.io/en/why-is-crypto-down-today-november-3-2026/",
     "name": "CryptoTicker",
     "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://crypto.news/xrp-price-today-november-3",
+    "name": "crypto.news",
+    "kind": "secondary",
     "checked": true,
     "confirms": true
    }
@@ -42950,6 +43072,13 @@
     {
      "name": "CryptoTicker",
      "url": "https://cryptoticker.io/en/why-is-crypto-down-today-november-3-2026/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/xrp-price-today-november-3",
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
@@ -43009,6 +43138,15 @@
     "new_development": true,
     "level": "NORMAL",
     "sources_added": 2,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-03T10:10-05:00",
+    "headline": "Bitcoin slips to $76,910 as America votes",
+    "summary": "Here's what moved the chain today. Bitcoin slid to seventy-six thousand nine hundred dollars.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "VERIFIED"
    }
   ],
@@ -43585,9 +43723,19 @@
   "market_significance": "Would be one of the largest thefts this year if confirmed, days after the Binance hack.",
   "trigger": "Decrypt and CoinDesk reports of ZachXBT alert",
   "content_created": false,
-  "publication_status": "QUEUED_FOR_DAILY",
+  "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-11-03T10:10-05:00",
+    "headline": "ZachXBT says an unnamed EU entity lost over $106 million in stablecoins",
+    "summary": "ZachXBT says an unnamed European entity lost over one hundred six million dollars in stablecoins.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -43912,6 +44060,359 @@
   ],
   "market_significance": "Institutional tokenization infrastructure",
   "trigger": "The Block",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261103_cb7efe",
+  "headline": "Spot bitcoin ETFs shed about $399 million on November 2",
+  "summary": "Spot bitcoin ETFs shed almost four hundred million dollars Monday.",
+  "detected_at": "2026-11-03T10:10-05:00",
+  "active_since": "2026-11-03T10:10-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "etf",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://crypto.news/why-is-bitcoin-price-down-today-btc-76000-support/"
+  ],
+  "source_names": [
+   "crypto.news"
+  ],
+  "sources": [
+   {
+    "url": "https://crypto.news/why-is-bitcoin-price-down-today-btc-76000-support/",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://crypto.news/why-is-bitcoin-price-down-today-btc-76000-support/",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/why-is-bitcoin-price-down-today-btc-76000-support/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261103_03ff88",
+  "headline": "CFTC clears perpetual futures on individual U.S. stocks for the first time",
+  "summary": "CFTC Chairman Michael Selig said equity perpetual futures were deemed approved under Regulation 40.3 as security futures products and can begin trading on exchanges registered with both the CFTC and SEC. No exchanges, contracts or launch dates were named. Perpetuals are crypto's core trading product.",
+  "detected_at": "2026-11-03T10:22-05:00",
+  "active_since": "2026-11-03T10:22-05:00",
+  "classification": "IMPORTANT",
+  "proposed_level": "IMPORTANT",
+  "confidence": 0.88,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "regulatory",
+  "event_time": "2026-11-03T09:45-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.cftc.gov/PressRoom/SpeechesTestimony/seligstatement110326",
+   "https://www.coindesk.com/policy/2026/11/03/cftc-clears-perpetual-futures-on-stocks-bringing-crypto-trading-model-to-wall-street",
+   "https://bitcoinmagazine.com/news/cftc-opens-equity-perpetual-futures"
+  ],
+  "source_names": [
+   "CFTC",
+   "CoinDesk",
+   "Bitcoin Magazine"
+  ],
+  "sources": [
+   {
+    "url": "https://www.cftc.gov/PressRoom/SpeechesTestimony/seligstatement110326",
+    "name": "CFTC",
+    "kind": "primary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/policy/2026/11/03/cftc-clears-perpetual-futures-on-stocks-bringing-crypto-trading-model-to-wall-street",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://bitcoinmagazine.com/news/cftc-opens-equity-perpetual-futures",
+    "name": "Bitcoin Magazine",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.cftc.gov/PressRoom/SpeechesTestimony/seligstatement110326",
+    "name": "CFTC",
+    "kind": "primary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/policy/2026/11/03/cftc-clears-perpetual-futures-on-stocks-bringing-crypto-trading-model-to-wall-street",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://bitcoinmagazine.com/news/cftc-opens-equity-perpetual-futures",
+    "name": "Bitcoin Magazine",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "VERIFIED",
+  "verification": {
+   "status": "VERIFIED",
+   "independent_sources": 2,
+   "has_primary": true,
+   "score": 1.0,
+   "reason": "2 independent credible sources confirm it (incl. a primary source)",
+   "sources_checked": [
+    {
+     "name": "CFTC",
+     "url": "https://www.cftc.gov/PressRoom/SpeechesTestimony/seligstatement110326",
+     "category": "primary",
+     "counts": true,
+     "note": "primary (known official domain)"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/policy/2026/11/03/cftc-clears-perpetual-futures-on-stocks-bringing-crypto-trading-model-to-wall-street",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Bitcoin Magazine",
+     "url": "https://bitcoinmagazine.com/news/cftc-opens-equity-perpetual-futures",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed IMPORTANT: Official CFTC chairman statement confirms the approval; CoinDesk and Bitcoin Magazine report it independently."
+  ],
+  "market_significance": "Brings the crypto-native perpetual futures model to regulated U.S. stock markets, under joint CFTC and SEC oversight; follows the CFTC's earlier bitcoin perp approval and ICE's Hyperliquid perps deal.",
+  "trigger": "CFTC statement Nov 3, 2026",
+  "content_created": true,
+  "publication_status": "DRAFTED",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [
+   "6ae9fdbf5a8533248e6e0f99",
+   "6ae9fdbfce22073f337849bd",
+   "6ae9fdc001362e3aaea0bc65"
+  ],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261103_4f49b7",
+  "headline": "Liquid Network restores full 1:1 bitcoin backing after September's $320 million exploit",
+  "summary": "The Liquid Federation says all L-BTC is fully backed again after deposits of 300 and 250 BTC on November 2 covered the last 550 BTC the attacker kept. Samson Mow said Blockstream supplied the funds.",
+  "detected_at": "2026-11-03T10:22-05:00",
+  "active_since": "2026-11-03T10:22-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "protocol_upgrade",
+  "event_time": "2026-11-03T06:00-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/ecosystems/2026-11-03-liquid-network-restores-full-bitcoin-backing-following-exploit-432387",
+   "https://blog.liquid.net/liquid-network-security-incident-assessment/"
+  ],
+  "source_names": [
+   "The Block",
+   "Liquid Network blog"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/ecosystems/2026-11-03-liquid-network-restores-full-bitcoin-backing-following-exploit-432387",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://blog.liquid.net/liquid-network-security-incident-assessment/",
+    "name": "Liquid Network blog",
+    "kind": "primary",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/ecosystems/2026-11-03-liquid-network-restores-full-bitcoin-backing-following-exploit-432387",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://blog.liquid.net/liquid-network-security-incident-assessment/",
+    "name": "Liquid Network blog",
+    "kind": "primary",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/ecosystems/2026-11-03-liquid-network-restores-full-bitcoin-backing-following-exploit-432387",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Liquid Network blog",
+     "url": "https://blog.liquid.net/liquid-network-security-incident-assessment/",
+     "category": "primary",
+     "counts": false,
+     "note": "primary (claimed official source; domain not on the known list); not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Resolution of an exploit from September; positive but not market-moving."
+  ],
+  "market_significance": "Closes out a $320 million bridge exploit on a bitcoin sidechain.",
+  "trigger": "Liquid Federation announcement Nov 3",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261103_5c4844",
+  "headline": "Ethereum layer 2 Aztec ships Tierra V6 upgrade for faster private apps",
+  "summary": "Aztec rolled out its Tierra V6 upgrade aimed at faster privacy-preserving apps.",
+  "detected_at": "2026-11-03T10:22-05:00",
+  "active_since": "2026-11-03T10:22-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "ETH"
+  ],
+  "event_type": "protocol_upgrade",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/defi/2026-11-03-ethereum-l2-aztec-tierra-v6-upgrade-private-apps-432399"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/defi/2026-11-03-ethereum-l2-aztec-tierra-v6-upgrade-private-apps-432399",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/defi/2026-11-03-ethereum-l2-aztec-tierra-v6-upgrade-private-apps-432399",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/defi/2026-11-03-ethereum-l2-aztec-tierra-v6-upgrade-private-apps-432399",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Minor L2 upgrade."
+  ],
+  "market_significance": "Privacy tooling on Ethereum.",
+  "trigger": "The Block headline",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
