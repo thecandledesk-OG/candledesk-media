@@ -42979,7 +42979,8 @@
    "https://cryptoticker.io/en/why-is-crypto-down-today-november-3-2026/",
    "https://crypto.news/xrp-price-today-november-3",
    "https://fortune.com/article/price-of-bitcoin-11-03-2026/",
-   "https://www.coindesk.com/markets/2026/11/03/bitcoin-steadies-after-dip-to-usd76-300-as-etf-outflows-and-midterm-elections-weigh-on-crypto"
+   "https://www.coindesk.com/markets/2026/11/03/bitcoin-steadies-after-dip-to-usd76-300-as-etf-outflows-and-midterm-elections-weigh-on-crypto",
+   "https://finance.yahoo.com/video/binance-deposits-overtake-withdrawals-sec-170000882.html"
   ],
   "source_names": [
    "CoinGabbar",
@@ -42990,7 +42991,8 @@
    "CryptoTicker",
    "crypto.news",
    "Fortune",
-   "CoinDesk"
+   "CoinDesk",
+   "Yahoo Finance"
   ],
   "sources": [
    {
@@ -43054,6 +43056,13 @@
     "name": "CoinDesk",
     "kind": "secondary",
     "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://finance.yahoo.com/video/binance-deposits-overtake-withdrawals-sec-170000882.html",
+    "name": "Yahoo Finance",
+    "kind": "secondary",
+    "checked": true,
     "confirms": true
    }
   ],
@@ -43120,15 +43129,22 @@
     "kind": "secondary",
     "checked": false,
     "confirms": true
+   },
+   {
+    "url": "https://finance.yahoo.com/video/binance-deposits-overtake-withdrawals-sec-170000882.html",
+    "name": "Yahoo Finance",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "VERIFIED",
   "verification": {
    "status": "VERIFIED",
-   "independent_sources": 3,
+   "independent_sources": 4,
    "has_primary": false,
    "score": 0.8,
-   "reason": "3 independent credible sources confirm it (no primary source yet)",
+   "reason": "4 independent credible sources confirm it (no primary source yet)",
    "sources_checked": [
     {
      "name": "CoinGabbar",
@@ -43192,6 +43208,13 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/video/binance-deposits-overtake-withdrawals-sec-170000882.html",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -43266,6 +43289,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 2,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-03T16:14-05:00",
+    "headline": "Binance deposits overtake withdrawals as net outflow since reopening settles near $5 billion",
+    "summary": "After reopening, Binance saw about $10.97 billion withdrawn and $5.7 billion deposited over 46 hours, for a net outflow of roughly $5.3 billion; deposits are now outpacing withdrawals. Binance says about 95% of affected assets are replenished.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "VERIFIED"
    }
   ],
@@ -44836,6 +44868,76 @@
   ],
   "market_significance": "One of the largest corporate bitcoin holders.",
   "trigger": "CoinDesk latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261103_b51d19",
+  "headline": "SEC staff adds FAQs on when token governance means central control",
+  "summary": "SEC staff added three FAQ entries on token governance and status. Broad, unaffiliated token-holder governance generally does not create a controlling group; unilateral powers over access, validators or protocol rules are examples of control. Staff guidance, not a new rule.",
+  "detected_at": "2026-11-03T16:14-05:00",
+  "active_since": "2026-11-03T16:14-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "regulatory",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://finance.yahoo.com/video/binance-deposits-overtake-withdrawals-sec-170000882.html"
+  ],
+  "source_names": [
+   "Yahoo Finance"
+  ],
+  "sources": [
+   {
+    "url": "https://finance.yahoo.com/video/binance-deposits-overtake-withdrawals-sec-170000882.html",
+    "name": "Yahoo Finance",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://finance.yahoo.com/video/binance-deposits-overtake-withdrawals-sec-170000882.html",
+    "name": "Yahoo Finance",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/video/binance-deposits-overtake-withdrawals-sec-170000882.html",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Staff guidance clarifying token control; incremental, not a rule. Only a video segment confirms so far."
+  ],
+  "market_significance": "Affects how projects think about decentralization claims.",
+  "trigger": "Yahoo Finance segment Nov 3",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
