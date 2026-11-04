@@ -1,0 +1,82 @@
+{
+ "story_id": "st_20261103_01a63d",
+ "date_label": "NOV 3",
+ "headline": "SEC staff: Canton Coin is a commodity",
+ "sources": [
+  {
+   "name": "SEC",
+   "url": "https://www.sec.gov/rules-regulations/no-action-interpretive-exemptive-letters/division-corporation-finance-no-action/canton-coin-110326"
+  },
+  {
+   "name": "The Block",
+   "url": "https://www.theblock.co/news/regulation/2026-11-03-sec-no-action-letter-canton-coin-digital-commodity-432492"
+  }
+ ],
+ "scenes": [
+  {
+   "beat": "hook",
+   "who": "ledger",
+   "vo": "SEC staff just called a crypto token a digital commodity in writing. Here's what changed.",
+   "chunks": [
+    "SEC staff letter",
+    "*Token called a commodity*",
+    "Here's what changed"
+   ]
+  },
+  {
+   "beat": "what_happened",
+   "who": "ledger",
+   "vo": "In a no-action letter today, SEC staff said they view Canton Coin as a digital commodity, and won't recommend enforcement over coins minted automatically for validators and app builders.",
+   "chunks": [
+    "Canton Coin letter",
+    "*No enforcement planned*",
+    "Auto-minting covered"
+   ],
+   "stat": {
+    "label": "Sources",
+    "text": "SEC \u00b7 The Block"
+   }
+  },
+  {
+   "beat": "why_it_matters",
+   "who": "bruno",
+   "vo": "Here's why traders are watching it. Supporters say this could be a template for other network tokens whose value comes from the network, not a company.",
+   "chunks": [
+    "Why it matters",
+    "*A possible template*",
+    "For network tokens"
+   ]
+  },
+  {
+   "beat": "why_it_matters",
+   "who": "ursa",
+   "vo": "The catch. This is staff guidance, not a court ruling or a law. The letter reaches no legal conclusion and rests on the project's own facts.",
+   "chunks": [
+    "Staff view only",
+    "*No legal conclusion*",
+    "Based on project's facts"
+   ]
+  },
+  {
+   "beat": "watch_next",
+   "who": "moby",
+   "vo": "Here's what happens next. Watch whether other projects ask the SEC for the same kind of letter, and how fast staff answer.",
+   "chunks": [
+    "Who asks next",
+    "*Copycat requests*",
+    "SEC response speed"
+   ]
+  },
+  {
+   "beat": "cta",
+   "who": "all",
+   "vo": "Follow The Candle Desk for crypto news without the hype. Not financial advice.",
+   "chunks": [
+    "Follow The Candle Desk",
+    "*No hype*",
+    "Just the news"
+   ],
+   "foot": "NOT FINANCIAL ADVICE"
+  }
+ ]
+}

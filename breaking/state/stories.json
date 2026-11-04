@@ -42980,7 +42980,8 @@
    "https://crypto.news/xrp-price-today-november-3",
    "https://fortune.com/article/price-of-bitcoin-11-03-2026/",
    "https://www.coindesk.com/markets/2026/11/03/bitcoin-steadies-after-dip-to-usd76-300-as-etf-outflows-and-midterm-elections-weigh-on-crypto",
-   "https://finance.yahoo.com/video/binance-deposits-overtake-withdrawals-sec-170000882.html"
+   "https://finance.yahoo.com/video/binance-deposits-overtake-withdrawals-sec-170000882.html",
+   "https://www.fool.com/coverage/stock-market-today/2026/11/03/crypto-market-today-nov-3-xrp-and-zcash-defy-recent-weakness-as-midterm-elections-take-center-stage/"
   ],
   "source_names": [
    "CoinGabbar",
@@ -42992,7 +42993,8 @@
    "crypto.news",
    "Fortune",
    "CoinDesk",
-   "Yahoo Finance"
+   "Yahoo Finance",
+   "Motley Fool"
   ],
   "sources": [
    {
@@ -43062,6 +43064,13 @@
     "url": "https://finance.yahoo.com/video/binance-deposits-overtake-withdrawals-sec-170000882.html",
     "name": "Yahoo Finance",
     "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.fool.com/coverage/stock-market-today/2026/11/03/crypto-market-today-nov-3-xrp-and-zcash-defy-recent-weakness-as-midterm-elections-take-center-stage/",
+    "name": "Motley Fool",
+    "kind": "other",
     "checked": true,
     "confirms": true
    }
@@ -43134,6 +43143,13 @@
     "url": "https://finance.yahoo.com/video/binance-deposits-overtake-withdrawals-sec-170000882.html",
     "name": "Yahoo Finance",
     "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.fool.com/coverage/stock-market-today/2026/11/03/crypto-market-today-nov-3-xrp-and-zcash-defy-recent-weakness-as-midterm-elections-take-center-stage/",
+    "name": "Motley Fool",
+    "kind": "other",
     "checked": true,
     "confirms": true
    }
@@ -43215,6 +43231,13 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "Motley Fool",
+     "url": "https://www.fool.com/coverage/stock-market-today/2026/11/03/crypto-market-today-nov-3-xrp-and-zcash-defy-recent-weakness-as-midterm-elections-take-center-stage/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -43295,6 +43318,15 @@
     "at": "2026-11-03T16:14-05:00",
     "headline": "Binance deposits overtake withdrawals as net outflow since reopening settles near $5 billion",
     "summary": "After reopening, Binance saw about $10.97 billion withdrawn and $5.7 billion deposited over 46 hours, for a net outflow of roughly $5.3 billion; deposits are now outpacing withdrawals. Binance says about 95% of affected assets are replenished.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-03T19:17-05:00",
+    "headline": "Crypto rebounds on election day: bitcoin near $77,800, XRP up about 3%",
+    "summary": "BTC rose about 1.5% to roughly $77,800, ETH about 2% to $2,290, XRP about 2.7% to $1.28 and SOL about 2% to $93.70; Zcash gained about 6%.",
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 1,
@@ -44308,12 +44340,16 @@
   "source_urls": [
    "https://www.cftc.gov/PressRoom/SpeechesTestimony/seligstatement110326",
    "https://www.coindesk.com/policy/2026/11/03/cftc-clears-perpetual-futures-on-stocks-bringing-crypto-trading-model-to-wall-street",
-   "https://bitcoinmagazine.com/news/cftc-opens-equity-perpetual-futures"
+   "https://bitcoinmagazine.com/news/cftc-opens-equity-perpetual-futures",
+   "https://www.coindesk.com/markets/2026/11/03/live-news-bitcoin-faces-fifth-weekly-loss-as-midterm-uncertainty-and-apple-warning-weigh-on-markets",
+   "https://www.theblock.co/news/regulation/2026-11-03-midterm-election-odds-polymarket-kalshi-democrats-432461"
   ],
   "source_names": [
    "CFTC",
    "CoinDesk",
-   "Bitcoin Magazine"
+   "Bitcoin Magazine",
+   "CoinDesk",
+   "The Block"
   ],
   "sources": [
    {
@@ -44334,6 +44370,20 @@
     "url": "https://bitcoinmagazine.com/news/cftc-opens-equity-perpetual-futures",
     "name": "Bitcoin Magazine",
     "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/11/03/live-news-bitcoin-faces-fifth-weekly-loss-as-midterm-uncertainty-and-apple-warning-weigh-on-markets",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-03-midterm-election-odds-polymarket-kalshi-democrats-432461",
+    "name": "The Block",
+    "kind": "secondary",
     "checked": true,
     "confirms": true
    }
@@ -44359,15 +44409,29 @@
     "kind": "other",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/11/03/live-news-bitcoin-faces-fifth-weekly-loss-as-midterm-uncertainty-and-apple-warning-weigh-on-markets",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-03-midterm-election-odds-polymarket-kalshi-democrats-432461",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "VERIFIED",
   "verification": {
    "status": "VERIFIED",
-   "independent_sources": 2,
+   "independent_sources": 3,
    "has_primary": true,
    "score": 1.0,
-   "reason": "2 independent credible sources confirm it (incl. a primary source)",
+   "reason": "3 independent credible sources confirm it (incl. a primary source)",
    "sources_checked": [
     {
      "name": "CFTC",
@@ -44389,6 +44453,20 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/11/03/live-news-bitcoin-faces-fifth-weekly-loss-as-midterm-uncertainty-and-apple-warning-weigh-on-markets",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-11-03-midterm-election-odds-polymarket-kalshi-democrats-432461",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -44400,7 +44478,26 @@
   "content_created": true,
   "publication_status": "DRAFTED",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-11-03T19:17-05:00",
+    "headline": "Capital Markets Alliance sues CFTC to overturn approval of single-stock perpetual futures",
+    "summary": "The Capital Markets Alliance sued the CFTC in New York federal court, arguing single-stock perpetual futures are security-based swaps under SEC jurisdiction and asking the court to overturn and block the approvals.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-03T19:17-05:00",
+    "headline": "Prediction markets price a Democratic sweep of the House and Senate as midterm polls close",
+    "summary": "Polymarket gave Democrats about a 94% chance of the House and 76% of the Senate; Kalshi priced nearly the same.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   }
+  ],
   "posts": [
    "6ae9fdbf5a8533248e6e0f99",
    "6ae9fdbfce22073f337849bd",
@@ -44938,6 +45035,198 @@
   ],
   "market_significance": "Affects how projects think about decentralization claims.",
   "trigger": "Yahoo Finance segment Nov 3",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261103_01a63d",
+  "headline": "SEC staff calls Canton Coin a digital commodity in no-action letter on its programmatic minting",
+  "summary": "The SEC's Division of Corporation Finance said on November 3 it will not recommend enforcement over Canton Coin minted programmatically by validators and app providers without registration, and said it views CC as a digital commodity under the SEC's interpretation. The letter reaches no legal conclusion; it is staff enforcement policy based on the project's representations.",
+  "detected_at": "2026-11-03T19:17-05:00",
+  "active_since": "2026-11-03T19:17-05:00",
+  "classification": "IMPORTANT",
+  "proposed_level": "IMPORTANT",
+  "confidence": 0.8,
+  "assets": [
+   "CC",
+   "TOTAL_MARKET"
+  ],
+  "event_type": "regulatory",
+  "event_time": "2026-11-03T15:58-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.sec.gov/rules-regulations/no-action-interpretive-exemptive-letters/division-corporation-finance-no-action/canton-coin-110326",
+   "https://www.theblock.co/news/regulation/2026-11-03-sec-no-action-letter-canton-coin-digital-commodity-432492",
+   "https://www.coindesk.com/markets/2026/11/03/live-news-bitcoin-faces-fifth-weekly-loss-as-midterm-uncertainty-and-apple-warning-weigh-on-markets"
+  ],
+  "source_names": [
+   "SEC",
+   "The Block",
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://www.sec.gov/rules-regulations/no-action-interpretive-exemptive-letters/division-corporation-finance-no-action/canton-coin-110326",
+    "name": "SEC",
+    "kind": "primary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-03-sec-no-action-letter-canton-coin-digital-commodity-432492",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/11/03/live-news-bitcoin-faces-fifth-weekly-loss-as-midterm-uncertainty-and-apple-warning-weigh-on-markets",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.sec.gov/rules-regulations/no-action-interpretive-exemptive-letters/division-corporation-finance-no-action/canton-coin-110326",
+    "name": "SEC",
+    "kind": "primary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-03-sec-no-action-letter-canton-coin-digital-commodity-432492",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/11/03/live-news-bitcoin-faces-fifth-weekly-loss-as-midterm-uncertainty-and-apple-warning-weigh-on-markets",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "VERIFIED",
+  "verification": {
+   "status": "VERIFIED",
+   "independent_sources": 3,
+   "has_primary": true,
+   "score": 1.0,
+   "reason": "3 independent credible sources confirm it (incl. a primary source)",
+   "sources_checked": [
+    {
+     "name": "SEC",
+     "url": "https://www.sec.gov/rules-regulations/no-action-interpretive-exemptive-letters/division-corporation-finance-no-action/canton-coin-110326",
+     "category": "primary",
+     "counts": true,
+     "note": "primary (known official domain)"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-11-03-sec-no-action-letter-canton-coin-digital-commodity-432492",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/11/03/live-news-bitcoin-faces-fifth-weekly-loss-as-midterm-uncertainty-and-apple-warning-weigh-on-markets",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed IMPORTANT: First SEC staff no-action letter applying the digital commodity interpretation to a specific token's issuance; a possible template for other network tokens."
+  ],
+  "market_significance": "Regulatory signal for how US securities rules apply to network tokens.",
+  "trigger": "SEC no-action letter dated Nov 3, 2026",
+  "content_created": true,
+  "publication_status": "DRAFTED",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [
+   "6aea7ae416e63068f18438fc",
+   "6aea7ad816e63068f18435f7",
+   "6aea7adc4c41ba80aa49fbd2"
+  ],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261103_4d582a",
+  "headline": "CZ calls for an industry crypto security alliance as AI speeds up attacks after the Binance hack",
+  "summary": "In his first interview since the October 29 Binance breach, Changpeng Zhao urged AI-based defenses and an industry alliance to share lessons and freeze stolen funds quickly.",
+  "detected_at": "2026-11-03T19:17-05:00",
+  "active_since": "2026-11-03T19:17-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "BNB",
+   "TOTAL_MARKET"
+  ],
+  "event_type": "other",
+  "event_time": "2026-11-03T15:43-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/regulation/2026-11-03-cz-calls-for-crypto-security-alliance-ai-driven-attacks-accelerate-binance-hack-432458"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-03-cz-calls-for-crypto-security-alliance-ai-driven-attacks-accelerate-binance-hack-432458",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-03-cz-calls-for-crypto-security-alliance-ai-driven-attacks-accelerate-binance-hack-432458",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-11-03-cz-calls-for-crypto-security-alliance-ai-driven-attacks-accelerate-binance-hack-432458",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Commentary, no new facts on the hack."
+  ],
+  "market_significance": "Industry security response.",
+  "trigger": "The Block interview report",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
