@@ -44554,7 +44554,8 @@
    "https://www.theblock.co/news/regulation/2026-11-03-midterm-election-odds-polymarket-kalshi-democrats-432461",
    "https://www.tradingview.com/news/benzinga:f1a5c7082094b:0-bitcoin-ethereum-xrp-dogecoin-surrender-early-gains-as-midterm-polls-close-analyst-sees-sell-the-rumor-buy-the-news-play/",
    "https://coindesk.com/policy/2026/11/03/cftc-gets-into-legal-clash-over-stock-perps-after-having-cleared-path-for-crypto-version",
-   "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-4-2026"
+   "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-4-2026",
+   "https://www.reuters.com/legal/government/trading-single-stock-perps-can-begin-us-regulator-says-2026-11-03/"
   ],
   "source_names": [
    "CFTC",
@@ -44564,7 +44565,8 @@
    "The Block",
    "Benzinga via TradingView",
    "CoinDesk",
-   "KuCoin"
+   "KuCoin",
+   "Reuters"
   ],
   "sources": [
    {
@@ -44622,6 +44624,13 @@
     "name": "KuCoin",
     "kind": "other",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.reuters.com/legal/government/trading-single-stock-perps-can-begin-us-regulator-says-2026-11-03/",
+    "name": "Reuters",
+    "kind": "secondary",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -44681,6 +44690,13 @@
     "name": "KuCoin",
     "kind": "other",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.reuters.com/legal/government/trading-single-stock-perps-can-begin-us-regulator-says-2026-11-03/",
+    "name": "Reuters",
+    "kind": "secondary",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -44747,6 +44763,13 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Reuters",
+     "url": "https://www.reuters.com/legal/government/trading-single-stock-perps-can-begin-us-regulator-says-2026-11-03/",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
     }
    ]
   },
@@ -44802,6 +44825,24 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-04T16:17-05:00",
+    "headline": "Cboe and Citadel Securities sue the CFTC to overturn its approval of single-stock perpetual futures",
+    "summary": "Cboe, Citadel Securities and others filed suit challenging the CFTC's approval of single-stock perpetual futures on U.S. exchanges.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-04T16:17-05:00",
+    "headline": "South Korean regulators plan to raise exchanges' required cold-wallet share to about 99% from 80%",
+    "summary": "South Korean regulators plan to require exchanges to keep about 99% of customer assets in cold wallets, up from 80%.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
     "verification": "VERIFIED"
    }
   ],
@@ -45944,12 +45985,14 @@
   "source_urls": [
    "https://www.coindesk.com/markets/2026/11/04/bitcoin-rebounds-from-midterm-dip-as-defi-leads-gains",
    "https://www.coindesk.com/markets/2026/11/04/bitcoin-knocks-on-usd78-000-in-v-shaped-comeback-as-midterm-uncertainty-fades",
-   "https://www.coindesk.com/daybook-us/2026/11/04/here-s-how-analysts-are-reacting-to-the-new-blue-congress"
+   "https://www.coindesk.com/daybook-us/2026/11/04/here-s-how-analysts-are-reacting-to-the-new-blue-congress",
+   "https://www.theblock.co/news/markets/2026-11-04-bitcoin-price-midterm-elections-binance-hack-recovery-433030"
   ],
   "source_names": [
    "CoinDesk",
    "CoinDesk",
-   "CoinDesk"
+   "CoinDesk",
+   "The Block"
   ],
   "sources": [
    {
@@ -45969,6 +46012,13 @@
    {
     "url": "https://www.coindesk.com/daybook-us/2026/11/04/here-s-how-analysts-are-reacting-to-the-new-blue-congress",
     "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-04-bitcoin-price-midterm-elections-binance-hack-recovery-433030",
+    "name": "The Block",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -45995,15 +46045,22 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-04-bitcoin-price-midterm-elections-binance-hack-recovery-433030",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
-  "verification_status": "UNVERIFIED",
+  "verification_status": "VERIFIED",
   "verification": {
-   "status": "UNVERIFIED",
-   "independent_sources": 1,
+   "status": "VERIFIED",
+   "independent_sources": 2,
    "has_primary": false,
-   "score": 0.4,
-   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "score": 0.8,
+   "reason": "2 independent credible sources confirm it (no primary source yet)",
    "sources_checked": [
     {
      "name": "CoinDesk",
@@ -46022,6 +46079,13 @@
     {
      "name": "CoinDesk",
      "url": "https://www.coindesk.com/daybook-us/2026/11/04/here-s-how-analysts-are-reacting-to-the-new-blue-congress",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/markets/2026-11-04-bitcoin-price-midterm-elections-binance-hack-recovery-433030",
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
@@ -46064,6 +46128,15 @@
     "level": "NORMAL",
     "sources_added": 0,
     "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-04T16:17-05:00",
+    "headline": "Bitcoin climbs back above $80,000 and ether rises about 6% as markets shrug off midterms and the Binance hack",
+    "summary": "Bitcoin rose about 3.5% in 24 hours to roughly $80,500 and ether near $2,433, up nearly 6%. SOL and XRP were up about 2.5%. About $469 million in leveraged positions were liquidated.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
    }
   ],
   "posts": [],
@@ -46572,6 +46645,216 @@
   ],
   "market_significance": "Exchange security after Binance hack",
   "trigger": "The Block latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261104_18d15f",
+  "headline": "Schroders launches tokenized emerging markets debt fund on Solana with Centrifuge",
+  "summary": "Asset manager Schroders launched a tokenized emerging markets debt fund on Solana, working with Centrifuge.",
+  "detected_at": "2026-11-04T16:17-05:00",
+  "active_since": "2026-11-04T16:17-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "SOL"
+  ],
+  "event_type": "institutional",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-11-04-schroders-centrifuge-tokenized-emerging-markets-debt-fund-solana-432878"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-04-schroders-centrifuge-tokenized-emerging-markets-debt-fund-solana-432878",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-04-schroders-centrifuge-tokenized-emerging-markets-debt-fund-solana-432878",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-04-schroders-centrifuge-tokenized-emerging-markets-debt-fund-solana-432878",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Single-source tokenization launch"
+  ],
+  "market_significance": "More institutional tokenization on Solana",
+  "trigger": "Fund launch",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261104_e97b14",
+  "headline": "House flips to Democrats as French Hill's race stays too close to call, changing the path for crypto bills",
+  "summary": "Democrats won control of the House; the race of House Financial Services chair French Hill remained too close to call.",
+  "detected_at": "2026-11-04T16:17-05:00",
+  "active_since": "2026-11-04T16:17-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "regulatory",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://theblock.co/news/regulation/2026-11-04-french-hill-too-close-to-call-house-flips-changing-crypto-legislation-432572"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://theblock.co/news/regulation/2026-11-04-french-hill-too-close-to-call-house-flips-changing-crypto-legislation-432572",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://theblock.co/news/regulation/2026-11-04-french-hill-too-close-to-call-house-flips-changing-crypto-legislation-432572",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://theblock.co/news/regulation/2026-11-04-french-hill-too-close-to-call-house-flips-changing-crypto-legislation-432572",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Political context, no regulatory decision"
+  ],
+  "market_significance": "Shifts crypto legislation outlook",
+  "trigger": "Midterm results",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261104_bb9e90",
+  "headline": "Polymarket unit wins NFA approval to act as a futures broker, CFTC sign-off pending",
+  "summary": "A Polymarket subsidiary received National Futures Association approval to register as a futures commission merchant.",
+  "detected_at": "2026-11-04T16:17-05:00",
+  "active_since": "2026-11-04T16:17-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "regulatory",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.reuters.com/business/finance/polymarket-unit-gets-us-industry-organizations-approval-be-futures-broker-2026-11-03/"
+  ],
+  "source_names": [
+   "Reuters"
+  ],
+  "sources": [
+   {
+    "url": "https://www.reuters.com/business/finance/polymarket-unit-gets-us-industry-organizations-approval-be-futures-broker-2026-11-03/",
+    "name": "Reuters",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.reuters.com/business/finance/polymarket-unit-gets-us-industry-organizations-approval-be-futures-broker-2026-11-03/",
+    "name": "Reuters",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Reuters",
+     "url": "https://www.reuters.com/business/finance/polymarket-unit-gets-us-industry-organizations-approval-be-futures-broker-2026-11-03/",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Incremental licensing step"
+  ],
+  "market_significance": "Prediction markets moving onshore",
+  "trigger": "NFA approval",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
