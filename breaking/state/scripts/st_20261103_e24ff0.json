@@ -1,0 +1,86 @@
+{
+ "story_id": "st_20261103_e24ff0",
+ "date_label": "NOV 3",
+ "headline": "How Binance's $6.3B hack began",
+ "sources": [
+  {
+   "name": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/11/03/binance-s-usd6-3-billion-hack-began-with-a-fake-job-interview-exchange-says"
+  },
+  {
+   "name": "The Block",
+   "url": "https://www.theblock.co/news/business/2026-11-03-binance-hack-incident-report-north-korea-fake-job-interview-ai-tool-432406"
+  },
+  {
+   "name": "Reuters",
+   "url": "https://www.koreatimes.co.kr/world/20261104/binance-hackers-used-fake-job-interview-in-63-billion-attack"
+  }
+ ],
+ "scenes": [
+  {
+   "beat": "hook",
+   "who": "ledger",
+   "vo": "The biggest crypto hack on record started with a fake job interview. Here's what changed.",
+   "chunks": [
+    "Biggest hack on record",
+    "*A fake job interview*",
+    "Here's what changed"
+   ]
+  },
+  {
+   "beat": "what_happened",
+   "who": "ledger",
+   "vo": "Binance's incident report says attackers posed as executives, sent an engineer a coding test hiding malware, then used an internal AI tool to reach two wallet engineers.",
+   "chunks": [
+    "Malware coding test",
+    "*Internal AI tool abused*",
+    "Six point three billion"
+   ],
+   "stat": {
+    "label": "Sources",
+    "text": "CoinDesk · The Block"
+   }
+  },
+  {
+   "beat": "why_it_matters",
+   "who": "bruno",
+   "vo": "Here's why traders are watching it. Binance says about two point eight five billion dollars is frozen, and it replenished most affected tokens with company funds.",
+   "chunks": [
+    "The recovery",
+    "*About 2.85B frozen*",
+    "Tokens replenished"
+   ]
+  },
+  {
+   "beat": "why_it_matters",
+   "who": "ursa",
+   "vo": "The catch. The FBI blames North Korean hackers, and more than three billion dollars is still out there. The same fake recruiter trick targets regular people too.",
+   "chunks": [
+    "The catch",
+    "*Over 3B still missing*",
+    "Beware fake recruiters"
+   ]
+  },
+  {
+   "beat": "watch_next",
+   "who": "moby",
+   "vo": "Here's what happens next. Watch how much more gets frozen, and whether other exchanges tighten access to signing systems and internal AI tools.",
+   "chunks": [
+    "What's next",
+    "*More funds frozen?*",
+    "Tighter security"
+   ]
+  },
+  {
+   "beat": "cta",
+   "who": "all",
+   "vo": "Follow The Candle Desk for crypto news without the hype. Not financial advice.",
+   "chunks": [
+    "Follow The Candle Desk",
+    "*No hype*",
+    "Just the news"
+   ],
+   "foot": "NOT FINANCIAL ADVICE"
+  }
+ ]
+}

@@ -43809,12 +43809,16 @@
   "source_urls": [
    "https://t.me/investigations/372",
    "https://www.coindesk.com/tech/2026/11/02/eu-entity-suspected-of-losing-usd106-million-from-crypto-exchange-accounts-zachxbt-says",
-   "https://decrypt.co/382383/mystery-106-million-crypto-theft-eu-entity-binance-hack"
+   "https://decrypt.co/382383/mystery-106-million-crypto-theft-eu-entity-binance-hack",
+   "https://cryptobriefing.com/zachxbt-credit-mutuel-arkea-133m-exploit/",
+   "https://cryptoticker.io/en/eu-crypto-theft-zachxbt-133-million/"
   ],
   "source_names": [
    "ZachXBT Telegram",
    "CoinDesk",
-   "Decrypt"
+   "Decrypt",
+   "Crypto Briefing",
+   "CryptoTicker"
   ],
   "sources": [
    {
@@ -43839,6 +43843,20 @@
     "checked": true,
     "confirms": true,
     "origin": "ZachXBT"
+   },
+   {
+    "url": "https://cryptobriefing.com/zachxbt-credit-mutuel-arkea-133m-exploit/",
+    "name": "Crypto Briefing",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptoticker.io/en/eu-crypto-theft-zachxbt-133-million/",
+    "name": "CryptoTicker",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -43864,6 +43882,20 @@
     "checked": true,
     "confirms": true,
     "origin": "ZachXBT"
+   },
+   {
+    "url": "https://cryptobriefing.com/zachxbt-credit-mutuel-arkea-133m-exploit/",
+    "name": "Crypto Briefing",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptoticker.io/en/eu-crypto-theft-zachxbt-133-million/",
+    "name": "CryptoTicker",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
    }
   ],
   "verification_status": "UNVERIFIED",
@@ -43894,6 +43926,20 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "Crypto Briefing",
+     "url": "https://cryptobriefing.com/zachxbt-credit-mutuel-arkea-133m-exploit/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CryptoTicker",
+     "url": "https://cryptoticker.io/en/eu-crypto-theft-zachxbt-133-million/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -43916,6 +43962,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-03T22:25-05:00",
+    "headline": "ZachXBT names French bank Crédit Mutuel Arkéa as the EU victim of a now $133 million crypto theft; Kraken freezes accounts",
+    "summary": "On-chain investigator ZachXBT alleges the unnamed EU entity behind the suspected theft is Crédit Mutuel Arkéa and puts losses at about $133 million; Kraken reportedly froze linked accounts. The bank has not confirmed and some reports name a different bank.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 2,
     "verification": "UNVERIFIED"
    }
   ],
@@ -44342,14 +44397,18 @@
    "https://www.coindesk.com/policy/2026/11/03/cftc-clears-perpetual-futures-on-stocks-bringing-crypto-trading-model-to-wall-street",
    "https://bitcoinmagazine.com/news/cftc-opens-equity-perpetual-futures",
    "https://www.coindesk.com/markets/2026/11/03/live-news-bitcoin-faces-fifth-weekly-loss-as-midterm-uncertainty-and-apple-warning-weigh-on-markets",
-   "https://www.theblock.co/news/regulation/2026-11-03-midterm-election-odds-polymarket-kalshi-democrats-432461"
+   "https://www.theblock.co/news/regulation/2026-11-03-midterm-election-odds-polymarket-kalshi-democrats-432461",
+   "https://www.tradingview.com/news/benzinga:f1a5c7082094b:0-bitcoin-ethereum-xrp-dogecoin-surrender-early-gains-as-midterm-polls-close-analyst-sees-sell-the-rumor-buy-the-news-play/",
+   "https://coindesk.com/policy/2026/11/03/cftc-gets-into-legal-clash-over-stock-perps-after-having-cleared-path-for-crypto-version"
   ],
   "source_names": [
    "CFTC",
    "CoinDesk",
    "Bitcoin Magazine",
    "CoinDesk",
-   "The Block"
+   "The Block",
+   "Benzinga via TradingView",
+   "CoinDesk"
   ],
   "sources": [
    {
@@ -44385,6 +44444,21 @@
     "name": "The Block",
     "kind": "secondary",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.tradingview.com/news/benzinga:f1a5c7082094b:0-bitcoin-ethereum-xrp-dogecoin-surrender-early-gains-as-midterm-polls-close-analyst-sees-sell-the-rumor-buy-the-news-play/",
+    "name": "Benzinga via TradingView",
+    "kind": "other",
+    "checked": true,
+    "confirms": true,
+    "origin": "Benzinga"
+   },
+   {
+    "url": "https://coindesk.com/policy/2026/11/03/cftc-gets-into-legal-clash-over-stock-perps-after-having-cleared-path-for-crypto-version",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -44422,6 +44496,21 @@
     "name": "The Block",
     "kind": "secondary",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.tradingview.com/news/benzinga:f1a5c7082094b:0-bitcoin-ethereum-xrp-dogecoin-surrender-early-gains-as-midterm-polls-close-analyst-sees-sell-the-rumor-buy-the-news-play/",
+    "name": "Benzinga via TradingView",
+    "kind": "other",
+    "checked": true,
+    "confirms": true,
+    "origin": "Benzinga"
+   },
+   {
+    "url": "https://coindesk.com/policy/2026/11/03/cftc-gets-into-legal-clash-over-stock-perps-after-having-cleared-path-for-crypto-version",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -44467,6 +44556,20 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "Benzinga via TradingView",
+     "url": "https://www.tradingview.com/news/benzinga:f1a5c7082094b:0-bitcoin-ethereum-xrp-dogecoin-surrender-early-gains-as-midterm-polls-close-analyst-sees-sell-the-rumor-buy-the-news-play/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://coindesk.com/policy/2026/11/03/cftc-gets-into-legal-clash-over-stock-perps-after-having-cleared-path-for-crypto-version",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
     }
    ]
   },
@@ -44493,6 +44596,24 @@
     "headline": "Prediction markets price a Democratic sweep of the House and Senate as midterm polls close",
     "summary": "Polymarket gave Democrats about a 94% chance of the House and 76% of the Senate; Kalshi priced nearly the same.",
     "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-03T22:25-05:00",
+    "headline": "Bitcoin, ether, XRP and solana give back early gains as US midterm polls close",
+    "summary": "As of 8 PM ET, bitcoin was about $77,190 (+0.5% 24h), ether about $2,273 (+0.9%), XRP $1.26 (+0.9%) and solana $92.37 (+0.5%), after bitcoin touched about $77,966 intraday. Bitcoin is on pace for a fifth straight weekly loss.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-03T22:25-05:00",
+    "headline": "CFTC sued by Capital Markets Alliance over approval of single-stock perpetual futures",
+    "summary": "The Capital Markets Alliance sued the CFTC, arguing that stock-based perpetual futures it cleared on November 3 belong under SEC jurisdiction.",
+    "new_development": true,
     "level": "NORMAL",
     "sources_added": 1,
     "verification": "VERIFIED"
@@ -45232,6 +45353,209 @@
   "related_story_ids": [],
   "updates": [],
   "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261103_e24ff0",
+  "headline": "Binance says a fake job interview and a hijacked internal AI tool led to its $6.34 billion hack; about $2.85 billion frozen",
+  "summary": "Binance's incident report says attackers posing as executives ran fake job interviews, got an engineer to run a malware-laced coding test, then used an internal AI tool to compromise two wallet-team engineers before draining hot wallets on October 29. About $2.85 billion has been frozen or intercepted; Binance says 98% of affected assets were replenished and customers will be repaid. The FBI attributes the attack to North Korea's TraderTraitor group.",
+  "detected_at": "2026-11-03T22:25-05:00",
+  "active_since": "2026-11-03T22:25-05:00",
+  "classification": "IMPORTANT",
+  "proposed_level": "IMPORTANT",
+  "confidence": 0.85,
+  "assets": [
+   "BNB",
+   "XRP",
+   "TOTAL_MARKET"
+  ],
+  "event_type": "exchange",
+  "event_time": "2026-11-03T10:34-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-11-03-binance-hack-incident-report-north-korea-fake-job-interview-ai-tool-432406",
+   "https://www.koreatimes.co.kr/world/20261104/binance-hackers-used-fake-job-interview-in-63-billion-attack",
+   "https://www.bleepingcomputer.com/news/security/binance-says-fake-job-interview-led-to-63-billion-crypto-heist/",
+   "https://x.com/binance/status/2117626126214504729",
+   "https://www.coindesk.com/business/2026/11/03/binance-s-usd6-3-billion-hack-began-with-a-fake-job-interview-exchange-says",
+   "https://decrypt.co/382420/five-ways-north-korea-breaks-into-crypto-firms-and-how-binance-was-hacked"
+  ],
+  "source_names": [
+   "The Block",
+   "Reuters (via Korea Times)",
+   "BleepingComputer",
+   "Binance on X",
+   "CoinDesk",
+   "Decrypt"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-03-binance-hack-incident-report-north-korea-fake-job-interview-ai-tool-432406",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.koreatimes.co.kr/world/20261104/binance-hackers-used-fake-job-interview-in-63-billion-attack",
+    "name": "Reuters (via Korea Times)",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "origin": "Reuters"
+   },
+   {
+    "url": "https://www.bleepingcomputer.com/news/security/binance-says-fake-job-interview-led-to-63-billion-crypto-heist/",
+    "name": "BleepingComputer",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://x.com/binance/status/2117626126214504729",
+    "name": "Binance on X",
+    "kind": "social",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/business/2026/11/03/binance-s-usd6-3-billion-hack-began-with-a-fake-job-interview-exchange-says",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/382420/five-ways-north-korea-breaks-into-crypto-firms-and-how-binance-was-hacked",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-03-binance-hack-incident-report-north-korea-fake-job-interview-ai-tool-432406",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.koreatimes.co.kr/world/20261104/binance-hackers-used-fake-job-interview-in-63-billion-attack",
+    "name": "Reuters (via Korea Times)",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "origin": "Reuters"
+   },
+   {
+    "url": "https://www.bleepingcomputer.com/news/security/binance-says-fake-job-interview-led-to-63-billion-crypto-heist/",
+    "name": "BleepingComputer",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://x.com/binance/status/2117626126214504729",
+    "name": "Binance on X",
+    "kind": "social",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/business/2026/11/03/binance-s-usd6-3-billion-hack-began-with-a-fake-job-interview-exchange-says",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/382420/five-ways-north-korea-breaks-into-crypto-firms-and-how-binance-was-hacked",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "VERIFIED",
+  "verification": {
+   "status": "VERIFIED",
+   "independent_sources": 3,
+   "has_primary": false,
+   "score": 0.8,
+   "reason": "3 independent credible sources confirm it (no primary source yet)",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-03-binance-hack-incident-report-north-korea-fake-job-interview-ai-tool-432406",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Reuters (via Korea Times)",
+     "url": "https://www.koreatimes.co.kr/world/20261104/binance-hackers-used-fake-job-interview-in-63-billion-attack",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/binance-says-fake-job-interview-led-to-63-billion-crypto-heist/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Binance on X",
+     "url": "https://x.com/binance/status/2117626126214504729",
+     "category": "social",
+     "counts": false,
+     "note": "social/community post — can trigger investigation, never verifies"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/business/2026/11/03/binance-s-usd6-3-billion-hack-began-with-a-fake-job-interview-exchange-says",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/382420/five-ways-north-korea-breaks-into-crypto-firms-and-how-binance-was-hacked",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed IMPORTANT: Official root-cause report for the largest exchange hack on record, with new facts: attack path, AI tool abuse, $2.85B frozen."
+  ],
+  "market_significance": "Shows how the biggest crypto theft happened and how much was recovered; security lesson for every exchange and user.",
+  "trigger": "Binance incident report published Nov 3",
+  "content_created": true,
+  "publication_status": "DRAFTED",
+  "related_story_ids": [],
+  "updates": [
+   {
+    "at": "2026-11-03T22:25-05:00",
+    "headline": "Binance says a fake job interview and a hijacked internal AI tool led to its $6.3 billion hack; about $2.85 billion frozen",
+    "summary": "CoinDesk confirms Binance's incident report: fake job interview, malware-laced coding test, internal AI tool used to reach wallet engineers, about $2.85 billion frozen, 98% of affected tokens replenished with company funds.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "VERIFIED"
+   }
+  ],
+  "posts": [
+   "6aeaa6e487b7c6d24c8a9393",
+   "6aeaa6e5ff887f055ce6e4e7",
+   "6aeaa6e5ff887f055ce6e50e"
+  ],
   "needs_followup": false
  }
 ]
