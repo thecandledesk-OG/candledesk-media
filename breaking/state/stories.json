@@ -42553,10 +42553,12 @@
   "metrics": {},
   "emergency": false,
   "source_urls": [
-   "https://www.coindesk.com/policy/2026/11/01/crypto-pacs-made-big-republican-push-in-final-weeks-before-november-3-election"
+   "https://www.coindesk.com/policy/2026/11/01/crypto-pacs-made-big-republican-push-in-final-weeks-before-november-3-election",
+   "https://www.theblock.co/news/regulation/2026-11-03-sherrod-brown-defeats-jon-husted-432495"
   ],
   "source_names": [
-   "CoinDesk"
+   "CoinDesk",
+   "The Block"
   ],
   "sources": [
    {
@@ -42564,6 +42566,13 @@
     "name": "CoinDesk",
     "kind": "secondary",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-03-sherrod-brown-defeats-jon-husted-432495",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -42573,6 +42582,13 @@
     "name": "CoinDesk",
     "kind": "secondary",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-03-sherrod-brown-defeats-jon-husted-432495",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -42590,6 +42606,13 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-11-03-sherrod-brown-defeats-jon-husted-432495",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
     }
    ]
   },
@@ -42618,6 +42641,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-04T07:15-05:00",
+    "headline": "Sherrod Brown defeats Jon Husted in Ohio, a blow to crypto PAC Fairshake",
+    "summary": "Former Sen. Sherrod Brown beat Jon Husted in Ohio's Senate race, a setback for the crypto super PAC Fairshake, which backed Husted.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "UNVERIFIED"
    }
   ],
@@ -43790,10 +43822,10 @@
   "headline": "ZachXBT flags suspected $106 million theft from an unnamed EU entity's exchange accounts",
   "summary": "On-chain investigator ZachXBT says an unnamed European Union entity lost more than $106 million in USDC and USDT from accounts at several centralized exchanges on November 1; funds were swapped to ETH and partly to Monero. Neither the victim nor any exchange has confirmed it.",
   "detected_at": "2026-11-02T19:10-05:00",
-  "active_since": "2026-11-02T19:10-05:00",
-  "classification": "NORMAL",
+  "active_since": "2026-11-04T07:15-05:00",
+  "classification": "BREAKING",
   "proposed_level": "IMPORTANT",
-  "confidence": 0.45,
+  "confidence": 0.7,
   "assets": [
    "USDC",
    "USDT",
@@ -43811,14 +43843,22 @@
    "https://www.coindesk.com/tech/2026/11/02/eu-entity-suspected-of-losing-usd106-million-from-crypto-exchange-accounts-zachxbt-says",
    "https://decrypt.co/382383/mystery-106-million-crypto-theft-eu-entity-binance-hack",
    "https://cryptobriefing.com/zachxbt-credit-mutuel-arkea-133m-exploit/",
-   "https://cryptoticker.io/en/eu-crypto-theft-zachxbt-133-million/"
+   "https://cryptoticker.io/en/eu-crypto-theft-zachxbt-133-million/",
+   "https://www.coindesk.com/business/2026/11/04/zachxbt-names-french-bank-credit-mutuel-arkea-as-suspected-victim-of-usd133-million-crypto-theft",
+   "https://www.solutions-numeriques.com/crypto-credit-mutuel-arkea-pirate-pendant-que-binance-disseque-son-casse-a-6-milliards/",
+   "https://decrypt.co/382486/zachxbt-names-french-bank-credit-mutuel-arkea-as-alleged-victim-of-133m-crypto-theft",
+   "https://www.theblock.co/news/web3/2026-11-03-french-bank-credit-mutuel-arkea-exploited-zachxbt-432607"
   ],
   "source_names": [
    "ZachXBT Telegram",
    "CoinDesk",
    "Decrypt",
    "Crypto Briefing",
-   "CryptoTicker"
+   "CryptoTicker",
+   "CoinDesk",
+   "Solutions Numériques",
+   "Decrypt",
+   "The Block"
   ],
   "sources": [
    {
@@ -43857,45 +43897,68 @@
     "kind": "other",
     "checked": false,
     "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/business/2026/11/04/zachxbt-names-french-bank-credit-mutuel-arkea-as-suspected-victim-of-usd133-million-crypto-theft",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.solutions-numeriques.com/crypto-credit-mutuel-arkea-pirate-pendant-que-binance-disseque-son-casse-a-6-milliards/",
+    "name": "Solutions Numériques",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/382486/zachxbt-names-french-bank-credit-mutuel-arkea-as-alleged-victim-of-133m-crypto-theft",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": false,
+    "origin": "ZachXBT"
+   },
+   {
+    "url": "https://www.theblock.co/news/web3/2026-11-03-french-bank-credit-mutuel-arkea-exploited-zachxbt-432607",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": false,
+    "origin": "ZachXBT"
    }
   ],
   "gate_sources": [
    {
-    "url": "https://t.me/investigations/372",
-    "name": "ZachXBT Telegram",
-    "kind": "social",
-    "checked": false,
-    "confirms": true
-   },
-   {
-    "url": "https://www.coindesk.com/tech/2026/11/02/eu-entity-suspected-of-losing-usd106-million-from-crypto-exchange-accounts-zachxbt-says",
+    "url": "https://www.coindesk.com/business/2026/11/04/zachxbt-names-french-bank-credit-mutuel-arkea-as-suspected-victim-of-usd133-million-crypto-theft",
     "name": "CoinDesk",
     "kind": "secondary",
     "checked": true,
-    "confirms": true,
-    "origin": "ZachXBT"
+    "confirms": true
    },
    {
-    "url": "https://decrypt.co/382383/mystery-106-million-crypto-theft-eu-entity-binance-hack",
+    "url": "https://www.solutions-numeriques.com/crypto-credit-mutuel-arkea-pirate-pendant-que-binance-disseque-son-casse-a-6-milliards/",
+    "name": "Solutions Numériques",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/382486/zachxbt-names-french-bank-credit-mutuel-arkea-as-alleged-victim-of-133m-crypto-theft",
     "name": "Decrypt",
     "kind": "secondary",
     "checked": true,
-    "confirms": true,
+    "confirms": false,
     "origin": "ZachXBT"
    },
    {
-    "url": "https://cryptobriefing.com/zachxbt-credit-mutuel-arkea-133m-exploit/",
-    "name": "Crypto Briefing",
-    "kind": "other",
-    "checked": false,
-    "confirms": true
-   },
-   {
-    "url": "https://cryptoticker.io/en/eu-crypto-theft-zachxbt-133-million/",
-    "name": "CryptoTicker",
-    "kind": "other",
-    "checked": false,
-    "confirms": true
+    "url": "https://www.theblock.co/news/web3/2026-11-03-french-bank-credit-mutuel-arkea-exploited-zachxbt-432607",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": false,
+    "origin": "ZachXBT"
    }
   ],
   "verification_status": "UNVERIFIED",
@@ -43907,39 +43970,32 @@
    "reason": "only 1 independent credible source(s) confirm it; need 2",
    "sources_checked": [
     {
-     "name": "ZachXBT Telegram",
-     "url": "https://t.me/investigations/372",
-     "category": "social",
-     "counts": false,
-     "note": "social/community post — can trigger investigation, never verifies"
-    },
-    {
      "name": "CoinDesk",
-     "url": "https://www.coindesk.com/tech/2026/11/02/eu-entity-suspected-of-losing-usd106-million-from-crypto-exchange-accounts-zachxbt-says",
+     "url": "https://www.coindesk.com/business/2026/11/04/zachxbt-names-french-bank-credit-mutuel-arkea-as-suspected-victim-of-usd133-million-crypto-theft",
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "Solutions Numériques",
+     "url": "https://www.solutions-numeriques.com/crypto-credit-mutuel-arkea-pirate-pendant-que-binance-disseque-son-casse-a-6-milliards/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     },
     {
      "name": "Decrypt",
-     "url": "https://decrypt.co/382383/mystery-106-million-crypto-theft-eu-entity-binance-hack",
+     "url": "https://decrypt.co/382486/zachxbt-names-french-bank-credit-mutuel-arkea-as-alleged-victim-of-133m-crypto-theft",
      "category": "secondary",
-     "counts": true,
-     "note": "credible news organization"
+     "counts": false,
+     "note": "credible news organization; opened but does not confirm the claim"
     },
     {
-     "name": "Crypto Briefing",
-     "url": "https://cryptobriefing.com/zachxbt-credit-mutuel-arkea-133m-exploit/",
-     "category": "other",
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/web3/2026-11-03-french-bank-credit-mutuel-arkea-exploited-zachxbt-432607",
+     "category": "secondary",
      "counts": false,
-     "note": "not on the credible list — logged as evidence only"
-    },
-    {
-     "name": "CryptoTicker",
-     "url": "https://cryptoticker.io/en/eu-crypto-theft-zachxbt-133-million/",
-     "category": "other",
-     "counts": false,
-     "note": "not on the credible list — logged as evidence only"
+     "note": "credible news organization; opened but does not confirm the claim"
     }
    ]
   },
@@ -43947,12 +44003,15 @@
    "AI proposed IMPORTANT: Large loss figure but single unconfirmed origin (ZachXBT Telegram); CoinDesk says losses not independently confirmed; victim and exchanges unnamed.",
    "hack rule: about $106M lost (thresholds $10M/$100M) -> BREAKING",
    "first reported 2026-11-01T00:00-04:00, older than 12h -> NORMAL (daily show)",
-   "final level NORMAL (changed from AI's IMPORTANT)"
+   "final level NORMAL (changed from AI's IMPORTANT)",
+   "AI proposed IMPORTANT: Victim now named and the bank confirmed an attack with fraudulent transactions; loss figure ($133M+) comes from on-chain tracing, not the bank.",
+   "hack rule: about $133M lost (thresholds $10M/$100M) -> BREAKING",
+   "final level BREAKING (changed from AI's IMPORTANT)"
   ],
   "market_significance": "Would be one of the largest thefts this year if confirmed, days after the Binance hack.",
   "trigger": "Decrypt and CoinDesk reports of ZachXBT alert",
   "content_created": false,
-  "publication_status": "USED_IN_DAILY",
+  "publication_status": "BLOCKED_UNVERIFIED",
   "related_story_ids": [],
   "updates": [
    {
@@ -43971,6 +44030,15 @@
     "new_development": true,
     "level": "NORMAL",
     "sources_added": 2,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-04T07:15-05:00",
+    "headline": "Crédit Mutuel Arkéa confirms an attack enabled fraudulent transactions after ZachXBT names it in a $133 million crypto theft",
+    "summary": "French bank Crédit Mutuel Arkéa told CoinDesk on November 4 that an attack enabled fraudulent transactions, that the incident is under control and that clients face no financial consequences. It did not confirm an amount. ZachXBT puts losses above $133 million in USDC and USDT withdrawn from Kraken, Crypto.com and OKX accounts on November 1-2; Bitquery traced $108.8 million. Crypto.com says it blocked linked funds. Much of the money was swapped to ETH and Monero.",
+    "new_development": true,
+    "level": "BREAKING",
+    "sources_added": 4,
     "verification": "UNVERIFIED"
    }
   ],
@@ -45556,6 +45624,384 @@
    "6aeaa6e5ff887f055ce6e4e7",
    "6aeaa6e5ff887f055ce6e50e"
   ],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261104_25aa78",
+  "headline": "Morgan Stanley tokenizes US equities and Treasurys through DTCC's new tokenization service",
+  "summary": "Morgan Stanley says it is among the first firms to tokenize U.S. equities and Treasurys through the DTCC tokenization service that went live last week with 20 participants. It now targets Q1 2027 for tokenized equities on its ATS, later than its earlier H2 2026 goal.",
+  "detected_at": "2026-11-04T07:15-05:00",
+  "active_since": "2026-11-04T07:15-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "institutional",
+  "event_time": "2026-11-04T04:37-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/markets/2026-11-04-morgan-stanley-among-first-banks-to-tokenize-us-equities-treasurys-through-dtccs-service-432633"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-04-morgan-stanley-among-first-banks-to-tokenize-us-equities-treasurys-through-dtccs-service-432633",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-04-morgan-stanley-among-first-banks-to-tokenize-us-equities-treasurys-through-dtccs-service-432633",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/markets/2026-11-04-morgan-stanley-among-first-banks-to-tokenize-us-equities-treasurys-through-dtccs-service-432633",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Incremental use of an already-launched service; one source opened."
+  ],
+  "market_significance": "Big-bank adoption of tokenized securities rails.",
+  "trigger": "The Block latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261104_4a544f",
+  "headline": "Bitcoin dips below $76,000 on Democratic midterm wins, then rebounds above $78,000 as DeFi tokens lead",
+  "summary": "Bitcoin fell to about $75,600 early Wednesday as Democrats won control of Congress, then rebounded to about $78,300, roughly 1% up on the day. Ether rose about 2% and CoinDesk's DeFi index about 5%; TRUMP fell 7% and WLFI 5%. Liquidations rose to $469 million.",
+  "detected_at": "2026-11-04T07:15-05:00",
+  "active_since": "2026-11-04T07:15-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.85,
+  "assets": [
+   "BTC",
+   "ETH",
+   "TOTAL_MARKET"
+  ],
+  "event_type": "market_move",
+  "event_time": "2026-11-04T03:00-05:00",
+  "scheduled_event": false,
+  "metrics": {
+   "pct_move_24h": 1.0
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/markets/2026/11/04/bitcoin-rebounds-from-midterm-dip-as-defi-leads-gains",
+   "https://www.coindesk.com/markets/2026/11/04/bitcoin-knocks-on-usd78-000-in-v-shaped-comeback-as-midterm-uncertainty-fades"
+  ],
+  "source_names": [
+   "CoinDesk",
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/markets/2026/11/04/bitcoin-rebounds-from-midterm-dip-as-defi-leads-gains",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/11/04/bitcoin-knocks-on-usd78-000-in-v-shaped-comeback-as-midterm-uncertainty-fades",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/markets/2026/11/04/bitcoin-rebounds-from-midterm-dip-as-defi-leads-gains",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/11/04/bitcoin-knocks-on-usd78-000-in-v-shaped-comeback-as-midterm-uncertainty-fades",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/11/04/bitcoin-rebounds-from-midterm-dip-as-defi-leads-gains",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/11/04/bitcoin-knocks-on-usd78-000-in-v-shaped-comeback-as-midterm-uncertainty-fades",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Moves are small, well under thresholds.",
+   "price rule: BTC moved 1.0% in 24h (thresholds 7%/12%) -> NORMAL"
+  ],
+  "market_significance": "Midterm outcome shifts the US crypto policy outlook.",
+  "trigger": "CoinDesk markets",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261104_a2861f",
+  "headline": "BitGo launches institutional trading and financial solutions business led by former NYDIG executive",
+  "summary": "BitGo launched an institutional trading and financial solutions business, led by a former NYDIG executive.",
+  "detected_at": "2026-11-04T07:15-05:00",
+  "active_since": "2026-11-04T07:15-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "institutional",
+  "event_time": "2026-11-04T07:00-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-11-04-bitgo-launches-institutional-trading-and-financial-solutions-business-led-by-former-nydig-executive-432646"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-04-bitgo-launches-institutional-trading-and-financial-solutions-business-led-by-former-nydig-executive-432646",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-04-bitgo-launches-institutional-trading-and-financial-solutions-business-led-by-former-nydig-executive-432646",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-04-bitgo-launches-institutional-trading-and-financial-solutions-business-led-by-former-nydig-executive-432646",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Routine business announcement."
+  ],
+  "market_significance": "Custodian expanding into trading.",
+  "trigger": "The Block latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261104_261918",
+  "headline": "South Korea's ruling party formally proposes deferring the crypto income tax",
+  "summary": "South Korea's ruling party formally proposed deferring the country's crypto income tax again.",
+  "detected_at": "2026-11-04T07:15-05:00",
+  "active_since": "2026-11-04T07:15-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "regulatory",
+  "event_time": "2026-11-03T21:51-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/regulation/2026-11-03-south-koreas-ruling-party-proposes-deferral-crypto-income-tax-432580"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-03-south-koreas-ruling-party-proposes-deferral-crypto-income-tax-432580",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-03-south-koreas-ruling-party-proposes-deferral-crypto-income-tax-432580",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-11-03-south-koreas-ruling-party-proposes-deferral-crypto-income-tax-432580",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Proposal, not law."
+  ],
+  "market_significance": "Fourth delay of the tax would push it to 2029.",
+  "trigger": "The Block latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261104_fbaa72",
+  "headline": "Crypto docs host GitBook hit by AI agent security breach, urges users to rotate keys",
+  "summary": "GitBook, widely used for crypto project documentation, reported a security breach involving an AI agent and urged users to rotate keys.",
+  "detected_at": "2026-11-04T07:15-05:00",
+  "active_since": "2026-11-04T07:15-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "hack_exploit",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://decrypt.co/382465/crypto-docs-gitbook-ai-agent-security-breach"
+  ],
+  "source_names": [
+   "Decrypt"
+  ],
+  "sources": [
+   {
+    "url": "https://decrypt.co/382465/crypto-docs-gitbook-ai-agent-security-breach",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://decrypt.co/382465/crypto-docs-gitbook-ai-agent-security-breach",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/382465/crypto-docs-gitbook-ai-agent-security-breach",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: No reported crypto losses."
+  ],
+  "market_significance": "Supply-chain risk for crypto projects' docs.",
+  "trigger": "Decrypt news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
   "needs_followup": false
  }
 ]
