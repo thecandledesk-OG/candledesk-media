@@ -43847,7 +43847,10 @@
    "https://www.coindesk.com/business/2026/11/04/zachxbt-names-french-bank-credit-mutuel-arkea-as-suspected-victim-of-usd133-million-crypto-theft",
    "https://www.solutions-numeriques.com/crypto-credit-mutuel-arkea-pirate-pendant-que-binance-disseque-son-casse-a-6-milliards/",
    "https://decrypt.co/382486/zachxbt-names-french-bank-credit-mutuel-arkea-as-alleged-victim-of-133m-crypto-theft",
-   "https://www.theblock.co/news/web3/2026-11-03-french-bank-credit-mutuel-arkea-exploited-zachxbt-432607"
+   "https://www.theblock.co/news/web3/2026-11-03-french-bank-credit-mutuel-arkea-exploited-zachxbt-432607",
+   "https://www.boursorama.com/actualite-economique/actualites/credit-mutuel-arkea-victime-d-une-cyberattaque-ayant-permis-des-operations-frauduleuses-7a25b65f08450c07e9ea616dca1bfc71",
+   "https://fr.finance.yahoo.com/actualites/cr%C3%A9dit-mutuel-ark%C3%A9a-victime-d-104933480.html",
+   "https://www.it-connect.tech/credit-mutuel-arkea-confirms-cyberattack-as-133-million-is-at-stake/"
   ],
   "source_names": [
    "ZachXBT Telegram",
@@ -43858,7 +43861,10 @@
    "CoinDesk",
    "Solutions Numériques",
    "Decrypt",
-   "The Block"
+   "The Block",
+   "Boursorama (AFP)",
+   "Yahoo Finance France (AFP)",
+   "IT-Connect"
   ],
   "sources": [
    {
@@ -43927,6 +43933,29 @@
     "checked": true,
     "confirms": false,
     "origin": "ZachXBT"
+   },
+   {
+    "url": "https://www.boursorama.com/actualite-economique/actualites/credit-mutuel-arkea-victime-d-une-cyberattaque-ayant-permis-des-operations-frauduleuses-7a25b65f08450c07e9ea616dca1bfc71",
+    "name": "Boursorama (AFP)",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "origin": "AFP"
+   },
+   {
+    "url": "https://fr.finance.yahoo.com/actualites/cr%C3%A9dit-mutuel-ark%C3%A9a-victime-d-104933480.html",
+    "name": "Yahoo Finance France (AFP)",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "origin": "AFP"
+   },
+   {
+    "url": "https://www.it-connect.tech/credit-mutuel-arkea-confirms-cyberattack-as-133-million-is-at-stake/",
+    "name": "IT-Connect",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -43959,15 +43988,38 @@
     "checked": true,
     "confirms": false,
     "origin": "ZachXBT"
+   },
+   {
+    "url": "https://www.boursorama.com/actualite-economique/actualites/credit-mutuel-arkea-victime-d-une-cyberattaque-ayant-permis-des-operations-frauduleuses-7a25b65f08450c07e9ea616dca1bfc71",
+    "name": "Boursorama (AFP)",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "origin": "AFP"
+   },
+   {
+    "url": "https://fr.finance.yahoo.com/actualites/cr%C3%A9dit-mutuel-ark%C3%A9a-victime-d-104933480.html",
+    "name": "Yahoo Finance France (AFP)",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "origin": "AFP"
+   },
+   {
+    "url": "https://www.it-connect.tech/credit-mutuel-arkea-confirms-cyberattack-as-133-million-is-at-stake/",
+    "name": "IT-Connect",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
    }
   ],
-  "verification_status": "UNVERIFIED",
+  "verification_status": "VERIFIED",
   "verification": {
-   "status": "UNVERIFIED",
-   "independent_sources": 1,
+   "status": "VERIFIED",
+   "independent_sources": 2,
    "has_primary": false,
-   "score": 0.4,
-   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "score": 0.8,
+   "reason": "2 independent credible sources confirm it (no primary source yet)",
    "sources_checked": [
     {
      "name": "CoinDesk",
@@ -43996,6 +44048,27 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; opened but does not confirm the claim"
+    },
+    {
+     "name": "Boursorama (AFP)",
+     "url": "https://www.boursorama.com/actualite-economique/actualites/credit-mutuel-arkea-victime-d-une-cyberattaque-ayant-permis-des-operations-frauduleuses-7a25b65f08450c07e9ea616dca1bfc71",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Yahoo Finance France (AFP)",
+     "url": "https://fr.finance.yahoo.com/actualites/cr%C3%A9dit-mutuel-ark%C3%A9a-victime-d-104933480.html",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "IT-Connect",
+     "url": "https://www.it-connect.tech/credit-mutuel-arkea-confirms-cyberattack-as-133-million-is-at-stake/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -44010,8 +44083,8 @@
   ],
   "market_significance": "Would be one of the largest thefts this year if confirmed, days after the Binance hack.",
   "trigger": "Decrypt and CoinDesk reports of ZachXBT alert",
-  "content_created": false,
-  "publication_status": "BLOCKED_UNVERIFIED",
+  "content_created": true,
+  "publication_status": "DRAFTED",
   "related_story_ids": [],
   "updates": [
    {
@@ -44040,9 +44113,22 @@
     "level": "BREAKING",
     "sources_added": 4,
     "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-04T10:19-05:00",
+    "headline": "French bank Crédit Mutuel Arkéa confirms a cyberattack enabled fraudulent transactions after ZachXBT tied it to a suspected $133 million crypto theft",
+    "summary": "ZachXBT named Crédit Mutuel Arkéa as the suspected victim of the theft he first flagged on November 2, now estimated above $133 million, with Bitquery tracing $108.8 million in USDC withdrawn from Kraken, Crypto.com and OKX accounts on November 1-2. The bank told CoinDesk and AFP that a cyberattack enabled fraudulent transactions, that the incident is under control, that clients face no financial consequences, and that it suspended some transactions and informed authorities. The bank did not confirm the amount or say whether it involved crypto. Crypto.com said it blocked linked funds.",
+    "new_development": true,
+    "level": "BREAKING",
+    "sources_added": 3,
+    "verification": "VERIFIED"
    }
   ],
-  "posts": [],
+  "posts": [
+   "6aeb4fd692ddc1c762975490",
+   "6aeb4fd7e14da1e9430ac212",
+   "6aeb4fd855381ceedcbfc191"
+  ],
   "needs_followup": false
  },
  {
@@ -44467,7 +44553,8 @@
    "https://www.coindesk.com/markets/2026/11/03/live-news-bitcoin-faces-fifth-weekly-loss-as-midterm-uncertainty-and-apple-warning-weigh-on-markets",
    "https://www.theblock.co/news/regulation/2026-11-03-midterm-election-odds-polymarket-kalshi-democrats-432461",
    "https://www.tradingview.com/news/benzinga:f1a5c7082094b:0-bitcoin-ethereum-xrp-dogecoin-surrender-early-gains-as-midterm-polls-close-analyst-sees-sell-the-rumor-buy-the-news-play/",
-   "https://coindesk.com/policy/2026/11/03/cftc-gets-into-legal-clash-over-stock-perps-after-having-cleared-path-for-crypto-version"
+   "https://coindesk.com/policy/2026/11/03/cftc-gets-into-legal-clash-over-stock-perps-after-having-cleared-path-for-crypto-version",
+   "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-4-2026"
   ],
   "source_names": [
    "CFTC",
@@ -44476,7 +44563,8 @@
    "CoinDesk",
    "The Block",
    "Benzinga via TradingView",
-   "CoinDesk"
+   "CoinDesk",
+   "KuCoin"
   ],
   "sources": [
    {
@@ -44527,6 +44615,13 @@
     "name": "CoinDesk",
     "kind": "secondary",
     "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-4-2026",
+    "name": "KuCoin",
+    "kind": "other",
+    "checked": true,
     "confirms": true
    }
   ],
@@ -44579,6 +44674,13 @@
     "name": "CoinDesk",
     "kind": "secondary",
     "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-4-2026",
+    "name": "KuCoin",
+    "kind": "other",
+    "checked": true,
     "confirms": true
    }
   ],
@@ -44638,6 +44740,13 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "KuCoin",
+     "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-4-2026",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -44682,6 +44791,15 @@
     "headline": "CFTC sued by Capital Markets Alliance over approval of single-stock perpetual futures",
     "summary": "The Capital Markets Alliance sued the CFTC, arguing that stock-based perpetual futures it cleared on November 3 belong under SEC jurisdiction.",
     "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-04T10:19-05:00",
+    "headline": "Cboe and Citadel Securities sue to overturn the CFTC's approval of single-stock perpetual futures",
+    "summary": "Cboe and Citadel Securities filed suit challenging the CFTC's approval of perpetual futures on individual U.S. stocks, per KuCoin's daily report.",
+    "new_development": false,
     "level": "NORMAL",
     "sources_added": 1,
     "verification": "VERIFIED"
@@ -45038,10 +45156,12 @@
   "metrics": {},
   "emergency": false,
   "source_urls": [
-   "https://www.coindesk.com/business/2026/11/03/amazon-tesla-and-spacex-join-okx-ice-tokenized-stock-objections-as-deadline-looms"
+   "https://www.coindesk.com/business/2026/11/03/amazon-tesla-and-spacex-join-okx-ice-tokenized-stock-objections-as-deadline-looms",
+   "https://www.coingabbar.com/en/crypto-news-cftc-bitmart-hack-midterms-bitcoin-price-altcoins"
   ],
   "source_names": [
-   "CoinDesk"
+   "CoinDesk",
+   "CoinGabbar"
   ],
   "sources": [
    {
@@ -45049,6 +45169,13 @@
     "name": "CoinDesk",
     "kind": "secondary",
     "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coingabbar.com/en/crypto-news-cftc-bitmart-hack-midterms-bitcoin-price-altcoins",
+    "name": "CoinGabbar",
+    "kind": "secondary",
+    "checked": true,
     "confirms": true
    }
   ],
@@ -45058,6 +45185,13 @@
     "name": "CoinDesk",
     "kind": "secondary",
     "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coingabbar.com/en/crypto-news-cftc-bitmart-hack-midterms-bitcoin-price-altcoins",
+    "name": "CoinGabbar",
+    "kind": "secondary",
+    "checked": true,
     "confirms": true
    }
   ],
@@ -45075,6 +45209,13 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "CoinGabbar",
+     "url": "https://www.coingabbar.com/en/crypto-news-cftc-bitmart-hack-midterms-bitcoin-price-altcoins",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -45084,9 +45225,19 @@
   "market_significance": "Big-name pushback on tokenized stocks.",
   "trigger": "CoinDesk latest news",
   "content_created": false,
-  "publication_status": "QUEUED_FOR_DAILY",
+  "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-11-04T10:17-05:00",
+    "headline": "Fifty-six companies including Tesla and SpaceX object to OKX-ICE tokenized stock trading",
+    "summary": "Fifty-six companies, including Tesla and SpaceX, now object to tokenized trading of their stock.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -45448,7 +45599,9 @@
    "https://www.bleepingcomputer.com/news/security/binance-says-fake-job-interview-led-to-63-billion-crypto-heist/",
    "https://x.com/binance/status/2117626126214504729",
    "https://www.coindesk.com/business/2026/11/03/binance-s-usd6-3-billion-hack-began-with-a-fake-job-interview-exchange-says",
-   "https://decrypt.co/382420/five-ways-north-korea-breaks-into-crypto-firms-and-how-binance-was-hacked"
+   "https://decrypt.co/382420/five-ways-north-korea-breaks-into-crypto-firms-and-how-binance-was-hacked",
+   "https://www.coindesk.com/daybook-us/2026/11/04/here-s-how-analysts-are-reacting-to-the-new-blue-congress",
+   "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-4-2026"
   ],
   "source_names": [
    "The Block",
@@ -45456,7 +45609,9 @@
    "BleepingComputer",
    "Binance on X",
    "CoinDesk",
-   "Decrypt"
+   "Decrypt",
+   "CoinDesk",
+   "KuCoin"
   ],
   "sources": [
    {
@@ -45499,6 +45654,20 @@
     "url": "https://decrypt.co/382420/five-ways-north-korea-breaks-into-crypto-firms-and-how-binance-was-hacked",
     "name": "Decrypt",
     "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/daybook-us/2026/11/04/here-s-how-analysts-are-reacting-to-the-new-blue-congress",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-4-2026",
+    "name": "KuCoin",
+    "kind": "other",
     "checked": true,
     "confirms": true
    }
@@ -45544,6 +45713,20 @@
     "url": "https://decrypt.co/382420/five-ways-north-korea-breaks-into-crypto-firms-and-how-binance-was-hacked",
     "name": "Decrypt",
     "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/daybook-us/2026/11/04/here-s-how-analysts-are-reacting-to-the-new-blue-congress",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-4-2026",
+    "name": "KuCoin",
+    "kind": "other",
     "checked": true,
     "confirms": true
    }
@@ -45597,6 +45780,20 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/daybook-us/2026/11/04/here-s-how-analysts-are-reacting-to-the-new-blue-congress",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "KuCoin",
+     "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-4-2026",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -45616,6 +45813,24 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 2,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-04T10:19-05:00",
+    "headline": "THORChain's RUNE jumps about 10% as North Korean hackers resume laundering Binance loot",
+    "summary": "RUNE rose about 10 to 13% as stolen Binance funds were again routed through THORChain, per CoinDesk and KuCoin's daily report.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-04T10:19-05:00",
+    "headline": "Zcash grants committee drops plan to redirect 98,000 ZEC to future mining rewards",
+    "summary": "The Zcash grants committee abandoned its proposal to redirect 98,000 ZEC to future mining rewards, per CoinDesk.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
     "verification": "VERIFIED"
    }
   ],
@@ -45719,9 +45934,11 @@
   "emergency": false,
   "source_urls": [
    "https://www.coindesk.com/markets/2026/11/04/bitcoin-rebounds-from-midterm-dip-as-defi-leads-gains",
-   "https://www.coindesk.com/markets/2026/11/04/bitcoin-knocks-on-usd78-000-in-v-shaped-comeback-as-midterm-uncertainty-fades"
+   "https://www.coindesk.com/markets/2026/11/04/bitcoin-knocks-on-usd78-000-in-v-shaped-comeback-as-midterm-uncertainty-fades",
+   "https://www.coindesk.com/daybook-us/2026/11/04/here-s-how-analysts-are-reacting-to-the-new-blue-congress"
   ],
   "source_names": [
+   "CoinDesk",
    "CoinDesk",
    "CoinDesk"
   ],
@@ -45739,6 +45956,13 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/daybook-us/2026/11/04/here-s-how-analysts-are-reacting-to-the-new-blue-congress",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -45751,6 +45975,13 @@
    },
    {
     "url": "https://www.coindesk.com/markets/2026/11/04/bitcoin-knocks-on-usd78-000-in-v-shaped-comeback-as-midterm-uncertainty-fades",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/daybook-us/2026/11/04/here-s-how-analysts-are-reacting-to-the-new-blue-congress",
     "name": "CoinDesk",
     "kind": "secondary",
     "checked": true,
@@ -45778,6 +46009,13 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/daybook-us/2026/11/04/here-s-how-analysts-are-reacting-to-the-new-blue-congress",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -45790,7 +46028,35 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-11-04T10:19-05:00",
+    "headline": "Bitcoin climbs back above $80,000 as ether gains about 6% after the midterm dip",
+    "summary": "Bitcoin traded near $80,900 on November 4, up about 4% on the day after dipping below $76,000 in Asian trading; ether rose about 6% to near $2,440, XRP about 4% to $1.34 and SOL about 4% to near $97.8.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-04T10:19-05:00",
+    "headline": "Circle beats earnings expectations but cuts about 5% of its workforce",
+    "summary": "Circle reported quarterly results above expectations on strong revenue while announcing a roughly 5% staff cut, per CoinDesk headlines.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-04T10:19-05:00",
+    "headline": "Schroders brings an emerging market bond fund to Solana",
+    "summary": "Asset manager Schroders brought an emerging market bond fund onchain on Solana, per CoinDesk.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -46001,6 +46267,166 @@
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
   "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261104_985d2a",
+  "headline": "Bitcoin dipped to a seven-week low near $75,600, then bounced",
+  "summary": "Here's what moved the chain today. Bitcoin dipped to a seven-week low, then bounced.",
+  "detected_at": "2026-11-04T10:17-05:00",
+  "active_since": "2026-11-04T10:17-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "market_move",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://crypto.news/bitcoin-price-reclaims-78000-us-midterm-election/"
+  ],
+  "source_names": [
+   "crypto.news"
+  ],
+  "sources": [
+   {
+    "url": "https://crypto.news/bitcoin-price-reclaims-78000-us-midterm-election/",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://crypto.news/bitcoin-price-reclaims-78000-us-midterm-election/",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/bitcoin-price-reclaims-78000-us-midterm-election/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [
+   {
+    "at": "2026-11-04T10:17-05:00",
+    "headline": "Spot bitcoin ETFs shed $1.16 billion in three sessions",
+    "summary": "Psst... Bitcoin ETFs shed one point one six billion dollars in three sessions.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   }
+  ],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261104_080bfb",
+  "headline": "Seven Democratic senators want to restart CLARITY Act talks after Democratic midterm wins",
+  "summary": "Green candles only! Seven Democratic senators want to restart Clarity Act talks!",
+  "detected_at": "2026-11-04T10:17-05:00",
+  "active_since": "2026-11-04T10:17-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "regulatory",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://crypto.news/bitcoin-price-democrats-midterm-election-results/"
+  ],
+  "source_names": [
+   "crypto.news"
+  ],
+  "sources": [
+   {
+    "url": "https://crypto.news/bitcoin-price-democrats-midterm-election-results/",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://crypto.news/bitcoin-price-democrats-midterm-election-results/",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/bitcoin-price-democrats-midterm-election-results/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [
+   {
+    "at": "2026-11-04T10:17-05:00",
+    "headline": "CLARITY Act stalled in September, short of sixty Senate votes",
+    "summary": "Check the yields first. That bill stalled in September, short of sixty Senate votes.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  }

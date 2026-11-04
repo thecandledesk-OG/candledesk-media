@@ -1,0 +1,49 @@
+{
+ "story_id": "st_20261102_4ebe9b",
+ "date_label": "NOV 4",
+ "headline": "French bank confirms cyberattack behind $133M crypto theft claim",
+ "sources": [
+  {"name": "CoinDesk", "url": "https://www.coindesk.com/business/2026/11/04/zachxbt-names-french-bank-credit-mutuel-arkea-as-suspected-victim-of-usd133-million-crypto-theft"},
+  {"name": "AFP via Boursorama", "url": "https://www.boursorama.com/actualite-economique/actualites/credit-mutuel-arkea-victime-d-une-cyberattaque-ayant-permis-des-operations-frauduleuses-7a25b65f08450c07e9ea616dca1bfc71"}
+ ],
+ "scenes": [
+  {
+   "beat": "hook",
+   "who": "ledger",
+   "vo": "A major French bank just confirmed a cyberattack, days after an investigator traced over one hundred million dollars in stolen crypto. Here's what changed.",
+   "chunks": ["French bank hit", "*Cyberattack confirmed*", "Here's what changed"]
+  },
+  {
+   "beat": "what_happened",
+   "who": "ledger",
+   "vo": "Investigator ZachXBT named Credit Mutuel Arkea as the victim. The bank says an attack enabled fraudulent transactions, but it has not confirmed an amount.",
+   "chunks": ["ZachXBT names the bank", "*Fraudulent transactions*", "No amount confirmed"],
+   "stat": {"label": "Sources", "text": "CoinDesk · AFP"}
+  },
+  {
+   "beat": "why_it_matters",
+   "who": "bruno",
+   "vo": "Here's why traders are watching it. The bank says clients face no financial losses, the incident is under control, and Crypto dot com says it blocked linked funds.",
+   "chunks": ["The good news", "*Clients covered*", "Some funds blocked"]
+  },
+  {
+   "beat": "why_it_matters",
+   "who": "ursa",
+   "vo": "The catch. ZachXBT estimates over one hundred thirty three million dollars, and says slow disclosure let about thirty million slip away unfrozen.",
+   "chunks": ["The catch", "*Over 133M estimated*", "About 30M unfrozen"]
+  },
+  {
+   "beat": "watch_next",
+   "who": "moby",
+   "vo": "Here's what happens next. Watch for the bank's official loss figure, more exchange freezes, and how European regulators respond.",
+   "chunks": ["What's next", "*Official loss figure*", "More freezes?"]
+  },
+  {
+   "beat": "cta",
+   "who": "all",
+   "vo": "Follow The Candle Desk for crypto news without the hype. Not financial advice.",
+   "chunks": ["Follow The Candle Desk", "*No hype*", "Just the news"],
+   "foot": "NOT FINANCIAL ADVICE"
+  }
+ ]
+}
