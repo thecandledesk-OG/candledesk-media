@@ -46681,6 +46681,15 @@
     "level": "NORMAL",
     "sources_added": 3,
     "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-05T16:09-05:00",
+    "headline": "Eric Trump's American Bitcoin swings to a $126 million third-quarter profit on digital asset gains",
+    "summary": "American Bitcoin reported a $126 million Q3 profit driven by digital asset gains, per The Block.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "VERIFIED"
    }
   ],
   "posts": [],
@@ -48000,6 +48009,293 @@
   ],
   "market_significance": "Another DeFi security incident.",
   "trigger": "crypto.news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261105_edd2f0",
+  "headline": "Bitcoin erases post-election gains, falling about 6% to near $75,700 as a Wall Street selloff drives about $1.1 billion in crypto liquidations",
+  "summary": "Bitcoin fell about 6% to around $75,700 and ether more than 7% to about $2,247 as a sharp U.S. tech and AI stock selloff (Nasdaq down about 4 to 4.7%) spilled into crypto. CoinGlass shows about $1.09 billion in 24h liquidations, mostly longs. Total crypto market cap down about 5%.",
+  "detected_at": "2026-11-05T16:09-05:00",
+  "active_since": "2026-11-05T16:09-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "IMPORTANT",
+  "confidence": 0.85,
+  "assets": [
+   "BTC",
+   "ETH",
+   "SOL",
+   "TOTAL_MARKET"
+  ],
+  "event_type": "market_move",
+  "event_time": "2026-11-05T15:10-05:00",
+  "scheduled_event": false,
+  "metrics": {
+   "pct_move_24h": 6.0
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/markets/2026-11-05-bitcoin-erases-post-election-gains-wall-street-selloff-liquidations-435434",
+   "https://www.thestreet.com/crypto/markets/bitcoin-stocks-crash-as-markets-erase-post-election-rally"
+  ],
+  "source_names": [
+   "The Block",
+   "TheStreet"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-05-bitcoin-erases-post-election-gains-wall-street-selloff-liquidations-435434",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.thestreet.com/crypto/markets/bitcoin-stocks-crash-as-markets-erase-post-election-rally",
+    "name": "TheStreet",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-05-bitcoin-erases-post-election-gains-wall-street-selloff-liquidations-435434",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.thestreet.com/crypto/markets/bitcoin-stocks-crash-as-markets-erase-post-election-rally",
+    "name": "TheStreet",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/markets/2026-11-05-bitcoin-erases-post-election-gains-wall-street-selloff-liquidations-435434",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "TheStreet",
+     "url": "https://www.thestreet.com/crypto/markets/bitcoin-stocks-crash-as-markets-erase-post-election-rally",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed IMPORTANT: Reverses Wednesday's post-midterm rally; liquidations top $1 billion",
+   "price rule: BTC moved 6.0% in 24h (thresholds 7%/12%) -> NORMAL",
+   "final level NORMAL (changed from AI's IMPORTANT)"
+  ],
+  "market_significance": "Market-wide drawdown tied to equities",
+  "trigger": "The Block latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261105_c21e5f",
+  "headline": "Base activates Denim upgrade on mainnet, moving to 200 millisecond blocks and retiring Flashblocks",
+  "summary": "Coinbase's layer 2 Base deployed its Denim upgrade on mainnet, producing a canonical block every 200 ms, retiring Flashblocks and adding millisecond timestamps and B20 compliance changes, per a statement to The Block. Base docs still list mainnet as planned for November.",
+  "detected_at": "2026-11-05T16:09-05:00",
+  "active_since": "2026-11-05T16:09-05:00",
+  "classification": "IMPORTANT",
+  "proposed_level": "IMPORTANT",
+  "confidence": 0.6,
+  "assets": [
+   "ETH"
+  ],
+  "event_type": "protocol_upgrade",
+  "event_time": "2026-11-05T14:00-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/ecosystems/2026-11-05-base-deploys-denim-upgrade-on-mainnet-replacing-flashblocks-with-200ms-block-times-434433",
+   "https://docs.base.org/upgrades/denim/overview.md"
+  ],
+  "source_names": [
+   "The Block",
+   "Base docs"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/ecosystems/2026-11-05-base-deploys-denim-upgrade-on-mainnet-replacing-flashblocks-with-200ms-block-times-434433",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://docs.base.org/upgrades/denim/overview.md",
+    "name": "Base docs",
+    "kind": "primary",
+    "checked": true,
+    "confirms": false
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/ecosystems/2026-11-05-base-deploys-denim-upgrade-on-mainnet-replacing-flashblocks-with-200ms-block-times-434433",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://docs.base.org/upgrades/denim/overview.md",
+    "name": "Base docs",
+    "kind": "primary",
+    "checked": true,
+    "confirms": false
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/ecosystems/2026-11-05-base-deploys-denim-upgrade-on-mainnet-replacing-flashblocks-with-200ms-block-times-434433",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Base docs",
+     "url": "https://docs.base.org/upgrades/denim/overview.md",
+     "category": "primary",
+     "counts": false,
+     "note": "primary (claimed official source; domain not on the known list); opened but does not confirm the claim"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed IMPORTANT: Upgrade going live on a major layer 2"
+  ],
+  "market_significance": "Apps using Flashblocks must migrate",
+  "trigger": "The Block latest news",
+  "content_created": false,
+  "publication_status": "BLOCKED_UNVERIFIED",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261105_44e265",
+  "headline": "Samsung Wallet's USDC on Solana stablecoin account goes live for eligible U.S. Galaxy users",
+  "summary": "Samsung Wallet's Stablecoin Account, built with custodian Bastion with Coinbase as sub-custodian, lets eligible U.S. Galaxy users hold and send USDC on Solana; about 82 million devices are compatible. Solana Foundation says it went live Nov 2.",
+  "detected_at": "2026-11-05T16:09-05:00",
+  "active_since": "2026-11-05T16:09-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.85,
+  "assets": [
+   "SOL",
+   "USDC"
+  ],
+  "event_type": "partnership",
+  "event_time": "2026-11-02T12:00-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://solana.com/news/samsung-wallet-solana",
+   "https://www.theblock.co/news/business/2026-11-05-samsung-wallet-launches-usdc-accounts-solana-us-galaxy-users-434523"
+  ],
+  "source_names": [
+   "Solana Foundation",
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://solana.com/news/samsung-wallet-solana",
+    "name": "Solana Foundation",
+    "kind": "primary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-05-samsung-wallet-launches-usdc-accounts-solana-us-galaxy-users-434523",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://solana.com/news/samsung-wallet-solana",
+    "name": "Solana Foundation",
+    "kind": "primary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-05-samsung-wallet-launches-usdc-accounts-solana-us-galaxy-users-434523",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "VERIFIED",
+  "verification": {
+   "status": "VERIFIED",
+   "independent_sources": 2,
+   "has_primary": true,
+   "score": 1.0,
+   "reason": "2 independent credible sources confirm it (incl. a primary source)",
+   "sources_checked": [
+    {
+     "name": "Solana Foundation",
+     "url": "https://solana.com/news/samsung-wallet-solana",
+     "category": "primary",
+     "counts": true,
+     "note": "primary (known official domain)"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-05-samsung-wallet-launches-usdc-accounts-solana-us-galaxy-users-434523",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Launch confirmed but went live Nov 2"
+  ],
+  "market_significance": "Mainstream wallet distribution for USDC",
+  "trigger": "The Block latest news",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
