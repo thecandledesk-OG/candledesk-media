@@ -43851,7 +43851,9 @@
    "https://www.boursorama.com/actualite-economique/actualites/credit-mutuel-arkea-victime-d-une-cyberattaque-ayant-permis-des-operations-frauduleuses-7a25b65f08450c07e9ea616dca1bfc71",
    "https://fr.finance.yahoo.com/actualites/cr%C3%A9dit-mutuel-ark%C3%A9a-victime-d-104933480.html",
    "https://www.it-connect.tech/credit-mutuel-arkea-confirms-cyberattack-as-133-million-is-at-stake/",
-   "https://t.me/investigations/375"
+   "https://t.me/investigations/375",
+   "https://www.theblock.co/news/business/2026-11-04-french-bank-confirms-cyberattack-434372",
+   "https://brusselssignal.eu/2026/11/french-bank-credit-mutuel-arkea-confirms-cyber-attack-as-investigator-claims-e118-million-stolen/"
   ],
   "source_names": [
    "ZachXBT Telegram",
@@ -43866,7 +43868,9 @@
    "Boursorama (AFP)",
    "Yahoo Finance France (AFP)",
    "IT-Connect",
-   "ZachXBT Telegram"
+   "ZachXBT Telegram",
+   "The Block",
+   "Brussels Signal"
   ],
   "sources": [
    {
@@ -43965,6 +43969,20 @@
     "kind": "social",
     "checked": false,
     "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-04-french-bank-confirms-cyberattack-434372",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://brusselssignal.eu/2026/11/french-bank-credit-mutuel-arkea-confirms-cyber-attack-as-investigator-claims-e118-million-stolen/",
+    "name": "Brussels Signal",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -44027,15 +44045,29 @@
     "kind": "social",
     "checked": false,
     "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-04-french-bank-confirms-cyberattack-434372",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://brusselssignal.eu/2026/11/french-bank-credit-mutuel-arkea-confirms-cyber-attack-as-investigator-claims-e118-million-stolen/",
+    "name": "Brussels Signal",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "VERIFIED",
   "verification": {
    "status": "VERIFIED",
-   "independent_sources": 2,
+   "independent_sources": 3,
    "has_primary": false,
    "score": 0.8,
-   "reason": "2 independent credible sources confirm it (no primary source yet)",
+   "reason": "3 independent credible sources confirm it (no primary source yet)",
    "sources_checked": [
     {
      "name": "CoinDesk",
@@ -44092,6 +44124,20 @@
      "category": "social",
      "counts": false,
      "note": "social/community post — can trigger investigation, never verifies"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-04-french-bank-confirms-cyberattack-434372",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Brussels Signal",
+     "url": "https://brusselssignal.eu/2026/11/french-bank-credit-mutuel-arkea-confirms-cyber-attack-as-investigator-claims-e118-million-stolen/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -44153,6 +44199,15 @@
     "new_development": true,
     "level": "NORMAL",
     "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-05T07:28-05:00",
+    "headline": "Crédit Mutuel Arkéa confirms cyberattack behind fraudulent transfers that ZachXBT ties to a $133 million crypto theft",
+    "summary": "French bank Crédit Mutuel Arkéa said an intrusion enabled fraudulent transfers that were converted into crypto, that the incident is contained and client assets were unaffected. It did not confirm a loss figure; ZachXBT puts it above $133 million, up from his earlier $106 million estimate. Some funds were blocked.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 2,
     "verification": "VERIFIED"
    }
   ],
@@ -46115,14 +46170,18 @@
    "https://www.coindesk.com/markets/2026/11/04/bitcoin-knocks-on-usd78-000-in-v-shaped-comeback-as-midterm-uncertainty-fades",
    "https://www.coindesk.com/daybook-us/2026/11/04/here-s-how-analysts-are-reacting-to-the-new-blue-congress",
    "https://www.theblock.co/news/markets/2026-11-04-bitcoin-price-midterm-elections-binance-hack-recovery-433030",
-   "https://fool.com/coverage/stock-market-today/2026/11/04/crypto-market-today-nov-4-bitcoin-stages-sharp-recovery-as-wall-street-rallies-and-regulatory-hopes-return"
+   "https://fool.com/coverage/stock-market-today/2026/11/04/crypto-market-today-nov-4-bitcoin-stages-sharp-recovery-as-wall-street-rallies-and-regulatory-hopes-return",
+   "https://www.coindesk.com/markets/2026/11/05/bitcoin-holds-above-usd80-000-as-zcash-jumps-12-in-post-election-crypto-rebound",
+   "https://www.theblock.co/news/business/2026-11-05-american-bitcoin-swings-to-profit-434413"
   ],
   "source_names": [
    "CoinDesk",
    "CoinDesk",
    "CoinDesk",
    "The Block",
-   "Motley Fool"
+   "Motley Fool",
+   "CoinDesk",
+   "The Block"
   ],
   "sources": [
    {
@@ -46158,6 +46217,20 @@
     "name": "Motley Fool",
     "kind": "other",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/11/05/bitcoin-holds-above-usd80-000-as-zcash-jumps-12-in-post-election-crypto-rebound",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-05-american-bitcoin-swings-to-profit-434413",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -46195,6 +46268,20 @@
     "name": "Motley Fool",
     "kind": "other",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/11/05/bitcoin-holds-above-usd80-000-as-zcash-jumps-12-in-post-election-crypto-rebound",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-05-american-bitcoin-swings-to-profit-434413",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -46240,6 +46327,20 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/11/05/bitcoin-holds-above-usd80-000-as-zcash-jumps-12-in-post-election-crypto-rebound",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-05-american-bitcoin-swings-to-profit-434413",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
     }
    ]
   },
@@ -46305,6 +46406,42 @@
     "new_development": true,
     "level": "NORMAL",
     "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-05T07:28-05:00",
+    "headline": "Bitcoin holds above $80,000 and ether jumps about 8% in post-election rebound as Zcash climbs 12%",
+    "summary": "Bitcoin traded near $80,500, up about 5.7% in 24 hours, ether near $2,425, up about 8%, XRP $1.31 up about 4.7% and solana $96 up about 6%, as crypto joined a wider market rebound after Democrats won both houses of Congress.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-05T07:28-05:00",
+    "headline": "Zcash NU7 upgrade expected Friday would cut block times to 25 seconds from 75",
+    "summary": "Zcash's NU7 network upgrade is expected on Friday and would cut target block times from 75 seconds to 25 seconds; ZEC rose about 12% to near $1,318 ahead of it.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-05T07:28-05:00",
+    "headline": "Eric Trump's American Bitcoin swings to a $126 million third-quarter profit on digital asset gains",
+    "summary": "American Bitcoin reported a $126 million third-quarter profit driven by gains on its digital assets, while missing revenue estimates.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-05T07:28-05:00",
+    "headline": "Hong Kong passes law requiring crypto exchanges to report customer transactions to tax authorities",
+    "summary": "Hong Kong passed legislation requiring crypto exchanges to report customer transactions to tax authorities, in line with the OECD crypto reporting framework.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
     "verification": "VERIFIED"
    }
   ],
@@ -47151,6 +47288,146 @@
   ],
   "market_significance": "Post-hack transparency",
   "trigger": "news roundup",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261105_298388",
+  "headline": "Arkansas sues Kalshi, calling its prediction markets illegal gambling",
+  "summary": "Arkansas sued prediction market Kalshi, alleging its operations amount to illegal gambling that causes mental harm.",
+  "detected_at": "2026-11-05T07:28-05:00",
+  "active_since": "2026-11-05T07:28-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "legal",
+  "event_time": "2026-11-05T03:26-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/regulation/2026-11-05-arkansas-sues-kalshi-434407"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-05-arkansas-sues-kalshi-434407",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-05-arkansas-sues-kalshi-434407",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-11-05-arkansas-sues-kalshi-434407",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: State lawsuit against a prediction market, not a crypto market mover."
+  ],
+  "market_significance": "Prediction market legal fight.",
+  "trigger": "The Block",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261105_e9102a",
+  "headline": "Digital Chamber calls Sherrod Brown's Senate win the most consequential unfavorable result for crypto",
+  "summary": "The Digital Chamber said former Senate Banking chair Sherrod Brown's win was the midterms' most consequential unfavorable result for the crypto industry.",
+  "detected_at": "2026-11-05T07:28-05:00",
+  "active_since": "2026-11-05T07:28-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "regulatory",
+  "event_time": "2026-11-04T23:28-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/regulation/2026-11-04-digital-chamber-sherrod-brown-win-434371"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-04-digital-chamber-sherrod-brown-win-434371",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-04-digital-chamber-sherrod-brown-win-434371",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-11-04-digital-chamber-sherrod-brown-win-434371",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Political reaction."
+  ],
+  "market_significance": "Changes the outlook for crypto bills.",
+  "trigger": "The Block",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
