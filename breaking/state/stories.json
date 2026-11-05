@@ -43850,7 +43850,8 @@
    "https://www.theblock.co/news/web3/2026-11-03-french-bank-credit-mutuel-arkea-exploited-zachxbt-432607",
    "https://www.boursorama.com/actualite-economique/actualites/credit-mutuel-arkea-victime-d-une-cyberattaque-ayant-permis-des-operations-frauduleuses-7a25b65f08450c07e9ea616dca1bfc71",
    "https://fr.finance.yahoo.com/actualites/cr%C3%A9dit-mutuel-ark%C3%A9a-victime-d-104933480.html",
-   "https://www.it-connect.tech/credit-mutuel-arkea-confirms-cyberattack-as-133-million-is-at-stake/"
+   "https://www.it-connect.tech/credit-mutuel-arkea-confirms-cyberattack-as-133-million-is-at-stake/",
+   "https://t.me/investigations/375"
   ],
   "source_names": [
    "ZachXBT Telegram",
@@ -43864,7 +43865,8 @@
    "The Block",
    "Boursorama (AFP)",
    "Yahoo Finance France (AFP)",
-   "IT-Connect"
+   "IT-Connect",
+   "ZachXBT Telegram"
   ],
   "sources": [
    {
@@ -43956,6 +43958,13 @@
     "kind": "other",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://t.me/investigations/375",
+    "name": "ZachXBT Telegram",
+    "kind": "social",
+    "checked": false,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -44010,6 +44019,13 @@
     "name": "IT-Connect",
     "kind": "other",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://t.me/investigations/375",
+    "name": "ZachXBT Telegram",
+    "kind": "social",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -44069,6 +44085,13 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "ZachXBT Telegram",
+     "url": "https://t.me/investigations/375",
+     "category": "social",
+     "counts": false,
+     "note": "social/community post — can trigger investigation, never verifies"
     }
    ]
   },
@@ -44121,6 +44144,15 @@
     "new_development": true,
     "level": "BREAKING",
     "sources_added": 3,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-04T22:15-05:00",
+    "headline": "Crédit Mutuel Arkéa confirms a cyberattack after ZachXBT ties the French bank to a $133 million crypto theft",
+    "summary": "ZachXBT named French bank Crédit Mutuel Arkéa as the suspected victim of the theft he first flagged at $106 million, now over $133 million in USDC and USDT withdrawn from exchange accounts. The bank confirmed an attack enabled fraudulent transactions, says it is under control and clients face no losses, but has not confirmed the amount or that crypto was involved.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "VERIFIED"
    }
   ],
@@ -44557,7 +44589,8 @@
    "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-4-2026",
    "https://www.reuters.com/legal/government/trading-single-stock-perps-can-begin-us-regulator-says-2026-11-03/",
    "https://bitcoinmagazine.com/news/judge-lets-stock-perps-keep-trading-cftc",
-   "https://crypto.news/stock-perps-court-denies-halt-cftc-authority/"
+   "https://crypto.news/stock-perps-court-denies-halt-cftc-authority/",
+   "https://crypto.news/cboe-citadel-sue-cftc-stock-perpetual-futures/"
   ],
   "source_names": [
    "CFTC",
@@ -44570,6 +44603,7 @@
    "KuCoin",
    "Reuters",
    "Bitcoin Magazine",
+   "crypto.news",
    "crypto.news"
   ],
   "sources": [
@@ -44650,6 +44684,13 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://crypto.news/cboe-citadel-sue-cftc-stock-perpetual-futures/",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -44728,6 +44769,13 @@
     "url": "https://crypto.news/stock-perps-court-denies-halt-cftc-authority/",
     "name": "crypto.news",
     "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://crypto.news/cboe-citadel-sue-cftc-stock-perpetual-futures/",
+    "name": "crypto.news",
+    "kind": "other",
     "checked": true,
     "confirms": true
    }
@@ -44816,6 +44864,13 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/cboe-citadel-sue-cftc-stock-perpetual-futures/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -44898,6 +44953,15 @@
     "new_development": true,
     "level": "NORMAL",
     "sources_added": 2,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-04T22:15-05:00",
+    "headline": "Cboe and Citadel-backed group sues the CFTC to block single-stock perpetual futures",
+    "summary": "The Capital Markets Alliance, backed by Cboe and Citadel Securities, sued the CFTC in New York federal court on November 3, asking it to overturn approvals of single-stock perpetual futures and declare them security-based swaps under the SEC.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "VERIFIED"
    }
   ],
@@ -45337,6 +45401,15 @@
     "at": "2026-11-04T13:10-05:00",
     "headline": "BitMart founder confirms a small hack, possibly linked to the Mercado Bitcoin attack",
     "summary": "BitMart founder Sheldon Xia confirmed a hack described as small; no loss figure given. Reports say it may be linked to the Mercado Bitcoin hack.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-04T22:15-05:00",
+    "headline": "BitMart founder confirms a small hack at the exchange",
+    "summary": "BitMart founder Sheldon Xia confirmed a small hack; no amount was given. Reports suggest a possible link to the Mercado Bitcoin attack.",
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
@@ -46041,13 +46114,15 @@
    "https://www.coindesk.com/markets/2026/11/04/bitcoin-rebounds-from-midterm-dip-as-defi-leads-gains",
    "https://www.coindesk.com/markets/2026/11/04/bitcoin-knocks-on-usd78-000-in-v-shaped-comeback-as-midterm-uncertainty-fades",
    "https://www.coindesk.com/daybook-us/2026/11/04/here-s-how-analysts-are-reacting-to-the-new-blue-congress",
-   "https://www.theblock.co/news/markets/2026-11-04-bitcoin-price-midterm-elections-binance-hack-recovery-433030"
+   "https://www.theblock.co/news/markets/2026-11-04-bitcoin-price-midterm-elections-binance-hack-recovery-433030",
+   "https://fool.com/coverage/stock-market-today/2026/11/04/crypto-market-today-nov-4-bitcoin-stages-sharp-recovery-as-wall-street-rallies-and-regulatory-hopes-return"
   ],
   "source_names": [
    "CoinDesk",
    "CoinDesk",
    "CoinDesk",
-   "The Block"
+   "The Block",
+   "Motley Fool"
   ],
   "sources": [
    {
@@ -46075,6 +46150,13 @@
     "url": "https://www.theblock.co/news/markets/2026-11-04-bitcoin-price-midterm-elections-binance-hack-recovery-433030",
     "name": "The Block",
     "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://fool.com/coverage/stock-market-today/2026/11/04/crypto-market-today-nov-4-bitcoin-stages-sharp-recovery-as-wall-street-rallies-and-regulatory-hopes-return",
+    "name": "Motley Fool",
+    "kind": "other",
     "checked": true,
     "confirms": true
    }
@@ -46105,6 +46187,13 @@
     "url": "https://www.theblock.co/news/markets/2026-11-04-bitcoin-price-midterm-elections-binance-hack-recovery-433030",
     "name": "The Block",
     "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://fool.com/coverage/stock-market-today/2026/11/04/crypto-market-today-nov-4-bitcoin-stages-sharp-recovery-as-wall-street-rallies-and-regulatory-hopes-return",
+    "name": "Motley Fool",
+    "kind": "other",
     "checked": true,
     "confirms": true
    }
@@ -46144,6 +46233,13 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "Motley Fool",
+     "url": "https://fool.com/coverage/stock-market-today/2026/11/04/crypto-market-today-nov-4-bitcoin-stages-sharp-recovery-as-wall-street-rallies-and-regulatory-hopes-return",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -46200,6 +46296,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-04T22:15-05:00",
+    "headline": "Bitcoin climbs back above $80,000 and ether gains about 7% as markets rally after the midterms",
+    "summary": "Bitcoin recovered from a seven-week low near $75,700 to trade around $80,000, up roughly 4% on the day, while ether rose about 7%, XRP about 2% and solana 2-6% as U.S. stocks rallied and election uncertainty faded.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "VERIFIED"
    }
   ],
@@ -46975,6 +47080,77 @@
   ],
   "market_significance": "Prediction markets moving onshore",
   "trigger": "NFA approval",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261104_42143f",
+  "headline": "Binance expands reserve snapshot to 44 tokens, says cryptographic proof will take another 50 to 60 hours",
+  "summary": "Binance's new reserve snapshot covers 44 tokens, up from 10, and it says about 98% of hack-affected assets have been replenished; the cryptographic proof is not yet complete.",
+  "detected_at": "2026-11-04T22:15-05:00",
+  "active_since": "2026-11-04T22:15-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.55,
+  "assets": [
+   "BNB",
+   "TOTAL_MARKET"
+  ],
+  "event_type": "exchange",
+  "event_time": "2026-11-04T12:00-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://thecryptobasic.com/2026/11/04/tcb-daily-edition-what-happened-in-crypto-on-november-4-2026/"
+  ],
+  "source_names": [
+   "The Crypto Basic"
+  ],
+  "sources": [
+   {
+    "url": "https://thecryptobasic.com/2026/11/04/tcb-daily-edition-what-happened-in-crypto-on-november-4-2026/",
+    "name": "The Crypto Basic",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://thecryptobasic.com/2026/11/04/tcb-daily-edition-what-happened-in-crypto-on-november-4-2026/",
+    "name": "The Crypto Basic",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Crypto Basic",
+     "url": "https://thecryptobasic.com/2026/11/04/tcb-daily-edition-what-happened-in-crypto-on-november-4-2026/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Follow-up update"
+  ],
+  "market_significance": "Post-hack transparency",
+  "trigger": "news roundup",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
