@@ -5506,7 +5506,10 @@
    "https://www.coindesk.com/tech/2026/10/08/solana-partners-with-samsung-to-integrate-usdc-in-82-million-phones",
    "https://decrypt.co/380377/samsung-wallet-taps-solana-for-usdc-transfers-on-82m-us-galaxy-devices",
    "https://x.com/solana/status/2107994265104339166",
-   "https://cryptoticker.io/en/solana-price-samsung-wallet-usdc-82-million-galaxy"
+   "https://cryptoticker.io/en/solana-price-samsung-wallet-usdc-82-million-galaxy",
+   "https://www.theblock.co/news/business/2026-11-05-samsung-wallet-launches-usdc-accounts-solana-us-galaxy-users-434523",
+   "https://decrypt.co/382586/stablecoins-samsung-wallet-adds-usdc-solana",
+   "https://en.cryptonomist.ch/2026/11/05/samsung-wallet-usdc-galaxy/"
   ],
   "source_names": [
    "Solana Foundation",
@@ -5514,7 +5517,10 @@
    "CoinDesk",
    "Decrypt",
    "Solana on X",
-   "CryptoTicker"
+   "CryptoTicker",
+   "The Block",
+   "Decrypt",
+   "The Cryptonomist"
   ],
   "sources": [
    {
@@ -5558,6 +5564,27 @@
     "name": "CryptoTicker",
     "kind": "secondary",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-05-samsung-wallet-launches-usdc-accounts-solana-us-galaxy-users-434523",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/382586/stablecoins-samsung-wallet-adds-usdc-solana",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://en.cryptonomist.ch/2026/11/05/samsung-wallet-usdc-galaxy/",
+    "name": "The Cryptonomist",
+    "kind": "other",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -5604,15 +5631,36 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-05-samsung-wallet-launches-usdc-accounts-solana-us-galaxy-users-434523",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/382586/stablecoins-samsung-wallet-adds-usdc-solana",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://en.cryptonomist.ch/2026/11/05/samsung-wallet-usdc-galaxy/",
+    "name": "The Cryptonomist",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
    }
   ],
   "verification_status": "VERIFIED",
   "verification": {
    "status": "VERIFIED",
-   "independent_sources": 3,
+   "independent_sources": 4,
    "has_primary": true,
    "score": 1.0,
-   "reason": "3 independent credible sources confirm it (incl. a primary source)",
+   "reason": "4 independent credible sources confirm it (incl. a primary source)",
    "sources_checked": [
     {
      "name": "Solana Foundation",
@@ -5655,6 +5703,27 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-05-samsung-wallet-launches-usdc-accounts-solana-us-galaxy-users-434523",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/382586/stablecoins-samsung-wallet-adds-usdc-solana",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "The Cryptonomist",
+     "url": "https://en.cryptonomist.ch/2026/11/05/samsung-wallet-usdc-galaxy/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -5674,6 +5743,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-05T10:13-05:00",
+    "headline": "Samsung Wallet's USDC stablecoin account on Solana goes live for U.S. Galaxy users",
+    "summary": "Samsung Wallet's stablecoin account is now live: eligible U.S. Galaxy users (about 82 million compatible devices, New York excluded) can buy, hold, send and receive USDC on Solana inside the app, with Bastion as custodian and Coinbase as sub-custodian. First announced October 7.",
+    "new_development": true,
+    "level": "IMPORTANT",
+    "sources_added": 3,
     "verification": "VERIFIED"
    }
   ],
@@ -43013,7 +43091,9 @@
    "https://fortune.com/article/price-of-bitcoin-11-03-2026/",
    "https://www.coindesk.com/markets/2026/11/03/bitcoin-steadies-after-dip-to-usd76-300-as-etf-outflows-and-midterm-elections-weigh-on-crypto",
    "https://finance.yahoo.com/video/binance-deposits-overtake-withdrawals-sec-170000882.html",
-   "https://www.fool.com/coverage/stock-market-today/2026/11/03/crypto-market-today-nov-3-xrp-and-zcash-defy-recent-weakness-as-midterm-elections-take-center-stage/"
+   "https://www.fool.com/coverage/stock-market-today/2026/11/03/crypto-market-today-nov-3-xrp-and-zcash-defy-recent-weakness-as-midterm-elections-take-center-stage/",
+   "https://crypto.news/why-is-bitcoin-price-up-today-etf-inflows-btc-80000/",
+   "https://finfly.news/en/crypto/crypto-prices-2026-11-05"
   ],
   "source_names": [
    "CoinGabbar",
@@ -43026,7 +43106,9 @@
    "Fortune",
    "CoinDesk",
    "Yahoo Finance",
-   "Motley Fool"
+   "Motley Fool",
+   "crypto.news",
+   "FinFly"
   ],
   "sources": [
    {
@@ -43103,6 +43185,20 @@
     "url": "https://www.fool.com/coverage/stock-market-today/2026/11/03/crypto-market-today-nov-3-xrp-and-zcash-defy-recent-weakness-as-midterm-elections-take-center-stage/",
     "name": "Motley Fool",
     "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://crypto.news/why-is-bitcoin-price-up-today-etf-inflows-btc-80000/",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://finfly.news/en/crypto/crypto-prices-2026-11-05",
+    "name": "FinFly",
+    "kind": "secondary",
     "checked": true,
     "confirms": true
    }
@@ -43182,6 +43278,20 @@
     "url": "https://www.fool.com/coverage/stock-market-today/2026/11/03/crypto-market-today-nov-3-xrp-and-zcash-defy-recent-weakness-as-midterm-elections-take-center-stage/",
     "name": "Motley Fool",
     "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://crypto.news/why-is-bitcoin-price-up-today-etf-inflows-btc-80000/",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://finfly.news/en/crypto/crypto-prices-2026-11-05",
+    "name": "FinFly",
+    "kind": "secondary",
     "checked": true,
     "confirms": true
    }
@@ -43267,6 +43377,20 @@
     {
      "name": "Motley Fool",
      "url": "https://www.fool.com/coverage/stock-market-today/2026/11/03/crypto-market-today-nov-3-xrp-and-zcash-defy-recent-weakness-as-midterm-elections-take-center-stage/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/why-is-bitcoin-price-up-today-etf-inflows-btc-80000/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "FinFly",
+     "url": "https://finfly.news/en/crypto/crypto-prices-2026-11-05",
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
@@ -43362,6 +43486,33 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-05T10:11-05:00",
+    "headline": "Bitcoin back above $80,000 after the midterms",
+    "summary": "Here's what moved the chain today. Bitcoin is back above eighty thousand dollars.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-05T10:11-05:00",
+    "headline": "Ether jumps 6% as $378 million in shorts are liquidated",
+    "summary": "Green candles only! Ether jumped six percent and shorts got squeezed hard!",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-05T10:11-05:00",
+    "headline": "Bitcoin ETFs take in $75 million as Fidelity's FBTC gains and BlackRock's IBIT loses $201 million",
+    "summary": "Psst... bitcoin ETFs took in seventy-five million, but BlackRock's fund lost two hundred million.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
     "verification": "VERIFIED"
    }
   ],
@@ -46443,6 +46594,15 @@
     "level": "NORMAL",
     "sources_added": 0,
     "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-05T10:13-05:00",
+    "headline": "Eric Trump's American Bitcoin swings to a $126 million third-quarter profit on digital asset gains",
+    "summary": "American Bitcoin reported a 126 million dollar Q3 profit, driven by gains on its bitcoin holdings.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "VERIFIED"
    }
   ],
   "posts": [],
@@ -46652,9 +46812,19 @@
   "market_significance": "Supply-chain risk for crypto projects' docs.",
   "trigger": "Decrypt news",
   "content_created": false,
-  "publication_status": "QUEUED_FOR_DAILY",
+  "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-11-05T10:11-05:00",
+    "headline": "Crypto docs host GitBook says attackers used AI agents to grab its credentials",
+    "summary": "Crypto docs site GitBook says attackers used AI agents to grab its credentials.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -47138,7 +47308,7 @@
   "market_significance": "Shifts crypto legislation outlook",
   "trigger": "Midterm results",
   "content_created": false,
-  "publication_status": "QUEUED_FOR_DAILY",
+  "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
   "updates": [
    {
@@ -47148,6 +47318,15 @@
     "new_development": true,
     "level": "NORMAL",
     "sources_added": 2,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-05T10:11-05:00",
+    "headline": "TD Cowen says CLARITY Act unlikely to advance for two years after Democratic sweep",
+    "summary": "Check the yields first. Analysts say the Clarity Act likely stalls for two years.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
     "verification": "UNVERIFIED"
    }
   ],
@@ -47428,6 +47607,76 @@
   ],
   "market_significance": "Changes the outlook for crypto bills.",
   "trigger": "The Block",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261105_5d94c9",
+  "headline": "Canary's staked INJ ETF wins Nasdaq listing approval",
+  "summary": "Canary's staked Injective ETF, ticker INJC, won Nasdaq approval with a 1.10% annual fee.",
+  "detected_at": "2026-11-05T10:13-05:00",
+  "active_since": "2026-11-05T10:13-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "INJ"
+  ],
+  "event_type": "etf",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coingabbar.com/en/crypto-news-nov-5-bitcoin-ethereum-surges-fear-index-midterms"
+  ],
+  "source_names": [
+   "CoinGabbar"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coingabbar.com/en/crypto-news-nov-5-bitcoin-ethereum-surges-fear-index-midterms",
+    "name": "CoinGabbar",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coingabbar.com/en/crypto-news-nov-5-bitcoin-ethereum-surges-fear-index-midterms",
+    "name": "CoinGabbar",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinGabbar",
+     "url": "https://www.coingabbar.com/en/crypto-news-nov-5-bitcoin-ethereum-surges-fear-index-midterms",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Small-cap altcoin ETF listing; single non-core source."
+  ],
+  "market_significance": "Another staking altcoin ETF",
+  "trigger": "CoinGabbar Nov 5 roundup",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
