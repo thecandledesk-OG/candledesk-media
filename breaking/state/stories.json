@@ -44555,7 +44555,9 @@
    "https://www.tradingview.com/news/benzinga:f1a5c7082094b:0-bitcoin-ethereum-xrp-dogecoin-surrender-early-gains-as-midterm-polls-close-analyst-sees-sell-the-rumor-buy-the-news-play/",
    "https://coindesk.com/policy/2026/11/03/cftc-gets-into-legal-clash-over-stock-perps-after-having-cleared-path-for-crypto-version",
    "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-4-2026",
-   "https://www.reuters.com/legal/government/trading-single-stock-perps-can-begin-us-regulator-says-2026-11-03/"
+   "https://www.reuters.com/legal/government/trading-single-stock-perps-can-begin-us-regulator-says-2026-11-03/",
+   "https://bitcoinmagazine.com/news/judge-lets-stock-perps-keep-trading-cftc",
+   "https://crypto.news/stock-perps-court-denies-halt-cftc-authority/"
   ],
   "source_names": [
    "CFTC",
@@ -44566,7 +44568,9 @@
    "Benzinga via TradingView",
    "CoinDesk",
    "KuCoin",
-   "Reuters"
+   "Reuters",
+   "Bitcoin Magazine",
+   "crypto.news"
   ],
   "sources": [
    {
@@ -44631,6 +44635,20 @@
     "name": "Reuters",
     "kind": "secondary",
     "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://bitcoinmagazine.com/news/judge-lets-stock-perps-keep-trading-cftc",
+    "name": "Bitcoin Magazine",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://crypto.news/stock-perps-court-denies-halt-cftc-authority/",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
     "confirms": true
    }
   ],
@@ -44697,6 +44715,20 @@
     "name": "Reuters",
     "kind": "secondary",
     "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://bitcoinmagazine.com/news/judge-lets-stock-perps-keep-trading-cftc",
+    "name": "Bitcoin Magazine",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://crypto.news/stock-perps-court-denies-halt-cftc-authority/",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
     "confirms": true
    }
   ],
@@ -44770,6 +44802,20 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "Bitcoin Magazine",
+     "url": "https://bitcoinmagazine.com/news/judge-lets-stock-perps-keep-trading-cftc",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/stock-perps-court-denies-halt-cftc-authority/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -44843,6 +44889,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-04T19:10-05:00",
+    "headline": "Judge lets stock perpetual futures keep trading but says Cboe- and Citadel-backed challengers likely to win against the CFTC",
+    "summary": "A federal judge in New York denied a temporary restraining order sought by the Capital Markets Alliance (members include Cboe and Citadel Securities), so single-stock perps on Kalshi, Coinbase Derivatives and Bitnomial keep trading. She said the group is likely to succeed on its claim the contracts are swaps under SEC authority. CFTC response due Nov 6, reply Nov 10.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 2,
     "verification": "VERIFIED"
    }
   ],
@@ -46137,6 +46192,15 @@
     "level": "NORMAL",
     "sources_added": 1,
     "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-04T19:10-05:00",
+    "headline": "Bitcoin rebounds past $80,000 and ether gains about 5% as markets shrug off midterms and the Binance hack",
+    "summary": "Bitcoin rose about 3% to around $80,500 Wednesday afternoon, ether gained 5-6% to about $2,433, while XRP and SOL rose about 1.5-2.5%. About $469 million in leveraged positions were liquidated.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "VERIFIED"
    }
   ],
   "posts": [],
@@ -46740,15 +46804,33 @@
   "metrics": {},
   "emergency": false,
   "source_urls": [
-   "https://theblock.co/news/regulation/2026-11-04-french-hill-too-close-to-call-house-flips-changing-crypto-legislation-432572"
+   "https://theblock.co/news/regulation/2026-11-04-french-hill-too-close-to-call-house-flips-changing-crypto-legislation-432572",
+   "https://www.theblock.co/news/regulation/2026-11-04-democratic-sweep-congress-forces-crypto-industry-rethink-washington-strategy-434362",
+   "https://www.coindesk.com/policy/2026/11/04/tokenization-and-stablecoins-may-weather-democrats-sweep-as-broader-crypto-rules-face-uncertainty"
   ],
   "source_names": [
-   "The Block"
+   "The Block",
+   "The Block",
+   "CoinDesk"
   ],
   "sources": [
    {
     "url": "https://theblock.co/news/regulation/2026-11-04-french-hill-too-close-to-call-house-flips-changing-crypto-legislation-432572",
     "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-04-democratic-sweep-congress-forces-crypto-industry-rethink-washington-strategy-434362",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/policy/2026/11/04/tokenization-and-stablecoins-may-weather-democrats-sweep-as-broader-crypto-rules-face-uncertainty",
+    "name": "CoinDesk",
     "kind": "secondary",
     "checked": false,
     "confirms": true
@@ -46761,19 +46843,47 @@
     "kind": "secondary",
     "checked": false,
     "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-04-democratic-sweep-congress-forces-crypto-industry-rethink-washington-strategy-434362",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/policy/2026/11/04/tokenization-and-stablecoins-may-weather-democrats-sweep-as-broader-crypto-rules-face-uncertainty",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
    }
   ],
   "verification_status": "UNVERIFIED",
   "verification": {
    "status": "UNVERIFIED",
-   "independent_sources": 0,
+   "independent_sources": 1,
    "has_primary": false,
-   "score": 0.0,
-   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
    "sources_checked": [
     {
      "name": "The Block",
      "url": "https://theblock.co/news/regulation/2026-11-04-french-hill-too-close-to-call-house-flips-changing-crypto-legislation-432572",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-11-04-democratic-sweep-congress-forces-crypto-industry-rethink-washington-strategy-434362",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/policy/2026/11/04/tokenization-and-stablecoins-may-weather-democrats-sweep-as-broader-crypto-rules-face-uncertainty",
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; not opened, so it doesn't count"
@@ -46788,7 +46898,17 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-11-04T19:10-05:00",
+    "headline": "Democrats take both chambers of Congress, forcing the crypto industry to rethink its Washington strategy",
+    "summary": "Democrats won control of the House and Senate. Sherrod Brown beat Fairshake-backed Jon Husted in Ohio. TD Cowen says the CLARITY Act is unlikely to advance in the next two years, though tokenization and stablecoin rules may hold up.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
