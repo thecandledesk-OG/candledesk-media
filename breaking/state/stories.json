@@ -46323,7 +46323,10 @@
    "https://www.theblock.co/news/markets/2026-11-04-bitcoin-price-midterm-elections-binance-hack-recovery-433030",
    "https://fool.com/coverage/stock-market-today/2026/11/04/crypto-market-today-nov-4-bitcoin-stages-sharp-recovery-as-wall-street-rallies-and-regulatory-hopes-return",
    "https://www.coindesk.com/markets/2026/11/05/bitcoin-holds-above-usd80-000-as-zcash-jumps-12-in-post-election-crypto-rebound",
-   "https://www.theblock.co/news/business/2026-11-05-american-bitcoin-swings-to-profit-434413"
+   "https://www.theblock.co/news/business/2026-11-05-american-bitcoin-swings-to-profit-434413",
+   "https://www.bankless.com/read/news/bitcoin-slides-under-76k-as-ai-stocks-crater-after-midterms",
+   "https://bitcoinmagazine.com/markets/bitcoin-price-drops-below-75000-tech",
+   "https://cryptoticker.io/en/bitcoin-falls-below-77000-chip-selloff-liquidations/"
   ],
   "source_names": [
    "CoinDesk",
@@ -46332,7 +46335,10 @@
    "The Block",
    "Motley Fool",
    "CoinDesk",
-   "The Block"
+   "The Block",
+   "Bankless",
+   "Bitcoin Magazine",
+   "CryptoTicker"
   ],
   "sources": [
    {
@@ -46382,6 +46388,27 @@
     "name": "The Block",
     "kind": "secondary",
     "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.bankless.com/read/news/bitcoin-slides-under-76k-as-ai-stocks-crater-after-midterms",
+    "name": "Bankless",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://bitcoinmagazine.com/markets/bitcoin-price-drops-below-75000-tech",
+    "name": "Bitcoin Magazine",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptoticker.io/en/bitcoin-falls-below-77000-chip-selloff-liquidations/",
+    "name": "CryptoTicker",
+    "kind": "other",
+    "checked": true,
     "confirms": true
    }
   ],
@@ -46434,15 +46461,36 @@
     "kind": "secondary",
     "checked": false,
     "confirms": true
+   },
+   {
+    "url": "https://www.bankless.com/read/news/bitcoin-slides-under-76k-as-ai-stocks-crater-after-midterms",
+    "name": "Bankless",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://bitcoinmagazine.com/markets/bitcoin-price-drops-below-75000-tech",
+    "name": "Bitcoin Magazine",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptoticker.io/en/bitcoin-falls-below-77000-chip-selloff-liquidations/",
+    "name": "CryptoTicker",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "VERIFIED",
   "verification": {
    "status": "VERIFIED",
-   "independent_sources": 2,
+   "independent_sources": 3,
    "has_primary": false,
    "score": 0.8,
-   "reason": "2 independent credible sources confirm it (no primary source yet)",
+   "reason": "3 independent credible sources confirm it (no primary source yet)",
    "sources_checked": [
     {
      "name": "CoinDesk",
@@ -46492,6 +46540,27 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "Bankless",
+     "url": "https://www.bankless.com/read/news/bitcoin-slides-under-76k-as-ai-stocks-crater-after-midterms",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Bitcoin Magazine",
+     "url": "https://bitcoinmagazine.com/markets/bitcoin-price-drops-below-75000-tech",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CryptoTicker",
+     "url": "https://cryptoticker.io/en/bitcoin-falls-below-77000-chip-selloff-liquidations/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -46602,6 +46671,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-05T13:12-05:00",
+    "headline": "Bitcoin drops below $76,000 as chip stocks slide, erasing its post-midterm rebound",
+    "summary": "Bitcoin fell from above $80,800 to near $75,800 after the U.S. open as the Nasdaq slid on chip and AI stocks. Ether fell about 7%. Hundreds of millions in long positions were liquidated within an hour.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 3,
     "verification": "VERIFIED"
    }
   ],
@@ -47632,10 +47710,12 @@
   "metrics": {},
   "emergency": false,
   "source_urls": [
-   "https://www.coingabbar.com/en/crypto-news-nov-5-bitcoin-ethereum-surges-fear-index-midterms"
+   "https://www.coingabbar.com/en/crypto-news-nov-5-bitcoin-ethereum-surges-fear-index-midterms",
+   "https://www.theblock.co/news/markets/2026-11-05-canary-staked-inj-etf-launches-nasdaq-injc-435115"
   ],
   "source_names": [
-   "CoinGabbar"
+   "CoinGabbar",
+   "The Block"
   ],
   "sources": [
    {
@@ -47644,12 +47724,255 @@
     "kind": "other",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-05-canary-staked-inj-etf-launches-nasdaq-injc-435115",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "gate_sources": [
    {
     "url": "https://www.coingabbar.com/en/crypto-news-nov-5-bitcoin-ethereum-surges-fear-index-midterms",
     "name": "CoinGabbar",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-05-canary-staked-inj-etf-launches-nasdaq-injc-435115",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinGabbar",
+     "url": "https://www.coingabbar.com/en/crypto-news-nov-5-bitcoin-ethereum-surges-fear-index-midterms",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/markets/2026-11-05-canary-staked-inj-etf-launches-nasdaq-injc-435115",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Small-cap altcoin ETF listing; single non-core source."
+  ],
+  "market_significance": "Another staking altcoin ETF",
+  "trigger": "CoinGabbar Nov 5 roundup",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [
+   {
+    "at": "2026-11-05T13:12-05:00",
+    "headline": "Canary's staked INJ ETF begins trading on Nasdaq under ticker INJC",
+    "summary": "Canary Capital's Staked INJ ETF debuted on Nasdaq on Thursday, passing on Injective staking rewards through its net asset value.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   }
+  ],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261105_9442d6",
+  "headline": "Anchorage Digital applies to register a CFTC swap dealer for bitcoin and ether options",
+  "summary": "Anchorage Digital filed through the NFA to register Anchorage Digital Swap Dealer LLC with the CFTC, aiming to offer European-style bitcoin and ether options up to one year. The application is pending with no timeline.",
+  "detected_at": "2026-11-05T13:12-05:00",
+  "active_since": "2026-11-05T13:12-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.65,
+  "assets": [
+   "BTC",
+   "ETH"
+  ],
+  "event_type": "institutional",
+  "event_time": "2026-11-05T11:00-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-11-05-anchorage-digital-seeks-cftc-swap-dealer-registration-for-crypto-options-business-434437"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-05-anchorage-digital-seeks-cftc-swap-dealer-registration-for-crypto-options-business-434437",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-05-anchorage-digital-seeks-cftc-swap-dealer-registration-for-crypto-options-business-434437",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-05-anchorage-digital-seeks-cftc-swap-dealer-registration-for-crypto-options-business-434437",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Pending application, single exclusive report."
+  ],
+  "market_significance": "Regulated crypto derivatives access for institutions.",
+  "trigger": "The Block",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261105_51e3ed",
+  "headline": "Kraken parent Payward's affiliated fund and clients buy an undisclosed AAVE stake",
+  "summary": "A Payward-affiliated fund and its clients bought AAVE tokens on the secondary market, Aave said. Size and terms were not disclosed.",
+  "detected_at": "2026-11-05T13:12-05:00",
+  "active_since": "2026-11-05T13:12-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.65,
+  "assets": [
+   "AAVE"
+  ],
+  "event_type": "institutional",
+  "event_time": "2026-11-05T10:36-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-11-05-payward-affiliated-fund-clients-buy-aave-token-stake-secondary-market-aave-says-434798"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-05-payward-affiliated-fund-clients-buy-aave-token-stake-secondary-market-aave-says-434798",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-05-payward-affiliated-fund-clients-buy-aave-token-stake-secondary-market-aave-says-434798",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-05-payward-affiliated-fund-clients-buy-aave-token-stake-secondary-market-aave-says-434798",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Undisclosed size, minor."
+  ],
+  "market_significance": "Exchange-linked capital moving into DeFi tokens.",
+  "trigger": "The Block",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261105_5026a1",
+  "headline": "Solana lender Loopscale pauses operations after a weeklong attack on its Genesis vaults",
+  "summary": "Loopscale paused protocol activity after more than 30,000 malicious API requests a day targeted its SOL and USDC Genesis vaults. It says user funds are secured and affected vaults were made whole.",
+  "detected_at": "2026-11-05T13:12-05:00",
+  "active_since": "2026-11-05T13:12-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "SOL",
+   "USDC"
+  ],
+  "event_type": "hack_exploit",
+  "event_time": "2026-11-05T08:00-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://crypto.news/loopscale-halts-operations-after-30000-daily-malicious-api-requests/"
+  ],
+  "source_names": [
+   "crypto.news"
+  ],
+  "sources": [
+   {
+    "url": "https://crypto.news/loopscale-halts-operations-after-30000-daily-malicious-api-requests/",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://crypto.news/loopscale-halts-operations-after-30000-daily-malicious-api-requests/",
+    "name": "crypto.news",
     "kind": "other",
     "checked": true,
     "confirms": true
@@ -47664,8 +47987,8 @@
    "reason": "only 0 independent credible source(s) confirm it; need 2",
    "sources_checked": [
     {
-     "name": "CoinGabbar",
-     "url": "https://www.coingabbar.com/en/crypto-news-nov-5-bitcoin-ethereum-surges-fear-index-midterms",
+     "name": "crypto.news",
+     "url": "https://crypto.news/loopscale-halts-operations-after-30000-daily-malicious-api-requests/",
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
@@ -47673,10 +47996,10 @@
    ]
   },
   "classification_reason": [
-   "AI proposed NORMAL: Small-cap altcoin ETF listing; single non-core source."
+   "AI proposed NORMAL: No user losses reported; amount affected undisclosed."
   ],
-  "market_significance": "Another staking altcoin ETF",
-  "trigger": "CoinGabbar Nov 5 roundup",
+  "market_significance": "Another DeFi security incident.",
+  "trigger": "crypto.news",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
