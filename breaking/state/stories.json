@@ -49621,7 +49621,9 @@
    "https://bitcoinmagazine.com/news/gopax-suspends-withdrawals-hacking-threat",
    "https://crypto.news/gopax-halts-trading-withdrawals-hacking-threat/",
    "https://en.bloomingbit.io/feed/news/123811",
-   "https://cointelegraph.com/news/gopax-halts-crypto-trading-withdrawals-cold-storage"
+   "https://cointelegraph.com/news/gopax-halts-crypto-trading-withdrawals-cold-storage",
+   "https://unchainedcrypto.com/binance-controlled-korean-exchange-gopax-stops-trading-makes-users-email-to-withdraw-crypto/",
+   "https://www.koreatimes.co.kr/economy/cryptocurrency/20261106/gopax-suspends-withdrawals-following-hacking-threats"
   ],
   "source_names": [
    "Korea Herald (Yonhap)",
@@ -49629,7 +49631,9 @@
    "Bitcoin Magazine",
    "crypto.news",
    "Bloomingbit",
-   "Cointelegraph"
+   "Cointelegraph",
+   "Unchained",
+   "The Korea Times (Yonhap)"
   ],
   "sources": [
    {
@@ -49674,6 +49678,23 @@
     "kind": "secondary",
     "checked": false,
     "confirms": false
+   },
+   {
+    "url": "https://unchainedcrypto.com/binance-controlled-korean-exchange-gopax-stops-trading-makes-users-email-to-withdraw-crypto/",
+    "name": "Unchained",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-11-06T12:35-05:00"
+   },
+   {
+    "url": "https://www.koreatimes.co.kr/economy/cryptocurrency/20261106/gopax-suspends-withdrawals-following-hacking-threats",
+    "name": "The Korea Times (Yonhap)",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "origin": "Yonhap",
+    "published": "2026-11-06T06:34-05:00"
    }
   ],
   "gate_sources": [
@@ -49719,15 +49740,32 @@
     "kind": "secondary",
     "checked": false,
     "confirms": false
+   },
+   {
+    "url": "https://unchainedcrypto.com/binance-controlled-korean-exchange-gopax-stops-trading-makes-users-email-to-withdraw-crypto/",
+    "name": "Unchained",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-11-06T12:35-05:00"
+   },
+   {
+    "url": "https://www.koreatimes.co.kr/economy/cryptocurrency/20261106/gopax-suspends-withdrawals-following-hacking-threats",
+    "name": "The Korea Times (Yonhap)",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "origin": "Yonhap",
+    "published": "2026-11-06T06:34-05:00"
    }
   ],
   "verification_status": "UNVERIFIED",
   "verification": {
    "status": "UNVERIFIED",
-   "independent_sources": 0,
+   "independent_sources": 1,
    "has_primary": false,
-   "score": 0.0,
-   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
    "sources_checked": [
     {
      "name": "Korea Herald (Yonhap)",
@@ -49770,6 +49808,20 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "Unchained",
+     "url": "https://unchainedcrypto.com/binance-controlled-korean-exchange-gopax-stops-trading-makes-users-email-to-withdraw-crypto/",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "The Korea Times (Yonhap)",
+     "url": "https://www.koreatimes.co.kr/economy/cryptocurrency/20261106/gopax-suspends-withdrawals-following-hacking-threats",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -49789,6 +49841,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-06T16:14-05:00",
+    "headline": "South Korea's GOPAX halts trading and standard withdrawals after a hacking-threat email, moves assets to cold storage",
+    "summary": "Binance-controlled Korean exchange GOPAX suspended crypto deposits and regular withdrawals at 2:55 p.m. KST Friday and stopped trading at 3:53 p.m., canceling open orders, while it moves customer coins to offline wallets. Yonhap reports it acted after an email threatening a hack; GOPAX says no breach and no assets lost. Withdrawals now go through manually approved email requests. No resumption date.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
     "verification": "UNVERIFIED"
    }
   ],
@@ -50312,6 +50373,76 @@
   ],
   "market_significance": "Security",
   "trigger": "news search",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261106_7986b5",
+  "headline": "Bitcoin Core developer Cory Fields floats 'quantum landmines' idea to make quantum theft of exposed coins costly",
+  "summary": "A conceptual proposal, with no timeline, that would require would-be quantum attackers to post matching collateral.",
+  "detected_at": "2026-11-06T16:14-05:00",
+  "active_since": "2026-11-06T16:14-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "other",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.fameex.com/en-US/news/crypto-news-recap-20261106"
+  ],
+  "source_names": [
+   "FameEX recap"
+  ],
+  "sources": [
+   {
+    "url": "https://www.fameex.com/en-US/news/crypto-news-recap-20261106",
+    "name": "FameEX recap",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.fameex.com/en-US/news/crypto-news-recap-20261106",
+    "name": "FameEX recap",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "FameEX recap",
+     "url": "https://www.fameex.com/en-US/news/crypto-news-recap-20261106",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Thought experiment, not a change"
+  ],
+  "market_significance": "Part of the ongoing quantum-security debate",
+  "trigger": "News recap",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
