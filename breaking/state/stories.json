@@ -43757,14 +43757,16 @@
    "https://decrypt.co/382341/mercado-bitcoin-halts-withdrawals-40-million-hack",
    "https://cybersecuritynews.com/mercado-bitcoin-suffers-cyberattack/",
    "https://x.com/MercadoBitcoin/status/2117239507263132056",
-   "https://www.theblock.co/news/defi/2026-11-02-mercado-bitcoin-hack-46-million-brazil-exchange-432333"
+   "https://www.theblock.co/news/defi/2026-11-02-mercado-bitcoin-hack-46-million-brazil-exchange-432333",
+   "https://decrypt.co/382670/mercado-bitcoin-hack-contained-blockchain-data"
   ],
   "source_names": [
    "CoinDesk",
    "Decrypt",
    "Cyber Security News",
    "Mercado Bitcoin on X",
-   "The Block"
+   "The Block",
+   "Decrypt"
   ],
   "sources": [
    {
@@ -43801,6 +43803,13 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/382670/mercado-bitcoin-hack-contained-blockchain-data",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -43824,15 +43833,22 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/382670/mercado-bitcoin-hack-contained-blockchain-data",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "VERIFIED",
   "verification": {
    "status": "VERIFIED",
-   "independent_sources": 2,
+   "independent_sources": 3,
    "has_primary": false,
    "score": 0.8,
-   "reason": "2 independent credible sources confirm it (no primary source yet)",
+   "reason": "3 independent credible sources confirm it (no primary source yet)",
    "sources_checked": [
     {
      "name": "The Block",
@@ -43851,6 +43867,13 @@
     {
      "name": "CoinDesk",
      "url": "https://www.coindesk.com/business/2026/11/02/brazil-s-mercado-bitcoin-halts-withdrawals-after-usd40-million-drained-across-10-chains",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/382670/mercado-bitcoin-hack-contained-blockchain-data",
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
@@ -43888,6 +43911,15 @@
     "new_development": false,
     "level": "IMPORTANT",
     "sources_added": 0,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-06T07:17-05:00",
+    "headline": "On-chain data shows Mercado Bitcoin drain continued hours after the exchange said the hack was contained",
+    "summary": "Bitquery traces about $48.6 million drained across 11 chains, with 36,042 Ethereum deposit addresses emptied until 1:56 p.m. on November 2, about four hours after Mercado Bitcoin said the incident was contained. The exchange puts affected assets at about $36.3 million and plans balance viewing from November 9.",
+    "new_development": true,
+    "level": "IMPORTANT",
+    "sources_added": 1,
     "verification": "VERIFIED"
    }
   ],
@@ -48072,11 +48104,15 @@
   "emergency": false,
   "source_urls": [
    "https://www.theblock.co/news/markets/2026-11-05-bitcoin-erases-post-election-gains-wall-street-selloff-liquidations-435434",
-   "https://www.thestreet.com/crypto/markets/bitcoin-stocks-crash-as-markets-erase-post-election-rally"
+   "https://www.thestreet.com/crypto/markets/bitcoin-stocks-crash-as-markets-erase-post-election-rally",
+   "https://crypto.news/why-is-ethereum-price-down-today-eth-etf-liquidations",
+   "https://36crypto.com/crypto-prices-today-bitcoin-crashes-below-76000-xrp-drops-8-7-as-altcoins-slide/"
   ],
   "source_names": [
    "The Block",
-   "TheStreet"
+   "TheStreet",
+   "crypto.news",
+   "36Crypto"
   ],
   "sources": [
    {
@@ -48089,6 +48125,20 @@
    {
     "url": "https://www.thestreet.com/crypto/markets/bitcoin-stocks-crash-as-markets-erase-post-election-rally",
     "name": "TheStreet",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://crypto.news/why-is-ethereum-price-down-today-eth-etf-liquidations",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://36crypto.com/crypto-prices-today-bitcoin-crashes-below-76000-xrp-drops-8-7-as-altcoins-slide/",
+    "name": "36Crypto",
     "kind": "other",
     "checked": true,
     "confirms": true
@@ -48105,6 +48155,20 @@
    {
     "url": "https://www.thestreet.com/crypto/markets/bitcoin-stocks-crash-as-markets-erase-post-election-rally",
     "name": "TheStreet",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://crypto.news/why-is-ethereum-price-down-today-eth-etf-liquidations",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://36crypto.com/crypto-prices-today-bitcoin-crashes-below-76000-xrp-drops-8-7-as-altcoins-slide/",
+    "name": "36Crypto",
     "kind": "other",
     "checked": true,
     "confirms": true
@@ -48131,6 +48195,20 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/why-is-ethereum-price-down-today-eth-etf-liquidations",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "36Crypto",
+     "url": "https://36crypto.com/crypto-prices-today-bitcoin-crashes-below-76000-xrp-drops-8-7-as-altcoins-slide/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -48144,7 +48222,17 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-11-06T07:17-05:00",
+    "headline": "Bitcoin slides to about $75,500 as ether drops about 8% and XRP about 9% in a second day of selling",
+    "summary": "Crypto extended losses into Friday: bitcoin down about 6% over 24 hours near $75,500, ether down about 8% near $2,220, XRP down about 9% near $1.19 and solana down about 6% near $89, with more than $1 billion in liquidations.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -48742,6 +48830,432 @@
   ],
   "market_significance": "Tools used by exchanges and law enforcement are offline.",
   "trigger": "The Register report",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261106_30ed24",
+  "headline": "Zcash's NU7 upgrade goes live on mainnet, cutting target block time to 25 seconds from 75",
+  "summary": "Zcash activated its NU7 network upgrade at block 3,543,405, mined around 02:34 UTC on November 6. Target block time drops from 75 to 25 seconds with issuance scaled to match, 60% of fees now go to a reserve that funds future block rewards, and the old Sprout pool is retired, leaving about 12,224 ZEC unspendable. ZEC fell about 5% amid a broader market slide.",
+  "detected_at": "2026-11-06T07:17-05:00",
+  "active_since": "2026-11-06T07:17-05:00",
+  "classification": "IMPORTANT",
+  "proposed_level": "IMPORTANT",
+  "confidence": 0.9,
+  "assets": [
+   "ZEC"
+  ],
+  "event_type": "protocol_upgrade",
+  "event_time": "2026-11-06T02:34:00Z",
+  "scheduled_event": false,
+  "metrics": {
+   "pct_move_24h": -5.2
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/defi/2026-11-06-zcashs-nu7-goes-live-435807",
+   "https://www.coindesk.com/tech/2026/11/06/zcash-s-landmark-nu7-upgrade-goes-live-speeding-up-private-payments",
+   "https://x.com/Zcash/status/2118534331090284580",
+   "https://zechub.wiki/start-here/network-upgrades"
+  ],
+  "source_names": [
+   "The Block",
+   "CoinDesk",
+   "Zcash on X",
+   "ZecHub wiki"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/defi/2026-11-06-zcashs-nu7-goes-live-435807",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/tech/2026/11/06/zcash-s-landmark-nu7-upgrade-goes-live-speeding-up-private-payments",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://x.com/Zcash/status/2118534331090284580",
+    "name": "Zcash on X",
+    "kind": "social",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://zechub.wiki/start-here/network-upgrades",
+    "name": "ZecHub wiki",
+    "kind": "other",
+    "checked": true,
+    "confirms": false
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/defi/2026-11-06-zcashs-nu7-goes-live-435807",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/tech/2026/11/06/zcash-s-landmark-nu7-upgrade-goes-live-speeding-up-private-payments",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://x.com/Zcash/status/2118534331090284580",
+    "name": "Zcash on X",
+    "kind": "social",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://zechub.wiki/start-here/network-upgrades",
+    "name": "ZecHub wiki",
+    "kind": "other",
+    "checked": true,
+    "confirms": false
+   }
+  ],
+  "verification_status": "VERIFIED",
+  "verification": {
+   "status": "VERIFIED",
+   "independent_sources": 2,
+   "has_primary": false,
+   "score": 0.8,
+   "reason": "2 independent credible sources confirm it (no primary source yet)",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/defi/2026-11-06-zcashs-nu7-goes-live-435807",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/tech/2026/11/06/zcash-s-landmark-nu7-upgrade-goes-live-speeding-up-private-payments",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Zcash on X",
+     "url": "https://x.com/Zcash/status/2118534331090284580",
+     "category": "social",
+     "counts": false,
+     "note": "social/community post — can trigger investigation, never verifies"
+    },
+    {
+     "name": "ZecHub wiki",
+     "url": "https://zechub.wiki/start-here/network-upgrades",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed IMPORTANT: Confirmed major network upgrade now live on mainnet, reported by The Block and CoinDesk with block height and time."
+  ],
+  "market_significance": "Largest Zcash protocol change in years: 3x faster blocks, new fee reserve mechanism, permanent retirement of Sprout funds.",
+  "trigger": "The Block latest news feed",
+  "content_created": true,
+  "publication_status": "DRAFTED",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [
+   "6aedc836730edf821acb0120",
+   "6aedc8370b0f6e64a0bb3e23",
+   "6aedc837f6d00f3472af32f2"
+  ],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261106_3e2597",
+  "headline": "Nigeria's central bank introduces stablecoin licensing rules and bans algorithmic stablecoins",
+  "summary": "The Central Bank of Nigeria issued licensing rules for stablecoin issuers and banned algorithmic versions.",
+  "detected_at": "2026-11-06T07:17-05:00",
+  "active_since": "2026-11-06T07:17-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "USDT",
+   "USDC"
+  ],
+  "event_type": "regulatory",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/regulation/2026-11-06-nigerias-central-bank-introduces-stablecoin-licensing-rules-bans-algorithmic-versions-435867"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-06-nigerias-central-bank-introduces-stablecoin-licensing-rules-bans-algorithmic-versions-435867",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-06-nigerias-central-bank-introduces-stablecoin-licensing-rules-bans-algorithmic-versions-435867",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-11-06-nigerias-central-bank-introduces-stablecoin-licensing-rules-bans-algorithmic-versions-435867",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Regional regulatory development"
+  ],
+  "market_significance": "Africa's largest crypto market sets stablecoin rules",
+  "trigger": "The Block feed",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261106_a03445",
+  "headline": "Kalshi hit with injunction over sports contracts on California tribal lands",
+  "summary": "A court enjoined Kalshi from offering sports contracts on California tribal lands.",
+  "detected_at": "2026-11-06T07:17-05:00",
+  "active_since": "2026-11-06T07:17-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "legal",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-11-06-kalshi-injunction-california-tribal-lands-435813"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-06-kalshi-injunction-california-tribal-lands-435813",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-06-kalshi-injunction-california-tribal-lands-435813",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-06-kalshi-injunction-california-tribal-lands-435813",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Prediction market legal update"
+  ],
+  "market_significance": "Ongoing state and tribal pushback on prediction markets",
+  "trigger": "The Block feed",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261106_405a8d",
+  "headline": "IREN's bitcoin mining revenue drops 58% as the firm plans a full exit from mining by year-end",
+  "summary": "IREN reported a 58% drop in bitcoin mining revenue and plans to fully exit mining by year-end.",
+  "detected_at": "2026-11-06T07:17-05:00",
+  "active_since": "2026-11-06T07:17-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "institutional",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-11-05-irens-mining-revenue-drops-435783"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-05-irens-mining-revenue-drops-435783",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-05-irens-mining-revenue-drops-435783",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-05-irens-mining-revenue-drops-435783",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Miner business update"
+  ],
+  "market_significance": "Another miner pivots away from bitcoin mining",
+  "trigger": "The Block feed",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261106_801561",
+  "headline": "Ark Invest buys more Coinbase as shares plunge 10% and trims Bullish and Bitmine",
+  "summary": "Ark Invest added Coinbase shares after a 10% drop and trimmed Bullish and Bitmine.",
+  "detected_at": "2026-11-06T07:17-05:00",
+  "active_since": "2026-11-06T07:17-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "institutional",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/markets/2026-11-05-ark-invest-buys-coinbase-trims-bullish-bitmine-435769"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-05-ark-invest-buys-coinbase-trims-bullish-bitmine-435769",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-05-ark-invest-buys-coinbase-trims-bullish-bitmine-435769",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/markets/2026-11-05-ark-invest-buys-coinbase-trims-bullish-bitmine-435769",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Routine fund trade"
+  ],
+  "market_significance": "Minor",
+  "trigger": "The Block feed",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],

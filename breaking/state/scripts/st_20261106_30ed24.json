@@ -1,0 +1,49 @@
+{
+ "story_id": "st_20261106_30ed24",
+ "date_label": "NOV 6",
+ "headline": "Zcash NU7 is live: 25-second blocks",
+ "sources": [
+  {"name": "The Block", "url": "https://www.theblock.co/news/defi/2026-11-06-zcashs-nu7-goes-live-435807"},
+  {"name": "CoinDesk", "url": "https://www.coindesk.com/tech/2026/11/06/zcash-s-landmark-nu7-upgrade-goes-live-speeding-up-private-payments"}
+ ],
+ "scenes": [
+  {
+   "beat": "hook",
+   "who": "ledger",
+   "vo": "Zee cash just made its blocks three times faster overnight. Here's what changed.",
+   "chunks": ["Zcash upgrade is live", "*Three times faster*", "Here's what changed"]
+  },
+  {
+   "beat": "what_happened",
+   "who": "ledger",
+   "vo": "The N U seven upgrade went live early Friday. Target block time drops from seventy five seconds to twenty five, and new coin issuance is scaled down to match.",
+   "chunks": ["NU7 went live Friday", "*75s down to 25s*", "Issuance unchanged"],
+   "stat": {"label": "Sources", "text": "The Block · CoinDesk"}
+  },
+  {
+   "beat": "why_it_matters",
+   "who": "bruno",
+   "vo": "Here's why traders are watching it. Private payments confirm faster, and sixty percent of fees now go into a reserve that funds future miner rewards.",
+   "chunks": ["Faster private payments", "*60% of fees reserved*", "Future miner rewards"]
+  },
+  {
+   "beat": "why_it_matters",
+   "who": "ursa",
+   "vo": "The catch. The old Sprout privacy pool is retired, locking about twelve thousand Z E C for good. And Z E C still fell about five percent with the wider market.",
+   "chunks": ["The catch", "*12,224 ZEC locked*", "ZEC down about 5%"]
+  },
+  {
+   "beat": "watch_next",
+   "who": "moby",
+   "vo": "Here's what happens next. Watch whether blocks settle near twenty five seconds as difficulty adjusts, and whether any recovery plan for Sprout coins gets approved.",
+   "chunks": ["What's next", "*Block times settle?*", "Sprout recovery plan"]
+  },
+  {
+   "beat": "cta",
+   "who": "all",
+   "vo": "Follow The Candle Desk for crypto news without the hype. Not financial advice.",
+   "chunks": ["Follow The Candle Desk", "*No hype*", "Just the news"],
+   "foot": "NOT FINANCIAL ADVICE"
+  }
+ ]
+}
