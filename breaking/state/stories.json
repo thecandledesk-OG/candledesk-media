@@ -46326,7 +46326,8 @@
    "https://www.theblock.co/news/business/2026-11-05-american-bitcoin-swings-to-profit-434413",
    "https://www.bankless.com/read/news/bitcoin-slides-under-76k-as-ai-stocks-crater-after-midterms",
    "https://bitcoinmagazine.com/markets/bitcoin-price-drops-below-75000-tech",
-   "https://cryptoticker.io/en/bitcoin-falls-below-77000-chip-selloff-liquidations/"
+   "https://cryptoticker.io/en/bitcoin-falls-below-77000-chip-selloff-liquidations/",
+   "https://decrypt.co/382633/trump-american-bitcoin-q3-profit-bitcoin-lifts-books"
   ],
   "source_names": [
    "CoinDesk",
@@ -46338,7 +46339,8 @@
    "The Block",
    "Bankless",
    "Bitcoin Magazine",
-   "CryptoTicker"
+   "CryptoTicker",
+   "Decrypt"
   ],
   "sources": [
    {
@@ -46409,6 +46411,13 @@
     "name": "CryptoTicker",
     "kind": "other",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/382633/trump-american-bitcoin-q3-profit-bitcoin-lifts-books",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -46481,6 +46490,13 @@
     "name": "CryptoTicker",
     "kind": "other",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/382633/trump-american-bitcoin-q3-profit-bitcoin-lifts-books",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -46561,6 +46577,13 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/382633/trump-american-bitcoin-q3-profit-bitcoin-lifts-books",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
     }
    ]
   },
@@ -46689,6 +46712,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-05T19:15-05:00",
+    "headline": "Eric Trump's American Bitcoin swings to a $126 million third-quarter profit on bitcoin gains",
+    "summary": "Bitcoin miner and treasury firm American Bitcoin reported a $126 million Q3 profit, driven by gains on its digital asset holdings.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "VERIFIED"
    }
   ],
@@ -48135,11 +48167,17 @@
   "emergency": false,
   "source_urls": [
    "https://www.theblock.co/news/ecosystems/2026-11-05-base-deploys-denim-upgrade-on-mainnet-replacing-flashblocks-with-200ms-block-times-434433",
-   "https://docs.base.org/upgrades/denim/overview.md"
+   "https://docs.base.org/upgrades/denim/overview.md",
+   "https://docs.base.org/upgrades/overview",
+   "https://github.com/base/base/pull/6124",
+   "https://cryptonews.net/news/altcoins/33710816/"
   ],
   "source_names": [
    "The Block",
-   "Base docs"
+   "Base docs",
+   "Base docs (upgrades overview)",
+   "Base GitHub PR #6124 (activation schedule)",
+   "Crypto Briefing (via cryptonews.net)"
   ],
   "sources": [
    {
@@ -48155,6 +48193,27 @@
     "kind": "primary",
     "checked": true,
     "confirms": false
+   },
+   {
+    "url": "https://docs.base.org/upgrades/overview",
+    "name": "Base docs (upgrades overview)",
+    "kind": "primary",
+    "checked": true,
+    "confirms": false
+   },
+   {
+    "url": "https://github.com/base/base/pull/6124",
+    "name": "Base GitHub PR #6124 (activation schedule)",
+    "kind": "primary",
+    "checked": true,
+    "confirms": false
+   },
+   {
+    "url": "https://cryptonews.net/news/altcoins/33710816/",
+    "name": "Crypto Briefing (via cryptonews.net)",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -48171,6 +48230,27 @@
     "kind": "primary",
     "checked": true,
     "confirms": false
+   },
+   {
+    "url": "https://docs.base.org/upgrades/overview",
+    "name": "Base docs (upgrades overview)",
+    "kind": "primary",
+    "checked": true,
+    "confirms": false
+   },
+   {
+    "url": "https://github.com/base/base/pull/6124",
+    "name": "Base GitHub PR #6124 (activation schedule)",
+    "kind": "primary",
+    "checked": true,
+    "confirms": false
+   },
+   {
+    "url": "https://cryptonews.net/news/altcoins/33710816/",
+    "name": "Crypto Briefing (via cryptonews.net)",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "UNVERIFIED",
@@ -48194,6 +48274,27 @@
      "category": "primary",
      "counts": false,
      "note": "primary (claimed official source; domain not on the known list); opened but does not confirm the claim"
+    },
+    {
+     "name": "Base docs (upgrades overview)",
+     "url": "https://docs.base.org/upgrades/overview",
+     "category": "primary",
+     "counts": false,
+     "note": "primary (claimed official source; domain not on the known list); opened but does not confirm the claim"
+    },
+    {
+     "name": "Base GitHub PR #6124 (activation schedule)",
+     "url": "https://github.com/base/base/pull/6124",
+     "category": "primary",
+     "counts": false,
+     "note": "primary (known official domain); opened but does not confirm the claim"
+    },
+    {
+     "name": "Crypto Briefing (via cryptonews.net)",
+     "url": "https://cryptonews.net/news/altcoins/33710816/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -48205,7 +48306,17 @@
   "content_created": false,
   "publication_status": "BLOCKED_UNVERIFIED",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-11-05T19:15-05:00",
+    "headline": "Base activates Denim upgrade on mainnet, moving to 200 millisecond blocks and retiring Flashblocks",
+    "summary": "Re-check of the Denim story. The Block reports Denim is live on Base mainnet per a project statement. Base's official upgrades page and the merged GitHub PR schedule mainnet activation for November 5 at 18:00 UTC, but no official Base source yet states it went live. Crypto Briefing also reports it live.",
+    "new_development": false,
+    "level": "IMPORTANT",
+    "sources_added": 3,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -48296,6 +48407,216 @@
   ],
   "market_significance": "Mainstream wallet distribution for USDC",
   "trigger": "The Block latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261105_e00d7f",
+  "headline": "Hyperliquid Strategies files to become a CFTC-registered futures broker and posts $13.3 million in quarterly revenue",
+  "summary": "HYPE treasury firm Hyperliquid Strategies (PURR) filed to become a futures commission merchant that could carry US accounts for HIP-3 perpetual markets, subject to approval. Q3 revenue was $13.3 million; net income $620.6 million mostly from unrealized HYPE gains.",
+  "detected_at": "2026-11-05T19:15-05:00",
+  "active_since": "2026-11-05T19:15-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "HYPE"
+  ],
+  "event_type": "institutional",
+  "event_time": "2026-11-05T17:09-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/markets/2026-11-05-hyperliquid-strategies-files-become-cftc-registered-fcm-posts-13-3-million-quaterly-revenue-435455"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-05-hyperliquid-strategies-files-become-cftc-registered-fcm-posts-13-3-million-quaterly-revenue-435455",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-05-hyperliquid-strategies-files-become-cftc-registered-fcm-posts-13-3-million-quaterly-revenue-435455",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/markets/2026-11-05-hyperliquid-strategies-files-become-cftc-registered-fcm-posts-13-3-million-quaterly-revenue-435455",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Corporate filing and earnings"
+  ],
+  "market_significance": "Possible US access route for Hyperliquid perps",
+  "trigger": "The Block latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261105_7b5da5",
+  "headline": "Binance cuts off SignalPlus API keys over a potential security issue at the trading platform",
+  "summary": "Binance removed all API keys linked to third-party options platform SignalPlus as a precaution after SignalPlus reported a potential security issue. Binance says its systems and user funds are unaffected; no loss figure reported.",
+  "detected_at": "2026-11-05T19:15-05:00",
+  "active_since": "2026-11-05T19:15-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.75,
+  "assets": [
+   "BNB"
+  ],
+  "event_type": "exchange",
+  "event_time": "2026-11-05",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://decrypt.co/382599/binance-cuts-off-signalplus-api-keys-over-potential-security-issue-at-trading-platform"
+  ],
+  "source_names": [
+   "Decrypt"
+  ],
+  "sources": [
+   {
+    "url": "https://decrypt.co/382599/binance-cuts-off-signalplus-api-keys-over-potential-security-issue-at-trading-platform",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://decrypt.co/382599/binance-cuts-off-signalplus-api-keys-over-potential-security-issue-at-trading-platform",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/382599/binance-cuts-off-signalplus-api-keys-over-potential-security-issue-at-trading-platform",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Precautionary exchange action, no reported loss"
+  ],
+  "market_significance": "Automated strategies via SignalPlus stop until keys are reissued",
+  "trigger": "Decrypt",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261105_636bc1",
+  "headline": "Paraguay's president resigns after the Ueno Bank collapse locks out about 60% of adults",
+  "summary": "President Santiago Peña announced his resignation after digital lender Ueno Bank was placed into resolution, leaving roughly three million customers without access to their accounts. Crypto commentators point to it as a self-custody case.",
+  "detected_at": "2026-11-05T19:15-05:00",
+  "active_since": "2026-11-05T19:15-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.75,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "macro",
+  "event_time": "2026-11-05",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://decrypt.co/382676/paraguay-president-resigns-bank-lockout-bitcoin-fixes-this"
+  ],
+  "source_names": [
+   "Decrypt"
+  ],
+  "sources": [
+   {
+    "url": "https://decrypt.co/382676/paraguay-president-resigns-bank-lockout-bitcoin-fixes-this",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://decrypt.co/382676/paraguay-president-resigns-bank-lockout-bitcoin-fixes-this",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/382676/paraguay-president-resigns-bank-lockout-bitcoin-fixes-this",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Macro event with indirect crypto angle"
+  ],
+  "market_significance": "Self-custody debate",
+  "trigger": "Decrypt",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
