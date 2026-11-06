@@ -46359,7 +46359,8 @@
    "https://www.bankless.com/read/news/bitcoin-slides-under-76k-as-ai-stocks-crater-after-midterms",
    "https://bitcoinmagazine.com/markets/bitcoin-price-drops-below-75000-tech",
    "https://cryptoticker.io/en/bitcoin-falls-below-77000-chip-selloff-liquidations/",
-   "https://decrypt.co/382633/trump-american-bitcoin-q3-profit-bitcoin-lifts-books"
+   "https://decrypt.co/382633/trump-american-bitcoin-q3-profit-bitcoin-lifts-books",
+   "https://www.theblock.co/news/business/2026-11-06-strives-bitcoin-gains-509-million-q3-profit-btc-buying-ramps-up-435907"
   ],
   "source_names": [
    "CoinDesk",
@@ -46372,7 +46373,8 @@
    "Bankless",
    "Bitcoin Magazine",
    "CryptoTicker",
-   "Decrypt"
+   "Decrypt",
+   "The Block"
   ],
   "sources": [
    {
@@ -46451,6 +46453,14 @@
     "kind": "secondary",
     "checked": false,
     "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-06-strives-bitcoin-gains-509-million-q3-profit-btc-buying-ramps-up-435907",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true,
+    "published": "2026-11-06T11:07-05:00"
    }
   ],
   "gate_sources": [
@@ -46530,6 +46540,14 @@
     "kind": "secondary",
     "checked": false,
     "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-06-strives-bitcoin-gains-509-million-q3-profit-btc-buying-ramps-up-435907",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true,
+    "published": "2026-11-06T11:07-05:00"
    }
   ],
   "verification_status": "VERIFIED",
@@ -46613,6 +46631,13 @@
     {
      "name": "Decrypt",
      "url": "https://decrypt.co/382633/trump-american-bitcoin-q3-profit-bitcoin-lifts-books",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-06-strives-bitcoin-gains-509-million-q3-profit-btc-buying-ramps-up-435907",
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; not opened, so it doesn't count"
@@ -46750,6 +46775,15 @@
     "at": "2026-11-05T19:15-05:00",
     "headline": "Eric Trump's American Bitcoin swings to a $126 million third-quarter profit on bitcoin gains",
     "summary": "Bitcoin miner and treasury firm American Bitcoin reported a $126 million Q3 profit, driven by gains on its digital asset holdings.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-06T13:10-05:00",
+    "headline": "Strive's bitcoin gains drive $509 million third-quarter profit as BTC buying ramps up",
+    "summary": "Bitcoin treasury firm Strive reported a $509 million Q3 profit driven by bitcoin gains.",
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 1,
@@ -49340,7 +49374,17 @@
   "content_created": false,
   "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-11-06T13:10-05:00",
+    "headline": "Bitcoin holds near $75,500 after 6% slide; ether, XRP and solana down 7 to 8%",
+    "summary": "BTC about -6%, ETH -8.3%, XRP -8.4%, SOL -6.9% over 24h, all below alert thresholds.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -49737,7 +49781,17 @@
   "content_created": false,
   "publication_status": "BLOCKED_UNVERIFIED",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-11-06T13:10-05:00",
+    "headline": "South Korea's GOPAX halts trading and standard withdrawals after a hacking-threat email, moves assets to cold storage",
+    "summary": "Re-check: GOPAX stopped deposits and standard withdrawals at 2:55 p.m. KST and trading at 3:53 p.m. KST on Nov 6 after a threatening email; says no hack or theft detected; moving assets to cold storage; no reopening date yet.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -49827,6 +49881,437 @@
   ],
   "market_significance": "Thai users have a month to move assets; complicates Bitget's planned local acquisition.",
   "trigger": "Thai SEC release No. 241/2026",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261106_089db6",
+  "headline": "Labor Department's crypto-friendly 401(k) fiduciary rule reaches White House for final review",
+  "summary": "The Labor Department sent its final rule on selecting designated investment alternatives, which would ease adding crypto and other alternatives to 401(k) plans, to OIRA on Nov 5; under review with no deadline.",
+  "detected_at": "2026-11-06T13:10-05:00",
+  "active_since": "2026-11-06T13:10-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "regulatory",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://crypto.news/crypto-401k-rule-white-house-final-review"
+  ],
+  "source_names": [
+   "crypto.news"
+  ],
+  "sources": [
+   {
+    "url": "https://crypto.news/crypto-401k-rule-white-house-final-review",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-11-06T10:36-05:00"
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://crypto.news/crypto-401k-rule-white-house-final-review",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-11-06T10:36-05:00"
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/crypto-401k-rule-white-house-final-review",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Procedural step; rule not final yet"
+  ],
+  "market_significance": "Could open 401(k) channel to crypto",
+  "trigger": "news search",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261106_2a13a8",
+  "headline": "Crypto ETFs see over half a billion dollars in outflows amid post-midterm slide",
+  "summary": "US spot bitcoin ETFs lost about $430 million and ether ETFs about $100 million on Nov 5, reversing Wednesday's inflows.",
+  "detected_at": "2026-11-06T13:10-05:00",
+  "active_since": "2026-11-06T13:10-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "BTC",
+   "ETH"
+  ],
+  "event_type": "etf",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/markets/2026-11-06-crypto-etfs-see-over-half-a-billion-dollars-in-outflows-amid-post-midterm-market-slide-435873"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-06-crypto-etfs-see-over-half-a-billion-dollars-in-outflows-amid-post-midterm-market-slide-435873",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true,
+    "published": "2026-11-06T07:33-05:00"
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-06-crypto-etfs-see-over-half-a-billion-dollars-in-outflows-amid-post-midterm-market-slide-435873",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true,
+    "published": "2026-11-06T07:33-05:00"
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/markets/2026-11-06-crypto-etfs-see-over-half-a-billion-dollars-in-outflows-amid-post-midterm-market-slide-435873",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Routine flow data"
+  ],
+  "market_significance": "Shows weak spot demand",
+  "trigger": "The Block latest",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261106_848964",
+  "headline": "Aave Labs acquires the Avon team in a fixed-rate lending push",
+  "summary": "Aave Labs bought the Avon team to build fixed-rate lending.",
+  "detected_at": "2026-11-06T13:10-05:00",
+  "active_since": "2026-11-06T13:10-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "AAVE"
+  ],
+  "event_type": "partnership",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-11-06-aave-labs-buys-avon-team-in-fixed-rate-lending-push-435901"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-06-aave-labs-buys-avon-team-in-fixed-rate-lending-push-435901",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true,
+    "published": "2026-11-06T10:00-05:00"
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-06-aave-labs-buys-avon-team-in-fixed-rate-lending-push-435901",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true,
+    "published": "2026-11-06T10:00-05:00"
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-06-aave-labs-buys-avon-team-in-fixed-rate-lending-push-435901",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Small acquisition"
+  ],
+  "market_significance": "DeFi product expansion",
+  "trigger": "The Block latest",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261106_ff2641",
+  "headline": "TeraWulf's bitcoin mining revenue falls 69% as AI data center leasing surges",
+  "summary": "TeraWulf's mining revenue dropped 69% while high-performance computing leasing grew.",
+  "detected_at": "2026-11-06T13:10-05:00",
+  "active_since": "2026-11-06T13:10-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "institutional",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-11-06-terawulfs-bitcoin-mining-revenue-falls-69-as-hpc-leasing-surges-amid-anthropic-buildout-435885"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-06-terawulfs-bitcoin-mining-revenue-falls-69-as-hpc-leasing-surges-amid-anthropic-buildout-435885",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true,
+    "published": "2026-11-06T08:40-05:00"
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-06-terawulfs-bitcoin-mining-revenue-falls-69-as-hpc-leasing-surges-amid-anthropic-buildout-435885",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true,
+    "published": "2026-11-06T08:40-05:00"
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-06-terawulfs-bitcoin-mining-revenue-falls-69-as-hpc-leasing-surges-amid-anthropic-buildout-435885",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Miner earnings"
+  ],
+  "market_significance": "Miners pivoting to AI",
+  "trigger": "The Block latest",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261106_452add",
+  "headline": "Binance hackers had about eight weeks of access before the $6.3 billion exploit, Security Alliance estimates",
+  "summary": "Security Alliance estimates the attackers sat inside Binance systems for roughly eight weeks before the theft.",
+  "detected_at": "2026-11-06T13:10-05:00",
+  "active_since": "2026-11-06T13:10-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "BNB"
+  ],
+  "event_type": "hack_exploit",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://coinspectator.com/cointelegraph/2026/11/06/binance-hackers-had-8-weeks-of-access-before-6-3b-exploit-security-alliance-estimates/"
+  ],
+  "source_names": [
+   "Cointelegraph via Coinspectator"
+  ],
+  "sources": [
+   {
+    "url": "https://coinspectator.com/cointelegraph/2026/11/06/binance-hackers-had-8-weeks-of-access-before-6-3b-exploit-security-alliance-estimates/",
+    "name": "Cointelegraph via Coinspectator",
+    "kind": "other",
+    "checked": false,
+    "confirms": true,
+    "origin": "Cointelegraph"
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://coinspectator.com/cointelegraph/2026/11/06/binance-hackers-had-8-weeks-of-access-before-6-3b-exploit-security-alliance-estimates/",
+    "name": "Cointelegraph via Coinspectator",
+    "kind": "other",
+    "checked": false,
+    "confirms": true,
+    "origin": "Cointelegraph"
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Cointelegraph via Coinspectator",
+     "url": "https://coinspectator.com/cointelegraph/2026/11/06/binance-hackers-had-8-weeks-of-access-before-6-3b-exploit-security-alliance-estimates/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Analysis of existing event, single report"
+  ],
+  "market_significance": "Context on Binance breach",
+  "trigger": "news search",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261106_d96404",
+  "headline": "Gnosis Pay reports a customer data breach months after its wallet exploit",
+  "summary": "Gnosis Pay disclosed a customer data breach.",
+  "detected_at": "2026-11-06T13:10-05:00",
+  "active_since": "2026-11-06T13:10-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "hack_exploit",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.cryptotimes.io/2026/11/06/gnosis-pay-reports-customer-data-breach-months-after-wallet-exploit/"
+  ],
+  "source_names": [
+   "The Crypto Times"
+  ],
+  "sources": [
+   {
+    "url": "https://www.cryptotimes.io/2026/11/06/gnosis-pay-reports-customer-data-breach-months-after-wallet-exploit/",
+    "name": "The Crypto Times",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.cryptotimes.io/2026/11/06/gnosis-pay-reports-customer-data-breach-months-after-wallet-exploit/",
+    "name": "The Crypto Times",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Crypto Times",
+     "url": "https://www.cryptotimes.io/2026/11/06/gnosis-pay-reports-customer-data-breach-months-after-wallet-exploit/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Data breach, no funds figure"
+  ],
+  "market_significance": "Security",
+  "trigger": "news search",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
