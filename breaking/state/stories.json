@@ -48551,9 +48551,19 @@
   "market_significance": "Mainstream wallet distribution for USDC",
   "trigger": "The Block latest news",
   "content_created": false,
-  "publication_status": "QUEUED_FOR_DAILY",
+  "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-11-06T10:17-05:00",
+    "headline": "Samsung Wallet supports USDC on Solana across 82 million US Galaxy devices",
+    "summary": "Samsung Wallet now supports USDC on Solana across eighty-two million American Galaxy devices.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "VERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -49256,6 +49266,567 @@
   ],
   "market_significance": "Minor",
   "trigger": "The Block feed",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261106_2c33c4",
+  "headline": "Bitcoin falls 6% as $1.25 billion in crypto positions are liquidated",
+  "summary": "Here's what moved the chain today. Bitcoin fell six percent, one point two five billion liquidated.",
+  "detected_at": "2026-11-06T10:17-05:00",
+  "active_since": "2026-11-06T10:17-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "BTC",
+   "TOTAL_MARKET"
+  ],
+  "event_type": "market_move",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://koinbulteni.com/en/bitcoin-and-altcoins-market-overview-november-6-2026-291953.html"
+  ],
+  "source_names": [
+   "Koin Bulteni"
+  ],
+  "sources": [
+   {
+    "url": "https://koinbulteni.com/en/bitcoin-and-altcoins-market-overview-november-6-2026-291953.html",
+    "name": "Koin Bulteni",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://koinbulteni.com/en/bitcoin-and-altcoins-market-overview-november-6-2026-291953.html",
+    "name": "Koin Bulteni",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Koin Bulteni",
+     "url": "https://koinbulteni.com/en/bitcoin-and-altcoins-market-overview-november-6-2026-291953.html",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261106_b057fd",
+  "headline": "245 pro-crypto candidates win seats in Congress in the midterms",
+  "summary": "Two hundred forty-five pro-crypto candidates just won seats in Congress!",
+  "detected_at": "2026-11-06T10:17-05:00",
+  "active_since": "2026-11-06T10:17-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "regulatory",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-6-2026"
+  ],
+  "source_names": [
+   "KuCoin"
+  ],
+  "sources": [
+   {
+    "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-6-2026",
+    "name": "KuCoin",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-6-2026",
+    "name": "KuCoin",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "KuCoin",
+     "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-6-2026",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261106_6e66df",
+  "headline": "Elizabeth Warren expected to chair the Senate Banking Committee",
+  "summary": "Check the yields first. Elizabeth Warren is expected to chair the Senate Banking Committee.",
+  "detected_at": "2026-11-06T10:17-05:00",
+  "active_since": "2026-11-06T10:17-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "regulatory",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://news.bitcoin.com/regulation-and-legal/elizabeth-warren-senate-banking-chair-crypto/"
+  ],
+  "source_names": [
+   "Bitcoin.com"
+  ],
+  "sources": [
+   {
+    "url": "https://news.bitcoin.com/regulation-and-legal/elizabeth-warren-senate-banking-chair-crypto/",
+    "name": "Bitcoin.com",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://news.bitcoin.com/regulation-and-legal/elizabeth-warren-senate-banking-chair-crypto/",
+    "name": "Bitcoin.com",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Bitcoin.com",
+     "url": "https://news.bitcoin.com/regulation-and-legal/elizabeth-warren-senate-banking-chair-crypto/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261106_7ddb2f",
+  "headline": "Spot bitcoin ETFs take in $75 million on November 4, snapping a three-day outflow streak",
+  "summary": "Psst... Wednesday, spot bitcoin ETFs took in seventy-five million, snapping a three-day outflow streak.",
+  "detected_at": "2026-11-06T10:17-05:00",
+  "active_since": "2026-11-06T10:17-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "etf",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.tftc.io/bitcoin-etf-flows/november-2026"
+  ],
+  "source_names": [
+   "TFTC"
+  ],
+  "sources": [
+   {
+    "url": "https://www.tftc.io/bitcoin-etf-flows/november-2026",
+    "name": "TFTC",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.tftc.io/bitcoin-etf-flows/november-2026",
+    "name": "TFTC",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "TFTC",
+     "url": "https://www.tftc.io/bitcoin-etf-flows/november-2026",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261106_b44230",
+  "headline": "South Korea's GOPAX halts trading and standard withdrawals after a hacking-threat email, moves assets to cold storage",
+  "summary": "Binance-backed Korean exchange GOPAX paused deposits and standard withdrawals at 2:55 p.m. KST on Nov 6 and suspended trading at 3:53 p.m., canceling open orders, after a threatening email. It says no attack or loss has been detected and is moving assets to cold wallets; withdrawals only via manual support requests; no reopening date.",
+  "detected_at": "2026-11-06T10:17-05:00",
+  "active_since": "2026-11-06T10:17-05:00",
+  "classification": "IMPORTANT",
+  "proposed_level": "IMPORTANT",
+  "confidence": 0.7,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "exchange",
+  "event_time": "2026-11-06T00:55-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.koreaherald.com/article/10928990",
+   "https://en.sedaily.com/finance/2026/11/06/gopax-halts-withdrawals-after-hacking-threat",
+   "https://bitcoinmagazine.com/news/gopax-suspends-withdrawals-hacking-threat",
+   "https://crypto.news/gopax-halts-trading-withdrawals-hacking-threat/",
+   "https://en.bloomingbit.io/feed/news/123811",
+   "https://cointelegraph.com/news/gopax-halts-crypto-trading-withdrawals-cold-storage"
+  ],
+  "source_names": [
+   "Korea Herald (Yonhap)",
+   "Seoul Economic Daily",
+   "Bitcoin Magazine",
+   "crypto.news",
+   "Bloomingbit",
+   "Cointelegraph"
+  ],
+  "sources": [
+   {
+    "url": "https://www.koreaherald.com/article/10928990",
+    "name": "Korea Herald (Yonhap)",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "origin": "Yonhap"
+   },
+   {
+    "url": "https://en.sedaily.com/finance/2026/11/06/gopax-halts-withdrawals-after-hacking-threat",
+    "name": "Seoul Economic Daily",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://bitcoinmagazine.com/news/gopax-suspends-withdrawals-hacking-threat",
+    "name": "Bitcoin Magazine",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://crypto.news/gopax-halts-trading-withdrawals-hacking-threat/",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://en.bloomingbit.io/feed/news/123811",
+    "name": "Bloomingbit",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cointelegraph.com/news/gopax-halts-crypto-trading-withdrawals-cold-storage",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.koreaherald.com/article/10928990",
+    "name": "Korea Herald (Yonhap)",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "origin": "Yonhap"
+   },
+   {
+    "url": "https://en.sedaily.com/finance/2026/11/06/gopax-halts-withdrawals-after-hacking-threat",
+    "name": "Seoul Economic Daily",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://bitcoinmagazine.com/news/gopax-suspends-withdrawals-hacking-threat",
+    "name": "Bitcoin Magazine",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://crypto.news/gopax-halts-trading-withdrawals-hacking-threat/",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://en.bloomingbit.io/feed/news/123811",
+    "name": "Bloomingbit",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cointelegraph.com/news/gopax-halts-crypto-trading-withdrawals-cold-storage",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Korea Herald (Yonhap)",
+     "url": "https://www.koreaherald.com/article/10928990",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Seoul Economic Daily",
+     "url": "https://en.sedaily.com/finance/2026/11/06/gopax-halts-withdrawals-after-hacking-threat",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Bitcoin Magazine",
+     "url": "https://bitcoinmagazine.com/news/gopax-suspends-withdrawals-hacking-threat",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/gopax-halts-trading-withdrawals-hacking-threat/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Bloomingbit",
+     "url": "https://en.bloomingbit.io/feed/news/123811",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Cointelegraph",
+     "url": "https://cointelegraph.com/news/gopax-halts-crypto-trading-withdrawals-cold-storage",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed IMPORTANT: Regulated Korean exchange freezes trading as a precaution amid the post-Binance-hack security push."
+  ],
+  "market_significance": "Customers cannot trade and face manual withdrawals; shows how jittery exchanges are after the Binance breach.",
+  "trigger": "Exchange statement reported by Korean and crypto press",
+  "content_created": false,
+  "publication_status": "BLOCKED_UNVERIFIED",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261106_9e45a5",
+  "headline": "Thailand's SEC files complaint against Bitget and will block the exchange from December 5",
+  "summary": "Thailand's SEC filed a criminal complaint against Bitget operator BG Limited for allegedly operating without a license and asked the digital ministry to block its site and app from December 5. Bitget says it is reviewing options and user assets are safe.",
+  "detected_at": "2026-11-06T10:17-05:00",
+  "active_since": "2026-11-06T10:17-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "regulatory",
+  "event_time": "2026-11-05T12:00+07:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://cointelegraph.com/news/thailand-block-bitget-december-unlicensed-crypto-trading",
+   "https://www.coindesk.com/daybook-us/2026/11/06/over-usd1-billion-in-bullish-bets-liquidated-while-etf-flows-suggest-no-help-in-spot-market"
+  ],
+  "source_names": [
+   "Cointelegraph",
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://cointelegraph.com/news/thailand-block-bitget-december-unlicensed-crypto-trading",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/daybook-us/2026/11/06/over-usd1-billion-in-bullish-bets-liquidated-while-etf-flows-suggest-no-help-in-spot-market",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://cointelegraph.com/news/thailand-block-bitget-december-unlicensed-crypto-trading",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/daybook-us/2026/11/06/over-usd1-billion-in-bullish-bets-liquidated-while-etf-flows-suggest-no-help-in-spot-market",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "VERIFIED",
+  "verification": {
+   "status": "VERIFIED",
+   "independent_sources": 2,
+   "has_primary": false,
+   "score": 0.8,
+   "reason": "2 independent credible sources confirm it (no primary source yet)",
+   "sources_checked": [
+    {
+     "name": "Cointelegraph",
+     "url": "https://cointelegraph.com/news/thailand-block-bitget-december-unlicensed-crypto-trading",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/daybook-us/2026/11/06/over-usd1-billion-in-bullish-bets-liquidated-while-etf-flows-suggest-no-help-in-spot-market",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Regional enforcement against a major exchange; announced Nov 5."
+  ],
+  "market_significance": "Thai users have a month to move assets; complicates Bitget's planned local acquisition.",
+  "trigger": "Thai SEC release No. 241/2026",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
