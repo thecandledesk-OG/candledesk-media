@@ -48170,14 +48170,18 @@
    "https://docs.base.org/upgrades/denim/overview.md",
    "https://docs.base.org/upgrades/overview",
    "https://github.com/base/base/pull/6124",
-   "https://cryptonews.net/news/altcoins/33710816/"
+   "https://cryptonews.net/news/altcoins/33710816/",
+   "https://www.base.org/blog/denim",
+   "https://docs.chainstack.com/changelog/chainstack-updates-november-6-2026"
   ],
   "source_names": [
    "The Block",
    "Base docs",
    "Base docs (upgrades overview)",
    "Base GitHub PR #6124 (activation schedule)",
-   "Crypto Briefing (via cryptonews.net)"
+   "Crypto Briefing (via cryptonews.net)",
+   "Base blog",
+   "Chainstack changelog"
   ],
   "sources": [
    {
@@ -48211,6 +48215,20 @@
    {
     "url": "https://cryptonews.net/news/altcoins/33710816/",
     "name": "Crypto Briefing (via cryptonews.net)",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.base.org/blog/denim",
+    "name": "Base blog",
+    "kind": "primary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://docs.chainstack.com/changelog/chainstack-updates-november-6-2026",
+    "name": "Chainstack changelog",
     "kind": "other",
     "checked": true,
     "confirms": true
@@ -48251,15 +48269,29 @@
     "kind": "other",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.base.org/blog/denim",
+    "name": "Base blog",
+    "kind": "primary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://docs.chainstack.com/changelog/chainstack-updates-november-6-2026",
+    "name": "Chainstack changelog",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
    }
   ],
-  "verification_status": "UNVERIFIED",
+  "verification_status": "VERIFIED",
   "verification": {
-   "status": "UNVERIFIED",
-   "independent_sources": 1,
-   "has_primary": false,
-   "score": 0.4,
-   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "status": "VERIFIED",
+   "independent_sources": 2,
+   "has_primary": true,
+   "score": 1.0,
+   "reason": "2 independent credible sources confirm it (incl. a primary source)",
    "sources_checked": [
     {
      "name": "The Block",
@@ -48295,6 +48327,20 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Base blog",
+     "url": "https://www.base.org/blog/denim",
+     "category": "primary",
+     "counts": true,
+     "note": "primary (claimed official source; domain not on the known list)"
+    },
+    {
+     "name": "Chainstack changelog",
+     "url": "https://docs.chainstack.com/changelog/chainstack-updates-november-6-2026",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -48304,7 +48350,7 @@
   "market_significance": "Apps using Flashblocks must migrate",
   "trigger": "The Block latest news",
   "content_created": false,
-  "publication_status": "BLOCKED_UNVERIFIED",
+  "publication_status": "DEMOTED_TO_DAILY",
   "related_story_ids": [],
   "updates": [
    {
@@ -48315,6 +48361,15 @@
     "level": "IMPORTANT",
     "sources_added": 3,
     "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-05T22:10-05:00",
+    "headline": "Base activates Denim upgrade on mainnet, moving to 200 millisecond blocks and retiring Flashblocks",
+    "summary": "Base's fourth network upgrade, Denim, went live on mainnet on November 5 at 18:00 UTC. Base now produces a block every 200 milliseconds instead of every 2 seconds, retires Flashblocks, adds millisecond timestamps and tightens B20 token transfer controls.",
+    "new_development": false,
+    "level": "IMPORTANT",
+    "sources_added": 2,
+    "verification": "VERIFIED"
    }
   ],
   "posts": [],
@@ -48617,6 +48672,76 @@
   ],
   "market_significance": "Self-custody debate",
   "trigger": "Decrypt",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261105_d9c87d",
+  "headline": "Chainalysis says attackers reached password hashes and live tokens, keeps Reactor and KYT offline",
+  "summary": "In an update on its October 30 intrusion, blockchain analytics firm Chainalysis said attackers accessed usernames, password hashes and live tokens. It took Reactor, Data Solutions and KYT offline, requires password resets and API key rotation, and says it has no evidence investigation data was accessed.",
+  "detected_at": "2026-11-05T22:10-05:00",
+  "active_since": "2026-11-05T22:10-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "hack_exploit",
+  "event_time": "2026-11-05T12:00:00-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theregister.com/cyber-crime/2026/11/05/october-crypto-tracker-hack-access-cracked-law-enforcement-tokens-packed/5307852"
+  ],
+  "source_names": [
+   "The Register"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theregister.com/cyber-crime/2026/11/05/october-crypto-tracker-hack-access-cracked-law-enforcement-tokens-packed/5307852",
+    "name": "The Register",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theregister.com/cyber-crime/2026/11/05/october-crypto-tracker-hack-access-cracked-law-enforcement-tokens-packed/5307852",
+    "name": "The Register",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Register",
+     "url": "https://www.theregister.com/cyber-crime/2026/11/05/october-crypto-tracker-hack-access-cracked-law-enforcement-tokens-packed/5307852",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Security update on a key compliance vendor; no funds lost."
+  ],
+  "market_significance": "Tools used by exchanges and law enforcement are offline.",
+  "trigger": "The Register report",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
