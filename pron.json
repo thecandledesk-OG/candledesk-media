@@ -5,6 +5,8 @@
   "ATH": "all-time high",
   "Aave": "ah vay",
   "Axie": "Acksee",
+  "BIP": "bip",
+  "BIPs": "bips",
   "BIS": "B I S",
   "BNB": "B N B",
   "BTC": "B T C",
@@ -21,6 +23,7 @@
   "DEXs": "decksiz",
   "DeFi": "dee fye",
   "EIP": "E I P",
+  "EIPs": "E I Peez",
   "ETF": "E T F",
   "ETF's": "E T Effs",
   "ETFs": "E T Effs",
@@ -39,6 +42,7 @@
   "Kimchi": "Kimchee",
   "Kinexys": "kin ex iss",
   "Libra": "Leebra",
+  "MEXC": "M E X C",
   "MSCI": "M S C I",
   "Mainnet": "main net",
   "McCaleb": "McKayleb",
@@ -82,6 +86,5 @@
   "memes": "meems",
   "onchain": "on chain",
   "satoshi": "sahtoshi",
-  "satoshis": "sahtoshis",
-  "MEXC": "M E X C"
+  "satoshis": "sahtoshis"
 }
