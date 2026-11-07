@@ -45556,12 +45556,14 @@
   "source_urls": [
    "https://www.coindesk.com/business/2026/11/03/amazon-tesla-and-spacex-join-okx-ice-tokenized-stock-objections-as-deadline-looms",
    "https://www.coingabbar.com/en/crypto-news-cftc-bitmart-hack-midterms-bitcoin-price-altcoins",
-   "https://www.coindesk.com/policy/2026/11/06/apple-meta-reject-okx-ice-tokenized-stock-plans-leaving-crypto-firms-as-the-ones-to-watch"
+   "https://www.coindesk.com/policy/2026/11/06/apple-meta-reject-okx-ice-tokenized-stock-plans-leaving-crypto-firms-as-the-ones-to-watch",
+   "https://decrypt.co/382768/apple-meta-every-magnificent-seven-stock-opts-out-okx-ice-venue"
   ],
   "source_names": [
    "CoinDesk",
    "CoinGabbar",
-   "CoinDesk"
+   "CoinDesk",
+   "Decrypt"
   ],
   "sources": [
    {
@@ -45583,6 +45585,13 @@
     "name": "CoinDesk",
     "kind": "secondary",
     "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/382768/apple-meta-every-magnificent-seven-stock-opts-out-okx-ice-venue",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
     "confirms": true
    }
   ],
@@ -45607,15 +45616,22 @@
     "kind": "secondary",
     "checked": false,
     "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/382768/apple-meta-every-magnificent-seven-stock-opts-out-okx-ice-venue",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "UNVERIFIED",
   "verification": {
    "status": "UNVERIFIED",
-   "independent_sources": 0,
+   "independent_sources": 1,
    "has_primary": false,
-   "score": 0.0,
-   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
    "sources_checked": [
     {
      "name": "CoinDesk",
@@ -45637,6 +45653,13 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/382768/apple-meta-every-magnificent-seven-stock-opts-out-okx-ice-venue",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -45681,6 +45704,15 @@
     "headline": "Apple and Meta object to OKX-ICE tokenized stock plans",
     "summary": "Apple and Meta joined companies rejecting OKX and ICE's plan to offer tokenized versions of their shares.",
     "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-07T13:14-05:00",
+    "headline": "Apple and Meta join OKX-ICE objectors, so all Magnificent Seven stocks have opted out of the tokenized venue",
+    "summary": "An updated OKXICE notice added 11 objectors including Apple and Meta, bringing the total to 67. A written objection bars that stock from trading on the venue under the SEC innovation exemption.",
+    "new_development": true,
     "level": "NORMAL",
     "sources_added": 1,
     "verification": "UNVERIFIED"
@@ -46049,7 +46081,10 @@
    "https://www.coindesk.com/business/2026/11/03/binance-s-usd6-3-billion-hack-began-with-a-fake-job-interview-exchange-says",
    "https://decrypt.co/382420/five-ways-north-korea-breaks-into-crypto-firms-and-how-binance-was-hacked",
    "https://www.coindesk.com/daybook-us/2026/11/04/here-s-how-analysts-are-reacting-to-the-new-blue-congress",
-   "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-4-2026"
+   "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-4-2026",
+   "https://www.investing.com/news/stock-market-news/binance-cfo-exits-days-after-catastrophic-6-billion-crypto-hack-5009968",
+   "https://www.investing.com/news/stock-market-news/binance-cfo-kaiser-ng-steps-down-justin-yek-named-new-finance-chief-5009978",
+   "https://techcrunch.com/2026/11/07/binance-cfo-is-leaving-to-pursue-a-new-venture-after-6-3-billion-hack/"
   ],
   "source_names": [
    "The Block",
@@ -46059,7 +46094,10 @@
    "CoinDesk",
    "Decrypt",
    "CoinDesk",
-   "KuCoin"
+   "KuCoin",
+   "Investing.com",
+   "Reuters (via Investing.com)",
+   "TechCrunch"
   ],
   "sources": [
    {
@@ -46117,6 +46155,28 @@
     "name": "KuCoin",
     "kind": "other",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.investing.com/news/stock-market-news/binance-cfo-exits-days-after-catastrophic-6-billion-crypto-hack-5009968",
+    "name": "Investing.com",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.investing.com/news/stock-market-news/binance-cfo-kaiser-ng-steps-down-justin-yek-named-new-finance-chief-5009978",
+    "name": "Reuters (via Investing.com)",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true,
+    "origin": "Reuters"
+   },
+   {
+    "url": "https://techcrunch.com/2026/11/07/binance-cfo-is-leaving-to-pursue-a-new-venture-after-6-3-billion-hack/",
+    "name": "TechCrunch",
+    "kind": "secondary",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -46176,6 +46236,28 @@
     "name": "KuCoin",
     "kind": "other",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.investing.com/news/stock-market-news/binance-cfo-exits-days-after-catastrophic-6-billion-crypto-hack-5009968",
+    "name": "Investing.com",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.investing.com/news/stock-market-news/binance-cfo-kaiser-ng-steps-down-justin-yek-named-new-finance-chief-5009978",
+    "name": "Reuters (via Investing.com)",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true,
+    "origin": "Reuters"
+   },
+   {
+    "url": "https://techcrunch.com/2026/11/07/binance-cfo-is-leaving-to-pursue-a-new-venture-after-6-3-billion-hack/",
+    "name": "TechCrunch",
+    "kind": "secondary",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -46242,6 +46324,27 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Investing.com",
+     "url": "https://www.investing.com/news/stock-market-news/binance-cfo-exits-days-after-catastrophic-6-billion-crypto-hack-5009968",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Reuters (via Investing.com)",
+     "url": "https://www.investing.com/news/stock-market-news/binance-cfo-kaiser-ng-steps-down-justin-yek-named-new-finance-chief-5009978",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/07/binance-cfo-is-leaving-to-pursue-a-new-venture-after-6-3-billion-hack/",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
     }
    ]
   },
@@ -46279,6 +46382,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-07T13:14-05:00",
+    "headline": "Binance CFO Kaiser Ng steps down days after the $6.3 billion hack, Justin Yek named finance chief",
+    "summary": "Binance said CFO Kaiser Ng is leaving to pursue a new venture under a planned transition; co-CEO Yi He framed it as unrelated to the hack. Justin Yek takes over as CFO.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 3,
     "verification": "VERIFIED"
    }
   ],
@@ -51023,16 +51135,25 @@
   "metrics": {},
   "emergency": false,
   "source_urls": [
-   "https://crypto.news/bitcoin-ether-etfs-weekly-outflows-blackrock-november"
+   "https://crypto.news/bitcoin-ether-etfs-weekly-outflows-blackrock-november",
+   "https://www.theblock.co/news/markets/2026-11-07-bitcoin-etfs-flip-negative-for-2026-after-1-28-billion-outflow-week-worst-since-june-435984"
   ],
   "source_names": [
-   "crypto.news"
+   "crypto.news",
+   "The Block"
   ],
   "sources": [
    {
     "url": "https://crypto.news/bitcoin-ether-etfs-weekly-outflows-blackrock-november",
     "name": "crypto.news",
     "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-07-bitcoin-etfs-flip-negative-for-2026-after-1-28-billion-outflow-week-worst-since-june-435984",
+    "name": "The Block",
+    "kind": "secondary",
     "checked": true,
     "confirms": true
    }
@@ -51044,15 +51165,22 @@
     "kind": "other",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-07-bitcoin-etfs-flip-negative-for-2026-after-1-28-billion-outflow-week-worst-since-june-435984",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "UNVERIFIED",
   "verification": {
    "status": "UNVERIFIED",
-   "independent_sources": 0,
+   "independent_sources": 1,
    "has_primary": false,
-   "score": 0.0,
-   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
    "sources_checked": [
     {
      "name": "crypto.news",
@@ -51060,6 +51188,13 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/markets/2026-11-07-bitcoin-etfs-flip-negative-for-2026-after-1-28-billion-outflow-week-worst-since-june-435984",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -51071,7 +51206,17 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-11-07T13:14-05:00",
+    "headline": "Bitcoin ETFs flip negative for 2026 after a $1.28 billion outflow week, the worst since June",
+    "summary": "The 12 spot bitcoin ETFs lost $1.28 billion last week and are now down about $914 million for 2026. BlackRock's IBIT made up about 88% of Friday's outflows. Ether ETFs posted a sixth straight negative week.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -51684,6 +51829,78 @@
   ],
   "market_significance": "Minor; XRP underperforming a flat market",
   "trigger": "price check",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261107_0afa53",
+  "headline": "Nubank pauses crypto deposits and withdrawals in Brazil, citing a problem at an outside data provider",
+  "summary": "Bloomberg reported Nubank halted crypto deposits and withdrawals on November 6, blaming instability at an unnamed external provider; buying and selling reportedly still work and no restart date was given.",
+  "detected_at": "2026-11-07T13:14-05:00",
+  "active_since": "2026-11-07T13:14-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "BTC",
+   "ETH",
+   "SOL"
+  ],
+  "event_type": "outage",
+  "event_time": "2026-11-06T12:00-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://coingabbar.com/en/bitcoin-crypto-news-nubank-withdrawals-halted-travel-rule"
+  ],
+  "source_names": [
+   "Coin Gabbar (citing Bloomberg)"
+  ],
+  "sources": [
+   {
+    "url": "https://coingabbar.com/en/bitcoin-crypto-news-nubank-withdrawals-halted-travel-rule",
+    "name": "Coin Gabbar (citing Bloomberg)",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://coingabbar.com/en/bitcoin-crypto-news-nubank-withdrawals-halted-travel-rule",
+    "name": "Coin Gabbar (citing Bloomberg)",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Coin Gabbar (citing Bloomberg)",
+     "url": "https://coingabbar.com/en/bitcoin-crypto-news-nubank-withdrawals-halted-travel-rule",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Partial service pause at a bank's crypto product; trading still works"
+  ],
+  "market_significance": "Large retail crypto user base in Brazil",
+  "trigger": "Bloomberg report, summarized by Coin Gabbar",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
