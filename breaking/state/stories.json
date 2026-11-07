@@ -45555,11 +45555,13 @@
   "emergency": false,
   "source_urls": [
    "https://www.coindesk.com/business/2026/11/03/amazon-tesla-and-spacex-join-okx-ice-tokenized-stock-objections-as-deadline-looms",
-   "https://www.coingabbar.com/en/crypto-news-cftc-bitmart-hack-midterms-bitcoin-price-altcoins"
+   "https://www.coingabbar.com/en/crypto-news-cftc-bitmart-hack-midterms-bitcoin-price-altcoins",
+   "https://www.coindesk.com/policy/2026/11/06/apple-meta-reject-okx-ice-tokenized-stock-plans-leaving-crypto-firms-as-the-ones-to-watch"
   ],
   "source_names": [
    "CoinDesk",
-   "CoinGabbar"
+   "CoinGabbar",
+   "CoinDesk"
   ],
   "sources": [
    {
@@ -45574,6 +45576,13 @@
     "name": "CoinGabbar",
     "kind": "secondary",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/policy/2026/11/06/apple-meta-reject-okx-ice-tokenized-stock-plans-leaving-crypto-firms-as-the-ones-to-watch",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -45590,6 +45599,13 @@
     "name": "CoinGabbar",
     "kind": "secondary",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/policy/2026/11/06/apple-meta-reject-okx-ice-tokenized-stock-plans-leaving-crypto-firms-as-the-ones-to-watch",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -45614,6 +45630,13 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/policy/2026/11/06/apple-meta-reject-okx-ice-tokenized-stock-plans-leaving-crypto-firms-as-the-ones-to-watch",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
     }
    ]
   },
@@ -45651,6 +45674,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-07T07:16-05:00",
+    "headline": "Apple and Meta object to OKX-ICE tokenized stock plans",
+    "summary": "Apple and Meta joined companies rejecting OKX and ICE's plan to offer tokenized versions of their shares.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "UNVERIFIED"
    }
   ],
@@ -49696,7 +49728,8 @@
    "https://en.bloomingbit.io/feed/news/123811",
    "https://cointelegraph.com/news/gopax-halts-crypto-trading-withdrawals-cold-storage",
    "https://unchainedcrypto.com/binance-controlled-korean-exchange-gopax-stops-trading-makes-users-email-to-withdraw-crypto/",
-   "https://www.koreatimes.co.kr/economy/cryptocurrency/20261106/gopax-suspends-withdrawals-following-hacking-threats"
+   "https://www.koreatimes.co.kr/economy/cryptocurrency/20261106/gopax-suspends-withdrawals-following-hacking-threats",
+   "https://www.malaymail.com/news/money/2026/11/07/gopax-hits-the-panic-button-south-korean-crypto-trading-halts-as-hackers-claim-breach/242304"
   ],
   "source_names": [
    "Korea Herald (Yonhap)",
@@ -49706,7 +49739,8 @@
    "Bloomingbit",
    "Cointelegraph",
    "Unchained",
-   "The Korea Times (Yonhap)"
+   "The Korea Times (Yonhap)",
+   "Malay Mail (Bernama-Yonhap)"
   ],
   "sources": [
    {
@@ -49768,6 +49802,14 @@
     "confirms": true,
     "origin": "Yonhap",
     "published": "2026-11-06T06:34-05:00"
+   },
+   {
+    "url": "https://www.malaymail.com/news/money/2026/11/07/gopax-hits-the-panic-button-south-korean-crypto-trading-halts-as-hackers-claim-breach/242304",
+    "name": "Malay Mail (Bernama-Yonhap)",
+    "kind": "other",
+    "checked": true,
+    "confirms": true,
+    "origin": "Yonhap"
    }
   ],
   "gate_sources": [
@@ -49830,6 +49872,14 @@
     "confirms": true,
     "origin": "Yonhap",
     "published": "2026-11-06T06:34-05:00"
+   },
+   {
+    "url": "https://www.malaymail.com/news/money/2026/11/07/gopax-hits-the-panic-button-south-korean-crypto-trading-halts-as-hackers-claim-breach/242304",
+    "name": "Malay Mail (Bernama-Yonhap)",
+    "kind": "other",
+    "checked": true,
+    "confirms": true,
+    "origin": "Yonhap"
    }
   ],
   "verification_status": "UNVERIFIED",
@@ -49895,6 +49945,13 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Malay Mail (Bernama-Yonhap)",
+     "url": "https://www.malaymail.com/news/money/2026/11/07/gopax-hits-the-panic-button-south-korean-crypto-trading-halts-as-hackers-claim-breach/242304",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -49923,6 +49980,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 2,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-07T07:16-05:00",
+    "headline": "South Korea's GOPAX halts trading and standard withdrawals after a hacking-threat email, moves assets to cold storage",
+    "summary": "Re-check: GOPAX suspended withdrawals and trading on Nov 6 after an email from a group claiming a breach; the exchange says the threat is unverified and no asset loss has been reported. No resumption reported yet.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "UNVERIFIED"
    }
   ],
@@ -50825,6 +50891,527 @@
   ],
   "market_significance": "Shows laundering of the Binance hack proceeds into bitcoin.",
   "trigger": "The Block latest news 1:06 PM ET",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261107_160fe5",
+  "headline": "Spot bitcoin and ether ETFs lose about $1.65 billion in the week of November 2 to 6",
+  "summary": "Bitcoin ETFs saw about $1.28 billion of weekly net outflows and ether ETFs about $365 million, led by BlackRock's IBIT and ETHA; Friday alone saw about $504 million out.",
+  "detected_at": "2026-11-07T07:16-05:00",
+  "active_since": "2026-11-07T07:16-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "BTC",
+   "ETH"
+  ],
+  "event_type": "etf",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://crypto.news/bitcoin-ether-etfs-weekly-outflows-blackrock-november"
+  ],
+  "source_names": [
+   "crypto.news"
+  ],
+  "sources": [
+   {
+    "url": "https://crypto.news/bitcoin-ether-etfs-weekly-outflows-blackrock-november",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://crypto.news/bitcoin-ether-etfs-weekly-outflows-blackrock-november",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/bitcoin-ether-etfs-weekly-outflows-blackrock-november",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Routine flow data"
+  ],
+  "market_significance": "Week of steady institutional outflows",
+  "trigger": "weekly ETF flow tally",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261107_79ff3e",
+  "headline": "Greece approves a 10% tax on crypto gains and a 15% levy on DeFi and staking income",
+  "summary": "Greek lawmakers passed a crypto tax law setting a 10% tax on crypto gains and 15% on staking and DeFi income.",
+  "detected_at": "2026-11-07T07:16-05:00",
+  "active_since": "2026-11-07T07:16-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "regulatory",
+  "event_time": "2026-11-06T09:00-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/policy/2026/11/06/greece-approves-10-tax-on-crypto-gains-and-15-levy-on-defi-income",
+   "https://decrypt.co/382756/greece-passes-crypto-tax-law-staking-defi"
+  ],
+  "source_names": [
+   "CoinDesk",
+   "Decrypt"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/policy/2026/11/06/greece-approves-10-tax-on-crypto-gains-and-15-levy-on-defi-income",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/382756/greece-passes-crypto-tax-law-staking-defi",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/policy/2026/11/06/greece-approves-10-tax-on-crypto-gains-and-15-levy-on-defi-income",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/382756/greece-passes-crypto-tax-law-staking-defi",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/policy/2026/11/06/greece-approves-10-tax-on-crypto-gains-and-15-levy-on-defi-income",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/382756/greece-passes-crypto-tax-law-staking-defi",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: National tax rule, limited market impact"
+  ],
+  "market_significance": "EU member sets crypto tax rates",
+  "trigger": "news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261107_6442f9",
+  "headline": "US sanctions 45 more targets tied to the alleged Prince Group crypto scam network",
+  "summary": "The U.S. added 45 more people and entities linked to the alleged Prince Group scam empire to its sanctions list.",
+  "detected_at": "2026-11-07T07:16-05:00",
+  "active_since": "2026-11-07T07:16-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "regulatory",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://decrypt.co/382730/us-sanctions-45-more-targets-tied-to-alleged-crypto-scam-empire-prince-group"
+  ],
+  "source_names": [
+   "Decrypt"
+  ],
+  "sources": [
+   {
+    "url": "https://decrypt.co/382730/us-sanctions-45-more-targets-tied-to-alleged-crypto-scam-empire-prince-group",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://decrypt.co/382730/us-sanctions-45-more-targets-tied-to-alleged-crypto-scam-empire-prince-group",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/382730/us-sanctions-45-more-targets-tied-to-alleged-crypto-scam-empire-prince-group",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Enforcement follow-up"
+  ],
+  "market_significance": "Ongoing crackdown on crypto scam networks",
+  "trigger": "news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261107_c9bea4",
+  "headline": "World Liberty Financial plans a token buyback after a 66% slide this year",
+  "summary": "Trump-backed World Liberty Financial announced plans to buy back its WLFI token after a 66% year-to-date drop.",
+  "detected_at": "2026-11-07T07:16-05:00",
+  "active_since": "2026-11-07T07:16-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "WLFI"
+  ],
+  "event_type": "other",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/business/2026/11/06/trump-backed-world-liberty-financial-plans-token-buyback-after-66-year-to-date-slide"
+  ],
+  "source_names": [
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/business/2026/11/06/trump-backed-world-liberty-financial-plans-token-buyback-after-66-year-to-date-slide",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/business/2026/11/06/trump-backed-world-liberty-financial-plans-token-buyback-after-66-year-to-date-slide",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/business/2026/11/06/trump-backed-world-liberty-financial-plans-token-buyback-after-66-year-to-date-slide",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Project-level announcement"
+  ],
+  "market_significance": "Token buyback",
+  "trigger": "news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261107_f2fdc9",
+  "headline": "CFTC prediction market demand clashes with court rulings",
+  "summary": "The CFTC issued a demand on prediction markets that conflicts directly with recent court decisions, CoinDesk reports.",
+  "detected_at": "2026-11-07T07:16-05:00",
+  "active_since": "2026-11-07T07:16-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "regulatory",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/policy/2026/11/06/u-s-prediction-markets-regulator-issues-demand-that-clashes-directly-with-courts"
+  ],
+  "source_names": [
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/policy/2026/11/06/u-s-prediction-markets-regulator-issues-demand-that-clashes-directly-with-courts",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/policy/2026/11/06/u-s-prediction-markets-regulator-issues-demand-that-clashes-directly-with-courts",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/policy/2026/11/06/u-s-prediction-markets-regulator-issues-demand-that-clashes-directly-with-courts",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Prediction-market policy, indirect crypto impact"
+  ],
+  "market_significance": "Regulator-court conflict",
+  "trigger": "news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261107_cfb5b7",
+  "headline": "Mercado Bitcoin hacked for an estimated $40 million to $48 million, pledges to cover losses",
+  "summary": "Brazil's Mercado Bitcoin was hacked on November 2 for an on-chain estimated $40 to $48.6 million; stablecoin issuers froze part of the funds and the exchange is reopening in phases.",
+  "detected_at": "2026-11-07T07:16-05:00",
+  "active_since": "2026-11-07T07:16-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "hack_exploit",
+  "event_time": "2026-11-02T12:00-03:00",
+  "scheduled_event": false,
+  "metrics": {
+   "loss_usd": 40000000
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://github.com/molly/web3-is-going-great/issues/1310"
+  ],
+  "source_names": [
+   "Web3 Is Going Great tracker"
+  ],
+  "sources": [
+   {
+    "url": "https://github.com/molly/web3-is-going-great/issues/1310",
+    "name": "Web3 Is Going Great tracker",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://github.com/molly/web3-is-going-great/issues/1310",
+    "name": "Web3 Is Going Great tracker",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": true,
+   "score": 0.6,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Web3 Is Going Great tracker",
+     "url": "https://github.com/molly/web3-is-going-great/issues/1310",
+     "category": "primary",
+     "counts": true,
+     "note": "primary (known official domain)"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Event is five days old; for the daily show",
+   "hack rule: about $40M lost (thresholds $10M/$100M) -> IMPORTANT",
+   "first reported 2026-11-02T10:00-05:00, older than 12h -> NORMAL (daily show)"
+  ],
+  "market_significance": "Mid-size exchange hack",
+  "trigger": "tracker issue",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261107_bc7b68",
+  "headline": "Bitcoin holds near $76,000 overnight, flat on the day",
+  "summary": "Bitcoin trades around $75,800 to $76,000, roughly flat over 24 hours after a week of selling.",
+  "detected_at": "2026-11-07T07:16-05:00",
+  "active_since": "2026-11-07T07:16-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "market_move",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {
+   "pct_move_24h": -0.35
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://www.kucoin.com/news/insight/BTC/6aee8712abae5e0007c54885"
+  ],
+  "source_names": [
+   "KuCoin price bot"
+  ],
+  "sources": [
+   {
+    "url": "https://www.kucoin.com/news/insight/BTC/6aee8712abae5e0007c54885",
+    "name": "KuCoin price bot",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.kucoin.com/news/insight/BTC/6aee8712abae5e0007c54885",
+    "name": "KuCoin price bot",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "KuCoin price bot",
+     "url": "https://www.kucoin.com/news/insight/BTC/6aee8712abae5e0007c54885",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Small move",
+   "price rule: BTC moved 0.3% in 24h (thresholds 7%/12%) -> NORMAL"
+  ],
+  "market_significance": "Consolidation",
+  "trigger": "price check",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
