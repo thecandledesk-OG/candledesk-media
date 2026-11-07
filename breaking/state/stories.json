@@ -46797,6 +46797,15 @@
     "level": "NORMAL",
     "sources_added": 0,
     "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-06T22:09-05:00",
+    "headline": "Strive posts about $509 million Q3 profit on bitcoin gains, now holds 43,124 BTC after adding 15,124 in October",
+    "summary": "Strive reported Q3 net income of about $509 million, driven by unrealized bitcoin gains. It bought 15,124 BTC in October and now holds 43,124 BTC, fourth among public bitcoin treasuries.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "VERIFIED"
    }
   ],
   "posts": [],
@@ -49335,16 +49344,34 @@
   "metrics": {},
   "emergency": false,
   "source_urls": [
-   "https://koinbulteni.com/en/bitcoin-and-altcoins-market-overview-november-6-2026-291953.html"
+   "https://koinbulteni.com/en/bitcoin-and-altcoins-market-overview-november-6-2026-291953.html",
+   "https://riotimesonline.com/crypto-markets-bitcoin-majors-friday-november-6-2026",
+   "https://crypto.news/bitcoin-price-today-rebounds-76000-etf-outflows/"
   ],
   "source_names": [
-   "Koin Bulteni"
+   "Koin Bulteni",
+   "The Rio Times",
+   "crypto.news"
   ],
   "sources": [
    {
     "url": "https://koinbulteni.com/en/bitcoin-and-altcoins-market-overview-november-6-2026-291953.html",
     "name": "Koin Bulteni",
     "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://riotimesonline.com/crypto-markets-bitcoin-majors-friday-november-6-2026",
+    "name": "The Rio Times",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://crypto.news/bitcoin-price-today-rebounds-76000-etf-outflows/",
+    "name": "crypto.news",
+    "kind": "other",
     "checked": true,
     "confirms": true
    }
@@ -49354,6 +49381,20 @@
     "url": "https://koinbulteni.com/en/bitcoin-and-altcoins-market-overview-november-6-2026-291953.html",
     "name": "Koin Bulteni",
     "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://riotimesonline.com/crypto-markets-bitcoin-majors-friday-november-6-2026",
+    "name": "The Rio Times",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://crypto.news/bitcoin-price-today-rebounds-76000-etf-outflows/",
+    "name": "crypto.news",
+    "kind": "other",
     "checked": true,
     "confirms": true
    }
@@ -49369,6 +49410,20 @@
     {
      "name": "Koin Bulteni",
      "url": "https://koinbulteni.com/en/bitcoin-and-altcoins-market-overview-november-6-2026-291953.html",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "The Rio Times",
+     "url": "https://riotimesonline.com/crypto-markets-bitcoin-majors-friday-november-6-2026",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/bitcoin-price-today-rebounds-76000-etf-outflows/",
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
@@ -49391,6 +49446,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-06T22:09-05:00",
+    "headline": "Ether closes at a three-month low near $2,233 as bitcoin holds around $76,000 after a strong jobs report",
+    "summary": "Bitcoin was roughly flat near $76,000 on Friday after Thursday's selloff, while ether closed at its lowest level in at least three months. XRP and solana fell about 7 to 10 percent over 24 hours. A stronger-than-expected U.S. jobs report cut hopes for quick rate cuts.",
+    "new_development": false,
+    "level": "IMPORTANT",
+    "sources_added": 2,
     "verification": "UNVERIFIED"
    }
   ],
