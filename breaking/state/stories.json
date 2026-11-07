@@ -46788,6 +46788,15 @@
     "level": "NORMAL",
     "sources_added": 1,
     "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-06T19:09-05:00",
+    "headline": "Strive posts $509 million third-quarter profit on bitcoin gains and steps up BTC buying",
+    "summary": "Strive reported a $509 million Q3 profit driven by bitcoin gains and said it is increasing bitcoin purchases.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "VERIFIED"
    }
   ],
   "posts": [],
@@ -49831,7 +49840,7 @@
   "market_significance": "Customers cannot trade and face manual withdrawals; shows how jittery exchanges are after the Binance breach.",
   "trigger": "Exchange statement reported by Korean and crypto press",
   "content_created": false,
-  "publication_status": "BLOCKED_UNVERIFIED",
+  "publication_status": "HUMAN_REVIEW",
   "related_story_ids": [],
   "updates": [
    {
@@ -50443,6 +50452,315 @@
   ],
   "market_significance": "Part of the ongoing quantum-security debate",
   "trigger": "News recap",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261106_9e695c",
+  "headline": "Treasury's FinCEN cuts MEXC Global off from the U.S. financial system over $16 billion in alleged illicit flows",
+  "summary": "FinCEN issued a final Section 9714 order naming crypto exchange MEXC Global a primary money laundering concern, saying it facilitated at least $16 billion tied to Russian illicit finance, sanctions evasion by Iran and North Korea, and cybercrime from May 2021 to May 2026. Once published in the Federal Register, U.S. financial institutions have 30 days before they must stop all fund transfers, including crypto, to or from MEXC. MEXC had not publicly responded as of Friday evening.",
+  "detected_at": "2026-11-06T19:09-05:00",
+  "active_since": "2026-11-06T19:09-05:00",
+  "classification": "IMPORTANT",
+  "proposed_level": "IMPORTANT",
+  "confidence": 0.9,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "regulatory",
+  "event_time": "2026-11-06T15:45-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.fincen.gov/system/files/2026-11/MEXC-Section-9714.pdf",
+   "https://www.theblock.co/news/regulation/2026-11-06-treasury-cuts-off-mexc-global-over-alleged-16-billion-in-transactions-linked-to-iran-north-korea-and-russia-435957",
+   "https://www.timesofisrael.com/liveblog_entry/us-treasury-cuts-off-money-exchanger-mexc-over-iran-north-korea-russia-transactions/",
+   "https://bitcoinmagazine.com/news/fincen-cuts-off-mexc-us-financial-system"
+  ],
+  "source_names": [
+   "FinCEN order",
+   "The Block",
+   "Reuters via Times of Israel",
+   "Bitcoin Magazine"
+  ],
+  "sources": [
+   {
+    "url": "https://www.fincen.gov/system/files/2026-11/MEXC-Section-9714.pdf",
+    "name": "FinCEN order",
+    "kind": "primary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-06-treasury-cuts-off-mexc-global-over-alleged-16-billion-in-transactions-linked-to-iran-north-korea-and-russia-435957",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.timesofisrael.com/liveblog_entry/us-treasury-cuts-off-money-exchanger-mexc-over-iran-north-korea-russia-transactions/",
+    "name": "Reuters via Times of Israel",
+    "kind": "other",
+    "checked": true,
+    "confirms": true,
+    "origin": "Reuters"
+   },
+   {
+    "url": "https://bitcoinmagazine.com/news/fincen-cuts-off-mexc-us-financial-system",
+    "name": "Bitcoin Magazine",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.fincen.gov/system/files/2026-11/MEXC-Section-9714.pdf",
+    "name": "FinCEN order",
+    "kind": "primary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-06-treasury-cuts-off-mexc-global-over-alleged-16-billion-in-transactions-linked-to-iran-north-korea-and-russia-435957",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.timesofisrael.com/liveblog_entry/us-treasury-cuts-off-money-exchanger-mexc-over-iran-north-korea-russia-transactions/",
+    "name": "Reuters via Times of Israel",
+    "kind": "other",
+    "checked": true,
+    "confirms": true,
+    "origin": "Reuters"
+   },
+   {
+    "url": "https://bitcoinmagazine.com/news/fincen-cuts-off-mexc-us-financial-system",
+    "name": "Bitcoin Magazine",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "VERIFIED",
+  "verification": {
+   "status": "VERIFIED",
+   "independent_sources": 2,
+   "has_primary": true,
+   "score": 1.0,
+   "reason": "2 independent credible sources confirm it (incl. a primary source)",
+   "sources_checked": [
+    {
+     "name": "FinCEN order",
+     "url": "https://www.fincen.gov/system/files/2026-11/MEXC-Section-9714.pdf",
+     "category": "primary",
+     "counts": true,
+     "note": "primary (known official domain)"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-11-06-treasury-cuts-off-mexc-global-over-alleged-16-billion-in-transactions-linked-to-iran-north-korea-and-russia-435957",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Reuters via Times of Israel",
+     "url": "https://www.timesofisrael.com/liveblog_entry/us-treasury-cuts-off-money-exchanger-mexc-over-iran-north-korea-russia-transactions/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Bitcoin Magazine",
+     "url": "https://bitcoinmagazine.com/news/fincen-cuts-off-mexc-us-financial-system",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed IMPORTANT: Primary FinCEN order plus The Block and Reuters confirm a U.S. funds-transfer ban on a major global exchange."
+  ],
+  "market_significance": "One of the largest offshore exchanges is being cut off from U.S. banks and crypto firms; a rare Section 9714 action against a crypto exchange.",
+  "trigger": "The Block latest news 4:02 PM ET",
+  "content_created": true,
+  "publication_status": "DRAFTED",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [
+   "6aee6e51229bf05daf1ad400",
+   "6aee6e51004e4879a723c3fd",
+   "6aee6e529214322f68be15ca"
+  ],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261106_13f23d",
+  "headline": "FinCEN and the Fed withdraw the 2020 proposal to lower the crypto travel rule threshold to $250",
+  "summary": "FinCEN and the Federal Reserve Board withdrew a 2020 proposed rule that would have lowered the threshold for collecting and passing on information on cross-border transfers, including crypto, from $3,000 to $250, saying the industry has changed and more public input is needed.",
+  "detected_at": "2026-11-06T19:09-05:00",
+  "active_since": "2026-11-06T19:09-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.9,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "regulatory",
+  "event_time": "2026-11-06T15:00-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.fincen.gov/news/news-releases/fincen-announces-withdrawal-proposed-rule-related-recordkeeping-and-travel-rule",
+   "https://www.theblock.co/news/regulation/2026-11-06-us-treasury-walks-back-crypto-surveillance-travel-rule-proposal-435951"
+  ],
+  "source_names": [
+   "FinCEN",
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.fincen.gov/news/news-releases/fincen-announces-withdrawal-proposed-rule-related-recordkeeping-and-travel-rule",
+    "name": "FinCEN",
+    "kind": "primary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-06-us-treasury-walks-back-crypto-surveillance-travel-rule-proposal-435951",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.fincen.gov/news/news-releases/fincen-announces-withdrawal-proposed-rule-related-recordkeeping-and-travel-rule",
+    "name": "FinCEN",
+    "kind": "primary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-06-us-treasury-walks-back-crypto-surveillance-travel-rule-proposal-435951",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "VERIFIED",
+  "verification": {
+   "status": "VERIFIED",
+   "independent_sources": 2,
+   "has_primary": true,
+   "score": 1.0,
+   "reason": "2 independent credible sources confirm it (incl. a primary source)",
+   "sources_checked": [
+    {
+     "name": "FinCEN",
+     "url": "https://www.fincen.gov/news/news-releases/fincen-announces-withdrawal-proposed-rule-related-recordkeeping-and-travel-rule",
+     "category": "primary",
+     "counts": true,
+     "note": "primary (known official domain)"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-11-06-us-treasury-walks-back-crypto-surveillance-travel-rule-proposal-435951",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Withdrawal of a dormant proposal; no immediate change for users."
+  ],
+  "market_significance": "Removes a pending tightening of crypto surveillance rules.",
+  "trigger": "The Block latest news 3:37 PM ET",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261106_19d788",
+  "headline": "Elliptic says Binance hackers swapped stolen tokens for about $124 million in bitcoin as Binance plans more withdrawal reopenings",
+  "summary": "Blockchain analytics firm Elliptic says the Binance hackers converted stolen tokens into roughly $124 million of bitcoin, while Binance plans to reopen more withdrawals.",
+  "detected_at": "2026-11-06T19:09-05:00",
+  "active_since": "2026-11-06T19:09-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "BNB",
+   "BTC"
+  ],
+  "event_type": "hack_exploit",
+  "event_time": "2026-11-06T13:06-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/markets/2026-11-06-binance-hackers-swap-stolen-tokens-124-million-bitcoin-exchange-plans-withdrawal-reopenings-435930"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-06-binance-hackers-swap-stolen-tokens-124-million-bitcoin-exchange-plans-withdrawal-reopenings-435930",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-06-binance-hackers-swap-stolen-tokens-124-million-bitcoin-exchange-plans-withdrawal-reopenings-435930",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/markets/2026-11-06-binance-hackers-swap-stolen-tokens-124-million-bitcoin-exchange-plans-withdrawal-reopenings-435930",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Follow-up detail on an already covered hack."
+  ],
+  "market_significance": "Shows laundering of the Binance hack proceeds into bitcoin.",
+  "trigger": "The Block latest news 1:06 PM ET",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],

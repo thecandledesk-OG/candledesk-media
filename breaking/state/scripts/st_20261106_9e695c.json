@@ -1,0 +1,72 @@
+{
+ "story_id": "st_20261106_9e695c",
+ "date_label": "NOV 6",
+ "headline": "US Treasury cuts off MEXC exchange",
+ "sources": [
+  {
+   "name": "FinCEN",
+   "url": "https://www.fincen.gov/system/files/2026-11/MEXC-Section-9714.pdf"
+  },
+  {
+   "name": "The Block",
+   "url": "https://www.theblock.co/news/regulation/2026-11-06-treasury-cuts-off-mexc-global-over-alleged-16-billion-in-transactions-linked-to-iran-north-korea-and-russia-435957"
+  }
+ ],
+ "scenes": [
+  {
+   "beat": "hook",
+   "who": "ledger",
+   "vo": "The U S Treasury just moved to cut a major global crypto exchange off from American money. Here's what changed.",
+   "chunks": [
+    "Treasury targets MEXC",
+    "*Cut off from U.S.*",
+    "Here's what changed"
+   ]
+  },
+  {
+   "beat": "what_happened",
+   "who": "ledger",
+   "vo": "On Friday, the Treasury's anti money laundering unit named M E X C Global a primary money laundering concern. It says M E X C moved at least sixteen billion dollars tied to Russia, Iran and North Korea.",
+   "chunks": [
+    "FinCEN order Friday",
+    "*$16 billion alleged*",
+    "Russia, Iran, N. Korea"
+   ],
+   "stat": {
+    "label": "Sources",
+    "text": "FinCEN · The Block"
+   }
+  },
+  {
+   "beat": "why_it_matters",
+   "who": "ursa",
+   "vo": "Here's why traders are watching it. Once the order takes effect, U S banks and crypto firms must stop sending money or crypto to or from M E X C.",
+   "chunks": [
+    "Why it matters",
+    "*No U.S. transfers*",
+    "Banks and crypto firms"
+   ]
+  },
+  {
+   "beat": "watch_next",
+   "who": "moby",
+   "vo": "Here's what happens next. The ban starts thirty days after it's published in the Federal Register. Watch for M E X C's response, and whether users pull funds before then.",
+   "chunks": [
+    "What's next",
+    "*30-day clock*",
+    "Watch MEXC's response"
+   ]
+  },
+  {
+   "beat": "cta",
+   "who": "all",
+   "vo": "Follow The Candle Desk for crypto news without the hype. Not financial advice.",
+   "chunks": [
+    "Follow The Candle Desk",
+    "*No hype*",
+    "Just the news"
+   ],
+   "foot": "NOT FINANCIAL ADVICE"
+  }
+ ]
+}
