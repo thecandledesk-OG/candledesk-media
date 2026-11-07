@@ -47081,15 +47081,42 @@
   "metrics": {},
   "emergency": false,
   "source_urls": [
-   "https://crypto.news/bitcoin-price-reclaims-78000-us-midterm-election/"
+   "https://crypto.news/bitcoin-price-reclaims-78000-us-midterm-election/",
+   "https://secureshift.io/blog/crypto-market-today-november-7-2026-weekly-recap",
+   "https://www.w3match.com/reports/recap-2026-11-07",
+   "https://bankingjournal.aba.com/2026/11/fincen-severs-mexc-crypto-exchange-from-u-s-financial-system/"
   ],
   "source_names": [
-   "crypto.news"
+   "crypto.news",
+   "SecureShift",
+   "W3Match",
+   "ABA Banking Journal"
   ],
   "sources": [
    {
     "url": "https://crypto.news/bitcoin-price-reclaims-78000-us-midterm-election/",
     "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://secureshift.io/blog/crypto-market-today-november-7-2026-weekly-recap",
+    "name": "SecureShift",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.w3match.com/reports/recap-2026-11-07",
+    "name": "W3Match",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://bankingjournal.aba.com/2026/11/fincen-severs-mexc-crypto-exchange-from-u-s-financial-system/",
+    "name": "ABA Banking Journal",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -47099,6 +47126,27 @@
    {
     "url": "https://crypto.news/bitcoin-price-reclaims-78000-us-midterm-election/",
     "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://secureshift.io/blog/crypto-market-today-november-7-2026-weekly-recap",
+    "name": "SecureShift",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.w3match.com/reports/recap-2026-11-07",
+    "name": "W3Match",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://bankingjournal.aba.com/2026/11/fincen-severs-mexc-crypto-exchange-from-u-s-financial-system/",
+    "name": "ABA Banking Journal",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -47115,6 +47163,27 @@
     {
      "name": "crypto.news",
      "url": "https://crypto.news/bitcoin-price-reclaims-78000-us-midterm-election/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "SecureShift",
+     "url": "https://secureshift.io/blog/crypto-market-today-november-7-2026-weekly-recap",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "W3Match",
+     "url": "https://www.w3match.com/reports/recap-2026-11-07",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "ABA Banking Journal",
+     "url": "https://bankingjournal.aba.com/2026/11/fincen-severs-mexc-crypto-exchange-from-u-s-financial-system/",
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
@@ -47137,6 +47206,33 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-07T10:08-05:00",
+    "headline": "Bitcoin dipped to about $74,700, its lowest since August",
+    "summary": "Here's what moved the chain today. Bitcoin dipped to seventy-four thousand seven hundred, its lowest since August.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-07T10:08-05:00",
+    "headline": "Hot jobs data lifts Fed hike odds as spot bitcoin ETFs bleed about $870 million",
+    "summary": "Check the yields first. Hot jobs data lifted Fed hike odds, and ETFs bled eight hundred seventy million.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-07T10:08-05:00",
+    "headline": "Treasury's FinCEN cuts MEXC off from the U.S. financial system over $16 billion in alleged illicit flows",
+    "summary": "And Treasury just cut exchange MEXC off from US banks over sixteen billion in alleged dirty money.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "UNVERIFIED"
    }
   ],
@@ -50892,9 +50988,19 @@
   "market_significance": "Shows laundering of the Binance hack proceeds into bitcoin.",
   "trigger": "The Block latest news 1:06 PM ET",
   "content_created": false,
-  "publication_status": "QUEUED_FOR_DAILY",
+  "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-11-07T10:08-05:00",
+    "headline": "Binance hackers swap $124 million of stolen tokens into bitcoin, per Elliptic",
+    "summary": "Psst... Binance hackers just swapped one hundred twenty-four million dollars of stolen tokens into Bitcoin.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -51411,6 +51517,172 @@
    "price rule: BTC moved 0.3% in 24h (thresholds 7%/12%) -> NORMAL"
   ],
   "market_significance": "Consolidation",
+  "trigger": "price check",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261107_74a82b",
+  "headline": "Bitcoin climbs back above $76,000 after the dip",
+  "summary": "Green candles only! Bitcoin shook off the dip and climbed back above seventy-six thousand dollars!",
+  "detected_at": "2026-11-07T10:08-05:00",
+  "active_since": "2026-11-07T10:08-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "market_move",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://coincodex.com/article/95047/daily-market-update-for-november-07-2026"
+  ],
+  "source_names": [
+   "CoinCodex"
+  ],
+  "sources": [
+   {
+    "url": "https://coincodex.com/article/95047/daily-market-update-for-november-07-2026",
+    "name": "CoinCodex",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://coincodex.com/article/95047/daily-market-update-for-november-07-2026",
+    "name": "CoinCodex",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinCodex",
+     "url": "https://coincodex.com/article/95047/daily-market-update-for-november-07-2026",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261107_47f1cb",
+  "headline": "XRP slips about 3.5% to near $1.16 while bitcoin holds near $76,000",
+  "summary": "XRP fell about 3.5% over 24 hours to roughly $1.16, below its 200-day line, while BTC (+0.3%), ETH (+0.7%) and SOL (+0.9%) were little changed early Saturday. About $203 million in positions were liquidated over 24 hours.",
+  "detected_at": "2026-11-07T10:17-05:00",
+  "active_since": "2026-11-07T10:17-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "XRP"
+  ],
+  "event_type": "market_move",
+  "event_time": "2026-11-07T01:15-05:00",
+  "scheduled_event": false,
+  "metrics": {
+   "pct_move_24h": -3.5
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://koinbulteni.com/en/bitcoin-and-altcoins-market-overview-november-7-2026-292015.html",
+   "https://finwire.io/news/crypto-news/zec-and-cc-lead-altcoin-swings-as-btc-settles-at-76k-despite-us-iran-attacks-weekend-watch"
+  ],
+  "source_names": [
+   "Koin Bulteni",
+   "Finwire"
+  ],
+  "sources": [
+   {
+    "url": "https://koinbulteni.com/en/bitcoin-and-altcoins-market-overview-november-7-2026-292015.html",
+    "name": "Koin Bulteni",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://finwire.io/news/crypto-news/zec-and-cc-lead-altcoin-swings-as-btc-settles-at-76k-despite-us-iran-attacks-weekend-watch",
+    "name": "Finwire",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://koinbulteni.com/en/bitcoin-and-altcoins-market-overview-november-7-2026-292015.html",
+    "name": "Koin Bulteni",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://finwire.io/news/crypto-news/zec-and-cc-lead-altcoin-swings-as-btc-settles-at-76k-despite-us-iran-attacks-weekend-watch",
+    "name": "Finwire",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Koin Bulteni",
+     "url": "https://koinbulteni.com/en/bitcoin-and-altcoins-market-overview-november-7-2026-292015.html",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Finwire",
+     "url": "https://finwire.io/news/crypto-news/zec-and-cc-lead-altcoin-swings-as-btc-settles-at-76k-despite-us-iran-attacks-weekend-watch",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Routine single-asset move well below the 12% threshold",
+   "price rule: DEFAULT moved 3.5% in 24h (thresholds 12%/20%) -> NORMAL"
+  ],
+  "market_significance": "Minor; XRP underperforming a flat market",
   "trigger": "price check",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
