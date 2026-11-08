@@ -52128,11 +52128,15 @@
   "emergency": false,
   "source_urls": [
    "https://x.com/Web3Auth/status/2118814067359969745",
-   "https://cryptoticker.io/en/keplr-wallet-web3auth-social-login-exploit/"
+   "https://cryptoticker.io/en/keplr-wallet-web3auth-social-login-exploit/",
+   "https://www.theblock.co/news/defi/2026-11-08-web3auth-says-it-frontran-hackers-by-moving-5-6-million-out-of-exposed-keplr-wallets-436029",
+   "https://x.com/Web3Auth/status/2119314957057871935"
   ],
   "source_names": [
    "Web3Auth on X",
-   "CryptoTicker"
+   "CryptoTicker",
+   "The Block",
+   "Web3Auth on X"
   ],
   "sources": [
    {
@@ -52147,6 +52151,20 @@
     "name": "CryptoTicker",
     "kind": "other",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/defi/2026-11-08-web3auth-says-it-frontran-hackers-by-moving-5-6-million-out-of-exposed-keplr-wallets-436029",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://x.com/Web3Auth/status/2119314957057871935",
+    "name": "Web3Auth on X",
+    "kind": "social",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -52164,15 +52182,29 @@
     "kind": "other",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/defi/2026-11-08-web3auth-says-it-frontran-hackers-by-moving-5-6-million-out-of-exposed-keplr-wallets-436029",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://x.com/Web3Auth/status/2119314957057871935",
+    "name": "Web3Auth on X",
+    "kind": "social",
+    "checked": false,
+    "confirms": true
    }
   ],
   "verification_status": "UNVERIFIED",
   "verification": {
    "status": "UNVERIFIED",
-   "independent_sources": 0,
+   "independent_sources": 1,
    "has_primary": false,
-   "score": 0.0,
-   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
    "sources_checked": [
     {
      "name": "Web3Auth on X",
@@ -52187,6 +52219,20 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/defi/2026-11-08-web3auth-says-it-frontran-hackers-by-moving-5-6-million-out-of-exposed-keplr-wallets-436029",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Web3Auth on X",
+     "url": "https://x.com/Web3Auth/status/2119314957057871935",
+     "category": "social",
+     "counts": false,
+     "note": "social/community post — can trigger investigation, never verifies"
     }
    ]
   },
@@ -52198,7 +52244,17 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-11-08T16:10-05:00",
+    "headline": "Web3Auth says it moved about $5.6 million out of exposed Keplr social-login wallets to keep it from the attacker",
+    "summary": "Web3Auth, which runs Keplr's Google and Apple login, says it swept funds from vulnerable wallets into 12 recovery addresses holding about $5.6 million, mostly ATOM, and is working with Keplr on returns. Bitquery says a thief took about $6 million from over 44,000 wallets; Keplr says recovery-phrase and hardware wallets are unaffected.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
