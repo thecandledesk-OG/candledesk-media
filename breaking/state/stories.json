@@ -52220,16 +52220,34 @@
   "metrics": {},
   "emergency": false,
   "source_urls": [
-   "https://cryptoticker.io/en/solana-price-prediction-china-central-bank-shanghai-probe"
+   "https://cryptoticker.io/en/solana-price-prediction-china-central-bank-shanghai-probe",
+   "https://cryptoticker.io/en/solana-price-prediction-china-central-bank-shanghai-probe/",
+   "https://www.cryptotimes.io/2026/11/06/chinas-central-bank-probes-solana-over-shanghai-ad-says-promoting-sol-is-illegal/"
   ],
   "source_names": [
-   "CryptoTicker"
+   "CryptoTicker",
+   "CryptoTicker",
+   "The Crypto Times"
   ],
   "sources": [
    {
     "url": "https://cryptoticker.io/en/solana-price-prediction-china-central-bank-shanghai-probe",
     "name": "CryptoTicker",
     "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptoticker.io/en/solana-price-prediction-china-central-bank-shanghai-probe/",
+    "name": "CryptoTicker",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.cryptotimes.io/2026/11/06/chinas-central-bank-probes-solana-over-shanghai-ad-says-promoting-sol-is-illegal/",
+    "name": "The Crypto Times",
+    "kind": "secondary",
     "checked": true,
     "confirms": true
    }
@@ -52239,6 +52257,20 @@
     "url": "https://cryptoticker.io/en/solana-price-prediction-china-central-bank-shanghai-probe",
     "name": "CryptoTicker",
     "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptoticker.io/en/solana-price-prediction-china-central-bank-shanghai-probe/",
+    "name": "CryptoTicker",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.cryptotimes.io/2026/11/06/chinas-central-bank-probes-solana-over-shanghai-ad-says-promoting-sol-is-illegal/",
+    "name": "The Crypto Times",
+    "kind": "secondary",
     "checked": true,
     "confirms": true
    }
@@ -52257,6 +52289,20 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CryptoTicker",
+     "url": "https://cryptoticker.io/en/solana-price-prediction-china-central-bank-shanghai-probe/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "The Crypto Times",
+     "url": "https://www.cryptotimes.io/2026/11/06/chinas-central-bank-probes-solana-over-shanghai-ad-says-promoting-sol-is-illegal/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -52266,9 +52312,19 @@
   "market_significance": "Regulatory pressure on Solana marketing in China",
   "trigger": "search",
   "content_created": false,
-  "publication_status": "QUEUED_FOR_DAILY",
+  "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-11-08T10:09-05:00",
+    "headline": "China's central bank calls Solana's Shanghai promotion illegal and halts its events",
+    "summary": "China's central bank called Solana's Shanghai promotion illegal and halted its events.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -52631,11 +52687,13 @@
   "emergency": false,
   "source_urls": [
    "https://cryptoticker.io/en/bitcoin-price-fifth-losing-week-weekly-close/",
-   "https://samzal.com/threads/crypto-prices-today-nov-8-2026.863/"
+   "https://samzal.com/threads/crypto-prices-today-nov-8-2026.863/",
+   "https://coincodex.com/article/95051/daily-market-update-for-november-08-2026"
   ],
   "source_names": [
    "CryptoTicker",
-   "Samzal price thread"
+   "Samzal price thread",
+   "CoinCodex"
   ],
   "sources": [
    {
@@ -52649,6 +52707,13 @@
     "url": "https://samzal.com/threads/crypto-prices-today-nov-8-2026.863/",
     "name": "Samzal price thread",
     "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://coincodex.com/article/95051/daily-market-update-for-november-08-2026",
+    "name": "CoinCodex",
+    "kind": "secondary",
     "checked": true,
     "confirms": true
    }
@@ -52665,6 +52730,13 @@
     "url": "https://samzal.com/threads/crypto-prices-today-nov-8-2026.863/",
     "name": "Samzal price thread",
     "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://coincodex.com/article/95051/daily-market-update-for-november-08-2026",
+    "name": "CoinCodex",
+    "kind": "secondary",
     "checked": true,
     "confirms": true
    }
@@ -52690,6 +52762,13 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinCodex",
+     "url": "https://coincodex.com/article/95051/daily-market-update-for-november-08-2026",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -52700,9 +52779,19 @@
   "market_significance": "Weekly close and Tuesday CPI are the next markers.",
   "trigger": "search",
   "content_created": false,
-  "publication_status": "QUEUED_FOR_DAILY",
+  "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-11-08T10:09-05:00",
+    "headline": "Bitcoin sits near $75,800, facing a fifth red week",
+    "summary": "Here's what moved the chain today. Bitcoin sits near seventy-five thousand eight hundred, facing a fifth red week.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -52769,6 +52858,167 @@
   ],
   "market_significance": "Regulatory pressure on India's largest exchanges.",
   "trigger": "search",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261108_71ffd8",
+  "headline": "Russia opens retail crypto trading on November 17",
+  "summary": "Green candles only! Russia opens retail crypto trading on November seventeenth!",
+  "detected_at": "2026-11-08T10:09-05:00",
+  "active_since": "2026-11-08T10:09-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "BTC",
+   "ETH",
+   "USDT"
+  ],
+  "event_type": "regulatory",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://cryptoticker.io/en/crypto-news-this-week-recap-key-dates-november-2026/"
+  ],
+  "source_names": [
+   "CryptoTicker"
+  ],
+  "sources": [
+   {
+    "url": "https://cryptoticker.io/en/crypto-news-this-week-recap-key-dates-november-2026/",
+    "name": "CryptoTicker",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://cryptoticker.io/en/crypto-news-this-week-recap-key-dates-november-2026/",
+    "name": "CryptoTicker",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CryptoTicker",
+     "url": "https://cryptoticker.io/en/crypto-news-this-week-recap-key-dates-november-2026/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [
+   {
+    "at": "2026-11-08T10:09-05:00",
+    "headline": "Russian retail crypto buyers capped at 300,000 rubles a year per broker",
+    "summary": "Check the yields first. Russian buyers are capped at three hundred thousand rubles a year per broker.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-08T10:09-05:00",
+    "headline": "Spot bitcoin ETFs bleed $1.28 billion this week",
+    "summary": "Psst... big wallets are moving. Spot bitcoin ETFs bled one point two eight billion dollars this week.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   }
+  ],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261108_abaa72",
+  "headline": "Apple and Meta opt out of the OKX-ICE tokenized stock venue, completing a Magnificent Seven exit",
+  "summary": "Apple and Meta asked that their shares be kept off OKX-ICE, the planned Intercontinental Exchange and OKX venue for 24/7 tokenized U.S. stocks on X Layer, so all seven Magnificent Seven companies have now opted out and 67 companies object in total.",
+  "detected_at": "2026-11-08T10:11-05:00",
+  "active_since": "2026-11-08T10:11-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "OKB"
+  ],
+  "event_type": "exchange",
+  "event_time": "2026-11-07T17:01:00-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://decrypt.co/382768/apple-meta-every-magnificent-seven-stock-opts-out-okx-ice-venue"
+  ],
+  "source_names": [
+   "Decrypt"
+  ],
+  "sources": [
+   {
+    "url": "https://decrypt.co/382768/apple-meta-every-magnificent-seven-stock-opts-out-okx-ice-venue",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://decrypt.co/382768/apple-meta-every-magnificent-seven-stock-opts-out-okx-ice-venue",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/382768/apple-meta-every-magnificent-seven-stock-opts-out-okx-ice-venue",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Single outlet, opt-outs from a planned venue; not market-moving"
+  ],
+  "market_significance": "Shows public-company resistance to tokenized versions of their stock",
+  "trigger": "Decrypt latest news",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
