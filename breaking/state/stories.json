@@ -52271,5 +52271,509 @@
   "updates": [],
   "posts": [],
   "needs_followup": false
+ },
+ {
+  "id": "st_20261108_63b203",
+  "headline": "Binance CFO Kaiser Ng steps down days after the $6.3 billion hack, Justin Yek named finance chief",
+  "summary": "Binance said Saturday that CFO Kaiser Ng is leaving for a new venture and former Airwallex finance VP Justin Yek takes over. Co-CEO Yi He said the transition was planned over six months, before the breach.",
+  "detected_at": "2026-11-08T07:14-05:00",
+  "active_since": "2026-11-08T07:14-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.75,
+  "assets": [
+   "BNB"
+  ],
+  "event_type": "exchange",
+  "event_time": "2026-11-07T12:00-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://nairametrics.com/2026/11/08/binance-cfo-resigns-following-6-3-billion-cryptocurrency-hack/",
+   "https://www.theglobeandmail.com/world/article-binance-cfo-kaiser-ng-resigns-steps-down-63-billion-hackers/",
+   "https://www.investing.com/news/stock-market-news/binance-cfo-exits-days-after-catastrophic-6-billion-crypto-hack-5009968"
+  ],
+  "source_names": [
+   "Nairametrics (citing Bloomberg)",
+   "The Globe and Mail",
+   "Investing.com"
+  ],
+  "sources": [
+   {
+    "url": "https://nairametrics.com/2026/11/08/binance-cfo-resigns-following-6-3-billion-cryptocurrency-hack/",
+    "name": "Nairametrics (citing Bloomberg)",
+    "kind": "other",
+    "checked": true,
+    "confirms": true,
+    "origin": "Bloomberg"
+   },
+   {
+    "url": "https://www.theglobeandmail.com/world/article-binance-cfo-kaiser-ng-resigns-steps-down-63-billion-hackers/",
+    "name": "The Globe and Mail",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.investing.com/news/stock-market-news/binance-cfo-exits-days-after-catastrophic-6-billion-crypto-hack-5009968",
+    "name": "Investing.com",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://nairametrics.com/2026/11/08/binance-cfo-resigns-following-6-3-billion-cryptocurrency-hack/",
+    "name": "Nairametrics (citing Bloomberg)",
+    "kind": "other",
+    "checked": true,
+    "confirms": true,
+    "origin": "Bloomberg"
+   },
+   {
+    "url": "https://www.theglobeandmail.com/world/article-binance-cfo-kaiser-ng-resigns-steps-down-63-billion-hackers/",
+    "name": "The Globe and Mail",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.investing.com/news/stock-market-news/binance-cfo-exits-days-after-catastrophic-6-billion-crypto-hack-5009968",
+    "name": "Investing.com",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Nairametrics (citing Bloomberg)",
+     "url": "https://nairametrics.com/2026/11/08/binance-cfo-resigns-following-6-3-billion-cryptocurrency-hack/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "The Globe and Mail",
+     "url": "https://www.theglobeandmail.com/world/article-binance-cfo-kaiser-ng-resigns-steps-down-63-billion-hackers/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Investing.com",
+     "url": "https://www.investing.com/news/stock-market-news/binance-cfo-exits-days-after-catastrophic-6-billion-crypto-hack-5009968",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Executive change at a major exchange; personnel news, not market-moving on its own."
+  ],
+  "market_significance": "Leadership change during Binance's post-hack recovery.",
+  "trigger": "search",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261108_5d8cba",
+  "headline": "Binance restores Hyperliquid and Aptos withdrawals in its phased post-hack reopening",
+  "summary": "Binance reopened HYPE and APT withdrawals on November 8. INJ, PLASMA, NEAR and LTC were also targeted for next week; their status is unconfirmed.",
+  "detected_at": "2026-11-08T07:14-05:00",
+  "active_since": "2026-11-08T07:14-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "BNB",
+   "HYPE",
+   "APT"
+  ],
+  "event_type": "exchange",
+  "event_time": "2026-11-08T04:00-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://crypto.news/binance-restores-hype-apt-withdrawals-after-hack/"
+  ],
+  "source_names": [
+   "crypto.news"
+  ],
+  "sources": [
+   {
+    "url": "https://crypto.news/binance-restores-hype-apt-withdrawals-after-hack/",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://crypto.news/binance-restores-hype-apt-withdrawals-after-hack/",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/binance-restores-hype-apt-withdrawals-after-hack/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Incremental step in an ongoing, already-covered reopening."
+  ],
+  "market_significance": "Shows recovery progress after the October 29 breach.",
+  "trigger": "search",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261108_71522d",
+  "headline": "Stablecoin supply falls $6.7 billion in a week, the steepest weekly drop of 2026",
+  "summary": "DefiLlama data show stablecoin supply fell about $6.66 billion in the week to November 7, to about $292 billion, with USDT and USDC making up two thirds of the drop. Both pegs held near one dollar.",
+  "detected_at": "2026-11-08T07:14-05:00",
+  "active_since": "2026-11-08T07:14-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.65,
+  "assets": [
+   "USDT",
+   "USDC",
+   "TOTAL_MARKET"
+  ],
+  "event_type": "market_move",
+  "event_time": "2026-11-08T02:15+00:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://blockchainreporter.net/stablecoin-supply-sharpest-week-2026/"
+  ],
+  "source_names": [
+   "Blockchain Reporter"
+  ],
+  "sources": [
+   {
+    "url": "https://blockchainreporter.net/stablecoin-supply-sharpest-week-2026/",
+    "name": "Blockchain Reporter",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://blockchainreporter.net/stablecoin-supply-sharpest-week-2026/",
+    "name": "Blockchain Reporter",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Blockchain Reporter",
+     "url": "https://blockchainreporter.net/stablecoin-supply-sharpest-week-2026/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Data trend, no peg stress."
+  ],
+  "market_significance": "Shrinking stablecoin supply signals capital leaving crypto.",
+  "trigger": "search",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261108_5d3b34",
+  "headline": "Bank of Russia clears bitcoin, ether and USDT for retail investors from November 17, capped at 300,000 roubles a year",
+  "summary": "A Bank of Russia ordinance published November 6 lets non-qualified investors buy BTC, ETH and USDT from November 17, with a 300,000 rouble annual cap and a required test. Moscow Exchange plans a BTC and ETH pilot from December 1.",
+  "detected_at": "2026-11-08T07:14-05:00",
+  "active_since": "2026-11-08T07:14-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.65,
+  "assets": [
+   "BTC",
+   "ETH",
+   "USDT"
+  ],
+  "event_type": "regulatory",
+  "event_time": "2026-11-06T12:00+03:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://coinpaprika.com/news/russia-opens-bitcoin-ether-usdt"
+  ],
+  "source_names": [
+   "CoinPaprika"
+  ],
+  "sources": [
+   {
+    "url": "https://coinpaprika.com/news/russia-opens-bitcoin-ether-usdt",
+    "name": "CoinPaprika",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://coinpaprika.com/news/russia-opens-bitcoin-ether-usdt",
+    "name": "CoinPaprika",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinPaprika",
+     "url": "https://coinpaprika.com/news/russia-opens-bitcoin-ether-usdt",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Published November 6, older than 12 hours; regional retail access rule."
+  ],
+  "market_significance": "Opens regulated crypto access to Russian retail investors.",
+  "trigger": "search",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261108_8d1a14",
+  "headline": "Bitcoin holds near $75,800 on a flat Sunday, on track for a fifth straight weekly loss",
+  "summary": "Bitcoin trades near $75,800, about flat over 24 hours; ether near $2,237 (down about 0.4%), XRP near $1.16 (down about 1.3%), solana near $89 (down about 1.2%). A weekly close under $78,232 would mark five losing weeks in a row. US CPI is due Tuesday.",
+  "detected_at": "2026-11-08T07:14-05:00",
+  "active_since": "2026-11-08T07:14-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "BTC",
+   "ETH",
+   "XRP",
+   "SOL",
+   "TOTAL_MARKET"
+  ],
+  "event_type": "market_move",
+  "event_time": "2026-11-08T07:00-05:00",
+  "scheduled_event": false,
+  "metrics": {
+   "pct_move_24h": -0.24
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://cryptoticker.io/en/bitcoin-price-fifth-losing-week-weekly-close/",
+   "https://samzal.com/threads/crypto-prices-today-nov-8-2026.863/"
+  ],
+  "source_names": [
+   "CryptoTicker",
+   "Samzal price thread"
+  ],
+  "sources": [
+   {
+    "url": "https://cryptoticker.io/en/bitcoin-price-fifth-losing-week-weekly-close/",
+    "name": "CryptoTicker",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://samzal.com/threads/crypto-prices-today-nov-8-2026.863/",
+    "name": "Samzal price thread",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://cryptoticker.io/en/bitcoin-price-fifth-losing-week-weekly-close/",
+    "name": "CryptoTicker",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://samzal.com/threads/crypto-prices-today-nov-8-2026.863/",
+    "name": "Samzal price thread",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CryptoTicker",
+     "url": "https://cryptoticker.io/en/bitcoin-price-fifth-losing-week-weekly-close/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Samzal price thread",
+     "url": "https://samzal.com/threads/crypto-prices-today-nov-8-2026.863/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Small moves, well below thresholds.",
+   "price rule: BTC moved 0.2% in 24h (thresholds 7%/12%) -> NORMAL"
+  ],
+  "market_significance": "Weekly close and Tuesday CPI are the next markers.",
+  "trigger": "search",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261108_0220ad",
+  "headline": "India's Enforcement Directorate searches CoinDCX and Delta Exchange offices in a foreign exchange probe",
+  "summary": "India's ED searched three Bengaluru premises linked to CoinDCX and Delta Exchange on November 4 and 5 over suspected FEMA violations. Both firms say they are cooperating and operating normally; no arrests or freezes reported.",
+  "detected_at": "2026-11-08T07:14-05:00",
+  "active_since": "2026-11-08T07:14-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.65,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "legal",
+  "event_time": "2026-11-06T08:00+05:30",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://crypto.news/why-did-the-ed-raid-coindcx-and-delta-exchange-what-users-should-know"
+  ],
+  "source_names": [
+   "crypto.news"
+  ],
+  "sources": [
+   {
+    "url": "https://crypto.news/why-did-the-ed-raid-coindcx-and-delta-exchange-what-users-should-know",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://crypto.news/why-did-the-ed-raid-coindcx-and-delta-exchange-what-users-should-know",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/why-did-the-ed-raid-coindcx-and-delta-exchange-what-users-should-know",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Regional enforcement inquiry, platforms operating normally; older than 12 hours."
+  ],
+  "market_significance": "Regulatory pressure on India's largest exchanges.",
+  "trigger": "search",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
  }
 ]
