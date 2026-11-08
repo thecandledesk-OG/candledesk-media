@@ -53025,5 +53025,98 @@
   "updates": [],
   "posts": [],
   "needs_followup": false
+ },
+ {
+  "id": "st_20261108_562709",
+  "headline": "Vitalik Buterin says ETH should be valued as a store of value, not a fee-burning token",
+  "summary": "Ethereum co-founder Vitalik Buterin argued ETH's value case should rest on being a store of value rather than on EIP-1559 fee burns, saying the burn should stay but Ethereum need not chase burn levels. Comes after the EIP-8363 burn proposal was withdrawn. ETH traded near $2,236.",
+  "detected_at": "2026-11-08T13:13-05:00",
+  "active_since": "2026-11-08T13:13-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "ETH"
+  ],
+  "event_type": "protocol_upgrade",
+  "event_time": "2026-11-08T10:52-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/ecosystems/2026-11-08-vitalik-buterin-says-eth-should-be-valued-as-a-store-of-value-not-a-fee-burning-token-436022",
+   "https://crypto.news/vitalik-buterin-ai-data-center-opposition-btc-miners/"
+  ],
+  "source_names": [
+   "The Block",
+   "crypto.news"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/ecosystems/2026-11-08-vitalik-buterin-says-eth-should-be-valued-as-a-store-of-value-not-a-fee-burning-token-436022",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://crypto.news/vitalik-buterin-ai-data-center-opposition-btc-miners/",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/ecosystems/2026-11-08-vitalik-buterin-says-eth-should-be-valued-as-a-store-of-value-not-a-fee-burning-token-436022",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://crypto.news/vitalik-buterin-ai-data-center-opposition-btc-miners/",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/ecosystems/2026-11-08-vitalik-buterin-says-eth-should-be-valued-as-a-store-of-value-not-a-fee-burning-token-436022",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/vitalik-buterin-ai-data-center-opposition-btc-miners/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Commentary from a co-founder; no protocol change or market move"
+  ],
+  "market_significance": "Shapes the ETH value narrative debate",
+  "trigger": "The Block report",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
  }
 ]
