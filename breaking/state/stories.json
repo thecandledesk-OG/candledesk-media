@@ -51667,15 +51667,33 @@
   },
   "emergency": false,
   "source_urls": [
-   "https://www.kucoin.com/news/insight/BTC/6aee8712abae5e0007c54885"
+   "https://www.kucoin.com/news/insight/BTC/6aee8712abae5e0007c54885",
+   "https://www.altcoinbuzz.io/crypto-market-holds-near-76-000-after-a-week-of-declines",
+   "https://247wallst.com/investing/cryptocurrency/2026/11/07/xrp-fell-7-this-week-and-ethereum-less-than-1-why-is-xrp-the-weakest-of-the-top-five-cryptos"
   ],
   "source_names": [
-   "KuCoin price bot"
+   "KuCoin price bot",
+   "Altcoin Buzz",
+   "24/7 Wall St."
   ],
   "sources": [
    {
     "url": "https://www.kucoin.com/news/insight/BTC/6aee8712abae5e0007c54885",
     "name": "KuCoin price bot",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.altcoinbuzz.io/crypto-market-holds-near-76-000-after-a-week-of-declines",
+    "name": "Altcoin Buzz",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://247wallst.com/investing/cryptocurrency/2026/11/07/xrp-fell-7-this-week-and-ethereum-less-than-1-why-is-xrp-the-weakest-of-the-top-five-cryptos",
+    "name": "24/7 Wall St.",
     "kind": "other",
     "checked": true,
     "confirms": true
@@ -51685,6 +51703,20 @@
    {
     "url": "https://www.kucoin.com/news/insight/BTC/6aee8712abae5e0007c54885",
     "name": "KuCoin price bot",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.altcoinbuzz.io/crypto-market-holds-near-76-000-after-a-week-of-declines",
+    "name": "Altcoin Buzz",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://247wallst.com/investing/cryptocurrency/2026/11/07/xrp-fell-7-this-week-and-ethereum-less-than-1-why-is-xrp-the-weakest-of-the-top-five-cryptos",
+    "name": "24/7 Wall St.",
     "kind": "other",
     "checked": true,
     "confirms": true
@@ -51704,6 +51736,20 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Altcoin Buzz",
+     "url": "https://www.altcoinbuzz.io/crypto-market-holds-near-76-000-after-a-week-of-declines",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "24/7 Wall St.",
+     "url": "https://247wallst.com/investing/cryptocurrency/2026/11/07/xrp-fell-7-this-week-and-ethereum-less-than-1-why-is-xrp-the-weakest-of-the-top-five-cryptos",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -51716,7 +51762,17 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-11-07T22:15-05:00",
+    "headline": "Bitcoin holds near $76,000 Saturday night as the market stays quiet after a down week",
+    "summary": "Bitcoin trades near $75,700 to $76,000 and ether near $2,240, little changed on the day. XRP fell about 7% on the week to near $1.16.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -52044,6 +52100,171 @@
   ],
   "market_significance": "Insider theft of seized crypto by a federal agent.",
   "trigger": "The Block report",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261107_41f87b",
+  "headline": "Keplr pauses Google and Apple login after Web3Auth flaw exposes private keys of some social-login wallets",
+  "summary": "Keplr suspended social login after users reported unauthorized transactions. Web3Auth paused its embedded wallet service and on November 7 blamed a vulnerability in its own infrastructure that exposed private keys. Seed-phrase and hardware-wallet accounts are not affected. No official loss figure yet.",
+  "detected_at": "2026-11-07T22:15-05:00",
+  "active_since": "2026-11-07T22:15-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "ATOM",
+   "INJ",
+   "OSMO"
+  ],
+  "event_type": "hack_exploit",
+  "event_time": "2026-11-07T18:00-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://x.com/Web3Auth/status/2118814067359969745",
+   "https://cryptoticker.io/en/keplr-wallet-web3auth-social-login-exploit/"
+  ],
+  "source_names": [
+   "Web3Auth on X",
+   "CryptoTicker"
+  ],
+  "sources": [
+   {
+    "url": "https://x.com/Web3Auth/status/2118814067359969745",
+    "name": "Web3Auth on X",
+    "kind": "social",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptoticker.io/en/keplr-wallet-web3auth-social-login-exploit/",
+    "name": "CryptoTicker",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://x.com/Web3Auth/status/2118814067359969745",
+    "name": "Web3Auth on X",
+    "kind": "social",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptoticker.io/en/keplr-wallet-web3auth-social-login-exploit/",
+    "name": "CryptoTicker",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Web3Auth on X",
+     "url": "https://x.com/Web3Auth/status/2118814067359969745",
+     "category": "social",
+     "counts": false,
+     "note": "social/community post — can trigger investigation, never verifies"
+    },
+    {
+     "name": "CryptoTicker",
+     "url": "https://cryptoticker.io/en/keplr-wallet-web3auth-social-login-exploit/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Only the official X post and smaller outlets so far; no confirmed loss amount"
+  ],
+  "market_significance": "Wallet security for social-login users",
+  "trigger": "search",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261107_418243",
+  "headline": "China's central bank official calls Solana's Shanghai promotion illegal",
+  "summary": "A People's Bank of China official told the state-affiliated Financial News that Solana-linked promotion in Shanghai, including ads in Lujiazui, supported illegal crypto activity. The Solana Foundation had not responded as of Saturday.",
+  "detected_at": "2026-11-07T22:15-05:00",
+  "active_since": "2026-11-07T22:15-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "SOL"
+  ],
+  "event_type": "regulatory",
+  "event_time": "2026-11-06T12:00-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://cryptoticker.io/en/solana-price-prediction-china-central-bank-shanghai-probe"
+  ],
+  "source_names": [
+   "CryptoTicker"
+  ],
+  "sources": [
+   {
+    "url": "https://cryptoticker.io/en/solana-price-prediction-china-central-bank-shanghai-probe",
+    "name": "CryptoTicker",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://cryptoticker.io/en/solana-price-prediction-china-central-bank-shanghai-probe",
+    "name": "CryptoTicker",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CryptoTicker",
+     "url": "https://cryptoticker.io/en/solana-price-prediction-china-central-bank-shanghai-probe",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Single secondary source citing Cointelegraph; no new formal action"
+  ],
+  "market_significance": "Regulatory pressure on Solana marketing in China",
+  "trigger": "search",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
