@@ -46084,7 +46084,8 @@
    "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-4-2026",
    "https://www.investing.com/news/stock-market-news/binance-cfo-exits-days-after-catastrophic-6-billion-crypto-hack-5009968",
    "https://www.investing.com/news/stock-market-news/binance-cfo-kaiser-ng-steps-down-justin-yek-named-new-finance-chief-5009978",
-   "https://techcrunch.com/2026/11/07/binance-cfo-is-leaving-to-pursue-a-new-venture-after-6-3-billion-hack/"
+   "https://techcrunch.com/2026/11/07/binance-cfo-is-leaving-to-pursue-a-new-venture-after-6-3-billion-hack/",
+   "https://www.theblock.co/news/business/2026-11-07-binance-cfo-steps-down-nine-days-after-record-hack-co-ceo-says-transition-was-planned-six-months-ago-435992"
   ],
   "source_names": [
    "The Block",
@@ -46097,7 +46098,8 @@
    "KuCoin",
    "Investing.com",
    "Reuters (via Investing.com)",
-   "TechCrunch"
+   "TechCrunch",
+   "The Block"
   ],
   "sources": [
    {
@@ -46177,6 +46179,13 @@
     "name": "TechCrunch",
     "kind": "secondary",
     "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-07-binance-cfo-steps-down-nine-days-after-record-hack-co-ceo-says-transition-was-planned-six-months-ago-435992",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
     "confirms": true
    }
   ],
@@ -46258,6 +46267,13 @@
     "name": "TechCrunch",
     "kind": "secondary",
     "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-07-binance-cfo-steps-down-nine-days-after-record-hack-co-ceo-says-transition-was-planned-six-months-ago-435992",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
     "confirms": true
    }
   ],
@@ -46345,6 +46361,13 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-07-binance-cfo-steps-down-nine-days-after-record-hack-co-ceo-says-transition-was-planned-six-months-ago-435992",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -46391,6 +46414,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 3,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-07T19:13-05:00",
+    "headline": "Binance CFO Kaiser Ng steps down nine days after the record hack; co-CEO Yi He says the handover was planned six months ago",
+    "summary": "Binance co-CEO Yi He said CFO Kaiser Ng is leaving to pursue a new venture after more than five years, replaced by former Airwallex finance VP Justin Yek. She said the transition plan predates the October 29 hack.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "VERIFIED"
    }
   ],
@@ -51224,6 +51256,15 @@
     "level": "NORMAL",
     "sources_added": 0,
     "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-07T19:13-05:00",
+    "headline": "Spot bitcoin ETFs turn negative for 2026 after a $1.28 billion outflow week, the worst since June",
+    "summary": "SoSoValue data cited by The Block shows twelve US spot bitcoin ETFs lost $1.28 billion last week, pushing year-to-date flows to about minus $914 million. Ether ETFs had a sixth straight week of outflows.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
    }
   ],
   "posts": [],
@@ -51910,6 +51951,99 @@
   ],
   "market_significance": "Large retail crypto user base in Brazil",
   "trigger": "Bloomberg report, summarized by Coin Gabbar",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261107_bc68b2",
+  "headline": "Former FBI agent pleads guilty to stealing about $2.47 million in crypto from wallets tied to 35 investigations",
+  "summary": "Patrick Yaroch, an ex-FBI supervisory special agent, pleaded guilty to wire fraud and money laundering for taking about $2.47 million in crypto from wallets seized or tracked in FBI cases. Sentencing is set for March 4, 2027.",
+  "detected_at": "2026-11-07T19:13-05:00",
+  "active_since": "2026-11-07T19:13-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.9,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "legal",
+  "event_time": "2026-11-05T12:00-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.justice.gov/usao-edva/pr/former-fbi-agent-pleads-guilty-cryptocurrency-theft",
+   "https://www.theblock.co/news/regulation/2026-11-07-ex-fbi-agent-pleads-guilty-to-stealing-2-47-million-in-crypto-from-wallets-tied-to-35-investigations-435988"
+  ],
+  "source_names": [
+   "U.S. Attorney's Office E.D. Va.",
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.justice.gov/usao-edva/pr/former-fbi-agent-pleads-guilty-cryptocurrency-theft",
+    "name": "U.S. Attorney's Office E.D. Va.",
+    "kind": "primary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-07-ex-fbi-agent-pleads-guilty-to-stealing-2-47-million-in-crypto-from-wallets-tied-to-35-investigations-435988",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.justice.gov/usao-edva/pr/former-fbi-agent-pleads-guilty-cryptocurrency-theft",
+    "name": "U.S. Attorney's Office E.D. Va.",
+    "kind": "primary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-07-ex-fbi-agent-pleads-guilty-to-stealing-2-47-million-in-crypto-from-wallets-tied-to-35-investigations-435988",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "VERIFIED",
+  "verification": {
+   "status": "VERIFIED",
+   "independent_sources": 2,
+   "has_primary": true,
+   "score": 1.0,
+   "reason": "2 independent credible sources confirm it (incl. a primary source)",
+   "sources_checked": [
+    {
+     "name": "U.S. Attorney's Office E.D. Va.",
+     "url": "https://www.justice.gov/usao-edva/pr/former-fbi-agent-pleads-guilty-cryptocurrency-theft",
+     "category": "primary",
+     "counts": true,
+     "note": "primary (known official domain)"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-11-07-ex-fbi-agent-pleads-guilty-to-stealing-2-47-million-in-crypto-from-wallets-tied-to-35-investigations-435988",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Confirmed by DOJ, but a small criminal case with no market impact."
+  ],
+  "market_significance": "Insider theft of seized crypto by a federal agent.",
+  "trigger": "The Block report",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
