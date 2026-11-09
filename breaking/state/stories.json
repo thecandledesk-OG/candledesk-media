@@ -49885,15 +49885,24 @@
   "metrics": {},
   "emergency": false,
   "source_urls": [
-   "https://news.bitcoin.com/regulation-and-legal/elizabeth-warren-senate-banking-chair-crypto/"
+   "https://news.bitcoin.com/regulation-and-legal/elizabeth-warren-senate-banking-chair-crypto/",
+   "https://www.theblock.co/news/regulation/2026-11-09-senate-banking-elizabeth-warren-scrutiny-prediction-markets-trump-crypto-ventures-436898"
   ],
   "source_names": [
-   "Bitcoin.com"
+   "Bitcoin.com",
+   "The Block"
   ],
   "sources": [
    {
     "url": "https://news.bitcoin.com/regulation-and-legal/elizabeth-warren-senate-banking-chair-crypto/",
     "name": "Bitcoin.com",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-09-senate-banking-elizabeth-warren-scrutiny-prediction-markets-trump-crypto-ventures-436898",
+    "name": "The Block",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -49906,15 +49915,22 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-09-senate-banking-elizabeth-warren-scrutiny-prediction-markets-trump-crypto-ventures-436898",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "UNVERIFIED",
   "verification": {
    "status": "UNVERIFIED",
-   "independent_sources": 0,
+   "independent_sources": 1,
    "has_primary": false,
-   "score": 0.0,
-   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
    "sources_checked": [
     {
      "name": "Bitcoin.com",
@@ -49922,6 +49938,13 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-11-09-senate-banking-elizabeth-warren-scrutiny-prediction-markets-trump-crypto-ventures-436898",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -49933,7 +49956,17 @@
   "content_created": false,
   "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-11-09T16:11-05:00",
+    "headline": "Elizabeth Warren vows scrutiny of prediction markets and Trump family crypto ventures as incoming Senate Banking chair",
+    "summary": "Warren is set to chair the Senate Banking Committee from January. Her aide listed prediction markets and accountability among priorities and said Trump family crypto businesses should preserve documents.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -51261,6 +51294,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 2,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-09T16:11-05:00",
+    "headline": "Binance hack launderers mint throwaway memecoins to move stolen NEAR, Elliptic says",
+    "summary": "Elliptic says launderers created six short-lived memecoins from November 5 to 7 to obscure about $430,000 in NEAR stolen in the Binance hack.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
     "verification": "UNVERIFIED"
    }
   ],
@@ -54960,6 +55002,275 @@
    "AI proposed NORMAL: Small firm registration"
   ],
   "market_significance": "Prediction market infrastructure",
+  "trigger": "The Block report",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261109_fb0063",
+  "headline": "Charles Schwab opens Solana, Avalanche and Chainlink trading in Schwab Crypto accounts",
+  "summary": "Schwab Crypto now lets eligible U.S. retail clients trade SOL, AVAX and LINK alongside bitcoin and ether, five assets in total, at a 0.75% fee per trade. The additions were first announced on August 27; Schwab says more assets will follow. Not available in New York, Louisiana or U.S. territories.",
+  "detected_at": "2026-11-09T16:11-05:00",
+  "active_since": "2026-11-09T16:11-05:00",
+  "classification": "IMPORTANT",
+  "proposed_level": "IMPORTANT",
+  "confidence": 0.7,
+  "assets": [
+   "SOL",
+   "AVAX",
+   "LINK"
+  ],
+  "event_type": "institutional",
+  "event_time": "2026-11-09T09:00-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/tech/2026/11/09/live-news-nvidia-slides-on-ceo-allegations-as-bitcoin-hovers-just-above-its-200-day-average",
+   "https://www.investing.com/news/company-news/schwab-adds-solana-avalanche-and-chainlink-to-crypto-platform-93CH-5012362",
+   "https://news.bitcoin.com/featured/charles-schwab-opens-crypto-trading-beyond-bitcoin-ether/",
+   "https://en.cryptonomist.ch/2026/11/09/charles-schwab-crypto-trading/",
+   "https://www.financialcontent.com/article/bizwire-2026-11-9-charles-schwab-makes-solana-avalanche-and-chainlink-available-to-trade-through-schwab-crypto-accounts",
+   "https://pressroom.aboutschwab.com/press-releases/press-release/2026/Charles-Schwab-Announces-Plans-to-Expand-Digital-Assets-Available-in-Schwab-Crypto-Accounts/default.aspx"
+  ],
+  "source_names": [
+   "CoinDesk",
+   "Investing.com",
+   "Bitcoin.com News",
+   "The Cryptonomist",
+   "Business Wire (via FinancialContent)",
+   "Schwab pressroom (Aug 27 plan)"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/tech/2026/11/09/live-news-nvidia-slides-on-ceo-allegations-as-bitcoin-hovers-just-above-its-200-day-average",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.investing.com/news/company-news/schwab-adds-solana-avalanche-and-chainlink-to-crypto-platform-93CH-5012362",
+    "name": "Investing.com",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "origin": "Schwab press release"
+   },
+   {
+    "url": "https://news.bitcoin.com/featured/charles-schwab-opens-crypto-trading-beyond-bitcoin-ether/",
+    "name": "Bitcoin.com News",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://en.cryptonomist.ch/2026/11/09/charles-schwab-crypto-trading/",
+    "name": "The Cryptonomist",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.financialcontent.com/article/bizwire-2026-11-9-charles-schwab-makes-solana-avalanche-and-chainlink-available-to-trade-through-schwab-crypto-accounts",
+    "name": "Business Wire (via FinancialContent)",
+    "kind": "primary",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://pressroom.aboutschwab.com/press-releases/press-release/2026/Charles-Schwab-Announces-Plans-to-Expand-Digital-Assets-Available-in-Schwab-Crypto-Accounts/default.aspx",
+    "name": "Schwab pressroom (Aug 27 plan)",
+    "kind": "primary",
+    "checked": true,
+    "confirms": false
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/tech/2026/11/09/live-news-nvidia-slides-on-ceo-allegations-as-bitcoin-hovers-just-above-its-200-day-average",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.investing.com/news/company-news/schwab-adds-solana-avalanche-and-chainlink-to-crypto-platform-93CH-5012362",
+    "name": "Investing.com",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "origin": "Schwab press release"
+   },
+   {
+    "url": "https://news.bitcoin.com/featured/charles-schwab-opens-crypto-trading-beyond-bitcoin-ether/",
+    "name": "Bitcoin.com News",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://en.cryptonomist.ch/2026/11/09/charles-schwab-crypto-trading/",
+    "name": "The Cryptonomist",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.financialcontent.com/article/bizwire-2026-11-9-charles-schwab-makes-solana-avalanche-and-chainlink-available-to-trade-through-schwab-crypto-accounts",
+    "name": "Business Wire (via FinancialContent)",
+    "kind": "primary",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://pressroom.aboutschwab.com/press-releases/press-release/2026/Charles-Schwab-Announces-Plans-to-Expand-Digital-Assets-Available-in-Schwab-Crypto-Accounts/default.aspx",
+    "name": "Schwab pressroom (Aug 27 plan)",
+    "kind": "primary",
+    "checked": true,
+    "confirms": false
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/tech/2026/11/09/live-news-nvidia-slides-on-ceo-allegations-as-bitcoin-hovers-just-above-its-200-day-average",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Investing.com",
+     "url": "https://www.investing.com/news/company-news/schwab-adds-solana-avalanche-and-chainlink-to-crypto-platform-93CH-5012362",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Bitcoin.com News",
+     "url": "https://news.bitcoin.com/featured/charles-schwab-opens-crypto-trading-beyond-bitcoin-ether/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "The Cryptonomist",
+     "url": "https://en.cryptonomist.ch/2026/11/09/charles-schwab-crypto-trading/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Business Wire (via FinancialContent)",
+     "url": "https://www.financialcontent.com/article/bizwire-2026-11-9-charles-schwab-makes-solana-avalanche-and-chainlink-available-to-trade-through-schwab-crypto-accounts",
+     "category": "primary",
+     "counts": false,
+     "note": "primary (claimed official source; domain not on the known list); not opened, so it doesn't count"
+    },
+    {
+     "name": "Schwab pressroom (Aug 27 plan)",
+     "url": "https://pressroom.aboutschwab.com/press-releases/press-release/2026/Charles-Schwab-Announces-Plans-to-Expand-Digital-Assets-Available-in-Schwab-Crypto-Accounts/default.aspx",
+     "category": "primary",
+     "counts": false,
+     "note": "primary (claimed official source; domain not on the known list); opened but does not confirm the claim"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed IMPORTANT: One of the largest U.S. brokerages switches on direct trading of three altcoins for its retail clients."
+  ],
+  "market_significance": "Broadens mainstream brokerage access beyond BTC and ETH.",
+  "trigger": "CoinDesk live blog and press-release coverage on November 9",
+  "content_created": false,
+  "publication_status": "BLOCKED_UNVERIFIED",
+  "related_story_ids": [],
+  "updates": [
+   {
+    "at": "2026-11-09T16:11-05:00",
+    "headline": "Bitcoin hovers just under $75,000 near its 200-day average as Nvidia slides; XRP down about 1%",
+    "summary": "Bitcoin traded near $74,800 Monday afternoon, ether near $2,127, SOL near $86.50 and XRP near $1.09, with daily moves of about one percent.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   }
+  ],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261109_c6d19d",
+  "headline": "Former employee sues the Ethereum Foundation and Vitalik Buterin over her firing",
+  "summary": "A former Ethereum Foundation employee filed suit in Colorado alleging retaliatory firing and discrimination. These are allegations; the defendants had not commented.",
+  "detected_at": "2026-11-09T16:11-05:00",
+  "active_since": "2026-11-09T16:11-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.75,
+  "assets": [
+   "ETH"
+  ],
+  "event_type": "legal",
+  "event_time": "2026-11-09T13:30-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/regulation/2026-11-09-ethereum-foundation-vitalik-buterin-sued-over-firing-suicide-pledge-dispute-436739"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-09-ethereum-foundation-vitalik-buterin-sued-over-firing-suicide-pledge-dispute-436739",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-09-ethereum-foundation-vitalik-buterin-sued-over-firing-suicide-pledge-dispute-436739",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-11-09-ethereum-foundation-vitalik-buterin-sued-over-firing-suicide-pledge-dispute-436739",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Employment lawsuit, no protocol impact."
+  ],
+  "market_significance": "Governance and reputation story for the Foundation.",
   "trigger": "The Block report",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
