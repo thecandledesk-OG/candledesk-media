@@ -51867,11 +51867,17 @@
   "emergency": false,
   "source_urls": [
    "https://koinbulteni.com/en/bitcoin-and-altcoins-market-overview-november-7-2026-292015.html",
-   "https://finwire.io/news/crypto-news/zec-and-cc-lead-altcoin-swings-as-btc-settles-at-76k-despite-us-iran-attacks-weekend-watch"
+   "https://finwire.io/news/crypto-news/zec-and-cc-lead-altcoin-swings-as-btc-settles-at-76k-despite-us-iran-attacks-weekend-watch",
+   "https://www.tokenpost.com/news/investing/51861",
+   "https://cryptoticker.io/en/ethereum-price-long-liquidations-november-8-2026/",
+   "https://news.bitcoin.com/market-updates/weekly-report-crypto-market-erases-100b-rally-as-bitcoin-xrp-prices-slide/"
   ],
   "source_names": [
    "Koin Bulteni",
-   "Finwire"
+   "Finwire",
+   "TokenPost",
+   "CryptoTicker",
+   "Bitcoin.com News"
   ],
   "sources": [
    {
@@ -51884,6 +51890,27 @@
    {
     "url": "https://finwire.io/news/crypto-news/zec-and-cc-lead-altcoin-swings-as-btc-settles-at-76k-despite-us-iran-attacks-weekend-watch",
     "name": "Finwire",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.tokenpost.com/news/investing/51861",
+    "name": "TokenPost",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptoticker.io/en/ethereum-price-long-liquidations-november-8-2026/",
+    "name": "CryptoTicker",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://news.bitcoin.com/market-updates/weekly-report-crypto-market-erases-100b-rally-as-bitcoin-xrp-prices-slide/",
+    "name": "Bitcoin.com News",
     "kind": "other",
     "checked": true,
     "confirms": true
@@ -51900,6 +51927,27 @@
    {
     "url": "https://finwire.io/news/crypto-news/zec-and-cc-lead-altcoin-swings-as-btc-settles-at-76k-despite-us-iran-attacks-weekend-watch",
     "name": "Finwire",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.tokenpost.com/news/investing/51861",
+    "name": "TokenPost",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptoticker.io/en/ethereum-price-long-liquidations-november-8-2026/",
+    "name": "CryptoTicker",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://news.bitcoin.com/market-updates/weekly-report-crypto-market-erases-100b-rally-as-bitcoin-xrp-prices-slide/",
+    "name": "Bitcoin.com News",
     "kind": "other",
     "checked": true,
     "confirms": true
@@ -51926,6 +51974,27 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "TokenPost",
+     "url": "https://www.tokenpost.com/news/investing/51861",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CryptoTicker",
+     "url": "https://cryptoticker.io/en/ethereum-price-long-liquidations-november-8-2026/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Bitcoin.com News",
+     "url": "https://news.bitcoin.com/market-updates/weekly-report-crypto-market-erases-100b-rally-as-bitcoin-xrp-prices-slide/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -51938,7 +52007,17 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-11-08T19:09-05:00",
+    "headline": "Ether drops about 5% to near $2,120 as $343 million in long positions are liquidated; bitcoin slips to about $74,300",
+    "summary": "Ether fell roughly 4 to 5 percent over 24 hours on Sunday to about $2,120 after an 8 percent high-to-low swing, with about $343 million in long liquidations. Bitcoin slipped about 1.6 to 2 percent to near $74,300, XRP about 4.8 percent to $1.11 and SOL about 2.8 percent to $86.50, heading into a fifth straight weekly loss for bitcoin.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 3,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -52252,6 +52331,15 @@
     "new_development": true,
     "level": "NORMAL",
     "sources_added": 2,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-08T19:09-05:00",
+    "headline": "Web3Auth says it moved $5.6 million out of exposed Keplr social-login wallets ahead of the attacker; Bitquery puts theft near $6 million across 44,000 wallets",
+    "summary": "Consensys-owned Web3Auth published 12 recovery addresses holding about $5.6 million, mostly ATOM, swept from Keplr Google and Apple login wallets exposed by its key flaw. Bitquery estimates a thief took about $6 million from more than 44,000 wallets. Recovery-phrase and hardware-wallet users are unaffected.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 0,
     "verification": "UNVERIFIED"
    }
   ],
@@ -53168,6 +53256,76 @@
   ],
   "market_significance": "Shapes the ETH value narrative debate",
   "trigger": "The Block report",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261108_1ee1b2",
+  "headline": "Onchain data casts doubt on insider-trading theory behind NYT's suspicious midterm election betting story",
+  "summary": "The Block's review of the trader behind Polymarket and Kalshi Senate bets flagged by Vanderbilt researchers found a long history of large risky trades; experts say ordinary explanations fit better, though foul play can't be ruled out.",
+  "detected_at": "2026-11-08T19:09-05:00",
+  "active_since": "2026-11-08T19:09-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "other",
+  "event_time": "2026-11-08T18:07-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/defi/2026-11-08-onchain-data-casts-doubt-on-insider-trading-theory-in-nyts-suspicious-election-betting-story-436034"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/defi/2026-11-08-onchain-data-casts-doubt-on-insider-trading-theory-in-nyts-suspicious-election-betting-story-436034",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/defi/2026-11-08-onchain-data-casts-doubt-on-insider-trading-theory-in-nyts-suspicious-election-betting-story-436034",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/defi/2026-11-08-onchain-data-casts-doubt-on-insider-trading-theory-in-nyts-suspicious-election-betting-story-436034",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Analysis piece, no market impact."
+  ],
+  "market_significance": "Prediction market scrutiny after midterms.",
+  "trigger": "The Block latest news",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
