@@ -1,0 +1,32 @@
+{
+ "story_id": "st_20261109_f9e090",
+ "date_label": "NOV 9",
+ "headline": "NYSE picks Avalanche to settle tokenized stocks",
+ "sources": [
+  {"name": "Ava Labs", "url": "https://www.prnewswire.com/news-releases/avalanche-to-serve-as-core-ledger-technology-for-clearing-and-settlement-of-nyse-affiliated-upcoming-tokenized-securities-platform-302932803.html"},
+  {"name": "CoinDesk", "url": "https://www.coindesk.com/business/2026/11/09/nyse-picks-avalanche-to-settle-tokenized-stocks-amid-wall-street-s-blockchain-race"},
+  {"name": "The Block", "url": "https://www.theblock.co/news/business/2026-11-09-nyse-settle-tokenized-stocks-avalanche-planned-24-7-market-436208"}
+ ],
+ "scenes": [
+  {"beat": "hook", "who": "ledger",
+   "vo": "The New York Stock Exchange just picked a public blockchain to settle tokenized stocks. Here's what changed.",
+   "chunks": ["NYSE picks a chain", "*Avalanche*", "Here's what changed"]},
+  {"beat": "what_happened", "who": "ledger",
+   "vo": "On Monday, Ava Labs said Avalanche will be the core ledger for clearing and settling trades on an upcoming N Y S E linked tokenized stock platform, built for trading around the clock.",
+   "chunks": ["Core ledger for", "*clearing + settlement*", "24/7 tokenized stocks"],
+   "stat": {"label": "Sources", "text": "Ava Labs · CoinDesk · The Block"}},
+  {"beat": "why_it_matters", "who": "bruno",
+   "vo": "Here's why traders are watching it. The biggest stock exchange in the world is putting real settlement on a public chain. CoinDesk says the token rose about eight percent in a day.",
+   "chunks": ["Wall Street", "*on a public chain*", "AVAX up ~8%"]},
+  {"beat": "why_it_matters", "who": "ursa",
+   "vo": "The catch? Nothing is live yet. The platform still needs regulatory approval, and the release gives no launch date.",
+   "chunks": ["Not live yet", "*Needs approval*", "No launch date"]},
+  {"beat": "watch_next", "who": "moby",
+   "vo": "Here's what happens next. Watch for the regulatory sign off, a confirmed launch date, and which stocks get tokenized first.",
+   "chunks": ["What's next", "*Regulator sign-off*", "First listed stocks"]},
+  {"beat": "cta", "who": "all",
+   "vo": "Follow The Candle Desk for crypto news without the hype. Not financial advice.",
+   "chunks": ["Follow The Candle Desk", "*No hype*", "Just the news"],
+   "foot": "NOT FINANCIAL ADVICE"}
+ ]
+}

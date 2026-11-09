@@ -49618,12 +49618,16 @@
   "source_urls": [
    "https://koinbulteni.com/en/bitcoin-and-altcoins-market-overview-november-6-2026-291953.html",
    "https://riotimesonline.com/crypto-markets-bitcoin-majors-friday-november-6-2026",
-   "https://crypto.news/bitcoin-price-today-rebounds-76000-etf-outflows/"
+   "https://crypto.news/bitcoin-price-today-rebounds-76000-etf-outflows/",
+   "https://www.coindesk.com/markets/2026/11/09/tech-selloff-weighs-on-crypto-majors",
+   "https://www.theblock.co/news/markets/2026-11-09-bitcoin-loses-50-week-moving-average-as-24-hour-crypto-long-liquidations-top-1-billion-436102"
   ],
   "source_names": [
    "Koin Bulteni",
    "The Rio Times",
-   "crypto.news"
+   "crypto.news",
+   "CoinDesk",
+   "The Block"
   ],
   "sources": [
    {
@@ -49644,6 +49648,20 @@
     "url": "https://crypto.news/bitcoin-price-today-rebounds-76000-etf-outflows/",
     "name": "crypto.news",
     "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/11/09/tech-selloff-weighs-on-crypto-majors",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-09-bitcoin-loses-50-week-moving-average-as-24-hour-crypto-long-liquidations-top-1-billion-436102",
+    "name": "The Block",
+    "kind": "secondary",
     "checked": true,
     "confirms": true
    }
@@ -49669,15 +49687,29 @@
     "kind": "other",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/11/09/tech-selloff-weighs-on-crypto-majors",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-09-bitcoin-loses-50-week-moving-average-as-24-hour-crypto-long-liquidations-top-1-billion-436102",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
-  "verification_status": "UNVERIFIED",
+  "verification_status": "VERIFIED",
   "verification": {
-   "status": "UNVERIFIED",
-   "independent_sources": 0,
+   "status": "VERIFIED",
+   "independent_sources": 2,
    "has_primary": false,
-   "score": 0.0,
-   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "score": 0.8,
+   "reason": "2 independent credible sources confirm it (no primary source yet)",
    "sources_checked": [
     {
      "name": "Koin Bulteni",
@@ -49699,6 +49731,20 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/11/09/tech-selloff-weighs-on-crypto-majors",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/markets/2026-11-09-bitcoin-loses-50-week-moving-average-as-24-hour-crypto-long-liquidations-top-1-billion-436102",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -49728,6 +49774,15 @@
     "level": "IMPORTANT",
     "sources_added": 2,
     "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-09T10:19-05:00",
+    "headline": "Crypto majors slide on an Nvidia-led tech selloff: ether down about 5%, XRP about 5%, bitcoin near $75,000",
+    "summary": "Ether fell about 5% to near $2,128, XRP about 5% to $1.10, SOL about 2.5% and bitcoin about 1.4% to near $74,900 as an Nvidia-led tech selloff weighed on risk; ETH closed below its 200-day average and 24h liquidations topped $1.1 billion.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "VERIFIED"
    }
   ],
   "posts": [],
@@ -53526,7 +53581,7 @@
   "market_significance": "Sharp leverage flush, but price moves are within normal range.",
   "trigger": "Fast ether drop 22:50-23:00 CET with long liquidations",
   "content_created": false,
-  "publication_status": "QUEUED_FOR_DAILY",
+  "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
   "updates": [
    {
@@ -53536,6 +53591,33 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 3,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-09T10:18-05:00",
+    "headline": "$1.11 billion in crypto liquidations in 24 hours, about 92% longs",
+    "summary": "Here's what moved the chain today. One point one billion dollars in liquidations, mostly longs.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-09T10:18-05:00",
+    "headline": "Bitcoin holds near $74,000 after leverage flush",
+    "summary": "Green candles only! Leverage got flushed, and Bitcoin still sits near seventy-four thousand!",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-09T10:18-05:00",
+    "headline": "Whale's $48 million ether long liquidated on Binance",
+    "summary": "Psst... one whale's forty-eight million dollar Ether long just got wiped out on Binance.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
     "verification": "UNVERIFIED"
    }
   ],
@@ -53911,6 +53993,440 @@
   ],
   "market_significance": "Minor.",
   "trigger": "The Block latest",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261109_addba7",
+  "headline": "Hot jobs data pushes December Fed hike odds near 80%",
+  "summary": "Check the yields first. Hot jobs data pushed December Fed hike odds near eighty percent.",
+  "detected_at": "2026-11-09T10:18-05:00",
+  "active_since": "2026-11-09T10:18-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "TOTAL_MARKET",
+   "BTC"
+  ],
+  "event_type": "macro",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://crypto.news/why-is-the-crypto-market-down-today-bitcoin-ethereum-in-red/",
+   "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-9-2026"
+  ],
+  "source_names": [
+   "crypto.news",
+   "KuCoin daily report"
+  ],
+  "sources": [
+   {
+    "url": "https://crypto.news/why-is-the-crypto-market-down-today-bitcoin-ethereum-in-red/",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-9-2026",
+    "name": "KuCoin daily report",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://crypto.news/why-is-the-crypto-market-down-today-bitcoin-ethereum-in-red/",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-9-2026",
+    "name": "KuCoin daily report",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/why-is-the-crypto-market-down-today-bitcoin-ethereum-in-red/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "KuCoin daily report",
+     "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-9-2026",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [
+   {
+    "at": "2026-11-09T10:18-05:00",
+    "headline": "FinCEN tells US banks to block certain MEXC transfers; MEXC says operations are normal",
+    "summary": "Wildcard: FinCEN told US banks to block certain MEXC transfers. MEXC says operations are normal.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   }
+  ],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261109_f9e090",
+  "headline": "NYSE picks Avalanche as the core ledger to clear and settle trades on its planned 24/7 tokenized securities platform",
+  "summary": "Ava Labs said Monday that Avalanche will provide the core ledger technology for the clearing firm of an upcoming NYSE-affiliated tokenized securities trading venue designed for 24/7 trading, clearing and settlement. NYSE's head of digital issuance Dennis Lee is quoted. The platform is not live and still needs regulatory approval; no launch date was given in the release. AVAX rose about 8% in 24 hours per CoinDesk.",
+  "detected_at": "2026-11-09T10:19-05:00",
+  "active_since": "2026-11-09T10:19-05:00",
+  "classification": "IMPORTANT",
+  "proposed_level": "IMPORTANT",
+  "confidence": 0.85,
+  "assets": [
+   "AVAX"
+  ],
+  "event_type": "partnership",
+  "event_time": "2026-11-09T08:00-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.prnewswire.com/news-releases/avalanche-to-serve-as-core-ledger-technology-for-clearing-and-settlement-of-nyse-affiliated-upcoming-tokenized-securities-platform-302932803.html",
+   "https://www.coindesk.com/business/2026/11/09/nyse-picks-avalanche-to-settle-tokenized-stocks-amid-wall-street-s-blockchain-race",
+   "https://www.theblock.co/news/business/2026-11-09-nyse-settle-tokenized-stocks-avalanche-planned-24-7-market-436208"
+  ],
+  "source_names": [
+   "Ava Labs press release (PR Newswire)",
+   "CoinDesk",
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.prnewswire.com/news-releases/avalanche-to-serve-as-core-ledger-technology-for-clearing-and-settlement-of-nyse-affiliated-upcoming-tokenized-securities-platform-302932803.html",
+    "name": "Ava Labs press release (PR Newswire)",
+    "kind": "primary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/business/2026/11/09/nyse-picks-avalanche-to-settle-tokenized-stocks-amid-wall-street-s-blockchain-race",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-09-nyse-settle-tokenized-stocks-avalanche-planned-24-7-market-436208",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.prnewswire.com/news-releases/avalanche-to-serve-as-core-ledger-technology-for-clearing-and-settlement-of-nyse-affiliated-upcoming-tokenized-securities-platform-302932803.html",
+    "name": "Ava Labs press release (PR Newswire)",
+    "kind": "primary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/business/2026/11/09/nyse-picks-avalanche-to-settle-tokenized-stocks-amid-wall-street-s-blockchain-race",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-09-nyse-settle-tokenized-stocks-avalanche-planned-24-7-market-436208",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "VERIFIED",
+  "verification": {
+   "status": "VERIFIED",
+   "independent_sources": 3,
+   "has_primary": true,
+   "score": 1.0,
+   "reason": "3 independent credible sources confirm it (incl. a primary source)",
+   "sources_checked": [
+    {
+     "name": "Ava Labs press release (PR Newswire)",
+     "url": "https://www.prnewswire.com/news-releases/avalanche-to-serve-as-core-ledger-technology-for-clearing-and-settlement-of-nyse-affiliated-upcoming-tokenized-securities-platform-302932803.html",
+     "category": "primary",
+     "counts": true,
+     "note": "primary (claimed official source; domain not on the known list)"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/business/2026/11/09/nyse-picks-avalanche-to-settle-tokenized-stocks-amid-wall-street-s-blockchain-race",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-09-nyse-settle-tokenized-stocks-avalanche-planned-24-7-market-436208",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed IMPORTANT: Official Ava Labs release with an NYSE executive quote, confirmed by CoinDesk and The Block."
+  ],
+  "market_significance": "The world's largest stock exchange choosing a public blockchain for settlement of tokenized equities is a major institutional adoption step.",
+  "trigger": "The Block latest-news page",
+  "content_created": true,
+  "publication_status": "DRAFTED",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [
+   "6af1e5b55e3b5af1e0001083",
+   "6af1e5b56a38b0c77dd899fa",
+   "6af1e5b67fbb6ac6d2ef3d6f"
+  ],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261109_9273e3",
+  "headline": "Strategy buys 1,036 more bitcoin for about $82 million, holdings top 850,000 BTC",
+  "summary": "Strategy bought 1,036 BTC between Nov 2 and Nov 8 at about $79,012 each, bringing holdings to 850,364 BTC, per a Monday SEC filing.",
+  "detected_at": "2026-11-09T10:19-05:00",
+  "active_since": "2026-11-09T10:19-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.9,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "institutional",
+  "event_time": "2026-11-09T08:00-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-11-09-connecting-the-dots-michael-saylor-strategy-bitcoin-436094"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-09-connecting-the-dots-michael-saylor-strategy-bitcoin-436094",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-09-connecting-the-dots-michael-saylor-strategy-bitcoin-436094",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-09-connecting-the-dots-michael-saylor-strategy-bitcoin-436094",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Routine weekly purchase."
+  ],
+  "market_significance": "Largest corporate holder keeps buying during the slide.",
+  "trigger": "The Block",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261109_ff8aee",
+  "headline": "Tom Lee's Bitmine nears its 5% ether supply target with a $20 million ETH buy",
+  "summary": "Bitmine added about $20 million of ETH, moving closer to its goal of holding 5% of ether's supply.",
+  "detected_at": "2026-11-09T10:19-05:00",
+  "active_since": "2026-11-09T10:19-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.75,
+  "assets": [
+   "ETH"
+  ],
+  "event_type": "institutional",
+  "event_time": "2026-11-09T09:32-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-11-09-tom-lee-bitmine-nears-ethereum-supply-target-20-million-eth-tokenization-ai-supercycle-436219"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-09-tom-lee-bitmine-nears-ethereum-supply-target-20-million-eth-tokenization-ai-supercycle-436219",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-09-tom-lee-bitmine-nears-ethereum-supply-target-20-million-eth-tokenization-ai-supercycle-436219",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-09-tom-lee-bitmine-nears-ethereum-supply-target-20-million-eth-tokenization-ai-supercycle-436219",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Routine treasury purchase."
+  ],
+  "market_significance": "Largest ETH treasury company still accumulating.",
+  "trigger": "The Block",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261109_730c5d",
+  "headline": "Formation notifies SEC it will run a tokenized securities venue on Solana, targeting early 2027",
+  "summary": "Formation Securities told the SEC it plans to operate a tokenized stock venue on Solana under the SEC innovation exemption, with trading targeted for early 2027.",
+  "detected_at": "2026-11-09T10:19-05:00",
+  "active_since": "2026-11-09T10:19-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.75,
+  "assets": [
+   "SOL"
+  ],
+  "event_type": "regulatory",
+  "event_time": "2026-11-09T07:30-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/defi/2026-11-09-formation-tokenized-securities-solana-436060"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/defi/2026-11-09-formation-tokenized-securities-solana-436060",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/defi/2026-11-09-formation-tokenized-securities-solana-436060",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/defi/2026-11-09-formation-tokenized-securities-solana-436060",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Planned venue, not live; single outlet so far."
+  ],
+  "market_significance": "Another tokenized-stock venue lining up on a public chain.",
+  "trigger": "The Block",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
