@@ -53366,12 +53366,18 @@
   "source_urls": [
    "https://www.tokenpost.com/news/investing/51929",
    "https://cryptoticker.io/en/ethereum-price-drops-below-2000-euro-sunday-sell-off/",
-   "https://www.coindesk.com/price/bitcoin"
+   "https://www.coindesk.com/price/bitcoin",
+   "https://www.blockchain.com/explorer/prices",
+   "https://ethnews.com/bitcoin-falls-below-74000-as-ethereum-leads-1-1b-wipeout/",
+   "https://www.analyticsinsight.net/cryptocurrency-analytics-insight/crypto-prices-today-bitcoin-slips-to-usd-74600-as-ether-and-xrp-lead-declines"
   ],
   "source_names": [
    "TokenPost",
    "CryptoTicker",
-   "CoinDesk price page"
+   "CoinDesk price page",
+   "Blockchain.com prices",
+   "ETHNews",
+   "Analytics Insight"
   ],
   "sources": [
    {
@@ -53394,6 +53400,27 @@
     "kind": "secondary",
     "checked": true,
     "confirms": false
+   },
+   {
+    "url": "https://www.blockchain.com/explorer/prices",
+    "name": "Blockchain.com prices",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://ethnews.com/bitcoin-falls-below-74000-as-ethereum-leads-1-1b-wipeout/",
+    "name": "ETHNews",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.analyticsinsight.net/cryptocurrency-analytics-insight/crypto-prices-today-bitcoin-slips-to-usd-74600-as-ether-and-xrp-lead-declines",
+    "name": "Analytics Insight",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -53417,6 +53444,27 @@
     "kind": "secondary",
     "checked": true,
     "confirms": false
+   },
+   {
+    "url": "https://www.blockchain.com/explorer/prices",
+    "name": "Blockchain.com prices",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://ethnews.com/bitcoin-falls-below-74000-as-ethereum-leads-1-1b-wipeout/",
+    "name": "ETHNews",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.analyticsinsight.net/cryptocurrency-analytics-insight/crypto-prices-today-bitcoin-slips-to-usd-74600-as-ether-and-xrp-lead-declines",
+    "name": "Analytics Insight",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "UNVERIFIED",
@@ -53447,6 +53495,27 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; opened but does not confirm the claim"
+    },
+    {
+     "name": "Blockchain.com prices",
+     "url": "https://www.blockchain.com/explorer/prices",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "ETHNews",
+     "url": "https://ethnews.com/bitcoin-falls-below-74000-as-ethereum-leads-1-1b-wipeout/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Analytics Insight",
+     "url": "https://www.analyticsinsight.net/cryptocurrency-analytics-insight/crypto-prices-today-bitcoin-slips-to-usd-74600-as-ether-and-xrp-lead-declines",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -53456,6 +53525,392 @@
   ],
   "market_significance": "Sharp leverage flush, but price moves are within normal range.",
   "trigger": "Fast ether drop 22:50-23:00 CET with long liquidations",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [
+   {
+    "at": "2026-11-09T07:14-05:00",
+    "headline": "Bitcoin slips below $74,000 as ether and XRP fall about 6% and roughly $1.1 billion in crypto positions are liquidated",
+    "summary": "Monday morning: BTC about $74,100 (-2.3% 24h), ETH about $2,108 (-5.6%), XRP about $1.08 (-6.6%), SOL about $86 (-3.6%). About $1.1B liquidated, mostly longs. Drivers cited: post-midterm regulatory uncertainty, ETF outflows, higher odds of a December Fed hike; CPI due Tuesday.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 3,
+    "verification": "UNVERIFIED"
+   }
+  ],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261109_9f8538",
+  "headline": "Binance France emails users that all accounts close on December 31, with fees on balances left after November 29",
+  "summary": "Binance France told users by email it is ceasing activity in France; accounts close Dec 31, and balances left after Nov 29 face a 0.025% monthly fee (min 10 USDC). Context: Binance did not secure MiCA authorization. Binance has not publicly confirmed the France closure.",
+  "detected_at": "2026-11-09T07:14-05:00",
+  "active_since": "2026-11-09T07:14-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "BNB"
+  ],
+  "event_type": "exchange",
+  "event_time": "2026-11-07T12:00:00Z",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://cointelegraph.com/news/binance-france-emails-announce-closure-of-its-users-accounts-on-dec-31"
+  ],
+  "source_names": [
+   "Cointelegraph"
+  ],
+  "sources": [
+   {
+    "url": "https://cointelegraph.com/news/binance-france-emails-announce-closure-of-its-users-accounts-on-dec-31",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://cointelegraph.com/news/binance-france-emails-announce-closure-of-its-users-accounts-on-dec-31",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Cointelegraph",
+     "url": "https://cointelegraph.com/news/binance-france-emails-announce-closure-of-its-users-accounts-on-dec-31",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: First reported Saturday, more than 12 hours ago; no primary confirmation."
+  ],
+  "market_significance": "Major exchange exiting a big EU market under MiCA.",
+  "trigger": "Cointelegraph latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261109_6295de",
+  "headline": "Trump says he knows 'nothing' about UAE-linked investment in World Liberty Financial",
+  "summary": "In a 60 Minutes interview Trump said his sons run World Liberty Financial and he knows nothing about foreign investors, amid scrutiny of a reported 49% stake in a WLFI-linked entity tied to UAE adviser Sheikh Tahnoon.",
+  "detected_at": "2026-11-09T07:14-05:00",
+  "active_since": "2026-11-09T07:14-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "WLFI"
+  ],
+  "event_type": "other",
+  "event_time": "2026-11-09T10:33:00Z",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-11-09-trump-says-he-knows-nothing-about-uae-linked-investment-in-his-crypto-firm-436079"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-09-trump-says-he-knows-nothing-about-uae-linked-investment-in-his-crypto-firm-436079",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-09-trump-says-he-knows-nothing-about-uae-linked-investment-in-his-crypto-firm-436079",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-09-trump-says-he-knows-nothing-about-uae-linked-investment-in-his-crypto-firm-436079",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Political commentary, no market-moving action."
+  ],
+  "market_significance": "Ongoing scrutiny of WLFI.",
+  "trigger": "The Block latest",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261109_89286f",
+  "headline": "Zama spin-off Raycash launches confidential stablecoin payments and private yield on Ethereum",
+  "summary": "Raycash, spun out of Zama, launched confidential stablecoin payments and private yield on Ethereum.",
+  "detected_at": "2026-11-09T07:14-05:00",
+  "active_since": "2026-11-09T07:14-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "ETH"
+  ],
+  "event_type": "other",
+  "event_time": "2026-11-09T09:05:00Z",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/defi/2026-11-09-zama-spin-off-raycash-launches-confidential-stablecoin-payments-private-yield-ethereum-435909"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/defi/2026-11-09-zama-spin-off-raycash-launches-confidential-stablecoin-payments-private-yield-ethereum-435909",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/defi/2026-11-09-zama-spin-off-raycash-launches-confidential-stablecoin-payments-private-yield-ethereum-435909",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/defi/2026-11-09-zama-spin-off-raycash-launches-confidential-stablecoin-payments-private-yield-ethereum-435909",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Small product launch."
+  ],
+  "market_significance": "Privacy for stablecoin payments.",
+  "trigger": "The Block latest",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261109_5593a8",
+  "headline": "Ankr bridge exploit drains about $303,000 using a reused Optimism deposit",
+  "summary": "An attacker reportedly drained about $303K-$304K from an Ankr bridge using forged cross-chain receipts. Pages could not be opened to confirm details.",
+  "detected_at": "2026-11-09T07:14-05:00",
+  "active_since": "2026-11-09T07:14-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "ETH"
+  ],
+  "event_type": "hack_exploit",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {
+   "loss_usd": 303000
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://www.cryptotimes.io/2026/11/09/ankr-bridge-hack-304k-drained-using-forged-cross-chain-receipts/",
+   "https://www.bitbase.com/news/ankr-ethereum-bridge-exploit-303k-loss"
+  ],
+  "source_names": [
+   "The Crypto Times",
+   "Bitbase"
+  ],
+  "sources": [
+   {
+    "url": "https://www.cryptotimes.io/2026/11/09/ankr-bridge-hack-304k-drained-using-forged-cross-chain-receipts/",
+    "name": "The Crypto Times",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://www.bitbase.com/news/ankr-ethereum-bridge-exploit-303k-loss",
+    "name": "Bitbase",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.cryptotimes.io/2026/11/09/ankr-bridge-hack-304k-drained-using-forged-cross-chain-receipts/",
+    "name": "The Crypto Times",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://www.bitbase.com/news/ankr-ethereum-bridge-exploit-303k-loss",
+    "name": "Bitbase",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Crypto Times",
+     "url": "https://www.cryptotimes.io/2026/11/09/ankr-bridge-hack-304k-drained-using-forged-cross-chain-receipts/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Bitbase",
+     "url": "https://www.bitbase.com/news/ankr-ethereum-bridge-exploit-303k-loss",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Loss far below $10M threshold; unconfirmed.",
+   "hack rule: about $0M lost (thresholds $10M/$100M) -> NORMAL"
+  ],
+  "market_significance": "Small bridge exploit.",
+  "trigger": "search",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261109_b07203",
+  "headline": "Robinhood brings US IPO access to UK retail investors",
+  "summary": "Robinhood extended US IPO access to UK retail customers.",
+  "detected_at": "2026-11-09T07:14-05:00",
+  "active_since": "2026-11-09T07:14-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "other",
+  "event_time": "2026-11-09T10:48:00Z",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-11-09-crypto-friendly-robinhood-brings-us-ipo-access-to-uk-retail-investors-436089"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-09-crypto-friendly-robinhood-brings-us-ipo-access-to-uk-retail-investors-436089",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-09-crypto-friendly-robinhood-brings-us-ipo-access-to-uk-retail-investors-436089",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-09-crypto-friendly-robinhood-brings-us-ipo-access-to-uk-retail-investors-436089",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Not a crypto market event."
+  ],
+  "market_significance": "Minor.",
+  "trigger": "The Block latest",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
