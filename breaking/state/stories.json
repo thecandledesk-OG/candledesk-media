@@ -52341,6 +52341,15 @@
     "level": "NORMAL",
     "sources_added": 0,
     "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-08T22:13-05:00",
+    "headline": "Web3Auth says it moved $5.6 million out of exposed Keplr wallets ahead of hackers; thief took about $6 million",
+    "summary": "Web3Auth, which runs Google and Apple sign-in for Keplr, swept about $5.6 million (mostly 2.49 million ATOM) into 12 recovery addresses. Bitquery says a thief collected about $6 million from more than 44,000 Keplr wallets. Keplr co-founder Josh Lee estimates about 20% of social-login accounts were affected; recovery-phrase and hardware-wallet users are not.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
    }
   ],
   "posts": [],
@@ -53326,6 +53335,127 @@
   ],
   "market_significance": "Prediction market scrutiny after midterms.",
   "trigger": "The Block latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261108_d6e5d2",
+  "headline": "Ether drops about 5% to near $2,120 on Sunday night as about $800 million in crypto longs are liquidated",
+  "summary": "Ether fell roughly 4% in about ten minutes late Sunday, to near $2,120 (Bitstamp low about $2,070), down about 5% on the day. About $803 million in crypto positions were liquidated in four hours, 93% of them longs, led by ether ($358M) and bitcoin ($233M). Bitcoin slipped about 1-2% to near $75,000. No single trigger has been named; spot ether ETFs have seen six straight weeks of outflows.",
+  "detected_at": "2026-11-08T22:13-05:00",
+  "active_since": "2026-11-08T22:13-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "ETH",
+   "BTC",
+   "TOTAL_MARKET"
+  ],
+  "event_type": "market_move",
+  "event_time": "2026-11-08T17:00-05:00",
+  "scheduled_event": false,
+  "metrics": {
+   "pct_move_24h": -5.1
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://www.tokenpost.com/news/investing/51929",
+   "https://cryptoticker.io/en/ethereum-price-drops-below-2000-euro-sunday-sell-off/",
+   "https://www.coindesk.com/price/bitcoin"
+  ],
+  "source_names": [
+   "TokenPost",
+   "CryptoTicker",
+   "CoinDesk price page"
+  ],
+  "sources": [
+   {
+    "url": "https://www.tokenpost.com/news/investing/51929",
+    "name": "TokenPost",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptoticker.io/en/ethereum-price-drops-below-2000-euro-sunday-sell-off/",
+    "name": "CryptoTicker",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/price/bitcoin",
+    "name": "CoinDesk price page",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": false
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.tokenpost.com/news/investing/51929",
+    "name": "TokenPost",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptoticker.io/en/ethereum-price-drops-below-2000-euro-sunday-sell-off/",
+    "name": "CryptoTicker",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/price/bitcoin",
+    "name": "CoinDesk price page",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": false
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "TokenPost",
+     "url": "https://www.tokenpost.com/news/investing/51929",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CryptoTicker",
+     "url": "https://cryptoticker.io/en/ethereum-price-drops-below-2000-euro-sunday-sell-off/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinDesk price page",
+     "url": "https://www.coindesk.com/price/bitcoin",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; opened but does not confirm the claim"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: ETH 24h move about -5%, BTC about -1%; both below IMPORTANT thresholds (9% / 7%).",
+   "price rule: ETH moved 5.1% in 24h (thresholds 9%/15%) -> NORMAL"
+  ],
+  "market_significance": "Sharp leverage flush, but price moves are within normal range.",
+  "trigger": "Fast ether drop 22:50-23:00 CET with long liquidations",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
