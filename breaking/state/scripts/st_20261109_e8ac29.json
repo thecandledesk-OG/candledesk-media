@@ -1,0 +1,31 @@
+{
+ "story_id": "st_20261109_e8ac29",
+ "date_label": "NOV 9",
+ "headline": "Coinbase wins final OCC trust charter",
+ "sources": [
+  {"name": "CoinDesk", "url": "https://www.coindesk.com/policy/2026/11/09/coinbase-gets-full-u-s-trust-charter-from-federal-banking-regulator"},
+  {"name": "Decrypt", "url": "https://decrypt.co/382816/coinbase-joins-circle-ripple-with-final-occ-approval-for-federal-trust-bank-charter"}
+ ],
+ "scenes": [
+  {"beat": "hook", "who": "ledger",
+   "vo": "Coinbase just got final sign off from a federal banking regulator for its own national trust company. Here's what changed.",
+   "chunks": ["Coinbase gets", "*final federal approval*", "Here's what changed"]},
+  {"beat": "what_happened", "who": "ledger",
+   "vo": "Coinbase says the Office of the Comptroller of the Currency gave final approval to Coinbase National Trust Company. It got conditional approval back in April.",
+   "chunks": ["OCC final approval", "*National trust charter*", "Conditional in April"],
+   "stat": {"label": "Sources", "text": "CoinDesk · Decrypt"}},
+  {"beat": "why_it_matters", "who": "bruno",
+   "vo": "Here's why traders are watching it. Coinbase custody for big institutions now sits under one federal regulator. Circle and Ripple already hold the same kind of charter.",
+   "chunks": ["Custody under", "*one federal regulator*", "Joins Circle, Ripple"]},
+  {"beat": "why_it_matters", "who": "ursa",
+   "vo": "The catch? This is not a regular bank. Coinbase says it won't take retail deposits, and a community bank group is suing the regulator over these charters.",
+   "chunks": ["Not a regular bank", "*No retail deposits*", "Bank group sues OCC"]},
+  {"beat": "watch_next", "who": "moby",
+   "vo": "Here's what happens next. Watch that lawsuit, and whether more crypto firms win the same approval.",
+   "chunks": ["What's next", "*The bank lawsuit*", "More crypto charters"]},
+  {"beat": "cta", "who": "all",
+   "vo": "Follow The Candle Desk for crypto news without the hype. Not financial advice.",
+   "chunks": ["Follow The Candle Desk", "*No hype*", "Just the news"],
+   "foot": "NOT FINANCIAL ADVICE"}
+ ]
+}
