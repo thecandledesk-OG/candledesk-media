@@ -55780,14 +55780,16 @@
    "https://crypto.news/why-is-ethereum-price-down-today-november-10-2026",
    "https://cryptoticker.io/en/bitcoin-price-us-cpi-no-annual-rate/",
    "https://crypto.news/bitcoin-price-falls-below-74000-as-hot-us-cpi-fuels-fed-rate-hike-fears/",
-   "https://www.coindesk.com/markets/2026/11/10/bitcoin-slips-before-u-s-inflation-report-as-traders-price-in-fed-rate-increase"
+   "https://www.coindesk.com/markets/2026/11/10/bitcoin-slips-before-u-s-inflation-report-as-traders-price-in-fed-rate-increase",
+   "https://finwire.io/news/crypto-news/bitcoin-slips-as-hotter-us-cpi-fuels-fed-hike-bets"
   ],
   "source_names": [
    "CoinDesk",
    "crypto.news",
    "Cryptoticker",
    "crypto.news",
-   "CoinDesk"
+   "CoinDesk",
+   "Finwire"
   ],
   "sources": [
    {
@@ -55824,6 +55826,13 @@
     "kind": "secondary",
     "checked": true,
     "confirms": false
+   },
+   {
+    "url": "https://finwire.io/news/crypto-news/bitcoin-slips-as-hotter-us-cpi-fuels-fed-hike-bets",
+    "name": "Finwire",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -55861,6 +55870,13 @@
     "kind": "secondary",
     "checked": true,
     "confirms": false
+   },
+   {
+    "url": "https://finwire.io/news/crypto-news/bitcoin-slips-as-hotter-us-cpi-fuels-fed-hike-bets",
+    "name": "Finwire",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "UNVERIFIED",
@@ -55905,6 +55921,13 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; opened but does not confirm the claim"
+    },
+    {
+     "name": "Finwire",
+     "url": "https://finwire.io/news/crypto-news/bitcoin-slips-as-hotter-us-cpi-fuels-fed-hike-bets",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -55952,6 +55975,15 @@
     "new_development": true,
     "level": "NORMAL",
     "sources_added": 2,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-10T13:11-05:00",
+    "headline": "Hotter October CPI pushes bitcoin to about $73,600 as ether, XRP and solana slip over 3%",
+    "summary": "October CPI rose 0.4% (core 0.3%), both above forecasts. BTC fell about 2.1% to near $73,600; ETH about -3.4% near $2,060, XRP -3.6% near $1.06, SOL -3.5% near $83.5. Moves are well below alert thresholds.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "UNVERIFIED"
    }
   ],
@@ -56468,6 +56500,356 @@
   ],
   "market_significance": "Another sign of slower crypto trading",
   "trigger": "The Block headline",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261110_9b0c7c",
+  "headline": "Canaan's third-quarter revenue plunges 90% to $14.5 million as mining hardware sales slump",
+  "summary": "Bitcoin miner maker Canaan reported Q3 revenue down 90% to $14.5 million.",
+  "detected_at": "2026-11-10T13:11-05:00",
+  "active_since": "2026-11-10T13:11-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "institutional",
+  "event_time": "2026-11-10T11:02-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-11-10-canaans-q3-revenue-plunges-90-to-14-5-million-as-bitcoin-mining-hardware-sales-slump-437252"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-10-canaans-q3-revenue-plunges-90-to-14-5-million-as-bitcoin-mining-hardware-sales-slump-437252",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-10-canaans-q3-revenue-plunges-90-to-14-5-million-as-bitcoin-mining-hardware-sales-slump-437252",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-10-canaans-q3-revenue-plunges-90-to-14-5-million-as-bitcoin-mining-hardware-sales-slump-437252",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Company earnings"
+  ],
+  "market_significance": "Miner hardware demand weak",
+  "trigger": "Q3 earnings",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261110_eba18b",
+  "headline": "Moody's and Chainlink test cross-chain distribution of credit ratings",
+  "summary": "Moody's is piloting distributing credit ratings across blockchains using Chainlink's CCIP.",
+  "detected_at": "2026-11-10T13:11-05:00",
+  "active_since": "2026-11-10T13:11-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "LINK"
+  ],
+  "event_type": "partnership",
+  "event_time": "2026-11-10T10:49-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/ecosystems/2026-11-10-moodys-chainlink-ccip-cross-chain-credit-ratings-pilot-437245"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/ecosystems/2026-11-10-moodys-chainlink-ccip-cross-chain-credit-ratings-pilot-437245",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/ecosystems/2026-11-10-moodys-chainlink-ccip-cross-chain-credit-ratings-pilot-437245",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/ecosystems/2026-11-10-moodys-chainlink-ccip-cross-chain-credit-ratings-pilot-437245",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Pilot, not a production launch"
+  ],
+  "market_significance": "TradFi data on-chain",
+  "trigger": "Announcement",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261110_ba2e81",
+  "headline": "Elizabeth Warren, expected to chair Senate Banking in January, signals scrutiny of prediction markets and Trump-linked crypto",
+  "summary": "After Democrats won the Senate, Warren is expected to lead the Banking Committee from January and plans oversight of prediction markets and Trump family crypto ventures.",
+  "detected_at": "2026-11-10T13:11-05:00",
+  "active_since": "2026-11-10T13:11-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "regulatory",
+  "event_time": "2026-11-10T10:41-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://decrypt.co/382910/tough-questions-ahead-warren-targets-prediction-markets-trump-crypto-as-banking-chair"
+  ],
+  "source_names": [
+   "Decrypt"
+  ],
+  "sources": [
+   {
+    "url": "https://decrypt.co/382910/tough-questions-ahead-warren-targets-prediction-markets-trump-crypto-as-banking-chair",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://decrypt.co/382910/tough-questions-ahead-warren-targets-prediction-markets-trump-crypto-as-banking-chair",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/382910/tough-questions-ahead-warren-targets-prediction-markets-trump-crypto-as-banking-chair",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Expected, not yet happened"
+  ],
+  "market_significance": "Shifts crypto policy outlook for 2027",
+  "trigger": "Reporting on oversight plans",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261110_1e10df",
+  "headline": "TON Strategy earns $13.1 million from staking in Q3 as Telegram rolls out a native wallet",
+  "summary": "TON treasury firm TON Strategy reported $13.1 million in staking income for Q3.",
+  "detected_at": "2026-11-10T13:11-05:00",
+  "active_since": "2026-11-10T13:11-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "TON"
+  ],
+  "event_type": "institutional",
+  "event_time": "2026-11-10T12:24-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/markets/2026-11-10-ton-strategy-tonx-q3-2026-earnings-gram-staking-437278"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-10-ton-strategy-tonx-q3-2026-earnings-gram-staking-437278",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-10-ton-strategy-tonx-q3-2026-earnings-gram-staking-437278",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/markets/2026-11-10-ton-strategy-tonx-q3-2026-earnings-gram-staking-437278",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Company earnings"
+  ],
+  "market_significance": "Minor",
+  "trigger": "Q3 earnings",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261110_845dc1",
+  "headline": "Alta raises $47.5 million Series A to build a blockchain for financial institutions",
+  "summary": "Alta raised a $47.5 million Series A for an institutional blockchain.",
+  "detected_at": "2026-11-10T13:11-05:00",
+  "active_since": "2026-11-10T13:11-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "other",
+  "event_time": "2026-11-10T11:19-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-11-10-alta-raises-80-million-build-blockchain-banks-payment-firms-437244"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-10-alta-raises-80-million-build-blockchain-banks-payment-firms-437244",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-10-alta-raises-80-million-build-blockchain-banks-payment-firms-437244",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-10-alta-raises-80-million-build-blockchain-banks-payment-firms-437244",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Funding round"
+  ],
+  "market_significance": "Minor",
+  "trigger": "Announcement",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
