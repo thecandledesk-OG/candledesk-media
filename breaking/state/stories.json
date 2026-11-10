@@ -49620,14 +49620,16 @@
    "https://riotimesonline.com/crypto-markets-bitcoin-majors-friday-november-6-2026",
    "https://crypto.news/bitcoin-price-today-rebounds-76000-etf-outflows/",
    "https://www.coindesk.com/markets/2026/11/09/tech-selloff-weighs-on-crypto-majors",
-   "https://www.theblock.co/news/markets/2026-11-09-bitcoin-loses-50-week-moving-average-as-24-hour-crypto-long-liquidations-top-1-billion-436102"
+   "https://www.theblock.co/news/markets/2026-11-09-bitcoin-loses-50-week-moving-average-as-24-hour-crypto-long-liquidations-top-1-billion-436102",
+   "https://www.kucoin.com/news/flash/over-1-2-billion-in-crypto-market-liquidations-on-november-10"
   ],
   "source_names": [
    "Koin Bulteni",
    "The Rio Times",
    "crypto.news",
    "CoinDesk",
-   "The Block"
+   "The Block",
+   "KuCoin/Coinglass"
   ],
   "sources": [
    {
@@ -49661,6 +49663,13 @@
    {
     "url": "https://www.theblock.co/news/markets/2026-11-09-bitcoin-loses-50-week-moving-average-as-24-hour-crypto-long-liquidations-top-1-billion-436102",
     "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.kucoin.com/news/flash/over-1-2-billion-in-crypto-market-liquidations-on-november-10",
+    "name": "KuCoin/Coinglass",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -49698,6 +49707,13 @@
    {
     "url": "https://www.theblock.co/news/markets/2026-11-09-bitcoin-loses-50-week-moving-average-as-24-hour-crypto-long-liquidations-top-1-billion-436102",
     "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.kucoin.com/news/flash/over-1-2-billion-in-crypto-market-liquidations-on-november-10",
+    "name": "KuCoin/Coinglass",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -49745,6 +49761,13 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "KuCoin/Coinglass",
+     "url": "https://www.kucoin.com/news/flash/over-1-2-billion-in-crypto-market-liquidations-on-november-10",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -49791,6 +49814,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-10T10:16-05:00",
+    "headline": "Over $1.2 billion in crypto positions liquidated as bitcoin swings between $73,500 and $75,400",
+    "summary": "Here's what moved the chain today. One point two billion dollars in crypto bets, liquidated.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "VERIFIED"
    }
   ],
@@ -54970,9 +55002,19 @@
   "market_significance": "Low fee environment",
   "trigger": "CoinDesk report",
   "content_created": false,
-  "publication_status": "QUEUED_FOR_DAILY",
+  "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-11-10T10:16-05:00",
+    "headline": "A bitcoin block with 11,255 transactions pays only about $180 in fees",
+    "summary": "A bitcoin block crammed eleven thousand transactions for just one hundred eighty dollars in fees.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -55736,12 +55778,16 @@
   "source_urls": [
    "https://www.coindesk.com/markets/2026/11/10/bitcoin-lags-stock-rebound-in-advance-of-u-s-inflation-report",
    "https://crypto.news/why-is-ethereum-price-down-today-november-10-2026",
-   "https://cryptoticker.io/en/bitcoin-price-us-cpi-no-annual-rate/"
+   "https://cryptoticker.io/en/bitcoin-price-us-cpi-no-annual-rate/",
+   "https://crypto.news/bitcoin-price-falls-below-74000-as-hot-us-cpi-fuels-fed-rate-hike-fears/",
+   "https://www.coindesk.com/markets/2026/11/10/bitcoin-slips-before-u-s-inflation-report-as-traders-price-in-fed-rate-increase"
   ],
   "source_names": [
    "CoinDesk",
    "crypto.news",
-   "Cryptoticker"
+   "Cryptoticker",
+   "crypto.news",
+   "CoinDesk"
   ],
   "sources": [
    {
@@ -55764,6 +55810,20 @@
     "kind": "other",
     "checked": false,
     "confirms": true
+   },
+   {
+    "url": "https://crypto.news/bitcoin-price-falls-below-74000-as-hot-us-cpi-fuels-fed-rate-hike-fears/",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/11/10/bitcoin-slips-before-u-s-inflation-report-as-traders-price-in-fed-rate-increase",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": false
    }
   ],
   "gate_sources": [
@@ -55787,6 +55847,20 @@
     "kind": "other",
     "checked": false,
     "confirms": true
+   },
+   {
+    "url": "https://crypto.news/bitcoin-price-falls-below-74000-as-hot-us-cpi-fuels-fed-rate-hike-fears/",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/11/10/bitcoin-slips-before-u-s-inflation-report-as-traders-price-in-fed-rate-increase",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": false
    }
   ],
   "verification_status": "UNVERIFIED",
@@ -55817,6 +55891,20 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/bitcoin-price-falls-below-74000-as-hot-us-cpi-fuels-fed-rate-hike-fears/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/11/10/bitcoin-slips-before-u-s-inflation-report-as-traders-price-in-fed-rate-increase",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; opened but does not confirm the claim"
     }
    ]
   },
@@ -55827,7 +55915,7 @@
   "market_significance": "ETF outflows continue; market waits on CPI",
   "trigger": "CoinDesk Crypto Markets Today",
   "content_created": false,
-  "publication_status": "QUEUED_FOR_DAILY",
+  "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
   "updates": [
    {
@@ -55837,6 +55925,33 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-10T10:16-05:00",
+    "headline": "Bitcoin holds its 200-day average as the Fear and Greed index climbs from 28 to 32",
+    "summary": "Green candles only! Bitcoin held the two-hundred-day average, fear and greed climbed to thirty-two!",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-10T10:16-05:00",
+    "headline": "December Fed hike odds top 65% ahead of the October CPI report",
+    "summary": "Check the yields first. Fed hike odds top sixty-five percent before today's CPI.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-10T10:16-05:00",
+    "headline": "Hotter-than-expected October CPI pushes bitcoin below $74,000 as about $200 million in crypto positions are liquidated",
+    "summary": "US consumer prices rose 0.4% in October versus 0.3% expected, core rose 0.3% versus 0.2%. Bitcoin slipped to about $73,800, down about 1% on the day, while ether, XRP and solana fell 3 to 5%. Markets fully price a December rate hike.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 2,
     "verification": "UNVERIFIED"
    }
   ],
@@ -56002,6 +56117,357 @@
   ],
   "market_significance": "Minor DeFi exploit",
   "trigger": "Search result",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261110_db3e4b",
+  "headline": "Bitmine buys another 9,587 ETH, bringing holdings to 4.97% of ether supply",
+  "summary": "Psst... Bitmine grabbed nine thousand five hundred eighty-seven ETH, nearly five percent of supply.",
+  "detected_at": "2026-11-10T10:16-05:00",
+  "active_since": "2026-11-10T10:16-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "ETH"
+  ],
+  "event_type": "institutional",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://crypto.news/why-is-ethereum-price-down-today-november-10-2026/"
+  ],
+  "source_names": [
+   "crypto.news"
+  ],
+  "sources": [
+   {
+    "url": "https://crypto.news/why-is-ethereum-price-down-today-november-10-2026/",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://crypto.news/why-is-ethereum-price-down-today-november-10-2026/",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/why-is-ethereum-price-down-today-november-10-2026/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261110_097ea4",
+  "headline": "Visa adds Monad to its stablecoin settlement network",
+  "summary": "Visa added Monad as a settlement chain in its stablecoin settlement program, joining Ethereum, Solana, Avalanche, Stellar and others. Visa reports a $20 billion annualized stablecoin settlement run rate.",
+  "detected_at": "2026-11-10T10:16-05:00",
+  "active_since": "2026-11-10T10:16-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "MON",
+   "USDC"
+  ],
+  "event_type": "partnership",
+  "event_time": "2026-11-10T09:00-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/ecosystems/2026-11-10-visa-monad-stablecoin-settlement-network-437201"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/ecosystems/2026-11-10-visa-monad-stablecoin-settlement-network-437201",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/ecosystems/2026-11-10-visa-monad-stablecoin-settlement-network-437201",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/ecosystems/2026-11-10-visa-monad-stablecoin-settlement-network-437201",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Incremental addition to an existing multi-chain program"
+  ],
+  "market_significance": "Adds another chain to Visa's growing stablecoin settlement program",
+  "trigger": "The Block report",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261110_5c8ca6",
+  "headline": "NEAR AI says an SGLang vulnerability exposed account details of about 100 users",
+  "summary": "An attacker exploited a remote code execution flaw in SGLang on NEAR AI servers, downloading account details for about 100 users and exposing two cloud API keys, since revoked. No funds were reported lost.",
+  "detected_at": "2026-11-10T10:16-05:00",
+  "active_since": "2026-11-10T10:16-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "NEAR"
+  ],
+  "event_type": "hack_exploit",
+  "event_time": "2026-11-10T05:17-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/defi/2026-11-10-near-ai-security-breach-437002"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/defi/2026-11-10-near-ai-security-breach-437002",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/defi/2026-11-10-near-ai-security-breach-437002",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/defi/2026-11-10-near-ai-security-breach-437002",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Data exposure, no funds lost"
+  ],
+  "market_significance": "Security incident at an AI service tied to the NEAR ecosystem",
+  "trigger": "The Block report",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261110_567229",
+  "headline": "eToro's third-quarter profit drops 74% on weaker crypto trading",
+  "summary": "eToro reported a 74% fall in third-quarter profit as crypto trading activity weakened.",
+  "detected_at": "2026-11-10T10:16-05:00",
+  "active_since": "2026-11-10T10:16-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "institutional",
+  "event_time": "2026-11-10T09:00-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-11-10-etoros-q3-profit-plunges-74-as-weaker-crypto-trading-weighs-on-earnings-437192"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-10-etoros-q3-profit-plunges-74-as-weaker-crypto-trading-weighs-on-earnings-437192",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-10-etoros-q3-profit-plunges-74-as-weaker-crypto-trading-weighs-on-earnings-437192",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-10-etoros-q3-profit-plunges-74-as-weaker-crypto-trading-weighs-on-earnings-437192",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Routine earnings"
+  ],
+  "market_significance": "Sign of cooling retail crypto trading",
+  "trigger": "The Block headline",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261110_50b164",
+  "headline": "BitGo's third-quarter revenue falls 51% as trading slows",
+  "summary": "BitGo reported a 51% drop in third-quarter revenue as trading slowed, while net income rose on treasury gains.",
+  "detected_at": "2026-11-10T10:16-05:00",
+  "active_since": "2026-11-10T10:16-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "institutional",
+  "event_time": "2026-11-10T07:00-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://theblock.co/news/business/2026-11-10-bitgo-revenue-falls-q3-436986"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://theblock.co/news/business/2026-11-10-bitgo-revenue-falls-q3-436986",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://theblock.co/news/business/2026-11-10-bitgo-revenue-falls-q3-436986",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://theblock.co/news/business/2026-11-10-bitgo-revenue-falls-q3-436986",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Routine earnings"
+  ],
+  "market_significance": "Another sign of slower crypto trading",
+  "trigger": "The Block headline",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
