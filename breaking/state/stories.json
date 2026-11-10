@@ -55075,7 +55075,8 @@
    "https://www.fool.com/coverage/stock-market-today/2026/11/09/crypto-market-today-nov-9-bitcoin-and-ethereum-lag-as-nasdaq-surges-nearly-3/",
    "https://pressroom.aboutschwab.com/press-releases/press-release/2026/Charles-Schwab-Makes-Solana-Avalanche-and-Chainlink-Available-to-Trade-Through-Schwab-Crypto-Accounts/default.aspx",
    "https://genfinity.io/2026/11/09/schwab-crypto-adds-solana-avalanche-chainlink-40-million-accounts/",
-   "https://www.coingecko.com/en/coins/bitcoin"
+   "https://www.coingecko.com/en/coins/bitcoin",
+   "https://markets.chroniclejournal.com/chroniclejournal/article/bizwire-2026-11-9-charles-schwab-makes-solana-avalanche-and-chainlink-available-to-trade-through-schwab-crypto-accounts"
   ],
   "source_names": [
    "CoinDesk",
@@ -55087,7 +55088,8 @@
    "Motley Fool",
    "Schwab press release",
    "Genfinity",
-   "CoinGecko"
+   "CoinGecko",
+   "Charles Schwab press release (Business Wire)"
   ],
   "sources": [
    {
@@ -55158,6 +55160,13 @@
     "url": "https://www.coingecko.com/en/coins/bitcoin",
     "name": "CoinGecko",
     "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://markets.chroniclejournal.com/chroniclejournal/article/bizwire-2026-11-9-charles-schwab-makes-solana-avalanche-and-chainlink-available-to-trade-through-schwab-crypto-accounts",
+    "name": "Charles Schwab press release (Business Wire)",
+    "kind": "primary",
     "checked": true,
     "confirms": true
    }
@@ -55233,15 +55242,22 @@
     "kind": "other",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://markets.chroniclejournal.com/chroniclejournal/article/bizwire-2026-11-9-charles-schwab-makes-solana-avalanche-and-chainlink-available-to-trade-through-schwab-crypto-accounts",
+    "name": "Charles Schwab press release (Business Wire)",
+    "kind": "primary",
+    "checked": true,
+    "confirms": true
    }
   ],
-  "verification_status": "UNVERIFIED",
+  "verification_status": "VERIFIED",
   "verification": {
-   "status": "UNVERIFIED",
-   "independent_sources": 1,
-   "has_primary": false,
-   "score": 0.4,
-   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "status": "VERIFIED",
+   "independent_sources": 2,
+   "has_primary": true,
+   "score": 1.0,
+   "reason": "2 independent credible sources confirm it (incl. a primary source)",
    "sources_checked": [
     {
      "name": "CoinDesk",
@@ -55312,6 +55328,13 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Charles Schwab press release (Business Wire)",
+     "url": "https://markets.chroniclejournal.com/chroniclejournal/article/bizwire-2026-11-9-charles-schwab-makes-solana-avalanche-and-chainlink-available-to-trade-through-schwab-crypto-accounts",
+     "category": "primary",
+     "counts": true,
+     "note": "primary (claimed official source; domain not on the known list)"
     }
    ]
   },
@@ -55321,7 +55344,7 @@
   "market_significance": "Broadens mainstream brokerage access beyond BTC and ETH.",
   "trigger": "CoinDesk live blog and press-release coverage on November 9",
   "content_created": false,
-  "publication_status": "BLOCKED_UNVERIFIED",
+  "publication_status": "DEMOTED_TO_DAILY",
   "related_story_ids": [],
   "updates": [
    {
@@ -55368,6 +55391,15 @@
     "level": "NORMAL",
     "sources_added": 1,
     "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-10T07:17-05:00",
+    "headline": "Charles Schwab opens Solana, Avalanche and Chainlink trading in Schwab Crypto accounts",
+    "summary": "Schwab's Business Wire release (Nov 9, 9:00 AM ET) says SOL, AVAX and LINK are now tradable in Schwab Crypto accounts alongside bitcoin and ether, at 75 basis points per trade; not available in New York or Louisiana. CoinDesk's live blog confirmed at 9:41 AM ET.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
    }
   ],
   "posts": [],
@@ -55673,6 +55705,303 @@
   ],
   "market_significance": "Tokenization firm expansion.",
   "trigger": "news page",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261110_d3b735",
+  "headline": "Bitcoin slips to about $74,200 ahead of US inflation data as spot bitcoin ETFs lose $201 million",
+  "summary": "Bitcoin fell to about $74,200 overnight and ether about 1.4% to near $2,100, lagging a strong stock rebound. US spot bitcoin ETFs lost $201 million Monday, led by BlackRock's IBIT on a seventh straight day of redemptions; spot ether ETFs lost $184.6 million.",
+  "detected_at": "2026-11-10T07:17-05:00",
+  "active_since": "2026-11-10T07:17-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.85,
+  "assets": [
+   "BTC",
+   "ETH",
+   "TOTAL_MARKET"
+  ],
+  "event_type": "market_move",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {
+   "pct_move_24h": -1.0
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/markets/2026/11/10/bitcoin-lags-stock-rebound-in-advance-of-u-s-inflation-report",
+   "https://crypto.news/why-is-ethereum-price-down-today-november-10-2026",
+   "https://cryptoticker.io/en/bitcoin-price-us-cpi-no-annual-rate/"
+  ],
+  "source_names": [
+   "CoinDesk",
+   "crypto.news",
+   "Cryptoticker"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/markets/2026/11/10/bitcoin-lags-stock-rebound-in-advance-of-u-s-inflation-report",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://crypto.news/why-is-ethereum-price-down-today-november-10-2026",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptoticker.io/en/bitcoin-price-us-cpi-no-annual-rate/",
+    "name": "Cryptoticker",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/markets/2026/11/10/bitcoin-lags-stock-rebound-in-advance-of-u-s-inflation-report",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://crypto.news/why-is-ethereum-price-down-today-november-10-2026",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptoticker.io/en/bitcoin-price-us-cpi-no-annual-rate/",
+    "name": "Cryptoticker",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/11/10/bitcoin-lags-stock-rebound-in-advance-of-u-s-inflation-report",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/why-is-ethereum-price-down-today-november-10-2026",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Cryptoticker",
+     "url": "https://cryptoticker.io/en/bitcoin-price-us-cpi-no-annual-rate/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Routine move, under 2% on the day",
+   "price rule: BTC moved 1.0% in 24h (thresholds 7%/12%) -> NORMAL"
+  ],
+  "market_significance": "ETF outflows continue; market waits on CPI",
+  "trigger": "CoinDesk Crypto Markets Today",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [
+   {
+    "at": "2026-11-10T07:17-05:00",
+    "headline": "US October CPI report due at 8:30 AM ET, the first without an official annual inflation rate",
+    "summary": "The October consumer price report lands at 8:30 AM ET. Economists expect a 0.3% monthly rise in headline prices and 0.2% for core. There is no official annual rate because the 2025 shutdown left no October 2025 base.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   }
+  ],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261110_aaf3b4",
+  "headline": "Coinbase, Kalshi and Kraken parent Payward back the CFTC in the court fight over single-stock perpetual futures",
+  "summary": "Coinbase, Kalshi, Payward, DRW, Jump Trading and Paradigm asked a federal court to accept an amicus brief supporting the CFTC's approval of stock perpetual futures, which a Cboe and Citadel-backed group is suing to overturn. A judge denied a restraining order, so approvals stay in place for now.",
+  "detected_at": "2026-11-10T07:17-05:00",
+  "active_since": "2026-11-10T07:17-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.85,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "legal",
+  "event_time": "2026-11-09T20:00-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://theblock.co/news/regulation/2026-11-10-coinbase-kalshi-payward-back-cftc-perps-436971",
+   "https://cointelegraph.com/news/coinbase-kalshi-cftc-stock-perpetual-futures-lawsuit"
+  ],
+  "source_names": [
+   "The Block",
+   "Cointelegraph"
+  ],
+  "sources": [
+   {
+    "url": "https://theblock.co/news/regulation/2026-11-10-coinbase-kalshi-payward-back-cftc-perps-436971",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cointelegraph.com/news/coinbase-kalshi-cftc-stock-perpetual-futures-lawsuit",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://theblock.co/news/regulation/2026-11-10-coinbase-kalshi-payward-back-cftc-perps-436971",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cointelegraph.com/news/coinbase-kalshi-cftc-stock-perpetual-futures-lawsuit",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "VERIFIED",
+  "verification": {
+   "status": "VERIFIED",
+   "independent_sources": 2,
+   "has_primary": false,
+   "score": 0.8,
+   "reason": "2 independent credible sources confirm it (no primary source yet)",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://theblock.co/news/regulation/2026-11-10-coinbase-kalshi-payward-back-cftc-perps-436971",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Cointelegraph",
+     "url": "https://cointelegraph.com/news/coinbase-kalshi-cftc-stock-perpetual-futures-lawsuit",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Court filing, no ruling"
+  ],
+  "market_significance": "Decides whether US crypto exchanges can keep listing stock perps",
+  "trigger": "The Block report",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261110_6ef454",
+  "headline": "ACryptoS exploit drains about $665,000 from 77 DeFi vaults and the platform shuts down",
+  "summary": "ACryptoS says an exploit drained about $665,000 from 77 vaults; the project is shutting down.",
+  "detected_at": "2026-11-10T07:17-05:00",
+  "active_since": "2026-11-10T07:17-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "hack_exploit",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {
+   "loss_usd": 665000
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://www.techtimes.com/articles/330280/20261109/acryptos-exploit-drains-665k-77-defi-vaults-project-says-platform-shuts-down.htm"
+  ],
+  "source_names": [
+   "Tech Times"
+  ],
+  "sources": [
+   {
+    "url": "https://www.techtimes.com/articles/330280/20261109/acryptos-exploit-drains-665k-77-defi-vaults-project-says-platform-shuts-down.htm",
+    "name": "Tech Times",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.techtimes.com/articles/330280/20261109/acryptos-exploit-drains-665k-77-defi-vaults-project-says-platform-shuts-down.htm",
+    "name": "Tech Times",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Tech Times",
+     "url": "https://www.techtimes.com/articles/330280/20261109/acryptos-exploit-drains-665k-77-defi-vaults-project-says-platform-shuts-down.htm",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Small loss, under hack threshold",
+   "hack rule: about $1M lost (thresholds $10M/$100M) -> NORMAL"
+  ],
+  "market_significance": "Minor DeFi exploit",
+  "trigger": "Search result",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
