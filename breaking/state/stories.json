@@ -49974,6 +49974,15 @@
     "level": "NORMAL",
     "sources_added": 0,
     "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-09T22:09-05:00",
+    "headline": "Elizabeth Warren vows scrutiny of prediction markets and Trump family crypto ventures as Senate Banking chair",
+    "summary": "Warren said she would scrutinize prediction markets and Trump family crypto businesses if she leads the Senate Banking Committee.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
    }
   ],
   "posts": [],
@@ -51319,6 +51328,15 @@
     "headline": "Binance hack launderers mint homemade memecoins to move stolen funds, Elliptic says",
     "summary": "Elliptic says those laundering the Binance hack proceeds are minting their own Elon Musk and animal memecoins to move funds.",
     "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-09T22:09-05:00",
+    "headline": "Binance hack launderers mint homemade memecoins to move stolen funds, Elliptic says",
+    "summary": "Elliptic says the launderers of the $6.3 billion Binance hack are creating their own memecoins to move stolen funds.",
+    "new_development": true,
     "level": "NORMAL",
     "sources_added": 0,
     "verification": "UNVERIFIED"
@@ -55056,7 +55074,8 @@
    "https://pressroom.aboutschwab.com/press-releases/press-release/2026/Charles-Schwab-Announces-Plans-to-Expand-Digital-Assets-Available-in-Schwab-Crypto-Accounts/default.aspx",
    "https://www.fool.com/coverage/stock-market-today/2026/11/09/crypto-market-today-nov-9-bitcoin-and-ethereum-lag-as-nasdaq-surges-nearly-3/",
    "https://pressroom.aboutschwab.com/press-releases/press-release/2026/Charles-Schwab-Makes-Solana-Avalanche-and-Chainlink-Available-to-Trade-Through-Schwab-Crypto-Accounts/default.aspx",
-   "https://genfinity.io/2026/11/09/schwab-crypto-adds-solana-avalanche-chainlink-40-million-accounts/"
+   "https://genfinity.io/2026/11/09/schwab-crypto-adds-solana-avalanche-chainlink-40-million-accounts/",
+   "https://www.coingecko.com/en/coins/bitcoin"
   ],
   "source_names": [
    "CoinDesk",
@@ -55067,7 +55086,8 @@
    "Schwab pressroom (Aug 27 plan)",
    "Motley Fool",
    "Schwab press release",
-   "Genfinity"
+   "Genfinity",
+   "CoinGecko"
   ],
   "sources": [
    {
@@ -55130,6 +55150,13 @@
    {
     "url": "https://genfinity.io/2026/11/09/schwab-crypto-adds-solana-avalanche-chainlink-40-million-accounts/",
     "name": "Genfinity",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coingecko.com/en/coins/bitcoin",
+    "name": "CoinGecko",
     "kind": "other",
     "checked": true,
     "confirms": true
@@ -55196,6 +55223,13 @@
    {
     "url": "https://genfinity.io/2026/11/09/schwab-crypto-adds-solana-avalanche-chainlink-40-million-accounts/",
     "name": "Genfinity",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coingecko.com/en/coins/bitcoin",
+    "name": "CoinGecko",
     "kind": "other",
     "checked": true,
     "confirms": true
@@ -55271,6 +55305,13 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinGecko",
+     "url": "https://www.coingecko.com/en/coins/bitcoin",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -55308,6 +55349,24 @@
     "new_development": false,
     "level": "IMPORTANT",
     "sources_added": 2,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-09T22:09-05:00",
+    "headline": "Charles Schwab opens Solana, Avalanche and Chainlink trading in Schwab Crypto accounts",
+    "summary": "Schwab Crypto clients can now trade SOL, AVAX and LINK alongside bitcoin and ether, taking the service to five assets.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-09T22:09-05:00",
+    "headline": "Bitcoin hovers near $74,700 just above its 200-day average as crypto lags stocks",
+    "summary": "BTC near $74,700, ETH near $2,120, XRP near $1.10, SOL near $86; all within about 1.5% on the day.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "UNVERIFIED"
    }
   ],
@@ -55544,6 +55603,76 @@
   ],
   "market_significance": "Minor.",
   "trigger": "The Block",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261109_0c9185",
+  "headline": "Securitize shares jump 12% after hours on Q3 results and a deal to buy River One",
+  "summary": "Securitize stock rose about 12% in after-hours trading after Q3 results and an agreement to acquire River One for asset-backed finance.",
+  "detected_at": "2026-11-09T22:09-05:00",
+  "active_since": "2026-11-09T22:09-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "institutional",
+  "event_time": "2026-11-09T21:13-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-11-09-securitize-shares-surge-river-one-436955"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-09-securitize-shares-surge-river-one-436955",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-09-securitize-shares-surge-river-one-436955",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-09-securitize-shares-surge-river-one-436955",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Company earnings and acquisition, not market-moving for crypto broadly."
+  ],
+  "market_significance": "Tokenization firm expansion.",
+  "trigger": "news page",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
