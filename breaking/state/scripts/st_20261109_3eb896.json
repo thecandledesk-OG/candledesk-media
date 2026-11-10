@@ -1,0 +1,31 @@
+{
+ "story_id": "st_20261109_3eb896",
+ "date_label": "NOV 9",
+ "headline": "MARA sells 13,597 bitcoin to clear its loans",
+ "sources": [
+  {"name": "MARA SEC filing", "url": "https://www.sec.gov/Archives/edgar/data/0001507605/000150760526000026/q326shareholderletter.htm"},
+  {"name": "The Block", "url": "https://www.theblock.co/news/business/2026-11-09-mara-q3-earnings-net-profit-bitcoin-sale-ai-pivot-436950"}
+ ],
+ "scenes": [
+  {"beat": "hook", "who": "ledger",
+   "vo": "One of the biggest public bitcoin holders just sold more than thirteen thousand coins. Here's what changed.",
+   "chunks": ["A big holder", "*sold 13,597 bitcoin*", "Here's what changed"]},
+  {"beat": "what_happened", "who": "ledger",
+   "vo": "In a filing with the SEC, MARA says it sold thirteen thousand five hundred ninety seven bitcoin after the quarter ended, for about one point one billion dollars.",
+   "chunks": ["SEC filing", "*About $1.1 billion*", "Sold after Q3"],
+   "stat": {"label": "Sources", "text": "SEC filing · The Block"}},
+  {"beat": "why_it_matters", "who": "bruno",
+   "vo": "Here's why traders are watching it. MARA used seven hundred fifty million dollars to fully pay off its bitcoin backed loans, and it booked about six hundred thirty two million dollars in quarterly profit.",
+   "chunks": ["Loans paid off", "*$750 million repaid*", "$632M Q3 profit"]},
+  {"beat": "why_it_matters", "who": "ursa",
+   "vo": "The catch? MARA held about thirty four thousand bitcoin at the end of September, so this sale is roughly forty percent of that stack, as it shifts toward artificial intelligence.",
+   "chunks": ["About 40 percent", "*of its stack*", "Shifting toward AI"]},
+  {"beat": "watch_next", "who": "moby",
+   "vo": "Here's what happens next. Watch whether other miners and bitcoin treasury companies sell coins to cut debt.",
+   "chunks": ["What's next", "*Other miners*", "Treasury firms' moves"]},
+  {"beat": "cta", "who": "all",
+   "vo": "Follow The Candle Desk for crypto news without the hype. Not financial advice.",
+   "chunks": ["Follow The Candle Desk", "*No hype*", "Just the news"],
+   "foot": "NOT FINANCIAL ADVICE"}
+ ]
+}

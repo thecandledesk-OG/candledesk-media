@@ -49965,6 +49965,15 @@
     "level": "NORMAL",
     "sources_added": 1,
     "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-09T19:15-05:00",
+    "headline": "Incoming Senate Banking chair Elizabeth Warren vows scrutiny of prediction markets and Trump family crypto ventures",
+    "summary": "A Warren aide said the senator, who takes over Senate Banking in the new year, will target prediction markets and told Trump family crypto businesses and others to preserve documents.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
    }
   ],
   "posts": [],
@@ -51300,6 +51309,15 @@
     "at": "2026-11-09T16:11-05:00",
     "headline": "Binance hack launderers mint throwaway memecoins to move stolen NEAR, Elliptic says",
     "summary": "Elliptic says launderers created six short-lived memecoins from November 5 to 7 to obscure about $430,000 in NEAR stolen in the Binance hack.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-09T19:15-05:00",
+    "headline": "Binance hack launderers mint homemade memecoins to move stolen funds, Elliptic says",
+    "summary": "Elliptic says those laundering the Binance hack proceeds are minting their own Elon Musk and animal memecoins to move funds.",
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
@@ -55035,7 +55053,10 @@
    "https://news.bitcoin.com/featured/charles-schwab-opens-crypto-trading-beyond-bitcoin-ether/",
    "https://en.cryptonomist.ch/2026/11/09/charles-schwab-crypto-trading/",
    "https://www.financialcontent.com/article/bizwire-2026-11-9-charles-schwab-makes-solana-avalanche-and-chainlink-available-to-trade-through-schwab-crypto-accounts",
-   "https://pressroom.aboutschwab.com/press-releases/press-release/2026/Charles-Schwab-Announces-Plans-to-Expand-Digital-Assets-Available-in-Schwab-Crypto-Accounts/default.aspx"
+   "https://pressroom.aboutschwab.com/press-releases/press-release/2026/Charles-Schwab-Announces-Plans-to-Expand-Digital-Assets-Available-in-Schwab-Crypto-Accounts/default.aspx",
+   "https://www.fool.com/coverage/stock-market-today/2026/11/09/crypto-market-today-nov-9-bitcoin-and-ethereum-lag-as-nasdaq-surges-nearly-3/",
+   "https://pressroom.aboutschwab.com/press-releases/press-release/2026/Charles-Schwab-Makes-Solana-Avalanche-and-Chainlink-Available-to-Trade-Through-Schwab-Crypto-Accounts/default.aspx",
+   "https://genfinity.io/2026/11/09/schwab-crypto-adds-solana-avalanche-chainlink-40-million-accounts/"
   ],
   "source_names": [
    "CoinDesk",
@@ -55043,7 +55064,10 @@
    "Bitcoin.com News",
    "The Cryptonomist",
    "Business Wire (via FinancialContent)",
-   "Schwab pressroom (Aug 27 plan)"
+   "Schwab pressroom (Aug 27 plan)",
+   "Motley Fool",
+   "Schwab press release",
+   "Genfinity"
   ],
   "sources": [
    {
@@ -55088,6 +55112,27 @@
     "kind": "primary",
     "checked": true,
     "confirms": false
+   },
+   {
+    "url": "https://www.fool.com/coverage/stock-market-today/2026/11/09/crypto-market-today-nov-9-bitcoin-and-ethereum-lag-as-nasdaq-surges-nearly-3/",
+    "name": "Motley Fool",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://pressroom.aboutschwab.com/press-releases/press-release/2026/Charles-Schwab-Makes-Solana-Avalanche-and-Chainlink-Available-to-Trade-Through-Schwab-Crypto-Accounts/default.aspx",
+    "name": "Schwab press release",
+    "kind": "primary",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://genfinity.io/2026/11/09/schwab-crypto-adds-solana-avalanche-chainlink-40-million-accounts/",
+    "name": "Genfinity",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -55133,6 +55178,27 @@
     "kind": "primary",
     "checked": true,
     "confirms": false
+   },
+   {
+    "url": "https://www.fool.com/coverage/stock-market-today/2026/11/09/crypto-market-today-nov-9-bitcoin-and-ethereum-lag-as-nasdaq-surges-nearly-3/",
+    "name": "Motley Fool",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://pressroom.aboutschwab.com/press-releases/press-release/2026/Charles-Schwab-Makes-Solana-Avalanche-and-Chainlink-Available-to-Trade-Through-Schwab-Crypto-Accounts/default.aspx",
+    "name": "Schwab press release",
+    "kind": "primary",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://genfinity.io/2026/11/09/schwab-crypto-adds-solana-avalanche-chainlink-40-million-accounts/",
+    "name": "Genfinity",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "UNVERIFIED",
@@ -55184,6 +55250,27 @@
      "category": "primary",
      "counts": false,
      "note": "primary (claimed official source; domain not on the known list); opened but does not confirm the claim"
+    },
+    {
+     "name": "Motley Fool",
+     "url": "https://www.fool.com/coverage/stock-market-today/2026/11/09/crypto-market-today-nov-9-bitcoin-and-ethereum-lag-as-nasdaq-surges-nearly-3/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Schwab press release",
+     "url": "https://pressroom.aboutschwab.com/press-releases/press-release/2026/Charles-Schwab-Makes-Solana-Avalanche-and-Chainlink-Available-to-Trade-Through-Schwab-Crypto-Accounts/default.aspx",
+     "category": "primary",
+     "counts": false,
+     "note": "primary (claimed official source; domain not on the known list); not opened, so it doesn't count"
+    },
+    {
+     "name": "Genfinity",
+     "url": "https://genfinity.io/2026/11/09/schwab-crypto-adds-solana-avalanche-chainlink-40-million-accounts/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -55203,6 +55290,24 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-09T19:15-05:00",
+    "headline": "XRP slides about 5% to near $1.09 as bitcoin holds near $74,800 while stocks rally",
+    "summary": "Crypto lagged a near-3% Nasdaq rally on Monday: BTC about flat near $74,800, ETH flat near $2,127, SOL flat near $86, XRP down about 4.8% to $1.09.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-09T19:15-05:00",
+    "headline": "Charles Schwab opens Solana, Avalanche and Chainlink trading in Schwab Crypto accounts",
+    "summary": "Reports say Schwab made SOL, AVAX and LINK tradable on Nov 9 at 75 basis points per trade; the official press release could not be opened and no credible outlet confirmation found yet.",
+    "new_development": false,
+    "level": "IMPORTANT",
+    "sources_added": 2,
     "verification": "UNVERIFIED"
    }
   ],
@@ -55272,6 +55377,173 @@
   ],
   "market_significance": "Governance and reputation story for the Foundation.",
   "trigger": "The Block report",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261109_3eb896",
+  "headline": "MARA sells 13,597 bitcoin for about $1.1 billion and fully repays its bitcoin-backed loans",
+  "summary": "In its Q3 shareholder letter filed with the SEC, MARA said it sold 13,597 BTC after quarter-end at about $81,039 each (about $1.1 billion), used $750 million to fully repay its bitcoin-collateralized term loans, and posted Q3 net income of $632.1 million on fair-value gains. It held 34,012 BTC at quarter-end, so the sale is roughly 40% of that stack.",
+  "detected_at": "2026-11-09T19:15-05:00",
+  "active_since": "2026-11-09T19:15-05:00",
+  "classification": "IMPORTANT",
+  "proposed_level": "IMPORTANT",
+  "confidence": 0.85,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "institutional",
+  "event_time": "2026-11-09T17:00-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.sec.gov/Archives/edgar/data/0001507605/000150760526000026/q326shareholderletter.htm",
+   "https://www.theblock.co/news/business/2026-11-09-mara-q3-earnings-net-profit-bitcoin-sale-ai-pivot-436950"
+  ],
+  "source_names": [
+   "MARA Q3 shareholder letter (SEC 8-K)",
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.sec.gov/Archives/edgar/data/0001507605/000150760526000026/q326shareholderletter.htm",
+    "name": "MARA Q3 shareholder letter (SEC 8-K)",
+    "kind": "primary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-09-mara-q3-earnings-net-profit-bitcoin-sale-ai-pivot-436950",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.sec.gov/Archives/edgar/data/0001507605/000150760526000026/q326shareholderletter.htm",
+    "name": "MARA Q3 shareholder letter (SEC 8-K)",
+    "kind": "primary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-09-mara-q3-earnings-net-profit-bitcoin-sale-ai-pivot-436950",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "VERIFIED",
+  "verification": {
+   "status": "VERIFIED",
+   "independent_sources": 2,
+   "has_primary": true,
+   "score": 1.0,
+   "reason": "2 independent credible sources confirm it (incl. a primary source)",
+   "sources_checked": [
+    {
+     "name": "MARA Q3 shareholder letter (SEC 8-K)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001507605/000150760526000026/q326shareholderletter.htm",
+     "category": "primary",
+     "counts": true,
+     "note": "primary (known official domain)"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-09-mara-q3-earnings-net-profit-bitcoin-sale-ai-pivot-436950",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed IMPORTANT: One of the largest public bitcoin holders sold about 40% of its stack, confirmed in an SEC filing."
+  ],
+  "market_significance": "A top-five corporate bitcoin treasury turning seller is unusual and relevant to the treasury-company trade.",
+  "trigger": "MARA Q3 shareholder letter (8-K) and The Block report, Nov 9 5:07 PM ET",
+  "content_created": true,
+  "publication_status": "DRAFTED",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [
+   "6af2634fb59b34913a463c56",
+   "6af2635005af22d726f6acd3",
+   "6af26350223aa16048dacc31"
+  ],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261109_8a3f1d",
+  "headline": "StoneX sees 97% upside for Bullish after its $4.2 billion Equiniti deal",
+  "summary": "Broker StoneX said Bullish's $4.2 billion Equiniti acquisition opens the tokenization market for it.",
+  "detected_at": "2026-11-09T19:15-05:00",
+  "active_since": "2026-11-09T19:15-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "institutional",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/markets/2026-11-09-stonex-sees-upside-bullish-equiniti-deal-opens-tokenization-market-436464"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-09-stonex-sees-upside-bullish-equiniti-deal-opens-tokenization-market-436464",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-09-stonex-sees-upside-bullish-equiniti-deal-opens-tokenization-market-436464",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/markets/2026-11-09-stonex-sees-upside-bullish-equiniti-deal-opens-tokenization-market-436464",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Analyst note."
+  ],
+  "market_significance": "Minor.",
+  "trigger": "The Block",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
