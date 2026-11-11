@@ -53598,7 +53598,11 @@
    "https://www.coindesk.com/price/bitcoin",
    "https://www.blockchain.com/explorer/prices",
    "https://ethnews.com/bitcoin-falls-below-74000-as-ethereum-leads-1-1b-wipeout/",
-   "https://www.analyticsinsight.net/cryptocurrency-analytics-insight/crypto-prices-today-bitcoin-slips-to-usd-74600-as-ether-and-xrp-lead-declines"
+   "https://www.analyticsinsight.net/cryptocurrency-analytics-insight/crypto-prices-today-bitcoin-slips-to-usd-74600-as-ether-and-xrp-lead-declines",
+   "https://tedpillows.substack.com/p/crypto-and-finance-market-report-fd3",
+   "https://coincodex.com/article/95206/daily-market-update-for-november-11-2026",
+   "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-11-2026",
+   "https://www.tokenpost.com/news/technology/53678"
   ],
   "source_names": [
    "TokenPost",
@@ -53606,7 +53610,11 @@
    "CoinDesk price page",
    "Blockchain.com prices",
    "ETHNews",
-   "Analytics Insight"
+   "Analytics Insight",
+   "Ted Pillows",
+   "CoinCodex",
+   "KuCoin",
+   "TokenPost"
   ],
   "sources": [
    {
@@ -53648,6 +53656,34 @@
     "url": "https://www.analyticsinsight.net/cryptocurrency-analytics-insight/crypto-prices-today-bitcoin-slips-to-usd-74600-as-ether-and-xrp-lead-declines",
     "name": "Analytics Insight",
     "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://tedpillows.substack.com/p/crypto-and-finance-market-report-fd3",
+    "name": "Ted Pillows",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://coincodex.com/article/95206/daily-market-update-for-november-11-2026",
+    "name": "CoinCodex",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-11-2026",
+    "name": "KuCoin",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.tokenpost.com/news/technology/53678",
+    "name": "TokenPost",
+    "kind": "secondary",
     "checked": true,
     "confirms": true
    }
@@ -53692,6 +53728,34 @@
     "url": "https://www.analyticsinsight.net/cryptocurrency-analytics-insight/crypto-prices-today-bitcoin-slips-to-usd-74600-as-ether-and-xrp-lead-declines",
     "name": "Analytics Insight",
     "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://tedpillows.substack.com/p/crypto-and-finance-market-report-fd3",
+    "name": "Ted Pillows",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://coincodex.com/article/95206/daily-market-update-for-november-11-2026",
+    "name": "CoinCodex",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-11-2026",
+    "name": "KuCoin",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.tokenpost.com/news/technology/53678",
+    "name": "TokenPost",
+    "kind": "secondary",
     "checked": true,
     "confirms": true
    }
@@ -53745,6 +53809,34 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Ted Pillows",
+     "url": "https://tedpillows.substack.com/p/crypto-and-finance-market-report-fd3",
+     "category": "social",
+     "counts": false,
+     "note": "social/community post — can trigger investigation, never verifies"
+    },
+    {
+     "name": "CoinCodex",
+     "url": "https://coincodex.com/article/95206/daily-market-update-for-november-11-2026",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "KuCoin",
+     "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-11-2026",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "TokenPost",
+     "url": "https://www.tokenpost.com/news/technology/53678",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -53792,6 +53884,51 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-11T13:10-05:00",
+    "headline": "$724 million in crypto liquidations in 24 hours, mostly longs",
+    "summary": "Here's what moved the chain today. Seven hundred twenty-four million dollars liquidated, mostly longs.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-11T13:10-05:00",
+    "headline": "Hot CPI, yet bitcoin holds near $74,000",
+    "summary": "Green candles only! Inflation came in hot, yet Bitcoin still holds nearly seventy-four thousand!",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-11T13:10-05:00",
+    "headline": "Two-year Treasury yield hits 4.73% as a December Fed hike is fully priced",
+    "summary": "Check the yields first. Two-year yields hit four point seven three percent. Fed hike priced.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-11T13:10-05:00",
+    "headline": "Spot bitcoin ETFs lose $1.06 billion over five sessions",
+    "summary": "Psst... big wallets are moving. Over one billion dollars left bitcoin ETFs in five sessions.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-11T13:10-05:00",
+    "headline": "Initia hacked again: $3.27 million moved via leaked cloud key, INIT still up 15%",
+    "summary": "Initia's second hack in three weeks: over three million gone. Its token still rose fifteen percent.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "UNVERIFIED"
    }
   ],
@@ -57723,13 +57860,19 @@
    "https://www.thestar.com.my/tech/tech-news/2026/11/11/deutsche-bank-launches-digital-asset-custody-service-",
    "https://live.euronext.com/en/financial-news/deutsche-bank-launches-digital-asset-custody-service",
    "https://www.theblock.co/news/business/2026-11-11-deutsche-bank-goes-live-with-digital-asset-custody-service-signs-asset-management-deal-437851",
-   "https://www.db.com/news/detail/20260916-deutsche-bank-to-launch-digital-asset-custody-solution-for-institutional-and-corporate-clients"
+   "https://www.db.com/news/detail/20260916-deutsche-bank-to-launch-digital-asset-custody-solution-for-institutional-and-corporate-clients",
+   "https://cointelegraph.com/news/deutsche-bank-debuts-digital-asset-custody-services-eu",
+   "https://www.yahoo.com/news/articles/deutsche-bank-launches-digital-asset-080450686.html",
+   "https://www.ledgerinsights.com/deutsche-bank-goes-live-with-digital-asset-custody/"
   ],
   "source_names": [
    "Reuters (via The Star)",
    "Reuters (via Euronext)",
    "The Block",
-   "Deutsche Bank (Sept 16 release)"
+   "Deutsche Bank (Sept 16 release)",
+   "Cointelegraph",
+   "Reuters (via Yahoo News)",
+   "Ledger Insights"
   ],
   "sources": [
    {
@@ -57761,6 +57904,28 @@
     "kind": "primary",
     "checked": true,
     "confirms": false
+   },
+   {
+    "url": "https://cointelegraph.com/news/deutsche-bank-debuts-digital-asset-custody-services-eu",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.yahoo.com/news/articles/deutsche-bank-launches-digital-asset-080450686.html",
+    "name": "Reuters (via Yahoo News)",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "origin": "Reuters"
+   },
+   {
+    "url": "https://www.ledgerinsights.com/deutsche-bank-goes-live-with-digital-asset-custody/",
+    "name": "Ledger Insights",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -57793,15 +57958,37 @@
     "kind": "primary",
     "checked": true,
     "confirms": false
+   },
+   {
+    "url": "https://cointelegraph.com/news/deutsche-bank-debuts-digital-asset-custody-services-eu",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.yahoo.com/news/articles/deutsche-bank-launches-digital-asset-080450686.html",
+    "name": "Reuters (via Yahoo News)",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "origin": "Reuters"
+   },
+   {
+    "url": "https://www.ledgerinsights.com/deutsche-bank-goes-live-with-digital-asset-custody/",
+    "name": "Ledger Insights",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
-  "verification_status": "UNVERIFIED",
+  "verification_status": "VERIFIED",
   "verification": {
-   "status": "UNVERIFIED",
-   "independent_sources": 1,
+   "status": "VERIFIED",
+   "independent_sources": 2,
    "has_primary": false,
-   "score": 0.4,
-   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "score": 0.8,
+   "reason": "2 independent credible sources confirm it (no primary source yet)",
    "sources_checked": [
     {
      "name": "Reuters (via The Star)",
@@ -57830,6 +58017,27 @@
      "category": "primary",
      "counts": false,
      "note": "primary (claimed official source; domain not on the known list); opened but does not confirm the claim"
+    },
+    {
+     "name": "Cointelegraph",
+     "url": "https://cointelegraph.com/news/deutsche-bank-debuts-digital-asset-custody-services-eu",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Reuters (via Yahoo News)",
+     "url": "https://www.yahoo.com/news/articles/deutsche-bank-launches-digital-asset-080450686.html",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Ledger Insights",
+     "url": "https://www.ledgerinsights.com/deutsche-bank-goes-live-with-digital-asset-custody/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -57838,11 +58046,25 @@
   ],
   "market_significance": "A major European bank now offers regulated crypto custody, a step in institutional adoption.",
   "trigger": "The Block latest feed 6:46 AM ET",
-  "content_created": false,
-  "publication_status": "BLOCKED_UNVERIFIED",
+  "content_created": true,
+  "publication_status": "DRAFTED",
   "related_story_ids": [],
-  "updates": [],
-  "posts": [],
+  "updates": [
+   {
+    "at": "2026-11-11T13:10-05:00",
+    "headline": "Deutsche Bank's digital asset custody service goes live for institutional clients in Europe",
+    "summary": "Deutsche Bank's Digital Asset Custody service is live for paying corporate and institutional clients in Europe after BaFin approval, holding bitcoin, ether, USDC, EURC and EURAU, with Taurus as technology partner. The bank also signed an MoU with Deutsche Asset Management to explore tokenized money market funds, crypto ETCs and stablecoins.",
+    "new_development": false,
+    "level": "IMPORTANT",
+    "sources_added": 3,
+    "verification": "VERIFIED"
+   }
+  ],
+  "posts": [
+   "6af4b0ebc8d020c384b59276",
+   "6af4b0edcd1c5442395656db",
+   "6af4b0edc8d020c384b592e0"
+  ],
   "needs_followup": false
  },
  {
@@ -58191,6 +58413,311 @@
   ],
   "market_significance": "Minor.",
   "trigger": "The Block feed",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261111_52d1c8",
+  "headline": "Stablecoin supply drops $14.2 billion in the largest contraction since the 2022 bear market",
+  "summary": "The Block reports total stablecoin supply has shrunk by $14.2 billion, the biggest contraction since 2022.",
+  "detected_at": "2026-11-11T13:10-05:00",
+  "active_since": "2026-11-11T13:10-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "USDT",
+   "USDC",
+   "TOTAL_MARKET"
+  ],
+  "event_type": "market_move",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/latest-crypto-news",
+   "https://www.pymnts.com/?p=3949353"
+  ],
+  "source_names": [
+   "The Block",
+   "PYMNTS"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/latest-crypto-news",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.pymnts.com/?p=3949353",
+    "name": "PYMNTS",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/latest-crypto-news",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.pymnts.com/?p=3949353",
+    "name": "PYMNTS",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/latest-crypto-news",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "PYMNTS",
+     "url": "https://www.pymnts.com/?p=3949353",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Data trend, not a discrete event"
+  ],
+  "market_significance": "Less stablecoin dry powder on exchanges",
+  "trigger": "The Block latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261111_80546a",
+  "headline": "Bitcoin Core discloses three patched security flaws, including a high-severity mining bug",
+  "summary": "Bitcoin Core disclosed three already-patched vulnerabilities affecting older versions, one rated high severity and tied to mining.",
+  "detected_at": "2026-11-11T13:10-05:00",
+  "active_since": "2026-11-11T13:10-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "protocol_upgrade",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://unchainedcrypto.com/bitcoin-core-skips-usual-embargo-to-disclose-three-bugs-an-ai-scan-found/"
+  ],
+  "source_names": [
+   "Unchained"
+  ],
+  "sources": [
+   {
+    "url": "https://unchainedcrypto.com/bitcoin-core-skips-usual-embargo-to-disclose-three-bugs-an-ai-scan-found/",
+    "name": "Unchained",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://unchainedcrypto.com/bitcoin-core-skips-usual-embargo-to-disclose-three-bugs-an-ai-scan-found/",
+    "name": "Unchained",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Unchained",
+     "url": "https://unchainedcrypto.com/bitcoin-core-skips-usual-embargo-to-disclose-three-bugs-an-ai-scan-found/",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Flaws already fixed; disclosure only"
+  ],
+  "market_significance": "Node operators on old versions should upgrade",
+  "trigger": "The Block latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261111_9a5dfd",
+  "headline": "OKXICE sets November 23 launch for its tokenized securities venue under the SEC innovation exemption",
+  "summary": "The OKX and ICE venture plans to open tokenized securities trading on November 23 under the SEC's innovation exemption. (The Block, Nov 11)",
+  "detected_at": "2026-11-11T13:10-05:00",
+  "active_since": "2026-11-11T13:10-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "OKB"
+  ],
+  "event_type": "exchange",
+  "event_time": null,
+  "scheduled_event": true,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://coingape.com/okx-ice-files-for-24-7-tokenized-nyse-stocks-under-sec-innovation-exemption/"
+  ],
+  "source_names": [
+   "CoinGape"
+  ],
+  "sources": [
+   {
+    "url": "https://coingape.com/okx-ice-files-for-24-7-tokenized-nyse-stocks-under-sec-innovation-exemption/",
+    "name": "CoinGape",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://coingape.com/okx-ice-files-for-24-7-tokenized-nyse-stocks-under-sec-innovation-exemption/",
+    "name": "CoinGape",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinGape",
+     "url": "https://coingape.com/okx-ice-files-for-24-7-tokenized-nyse-stocks-under-sec-innovation-exemption/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Launch date announcement for a planned venue"
+  ],
+  "market_significance": "First large 24/7 tokenized stock venue under the exemption",
+  "trigger": "The Block latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261111_1b9fa2",
+  "headline": "Prisoner jailed for eight years over a $2.7 million crypto theft plot run from his cell",
+  "summary": "A UK court jailed a fraudster for eight years over a $2.7 million crypto theft plot directed from prison.",
+  "detected_at": "2026-11-11T13:10-05:00",
+  "active_since": "2026-11-11T13:10-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "legal",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://decrypt.co/news"
+  ],
+  "source_names": [
+   "Decrypt"
+  ],
+  "sources": [
+   {
+    "url": "https://decrypt.co/news",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://decrypt.co/news",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/news",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Individual criminal case"
+  ],
+  "market_significance": "Low market impact",
+  "trigger": "The Block and Decrypt latest news",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],

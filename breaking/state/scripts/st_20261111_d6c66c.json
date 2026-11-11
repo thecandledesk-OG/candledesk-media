@@ -1,0 +1,32 @@
+{
+ "story_id": "st_20261111_d6c66c",
+ "date_label": "NOV 11",
+ "headline": "Deutsche Bank's crypto custody goes live",
+ "sources": [
+  {"name": "Reuters", "url": "https://live.euronext.com/en/financial-news/deutsche-bank-launches-digital-asset-custody-service"},
+  {"name": "The Block", "url": "https://www.theblock.co/news/business/2026-11-11-deutsche-bank-goes-live-with-digital-asset-custody-service-signs-asset-management-deal-437851"},
+  {"name": "Cointelegraph", "url": "https://cointelegraph.com/news/deutsche-bank-debuts-digital-asset-custody-services-eu"}
+ ],
+ "scenes": [
+  {"beat": "hook", "who": "ledger",
+   "vo": "Germany's largest bank now holds Bitcoin and ether for its clients. Here's what changed.",
+   "chunks": ["Deutsche Bank now", "*holds Bitcoin and ether*", "Here's what changed"]},
+  {"beat": "what_happened", "who": "ledger",
+   "vo": "Deutsche Bank's digital asset custody service went live on Wednesday for institutional and corporate clients in Europe. It covers Bitcoin, ether and three stablecoins, including USDC.",
+   "chunks": ["Custody is *live*", "Institutions in Europe", "*BTC, ETH, stablecoins*"],
+   "stat": {"label": "Sources", "text": "Reuters · The Block · Cointelegraph"}},
+  {"beat": "why_it_matters", "who": "bruno",
+   "vo": "Here's why traders are watching it. The bank manages the wallets and private keys itself. It also signed a deal with its asset manager to explore tokenized funds and stablecoins.",
+   "chunks": ["Bank holds *the keys*", "Plus a deal on", "*tokenized funds*"]},
+  {"beat": "why_it_matters", "who": "ursa",
+   "vo": "The catch? This is for big institutions only, not everyday savers. And that asset manager deal is only an agreement to explore, not a product yet.",
+   "chunks": ["*Institutions only*", "Not for retail", "Fund deal *exploratory*"]},
+  {"beat": "watch_next", "who": "moby",
+   "vo": "Here's what happens next. Watch for a tokenized money market fund, and the bank's plan to bring this service to Asia.",
+   "chunks": ["What's next", "*A tokenized fund*", "Expansion to *Asia*"]},
+  {"beat": "cta", "who": "all",
+   "vo": "Follow The Candle Desk for crypto news without the hype. Not financial advice.",
+   "chunks": ["Follow The Candle Desk", "*No hype*", "Just the news"],
+   "foot": "NOT FINANCIAL ADVICE"}
+ ]
+}
