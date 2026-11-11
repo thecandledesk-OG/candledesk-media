@@ -57211,5 +57211,428 @@
   "updates": [],
   "posts": [],
   "needs_followup": false
+ },
+ {
+  "id": "st_20261110_5cc919",
+  "headline": "Forward Industries grows its Solana treasury to about 8.7 million SOL as SOL hits a near three-month low",
+  "summary": "Forward Industries added about 226,000 SOL since late September through purchases and staking, bringing holdings to about 8.7 million SOL (about $726 million, roughly 1.5% of circulating supply). SOL dipped to about $82 on Tuesday, its lowest in almost three months.",
+  "detected_at": "2026-11-10T22:09-05:00",
+  "active_since": "2026-11-10T22:09-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "SOL"
+  ],
+  "event_type": "institutional",
+  "event_time": "2026-11-10T16:51-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/markets/2026-11-10-forward-industries-grows-sol-treasury-8-7-million-token-hits-three-month-low-437330"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-10-forward-industries-grows-sol-treasury-8-7-million-token-hits-three-month-low-437330",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-10-forward-industries-grows-sol-treasury-8-7-million-token-hits-three-month-low-437330",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/markets/2026-11-10-forward-industries-grows-sol-treasury-8-7-million-token-hits-three-month-low-437330",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Routine treasury update"
+  ],
+  "market_significance": "Largest SOL treasury company keeps accumulating during a drawdown",
+  "trigger": "Company update",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261110_959895",
+  "headline": "CFTC reportedly warns Kalshi it may face charges over unreported contracts as it also probes Polymarket",
+  "summary": "The CFTC reportedly warned Kalshi it may soon face charges for failing to notify regulators about dozens of planned contracts; Kalshi called them procedural errors. The agency is also reported to be investigating Polymarket's advertising and settlement compliance, while Polymarket says annualized revenue tops $1.8 billion.",
+  "detected_at": "2026-11-10T22:09-05:00",
+  "active_since": "2026-11-10T22:09-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "regulatory",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://panews.io/articles/01a1c855-5f12-7264-ba7c-1391da253427#kalshi"
+  ],
+  "source_names": [
+   "PANews"
+  ],
+  "sources": [
+   {
+    "url": "https://panews.io/articles/01a1c855-5f12-7264-ba7c-1391da253427#kalshi",
+    "name": "PANews",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://panews.io/articles/01a1c855-5f12-7264-ba7c-1391da253427#kalshi",
+    "name": "PANews",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "PANews",
+     "url": "https://panews.io/articles/01a1c855-5f12-7264-ba7c-1391da253427#kalshi",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Reported, not confirmed; prediction markets, not a crypto market-moving decision"
+  ],
+  "market_significance": "Regulatory pressure on prediction markets",
+  "trigger": "Media report",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261110_97e504",
+  "headline": "Waves rolls back its chain after rogue high-fee blocks wrongly credit WAVES; Upbit and Bithumb flag the token",
+  "summary": "On November 9 a third party produced high-fee blocks that wrongly credited addresses with WAVES. Waves rolled back to block 5,481,020 and released version 1.6.5. Upbit and Bithumb put WAVES on caution and suspended deposits and withdrawals.",
+  "detected_at": "2026-11-10T22:09-05:00",
+  "active_since": "2026-11-10T22:09-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "WAVES"
+  ],
+  "event_type": "outage",
+  "event_time": "2026-11-09T12:00-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://panews.io/articles/01a1c855-5f12-7264-ba7c-1391da253427#waves"
+  ],
+  "source_names": [
+   "PANews"
+  ],
+  "sources": [
+   {
+    "url": "https://panews.io/articles/01a1c855-5f12-7264-ba7c-1391da253427#waves",
+    "name": "PANews",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://panews.io/articles/01a1c855-5f12-7264-ba7c-1391da253427#waves",
+    "name": "PANews",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "PANews",
+     "url": "https://panews.io/articles/01a1c855-5f12-7264-ba7c-1391da253427#waves",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Small-cap network incident"
+  ],
+  "market_significance": "Chain rollback and exchange caution listings",
+  "trigger": "Network incident",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261110_c99aa2",
+  "headline": "Initia pauses its layer 1 after a leaked cloud key lets an attacker forge about $3.27 million in withdrawals",
+  "summary": "Initia said an attacker used a leaked Google Cloud key on November 9 to forge IBC withdrawals across five rollups, moving out about $3.27 million; about $2.16 million is stuck on the paused L1, which was halted on November 10.",
+  "detected_at": "2026-11-10T22:09-05:00",
+  "active_since": "2026-11-10T22:09-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "INIT"
+  ],
+  "event_type": "hack_exploit",
+  "event_time": "2026-11-10T01:18-05:00",
+  "scheduled_event": false,
+  "metrics": {
+   "loss_usd": 3270000
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://panews.io/articles/01a1c855-5f12-7264-ba7c-1391da253427#initia"
+  ],
+  "source_names": [
+   "PANews"
+  ],
+  "sources": [
+   {
+    "url": "https://panews.io/articles/01a1c855-5f12-7264-ba7c-1391da253427#initia",
+    "name": "PANews",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://panews.io/articles/01a1c855-5f12-7264-ba7c-1391da253427#initia",
+    "name": "PANews",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "PANews",
+     "url": "https://panews.io/articles/01a1c855-5f12-7264-ba7c-1391da253427#initia",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Loss below hack threshold",
+   "hack rule: about $3M lost (thresholds $10M/$100M) -> NORMAL"
+  ],
+  "market_significance": "Infrastructure key leak exploit",
+  "trigger": "Project disclosure",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261110_d354eb",
+  "headline": "Across Protocol's domain is hijacked through a registrar social-engineering attack; front end stays offline",
+  "summary": "Across said its domain was compromised after an attack on its registrar Namecheap around early November 11 Asia time. The phishing site was taken down, affected users will be compensated, and the front end and API remain closed.",
+  "detected_at": "2026-11-10T22:09-05:00",
+  "active_since": "2026-11-10T22:09-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "ACX"
+  ],
+  "event_type": "hack_exploit",
+  "event_time": "2026-11-10T13:45-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://panews.io/articles/01a1c855-5f12-7264-ba7c-1391da253427#across"
+  ],
+  "source_names": [
+   "PANews"
+  ],
+  "sources": [
+   {
+    "url": "https://panews.io/articles/01a1c855-5f12-7264-ba7c-1391da253427#across",
+    "name": "PANews",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://panews.io/articles/01a1c855-5f12-7264-ba7c-1391da253427#across",
+    "name": "PANews",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "PANews",
+     "url": "https://panews.io/articles/01a1c855-5f12-7264-ba7c-1391da253427#across",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Front-end hijack, loss not disclosed, small"
+  ],
+  "market_significance": "Users should avoid the site until it reopens",
+  "trigger": "Project disclosure",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261110_eafb76",
+  "headline": "Bakkt's third-quarter revenue falls 63% to $149 million on lower crypto volume",
+  "summary": "Bakkt reported Q3 revenue of $149.2 million, down 62.9% from a year earlier, with net income of $14.3 million helped by a non-cash warrant gain.",
+  "detected_at": "2026-11-10T22:09-05:00",
+  "active_since": "2026-11-10T22:09-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "other",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://panews.io/articles/01a1c855-5f12-7264-ba7c-1391da253427#bakkt"
+  ],
+  "source_names": [
+   "PANews"
+  ],
+  "sources": [
+   {
+    "url": "https://panews.io/articles/01a1c855-5f12-7264-ba7c-1391da253427#bakkt",
+    "name": "PANews",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://panews.io/articles/01a1c855-5f12-7264-ba7c-1391da253427#bakkt",
+    "name": "PANews",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "PANews",
+     "url": "https://panews.io/articles/01a1c855-5f12-7264-ba7c-1391da253427#bakkt",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Routine earnings"
+  ],
+  "market_significance": "Another sign of weaker crypto trading volumes",
+  "trigger": "Earnings",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
  }
 ]
