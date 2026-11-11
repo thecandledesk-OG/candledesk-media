@@ -55783,7 +55783,9 @@
    "https://www.coindesk.com/markets/2026/11/10/bitcoin-slips-before-u-s-inflation-report-as-traders-price-in-fed-rate-increase",
    "https://finwire.io/news/crypto-news/bitcoin-slips-as-hotter-us-cpi-fuels-fed-hike-bets",
    "https://www.theblock.co/news/markets/2026-11-10-bitcoin-price-cpi-inflation-73000-support-437301",
-   "https://www.coindesk.com/price/xrp"
+   "https://www.coindesk.com/price/xrp",
+   "https://www.coindesk.com/markets/2026/11/10/live-news-traders-price-in-fed-rate-hike-for-december-as-bitcoin-and-gold-retreat",
+   "https://bitcoinmagazine.com/markets/bitcoin-price-trades-near-73900-cpi"
   ],
   "source_names": [
    "CoinDesk",
@@ -55793,7 +55795,9 @@
    "CoinDesk",
    "Finwire",
    "The Block",
-   "CoinDesk"
+   "CoinDesk",
+   "CoinDesk",
+   "Bitcoin Magazine"
   ],
   "sources": [
    {
@@ -55849,6 +55853,20 @@
     "url": "https://www.coindesk.com/price/xrp",
     "name": "CoinDesk",
     "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/11/10/live-news-traders-price-in-fed-rate-hike-for-december-as-bitcoin-and-gold-retreat",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://bitcoinmagazine.com/markets/bitcoin-price-trades-near-73900-cpi",
+    "name": "Bitcoin Magazine",
+    "kind": "other",
     "checked": true,
     "confirms": true
    }
@@ -55907,6 +55925,20 @@
     "url": "https://www.coindesk.com/price/xrp",
     "name": "CoinDesk",
     "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/11/10/live-news-traders-price-in-fed-rate-hike-for-december-as-bitcoin-and-gold-retreat",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://bitcoinmagazine.com/markets/bitcoin-price-trades-near-73900-cpi",
+    "name": "Bitcoin Magazine",
+    "kind": "other",
     "checked": true,
     "confirms": true
    }
@@ -55974,6 +56006,20 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/11/10/live-news-traders-price-in-fed-rate-hike-for-december-as-bitcoin-and-gold-retreat",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Bitcoin Magazine",
+     "url": "https://bitcoinmagazine.com/markets/bitcoin-price-trades-near-73900-cpi",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -56036,6 +56082,15 @@
     "at": "2026-11-10T16:09-05:00",
     "headline": "Bitcoin slides below $74,000 after hotter-than-expected October CPI; ether and solana fall about 4%",
     "summary": "October CPI rose 0.4% versus 0.3% expected and core rose 0.3% versus 0.2%. Bitcoin dipped to about $73,300, down about 2% on the day; ether fell about 4% to near $2,040, solana about 4.5% to near $82, and XRP about 3% to near $1.07. Analysts flag $70,000 as the next support.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-10T19:14-05:00",
+    "headline": "Bitcoin falls below $73,000 to its lowest since August after hotter-than-expected October CPI lifts December Fed hike bets",
+    "summary": "October CPI rose 0.4% (0.3% expected) and core 0.3% (0.2% expected). Bitcoin dipped below $73,000, its weakest since Aug. 20, and traded near $73,600, down about 1.9% on the day. Ether fell about 3.5% to near $2,050, XRP about 3.9% to near $1.06 and Solana about 3.6% to near $83. Fed Governor Waller said a hotter reading could warrant a 50 basis point December hike.",
     "new_development": true,
     "level": "NORMAL",
     "sources_added": 2,
