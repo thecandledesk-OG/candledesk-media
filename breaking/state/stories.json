@@ -59995,10 +59995,14 @@
   "metrics": {},
   "emergency": false,
   "source_urls": [
-   "https://thecryptodesk.substack.com/p/the-crypto-desk-thursday-12-november"
+   "https://thecryptodesk.substack.com/p/the-crypto-desk-thursday-12-november",
+   "https://news.bitcoin.com/bitcoin-etf/bitcoin-etfs-lose-1-44b-in-5-days-as-selling-deepens/",
+   "https://decrypt.co/383122/bitcoin-etfs-bleed-1-4b-in-five-days-as-investors-cut-risk"
   ],
   "source_names": [
-   "The Crypto Desk"
+   "The Crypto Desk",
+   "Bitcoin.com News",
+   "Decrypt"
   ],
   "sources": [
    {
@@ -60006,6 +60010,20 @@
     "name": "The Crypto Desk",
     "kind": "secondary",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://news.bitcoin.com/bitcoin-etf/bitcoin-etfs-lose-1-44b-in-5-days-as-selling-deepens/",
+    "name": "Bitcoin.com News",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/383122/bitcoin-etfs-bleed-1-4b-in-five-days-as-investors-cut-risk",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -60015,6 +60033,20 @@
     "name": "The Crypto Desk",
     "kind": "secondary",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://news.bitcoin.com/bitcoin-etf/bitcoin-etfs-lose-1-44b-in-5-days-as-selling-deepens/",
+    "name": "Bitcoin.com News",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/383122/bitcoin-etfs-bleed-1-4b-in-five-days-as-investors-cut-risk",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -60032,6 +60064,20 @@
      "category": "social",
      "counts": false,
      "note": "social/community post — can trigger investigation, never verifies"
+    },
+    {
+     "name": "Bitcoin.com News",
+     "url": "https://news.bitcoin.com/bitcoin-etf/bitcoin-etfs-lose-1-44b-in-5-days-as-selling-deepens/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/383122/bitcoin-etfs-bleed-1-4b-in-five-days-as-investors-cut-risk",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
     }
    ]
   },
@@ -60043,7 +60089,17 @@
   "content_created": false,
   "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-11-12T16:10-05:00",
+    "headline": "Bitcoin ETFs lose $1.44 billion over five straight days of outflows as ether funds shed $145 million in a day",
+    "summary": "US spot bitcoin ETFs saw about $300 million in outflows on Wednesday, the fifth straight session, for $1.44 billion over five days. Ether ETFs lost about $145 million, led by BlackRock's ETHA.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -60566,16 +60622,25 @@
   },
   "emergency": false,
   "source_urls": [
-   "https://www.theblock.co/news/markets/2026-11-12-bitcoin-12-week-low-jensen-huang-exit-nvidia-438992"
+   "https://www.theblock.co/news/markets/2026-11-12-bitcoin-12-week-low-jensen-huang-exit-nvidia-438992",
+   "https://cryptonro.com/articles/crypto-market-today-2026-11-12"
   ],
   "source_names": [
-   "The Block"
+   "The Block",
+   "Cryptonro"
   ],
   "sources": [
    {
     "url": "https://www.theblock.co/news/markets/2026-11-12-bitcoin-12-week-low-jensen-huang-exit-nvidia-438992",
     "name": "The Block",
     "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptonro.com/articles/crypto-market-today-2026-11-12",
+    "name": "Cryptonro",
+    "kind": "other",
     "checked": true,
     "confirms": true
    }
@@ -60585,6 +60650,13 @@
     "url": "https://www.theblock.co/news/markets/2026-11-12-bitcoin-12-week-low-jensen-huang-exit-nvidia-438992",
     "name": "The Block",
     "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptonro.com/articles/crypto-market-today-2026-11-12",
+    "name": "Cryptonro",
+    "kind": "other",
     "checked": true,
     "confirms": true
    }
@@ -60603,6 +60675,13 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "Cryptonro",
+     "url": "https://cryptonro.com/articles/crypto-market-today-2026-11-12",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -60615,7 +60694,17 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-11-12T16:10-05:00",
+    "headline": "Bitcoin trades near $71,600, down about 4% in 24 hours, with ether near $2,000 and XRP and solana down about 5%",
+    "summary": "Afternoon snapshot: BTC about $71,650 (-3.9%), ETH about $2,004 (-4.2%), XRP about $1.02 (-5.1%), SOL about $81 (-5.1%) as the Nvidia leadership news weighs on risk assets.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -60892,6 +60981,76 @@
   ],
   "market_significance": "Transparency step for Tether products",
   "trigger": "Tether announcement",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261112_e593aa",
+  "headline": "StoneX says Exodus's cost reset is real as payments offset a crypto wallet slowdown",
+  "summary": "Broker StoneX says self-custody wallet firm Exodus has cut costs while its payments business offsets weaker wallet revenue.",
+  "detected_at": "2026-11-12T16:10-05:00",
+  "active_since": "2026-11-12T16:10-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "other",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/markets/2026-11-12-exodus-cost-reset-real-payments-offset-crypto-wallet-slowdown-stonex-438988"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-12-exodus-cost-reset-real-payments-offset-crypto-wallet-slowdown-stonex-438988",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-12-exodus-cost-reset-real-payments-offset-crypto-wallet-slowdown-stonex-438988",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/markets/2026-11-12-exodus-cost-reset-real-payments-offset-crypto-wallet-slowdown-stonex-438988",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Analyst note on one company."
+  ],
+  "market_significance": "Minor",
+  "trigger": "The Block report",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
