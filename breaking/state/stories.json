@@ -55924,7 +55924,9 @@
    "https://www.coindesk.com/markets/2026/11/10/live-news-traders-price-in-fed-rate-hike-for-december-as-bitcoin-and-gold-retreat",
    "https://bitcoinmagazine.com/markets/bitcoin-price-trades-near-73900-cpi",
    "https://www.kraken.com/prices",
-   "https://fortune.com/article/price-of-bitcoin-11-11-2026/"
+   "https://fortune.com/article/price-of-bitcoin-11-11-2026/",
+   "https://www.coindesk.com/daybook-us/2026/11/11/bitcoin-barely-flinches-at-hot-cpi-as-etf-selling-slows",
+   "https://finance.yahoo.com/markets/crypto/articles/crypto-market-today-nov-11-222003362.html"
   ],
   "source_names": [
    "CoinDesk",
@@ -55938,7 +55940,9 @@
    "CoinDesk",
    "Bitcoin Magazine",
    "Kraken prices",
-   "Fortune"
+   "Fortune",
+   "CoinDesk",
+   "Yahoo Finance (Motley Fool)"
   ],
   "sources": [
    {
@@ -56021,6 +56025,20 @@
    {
     "url": "https://fortune.com/article/price-of-bitcoin-11-11-2026/",
     "name": "Fortune",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/daybook-us/2026/11/11/bitcoin-barely-flinches-at-hot-cpi-as-etf-selling-slows",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://finance.yahoo.com/markets/crypto/articles/crypto-market-today-nov-11-222003362.html",
+    "name": "Yahoo Finance (Motley Fool)",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -56110,15 +56128,29 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/daybook-us/2026/11/11/bitcoin-barely-flinches-at-hot-cpi-as-etf-selling-slows",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://finance.yahoo.com/markets/crypto/articles/crypto-market-today-nov-11-222003362.html",
+    "name": "Yahoo Finance (Motley Fool)",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "VERIFIED",
   "verification": {
    "status": "VERIFIED",
-   "independent_sources": 4,
+   "independent_sources": 5,
    "has_primary": true,
    "score": 1.0,
-   "reason": "4 independent credible sources confirm it (incl. a primary source)",
+   "reason": "5 independent credible sources confirm it (incl. a primary source)",
    "sources_checked": [
     {
      "name": "CoinDesk",
@@ -56200,6 +56232,20 @@
     {
      "name": "Fortune",
      "url": "https://fortune.com/article/price-of-bitcoin-11-11-2026/",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/daybook-us/2026/11/11/bitcoin-barely-flinches-at-hot-cpi-as-etf-selling-slows",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "Yahoo Finance (Motley Fool)",
+     "url": "https://finance.yahoo.com/markets/crypto/articles/crypto-market-today-nov-11-222003362.html",
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
@@ -56295,6 +56341,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-11T22:13-05:00",
+    "headline": "Bitcoin steadies near $74,000 after hot CPI as spot bitcoin ETF outflows slow",
+    "summary": "Bitcoin held around $73,700-$74,600 on Wednesday, roughly flat to up about 1% over 24 hours, after a hotter US CPI print revived Fed hike bets; ether near $2,050-2,080, XRP near $1.05, SOL near $84. Spot bitcoin ETFs saw about $95 million of outflows on Nov 10, a fourth straight day.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
     "verification": "VERIFIED"
    }
   ],
@@ -56444,6 +56499,15 @@
     "new_development": true,
     "level": "NORMAL",
     "sources_added": 2,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-11T22:13-05:00",
+    "headline": "SEC files a brief backing the CFTC in the court fight over single-stock perpetual futures",
+    "summary": "The SEC filed an amicus brief supporting the CFTC in the Capital Markets Alliance lawsuit seeking to overturn CFTC approval of perpetual derivatives tied to US stocks, rejecting the claim the CFTC has gone rogue. Coinbase, Payward, Kalshi, DRW, Paradigm and Jump filed a joint brief backing the CFTC.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 0,
     "verification": "VERIFIED"
    }
   ],
@@ -59119,6 +59183,188 @@
    "6af5079777f44b6536061fd2",
    "6af5079877f44b6536061ff7"
   ],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261111_1af0f6",
+  "headline": "SEC faces a November 15 final deadline on VanEck's JitoSOL staked-Solana ETF",
+  "summary": "The SEC has used all extensions on Nasdaq's proposal to list the VanEck JitoSOL ETF and must approve or reject it by November 15, unless Nasdaq withdraws and refiles.",
+  "detected_at": "2026-11-11T22:13-05:00",
+  "active_since": "2026-11-11T22:13-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "SOL"
+  ],
+  "event_type": "etf",
+  "event_time": "2026-11-15T23:59-05:00",
+  "scheduled_event": true,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://coinranking.com/news/vaneck-jitosol-etf-faces-hard-november-15-deadline-sec",
+   "https://cryptoticker.io/en/staking-etf-sec-decision-deadline/"
+  ],
+  "source_names": [
+   "Coinranking",
+   "CryptoTicker"
+  ],
+  "sources": [
+   {
+    "url": "https://coinranking.com/news/vaneck-jitosol-etf-faces-hard-november-15-deadline-sec",
+    "name": "Coinranking",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptoticker.io/en/staking-etf-sec-decision-deadline/",
+    "name": "CryptoTicker",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://coinranking.com/news/vaneck-jitosol-etf-faces-hard-november-15-deadline-sec",
+    "name": "Coinranking",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptoticker.io/en/staking-etf-sec-decision-deadline/",
+    "name": "CryptoTicker",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Coinranking",
+     "url": "https://coinranking.com/news/vaneck-jitosol-etf-faces-hard-november-15-deadline-sec",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CryptoTicker",
+     "url": "https://cryptoticker.io/en/staking-etf-sec-decision-deadline/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Expected decision, not yet happened."
+  ],
+  "market_significance": "First US liquid-staking-token ETF decision.",
+  "trigger": "Deadline watch",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261111_f43564",
+  "headline": "PayPal joins the x402 Foundation to work on payment standards for AI agents",
+  "summary": "PayPal joined the x402 Foundation, which develops open standards for AI agent payments including stablecoin transfers.",
+  "detected_at": "2026-11-11T22:13-05:00",
+  "active_since": "2026-11-11T22:13-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "USDC"
+  ],
+  "event_type": "partnership",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-12-2026"
+  ],
+  "source_names": [
+   "KuCoin daily report"
+  ],
+  "sources": [
+   {
+    "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-12-2026",
+    "name": "KuCoin daily report",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-12-2026",
+    "name": "KuCoin daily report",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "KuCoin daily report",
+     "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-12-2026",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Small industry-group membership."
+  ],
+  "market_significance": "Payments giant backing agent-payment rails.",
+  "trigger": "Daily market report",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [
+   {
+    "at": "2026-11-11T22:13-05:00",
+    "headline": "HYPE gains about 4% as South Korean exchanges add won pairs and the Elysium layer 2 goes live",
+    "summary": "Hyperliquid's HYPE rose about 4% in 24 hours after several South Korean exchanges opened KRW trading pairs and Elysium, a layer 2 using HYPE for gas, launched on mainnet.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-11T22:13-05:00",
+    "headline": "Germany proposes adding crypto accounts to its account information query system",
+    "summary": "Germany proposed bringing crypto accounts into the system authorities use to query account information.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   }
+  ],
+  "posts": [],
   "needs_followup": false
  }
 ]
