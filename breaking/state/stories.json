@@ -55923,7 +55923,8 @@
    "https://www.coindesk.com/price/xrp",
    "https://www.coindesk.com/markets/2026/11/10/live-news-traders-price-in-fed-rate-hike-for-december-as-bitcoin-and-gold-retreat",
    "https://bitcoinmagazine.com/markets/bitcoin-price-trades-near-73900-cpi",
-   "https://www.kraken.com/prices"
+   "https://www.kraken.com/prices",
+   "https://fortune.com/article/price-of-bitcoin-11-11-2026/"
   ],
   "source_names": [
    "CoinDesk",
@@ -55936,7 +55937,8 @@
    "CoinDesk",
    "CoinDesk",
    "Bitcoin Magazine",
-   "Kraken prices"
+   "Kraken prices",
+   "Fortune"
   ],
   "sources": [
    {
@@ -56013,6 +56015,13 @@
     "url": "https://www.kraken.com/prices",
     "name": "Kraken prices",
     "kind": "primary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://fortune.com/article/price-of-bitcoin-11-11-2026/",
+    "name": "Fortune",
+    "kind": "secondary",
     "checked": true,
     "confirms": true
    }
@@ -56094,15 +56103,22 @@
     "kind": "primary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://fortune.com/article/price-of-bitcoin-11-11-2026/",
+    "name": "Fortune",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "VERIFIED",
   "verification": {
    "status": "VERIFIED",
-   "independent_sources": 3,
+   "independent_sources": 4,
    "has_primary": true,
    "score": 1.0,
-   "reason": "3 independent credible sources confirm it (incl. a primary source)",
+   "reason": "4 independent credible sources confirm it (incl. a primary source)",
    "sources_checked": [
     {
      "name": "CoinDesk",
@@ -56180,6 +56196,13 @@
      "category": "primary",
      "counts": true,
      "note": "primary (known official domain)"
+    },
+    {
+     "name": "Fortune",
+     "url": "https://fortune.com/article/price-of-bitcoin-11-11-2026/",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -56264,6 +56287,15 @@
     "level": "NORMAL",
     "sources_added": 1,
     "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-11T19:20-05:00",
+    "headline": "Bitcoin slips below $74,000 after a hot US inflation print revives Fed hike bets",
+    "summary": "Bitcoin traded near $73,900 on Wednesday, down about 1% in 24 hours, after hotter-than-expected CPI data raised bets on a larger Fed rate hike; ether was near $2,055 and XRP near $1.05.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
    }
   ],
   "posts": [],
@@ -56288,11 +56320,15 @@
   "emergency": false,
   "source_urls": [
    "https://theblock.co/news/regulation/2026-11-10-coinbase-kalshi-payward-back-cftc-perps-436971",
-   "https://cointelegraph.com/news/coinbase-kalshi-cftc-stock-perpetual-futures-lawsuit"
+   "https://cointelegraph.com/news/coinbase-kalshi-cftc-stock-perpetual-futures-lawsuit",
+   "https://www.theblock.co/news/regulation/2026-11-11-sec-enters-fight-who-regulates-perpetual-derivatives-stocks-in-us-438427",
+   "https://cryptobriefing.com/sec-backs-cftc-perpetual-futures-lawsuit/"
   ],
   "source_names": [
    "The Block",
-   "Cointelegraph"
+   "Cointelegraph",
+   "The Block",
+   "Crypto Briefing"
   ],
   "sources": [
    {
@@ -56308,6 +56344,20 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-11-sec-enters-fight-who-regulates-perpetual-derivatives-stocks-in-us-438427",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptobriefing.com/sec-backs-cftc-perpetual-futures-lawsuit/",
+    "name": "Crypto Briefing",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
    }
   ],
   "gate_sources": [
@@ -56324,6 +56374,20 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-11-sec-enters-fight-who-regulates-perpetual-derivatives-stocks-in-us-438427",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptobriefing.com/sec-backs-cftc-perpetual-futures-lawsuit/",
+    "name": "Crypto Briefing",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
    }
   ],
   "verification_status": "VERIFIED",
@@ -56347,6 +56411,20 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-11-11-sec-enters-fight-who-regulates-perpetual-derivatives-stocks-in-us-438427",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Crypto Briefing",
+     "url": "https://cryptobriefing.com/sec-backs-cftc-perpetual-futures-lawsuit/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -56358,7 +56436,17 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-11-11T19:20-05:00",
+    "headline": "SEC files a brief backing the CFTC in the court fight over single-stock perpetual futures",
+    "summary": "On November 11 the SEC filed an amicus brief supporting the CFTC against the Capital Markets Alliance lawsuit that seeks to vacate the CFTC's approval of perpetual futures on individual US stocks, rejecting the claim that the CFTC has gone rogue and saying the agencies collaborate on equity perpetuals.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "VERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -58863,6 +58951,174 @@
   "related_story_ids": [],
   "updates": [],
   "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261111_e3d9e0",
+  "headline": "MSCI drops Strategy from its USA Index and Metaplanet from Japan Small Cap under its new non-operating company rule",
+  "summary": "MSCI's November 2026 index review, published shortly after 5 PM ET on November 11, deletes Strategy (MSTR), the largest corporate bitcoin holder, from the MSCI USA Index (and so MSCI World and ACWI), and Metaplanet from the MSCI Japan Small Cap Index, effective at the close of November 30. The cut follows the screen MSCI adopted on October 15 that makes companies without substantial operating assets ineligible. MSTR fell about 2.5% after hours. JPMorgan had estimated about $2.8 billion of passive outflows from an exclusion, based on MSCI's earlier proposal.",
+  "detected_at": "2026-11-11T19:20-05:00",
+  "active_since": "2026-11-11T19:20-05:00",
+  "classification": "IMPORTANT",
+  "proposed_level": "IMPORTANT",
+  "confidence": 0.85,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "institutional",
+  "event_time": "2026-11-11T17:05-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/markets/2026-11-11-strategy-metaplanet-lose-msci-index-membership-november-reshuffle-438437",
+   "https://www.investing.com/news/stock-market-news/strategy-shares-fall-after-msci-confirms-deletion-from-us-largecap-benchmark-5020038",
+   "https://bitcoinmagazine.com/markets/msci-removes-strategy-mstr-usa-index",
+   "https://finance.yahoo.com/markets/stocks/articles/msci-drops-strategy-us-index-220741050.html",
+   "https://www.msci.com/eqb/gimi/stdindex/MSCI_Nov26_STPublicList.pdf"
+  ],
+  "source_names": [
+   "The Block",
+   "Investing.com",
+   "Bitcoin Magazine",
+   "Yahoo Finance (BeInCrypto)",
+   "MSCI review list"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-11-strategy-metaplanet-lose-msci-index-membership-november-reshuffle-438437",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.investing.com/news/stock-market-news/strategy-shares-fall-after-msci-confirms-deletion-from-us-largecap-benchmark-5020038",
+    "name": "Investing.com",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://bitcoinmagazine.com/markets/msci-removes-strategy-mstr-usa-index",
+    "name": "Bitcoin Magazine",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://finance.yahoo.com/markets/stocks/articles/msci-drops-strategy-us-index-220741050.html",
+    "name": "Yahoo Finance (BeInCrypto)",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "origin": "BeInCrypto"
+   },
+   {
+    "url": "https://www.msci.com/eqb/gimi/stdindex/MSCI_Nov26_STPublicList.pdf",
+    "name": "MSCI review list",
+    "kind": "primary",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-11-strategy-metaplanet-lose-msci-index-membership-november-reshuffle-438437",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.investing.com/news/stock-market-news/strategy-shares-fall-after-msci-confirms-deletion-from-us-largecap-benchmark-5020038",
+    "name": "Investing.com",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://bitcoinmagazine.com/markets/msci-removes-strategy-mstr-usa-index",
+    "name": "Bitcoin Magazine",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://finance.yahoo.com/markets/stocks/articles/msci-drops-strategy-us-index-220741050.html",
+    "name": "Yahoo Finance (BeInCrypto)",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "origin": "BeInCrypto"
+   },
+   {
+    "url": "https://www.msci.com/eqb/gimi/stdindex/MSCI_Nov26_STPublicList.pdf",
+    "name": "MSCI review list",
+    "kind": "primary",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "verification_status": "VERIFIED",
+  "verification": {
+   "status": "VERIFIED",
+   "independent_sources": 2,
+   "has_primary": false,
+   "score": 0.8,
+   "reason": "2 independent credible sources confirm it (no primary source yet)",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/markets/2026-11-11-strategy-metaplanet-lose-msci-index-membership-november-reshuffle-438437",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Investing.com",
+     "url": "https://www.investing.com/news/stock-market-news/strategy-shares-fall-after-msci-confirms-deletion-from-us-largecap-benchmark-5020038",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Bitcoin Magazine",
+     "url": "https://bitcoinmagazine.com/markets/msci-removes-strategy-mstr-usa-index",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Yahoo Finance (BeInCrypto)",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/msci-drops-strategy-us-index-220741050.html",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "MSCI review list",
+     "url": "https://www.msci.com/eqb/gimi/stdindex/MSCI_Nov26_STPublicList.pdf",
+     "category": "primary",
+     "counts": false,
+     "note": "primary (claimed official source; domain not on the known list); not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed IMPORTANT: Final index decision removing the largest corporate bitcoin holder from a major global benchmark; confirmed by MSCI's review filing as reported by The Block, Investing.com and Bitcoin Magazine."
+  ],
+  "market_significance": "Passive funds tracking MSCI USA/World/ACWI must sell MSTR by November 30; sets precedent for digital asset treasury companies.",
+  "trigger": "MSCI November 2026 index review announcement",
+  "content_created": true,
+  "publication_status": "DRAFTED",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [
+   "6af50797bc9f3773a1ad40c4",
+   "6af5079777f44b6536061fd2",
+   "6af5079877f44b6536061ff7"
+  ],
   "needs_followup": false
  }
 ]

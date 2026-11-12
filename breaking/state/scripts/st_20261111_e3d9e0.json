@@ -1,0 +1,32 @@
+{
+ "story_id": "st_20261111_e3d9e0",
+ "date_label": "NOV 11",
+ "headline": "MSCI drops Strategy from its index",
+ "sources": [
+  {"name": "The Block", "url": "https://www.theblock.co/news/markets/2026-11-11-strategy-metaplanet-lose-msci-index-membership-november-reshuffle-438437"},
+  {"name": "Investing.com", "url": "https://www.investing.com/news/stock-market-news/strategy-shares-fall-after-msci-confirms-deletion-from-us-largecap-benchmark-5020038"},
+  {"name": "Bitcoin Magazine", "url": "https://bitcoinmagazine.com/markets/msci-removes-strategy-mstr-usa-index"}
+ ],
+ "scenes": [
+  {"beat": "hook", "who": "ledger",
+   "vo": "The biggest corporate Bitcoin holder is getting kicked out of a major stock index. Here's what changed.",
+   "chunks": ["Biggest Bitcoin company", "*Dropped from index*", "Here's what changed"]},
+  {"beat": "what_happened", "who": "ledger",
+   "vo": "On Wednesday, MSCI said it will remove Strategy from its main American stock index at the close of November thirtieth. Japan's Metaplanet is also being dropped from a small cap index.",
+   "chunks": ["MSCI *drops Strategy*", "Out on *November 30*", "Metaplanet cut too"],
+   "stat": {"label": "Sources", "text": "The Block · Investing.com · Bitcoin Magazine"}},
+  {"beat": "why_it_matters", "who": "bruno",
+   "vo": "Here's why traders are watching it. Funds that track the index must sell their Strategy shares. JPMorgan once estimated about two point eight billion dollars of selling from a move like this.",
+   "chunks": ["Index funds *must sell*", "JPMorgan estimate:", "*About $2.8 billion*"]},
+  {"beat": "why_it_matters", "who": "ursa",
+   "vo": "The catch? That estimate was based on an older MSCI proposal, so the real number could differ. And Strategy is not selling any Bitcoin because of this.",
+   "chunks": ["Estimate is *older*", "Real number may differ", "*No Bitcoin sold*"]},
+  {"beat": "watch_next", "who": "moby",
+   "vo": "Here's what happens next. Watch Strategy's share price into November thirtieth, and whether other index providers follow MSCI's rule.",
+   "chunks": ["What's next", "*November 30* deadline", "Do *others follow*?"]},
+  {"beat": "cta", "who": "all",
+   "vo": "Follow The Candle Desk for crypto news without the hype. Not financial advice.",
+   "chunks": ["Follow The Candle Desk", "*No hype*", "Just the news"],
+   "foot": "NOT FINANCIAL ADVICE"}
+ ]
+}
