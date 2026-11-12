@@ -59337,16 +59337,25 @@
   "metrics": {},
   "emergency": false,
   "source_urls": [
-   "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-12-2026"
+   "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-12-2026",
+   "https://thecryptodesk.substack.com/p/the-crypto-desk-thursday-12-november"
   ],
   "source_names": [
-   "KuCoin daily report"
+   "KuCoin daily report",
+   "The Crypto Desk"
   ],
   "sources": [
    {
     "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-12-2026",
     "name": "KuCoin daily report",
     "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://thecryptodesk.substack.com/p/the-crypto-desk-thursday-12-november",
+    "name": "The Crypto Desk",
+    "kind": "secondary",
     "checked": true,
     "confirms": true
    }
@@ -59356,6 +59365,13 @@
     "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-12-2026",
     "name": "KuCoin daily report",
     "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://thecryptodesk.substack.com/p/the-crypto-desk-thursday-12-november",
+    "name": "The Crypto Desk",
+    "kind": "secondary",
     "checked": true,
     "confirms": true
    }
@@ -59374,6 +59390,13 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "The Crypto Desk",
+     "url": "https://thecryptodesk.substack.com/p/the-crypto-desk-thursday-12-november",
+     "category": "social",
+     "counts": false,
+     "note": "social/community post — can trigger investigation, never verifies"
     }
    ]
   },
@@ -59383,7 +59406,7 @@
   "market_significance": "Payments giant backing agent-payment rails.",
   "trigger": "Daily market report",
   "content_created": false,
-  "publication_status": "QUEUED_FOR_DAILY",
+  "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
   "updates": [
    {
@@ -59399,6 +59422,33 @@
     "at": "2026-11-11T22:13-05:00",
     "headline": "Germany proposes adding crypto accounts to its account information query system",
     "summary": "Germany proposed bringing crypto accounts into the system authorities use to query account information.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-12T10:09-05:00",
+    "headline": "MSCI drops Strategy from its index and bitcoin barely moves",
+    "summary": "MSCI kicked Strategy out of its index, and Bitcoin barely flinched! Green candles only!",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-12T10:09-05:00",
+    "headline": "Index funds could sell up to $2.8 billion of Strategy shares after MSCI removal",
+    "summary": "The catch? Index funds could dump up to two point eight billion dollars of Strategy shares.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-12T10:09-05:00",
+    "headline": "Glassnode: wallets holding 100 to 10,000 bitcoin keep accumulating",
+    "summary": "Psst... big wallets are moving. Holders of one hundred to ten thousand Bitcoin keep accumulating.",
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
@@ -59566,9 +59616,19 @@
   "market_significance": "Stablecoin enforcement",
   "trigger": "The Block latest news",
   "content_created": false,
-  "publication_status": "QUEUED_FOR_DAILY",
+  "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-11-12T10:09-05:00",
+    "headline": "Tron, Tether and Chainalysis launch a crime task force as impersonation scams jump 1,400%",
+    "summary": "Tron, Tether and Chainalysis launched a crime task force as impersonation scams jumped fourteen hundred percent.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -59661,11 +59721,13 @@
   "emergency": false,
   "source_urls": [
    "https://www.theblock.co/news/business/2026-11-11-nvidia-perps-board-weighs-ousting-jensen-huang-438447",
-   "https://decrypt.co/383114/pressure-mounts-on-nvidias-jensen-huang-amid-reports-of-second-affair"
+   "https://decrypt.co/383114/pressure-mounts-on-nvidias-jensen-huang-amid-reports-of-second-affair",
+   "https://www.coindesk.com/tech/2026/11/12/live-news-strategy-kicked-out-of-msci-indexes-as-nvidia-slump-rattles-markets"
   ],
   "source_names": [
    "The Block",
-   "Decrypt"
+   "Decrypt",
+   "CoinDesk"
   ],
   "sources": [
    {
@@ -59681,6 +59743,13 @@
     "kind": "secondary",
     "checked": false,
     "confirms": false
+   },
+   {
+    "url": "https://www.coindesk.com/tech/2026/11/12/live-news-strategy-kicked-out-of-msci-indexes-as-nvidia-slump-rattles-markets",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -59697,15 +59766,22 @@
     "kind": "secondary",
     "checked": false,
     "confirms": false
+   },
+   {
+    "url": "https://www.coindesk.com/tech/2026/11/12/live-news-strategy-kicked-out-of-msci-indexes-as-nvidia-slump-rattles-markets",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "UNVERIFIED",
   "verification": {
    "status": "UNVERIFIED",
-   "independent_sources": 0,
+   "independent_sources": 1,
    "has_primary": false,
-   "score": 0.0,
-   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
    "sources_checked": [
     {
      "name": "The Block",
@@ -59720,6 +59796,13 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/tech/2026/11/12/live-news-strategy-kicked-out-of-msci-indexes-as-nvidia-slump-rattles-markets",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -59731,7 +59814,26 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-11-12T10:14-05:00",
+    "headline": "Bitcoin slips below $72,000 to its weakest level since August as Nvidia's Jensen Huang resigns and yields rise",
+    "summary": "Bitcoin fell to about $71,300 Thursday morning, down about 3.5% in 24 hours; ether near $2,000 (-3.6%), XRP $1.02 (-4.7%), SOL about $81 (-4.7%). Nvidia said CEO Jensen Huang resigned effective immediately, the 2-year Treasury yield rose to 4.80% and Cleveland Fed's Hammack backed a restrictive stance.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-12T10:14-05:00",
+    "headline": "Bitcoin's hash rate falls below 1 zettahash per second",
+    "summary": "CoinDesk reports bitcoin's network hash rate dropped below 1 ZH/s.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -59867,6 +59969,571 @@
    "AI proposed NORMAL: Corporate earnings"
   ],
   "market_significance": "SOL treasury companies",
+  "trigger": "The Block latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261112_3aa7ef",
+  "headline": "Bitcoin ETFs lose $300 million in outflows, five days running",
+  "summary": "Here's what moved the chain today. Bitcoin ETFs lost three hundred million dollars, five days running.",
+  "detected_at": "2026-11-12T10:09-05:00",
+  "active_since": "2026-11-12T10:09-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "etf",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://thecryptodesk.substack.com/p/the-crypto-desk-thursday-12-november"
+  ],
+  "source_names": [
+   "The Crypto Desk"
+  ],
+  "sources": [
+   {
+    "url": "https://thecryptodesk.substack.com/p/the-crypto-desk-thursday-12-november",
+    "name": "The Crypto Desk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://thecryptodesk.substack.com/p/the-crypto-desk-thursday-12-november",
+    "name": "The Crypto Desk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Crypto Desk",
+     "url": "https://thecryptodesk.substack.com/p/the-crypto-desk-thursday-12-november",
+     "category": "social",
+     "counts": false,
+     "note": "social/community post — can trigger investigation, never verifies"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261112_0b79c6",
+  "headline": "DTCC plans to bring tokenized securities from its $114 trillion depository to Solana in the second half of 2027",
+  "summary": "DTCC said it will connect its DTCC Tokenization Service to Solana so eligible assets held at its Depository Trust Company can be tokenized on the network. The integration is planned for the second half of 2027. The service launched Oct. 28 on Canton and DTCC's private Besu network; Solana is the first public chain named for expansion. DTC custodied about $114 trillion in securities in 2025.",
+  "detected_at": "2026-11-12T10:14-05:00",
+  "active_since": "2026-11-12T10:14-05:00",
+  "classification": "IMPORTANT",
+  "proposed_level": "IMPORTANT",
+  "confidence": 0.9,
+  "assets": [
+   "SOL"
+  ],
+  "event_type": "institutional",
+  "event_time": "2026-11-12T09:00-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.prnewswire.com/apac/news-releases/dtcc-tokenization-service-to-connect-with-solana-advancing-multi-chain-strategy-and-expanding-access-to-leading-blockchain-networks-302937790.html",
+   "https://www.theblock.co/news/business/2026-11-12-dtcc-plans-bring-tokenized-securities-solana-second-half-of-2027-438559",
+   "https://decrypt.co/383132/dtcc-to-bring-tokenized-stocks-and-treasuries-to-solana-in-2027"
+  ],
+  "source_names": [
+   "DTCC press release (PR Newswire)",
+   "The Block",
+   "Decrypt"
+  ],
+  "sources": [
+   {
+    "url": "https://www.prnewswire.com/apac/news-releases/dtcc-tokenization-service-to-connect-with-solana-advancing-multi-chain-strategy-and-expanding-access-to-leading-blockchain-networks-302937790.html",
+    "name": "DTCC press release (PR Newswire)",
+    "kind": "primary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-12-dtcc-plans-bring-tokenized-securities-solana-second-half-of-2027-438559",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/383132/dtcc-to-bring-tokenized-stocks-and-treasuries-to-solana-in-2027",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.prnewswire.com/apac/news-releases/dtcc-tokenization-service-to-connect-with-solana-advancing-multi-chain-strategy-and-expanding-access-to-leading-blockchain-networks-302937790.html",
+    "name": "DTCC press release (PR Newswire)",
+    "kind": "primary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-12-dtcc-plans-bring-tokenized-securities-solana-second-half-of-2027-438559",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/383132/dtcc-to-bring-tokenized-stocks-and-treasuries-to-solana-in-2027",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "VERIFIED",
+  "verification": {
+   "status": "VERIFIED",
+   "independent_sources": 3,
+   "has_primary": true,
+   "score": 1.0,
+   "reason": "3 independent credible sources confirm it (incl. a primary source)",
+   "sources_checked": [
+    {
+     "name": "DTCC press release (PR Newswire)",
+     "url": "https://www.prnewswire.com/apac/news-releases/dtcc-tokenization-service-to-connect-with-solana-advancing-multi-chain-strategy-and-expanding-access-to-leading-blockchain-networks-302937790.html",
+     "category": "primary",
+     "counts": true,
+     "note": "primary (claimed official source; domain not on the known list)"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-12-dtcc-plans-bring-tokenized-securities-solana-second-half-of-2027-438559",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/383132/dtcc-to-bring-tokenized-stocks-and-treasuries-to-solana-in-2027",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed IMPORTANT: Official DTCC announcement confirmed by The Block and Decrypt; the core US securities settlement utility names Solana as its first public-chain expansion."
+  ],
+  "market_significance": "Institutional adoption: the backbone of US securities settlement choosing a public blockchain.",
+  "trigger": "The Block latest news, Nov 12 9:23 AM ET",
+  "content_created": true,
+  "publication_status": "DRAFTED",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [
+   "6af5d92ce4e14a2516e49c63",
+   "6af5d92d98ec532145f66d9a",
+   "6af5d92e9047ec2db46975e1"
+  ],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261112_50ba78",
+  "headline": "BNY taps Figment to offer staking to clients of its digital asset custody platform, starting with Ethereum",
+  "summary": "Figment will run validator infrastructure for a staking offering on BNY Digital Asset Custody for asset managers, ETF issuers, corporates and wealth firms. Ethereum first, Solana expected later; no launch date given.",
+  "detected_at": "2026-11-12T10:14-05:00",
+  "active_since": "2026-11-12T10:14-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.85,
+  "assets": [
+   "ETH",
+   "SOL"
+  ],
+  "event_type": "partnership",
+  "event_time": "2026-11-12T08:00-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.financialcontent.com/article/bizwire-2026-11-12-figment-collaborates-with-bny-to-support-staking-on-bnys-digital-asset-custody-platform",
+   "https://www.theblock.co/news/business/2026-11-12-bny-taps-figment-to-support-staking-on-its-digital-asset-custody-platform-438538"
+  ],
+  "source_names": [
+   "Figment press release (Business Wire)",
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.financialcontent.com/article/bizwire-2026-11-12-figment-collaborates-with-bny-to-support-staking-on-bnys-digital-asset-custody-platform",
+    "name": "Figment press release (Business Wire)",
+    "kind": "primary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-12-bny-taps-figment-to-support-staking-on-its-digital-asset-custody-platform-438538",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.financialcontent.com/article/bizwire-2026-11-12-figment-collaborates-with-bny-to-support-staking-on-bnys-digital-asset-custody-platform",
+    "name": "Figment press release (Business Wire)",
+    "kind": "primary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-12-bny-taps-figment-to-support-staking-on-its-digital-asset-custody-platform-438538",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "VERIFIED",
+  "verification": {
+   "status": "VERIFIED",
+   "independent_sources": 2,
+   "has_primary": true,
+   "score": 1.0,
+   "reason": "2 independent credible sources confirm it (incl. a primary source)",
+   "sources_checked": [
+    {
+     "name": "Figment press release (Business Wire)",
+     "url": "https://www.financialcontent.com/article/bizwire-2026-11-12-figment-collaborates-with-bny-to-support-staking-on-bnys-digital-asset-custody-platform",
+     "category": "primary",
+     "counts": true,
+     "note": "primary (claimed official source; domain not on the known list)"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-12-bny-taps-figment-to-support-staking-on-its-digital-asset-custody-platform-438538",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Announced partnership, not yet live and no launch date; good lead for the daily show."
+  ],
+  "market_significance": "Big custodian bank moving toward staking for institutions.",
+  "trigger": "The Block latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261112_fe5bec",
+  "headline": "SoFiUSD goes live on Polygon as the bank-issued stablecoin expands",
+  "summary": "SoFi's bank-issued stablecoin SoFiUSD is now live on Polygon.",
+  "detected_at": "2026-11-12T10:14-05:00",
+  "active_since": "2026-11-12T10:14-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "POL"
+  ],
+  "event_type": "partnership",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/ecosystems/2026-11-12-sofiusd-goes-live-on-polygon-as-bank-issued-stablecoin-expands-reach-438542"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/ecosystems/2026-11-12-sofiusd-goes-live-on-polygon-as-bank-issued-stablecoin-expands-reach-438542",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/ecosystems/2026-11-12-sofiusd-goes-live-on-polygon-as-bank-issued-stablecoin-expands-reach-438542",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/ecosystems/2026-11-12-sofiusd-goes-live-on-polygon-as-bank-issued-stablecoin-expands-reach-438542",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Routine chain expansion."
+  ],
+  "market_significance": "Bank stablecoins spreading across chains.",
+  "trigger": "The Block latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261112_3cba19",
+  "headline": "Securitize and Ethena's $100 million BlackRock BUIDL liquidity facility goes live",
+  "summary": "A $100 million liquidity facility for BlackRock's BUIDL fund from Securitize and Ethena is live.",
+  "detected_at": "2026-11-12T10:14-05:00",
+  "active_since": "2026-11-12T10:14-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "ENA",
+   "USDC"
+  ],
+  "event_type": "institutional",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/ecosystems/2026-11-12-securitize-ethena-buidl-liquidity-facility-live-usdc-438442"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/ecosystems/2026-11-12-securitize-ethena-buidl-liquidity-facility-live-usdc-438442",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/ecosystems/2026-11-12-securitize-ethena-buidl-liquidity-facility-live-usdc-438442",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/ecosystems/2026-11-12-securitize-ethena-buidl-liquidity-facility-live-usdc-438442",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Product launch of modest size."
+  ],
+  "market_significance": "Tokenized fund liquidity.",
+  "trigger": "The Block latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261112_0525d4",
+  "headline": "BitGo expands its institutional stablecoin minting and redemption platform with USDC",
+  "summary": "BitGo added USDC to its institutional stablecoin mint-and-redeem platform.",
+  "detected_at": "2026-11-12T10:14-05:00",
+  "active_since": "2026-11-12T10:14-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "USDC"
+  ],
+  "event_type": "exchange",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-11-12-bitgo-expands-institutional-stablecoin-minting-and-redemption-platform-with-usdc-438525"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-12-bitgo-expands-institutional-stablecoin-minting-and-redemption-platform-with-usdc-438525",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-12-bitgo-expands-institutional-stablecoin-minting-and-redemption-platform-with-usdc-438525",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-12-bitgo-expands-institutional-stablecoin-minting-and-redemption-platform-with-usdc-438525",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Routine product update."
+  ],
+  "market_significance": "Institutional stablecoin plumbing.",
+  "trigger": "The Block latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261112_8c0e7f",
+  "headline": "Andreessen Horowitz and the DeFi Education Fund push back against a proposed Illinois crypto tax",
+  "summary": "a16z and the DeFi Education Fund oppose an Illinois crypto tax proposal.",
+  "detected_at": "2026-11-12T10:14-05:00",
+  "active_since": "2026-11-12T10:14-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "regulatory",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/regulation/2026-11-12-andreessen-horowitz-defi-education-fund-push-back-against-illinois-crypto-tax-438573"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-12-andreessen-horowitz-defi-education-fund-push-back-against-illinois-crypto-tax-438573",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-12-andreessen-horowitz-defi-education-fund-push-back-against-illinois-crypto-tax-438573",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-11-12-andreessen-horowitz-defi-education-fund-push-back-against-illinois-crypto-tax-438573",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: State-level lobbying, no decision."
+  ],
+  "market_significance": "State crypto tax policy.",
   "trigger": "The Block latest news",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
