@@ -60623,11 +60623,13 @@
   "emergency": false,
   "source_urls": [
    "https://www.theblock.co/news/markets/2026-11-12-bitcoin-12-week-low-jensen-huang-exit-nvidia-438992",
-   "https://cryptonro.com/articles/crypto-market-today-2026-11-12"
+   "https://cryptonro.com/articles/crypto-market-today-2026-11-12",
+   "https://bravenewcoin.com/insights/crypto-news-today-bitcoin-loses-72k-as-550b-vanishes-from-cryptocurrency-market"
   ],
   "source_names": [
    "The Block",
-   "Cryptonro"
+   "Cryptonro",
+   "Brave New Coin"
   ],
   "sources": [
    {
@@ -60640,6 +60642,13 @@
    {
     "url": "https://cryptonro.com/articles/crypto-market-today-2026-11-12",
     "name": "Cryptonro",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://bravenewcoin.com/insights/crypto-news-today-bitcoin-loses-72k-as-550b-vanishes-from-cryptocurrency-market",
+    "name": "Brave New Coin",
     "kind": "other",
     "checked": true,
     "confirms": true
@@ -60656,6 +60665,13 @@
    {
     "url": "https://cryptonro.com/articles/crypto-market-today-2026-11-12",
     "name": "Cryptonro",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://bravenewcoin.com/insights/crypto-news-today-bitcoin-loses-72k-as-550b-vanishes-from-cryptocurrency-market",
+    "name": "Brave New Coin",
     "kind": "other",
     "checked": true,
     "confirms": true
@@ -60682,6 +60698,13 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Brave New Coin",
+     "url": "https://bravenewcoin.com/insights/crypto-news-today-bitcoin-loses-72k-as-550b-vanishes-from-cryptocurrency-market",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -60699,6 +60722,15 @@
     "at": "2026-11-12T16:10-05:00",
     "headline": "Bitcoin trades near $71,600, down about 4% in 24 hours, with ether near $2,000 and XRP and solana down about 5%",
     "summary": "Afternoon snapshot: BTC about $71,650 (-3.9%), ETH about $2,004 (-4.2%), XRP about $1.02 (-5.1%), SOL about $81 (-5.1%) as the Nvidia leadership news weighs on risk assets.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-12T22:14-05:00",
+    "headline": "Bitcoin extends its slide toward $71,000 and ether nears $2,000 as liquidations top $650 million",
+    "summary": "Bitcoin slipped to about $71,400 late Thursday, down about 4% on the day and about 9% on the week, with ether near $2,000. More than $650 million in mostly long positions were liquidated as ETF outflows and Fed hike bets weighed.",
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 1,
@@ -61451,6 +61483,78 @@
   ],
   "market_significance": "Another sign of weak retail crypto trading.",
   "trigger": "The Block 5:18 PM ET",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261112_a3c11a",
+  "headline": "Bank of Russia sets November 22 as the earliest start for crypto trading on Russian exchanges, subject to approval",
+  "summary": "A Bank of Russia ordinance lets exchanges start trading digital currencies from November 22 at the earliest, once the regulator approves each venue's trading rules. Separate rules from November 17 cap non-qualified investors at 300,000 rubles a year in bitcoin, ether and USDT.",
+  "detected_at": "2026-11-12T22:14-05:00",
+  "active_since": "2026-11-12T22:14-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "BTC",
+   "ETH",
+   "USDT"
+  ],
+  "event_type": "regulatory",
+  "event_time": "2026-11-11T12:00-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.newsbtc.com/regulation/russia-exchange-crypto-trading-november-22-rules"
+  ],
+  "source_names": [
+   "NewsBTC"
+  ],
+  "sources": [
+   {
+    "url": "https://www.newsbtc.com/regulation/russia-exchange-crypto-trading-november-22-rules",
+    "name": "NewsBTC",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.newsbtc.com/regulation/russia-exchange-crypto-trading-november-22-rules",
+    "name": "NewsBTC",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "NewsBTC",
+     "url": "https://www.newsbtc.com/regulation/russia-exchange-crypto-trading-november-22-rules",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Single crypto-outlet report of a central bank notice dated November 11; primary page not opened."
+  ],
+  "market_significance": "Opens regulated exchange crypto trading in Russia, limited for retail.",
+  "trigger": "NewsBTC report, November 12",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
