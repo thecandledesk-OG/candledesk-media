@@ -58704,7 +58704,26 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-11-13T16:11-05:00",
+    "headline": "MEGA cuts 20% of staff as the former MegaETH Foundation restructures",
+    "summary": "MEGA is cutting about a fifth of its workforce in a restructuring of the former MegaETH Foundation.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-13T16:11-05:00",
+    "headline": "House Oversight chair calls for a possible ban on government officials betting on prediction markets",
+    "summary": "The House Oversight chair raised a possible ban on officials' prediction market bets over insider trading concerns, as CFTC chair Selig accuses states of trying to lock up prediction market founders.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -61917,12 +61936,14 @@
   "source_urls": [
    "https://www.analyticsinsight.net/news/bitcoin-price-crashes-crypto-liquidations-hit-usd-14-billion-etf-outflows-reach-usd-192-billion",
    "https://cryptoticker.io/en/crypto-news-bitcoin-crash-liquidations-etf-outflows-november-13-2026/",
-   "https://coincentral.com/why-is-crypto-dropping-today-november-13-2026"
+   "https://coincentral.com/why-is-crypto-dropping-today-november-13-2026",
+   "https://www.coindesk.com/price/bitcoin"
   ],
   "source_names": [
    "Analytics Insight",
    "CryptoTicker",
-   "CoinCentral"
+   "CoinCentral",
+   "CoinDesk"
   ],
   "sources": [
    {
@@ -61942,6 +61963,13 @@
    {
     "url": "https://coincentral.com/why-is-crypto-dropping-today-november-13-2026",
     "name": "CoinCentral",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/price/bitcoin",
+    "name": "CoinDesk",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -61968,15 +61996,22 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/price/bitcoin",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "UNVERIFIED",
   "verification": {
    "status": "UNVERIFIED",
-   "independent_sources": 0,
+   "independent_sources": 1,
    "has_primary": false,
-   "score": 0.0,
-   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
    "sources_checked": [
     {
      "name": "Analytics Insight",
@@ -61998,6 +62033,13 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/price/bitcoin",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -62035,6 +62077,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-13T16:11-05:00",
+    "headline": "Bitcoin slides about 4% to near $68,600, extending its three-month low after hot inflation data",
+    "summary": "Bitcoin trades near $68,626, down about 4% in 24 hours per CoinDesk at 4:10 PM ET, after more than $1.3 billion in liquidations and continued spot ETF outflows.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "UNVERIFIED"
    }
   ],
@@ -62477,6 +62528,216 @@
   ],
   "market_significance": "Shows on-chain derivatives gaining share from centralized exchanges.",
   "trigger": "The Block latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261113_2761f0",
+  "headline": "MANTRA pauses new OM unbonding for 7 days after attackers unstake tokens from exposed Keplr wallets",
+  "summary": "MANTRA put a 7-day emergency pause on new unbonding after reports that attackers used leaked Keplr/Web3Auth keys to unstake and drain users' tokens; OM fell about 7%. No loss total given.",
+  "detected_at": "2026-11-13T16:11-05:00",
+  "active_since": "2026-11-13T16:11-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "OM"
+  ],
+  "event_type": "hack_exploit",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://crypto-economy.com/mantra-suspends-unbonding-requests-for-7-days-following-security-breach/",
+   "https://www.thecoinrepublic.com/2026/11/13/mantra-halts-unbonding-transactions-for-7-days-to-deter-hackers/",
+   "https://x.com/MANTRA_Chain/status/2121188399423864963"
+  ],
+  "source_names": [
+   "Crypto Economy",
+   "The Coin Republic",
+   "MANTRA on X"
+  ],
+  "sources": [
+   {
+    "url": "https://crypto-economy.com/mantra-suspends-unbonding-requests-for-7-days-following-security-breach/",
+    "name": "Crypto Economy",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.thecoinrepublic.com/2026/11/13/mantra-halts-unbonding-transactions-for-7-days-to-deter-hackers/",
+    "name": "The Coin Republic",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://x.com/MANTRA_Chain/status/2121188399423864963",
+    "name": "MANTRA on X",
+    "kind": "social",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://crypto-economy.com/mantra-suspends-unbonding-requests-for-7-days-following-security-breach/",
+    "name": "Crypto Economy",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.thecoinrepublic.com/2026/11/13/mantra-halts-unbonding-transactions-for-7-days-to-deter-hackers/",
+    "name": "The Coin Republic",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://x.com/MANTRA_Chain/status/2121188399423864963",
+    "name": "MANTRA on X",
+    "kind": "social",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Crypto Economy",
+     "url": "https://crypto-economy.com/mantra-suspends-unbonding-requests-for-7-days-following-security-breach/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "The Coin Republic",
+     "url": "https://www.thecoinrepublic.com/2026/11/13/mantra-halts-unbonding-transactions-for-7-days-to-deter-hackers/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "MANTRA on X",
+     "url": "https://x.com/MANTRA_Chain/status/2121188399423864963",
+     "category": "social",
+     "counts": false,
+     "note": "social/community post — can trigger investigation, never verifies"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Small-cap follow-on to the Nov 8 Keplr key exposure; no loss figure; no major outlet yet"
+  ],
+  "market_significance": "low",
+  "trigger": "search",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261113_bf6fda",
+  "headline": "Binance says it has fully covered the $6.34 billion of user assets hit in the October hack",
+  "summary": "Binance said on November 12 it completed coverage of all assets affected by the October 29 security incident, using more than $6.34 billion from SAFU, insurance and treasury funds; a new ZK proof-of-reserves snapshot is pending.",
+  "detected_at": "2026-11-13T16:11-05:00",
+  "active_since": "2026-11-13T16:11-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "BNB",
+   "TOTAL_MARKET"
+  ],
+  "event_type": "exchange",
+  "event_time": "2026-11-12T12:00-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://cryptoticker.io/en/binance-hack-reimbursement-complete/",
+   "https://x.com/binance/status/2120921979226329504"
+  ],
+  "source_names": [
+   "CryptoTicker",
+   "Binance on X"
+  ],
+  "sources": [
+   {
+    "url": "https://cryptoticker.io/en/binance-hack-reimbursement-complete/",
+    "name": "CryptoTicker",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://x.com/binance/status/2120921979226329504",
+    "name": "Binance on X",
+    "kind": "social",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://cryptoticker.io/en/binance-hack-reimbursement-complete/",
+    "name": "CryptoTicker",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://x.com/binance/status/2120921979226329504",
+    "name": "Binance on X",
+    "kind": "social",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CryptoTicker",
+     "url": "https://cryptoticker.io/en/binance-hack-reimbursement-complete/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Binance on X",
+     "url": "https://x.com/binance/status/2120921979226329504",
+     "category": "social",
+     "counts": false,
+     "note": "social/community post — can trigger investigation, never verifies"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Expected end-point of a gradual repayment; announced Nov 12"
+  ],
+  "market_significance": "medium",
+  "trigger": "search",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
