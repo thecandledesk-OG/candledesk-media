@@ -60624,12 +60624,16 @@
   "source_urls": [
    "https://www.theblock.co/news/markets/2026-11-12-bitcoin-12-week-low-jensen-huang-exit-nvidia-438992",
    "https://cryptonro.com/articles/crypto-market-today-2026-11-12",
-   "https://bravenewcoin.com/insights/crypto-news-today-bitcoin-loses-72k-as-550b-vanishes-from-cryptocurrency-market"
+   "https://bravenewcoin.com/insights/crypto-news-today-bitcoin-loses-72k-as-550b-vanishes-from-cryptocurrency-market",
+   "https://www.theblock.co/news/markets/2026-11-13-bitcoin-tumbles-below-69000-439643",
+   "https://decrypt.co/383214/bitcoin-drops-to-69k-on-concentrated-liquidation-and-weakening-demand"
   ],
   "source_names": [
    "The Block",
    "Cryptonro",
-   "Brave New Coin"
+   "Brave New Coin",
+   "The Block",
+   "Decrypt"
   ],
   "sources": [
    {
@@ -60650,6 +60654,20 @@
     "url": "https://bravenewcoin.com/insights/crypto-news-today-bitcoin-loses-72k-as-550b-vanishes-from-cryptocurrency-market",
     "name": "Brave New Coin",
     "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-13-bitcoin-tumbles-below-69000-439643",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/383214/bitcoin-drops-to-69k-on-concentrated-liquidation-and-weakening-demand",
+    "name": "Decrypt",
+    "kind": "secondary",
     "checked": true,
     "confirms": true
    }
@@ -60675,15 +60693,29 @@
     "kind": "other",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-13-bitcoin-tumbles-below-69000-439643",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/383214/bitcoin-drops-to-69k-on-concentrated-liquidation-and-weakening-demand",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
-  "verification_status": "UNVERIFIED",
+  "verification_status": "VERIFIED",
   "verification": {
-   "status": "UNVERIFIED",
-   "independent_sources": 1,
+   "status": "VERIFIED",
+   "independent_sources": 2,
    "has_primary": false,
-   "score": 0.4,
-   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "score": 0.8,
+   "reason": "2 independent credible sources confirm it (no primary source yet)",
    "sources_checked": [
     {
      "name": "The Block",
@@ -60705,6 +60737,20 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/markets/2026-11-13-bitcoin-tumbles-below-69000-439643",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/383214/bitcoin-drops-to-69k-on-concentrated-liquidation-and-weakening-demand",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -60735,6 +60781,15 @@
     "level": "NORMAL",
     "sources_added": 1,
     "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-13T07:11-05:00",
+    "headline": "Bitcoin drops below $69,000, its lowest since August, as $1.47 billion in leveraged longs are liquidated",
+    "summary": "Bitcoin fell to about $68,400 overnight, a low not seen since mid-August, down roughly 5 to 7 percent in 24 hours. Ether fell about 5 percent to near $1,950, XRP and SOL about 3 percent. CoinGlass data showed $1.47 billion in liquidations, mostly longs. Analysts cite a hot October CPI and Fed hike bets, Nvidia turmoil and six days of spot ETF outflows.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "VERIFIED"
    }
   ],
   "posts": [],
@@ -61555,6 +61610,286 @@
   ],
   "market_significance": "Opens regulated exchange crypto trading in Russia, limited for retail.",
   "trigger": "NewsBTC report, November 12",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261113_025c1a",
+  "headline": "DOJ and CFTC sue Arkansas to block its state enforcement action against Kalshi",
+  "summary": "The Justice Department and CFTC sued Arkansas Attorney General Tim Griffin in federal court, arguing the CFTC has exclusive jurisdiction over event contracts and asking for an injunction against the state's November 4 lawsuit against Kalshi.",
+  "detected_at": "2026-11-13T07:11-05:00",
+  "active_since": "2026-11-13T07:11-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "legal",
+  "event_time": "2026-11-12T12:00-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/regulation/2026-11-13-doj-cftc-sue-arkansas-to-block-state-enforcement-action-against-kalshi-439669"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-13-doj-cftc-sue-arkansas-to-block-state-enforcement-action-against-kalshi-439669",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-13-doj-cftc-sue-arkansas-to-block-state-enforcement-action-against-kalshi-439669",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-11-13-doj-cftc-sue-arkansas-to-block-state-enforcement-action-against-kalshi-439669",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Prediction-market jurisdiction fight; not directly market-moving for crypto."
+  ],
+  "market_significance": "Federal government escalates the states-versus-CFTC fight over prediction markets.",
+  "trigger": "The Block",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261113_b4fbb0",
+  "headline": "Thailand's SEC proposes a 5 million baht daily cap on stablecoin deposits and withdrawals per customer",
+  "summary": "Thailand's SEC opened comment on draft rules capping each customer's stablecoin deposits and withdrawals at a regulated operator at 5 million baht, about $148,000, per day, and limiting transfers to the customer's own wallets, to curb money laundering. Comments close November 26.",
+  "detected_at": "2026-11-13T07:11-05:00",
+  "active_since": "2026-11-13T07:11-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "USDT"
+  ],
+  "event_type": "regulatory",
+  "event_time": "2026-11-13T05:16-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/regulation/2026-11-13-thailand-seeks-daily-stablecoin-cap-439676"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-13-thailand-seeks-daily-stablecoin-cap-439676",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-13-thailand-seeks-daily-stablecoin-cap-439676",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-11-13-thailand-seeks-daily-stablecoin-cap-439676",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Draft proposal, not final."
+  ],
+  "market_significance": "Tighter stablecoin controls in a major Asian retail market.",
+  "trigger": "The Block",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261113_fdd98a",
+  "headline": "JPMorgan's 13F shows a 36% bigger Strategy stake and $540 million in BlackRock's bitcoin ETF",
+  "summary": "JPMorgan's third-quarter 13F filing shows it raised its Strategy stake 36% to about 849,000 shares and its iShares Bitcoin Trust holding 9.6% to about 11.4 million shares worth about $540 million as of September 30.",
+  "detected_at": "2026-11-13T07:11-05:00",
+  "active_since": "2026-11-13T07:11-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "institutional",
+  "event_time": "2026-11-13T04:59-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-11-13-jpmorgan-reports-36-rise-in-strategy-share-holdings-and-540-million-in-blackrocks-bitcoin-etf-439671"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-13-jpmorgan-reports-36-rise-in-strategy-share-holdings-and-540-million-in-blackrocks-bitcoin-etf-439671",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-13-jpmorgan-reports-36-rise-in-strategy-share-holdings-and-540-million-in-blackrocks-bitcoin-etf-439671",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-13-jpmorgan-reports-36-rise-in-strategy-share-holdings-and-540-million-in-blackrocks-bitcoin-etf-439671",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Quarter-end filing data, routine."
+  ],
+  "market_significance": "Bank exposure to bitcoin proxies kept growing in Q3.",
+  "trigger": "The Block",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261113_ae1c78",
+  "headline": "TRM Labs launches Beacon Concierge to help police freeze and seize stolen crypto",
+  "summary": "TRM Labs launched Beacon Concierge, a managed service on its 200-member Beacon Network that helps vetted police agencies work with exchanges and stablecoin issuers to freeze illicit funds; it says it has supported 15 cases and over $35 million frozen.",
+  "detected_at": "2026-11-13T07:11-05:00",
+  "active_since": "2026-11-13T07:11-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.75,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "other",
+  "event_time": "2026-11-13T00:08-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/defi/2026-11-13-trm-labs-beacon-concierge-439609"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/defi/2026-11-13-trm-labs-beacon-concierge-439609",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/defi/2026-11-13-trm-labs-beacon-concierge-439609",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/defi/2026-11-13-trm-labs-beacon-concierge-439609",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Company product launch."
+  ],
+  "market_significance": "Faster freezes of stolen funds.",
+  "trigger": "The Block",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
