@@ -61057,5 +61057,405 @@
   "updates": [],
   "posts": [],
   "needs_followup": false
+ },
+ {
+  "id": "st_20261112_2f516a",
+  "headline": "DOJ wins court approval to seize $1.2 billion stolen in North Korea's Binance hack and disrupts a $400 million deepfake theft scheme",
+  "summary": "The Justice Department says it received court approval to seize or restrain more than $1.2 billion in crypto tied to the October 29 Binance hack, part of more than $2.7 billion frozen by US authorities and private companies. The FBI attributes the hack to North Korea's TraderTraitor group. DOJ also seized cloud infrastructure behind a North Korean campaign the FBI calls FaceStealer, which used hijacked accounts and fake video calls to steal over $400 million in 18 months.",
+  "detected_at": "2026-11-12T19:23-05:00",
+  "active_since": "2026-11-12T19:23-05:00",
+  "classification": "IMPORTANT",
+  "proposed_level": "IMPORTANT",
+  "confidence": 0.85,
+  "assets": [
+   "BNB",
+   "TOTAL_MARKET"
+  ],
+  "event_type": "legal",
+  "event_time": "2026-11-12T16:30-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.justice.gov/opa/pr/justice-department-announces-actions-disrupt-north-koreas-massive-theft-cryptocurrency",
+   "https://www.theblock.co/news/business/2026-11-12-doj-seize-1-2-billion-binance-hack-north-korea-facestealer-439065",
+   "https://www.coindesk.com/policy/2026/11/12/north-korea-s-binance-hack-faces-u-s-crackdown-as-doj-targets-usd1-2-billion-in-stolen-crypto",
+   "https://therecord.media/stolen-binance-crypto-recovered-doj-facestealer-disrupted"
+  ],
+  "source_names": [
+   "US Department of Justice",
+   "The Block",
+   "CoinDesk",
+   "The Record"
+  ],
+  "sources": [
+   {
+    "url": "https://www.justice.gov/opa/pr/justice-department-announces-actions-disrupt-north-koreas-massive-theft-cryptocurrency",
+    "name": "US Department of Justice",
+    "kind": "primary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-12-doj-seize-1-2-billion-binance-hack-north-korea-facestealer-439065",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/policy/2026/11/12/north-korea-s-binance-hack-faces-u-s-crackdown-as-doj-targets-usd1-2-billion-in-stolen-crypto",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://therecord.media/stolen-binance-crypto-recovered-doj-facestealer-disrupted",
+    "name": "The Record",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.justice.gov/opa/pr/justice-department-announces-actions-disrupt-north-koreas-massive-theft-cryptocurrency",
+    "name": "US Department of Justice",
+    "kind": "primary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-12-doj-seize-1-2-billion-binance-hack-north-korea-facestealer-439065",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/policy/2026/11/12/north-korea-s-binance-hack-faces-u-s-crackdown-as-doj-targets-usd1-2-billion-in-stolen-crypto",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://therecord.media/stolen-binance-crypto-recovered-doj-facestealer-disrupted",
+    "name": "The Record",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "VERIFIED",
+  "verification": {
+   "status": "VERIFIED",
+   "independent_sources": 2,
+   "has_primary": false,
+   "score": 0.8,
+   "reason": "2 independent credible sources confirm it (no primary source yet)",
+   "sources_checked": [
+    {
+     "name": "US Department of Justice",
+     "url": "https://www.justice.gov/opa/pr/justice-department-announces-actions-disrupt-north-koreas-massive-theft-cryptocurrency",
+     "category": "primary",
+     "counts": false,
+     "note": "primary (known official domain); not opened, so it doesn't count"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-12-doj-seize-1-2-billion-binance-hack-north-korea-facestealer-439065",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/policy/2026/11/12/north-korea-s-binance-hack-faces-u-s-crackdown-as-doj-targets-usd1-2-billion-in-stolen-crypto",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "The Record",
+     "url": "https://therecord.media/stolen-binance-crypto-recovered-doj-facestealer-disrupted",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed IMPORTANT: Largest US government recovery action on the record Binance hack, announced by DOJ and confirmed by The Block, CoinDesk and The Record."
+  ],
+  "market_significance": "More than $1.2 billion of the roughly $6 billion stolen is now on a legal path to seizure; FaceStealer warning matters for anyone taking video calls in crypto.",
+  "trigger": "DOJ announcement Nov 12 afternoon; The Block 5:40 PM ET, CoinDesk 5:55 PM ET",
+  "content_created": true,
+  "publication_status": "DRAFTED",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [
+   "6af65d025ec1c9d5be4e1804"
+  ],
+  "needs_followup": false,
+  "post_tiktok": "6af65d03ba218f32636c0698",
+  "post_instagram": "6af65d04fb90ccefdd0cf802"
+ },
+ {
+  "id": "st_20261112_de6ffd",
+  "headline": "Trump names two SEC and two CFTC commissioner nominees, including Democrat Kristin Johnson, his first picks in a year",
+  "summary": "The White House sent four nominations to the Senate: former CFTC commissioner Kristin Johnson and attorney Steven Levine for the SEC, and Senate Agriculture staffers Nathan Anonick and Matthew Rowland for the CFTC. The CFTC currently has only Chairman Mike Selig. Senate committees must approve before a full vote.",
+  "detected_at": "2026-11-12T19:23-05:00",
+  "active_since": "2026-11-12T19:23-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.85,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "regulatory",
+  "event_time": "2026-11-12T16:30-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/policy/2026/11/12/u-s-president-names-cftc-sec-nominees-for-first-time-in-a-year",
+   "https://www.bloomberg.com/news/articles/2026-11-12/trump-nominates-bipartisan-slate-of-cftc-sec-commissioners",
+   "https://www.whitehouse.gov/presidential-actions/2026/11/nominations-sent-to-the-senate-16a6/"
+  ],
+  "source_names": [
+   "CoinDesk",
+   "Bloomberg",
+   "White House"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/policy/2026/11/12/u-s-president-names-cftc-sec-nominees-for-first-time-in-a-year",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.bloomberg.com/news/articles/2026-11-12/trump-nominates-bipartisan-slate-of-cftc-sec-commissioners",
+    "name": "Bloomberg",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.whitehouse.gov/presidential-actions/2026/11/nominations-sent-to-the-senate-16a6/",
+    "name": "White House",
+    "kind": "primary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/policy/2026/11/12/u-s-president-names-cftc-sec-nominees-for-first-time-in-a-year",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.bloomberg.com/news/articles/2026-11-12/trump-nominates-bipartisan-slate-of-cftc-sec-commissioners",
+    "name": "Bloomberg",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.whitehouse.gov/presidential-actions/2026/11/nominations-sent-to-the-senate-16a6/",
+    "name": "White House",
+    "kind": "primary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/policy/2026/11/12/u-s-president-names-cftc-sec-nominees-for-first-time-in-a-year",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Bloomberg",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-12/trump-nominates-bipartisan-slate-of-cftc-sec-commissioners",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "White House",
+     "url": "https://www.whitehouse.gov/presidential-actions/2026/11/nominations-sent-to-the-senate-16a6/",
+     "category": "primary",
+     "counts": false,
+     "note": "primary (known official domain); not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Nominations only; no confirmation or rule change yet."
+  ],
+  "market_significance": "Would refill near-empty crypto regulators.",
+  "trigger": "White House nominations Nov 12",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261112_f47ca0",
+  "headline": "Louisiana sues Kalshi, Robinhood and other prediction markets",
+  "summary": "Louisiana filed suit against Kalshi, Robinhood and other prediction market operators, escalating state pushback against CFTC-regulated event contracts.",
+  "detected_at": "2026-11-12T19:23-05:00",
+  "active_since": "2026-11-12T19:23-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "legal",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/regulation/2026-11-12-louisiana-sues-kalshi-robinhood-other-prediction-markets-escalating-regulatory-fight-439052"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-12-louisiana-sues-kalshi-robinhood-other-prediction-markets-escalating-regulatory-fight-439052",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-12-louisiana-sues-kalshi-robinhood-other-prediction-markets-escalating-regulatory-fight-439052",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-11-12-louisiana-sues-kalshi-robinhood-other-prediction-markets-escalating-regulatory-fight-439052",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: State lawsuit, routine in the ongoing prediction-market fight."
+  ],
+  "market_significance": "More state pressure on prediction markets.",
+  "trigger": "The Block 4:44 PM ET",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261112_991c55",
+  "headline": "Gemini's trading volume drops 73% as third-quarter revenue falls to $41 million",
+  "summary": "Gemini reported Q3 revenue of $41 million as trading volume fell 73%.",
+  "detected_at": "2026-11-12T19:23-05:00",
+  "active_since": "2026-11-12T19:23-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "exchange",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/markets/2026-11-12-gemini-trading-volume-drops-q3-revenue-falls-to-41-million-439050"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-12-gemini-trading-volume-drops-q3-revenue-falls-to-41-million-439050",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-12-gemini-trading-volume-drops-q3-revenue-falls-to-41-million-439050",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/markets/2026-11-12-gemini-trading-volume-drops-q3-revenue-falls-to-41-million-439050",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Earnings report."
+  ],
+  "market_significance": "Another sign of weak retail crypto trading.",
+  "trigger": "The Block 5:18 PM ET",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
  }
 ]

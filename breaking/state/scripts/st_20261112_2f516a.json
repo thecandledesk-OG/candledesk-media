@@ -1,0 +1,86 @@
+{
+ "story_id": "st_20261112_2f516a",
+ "date_label": "NOV 12",
+ "headline": "DOJ moves to seize $1.2B from Binance hack",
+ "sources": [
+  {
+   "name": "The Block",
+   "url": "https://www.theblock.co/news/business/2026-11-12-doj-seize-1-2-billion-binance-hack-north-korea-facestealer-439065"
+  },
+  {
+   "name": "CoinDesk",
+   "url": "https://www.coindesk.com/policy/2026/11/12/north-korea-s-binance-hack-faces-u-s-crackdown-as-doj-targets-usd1-2-billion-in-stolen-crypto"
+  },
+  {
+   "name": "The Record",
+   "url": "https://therecord.media/stolen-binance-crypto-recovered-doj-facestealer-disrupted"
+  }
+ ],
+ "scenes": [
+  {
+   "beat": "hook",
+   "who": "ledger",
+   "vo": "The American government just moved to take back over one point two billion dollars stolen in the Binance hack. Here's what changed.",
+   "chunks": [
+    "US moves to seize",
+    "*Over 1.2B dollars*",
+    "Here's what changed"
+   ]
+  },
+  {
+   "beat": "what_happened",
+   "who": "ledger",
+   "vo": "The Justice Department says a court approved seizing or restraining that money. It's part of over two point seven billion dollars frozen, out of more than six billion stolen.",
+   "chunks": [
+    "Court approved seizure",
+    "*2.7B frozen so far*",
+    "Over 6B stolen"
+   ],
+   "stat": {
+    "label": "Sources",
+    "text": "The Block \u00b7 CoinDesk"
+   }
+  },
+  {
+   "beat": "why_it_matters",
+   "who": "bruno",
+   "vo": "Here's why traders are watching it. It's the biggest legal step yet toward recovering funds from North Korea's hackers.",
+   "chunks": [
+    "The upside",
+    "*Biggest recovery step*",
+    "Funds traced"
+   ]
+  },
+  {
+   "beat": "why_it_matters",
+   "who": "ursa",
+   "vo": "The catch. The FBI also took down a North Korean scheme called Face Stealer. It used hijacked accounts and fake video calls to steal over four hundred million dollars.",
+   "chunks": [
+    "The catch",
+    "*Fake video calls*",
+    "Over 400M stolen"
+   ]
+  },
+  {
+   "beat": "watch_next",
+   "who": "moby",
+   "vo": "Here's what happens next. Watch whether the money reaches victims, and be wary of any surprise video call asking you to install software.",
+   "chunks": [
+    "What's next",
+    "*Money back to victims?*",
+    "Beware surprise calls"
+   ]
+  },
+  {
+   "beat": "cta",
+   "who": "all",
+   "vo": "Follow The Candle Desk for crypto news without the hype. Not financial advice.",
+   "chunks": [
+    "Follow The Candle Desk",
+    "*No hype*",
+    "Just the news"
+   ],
+   "foot": "NOT FINANCIAL ADVICE"
+  }
+ ]
+}
