@@ -70,12 +70,14 @@
  "Szabo": "Sahbo",
  "TVL": "T V L",
  "TerraUSD": "Terra U S D",
+ "Tokenomics": "Token-nomics",
  "UNL": "U N L",
  "USD": "U S D",
  "USDC": "U S D C",
  "USDT": "U S D T",
  "USDe": "U S D e",
  "UST": "U S T",
+ "Upbit": "Upp bit",
  "XLM": "X L M",
  "XRP": "X R P",
  "XRPL": "X R P L",
@@ -87,6 +89,5 @@
  "onchain": "on chain",
  "satoshi": "sahtoshi",
  "satoshis": "sahtoshis",
- "tokenomics": "token-nomics",
- "Tokenomics": "Token-nomics"
+ "tokenomics": "token-nomics"
 }
