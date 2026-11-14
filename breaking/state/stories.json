@@ -62222,7 +62222,10 @@
    "https://www.coindesk.com/tech/2026/11/13/live-news-bitcoin-drops-below-200-week-moving-average-as-dollar-strength-pressures-risk-assets",
    "https://www.tokenpost.com/news/investing/57175",
    "https://news.bitcoin.com/price-predictions/xrp-price-below-1-lowest-since-2024-xrp-etfs-turn-one/",
-   "https://coincodex.com/article/95422/daily-market-update-for-november-14-2026"
+   "https://coincodex.com/article/95422/daily-market-update-for-november-14-2026",
+   "https://crypto.news/bitcoin-price-below-68k-66k-support",
+   "https://cryptoticker.io/en/bitcoin-price-below-67000-lowest-since-august/",
+   "https://www.kucoin.com/news/flash/ethereum-falls-4-4-in-24-hours-as-crypto-fear-and-greed-index-hits-21"
   ],
   "source_names": [
    "Analytics Insight",
@@ -62232,7 +62235,10 @@
    "CoinDesk",
    "TokenPost",
    "Bitcoin.com News",
-   "CoinCodex"
+   "CoinCodex",
+   "crypto.news",
+   "CryptoTicker",
+   "KuCoin"
   ],
   "sources": [
    {
@@ -62287,6 +62293,27 @@
    {
     "url": "https://coincodex.com/article/95422/daily-market-update-for-november-14-2026",
     "name": "CoinCodex",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://crypto.news/bitcoin-price-below-68k-66k-support",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptoticker.io/en/bitcoin-price-below-67000-lowest-since-august/",
+    "name": "CryptoTicker",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.kucoin.com/news/flash/ethereum-falls-4-4-in-24-hours-as-crypto-fear-and-greed-index-hits-21",
+    "name": "KuCoin",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -62345,6 +62372,27 @@
    {
     "url": "https://coincodex.com/article/95422/daily-market-update-for-november-14-2026",
     "name": "CoinCodex",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://crypto.news/bitcoin-price-below-68k-66k-support",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptoticker.io/en/bitcoin-price-below-67000-lowest-since-august/",
+    "name": "CryptoTicker",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.kucoin.com/news/flash/ethereum-falls-4-4-in-24-hours-as-crypto-fear-and-greed-index-hits-21",
+    "name": "KuCoin",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -62410,6 +62458,27 @@
     {
      "name": "CoinCodex",
      "url": "https://coincodex.com/article/95422/daily-market-update-for-november-14-2026",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/bitcoin-price-below-68k-66k-support",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CryptoTicker",
+     "url": "https://cryptoticker.io/en/bitcoin-price-below-67000-lowest-since-august/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "KuCoin",
+     "url": "https://www.kucoin.com/news/flash/ethereum-falls-4-4-in-24-hours-as-crypto-fear-and-greed-index-hits-21",
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
@@ -62486,6 +62555,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-14T10:08-05:00",
+    "headline": "Bitcoin hits $67K, its lowest since August",
+    "summary": "Here's what moved the chain today. Bitcoin hit sixty-seven thousand, its lowest since August.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 3,
     "verification": "UNVERIFIED"
    }
   ],
@@ -62743,9 +62821,11 @@
   "metrics": {},
   "emergency": false,
   "source_urls": [
-   "https://www.theblock.co/news/markets/2026-11-13-from-6-to-6-9-million-two-dormant-bitcoin-addresses-wake-up-to-move-100-btc-after-more-than-16-years-439698"
+   "https://www.theblock.co/news/markets/2026-11-13-from-6-to-6-9-million-two-dormant-bitcoin-addresses-wake-up-to-move-100-btc-after-more-than-16-years-439698",
+   "https://www.theblock.co/newsletters/the-daily/2026-11-14-meta-prediction-market-app-doj-binance-hack-more-crypto-news-440304"
   ],
   "source_names": [
+   "The Block",
    "The Block"
   ],
   "sources": [
@@ -62754,6 +62834,13 @@
     "name": "The Block",
     "kind": "secondary",
     "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/newsletters/the-daily/2026-11-14-meta-prediction-market-app-doj-binance-hack-more-crypto-news-440304",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
     "confirms": true
    }
   ],
@@ -62764,15 +62851,22 @@
     "kind": "secondary",
     "checked": false,
     "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/newsletters/the-daily/2026-11-14-meta-prediction-market-app-doj-binance-hack-more-crypto-news-440304",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "UNVERIFIED",
   "verification": {
    "status": "UNVERIFIED",
-   "independent_sources": 0,
+   "independent_sources": 1,
    "has_primary": false,
-   "score": 0.0,
-   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
    "sources_checked": [
     {
      "name": "The Block",
@@ -62780,6 +62874,13 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/newsletters/the-daily/2026-11-14-meta-prediction-market-app-doj-binance-hack-more-crypto-news-440304",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -62789,9 +62890,19 @@
   "market_significance": "Whale-watch segment material",
   "trigger": "The Block latest news",
   "content_created": false,
-  "publication_status": "QUEUED_FOR_DAILY",
+  "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-11-14T10:08-05:00",
+    "headline": "Bitcoin wallets dormant since 2010 move 100 BTC worth $6.9 million",
+    "summary": "Wallets asleep since twenty ten moved one hundred bitcoin, worth six point nine million.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -63701,6 +63812,276 @@
   ],
   "market_significance": "ETF demand for XRP has stalled",
   "trigger": "news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261114_0922bb",
+  "headline": "October PPI comes in at 6.5%, below the 6.6% forecast",
+  "summary": "Green candles only! Wholesale inflation came in cooler than forecast at six point five percent!",
+  "detected_at": "2026-11-14T10:08-05:00",
+  "active_since": "2026-11-14T10:08-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "macro",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.ibtimes.com/us-wholesale-prices-rise-highest-since-2022-3809723"
+  ],
+  "source_names": [
+   "IBTimes"
+  ],
+  "sources": [
+   {
+    "url": "https://www.ibtimes.com/us-wholesale-prices-rise-highest-since-2022-3809723",
+    "name": "IBTimes",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.ibtimes.com/us-wholesale-prices-rise-highest-since-2022-3809723",
+    "name": "IBTimes",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "IBTimes",
+     "url": "https://www.ibtimes.com/us-wholesale-prices-rise-highest-since-2022-3809723",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [
+   {
+    "at": "2026-11-14T10:08-05:00",
+    "headline": "Wholesale prices at a near four-year high; markets expect a December Fed hike",
+    "summary": "Check the yields first. It's a near four-year high, and markets expect a December hike.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   }
+  ],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261114_0769bd",
+  "headline": "Bitcoin spot ETFs record $185M net outflow on Nov 13, seventh straight day",
+  "summary": "Psst... big wallets are moving. Bitcoin ETFs bled one hundred eighty-five million, seven days straight.",
+  "detected_at": "2026-11-14T10:08-05:00",
+  "active_since": "2026-11-14T10:08-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "etf",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.kucoin.com/news/flash/bitcoin-spot-etfs-record-185m-net-outflow-on-nov-13-marking-7th-consecutive-day-of-outflows"
+  ],
+  "source_names": [
+   "KuCoin"
+  ],
+  "sources": [
+   {
+    "url": "https://www.kucoin.com/news/flash/bitcoin-spot-etfs-record-185m-net-outflow-on-nov-13-marking-7th-consecutive-day-of-outflows",
+    "name": "KuCoin",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.kucoin.com/news/flash/bitcoin-spot-etfs-record-185m-net-outflow-on-nov-13-marking-7th-consecutive-day-of-outflows",
+    "name": "KuCoin",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "KuCoin",
+     "url": "https://www.kucoin.com/news/flash/bitcoin-spot-etfs-record-185m-net-outflow-on-nov-13-marking-7th-consecutive-day-of-outflows",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261114_03a520",
+  "headline": "Bitcoin slides toward $66K as crypto liquidations top $1 billion and Fed hike bets rise",
+  "summary": "Bitcoin dipped to about $66,085 on Binance around 9:47 AM ET Nov 14, extending the slide to its lowest since August; reports cite $656M to $1.26B in liquidations of long positions and rising odds of a December Fed hike after hot PPI data. 24h moves remain modest (BTC about -2%, SOL about -6%).",
+  "detected_at": "2026-11-14T10:13-05:00",
+  "active_since": "2026-11-14T10:13-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "BTC",
+   "TOTAL_MARKET"
+  ],
+  "event_type": "market_move",
+  "event_time": "2026-11-14T09:47-05:00",
+  "scheduled_event": false,
+  "metrics": {
+   "pct_move_24h": -2.2
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://www.cryptotimes.io/2026/11/14/bitcoin-price-today-btc-slides-to-67k-as-1-26b-crypto-liquidations-hit-longs-fed-hike-bets-rise/",
+   "https://tokenpost.com/news/investing/57426",
+   "https://tradersunion.com/news/cryptocurrency-news/show/4242539-bitcoin-plunges-below-67000-as-crypto-liquidations-reach-656-million/"
+  ],
+  "source_names": [
+   "The Crypto Times",
+   "TokenPost",
+   "Traders Union"
+  ],
+  "sources": [
+   {
+    "url": "https://www.cryptotimes.io/2026/11/14/bitcoin-price-today-btc-slides-to-67k-as-1-26b-crypto-liquidations-hit-longs-fed-hike-bets-rise/",
+    "name": "The Crypto Times",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://tokenpost.com/news/investing/57426",
+    "name": "TokenPost",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://tradersunion.com/news/cryptocurrency-news/show/4242539-bitcoin-plunges-below-67000-as-crypto-liquidations-reach-656-million/",
+    "name": "Traders Union",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.cryptotimes.io/2026/11/14/bitcoin-price-today-btc-slides-to-67k-as-1-26b-crypto-liquidations-hit-longs-fed-hike-bets-rise/",
+    "name": "The Crypto Times",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://tokenpost.com/news/investing/57426",
+    "name": "TokenPost",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://tradersunion.com/news/cryptocurrency-news/show/4242539-bitcoin-plunges-below-67000-as-crypto-liquidations-reach-656-million/",
+    "name": "Traders Union",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Crypto Times",
+     "url": "https://www.cryptotimes.io/2026/11/14/bitcoin-price-today-btc-slides-to-67k-as-1-26b-crypto-liquidations-hit-longs-fed-hike-bets-rise/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "TokenPost",
+     "url": "https://tokenpost.com/news/investing/57426",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Traders Union",
+     "url": "https://tradersunion.com/news/cryptocurrency-news/show/4242539-bitcoin-plunges-below-67000-as-crypto-liquidations-reach-656-million/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: 24h moves well below IMPORTANT thresholds; continuation of the slide covered in the morning episode",
+   "price rule: BTC moved 2.2% in 24h (thresholds 7%/12%) -> NORMAL"
+  ],
+  "market_significance": "Continued weakness and forced selling; extreme fear",
+  "trigger": "search results",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
