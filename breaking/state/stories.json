@@ -59305,11 +59305,13 @@
   "emergency": false,
   "source_urls": [
    "https://coinranking.com/news/vaneck-jitosol-etf-faces-hard-november-15-deadline-sec",
-   "https://cryptoticker.io/en/staking-etf-sec-decision-deadline/"
+   "https://cryptoticker.io/en/staking-etf-sec-decision-deadline/",
+   "https://financefeeds.com/vaneck-jitosol-etfs-november-15-sec-deadline-cancelled-after-nasdaq-withdraws-filing/"
   ],
   "source_names": [
    "Coinranking",
-   "CryptoTicker"
+   "CryptoTicker",
+   "FinanceFeeds"
   ],
   "sources": [
    {
@@ -59324,6 +59326,13 @@
     "name": "CryptoTicker",
     "kind": "other",
     "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://financefeeds.com/vaneck-jitosol-etfs-november-15-sec-deadline-cancelled-after-nasdaq-withdraws-filing/",
+    "name": "FinanceFeeds",
+    "kind": "secondary",
+    "checked": true,
     "confirms": true
    }
   ],
@@ -59340,6 +59349,13 @@
     "name": "CryptoTicker",
     "kind": "other",
     "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://financefeeds.com/vaneck-jitosol-etfs-november-15-sec-deadline-cancelled-after-nasdaq-withdraws-filing/",
+    "name": "FinanceFeeds",
+    "kind": "secondary",
+    "checked": true,
     "confirms": true
    }
   ],
@@ -59364,6 +59380,13 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "FinanceFeeds",
+     "url": "https://financefeeds.com/vaneck-jitosol-etfs-november-15-sec-deadline-cancelled-after-nasdaq-withdraws-filing/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -59375,7 +59398,17 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-11-14T07:14-05:00",
+    "headline": "Correction: VanEck JitoSOL ETF has no November 15 SEC deadline after Nasdaq withdrew the listing filing in October",
+    "summary": "Nasdaq withdrew its proposed rule change SR-NASDAQ-2026-016 to list the VanEck JitoSOL ETF on October 14, which removed the November 15 SEC decision deadline. A withdrawal is not a rejection; VanEck could refile.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -61369,12 +61402,18 @@
   "source_urls": [
    "https://www.coindesk.com/policy/2026/11/12/u-s-president-names-cftc-sec-nominees-for-first-time-in-a-year",
    "https://www.bloomberg.com/news/articles/2026-11-12/trump-nominates-bipartisan-slate-of-cftc-sec-commissioners",
-   "https://www.whitehouse.gov/presidential-actions/2026/11/nominations-sent-to-the-senate-16a6/"
+   "https://www.whitehouse.gov/presidential-actions/2026/11/nominations-sent-to-the-senate-16a6/",
+   "https://www.gtokentool.com/en/news/digest/2026-11-14",
+   "https://www.gtokentool.com/en/news/digest/2026-11-14#item-7",
+   "https://www.gtokentool.com/en/news/digest/2026-11-14#item-8"
   ],
   "source_names": [
    "CoinDesk",
    "Bloomberg",
-   "White House"
+   "White House",
+   "gTokenTool digest (CoinDesk)",
+   "gTokenTool digest (The Block)",
+   "gTokenTool digest (The Block, Decrypt)"
   ],
   "sources": [
    {
@@ -61396,6 +61435,27 @@
     "name": "White House",
     "kind": "primary",
     "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.gtokentool.com/en/news/digest/2026-11-14",
+    "name": "gTokenTool digest (CoinDesk)",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.gtokentool.com/en/news/digest/2026-11-14#item-7",
+    "name": "gTokenTool digest (The Block)",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.gtokentool.com/en/news/digest/2026-11-14#item-8",
+    "name": "gTokenTool digest (The Block, Decrypt)",
+    "kind": "other",
+    "checked": true,
     "confirms": true
    }
   ],
@@ -61419,6 +61479,27 @@
     "name": "White House",
     "kind": "primary",
     "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.gtokentool.com/en/news/digest/2026-11-14",
+    "name": "gTokenTool digest (CoinDesk)",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.gtokentool.com/en/news/digest/2026-11-14#item-7",
+    "name": "gTokenTool digest (The Block)",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.gtokentool.com/en/news/digest/2026-11-14#item-8",
+    "name": "gTokenTool digest (The Block, Decrypt)",
+    "kind": "other",
+    "checked": true,
     "confirms": true
    }
   ],
@@ -61450,6 +61531,27 @@
      "category": "primary",
      "counts": false,
      "note": "primary (known official domain); not opened, so it doesn't count"
+    },
+    {
+     "name": "gTokenTool digest (CoinDesk)",
+     "url": "https://www.gtokentool.com/en/news/digest/2026-11-14",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "gTokenTool digest (The Block)",
+     "url": "https://www.gtokentool.com/en/news/digest/2026-11-14#item-7",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "gTokenTool digest (The Block, Decrypt)",
+     "url": "https://www.gtokentool.com/en/news/digest/2026-11-14#item-8",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -61461,7 +61563,89 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-11-14T07:14-05:00",
+    "headline": "Senate Banking Committee moves quickly to schedule a hearing on Trump's new SEC nominees",
+    "summary": "The Senate Banking Committee is moving to schedule a confirmation hearing for the newly named SEC commissioner nominees, CoinDesk reports.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-14T07:14-05:00",
+    "headline": "Satoshi-era wallet tied to a $260 billion lawsuit moves 75 BTC held since 2011",
+    "summary": "A wallet dating to 2011 that is linked to a $260 billion lawsuit moved 75 BTC, CoinDesk reports.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-14T07:14-05:00",
+    "headline": "Metaplanet posts a $170 million loss as bitcoin sales and borrowing costs weigh",
+    "summary": "Bitcoin treasury company Metaplanet reported a loss of about $170 million, Cointelegraph reports, citing bitcoin sales and borrowing costs.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-14T07:14-05:00",
+    "headline": "Nakamoto sells another 184 BTC, leaving its treasury at 4,283 BTC",
+    "summary": "Nakamoto sold another 184 bitcoin, bringing its treasury down to 4,283 BTC, U.Today reports.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-14T07:14-05:00",
+    "headline": "CFTC Chair Selig says prediction market founders shouldn't face jail over gambling disputes",
+    "summary": "CFTC Chair Michael Selig said founders of prediction markets should not face criminal jail time over state gambling disputes, The Block reports.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-14T07:14-05:00",
+    "headline": "House Oversight chair calls for weighing a ban on officials betting on prediction markets",
+    "summary": "A House Oversight memo recommends considering limits or a ban on government officials trading on prediction markets, The Block and Decrypt report.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-14T07:14-05:00",
+    "headline": "Blockstream launches a bitcoin custody system with dedicated signing hardware",
+    "summary": "Blockstream launched a bitcoin custody system built around dedicated signing hardware, Cointelegraph reports.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-14T07:14-05:00",
+    "headline": "CFTC Chair Selig says prediction market founders shouldn't face jail over gambling disputes",
+    "summary": "CFTC Chair Michael Selig said founders of prediction markets should not face criminal jail time over state gambling disputes, The Block reports.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-14T07:14-05:00",
+    "headline": "House Oversight chair calls for weighing a ban on officials betting on prediction markets",
+    "summary": "A House Oversight memo recommends considering limits or a ban on government officials trading on prediction markets, The Block and Decrypt report.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -62035,14 +62219,20 @@
    "https://cryptoticker.io/en/crypto-news-bitcoin-crash-liquidations-etf-outflows-november-13-2026/",
    "https://coincentral.com/why-is-crypto-dropping-today-november-13-2026",
    "https://www.coindesk.com/price/bitcoin",
-   "https://www.coindesk.com/tech/2026/11/13/live-news-bitcoin-drops-below-200-week-moving-average-as-dollar-strength-pressures-risk-assets"
+   "https://www.coindesk.com/tech/2026/11/13/live-news-bitcoin-drops-below-200-week-moving-average-as-dollar-strength-pressures-risk-assets",
+   "https://www.tokenpost.com/news/investing/57175",
+   "https://news.bitcoin.com/price-predictions/xrp-price-below-1-lowest-since-2024-xrp-etfs-turn-one/",
+   "https://coincodex.com/article/95422/daily-market-update-for-november-14-2026"
   ],
   "source_names": [
    "Analytics Insight",
    "CryptoTicker",
    "CoinCentral",
    "CoinDesk",
-   "CoinDesk"
+   "CoinDesk",
+   "TokenPost",
+   "Bitcoin.com News",
+   "CoinCodex"
   ],
   "sources": [
    {
@@ -62076,6 +62266,27 @@
    {
     "url": "https://www.coindesk.com/tech/2026/11/13/live-news-bitcoin-drops-below-200-week-moving-average-as-dollar-strength-pressures-risk-assets",
     "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.tokenpost.com/news/investing/57175",
+    "name": "TokenPost",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://news.bitcoin.com/price-predictions/xrp-price-below-1-lowest-since-2024-xrp-etfs-turn-one/",
+    "name": "Bitcoin.com News",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://coincodex.com/article/95422/daily-market-update-for-november-14-2026",
+    "name": "CoinCodex",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -62113,6 +62324,27 @@
    {
     "url": "https://www.coindesk.com/tech/2026/11/13/live-news-bitcoin-drops-below-200-week-moving-average-as-dollar-strength-pressures-risk-assets",
     "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.tokenpost.com/news/investing/57175",
+    "name": "TokenPost",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://news.bitcoin.com/price-predictions/xrp-price-below-1-lowest-since-2024-xrp-etfs-turn-one/",
+    "name": "Bitcoin.com News",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://coincodex.com/article/95422/daily-market-update-for-november-14-2026",
+    "name": "CoinCodex",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -62160,6 +62392,27 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "TokenPost",
+     "url": "https://www.tokenpost.com/news/investing/57175",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Bitcoin.com News",
+     "url": "https://news.bitcoin.com/price-predictions/xrp-price-below-1-lowest-since-2024-xrp-etfs-turn-one/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinCodex",
+     "url": "https://coincodex.com/article/95422/daily-market-update-for-november-14-2026",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -62215,6 +62468,24 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-14T07:14-05:00",
+    "headline": "Bitcoin slides below $67,000 and XRP drops under $1 for the first time since 2024 as $330 million is liquidated in two hours",
+    "summary": "Overnight selling pushed bitcoin under $67,000, ether under $1,900, solana under $75 and XRP below $1, its lowest daily low since November 2024. More than $330 million in positions were liquidated in about two hours. 24h moves are roughly -2% to -3% for BTC and XRP.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 3,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-14T07:14-05:00",
+    "headline": "US spot XRP ETFs turn one year old holding about 1.16 billion XRP, with no net inflows since October 29",
+    "summary": "Spot XRP ETFs marked their first anniversary holding about 1.16 to 1.19 billion XRP. They have had no net inflows since Oct. 29 and about $18.6 million of net outflows in November.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
     "verification": "UNVERIFIED"
    }
   ],
@@ -63080,6 +63351,356 @@
   ],
   "market_significance": "Follows MANTRA's OM unbonding pause after Keplr wallet attacks.",
   "trigger": "The Crypto Basic daily roundup",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261114_f6b2ef",
+  "headline": "Satoshi-era wallet tied to a $260 billion lawsuit moves 75 BTC held since 2011",
+  "summary": "A wallet dating to 2011 that is linked to a $260 billion lawsuit moved 75 BTC, CoinDesk reports.",
+  "detected_at": "2026-11-14T07:14-05:00",
+  "active_since": "2026-11-14T07:14-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "other",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.gtokentool.com/en/news/digest/2026-11-14#item-4"
+  ],
+  "source_names": [
+   "gTokenTool digest (CoinDesk)"
+  ],
+  "sources": [
+   {
+    "url": "https://www.gtokentool.com/en/news/digest/2026-11-14#item-4",
+    "name": "gTokenTool digest (CoinDesk)",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.gtokentool.com/en/news/digest/2026-11-14#item-4",
+    "name": "gTokenTool digest (CoinDesk)",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "gTokenTool digest (CoinDesk)",
+     "url": "https://www.gtokentool.com/en/news/digest/2026-11-14#item-4",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: On-chain curiosity"
+  ],
+  "market_significance": "Old coins moving draws attention",
+  "trigger": "news digest",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261114_0a7a1c",
+  "headline": "Metaplanet posts a $170 million loss as bitcoin sales and borrowing costs weigh",
+  "summary": "Bitcoin treasury company Metaplanet reported a loss of about $170 million, Cointelegraph reports, citing bitcoin sales and borrowing costs.",
+  "detected_at": "2026-11-14T07:14-05:00",
+  "active_since": "2026-11-14T07:14-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "institutional",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.gtokentool.com/en/news/digest/2026-11-14#item-5"
+  ],
+  "source_names": [
+   "gTokenTool digest (Cointelegraph)"
+  ],
+  "sources": [
+   {
+    "url": "https://www.gtokentool.com/en/news/digest/2026-11-14#item-5",
+    "name": "gTokenTool digest (Cointelegraph)",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.gtokentool.com/en/news/digest/2026-11-14#item-5",
+    "name": "gTokenTool digest (Cointelegraph)",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "gTokenTool digest (Cointelegraph)",
+     "url": "https://www.gtokentool.com/en/news/digest/2026-11-14#item-5",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Earnings"
+  ],
+  "market_significance": "Treasury companies under pressure",
+  "trigger": "news digest",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261114_69b34f",
+  "headline": "Nakamoto sells another 184 BTC, leaving its treasury at 4,283 BTC",
+  "summary": "Nakamoto sold another 184 bitcoin, bringing its treasury down to 4,283 BTC, U.Today reports.",
+  "detected_at": "2026-11-14T07:14-05:00",
+  "active_since": "2026-11-14T07:14-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "institutional",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.gtokentool.com/en/news/digest/2026-11-14#item-6"
+  ],
+  "source_names": [
+   "gTokenTool digest (U.Today)"
+  ],
+  "sources": [
+   {
+    "url": "https://www.gtokentool.com/en/news/digest/2026-11-14#item-6",
+    "name": "gTokenTool digest (U.Today)",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.gtokentool.com/en/news/digest/2026-11-14#item-6",
+    "name": "gTokenTool digest (U.Today)",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "gTokenTool digest (U.Today)",
+     "url": "https://www.gtokentool.com/en/news/digest/2026-11-14#item-6",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Treasury sale"
+  ],
+  "market_significance": "Treasury companies trimming",
+  "trigger": "news digest",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261114_2ba4c4",
+  "headline": "Blockstream launches a bitcoin custody system with dedicated signing hardware",
+  "summary": "Blockstream launched a bitcoin custody system built around dedicated signing hardware, Cointelegraph reports.",
+  "detected_at": "2026-11-14T07:14-05:00",
+  "active_since": "2026-11-14T07:14-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "other",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.gtokentool.com/en/news/digest/2026-11-14#item-9"
+  ],
+  "source_names": [
+   "gTokenTool digest (Cointelegraph)"
+  ],
+  "sources": [
+   {
+    "url": "https://www.gtokentool.com/en/news/digest/2026-11-14#item-9",
+    "name": "gTokenTool digest (Cointelegraph)",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.gtokentool.com/en/news/digest/2026-11-14#item-9",
+    "name": "gTokenTool digest (Cointelegraph)",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "gTokenTool digest (Cointelegraph)",
+     "url": "https://www.gtokentool.com/en/news/digest/2026-11-14#item-9",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Product launch"
+  ],
+  "market_significance": "Custody tooling",
+  "trigger": "news digest",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261114_0257e2",
+  "headline": "US spot XRP ETFs turn one year old holding about 1.16 billion XRP, with no net inflows since October 29",
+  "summary": "Spot XRP ETFs marked their first anniversary holding about 1.16 to 1.19 billion XRP. They have had no net inflows since Oct. 29 and about $18.6 million of net outflows in November.",
+  "detected_at": "2026-11-14T07:14-05:00",
+  "active_since": "2026-11-14T07:14-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "XRP"
+  ],
+  "event_type": "etf",
+  "event_time": "2026-11-14T06:30-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://news.bitcoin.com/price-predictions/xrp-price-below-1-lowest-since-2024-xrp-etfs-turn-one/#xrp-etfs"
+  ],
+  "source_names": [
+   "Bitcoin.com News"
+  ],
+  "sources": [
+   {
+    "url": "https://news.bitcoin.com/price-predictions/xrp-price-below-1-lowest-since-2024-xrp-etfs-turn-one/#xrp-etfs",
+    "name": "Bitcoin.com News",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://news.bitcoin.com/price-predictions/xrp-price-below-1-lowest-since-2024-xrp-etfs-turn-one/#xrp-etfs",
+    "name": "Bitcoin.com News",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Bitcoin.com News",
+     "url": "https://news.bitcoin.com/price-predictions/xrp-price-below-1-lowest-since-2024-xrp-etfs-turn-one/#xrp-etfs",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Anniversary data point"
+  ],
+  "market_significance": "ETF demand for XRP has stalled",
+  "trigger": "news",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
