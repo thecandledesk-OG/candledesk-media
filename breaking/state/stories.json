@@ -59407,6 +59407,15 @@
     "level": "NORMAL",
     "sources_added": 1,
     "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-14T16:14-05:00",
+    "headline": "VanEck JitoSOL ETF's November 15 SEC deadline falls away after Nasdaq withdrew the listing filing",
+    "summary": "Nasdaq withdrew rule filing SR-NASDAQ-2026-016 for the VanEck JitoSOL staked-Solana ETF on October 14, so the SEC no longer has a November 15 decision deadline; a withdrawal is not a rejection.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
    }
   ],
   "posts": [],
@@ -61405,7 +61414,8 @@
    "https://www.whitehouse.gov/presidential-actions/2026/11/nominations-sent-to-the-senate-16a6/",
    "https://www.gtokentool.com/en/news/digest/2026-11-14",
    "https://www.gtokentool.com/en/news/digest/2026-11-14#item-7",
-   "https://www.gtokentool.com/en/news/digest/2026-11-14#item-8"
+   "https://www.gtokentool.com/en/news/digest/2026-11-14#item-8",
+   "https://beincrypto.com/xrp-price-below-1-despite-record-adoption/"
   ],
   "source_names": [
    "CoinDesk",
@@ -61413,7 +61423,8 @@
    "White House",
    "gTokenTool digest (CoinDesk)",
    "gTokenTool digest (The Block)",
-   "gTokenTool digest (The Block, Decrypt)"
+   "gTokenTool digest (The Block, Decrypt)",
+   "BeInCrypto"
   ],
   "sources": [
    {
@@ -61457,6 +61468,13 @@
     "kind": "other",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://beincrypto.com/xrp-price-below-1-despite-record-adoption/",
+    "name": "BeInCrypto",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
    }
   ],
   "gate_sources": [
@@ -61501,6 +61519,13 @@
     "kind": "other",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://beincrypto.com/xrp-price-below-1-despite-record-adoption/",
+    "name": "BeInCrypto",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
    }
   ],
   "verification_status": "UNVERIFIED",
@@ -61549,6 +61574,13 @@
     {
      "name": "gTokenTool digest (The Block, Decrypt)",
      "url": "https://www.gtokentool.com/en/news/digest/2026-11-14#item-8",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "BeInCrypto",
+     "url": "https://beincrypto.com/xrp-price-below-1-despite-record-adoption/",
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
@@ -61640,6 +61672,15 @@
     "at": "2026-11-14T07:14-05:00",
     "headline": "House Oversight chair calls for weighing a ban on officials betting on prediction markets",
     "summary": "A House Oversight memo recommends considering limits or a ban on government officials trading on prediction markets, The Block and Decrypt report.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-14T16:14-05:00",
+    "headline": "XRP slips below $1 as its slide continues",
+    "summary": "XRP traded below one dollar as the broader market sell-off deepened, per crypto outlets; not yet independently verified this run.",
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 1,
@@ -63917,15 +63958,24 @@
   "metrics": {},
   "emergency": false,
   "source_urls": [
-   "https://www.kucoin.com/news/flash/bitcoin-spot-etfs-record-185m-net-outflow-on-nov-13-marking-7th-consecutive-day-of-outflows"
+   "https://www.kucoin.com/news/flash/bitcoin-spot-etfs-record-185m-net-outflow-on-nov-13-marking-7th-consecutive-day-of-outflows",
+   "https://www.theblock.co/news/markets/2026-11-14-bitcoin-etfs-lose-1-billion-for-the-second-week-in-a-row-as-crypto-funds-except-one-continue-bleeding-440337"
   ],
   "source_names": [
-   "KuCoin"
+   "KuCoin",
+   "The Block"
   ],
   "sources": [
    {
     "url": "https://www.kucoin.com/news/flash/bitcoin-spot-etfs-record-185m-net-outflow-on-nov-13-marking-7th-consecutive-day-of-outflows",
     "name": "KuCoin",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-14-bitcoin-etfs-lose-1-billion-for-the-second-week-in-a-row-as-crypto-funds-except-one-continue-bleeding-440337",
+    "name": "The Block",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -63938,15 +63988,22 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-14-bitcoin-etfs-lose-1-billion-for-the-second-week-in-a-row-as-crypto-funds-except-one-continue-bleeding-440337",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "UNVERIFIED",
   "verification": {
    "status": "UNVERIFIED",
-   "independent_sources": 0,
+   "independent_sources": 1,
    "has_primary": false,
-   "score": 0.0,
-   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
    "sources_checked": [
     {
      "name": "KuCoin",
@@ -63954,6 +64011,13 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/markets/2026-11-14-bitcoin-etfs-lose-1-billion-for-the-second-week-in-a-row-as-crypto-funds-except-one-continue-bleeding-440337",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -63965,7 +64029,17 @@
   "content_created": false,
   "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-11-14T16:14-05:00",
+    "headline": "Bitcoin ETFs lose over $1 billion for a second straight week; ether ETFs post a seventh negative week",
+    "summary": "US spot bitcoin ETFs saw $1.07 billion in net outflows last week and $2.35 billion over two weeks, the most since early June; ether ETFs lost $398.9 million, and only Avalanche funds had inflows.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -63995,7 +64069,8 @@
    "https://tradersunion.com/news/cryptocurrency-news/show/4242539-bitcoin-plunges-below-67000-as-crypto-liquidations-reach-656-million/",
    "https://tokenpost.com/news/investing/57443",
    "https://finance.yahoo.com/markets/crypto/articles/bitcoin-just-crashed-toward-66-161047479.html",
-   "https://www.tokenpost.com/news/investing/57424"
+   "https://www.tokenpost.com/news/investing/57424",
+   "https://ukrmedia.news/en/economics/bitcoin-below-66000-november-2026/"
   ],
   "source_names": [
    "The Crypto Times",
@@ -64003,7 +64078,8 @@
    "Traders Union",
    "TokenPost",
    "Yahoo Finance",
-   "TokenPost (ETH)"
+   "TokenPost (ETH)",
+   "UkrMedia"
   ],
   "sources": [
    {
@@ -64046,6 +64122,13 @@
     "name": "TokenPost (ETH)",
     "kind": "secondary",
     "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://ukrmedia.news/en/economics/bitcoin-below-66000-november-2026/",
+    "name": "UkrMedia",
+    "kind": "other",
+    "checked": true,
     "confirms": true
    }
   ],
@@ -64090,6 +64173,13 @@
     "name": "TokenPost (ETH)",
     "kind": "secondary",
     "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://ukrmedia.news/en/economics/bitcoin-below-66000-november-2026/",
+    "name": "UkrMedia",
+    "kind": "other",
+    "checked": true,
     "confirms": true
    }
   ],
@@ -64142,6 +64232,13 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "UkrMedia",
+     "url": "https://ukrmedia.news/en/economics/bitcoin-below-66000-november-2026/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -64162,6 +64259,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 3,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-14T16:14-05:00",
+    "headline": "Bitcoin falls about 14% in a week to near $65,000 as weekend selling breaks Friday's low",
+    "summary": "Bitcoin dropped to about $65,200 Saturday, below Friday's low near $67,555 and its weakest since mid-August, down about 4% in 24 hours and about 14% on the week, with 10-year Treasury yields near 5.15% and the dollar at a 19-month high.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "UNVERIFIED"
    }
   ],
