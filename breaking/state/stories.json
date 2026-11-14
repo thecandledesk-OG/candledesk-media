@@ -58634,11 +58634,13 @@
   "emergency": false,
   "source_urls": [
    "https://www.theblock.co/latest-crypto-news",
-   "https://www.pymnts.com/?p=3949353"
+   "https://www.pymnts.com/?p=3949353",
+   "https://www.theblock.co/news/regulation/2026-11-13-house-oversight-chair-possible-ban-government-officials-prediction-market-bets-insider-trading-concerns-440207"
   ],
   "source_names": [
    "The Block",
-   "PYMNTS"
+   "PYMNTS",
+   "The Block"
   ],
   "sources": [
    {
@@ -58653,6 +58655,13 @@
     "name": "PYMNTS",
     "kind": "secondary",
     "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-13-house-oversight-chair-possible-ban-government-officials-prediction-market-bets-insider-trading-concerns-440207",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
     "confirms": true
    }
   ],
@@ -58669,6 +58678,13 @@
     "name": "PYMNTS",
     "kind": "secondary",
     "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-13-house-oversight-chair-possible-ban-government-officials-prediction-market-bets-insider-trading-concerns-440207",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
     "confirms": true
    }
   ],
@@ -58693,6 +58709,13 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-11-13-house-oversight-chair-possible-ban-government-officials-prediction-market-bets-insider-trading-concerns-440207",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -58721,6 +58744,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-13T19:14-05:00",
+    "headline": "House Oversight Chair James Comer floats a possible ban on government officials' prediction market bets over insider trading risks",
+    "summary": "The House Oversight Committee proposed legislation that could restrict or ban prediction market bets by federal employees, lawmakers and staff after its investigation found insider trading risks.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "UNVERIFIED"
    }
   ],
@@ -61937,12 +61969,14 @@
    "https://www.analyticsinsight.net/news/bitcoin-price-crashes-crypto-liquidations-hit-usd-14-billion-etf-outflows-reach-usd-192-billion",
    "https://cryptoticker.io/en/crypto-news-bitcoin-crash-liquidations-etf-outflows-november-13-2026/",
    "https://coincentral.com/why-is-crypto-dropping-today-november-13-2026",
-   "https://www.coindesk.com/price/bitcoin"
+   "https://www.coindesk.com/price/bitcoin",
+   "https://www.coindesk.com/tech/2026/11/13/live-news-bitcoin-drops-below-200-week-moving-average-as-dollar-strength-pressures-risk-assets"
   ],
   "source_names": [
    "Analytics Insight",
    "CryptoTicker",
    "CoinCentral",
+   "CoinDesk",
    "CoinDesk"
   ],
   "sources": [
@@ -61973,6 +62007,13 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/tech/2026/11/13/live-news-bitcoin-drops-below-200-week-moving-average-as-dollar-strength-pressures-risk-assets",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -61999,6 +62040,13 @@
    },
    {
     "url": "https://www.coindesk.com/price/bitcoin",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/tech/2026/11/13/live-news-bitcoin-drops-below-200-week-moving-average-as-dollar-strength-pressures-risk-assets",
     "name": "CoinDesk",
     "kind": "secondary",
     "checked": true,
@@ -62037,6 +62085,13 @@
     {
      "name": "CoinDesk",
      "url": "https://www.coindesk.com/price/bitcoin",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/tech/2026/11/13/live-news-bitcoin-drops-below-200-week-moving-average-as-dollar-strength-pressures-risk-assets",
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
@@ -62083,6 +62138,15 @@
     "at": "2026-11-13T16:11-05:00",
     "headline": "Bitcoin slides about 4% to near $68,600, extending its three-month low after hot inflation data",
     "summary": "Bitcoin trades near $68,626, down about 4% in 24 hours per CoinDesk at 4:10 PM ET, after more than $1.3 billion in liquidations and continued spot ETF outflows.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-13T19:14-05:00",
+    "headline": "Crypto slides into the weekend: bitcoin near $68,400 after falling below its 200-week moving average as Treasury yields climb",
+    "summary": "Bitcoin was down about 3.8% at around $68,400, ether down 3.8% near $1,933, XRP down 2.2% near $1.01 and solana down 3.9% near $78, as the 10-year yield hit about 5.15% and the dollar strengthened.",
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 1,
@@ -62738,6 +62802,76 @@
   ],
   "market_significance": "medium",
   "trigger": "search",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261113_f006b4",
+  "headline": "MEGA, formerly MegaETH, cuts about 20% of its workforce as it restructures",
+  "summary": "MEGA is laying off about a fifth of staff, mostly those who built its Ethereum layer 2 chain, wallet and ecosystem, after rebranding and committing $30 million to new products including AI inference.",
+  "detected_at": "2026-11-13T19:14-05:00",
+  "active_since": "2026-11-13T19:14-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "ETH"
+  ],
+  "event_type": "other",
+  "event_time": "2026-11-13T14:26-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-11-13-megaeth-mega-layoffs-20-percent-restructuring-440206"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-13-megaeth-mega-layoffs-20-percent-restructuring-440206",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-13-megaeth-mega-layoffs-20-percent-restructuring-440206",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-13-megaeth-mega-layoffs-20-percent-restructuring-440206",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Company layoffs, minor"
+  ],
+  "market_significance": "Layer 2 project restructuring",
+  "trigger": "The Block report",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
