@@ -63992,12 +63992,18 @@
   "source_urls": [
    "https://www.cryptotimes.io/2026/11/14/bitcoin-price-today-btc-slides-to-67k-as-1-26b-crypto-liquidations-hit-longs-fed-hike-bets-rise/",
    "https://tokenpost.com/news/investing/57426",
-   "https://tradersunion.com/news/cryptocurrency-news/show/4242539-bitcoin-plunges-below-67000-as-crypto-liquidations-reach-656-million/"
+   "https://tradersunion.com/news/cryptocurrency-news/show/4242539-bitcoin-plunges-below-67000-as-crypto-liquidations-reach-656-million/",
+   "https://tokenpost.com/news/investing/57443",
+   "https://finance.yahoo.com/markets/crypto/articles/bitcoin-just-crashed-toward-66-161047479.html",
+   "https://www.tokenpost.com/news/investing/57424"
   ],
   "source_names": [
    "The Crypto Times",
    "TokenPost",
-   "Traders Union"
+   "Traders Union",
+   "TokenPost",
+   "Yahoo Finance",
+   "TokenPost (ETH)"
   ],
   "sources": [
    {
@@ -64020,6 +64026,27 @@
     "kind": "other",
     "checked": false,
     "confirms": false
+   },
+   {
+    "url": "https://tokenpost.com/news/investing/57443",
+    "name": "TokenPost",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-just-crashed-toward-66-161047479.html",
+    "name": "Yahoo Finance",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.tokenpost.com/news/investing/57424",
+    "name": "TokenPost (ETH)",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -64043,15 +64070,36 @@
     "kind": "other",
     "checked": false,
     "confirms": false
+   },
+   {
+    "url": "https://tokenpost.com/news/investing/57443",
+    "name": "TokenPost",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-just-crashed-toward-66-161047479.html",
+    "name": "Yahoo Finance",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.tokenpost.com/news/investing/57424",
+    "name": "TokenPost (ETH)",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
    }
   ],
   "verification_status": "UNVERIFIED",
   "verification": {
    "status": "UNVERIFIED",
-   "independent_sources": 0,
+   "independent_sources": 1,
    "has_primary": false,
-   "score": 0.0,
-   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
    "sources_checked": [
     {
      "name": "The Crypto Times",
@@ -64073,6 +64121,27 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "TokenPost",
+     "url": "https://tokenpost.com/news/investing/57443",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-just-crashed-toward-66-161047479.html",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "TokenPost (ETH)",
+     "url": "https://www.tokenpost.com/news/investing/57424",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -64085,7 +64154,17 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-11-14T13:09-05:00",
+    "headline": "Bitcoin slips below $66,000, down about 14% on the week, as weekend selling breaks Friday's low",
+    "summary": "Bitcoin traded near $65,200 to $66,500 on Saturday, down roughly 4% in 24 hours and about 14% over seven days, its weakest since mid-August. Ether is near $1,850, down about 6%. Drivers cited: hotter inflation data, rising Fed hike bets, a 5%+ 10-year yield and seven straight days of spot bitcoin ETF outflows.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 3,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  }
