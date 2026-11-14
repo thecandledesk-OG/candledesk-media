@@ -58754,6 +58754,15 @@
     "level": "NORMAL",
     "sources_added": 1,
     "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-13T22:14-05:00",
+    "headline": "House Oversight Chair floats a ban on government officials betting on prediction markets",
+    "summary": "The House Oversight Committee chair called for a possible ban on government officials placing prediction market bets over insider-trading concerns.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
    }
   ],
   "posts": [],
@@ -61686,10 +61695,14 @@
   "metrics": {},
   "emergency": false,
   "source_urls": [
-   "https://www.theblock.co/news/regulation/2026-11-13-doj-cftc-sue-arkansas-to-block-state-enforcement-action-against-kalshi-439669"
+   "https://www.theblock.co/news/regulation/2026-11-13-doj-cftc-sue-arkansas-to-block-state-enforcement-action-against-kalshi-439669",
+   "https://www.theblock.co/news/regulation/2026-11-13-cftcs-selig-accuses-states-trying-lock-up-prediction-market-founders-440199",
+   "https://coinedition.com/crypto-live-news/cftc-chair-selig-defends-federal-crypto-oversight-as-states-challenge-prediction-markets/"
   ],
   "source_names": [
-   "The Block"
+   "The Block",
+   "The Block",
+   "Coin Edition"
   ],
   "sources": [
    {
@@ -61697,6 +61710,20 @@
     "name": "The Block",
     "kind": "secondary",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-13-cftcs-selig-accuses-states-trying-lock-up-prediction-market-founders-440199",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://coinedition.com/crypto-live-news/cftc-chair-selig-defends-federal-crypto-oversight-as-states-challenge-prediction-markets/",
+    "name": "Coin Edition",
+    "kind": "other",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -61706,6 +61733,20 @@
     "name": "The Block",
     "kind": "secondary",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-13-cftcs-selig-accuses-states-trying-lock-up-prediction-market-founders-440199",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://coinedition.com/crypto-live-news/cftc-chair-selig-defends-federal-crypto-oversight-as-states-challenge-prediction-markets/",
+    "name": "Coin Edition",
+    "kind": "other",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -61723,6 +61764,20 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-11-13-cftcs-selig-accuses-states-trying-lock-up-prediction-market-founders-440199",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "Coin Edition",
+     "url": "https://coinedition.com/crypto-live-news/cftc-chair-selig-defends-federal-crypto-oversight-as-states-challenge-prediction-markets/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -61734,7 +61789,17 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-11-13T22:14-05:00",
+    "headline": "CFTC Chair Selig accuses states of trying to 'lock up' prediction market founders",
+    "summary": "CFTC Chair Mike Selig criticized state enforcement against prediction markets, saying states are trying to lock up founders, as the federal government fights state cases against Kalshi.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -62872,6 +62937,149 @@
   ],
   "market_significance": "Layer 2 project restructuring",
   "trigger": "The Block report",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261113_e6c3d3",
+  "headline": "Meta tests a prediction market app that uses 'cred' points instead of cash, WSJ reports",
+  "summary": "Meta is testing a prediction market app where users bet with points called cred rather than money, according to The Wall Street Journal, as reported by The Block.",
+  "detected_at": "2026-11-13T22:14-05:00",
+  "active_since": "2026-11-13T22:14-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "other",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/markets/2026-11-13-meta-tests-prediction-market-app-using-cred-points-instead-cash-wsj-440215"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-13-meta-tests-prediction-market-app-using-cred-points-instead-cash-wsj-440215",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true,
+    "origin": "WSJ"
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-13-meta-tests-prediction-market-app-using-cred-points-instead-cash-wsj-440215",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true,
+    "origin": "WSJ"
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/markets/2026-11-13-meta-tests-prediction-market-app-using-cred-points-instead-cash-wsj-440215",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Single outlet relaying a WSJ report; no cash or crypto involved."
+  ],
+  "market_significance": "Big tech entering prediction markets.",
+  "trigger": "The Block latest news, 3:55 PM ET",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261113_b7345e",
+  "headline": "Bithumb will delist MANTRA's OM and RECALL, with trading ending December 14",
+  "summary": "Bithumb said trading in MANTRA (OM) and RECALL ends December 14, with withdrawals supported until January 13, 2027, citing MANTRA's response to security incidents and unresolved questions about RECALL.",
+  "detected_at": "2026-11-13T22:14-05:00",
+  "active_since": "2026-11-13T22:14-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "OM",
+   "RECALL"
+  ],
+  "event_type": "exchange",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://thecryptobasic.com/2026/11/13/tcb-daily-edition-what-happened-in-crypto-on-november-13-2026/"
+  ],
+  "source_names": [
+   "The Crypto Basic"
+  ],
+  "sources": [
+   {
+    "url": "https://thecryptobasic.com/2026/11/13/tcb-daily-edition-what-happened-in-crypto-on-november-13-2026/",
+    "name": "The Crypto Basic",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://thecryptobasic.com/2026/11/13/tcb-daily-edition-what-happened-in-crypto-on-november-13-2026/",
+    "name": "The Crypto Basic",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Crypto Basic",
+     "url": "https://thecryptobasic.com/2026/11/13/tcb-daily-edition-what-happened-in-crypto-on-november-13-2026/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Small-cap delisting on one exchange."
+  ],
+  "market_significance": "Follows MANTRA's OM unbonding pause after Keplr wallet attacks.",
+  "trigger": "The Crypto Basic daily roundup",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
