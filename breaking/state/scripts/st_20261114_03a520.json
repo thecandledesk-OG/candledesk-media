@@ -1,0 +1,86 @@
+{
+ "story_id": "st_20261114_03a520",
+ "date_label": "NOV 14",
+ "headline": "Bitcoin hits its lowest since July as ether drops 10%",
+ "sources": [
+  {
+   "name": "Bloomberg",
+   "url": "https://www.business-standard.com/amp/markets/cryptocurrency/bitcoin-tumbles-to-four-month-low-as-leveraged-bets-face-mass-liquidations-126111500058_1.html"
+  },
+  {
+   "name": "CoinDesk",
+   "url": "https://www.coindesk.com/markets/2026/11/14/bitcoin-drifts-back-to-usd65-000-deep-value-zone-says-analyst"
+  },
+  {
+   "name": "The Defiant",
+   "url": "https://thedefiant.io/news/markets/binance-liquidations-near-800-million-as-bitcoin-sinks"
+  }
+ ],
+ "scenes": [
+  {
+   "beat": "hook",
+   "who": "ledger",
+   "vo": "Bitcoin just hit its lowest price since July, and ether fell about ten percent in a day. Here's what changed.",
+   "chunks": [
+    "Bitcoin hits July lows",
+    "*Ether down 10 percent*",
+    "Here's what changed"
+   ]
+  },
+  {
+   "beat": "what_happened",
+   "who": "ledger",
+   "vo": "Bitcoin touched about sixty two thousand dollars Saturday night, and ether slid to about seventeen hundred. Around two billion dollars in leveraged bets were wiped out, mostly bets on rising prices.",
+   "chunks": [
+    "Bitcoin near 62K",
+    "Ether near 1,700",
+    "*2 billion liquidated*"
+   ],
+   "stat": {
+    "label": "Sources",
+    "text": "Bloomberg · CoinDesk"
+   }
+  },
+  {
+   "beat": "why_it_matters",
+   "who": "bruno",
+   "vo": "Here's why traders are watching it. One on-chain analyst calls this a deep value zone, though he says that doesn't mean the bottom is in.",
+   "chunks": [
+    "The upside read",
+    "*Deep value zone*",
+    "Not a bottom call"
+   ]
+  },
+  {
+   "beat": "why_it_matters",
+   "who": "ursa",
+   "vo": "The catch. Bitcoin broke below its two hundred day average near seventy three thousand, bitcoin funds lost about three billion dollars in two weeks, and traders expect higher rates.",
+   "chunks": [
+    "The catch",
+    "*Below 200-day average*",
+    "ETF outflows continue"
+   ]
+  },
+  {
+   "beat": "watch_next",
+   "who": "moby",
+   "vo": "Here's what happens next. Watch whether bitcoin holds this year's low near fifty seven thousand, and whether fund outflows slow.",
+   "chunks": [
+    "What's next",
+    "*The 57K yearly low*",
+    "Fund flows"
+   ]
+  },
+  {
+   "beat": "cta",
+   "who": "all",
+   "vo": "Follow The Candle Desk for crypto news without the hype. Not financial advice.",
+   "chunks": [
+    "Follow The Candle Desk",
+    "*No hype*",
+    "Just the news"
+   ],
+   "foot": "NOT FINANCIAL ADVICE"
+  }
+ ]
+}

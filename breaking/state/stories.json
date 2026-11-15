@@ -61843,6 +61843,15 @@
     "level": "NORMAL",
     "sources_added": 2,
     "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-14T22:10-05:00",
+    "headline": "Louisiana's attorney general attacks the CFTC chair after the agency's prediction-market lawsuit",
+    "summary": "Louisiana's AG called CFTC chair Selig an 'obsequious standard bearer' for prediction markets after the agency sued over state enforcement.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
    }
   ],
   "posts": [],
@@ -64135,6 +64144,15 @@
     "level": "NORMAL",
     "sources_added": 0,
     "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-14T22:10-05:00",
+    "headline": "Bitcoin ETFs lose $1 billion for a second straight week as crypto funds keep bleeding",
+    "summary": "US spot bitcoin ETFs posted about $1 billion in net outflows for the second week in a row, The Block reports; nearly all crypto fund categories saw outflows.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
    }
   ],
   "posts": [],
@@ -64142,13 +64160,13 @@
  },
  {
   "id": "st_20261114_03a520",
-  "headline": "Bitcoin slides toward $66K as crypto liquidations top $1 billion and Fed hike bets rise",
+  "headline": "Bitcoin drops near $62,000, its lowest since mid-July, as ether slides to $1,711 and liquidations hit about $2 billion",
   "summary": "Bitcoin dipped to about $66,085 on Binance around 9:47 AM ET Nov 14, extending the slide to its lowest since August; reports cite $656M to $1.26B in liquidations of long positions and rising odds of a December Fed hike after hot PPI data. 24h moves remain modest (BTC about -2%, SOL about -6%).",
   "detected_at": "2026-11-14T10:13-05:00",
-  "active_since": "2026-11-14T10:13-05:00",
-  "classification": "NORMAL",
+  "active_since": "2026-11-14T22:10-05:00",
+  "classification": "IMPORTANT",
   "proposed_level": "NORMAL",
-  "confidence": 0.6,
+  "confidence": 0.85,
   "assets": [
    "BTC",
    "TOTAL_MARKET"
@@ -64171,7 +64189,13 @@
    "https://www.coindesk.com/price/bitcoin",
    "https://www.coindesk.com/price/ethereum",
    "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46U2EN:0-bitcoin-falls-around-5-3-to-64-734/",
-   "https://cryptoticker.io/en/crypto-news-bitcoin-falls-to-63500-fed-hike-bets-november-14-2026"
+   "https://cryptoticker.io/en/crypto-news-bitcoin-falls-to-63500-fed-hike-bets-november-14-2026",
+   "https://www.business-standard.com/amp/markets/cryptocurrency/bitcoin-tumbles-to-four-month-low-as-leveraged-bets-face-mass-liquidations-126111500058_1.html",
+   "https://theedgemalaysia.com/node/825794",
+   "https://www.coindesk.com/markets/2026/11/14/bitcoin-drifts-back-to-usd65-000-deep-value-zone-says-analyst",
+   "https://www.tokenpost.com/news/investing/57616",
+   "https://www.coingecko.com/en/coins/ethereum",
+   "https://thedefiant.io/news/markets/binance-liquidations-near-800-million-as-bitcoin-sinks"
   ],
   "source_names": [
    "The Crypto Times",
@@ -64184,7 +64208,13 @@
    "CoinDesk BTC price",
    "CoinDesk ETH price",
    "Reuters (via TradingView)",
-   "CryptoTicker"
+   "CryptoTicker",
+   "Bloomberg (via Business Standard)",
+   "Bloomberg (via The Edge Malaysia)",
+   "CoinDesk",
+   "TokenPost",
+   "CoinGecko",
+   "The Defiant"
   ],
   "sources": [
    {
@@ -64264,86 +64294,106 @@
     "kind": "other",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.business-standard.com/amp/markets/cryptocurrency/bitcoin-tumbles-to-four-month-low-as-leveraged-bets-face-mass-liquidations-126111500058_1.html",
+    "name": "Bloomberg (via Business Standard)",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "origin": "Bloomberg",
+    "published": "2026-11-14T21:42-05:00"
+   },
+   {
+    "url": "https://theedgemalaysia.com/node/825794",
+    "name": "Bloomberg (via The Edge Malaysia)",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "origin": "Bloomberg",
+    "published": "2026-11-14T20:20-05:00"
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/11/14/bitcoin-drifts-back-to-usd65-000-deep-value-zone-says-analyst",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-11-14T21:01-05:00"
+   },
+   {
+    "url": "https://www.tokenpost.com/news/investing/57616",
+    "name": "TokenPost",
+    "kind": "other",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-11-14T21:04-05:00"
+   },
+   {
+    "url": "https://www.coingecko.com/en/coins/ethereum",
+    "name": "CoinGecko",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://thedefiant.io/news/markets/binance-liquidations-near-800-million-as-bitcoin-sinks",
+    "name": "The Defiant",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-11-14T20:24-05:00"
    }
   ],
   "gate_sources": [
    {
-    "url": "https://www.cryptotimes.io/2026/11/14/bitcoin-price-today-btc-slides-to-67k-as-1-26b-crypto-liquidations-hit-longs-fed-hike-bets-rise/",
-    "name": "The Crypto Times",
-    "kind": "secondary",
-    "checked": false,
-    "confirms": false
-   },
-   {
-    "url": "https://tokenpost.com/news/investing/57426",
-    "name": "TokenPost",
-    "kind": "secondary",
-    "checked": false,
-    "confirms": false
-   },
-   {
-    "url": "https://tradersunion.com/news/cryptocurrency-news/show/4242539-bitcoin-plunges-below-67000-as-crypto-liquidations-reach-656-million/",
-    "name": "Traders Union",
-    "kind": "other",
-    "checked": false,
-    "confirms": false
-   },
-   {
-    "url": "https://tokenpost.com/news/investing/57443",
-    "name": "TokenPost",
-    "kind": "secondary",
-    "checked": true,
-    "confirms": true
-   },
-   {
-    "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-just-crashed-toward-66-161047479.html",
-    "name": "Yahoo Finance",
-    "kind": "secondary",
-    "checked": true,
-    "confirms": true
-   },
-   {
-    "url": "https://www.tokenpost.com/news/investing/57424",
-    "name": "TokenPost (ETH)",
-    "kind": "secondary",
-    "checked": false,
-    "confirms": true
-   },
-   {
-    "url": "https://ukrmedia.news/en/economics/bitcoin-below-66000-november-2026/",
-    "name": "UkrMedia",
-    "kind": "other",
-    "checked": true,
-    "confirms": true
-   },
-   {
-    "url": "https://www.coindesk.com/price/bitcoin",
-    "name": "CoinDesk BTC price",
-    "kind": "secondary",
-    "checked": true,
-    "confirms": true
-   },
-   {
-    "url": "https://www.coindesk.com/price/ethereum",
-    "name": "CoinDesk ETH price",
-    "kind": "secondary",
-    "checked": true,
-    "confirms": true
-   },
-   {
-    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46U2EN:0-bitcoin-falls-around-5-3-to-64-734/",
-    "name": "Reuters (via TradingView)",
+    "url": "https://www.business-standard.com/amp/markets/cryptocurrency/bitcoin-tumbles-to-four-month-low-as-leveraged-bets-face-mass-liquidations-126111500058_1.html",
+    "name": "Bloomberg (via Business Standard)",
     "kind": "secondary",
     "checked": true,
     "confirms": true,
-    "origin": "Reuters"
+    "origin": "Bloomberg",
+    "published": "2026-11-14T21:42-05:00"
    },
    {
-    "url": "https://cryptoticker.io/en/crypto-news-bitcoin-falls-to-63500-fed-hike-bets-november-14-2026",
-    "name": "CryptoTicker",
+    "url": "https://theedgemalaysia.com/node/825794",
+    "name": "Bloomberg (via The Edge Malaysia)",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "origin": "Bloomberg",
+    "published": "2026-11-14T20:20-05:00"
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/11/14/bitcoin-drifts-back-to-usd65-000-deep-value-zone-says-analyst",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-11-14T21:01-05:00"
+   },
+   {
+    "url": "https://www.tokenpost.com/news/investing/57616",
+    "name": "TokenPost",
+    "kind": "other",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-11-14T21:04-05:00"
+   },
+   {
+    "url": "https://www.coingecko.com/en/coins/ethereum",
+    "name": "CoinGecko",
     "kind": "other",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://thedefiant.io/news/markets/binance-liquidations-near-800-million-as-bitcoin-sinks",
+    "name": "The Defiant",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-11-14T20:24-05:00"
    }
   ],
   "verification_status": "VERIFIED",
@@ -64355,92 +64405,59 @@
    "reason": "2 independent credible sources confirm it (no primary source yet)",
    "sources_checked": [
     {
-     "name": "The Crypto Times",
-     "url": "https://www.cryptotimes.io/2026/11/14/bitcoin-price-today-btc-slides-to-67k-as-1-26b-crypto-liquidations-hit-longs-fed-hike-bets-rise/",
+     "name": "Bloomberg (via Business Standard)",
+     "url": "https://www.business-standard.com/amp/markets/cryptocurrency/bitcoin-tumbles-to-four-month-low-as-leveraged-bets-face-mass-liquidations-126111500058_1.html",
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Bloomberg (via The Edge Malaysia)",
+     "url": "https://theedgemalaysia.com/node/825794",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/11/14/bitcoin-drifts-back-to-usd65-000-deep-value-zone-says-analyst",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     },
     {
      "name": "TokenPost",
-     "url": "https://tokenpost.com/news/investing/57426",
+     "url": "https://www.tokenpost.com/news/investing/57616",
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
     },
     {
-     "name": "Traders Union",
-     "url": "https://tradersunion.com/news/cryptocurrency-news/show/4242539-bitcoin-plunges-below-67000-as-crypto-liquidations-reach-656-million/",
+     "name": "CoinGecko",
+     "url": "https://www.coingecko.com/en/coins/ethereum",
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
     },
     {
-     "name": "TokenPost",
-     "url": "https://tokenpost.com/news/investing/57443",
-     "category": "other",
-     "counts": false,
-     "note": "not on the credible list — logged as evidence only"
-    },
-    {
-     "name": "Yahoo Finance",
-     "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-just-crashed-toward-66-161047479.html",
+     "name": "The Defiant",
+     "url": "https://thedefiant.io/news/markets/binance-liquidations-near-800-million-as-bitcoin-sinks",
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
-    },
-    {
-     "name": "TokenPost (ETH)",
-     "url": "https://www.tokenpost.com/news/investing/57424",
-     "category": "other",
-     "counts": false,
-     "note": "not on the credible list — logged as evidence only"
-    },
-    {
-     "name": "UkrMedia",
-     "url": "https://ukrmedia.news/en/economics/bitcoin-below-66000-november-2026/",
-     "category": "other",
-     "counts": false,
-     "note": "not on the credible list — logged as evidence only"
-    },
-    {
-     "name": "CoinDesk BTC price",
-     "url": "https://www.coindesk.com/price/bitcoin",
-     "category": "secondary",
-     "counts": true,
-     "note": "credible news organization"
-    },
-    {
-     "name": "CoinDesk ETH price",
-     "url": "https://www.coindesk.com/price/ethereum",
-     "category": "secondary",
-     "counts": true,
-     "note": "credible news organization"
-    },
-    {
-     "name": "Reuters (via TradingView)",
-     "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46U2EN:0-bitcoin-falls-around-5-3-to-64-734/",
-     "category": "other",
-     "counts": false,
-     "note": "not on the credible list — logged as evidence only"
-    },
-    {
-     "name": "CryptoTicker",
-     "url": "https://cryptoticker.io/en/crypto-news-bitcoin-falls-to-63500-fed-hike-bets-november-14-2026",
-     "category": "other",
-     "counts": false,
-     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
   "classification_reason": [
    "AI proposed NORMAL: 24h moves well below IMPORTANT thresholds; continuation of the slide covered in the morning episode",
-   "price rule: BTC moved 2.2% in 24h (thresholds 7%/12%) -> NORMAL"
+   "price rule: BTC moved 2.2% in 24h (thresholds 7%/12%) -> NORMAL",
+   "AI proposed IMPORTANT: ETH down about 10.2% in 24h (CoinGecko; Bloomberg: about 8% Saturday plus 3.4% Sunday), above the 9% ETH threshold; BTC down about 7-9% in 24h depending on snapshot, near or above its 7% threshold.",
+   "price rule: ETH moved 10.2% in 24h (thresholds 9%/15%) -> IMPORTANT"
   ],
   "market_significance": "Continued weakness and forced selling; extreme fear",
   "trigger": "search results",
-  "content_created": false,
-  "publication_status": "QUEUED_FOR_DAILY",
+  "content_created": true,
+  "publication_status": "DRAFTED",
   "related_story_ids": [],
   "updates": [
    {
@@ -64469,9 +64486,31 @@
     "level": "NORMAL",
     "sources_added": 4,
     "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-14T22:10-05:00",
+    "headline": "Bitcoin drops near $62,000, its lowest since mid-July, as ether slides to $1,711 and liquidations hit about $2 billion",
+    "summary": "A weekend sell-off pushed bitcoin to a low of about $62,100, its weakest since July 14 and roughly 25% below Oct 21. Ether fell to $1,711, its lowest since July 8, down about 10% in 24 hours; SOL and XRP fell about 6-12%. About $2 billion in leveraged positions, mostly longs, were liquidated in the 24 hours to Sunday morning Asia time, per Coinglass data cited by Bloomberg. Analysts point to the break below the 200-day average near $73,000, rising rate-hike bets and about $3 billion in spot bitcoin ETF outflows since Oct 30.",
+    "new_development": true,
+    "level": "IMPORTANT",
+    "sources_added": 5,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-14T22:10-05:00",
+    "headline": "Bitcoin drops near $62,000, its lowest since mid-July, as ether slides to $1,711 and liquidations hit about $2 billion",
+    "summary": "A weekend sell-off pushed bitcoin to a low of about $62,100, its weakest since July 14 and roughly 25% below Oct 21. Ether fell to $1,711, its lowest since July 8, down about 10% in 24 hours; SOL and XRP fell about 6-12%. About $2 billion in leveraged positions, mostly longs, were liquidated in the 24 hours to Sunday morning Asia time, per Coinglass data cited by Bloomberg. Analysts point to the break below the 200-day average near $73,000, rising rate-hike bets and about $3 billion in spot bitcoin ETF outflows since Oct 30.",
+    "new_development": true,
+    "level": "IMPORTANT",
+    "sources_added": 1,
+    "verification": "VERIFIED"
    }
   ],
-  "posts": [],
+  "posts": [
+   "6af923f9e5a113497ac27704",
+   "6af923fae5a113497ac27744",
+   "6af923fa76c23bf1c7561d9e"
+  ],
   "needs_followup": false
  },
  {
