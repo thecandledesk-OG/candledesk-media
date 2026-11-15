@@ -59307,13 +59307,15 @@
    "https://coinranking.com/news/vaneck-jitosol-etf-faces-hard-november-15-deadline-sec",
    "https://cryptoticker.io/en/staking-etf-sec-decision-deadline/",
    "https://financefeeds.com/vaneck-jitosol-etfs-november-15-sec-deadline-cancelled-after-nasdaq-withdraws-filing/",
-   "https://www.sec.gov/files/rules/sro/nasdaq/2026/34-106309.pdf"
+   "https://www.sec.gov/files/rules/sro/nasdaq/2026/34-106309.pdf",
+   "https://www.sec.gov/rules-regulations/public-comments/sr-nasdaq-2026-016"
   ],
   "source_names": [
    "Coinranking",
    "CryptoTicker",
    "FinanceFeeds",
-   "SEC extension notice"
+   "SEC extension notice",
+   "SEC comment docket"
   ],
   "sources": [
    {
@@ -59343,6 +59345,13 @@
     "kind": "primary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.sec.gov/rules-regulations/public-comments/sr-nasdaq-2026-016",
+    "name": "SEC comment docket",
+    "kind": "primary",
+    "checked": true,
+    "confirms": false
    }
   ],
   "gate_sources": [
@@ -59373,6 +59382,13 @@
     "kind": "primary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.sec.gov/rules-regulations/public-comments/sr-nasdaq-2026-016",
+    "name": "SEC comment docket",
+    "kind": "primary",
+    "checked": true,
+    "confirms": false
    }
   ],
   "verification_status": "UNVERIFIED",
@@ -59410,6 +59426,13 @@
      "category": "primary",
      "counts": true,
      "note": "primary (known official domain)"
+    },
+    {
+     "name": "SEC comment docket",
+     "url": "https://www.sec.gov/rules-regulations/public-comments/sr-nasdaq-2026-016",
+     "category": "primary",
+     "counts": false,
+     "note": "primary (known official domain); opened but does not confirm the claim"
     }
    ]
   },
@@ -59465,6 +59488,15 @@
     "new_development": true,
     "level": "NORMAL",
     "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-15T16:13-05:00",
+    "headline": "Correction: VanEck JitoSOL ETF's November 15 SEC deadline was cancelled after Nasdaq withdrew the filing on October 14, per FinanceFeeds",
+    "summary": "FinanceFeeds reports Nasdaq withdrew SR-NASDAQ-2026-016 on October 14, removing the November 15 decision deadline; a withdrawal is not an SEC rejection. The SEC docket page does not yet show the withdrawal, so this is unconfirmed. No SEC decision was issued today.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "UNVERIFIED"
    }
   ],
@@ -64952,11 +64984,15 @@
   "emergency": false,
   "source_urls": [
    "https://cryptoticker.io/en/bitcoin-price-overnight-low-weekly-close-november-15-2026/",
-   "https://koinbulteni.com/en/bitcoin-and-altcoins-market-overview-november-15-2026-292554.html"
+   "https://koinbulteni.com/en/bitcoin-and-altcoins-market-overview-november-15-2026-292554.html",
+   "https://news.bitcoin.com/market-updates/crypto-market-rout-deepens-as-xrp-price-hits-2-year-low-and-etf-money-flees/",
+   "https://coincodex.com/article/95430/daily-market-update-for-november-15-2026/"
   ],
   "source_names": [
    "CryptoTicker",
-   "Koin Bulteni"
+   "Koin Bulteni",
+   "Bitcoin.com News",
+   "CoinCodex"
   ],
   "sources": [
    {
@@ -64970,6 +65006,20 @@
     "url": "https://koinbulteni.com/en/bitcoin-and-altcoins-market-overview-november-15-2026-292554.html",
     "name": "Koin Bulteni",
     "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://news.bitcoin.com/market-updates/crypto-market-rout-deepens-as-xrp-price-hits-2-year-low-and-etf-money-flees/",
+    "name": "Bitcoin.com News",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://coincodex.com/article/95430/daily-market-update-for-november-15-2026/",
+    "name": "CoinCodex",
+    "kind": "other",
     "checked": true,
     "confirms": true
    }
@@ -64986,6 +65036,20 @@
     "url": "https://koinbulteni.com/en/bitcoin-and-altcoins-market-overview-november-15-2026-292554.html",
     "name": "Koin Bulteni",
     "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://news.bitcoin.com/market-updates/crypto-market-rout-deepens-as-xrp-price-hits-2-year-low-and-etf-money-flees/",
+    "name": "Bitcoin.com News",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://coincodex.com/article/95430/daily-market-update-for-november-15-2026/",
+    "name": "CoinCodex",
+    "kind": "other",
     "checked": true,
     "confirms": true
    }
@@ -65011,6 +65075,20 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Bitcoin.com News",
+     "url": "https://news.bitcoin.com/market-updates/crypto-market-rout-deepens-as-xrp-price-hits-2-year-low-and-etf-money-flees/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinCodex",
+     "url": "https://coincodex.com/article/95430/daily-market-update-for-november-15-2026/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -65022,7 +65100,17 @@
   "content_created": false,
   "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-11-15T16:13-05:00",
+    "headline": "Crypto market rebounds Sunday after $130 billion wipeout: bitcoin back near $65,000, XRP back to about $0.95",
+    "summary": "After a $130 billion drop since Friday, bitcoin recovered from a $61,947 low to about $65,000 and XRP from $0.89 to about $0.95 by Sunday afternoon. Week-over-week BTC is down about 14.5%, ETH 19%, SOL 20%, XRP 17%. Daily moves are now small.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -65284,6 +65372,95 @@
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
   "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261115_7184d4",
+  "headline": "Coinone says an attacker accessed customer-service records at its contractor MetaM, possibly exposing passwords, ID numbers and bank details",
+  "summary": "South Korean exchange Coinone disclosed that a November 12 intrusion at its customer-service contractor MetaM may have exposed data users shared with support, including passwords, ID numbers, bank details and wallet addresses. It reported no intrusion into trading or wallet systems and told affected users to change passwords.",
+  "detected_at": "2026-11-15T16:13-05:00",
+  "active_since": "2026-11-15T16:13-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "exchange",
+  "event_time": "2026-11-15T09:00-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://thecryptobasic.com/2026/11/15/tcb-daily-edition-what-happened-in-crypto-on-november-15-2026/"
+  ],
+  "source_names": [
+   "The Crypto Basic"
+  ],
+  "sources": [
+   {
+    "url": "https://thecryptobasic.com/2026/11/15/tcb-daily-edition-what-happened-in-crypto-on-november-15-2026/",
+    "name": "The Crypto Basic",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://thecryptobasic.com/2026/11/15/tcb-daily-edition-what-happened-in-crypto-on-november-15-2026/",
+    "name": "The Crypto Basic",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Crypto Basic",
+     "url": "https://thecryptobasic.com/2026/11/15/tcb-daily-edition-what-happened-in-crypto-on-november-15-2026/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Data exposure at a contractor, no funds or trading systems affected"
+  ],
+  "market_significance": "User-security story for Korean exchange users",
+  "trigger": "Roundup report",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [
+   {
+    "at": "2026-11-15T16:13-05:00",
+    "headline": "Gate suspends Radix (XRD) deposits after a security incident, reopening November 30",
+    "summary": "Gate suspended XRD deposits after a security incident; it says the Radix team confirmed the issue is resolved and deposits reopen November 30 at 08:00 UTC. Gate flagged a price gap between XRD on Gate and other venues.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-15T16:13-05:00",
+    "headline": "Trade.xyz halves max leverage on its Hyperliquid Nvidia perpetual to 10x ahead of Nvidia earnings",
+    "summary": "Trade.xyz cuts maximum leverage on its Nvidia perpetual on Hyperliquid from 20x to 10x effective 01:05 UTC November 16, ahead of Nvidia's November 17 earnings, and will restore 20x afterward. Binance also moves its Anthropic pre-IPO perpetual to a new ANTUSDT ticker on November 17.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  }
