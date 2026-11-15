@@ -61852,6 +61852,15 @@
     "level": "NORMAL",
     "sources_added": 0,
     "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-15T07:09-05:00",
+    "headline": "Louisiana's attorney general attacks the CFTC chair after the agency's prediction-market lawsuit",
+    "summary": "Louisiana's AG called the CFTC chair an 'obsequious standard bearer' for prediction markets after the CFTC sued the state, escalating the state-federal fight over event contracts.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
    }
   ],
   "posts": [],
@@ -64153,6 +64162,15 @@
     "level": "NORMAL",
     "sources_added": 0,
     "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-15T07:09-05:00",
+    "headline": "Bitcoin ETFs lose about $1 billion for a second straight week as crypto funds keep bleeding",
+    "summary": "US spot bitcoin ETFs posted roughly $1 billion of weekly outflows for the second week in a row, with most crypto funds also seeing outflows, The Block reports.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
    }
   ],
   "posts": [],
@@ -64195,7 +64213,9 @@
    "https://www.coindesk.com/markets/2026/11/14/bitcoin-drifts-back-to-usd65-000-deep-value-zone-says-analyst",
    "https://www.tokenpost.com/news/investing/57616",
    "https://www.coingecko.com/en/coins/ethereum",
-   "https://thedefiant.io/news/markets/binance-liquidations-near-800-million-as-bitcoin-sinks"
+   "https://thedefiant.io/news/markets/binance-liquidations-near-800-million-as-bitcoin-sinks",
+   "https://www.coindaro.com/bitcoin-price-today-61946-low-liquidations/",
+   "https://bitcoinfoundation.org/news/analysis/crypto-market-downturn-leaves-ether-xrp-and-solana-down-22/"
   ],
   "source_names": [
    "The Crypto Times",
@@ -64214,7 +64234,9 @@
    "CoinDesk",
    "TokenPost",
    "CoinGecko",
-   "The Defiant"
+   "The Defiant",
+   "Coindaro",
+   "Bitcoin Foundation News"
   ],
   "sources": [
    {
@@ -64343,6 +64365,20 @@
     "checked": true,
     "confirms": true,
     "published": "2026-11-14T20:24-05:00"
+   },
+   {
+    "url": "https://www.coindaro.com/bitcoin-price-today-61946-low-liquidations/",
+    "name": "Coindaro",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://bitcoinfoundation.org/news/analysis/crypto-market-downturn-leaves-ether-xrp-and-solana-down-22/",
+    "name": "Bitcoin Foundation News",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -64394,6 +64430,20 @@
     "checked": true,
     "confirms": true,
     "published": "2026-11-14T20:24-05:00"
+   },
+   {
+    "url": "https://www.coindaro.com/bitcoin-price-today-61946-low-liquidations/",
+    "name": "Coindaro",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://bitcoinfoundation.org/news/analysis/crypto-market-downturn-leaves-ether-xrp-and-solana-down-22/",
+    "name": "Bitcoin Foundation News",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "VERIFIED",
@@ -64445,6 +64495,20 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "Coindaro",
+     "url": "https://www.coindaro.com/bitcoin-price-today-61946-low-liquidations/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Bitcoin Foundation News",
+     "url": "https://bitcoinfoundation.org/news/analysis/crypto-market-downturn-leaves-ether-xrp-and-solana-down-22/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -64503,6 +64567,15 @@
     "new_development": true,
     "level": "IMPORTANT",
     "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-15T07:09-05:00",
+    "headline": "Bitcoin trades near $64,000-$65,000 after an overnight low of $61,946, ether, solana and XRP down 3% to 7% on the day",
+    "summary": "Bitcoin hit $61,946 on Coinbase at 01:45 UTC Sunday, its lowest since July 13, with about $2 billion in liquidations over 24 hours, then bounced to roughly $64,000-$65,000. 24-hour moves: BTC about -3% to -5%, ETH about -5% to -6%, SOL about -6% to -7%, XRP about -3.5%. All below the IMPORTANT thresholds.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
     "verification": "VERIFIED"
    }
   ],
@@ -64579,6 +64652,172 @@
   ],
   "market_significance": "DeFi lending bug; bridge paused.",
   "trigger": "The Block report",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261115_59bc13",
+  "headline": "Solana slides about 7% to near $70 as Breakpoint opens in London",
+  "summary": "SOL fell to a low of about $67.60 early Sunday as the Solana Foundation's Breakpoint conference opened in London (Nov 15-17). US spot Solana ETFs have had seven straight sessions of outflows, about $58 million, and roughly $69 million of SOL positions were liquidated.",
+  "detected_at": "2026-11-15T07:09-05:00",
+  "active_since": "2026-11-15T07:09-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.65,
+  "assets": [
+   "SOL"
+  ],
+  "event_type": "market_move",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {
+   "pct_move_24h": -7.0
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://cryptoticker.io/en/solana-price-crash-67-dollars-76-percent-below-record-november-15-2026/",
+   "https://solanacompass.com/news/solana-breakpoint-2026-comes-to-london-for-the-first-time-november-15-17-at-olympia"
+  ],
+  "source_names": [
+   "CryptoTicker",
+   "Solana Compass"
+  ],
+  "sources": [
+   {
+    "url": "https://cryptoticker.io/en/solana-price-crash-67-dollars-76-percent-below-record-november-15-2026/",
+    "name": "CryptoTicker",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://solanacompass.com/news/solana-breakpoint-2026-comes-to-london-for-the-first-time-november-15-17-at-olympia",
+    "name": "Solana Compass",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://cryptoticker.io/en/solana-price-crash-67-dollars-76-percent-below-record-november-15-2026/",
+    "name": "CryptoTicker",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://solanacompass.com/news/solana-breakpoint-2026-comes-to-london-for-the-first-time-november-15-17-at-olympia",
+    "name": "Solana Compass",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CryptoTicker",
+     "url": "https://cryptoticker.io/en/solana-price-crash-67-dollars-76-percent-below-record-november-15-2026/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Solana Compass",
+     "url": "https://solanacompass.com/news/solana-breakpoint-2026-comes-to-london-for-the-first-time-november-15-17-at-olympia",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Move under 12% threshold",
+   "price rule: DEFAULT moved 7.0% in 24h (thresholds 12%/20%) -> NORMAL"
+  ],
+  "market_significance": "Conference week for Solana",
+  "trigger": "price check",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261115_f4fca6",
+  "headline": "OpenAI launches ChatGPT Wallet so AI agents can shop, without crypto",
+  "summary": "OpenAI introduced a ChatGPT Wallet that lets AI agents make purchases on users' behalf using traditional payment rails rather than crypto, Decrypt reports.",
+  "detected_at": "2026-11-15T07:09-05:00",
+  "active_since": "2026-11-15T07:09-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "other",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://decrypt.co/383278/openai-chatgpt-wallet-ai-agents-shop-without-crypto"
+  ],
+  "source_names": [
+   "Decrypt"
+  ],
+  "sources": [
+   {
+    "url": "https://decrypt.co/383278/openai-chatgpt-wallet-ai-agents-shop-without-crypto",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://decrypt.co/383278/openai-chatgpt-wallet-ai-agents-shop-without-crypto",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/383278/openai-chatgpt-wallet-ai-agents-shop-without-crypto",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Adjacent fintech news, no crypto component"
+  ],
+  "market_significance": "Competes with crypto agent-payment efforts like x402",
+  "trigger": "Decrypt feed",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
