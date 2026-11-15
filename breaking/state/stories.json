@@ -59306,12 +59306,14 @@
   "source_urls": [
    "https://coinranking.com/news/vaneck-jitosol-etf-faces-hard-november-15-deadline-sec",
    "https://cryptoticker.io/en/staking-etf-sec-decision-deadline/",
-   "https://financefeeds.com/vaneck-jitosol-etfs-november-15-sec-deadline-cancelled-after-nasdaq-withdraws-filing/"
+   "https://financefeeds.com/vaneck-jitosol-etfs-november-15-sec-deadline-cancelled-after-nasdaq-withdraws-filing/",
+   "https://www.sec.gov/files/rules/sro/nasdaq/2026/34-106309.pdf"
   ],
   "source_names": [
    "Coinranking",
    "CryptoTicker",
-   "FinanceFeeds"
+   "FinanceFeeds",
+   "SEC extension notice"
   ],
   "sources": [
    {
@@ -59332,6 +59334,13 @@
     "url": "https://financefeeds.com/vaneck-jitosol-etfs-november-15-sec-deadline-cancelled-after-nasdaq-withdraws-filing/",
     "name": "FinanceFeeds",
     "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.sec.gov/files/rules/sro/nasdaq/2026/34-106309.pdf",
+    "name": "SEC extension notice",
+    "kind": "primary",
     "checked": true,
     "confirms": true
    }
@@ -59357,15 +59366,22 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.sec.gov/files/rules/sro/nasdaq/2026/34-106309.pdf",
+    "name": "SEC extension notice",
+    "kind": "primary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "UNVERIFIED",
   "verification": {
    "status": "UNVERIFIED",
-   "independent_sources": 0,
-   "has_primary": false,
-   "score": 0.0,
-   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "independent_sources": 1,
+   "has_primary": true,
+   "score": 0.6,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
    "sources_checked": [
     {
      "name": "Coinranking",
@@ -59387,6 +59403,13 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "SEC extension notice",
+     "url": "https://www.sec.gov/files/rules/sro/nasdaq/2026/34-106309.pdf",
+     "category": "primary",
+     "counts": true,
+     "note": "primary (known official domain)"
     }
    ]
   },
@@ -59415,6 +59438,15 @@
     "new_development": true,
     "level": "NORMAL",
     "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-14T19:09-05:00",
+    "headline": "SEC faces a November 15 final deadline on VanEck's JitoSOL staked-Solana ETF; one report says Nasdaq withdrew the filing",
+    "summary": "The SEC's September 9 notice set November 15 as the final date to approve or disapprove Nasdaq's proposal to list the VanEck JitoSOL ETF. FinanceFeeds reports Nasdaq withdrew the proposal on October 14, which would cancel the deadline, but the SEC docket page checked shows no withdrawal notice. Unconfirmed either way.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "UNVERIFIED"
    }
   ],
@@ -61708,16 +61740,34 @@
   "metrics": {},
   "emergency": false,
   "source_urls": [
-   "https://www.theblock.co/news/regulation/2026-11-12-louisiana-sues-kalshi-robinhood-other-prediction-markets-escalating-regulatory-fight-439052"
+   "https://www.theblock.co/news/regulation/2026-11-12-louisiana-sues-kalshi-robinhood-other-prediction-markets-escalating-regulatory-fight-439052",
+   "https://www.theblock.co/news/regulation/2026-11-14-louisiana-ag-calls-cftc-chair-an-obsequious-standard-bearer-for-prediction-markets-following-agency-lawsuit-440342",
+   "https://blockchainreporter.net/cftc-sues-louisiana-prediction-market-tro/"
   ],
   "source_names": [
-   "The Block"
+   "The Block",
+   "The Block",
+   "Blockchain Reporter"
   ],
   "sources": [
    {
     "url": "https://www.theblock.co/news/regulation/2026-11-12-louisiana-sues-kalshi-robinhood-other-prediction-markets-escalating-regulatory-fight-439052",
     "name": "The Block",
     "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-14-louisiana-ag-calls-cftc-chair-an-obsequious-standard-bearer-for-prediction-markets-following-agency-lawsuit-440342",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://blockchainreporter.net/cftc-sues-louisiana-prediction-market-tro/",
+    "name": "Blockchain Reporter",
+    "kind": "other",
     "checked": false,
     "confirms": true
    }
@@ -61729,15 +61779,29 @@
     "kind": "secondary",
     "checked": false,
     "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-14-louisiana-ag-calls-cftc-chair-an-obsequious-standard-bearer-for-prediction-markets-following-agency-lawsuit-440342",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://blockchainreporter.net/cftc-sues-louisiana-prediction-market-tro/",
+    "name": "Blockchain Reporter",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
    }
   ],
   "verification_status": "UNVERIFIED",
   "verification": {
    "status": "UNVERIFIED",
-   "independent_sources": 0,
+   "independent_sources": 1,
    "has_primary": false,
-   "score": 0.0,
-   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
    "sources_checked": [
     {
      "name": "The Block",
@@ -61745,6 +61809,20 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-11-14-louisiana-ag-calls-cftc-chair-an-obsequious-standard-bearer-for-prediction-markets-following-agency-lawsuit-440342",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Blockchain Reporter",
+     "url": "https://blockchainreporter.net/cftc-sues-louisiana-prediction-market-tro/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -61756,7 +61834,17 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-11-14T19:09-05:00",
+    "headline": "CFTC and the US sue Louisiana to block a state court order restricting prediction market contracts",
+    "summary": "The CFTC and the United States filed suit Friday in the Eastern District of Louisiana against the state, its attorney general and gaming regulators, seeking a ruling that state gambling laws are preempted for CFTC-regulated markets. Louisiana's attorney general hit back at the CFTC chair on Saturday.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -64038,6 +64126,15 @@
     "level": "NORMAL",
     "sources_added": 1,
     "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-14T19:09-05:00",
+    "headline": "US spot bitcoin ETFs lose $1.07 billion for a second straight week of outflows above $1 billion",
+    "summary": "US spot bitcoin ETFs saw $1.07 billion in net outflows last week after $1.28 billion the week before, a two-week total of $2.35 billion, per The Block's analysis of SoSoValue data. Only Avalanche funds posted a weekly inflow.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
    }
   ],
   "posts": [],
@@ -64070,7 +64167,11 @@
    "https://tokenpost.com/news/investing/57443",
    "https://finance.yahoo.com/markets/crypto/articles/bitcoin-just-crashed-toward-66-161047479.html",
    "https://www.tokenpost.com/news/investing/57424",
-   "https://ukrmedia.news/en/economics/bitcoin-below-66000-november-2026/"
+   "https://ukrmedia.news/en/economics/bitcoin-below-66000-november-2026/",
+   "https://www.coindesk.com/price/bitcoin",
+   "https://www.coindesk.com/price/ethereum",
+   "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46U2EN:0-bitcoin-falls-around-5-3-to-64-734/",
+   "https://cryptoticker.io/en/crypto-news-bitcoin-falls-to-63500-fed-hike-bets-november-14-2026"
   ],
   "source_names": [
    "The Crypto Times",
@@ -64079,7 +64180,11 @@
    "TokenPost",
    "Yahoo Finance",
    "TokenPost (ETH)",
-   "UkrMedia"
+   "UkrMedia",
+   "CoinDesk BTC price",
+   "CoinDesk ETH price",
+   "Reuters (via TradingView)",
+   "CryptoTicker"
   ],
   "sources": [
    {
@@ -64127,6 +64232,35 @@
    {
     "url": "https://ukrmedia.news/en/economics/bitcoin-below-66000-november-2026/",
     "name": "UkrMedia",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/price/bitcoin",
+    "name": "CoinDesk BTC price",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/price/ethereum",
+    "name": "CoinDesk ETH price",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46U2EN:0-bitcoin-falls-around-5-3-to-64-734/",
+    "name": "Reuters (via TradingView)",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "origin": "Reuters"
+   },
+   {
+    "url": "https://cryptoticker.io/en/crypto-news-bitcoin-falls-to-63500-fed-hike-bets-november-14-2026",
+    "name": "CryptoTicker",
     "kind": "other",
     "checked": true,
     "confirms": true
@@ -64181,15 +64315,44 @@
     "kind": "other",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/price/bitcoin",
+    "name": "CoinDesk BTC price",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/price/ethereum",
+    "name": "CoinDesk ETH price",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46U2EN:0-bitcoin-falls-around-5-3-to-64-734/",
+    "name": "Reuters (via TradingView)",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "origin": "Reuters"
+   },
+   {
+    "url": "https://cryptoticker.io/en/crypto-news-bitcoin-falls-to-63500-fed-hike-bets-november-14-2026",
+    "name": "CryptoTicker",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
    }
   ],
-  "verification_status": "UNVERIFIED",
+  "verification_status": "VERIFIED",
   "verification": {
-   "status": "UNVERIFIED",
-   "independent_sources": 1,
+   "status": "VERIFIED",
+   "independent_sources": 2,
    "has_primary": false,
-   "score": 0.4,
-   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "score": 0.8,
+   "reason": "2 independent credible sources confirm it (no primary source yet)",
    "sources_checked": [
     {
      "name": "The Crypto Times",
@@ -64239,6 +64402,34 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinDesk BTC price",
+     "url": "https://www.coindesk.com/price/bitcoin",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk ETH price",
+     "url": "https://www.coindesk.com/price/ethereum",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Reuters (via TradingView)",
+     "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46U2EN:0-bitcoin-falls-around-5-3-to-64-734/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CryptoTicker",
+     "url": "https://cryptoticker.io/en/crypto-news-bitcoin-falls-to-63500-fed-hike-bets-november-14-2026",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -64269,8 +64460,90 @@
     "level": "NORMAL",
     "sources_added": 1,
     "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-14T19:09-05:00",
+    "headline": "Bitcoin drops below $64,000, down about 6.5% in 24 hours, as ether falls nearly 9% and XRP and Solana slide about 10%",
+    "summary": "The weekend sell-off deepened Saturday. CoinDesk data at 7:08 PM ET showed bitcoin at about $63,865, down 6.5% in 24 hours, and ether near $1,761, down about 8.8%. CoinGecko data cited by CryptoTicker put XRP down about 10.7%, Solana about 10.4% and the total market about 9.2%. Liquidations topped roughly $1 billion; traders cite rising Fed rate-hike bets and seven straight days of bitcoin ETF outflows.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 4,
+    "verification": "VERIFIED"
    }
   ],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261114_399421",
+  "headline": "Kava Lend loses about $3.8 million to an exploit, sending KAVA down nearly 40%",
+  "summary": "An attacker inflated the value of a dormant BUSD market on Kava Lend late Friday and borrowed about 55.2 million KAVA, worth about $3.76 million, then bridged most of it to BNB Chain and sold it. Kava paused the Axelar bridge and says an incident report is coming. KAVA fell about 39%.",
+  "detected_at": "2026-11-14T19:09-05:00",
+  "active_since": "2026-11-14T19:09-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "KAVA"
+  ],
+  "event_type": "hack_exploit",
+  "event_time": "2026-11-13T23:01-05:00",
+  "scheduled_event": false,
+  "metrics": {
+   "loss_usd": 3760000
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/defi/2026-11-14-kava-lend-loses-roughly-3-8-million-to-hack-sending-kava-token-down-nearly-40-440350"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/defi/2026-11-14-kava-lend-loses-roughly-3-8-million-to-hack-sending-kava-token-down-nearly-40-440350",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/defi/2026-11-14-kava-lend-loses-roughly-3-8-million-to-hack-sending-kava-token-down-nearly-40-440350",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/defi/2026-11-14-kava-lend-loses-roughly-3-8-million-to-hack-sending-kava-token-down-nearly-40-440350",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Loss under the $10M IMPORTANT threshold; small-cap asset.",
+   "hack rule: about $4M lost (thresholds $10M/$100M) -> NORMAL"
+  ],
+  "market_significance": "DeFi lending bug; bridge paused.",
+  "trigger": "The Block report",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
   "posts": [],
   "needs_followup": false
  }
