@@ -59457,6 +59457,15 @@
     "level": "NORMAL",
     "sources_added": 0,
     "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-15T13:14-05:00",
+    "headline": "VanEck JitoSOL ETF's November 15 SEC deadline was cancelled after Nasdaq withdrew its filing on October 14",
+    "summary": "Nasdaq withdrew rule filing SR-NASDAQ-2026-016 to list the VanEck JitoSOL staked-Solana ETF on October 14, which removed the SEC's November 15 decision deadline. A withdrawal is not a rejection. No SEC decision is coming today.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
    }
   ],
   "posts": [],
@@ -65176,6 +65185,101 @@
   ],
   "market_significance": "Multi-year low for a major asset during a market-wide sell-off",
   "trigger": "Price data",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261115_371bfd",
+  "headline": "Attackers hijack about 64,000 bitcoin miners and point 13 EH/s at the OCEAN pool, but mine no blocks",
+  "summary": "Starting around 8 PM Central on November 14, attackers changed pool settings on roughly 64,000 mining machines, sending about 13 EH/s to OCEAN with one payout address. No blocks were mined and no bitcoin was stolen; affected miners lost revenue. CoreX Hosting detected it; Luxor Commander is a suspected entry point, unconfirmed.",
+  "detected_at": "2026-11-15T13:14-05:00",
+  "active_since": "2026-11-15T13:14-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "hack_exploit",
+  "event_time": "2026-11-14T21:00-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://cryptobriefing.com/64000-bitcoin-miners-hijacked-ocean-pool/",
+   "https://www.kucoin.com/news/flash/attackers-hijack-64-000-bitcoin-miners-redirect-13-eh-s-to-ocean-pool"
+  ],
+  "source_names": [
+   "CryptoBriefing",
+   "KuCoin News (republished CryptoBriefing)"
+  ],
+  "sources": [
+   {
+    "url": "https://cryptobriefing.com/64000-bitcoin-miners-hijacked-ocean-pool/",
+    "name": "CryptoBriefing",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://www.kucoin.com/news/flash/attackers-hijack-64-000-bitcoin-miners-redirect-13-eh-s-to-ocean-pool",
+    "name": "KuCoin News (republished CryptoBriefing)",
+    "kind": "other",
+    "checked": true,
+    "confirms": true,
+    "origin": "CryptoBriefing"
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://cryptobriefing.com/64000-bitcoin-miners-hijacked-ocean-pool/",
+    "name": "CryptoBriefing",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://www.kucoin.com/news/flash/attackers-hijack-64-000-bitcoin-miners-redirect-13-eh-s-to-ocean-pool",
+    "name": "KuCoin News (republished CryptoBriefing)",
+    "kind": "other",
+    "checked": true,
+    "confirms": true,
+    "origin": "CryptoBriefing"
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CryptoBriefing",
+     "url": "https://cryptobriefing.com/64000-bitcoin-miners-hijacked-ocean-pool/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "KuCoin News (republished CryptoBriefing)",
+     "url": "https://www.kucoin.com/news/flash/attackers-hijack-64-000-bitcoin-miners-redirect-13-eh-s-to-ocean-pool",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Only CryptoBriefing (page failed to load) and its KuCoin republication; no credible outlet or primary source yet; no funds lost."
+  ],
+  "market_significance": "Mining-infrastructure security incident; no impact on the network or user funds reported.",
+  "trigger": "Search result for crypto hacks Nov 15",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
