@@ -62064,6 +62064,33 @@
     "level": "NORMAL",
     "sources_added": 0,
     "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-16T10:22-05:00",
+    "headline": "Strategy buys 485 BTC for $33.4 million and spends $228 million buying back preferred stock",
+    "summary": "Strategy added 485 BTC last week; Strive bought 251 BTC; Bitmine added 7,653 ETH.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-16T10:22-05:00",
+    "headline": "Upbit parent Dunamu posts a 61% drop in Q3 revenue and swings to a loss",
+    "summary": "Dunamu reported Q3 revenue down about 60.7% year on year to about $103 million and an operating loss.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-16T10:22-05:00",
+    "headline": "Bitcoin recovers to about $65,500 after the US open, still below Friday's $68,000",
+    "summary": "BTC climbed to about $65,500 after US stocks opened, off a weekend low near $62,000; 24h moves small (BTC about -1%, ETH flat, XRP and SOL about -1.5%).",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
    }
   ],
   "posts": [],
@@ -62506,7 +62533,8 @@
    "https://crypto.news/bitcoin-price-below-68k-66k-support",
    "https://cryptoticker.io/en/bitcoin-price-below-67000-lowest-since-august/",
    "https://www.kucoin.com/news/flash/ethereum-falls-4-4-in-24-hours-as-crypto-fear-and-greed-index-hits-21",
-   "https://www.marketalleys.com/post/xrp-rises-6-72-over-24-hours-five-session-10-56-2026-11-16"
+   "https://www.marketalleys.com/post/xrp-rises-6-72-over-24-hours-five-session-10-56-2026-11-16",
+   "https://www.coindesk.com/markets/2026/11/16/bitcoin-slips-to-usd64-000-after-usd2-billion-weekend-flush"
   ],
   "source_names": [
    "Analytics Insight",
@@ -62520,7 +62548,8 @@
    "crypto.news",
    "CryptoTicker",
    "KuCoin",
-   "MarketAlleys"
+   "MarketAlleys",
+   "CoinDesk"
   ],
   "sources": [
    {
@@ -62604,6 +62633,13 @@
     "url": "https://www.marketalleys.com/post/xrp-rises-6-72-over-24-hours-five-session-10-56-2026-11-16",
     "name": "MarketAlleys",
     "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/11/16/bitcoin-slips-to-usd64-000-after-usd2-billion-weekend-flush",
+    "name": "CoinDesk",
+    "kind": "secondary",
     "checked": true,
     "confirms": true
    }
@@ -62690,6 +62726,13 @@
     "url": "https://www.marketalleys.com/post/xrp-rises-6-72-over-24-hours-five-session-10-56-2026-11-16",
     "name": "MarketAlleys",
     "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/11/16/bitcoin-slips-to-usd64-000-after-usd2-billion-weekend-flush",
+    "name": "CoinDesk",
+    "kind": "secondary",
     "checked": true,
     "confirms": true
    }
@@ -62785,6 +62828,13 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/11/16/bitcoin-slips-to-usd64-000-after-usd2-billion-weekend-flush",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -62876,6 +62926,24 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-16T10:11-05:00",
+    "headline": "Bitcoin posts six straight weekly losses",
+    "summary": "Here's what moved the chain today. Bitcoin just posted six straight weekly losses.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-16T10:11-05:00",
+    "headline": "Bitcoin bounces off $62,000 as crypto liquidations drop 91%",
+    "summary": "Green candles only! Bitcoin bounced off sixty-two thousand, and liquidations dropped ninety-one percent!",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
     "verification": "UNVERIFIED"
    }
   ],
@@ -64149,15 +64217,33 @@
   "metrics": {},
   "emergency": false,
   "source_urls": [
-   "https://www.ibtimes.com/us-wholesale-prices-rise-highest-since-2022-3809723"
+   "https://www.ibtimes.com/us-wholesale-prices-rise-highest-since-2022-3809723",
+   "https://cryptoticker.io/en/bitcoin-price-warsh-speech-productivity-jobs-november-16-2026/",
+   "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-16-2026"
   ],
   "source_names": [
-   "IBTimes"
+   "IBTimes",
+   "CryptoTicker",
+   "KuCoin"
   ],
   "sources": [
    {
     "url": "https://www.ibtimes.com/us-wholesale-prices-rise-highest-since-2022-3809723",
     "name": "IBTimes",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptoticker.io/en/bitcoin-price-warsh-speech-productivity-jobs-november-16-2026/",
+    "name": "CryptoTicker",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-16-2026",
+    "name": "KuCoin",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -64167,6 +64253,20 @@
    {
     "url": "https://www.ibtimes.com/us-wholesale-prices-rise-highest-since-2022-3809723",
     "name": "IBTimes",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptoticker.io/en/bitcoin-price-warsh-speech-productivity-jobs-november-16-2026/",
+    "name": "CryptoTicker",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-16-2026",
+    "name": "KuCoin",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -64186,6 +64286,20 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CryptoTicker",
+     "url": "https://cryptoticker.io/en/bitcoin-price-warsh-speech-productivity-jobs-november-16-2026/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "KuCoin",
+     "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-16-2026",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -64202,6 +64316,33 @@
     "at": "2026-11-14T10:08-05:00",
     "headline": "Wholesale prices at a near four-year high; markets expect a December Fed hike",
     "summary": "Check the yields first. It's a near four-year high, and markets expect a December hike.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-16T10:11-05:00",
+    "headline": "Traders bet on a December rate hike as the 10-year yield sits near 5.15% and Warsh speaks at noon",
+    "summary": "Check the yields first. Traders expect a December rate hike, and Warsh speaks at noon.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-16T10:11-05:00",
+    "headline": "Whales added about 47,000 BTC during the dip",
+    "summary": "Psst... big wallets are moving. Whales scooped up forty-seven thousand Bitcoin during the dip.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-16T10:11-05:00",
+    "headline": "Hackers hijack 64,000 bitcoin miners and point them at one pool, mining no blocks",
+    "summary": "Hackers hijacked sixty-four thousand Bitcoin miners, pointed them at one pool, and mined nothing.",
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
@@ -65534,12 +65675,14 @@
   "source_urls": [
    "https://cryptobriefing.com/64000-bitcoin-miners-hijacked-ocean-pool/",
    "https://www.kucoin.com/news/flash/attackers-hijack-64-000-bitcoin-miners-redirect-13-eh-s-to-ocean-pool",
-   "https://www.theblock.co/news/business/2026-11-15-luxor-attack-client-hashrate-440810"
+   "https://www.theblock.co/news/business/2026-11-15-luxor-attack-client-hashrate-440810",
+   "https://www.gtokentool.com/en/news/5572"
   ],
   "source_names": [
    "CryptoBriefing",
    "KuCoin News (republished CryptoBriefing)",
-   "The Block"
+   "The Block",
+   "GTokenTool digest (The Block)"
   ],
   "sources": [
    {
@@ -65561,6 +65704,13 @@
     "url": "https://www.theblock.co/news/business/2026-11-15-luxor-attack-client-hashrate-440810",
     "name": "The Block",
     "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.gtokentool.com/en/news/5572",
+    "name": "GTokenTool digest (The Block)",
+    "kind": "other",
     "checked": true,
     "confirms": true
    }
@@ -65585,6 +65735,13 @@
     "url": "https://www.theblock.co/news/business/2026-11-15-luxor-attack-client-hashrate-440810",
     "name": "The Block",
     "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.gtokentool.com/en/news/5572",
+    "name": "GTokenTool digest (The Block)",
+    "kind": "other",
     "checked": true,
     "confirms": true
    }
@@ -65617,6 +65774,13 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "GTokenTool digest (The Block)",
+     "url": "https://www.gtokentool.com/en/news/5572",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -65634,6 +65798,15 @@
     "headline": "Luxor says an AI-enabled attack redirected client hashrate through its Commander software, now patched",
     "summary": "Luxor said attackers briefly redirected hashrate from over a dozen client accounts to another pool. It patched the flaw within two hours, says no data leaked and will compensate clients.",
     "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-16T10:22-05:00",
+    "headline": "Luxor says an AI-enabled attack redirected client hashrate and the hole is patched",
+    "summary": "Mining pool Luxor says the miner hijack that redirected hashrate was an AI-enabled attack and the vulnerability is patched; CEO warns of an AI 'dark forest'.",
+    "new_development": false,
     "level": "NORMAL",
     "sources_added": 1,
     "verification": "UNVERIFIED"
@@ -66241,6 +66414,481 @@
   ],
   "market_significance": "Tokenized settlement trials continue",
   "trigger": "CoinDesk",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261116_73df2a",
+  "headline": "Lighter pauses withdrawals after about $10.4 million is drained through a trader's leaked API key",
+  "summary": "Perps exchange Lighter paused withdrawals and new pool creation on Nov 16 after about $10.39 million USDC was withdrawn at 10:11 UTC from one trader's account via a leaked API key and swapped to ETH through CoW Swap. Lighter says its protocol and smart contracts were not affected, enabled Guardian mode and aims to reopen withdrawals by end of day. On-chain sleuths claim a total near $15.5M across two market-maker accounts; Lighter has not confirmed a figure.",
+  "detected_at": "2026-11-16T10:22-05:00",
+  "active_since": "2026-11-16T10:22-05:00",
+  "classification": "IMPORTANT",
+  "proposed_level": "IMPORTANT",
+  "confidence": 0.82,
+  "assets": [
+   "LIT",
+   "ETH",
+   "USDC"
+  ],
+  "event_type": "hack_exploit",
+  "event_time": "2026-11-16T10:11:00Z",
+  "scheduled_event": false,
+  "metrics": {
+   "loss_usd": 10390000
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://cointelegraph.com/news/lighter-dex-pauses-withdrawals-10m-exploit",
+   "https://unchainedcrypto.com/lighter-pins-drain-on-traders-leaked-api-key-says-contracts-were-not-hit/",
+   "https://decrypt.co/383301/morning-minute-crypto-hits-extreme-fear-as-bitcoin-plunges",
+   "https://x.com/Lighter_xyz/status/2122311006604984497",
+   "https://en.bloomingbit.io/feed/news/124532"
+  ],
+  "source_names": [
+   "Cointelegraph",
+   "Unchained",
+   "Decrypt",
+   "Lighter on X",
+   "Bloomingbit"
+  ],
+  "sources": [
+   {
+    "url": "https://cointelegraph.com/news/lighter-dex-pauses-withdrawals-10m-exploit",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://unchainedcrypto.com/lighter-pins-drain-on-traders-leaked-api-key-says-contracts-were-not-hit/",
+    "name": "Unchained",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/383301/morning-minute-crypto-hits-extreme-fear-as-bitcoin-plunges",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://x.com/Lighter_xyz/status/2122311006604984497",
+    "name": "Lighter on X",
+    "kind": "social",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://en.bloomingbit.io/feed/news/124532",
+    "name": "Bloomingbit",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://cointelegraph.com/news/lighter-dex-pauses-withdrawals-10m-exploit",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://unchainedcrypto.com/lighter-pins-drain-on-traders-leaked-api-key-says-contracts-were-not-hit/",
+    "name": "Unchained",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/383301/morning-minute-crypto-hits-extreme-fear-as-bitcoin-plunges",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://x.com/Lighter_xyz/status/2122311006604984497",
+    "name": "Lighter on X",
+    "kind": "social",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://en.bloomingbit.io/feed/news/124532",
+    "name": "Bloomingbit",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "VERIFIED",
+  "verification": {
+   "status": "VERIFIED",
+   "independent_sources": 3,
+   "has_primary": false,
+   "score": 0.8,
+   "reason": "3 independent credible sources confirm it (no primary source yet)",
+   "sources_checked": [
+    {
+     "name": "Cointelegraph",
+     "url": "https://cointelegraph.com/news/lighter-dex-pauses-withdrawals-10m-exploit",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Unchained",
+     "url": "https://unchainedcrypto.com/lighter-pins-drain-on-traders-leaked-api-key-says-contracts-were-not-hit/",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/383301/morning-minute-crypto-hits-extreme-fear-as-bitcoin-plunges",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Lighter on X",
+     "url": "https://x.com/Lighter_xyz/status/2122311006604984497",
+     "category": "social",
+     "counts": false,
+     "note": "social/community post — can trigger investigation, never verifies"
+    },
+    {
+     "name": "Bloomingbit",
+     "url": "https://en.bloomingbit.io/feed/news/124532",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed IMPORTANT: About $10.4M drained and withdrawals halted at a major perps DEX; above the $10M hack threshold.",
+   "hack rule: about $10M lost (thresholds $10M/$100M) -> IMPORTANT"
+  ],
+  "market_significance": "One of the larger DeFi perps venues froze user withdrawals; tests trust in API-key security at onchain exchanges.",
+  "trigger": "Lighter security incident disclosure 11:02 UTC",
+  "content_created": true,
+  "publication_status": "DRAFTED",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [
+   "6afb2105e368957de0d040c6",
+   "6afb2106407cd7a3e057c584",
+   "6afb2106e368957de0d04192"
+  ],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261116_bd85ff",
+  "headline": "Zelle picks Solana for its ZelleUSD stablecoin and shows a $1.25 million confidential transfer at Breakpoint",
+  "summary": "Zelle operator Early Warning Services said on stage at Solana Breakpoint that ZelleUSD (ZLUSD), issued by Anchorage Digital Bank, will launch on Solana for international payments, and demonstrated a $1.25 million confidential transfer. No launch date for international payments was given.",
+  "detected_at": "2026-11-16T10:22-05:00",
+  "active_since": "2026-11-16T10:22-05:00",
+  "classification": "IMPORTANT",
+  "proposed_level": "IMPORTANT",
+  "confidence": 0.7,
+  "assets": [
+   "SOL",
+   "TOTAL_MARKET"
+  ],
+  "event_type": "partnership",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://cointelegraph.com/news/zelle-solana-zelleusd-stablecoin-international-payments",
+   "https://www.tokenpost.com/news/technology/58238"
+  ],
+  "source_names": [
+   "Cointelegraph",
+   "TokenPost"
+  ],
+  "sources": [
+   {
+    "url": "https://cointelegraph.com/news/zelle-solana-zelleusd-stablecoin-international-payments",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.tokenpost.com/news/technology/58238",
+    "name": "TokenPost",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://cointelegraph.com/news/zelle-solana-zelleusd-stablecoin-international-payments",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.tokenpost.com/news/technology/58238",
+    "name": "TokenPost",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Cointelegraph",
+     "url": "https://cointelegraph.com/news/zelle-solana-zelleusd-stablecoin-international-payments",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "TokenPost",
+     "url": "https://www.tokenpost.com/news/technology/58238",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed IMPORTANT: Major US bank-owned payments network picking Solana for its stablecoin."
+  ],
+  "market_significance": "Zelle moves over a trillion dollars a year; a bank consortium choosing a public chain is a notable adoption step.",
+  "trigger": "Breakpoint 2026 stage announcement",
+  "content_created": false,
+  "publication_status": "BLOCKED_UNVERIFIED",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261116_c8241c",
+  "headline": "Solana drops its 'mainnet beta' label and adopts protocol version 1.0",
+  "summary": "Solana formally dropped the mainnet beta label at Breakpoint, The Block reports.",
+  "detected_at": "2026-11-16T10:22-05:00",
+  "active_since": "2026-11-16T10:22-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "SOL"
+  ],
+  "event_type": "protocol_upgrade",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.gtokentool.com/en/news/5645"
+  ],
+  "source_names": [
+   "GTokenTool digest (The Block)"
+  ],
+  "sources": [
+   {
+    "url": "https://www.gtokentool.com/en/news/5645",
+    "name": "GTokenTool digest (The Block)",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.gtokentool.com/en/news/5645",
+    "name": "GTokenTool digest (The Block)",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "GTokenTool digest (The Block)",
+     "url": "https://www.gtokentool.com/en/news/5645",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Symbolic label change"
+  ],
+  "market_significance": "Low",
+  "trigger": "Breakpoint",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261116_c9237d",
+  "headline": "Hong Kong to license crypto dealers and custodians by year-end",
+  "summary": "Hong Kong plans to license crypto dealers and custodians by the end of the year.",
+  "detected_at": "2026-11-16T10:22-05:00",
+  "active_since": "2026-11-16T10:22-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "regulatory",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.gtokentool.com/en/news/5681"
+  ],
+  "source_names": [
+   "GTokenTool digest (Bitcoin Magazine)"
+  ],
+  "sources": [
+   {
+    "url": "https://www.gtokentool.com/en/news/5681",
+    "name": "GTokenTool digest (Bitcoin Magazine)",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.gtokentool.com/en/news/5681",
+    "name": "GTokenTool digest (Bitcoin Magazine)",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "GTokenTool digest (Bitcoin Magazine)",
+     "url": "https://www.gtokentool.com/en/news/5681",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Regulatory step"
+  ],
+  "market_significance": "Low",
+  "trigger": "Report",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261116_dba517",
+  "headline": "Aster CEO suspects foul play after the token plunges 32% in minutes",
+  "summary": "ASTER fell 32% in minutes; the CEO suspects manipulation.",
+  "detected_at": "2026-11-16T10:22-05:00",
+  "active_since": "2026-11-16T10:22-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "ASTER"
+  ],
+  "event_type": "market_move",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.gtokentool.com/en/news/5579"
+  ],
+  "source_names": [
+   "GTokenTool digest (Cointelegraph)"
+  ],
+  "sources": [
+   {
+    "url": "https://www.gtokentool.com/en/news/5579",
+    "name": "GTokenTool digest (Cointelegraph)",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.gtokentool.com/en/news/5579",
+    "name": "GTokenTool digest (Cointelegraph)",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "GTokenTool digest (Cointelegraph)",
+     "url": "https://www.gtokentool.com/en/news/5579",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Small-cap move"
+  ],
+  "market_significance": "Low",
+  "trigger": "Report",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],

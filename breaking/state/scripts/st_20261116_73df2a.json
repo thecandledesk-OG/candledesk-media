@@ -1,0 +1,86 @@
+{
+ "story_id": "st_20261116_73df2a",
+ "date_label": "NOV 16",
+ "headline": "Lighter freezes withdrawals after a $10.4M drain",
+ "sources": [
+  {
+   "name": "Cointelegraph",
+   "url": "https://cointelegraph.com/news/lighter-dex-pauses-withdrawals-10m-exploit"
+  },
+  {
+   "name": "Unchained",
+   "url": "https://unchainedcrypto.com/lighter-pins-drain-on-traders-leaked-api-key-says-contracts-were-not-hit/"
+  },
+  {
+   "name": "Decrypt",
+   "url": "https://decrypt.co/383301/morning-minute-crypto-hits-extreme-fear-as-bitcoin-plunges"
+  }
+ ],
+ "scenes": [
+  {
+   "beat": "hook",
+   "who": "ledger",
+   "vo": "Crypto exchange Lighter just froze withdrawals after about ten million dollars was drained. Here's what changed.",
+   "chunks": [
+    "Lighter freezes",
+    "*withdrawals*",
+    "after a $10M drain"
+   ]
+  },
+  {
+   "beat": "what_happened",
+   "who": "ledger",
+   "vo": "On Monday morning, about ten point four million dollars in USDC left Lighter and was swapped into ether. Lighter blames a leaked access key on one trader's account.",
+   "chunks": [
+    "*$10.4M* in USDC",
+    "Leaked *access key*",
+    "Withdrawals paused"
+   ],
+   "stat": {
+    "label": "Sources",
+    "text": "Cointelegraph · Unchained · Decrypt"
+   }
+  },
+  {
+   "beat": "why_it_matters",
+   "who": "bruno",
+   "vo": "Here's why traders are watching it. Lighter says its smart contracts were not hit, and it aims to reopen withdrawals by the end of the day.",
+   "chunks": [
+    "Contracts *not hit*",
+    "Safety mode on",
+    "Reopen *today*"
+   ]
+  },
+  {
+   "beat": "why_it_matters",
+   "who": "ursa",
+   "vo": "The catch. On-chain sleuths claim a second account was hit, about fifteen million dollars total. Lighter hasn't confirmed a number.",
+   "chunks": [
+    "The catch",
+    "*$15M* claimed total",
+    "Not confirmed"
+   ]
+  },
+  {
+   "beat": "watch_next",
+   "who": "moby",
+   "vo": "Here's what happens next. Watch whether withdrawals reopen today, and whether Lighter publishes a full incident report.",
+   "chunks": [
+    "What's next",
+    "*Withdrawals reopen?*",
+    "Full incident report"
+   ]
+  },
+  {
+   "beat": "cta",
+   "who": "all",
+   "vo": "Follow The Candle Desk for crypto news without the hype. Not financial advice.",
+   "chunks": [
+    "Follow The Candle Desk",
+    "*No hype*",
+    "Just the news"
+   ],
+   "foot": "NOT FINANCIAL ADVICE"
+  }
+ ]
+}
