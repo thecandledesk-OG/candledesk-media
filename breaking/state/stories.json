@@ -59498,6 +59498,15 @@
     "level": "NORMAL",
     "sources_added": 1,
     "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-15T19:13-05:00",
+    "headline": "VanEck JitoSOL staked-Solana ETF's November 15 SEC deadline passes with no ruling after Nasdaq withdrew the listing proposal in October",
+    "summary": "Nasdaq withdrew its rule filing SR-NASDAQ-2026-016 for the VanEck JitoSOL ETF on October 14, so the SEC's November 15 final deadline produced no approval or rejection.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
    }
   ],
   "posts": [],
@@ -64265,7 +64274,9 @@
    "https://www.coingecko.com/en/coins/ethereum",
    "https://thedefiant.io/news/markets/binance-liquidations-near-800-million-as-bitcoin-sinks",
    "https://www.coindaro.com/bitcoin-price-today-61946-low-liquidations/",
-   "https://bitcoinfoundation.org/news/analysis/crypto-market-downturn-leaves-ether-xrp-and-solana-down-22/"
+   "https://bitcoinfoundation.org/news/analysis/crypto-market-downturn-leaves-ether-xrp-and-solana-down-22/",
+   "https://samzal.com/threads/crypto-prices-today-nov-15-2026.878/",
+   "https://www.kucoin.com/news/flash/crypto-market-bounces-after-sharp-drop-eth-rises-over-6"
   ],
   "source_names": [
    "The Crypto Times",
@@ -64286,7 +64297,9 @@
    "CoinGecko",
    "The Defiant",
    "Coindaro",
-   "Bitcoin Foundation News"
+   "Bitcoin Foundation News",
+   "Samzal",
+   "KuCoin News"
   ],
   "sources": [
    {
@@ -64429,6 +64442,20 @@
     "kind": "other",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://samzal.com/threads/crypto-prices-today-nov-15-2026.878/",
+    "name": "Samzal",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.kucoin.com/news/flash/crypto-market-bounces-after-sharp-drop-eth-rises-over-6",
+    "name": "KuCoin News",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -64491,6 +64518,20 @@
    {
     "url": "https://bitcoinfoundation.org/news/analysis/crypto-market-downturn-leaves-ether-xrp-and-solana-down-22/",
     "name": "Bitcoin Foundation News",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://samzal.com/threads/crypto-prices-today-nov-15-2026.878/",
+    "name": "Samzal",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.kucoin.com/news/flash/crypto-market-bounces-after-sharp-drop-eth-rises-over-6",
+    "name": "KuCoin News",
     "kind": "other",
     "checked": true,
     "confirms": true
@@ -64559,6 +64600,20 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Samzal",
+     "url": "https://samzal.com/threads/crypto-prices-today-nov-15-2026.878/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "KuCoin News",
+     "url": "https://www.kucoin.com/news/flash/crypto-market-bounces-after-sharp-drop-eth-rises-over-6",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -64623,6 +64678,15 @@
     "at": "2026-11-15T07:09-05:00",
     "headline": "Bitcoin trades near $64,000-$65,000 after an overnight low of $61,946, ether, solana and XRP down 3% to 7% on the day",
     "summary": "Bitcoin hit $61,946 on Coinbase at 01:45 UTC Sunday, its lowest since July 13, with about $2 billion in liquidations over 24 hours, then bounced to roughly $64,000-$65,000. 24-hour moves: BTC about -3% to -5%, ETH about -5% to -6%, SOL about -6% to -7%, XRP about -3.5%. All below the IMPORTANT thresholds.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-15T19:13-05:00",
+    "headline": "Bitcoin holds near $64,000, down about 5% on the day, as ether, solana and XRP stay lower into the weekly close",
+    "summary": "BTC about $64,000 (-4.8% 24h), ETH about $1,781 (-6.3%), SOL about $69.90 (-7.2%), XRP about $0.95 (-3.6%) after the overnight low near $61,946 and partial rebound.",
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 2,
