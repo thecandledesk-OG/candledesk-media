@@ -1,0 +1,50 @@
+{
+ "story_id": "st_20261116_2e76b8",
+ "date_label": "NOV 16",
+ "headline": "CFTC approves a blockchain-based derivatives exchange",
+ "sources": [
+  {"name": "CFTC", "url": "https://www.cftc.gov/PressRoom/SpeechesTestimony/seligstatement111626"},
+  {"name": "Backpack", "url": "https://www.globenewswire.com/news-release/2026/11/16/3404185/0/en/backpack-receives-landmark-cftc-approval-to-establish-first-ever-blockchain-based-derivatives-exchange-in-the-united-states-with-global-unified-liquidity.html"},
+  {"name": "The Block", "url": "https://www.theblock.co/news/regulation/2026-11-16-cftc-blockchain-derivatives-exchange-approval-backpack-tzero-441591"}
+ ],
+ "scenes": [
+  {
+   "beat": "hook",
+   "who": "ledger",
+   "vo": "American regulators just approved a derivatives exchange and clearinghouse that settle trades on a blockchain. Here's what changed.",
+   "chunks": ["CFTC approves", "*onchain derivatives*", "exchange and clearing"]
+  },
+  {
+   "beat": "what_happened",
+   "who": "ledger",
+   "vo": "On Monday, the CFTC approved an exchange license and a clearinghouse registration for a firm using blockchain settlement. Backpack says that firm is its own. T Zero also won an exchange approval last week.",
+   "chunks": ["Exchange *and* clearing", "*Backpack* approved", "tZERO too"],
+   "stat": {"label": "Sources", "text": "CFTC · Backpack · The Block"}
+  },
+  {
+   "beat": "why_it_matters",
+   "who": "bruno",
+   "vo": "Here's why traders are watching it. Backpack calls it the first blockchain-based derivatives exchange in America, meaning regulated futures could trade and settle onchain.",
+   "chunks": ["A US *first*", "Regulated futures", "*Settled onchain*"]
+  },
+  {
+   "beat": "why_it_matters",
+   "who": "ursa",
+   "vo": "The catch. The CFTC statement doesn't name the firm, and an approval is not a launch. Products, timing and who can trade are still to come.",
+   "chunks": ["The catch", "*Approval, not launch*", "Details to come"]
+  },
+  {
+   "beat": "watch_next",
+   "who": "moby",
+   "vo": "Here's what happens next. Watch for Backpack's launch date and first products, and whether more crypto firms win the same approval.",
+   "chunks": ["What's next", "*Launch date*", "More approvals?"]
+  },
+  {
+   "beat": "cta",
+   "who": "all",
+   "vo": "Follow The Candle Desk for crypto news without the hype. Not financial advice.",
+   "chunks": ["Follow The Candle Desk", "*No hype*", "Just the news"],
+   "foot": "NOT FINANCIAL ADVICE"
+  }
+ ]
+}
