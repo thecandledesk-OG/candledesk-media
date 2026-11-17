@@ -66739,7 +66739,7 @@
   "market_significance": "Zelle moves over a trillion dollars a year; a bank consortium choosing a public chain is a notable adoption step.",
   "trigger": "Breakpoint 2026 stage announcement",
   "content_created": false,
-  "publication_status": "BLOCKED_UNVERIFIED",
+  "publication_status": "HUMAN_REVIEW",
   "related_story_ids": [],
   "updates": [],
   "posts": [],
@@ -67531,6 +67531,316 @@
   ],
   "market_significance": "Tokenization narrative.",
   "trigger": "Standard Chartered research note",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261116_2e76b8",
+  "headline": "CFTC approves Backpack's blockchain-based derivatives exchange and clearinghouse, alongside tZERO",
+  "summary": "CFTC Chair Michael Selig announced approvals letting Backpack run a US derivatives exchange and clearinghouse that execute and settle on blockchain rails; tZERO also won exchange approval after earlier clearing approval.",
+  "detected_at": "2026-11-16T19:19-05:00",
+  "active_since": "2026-11-16T19:19-05:00",
+  "classification": "IMPORTANT",
+  "proposed_level": "IMPORTANT",
+  "confidence": 0.7,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "regulatory",
+  "event_time": "2026-11-16T17:00-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/regulation/2026-11-16-cftc-blockchain-derivatives-exchange-approval-backpack-tzero-441591",
+   "https://www.cftc.gov/PressRoom/SpeechesTestimony/seligstatement111626",
+   "https://www.cftc.gov/filings/documents/2026/orgdcmtzeropublishorder261110.pdf",
+   "https://genfinity.io/2026/11/16/cftc-approves-backpack-blockchain-derivatives-exchange-clearinghouse/"
+  ],
+  "source_names": [
+   "The Block",
+   "CFTC (Chair Selig statement)",
+   "CFTC tZERO DCM order",
+   "Genfinity"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-16-cftc-blockchain-derivatives-exchange-approval-backpack-tzero-441591",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.cftc.gov/PressRoom/SpeechesTestimony/seligstatement111626",
+    "name": "CFTC (Chair Selig statement)",
+    "kind": "primary",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://www.cftc.gov/filings/documents/2026/orgdcmtzeropublishorder261110.pdf",
+    "name": "CFTC tZERO DCM order",
+    "kind": "primary",
+    "checked": true,
+    "confirms": false
+   },
+   {
+    "url": "https://genfinity.io/2026/11/16/cftc-approves-backpack-blockchain-derivatives-exchange-clearinghouse/",
+    "name": "Genfinity",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-16-cftc-blockchain-derivatives-exchange-approval-backpack-tzero-441591",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.cftc.gov/PressRoom/SpeechesTestimony/seligstatement111626",
+    "name": "CFTC (Chair Selig statement)",
+    "kind": "primary",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://www.cftc.gov/filings/documents/2026/orgdcmtzeropublishorder261110.pdf",
+    "name": "CFTC tZERO DCM order",
+    "kind": "primary",
+    "checked": true,
+    "confirms": false
+   },
+   {
+    "url": "https://genfinity.io/2026/11/16/cftc-approves-backpack-blockchain-derivatives-exchange-clearinghouse/",
+    "name": "Genfinity",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-11-16-cftc-blockchain-derivatives-exchange-approval-backpack-tzero-441591",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "CFTC (Chair Selig statement)",
+     "url": "https://www.cftc.gov/PressRoom/SpeechesTestimony/seligstatement111626",
+     "category": "primary",
+     "counts": false,
+     "note": "primary (known official domain); not opened, so it doesn't count"
+    },
+    {
+     "name": "CFTC tZERO DCM order",
+     "url": "https://www.cftc.gov/filings/documents/2026/orgdcmtzeropublishorder261110.pdf",
+     "category": "primary",
+     "counts": false,
+     "note": "primary (known official domain); opened but does not confirm the claim"
+    },
+    {
+     "name": "Genfinity",
+     "url": "https://genfinity.io/2026/11/16/cftc-approves-backpack-blockchain-derivatives-exchange-clearinghouse/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed IMPORTANT: First-of-its-kind CFTC approval for blockchain-based derivatives trading and clearing in the US; significant regulatory/exchange development."
+  ],
+  "market_significance": "Opens a regulated US venue for on-chain derivatives such as perpetual-style products.",
+  "trigger": "The Block latest news",
+  "content_created": false,
+  "publication_status": "BLOCKED_UNVERIFIED",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261116_5fe870",
+  "headline": "Crypto steadies after a $230 billion three-day sell-off, with bitcoin near $65,000",
+  "summary": "Bitcoin held near $65,000 Monday evening, down about 0.6% on the day, after a Thursday-to-Saturday sell-off erased about $230 billion; ether near $1,818, XRP near $0.96, solana near $71.",
+  "detected_at": "2026-11-16T19:19-05:00",
+  "active_since": "2026-11-16T19:19-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "BTC",
+   "ETH",
+   "XRP",
+   "SOL",
+   "TOTAL_MARKET"
+  ],
+  "event_type": "market_move",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {
+   "pct_move_24h": -0.6
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://finance.yahoo.com/markets/crypto/articles/crypto-market-today-nov-16-230002837.html",
+   "https://www.capitalstreetfx.com/market-analysis/daily-crypto-report-16-nov-2026/"
+  ],
+  "source_names": [
+   "Yahoo Finance (Motley Fool)",
+   "Capital Street FX"
+  ],
+  "sources": [
+   {
+    "url": "https://finance.yahoo.com/markets/crypto/articles/crypto-market-today-nov-16-230002837.html",
+    "name": "Yahoo Finance (Motley Fool)",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.capitalstreetfx.com/market-analysis/daily-crypto-report-16-nov-2026/",
+    "name": "Capital Street FX",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://finance.yahoo.com/markets/crypto/articles/crypto-market-today-nov-16-230002837.html",
+    "name": "Yahoo Finance (Motley Fool)",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.capitalstreetfx.com/market-analysis/daily-crypto-report-16-nov-2026/",
+    "name": "Capital Street FX",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Yahoo Finance (Motley Fool)",
+     "url": "https://finance.yahoo.com/markets/crypto/articles/crypto-market-today-nov-16-230002837.html",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Capital Street FX",
+     "url": "https://www.capitalstreetfx.com/market-analysis/daily-crypto-report-16-nov-2026/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Small daily moves, below thresholds.",
+   "price rule: BTC moved 0.6% in 24h (thresholds 7%/12%) -> NORMAL"
+  ],
+  "market_significance": "Market context for the daily show.",
+  "trigger": "price check",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261116_b3683f",
+  "headline": "CZ denies Binance sold crypto to cover the October hack and lists possible reasons for the slide",
+  "summary": "Changpeng Zhao pointed to ETF outflows, security worries and macro pressure as possible causes of the drop, said no single cause is established, and denied Binance sold holdings.",
+  "detected_at": "2026-11-16T19:19-05:00",
+  "active_since": "2026-11-16T19:19-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "BNB",
+   "BTC"
+  ],
+  "event_type": "exchange",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.gncrypto.news/news/bitcoin-falls-64k-zhao-cites-possible-market-pressures/"
+  ],
+  "source_names": [
+   "GN Crypto"
+  ],
+  "sources": [
+   {
+    "url": "https://www.gncrypto.news/news/bitcoin-falls-64k-zhao-cites-possible-market-pressures/",
+    "name": "GN Crypto",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.gncrypto.news/news/bitcoin-falls-64k-zhao-cites-possible-market-pressures/",
+    "name": "GN Crypto",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "GN Crypto",
+     "url": "https://www.gncrypto.news/news/bitcoin-falls-64k-zhao-cites-possible-market-pressures/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Commentary, no new facts."
+  ],
+  "market_significance": "Sentiment context.",
+  "trigger": "search",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
