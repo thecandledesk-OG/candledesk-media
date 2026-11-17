@@ -66570,14 +66570,16 @@
    "https://unchainedcrypto.com/lighter-pins-drain-on-traders-leaked-api-key-says-contracts-were-not-hit/",
    "https://decrypt.co/383301/morning-minute-crypto-hits-extreme-fear-as-bitcoin-plunges",
    "https://x.com/Lighter_xyz/status/2122311006604984497",
-   "https://en.bloomingbit.io/feed/news/124532"
+   "https://en.bloomingbit.io/feed/news/124532",
+   "https://www.theblock.co/news/defi/2026-11-17-lighter-reopens-withdrawals-after-traders-api-key-leak-returns-about-5-million-in-usdc-442113"
   ],
   "source_names": [
    "Cointelegraph",
    "Unchained",
    "Decrypt",
    "Lighter on X",
-   "Bloomingbit"
+   "Bloomingbit",
+   "The Block"
   ],
   "sources": [
    {
@@ -66612,6 +66614,13 @@
     "url": "https://en.bloomingbit.io/feed/news/124532",
     "name": "Bloomingbit",
     "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/defi/2026-11-17-lighter-reopens-withdrawals-after-traders-api-key-leak-returns-about-5-million-in-usdc-442113",
+    "name": "The Block",
+    "kind": "secondary",
     "checked": true,
     "confirms": true
    }
@@ -66651,15 +66660,22 @@
     "kind": "other",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/defi/2026-11-17-lighter-reopens-withdrawals-after-traders-api-key-leak-returns-about-5-million-in-usdc-442113",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "VERIFIED",
   "verification": {
    "status": "VERIFIED",
-   "independent_sources": 3,
+   "independent_sources": 4,
    "has_primary": false,
    "score": 0.8,
-   "reason": "3 independent credible sources confirm it (no primary source yet)",
+   "reason": "4 independent credible sources confirm it (no primary source yet)",
    "sources_checked": [
     {
      "name": "Cointelegraph",
@@ -66695,6 +66711,13 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/defi/2026-11-17-lighter-reopens-withdrawals-after-traders-api-key-leak-returns-about-5-million-in-usdc-442113",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -66707,7 +66730,17 @@
   "content_created": true,
   "publication_status": "DRAFTED",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-11-17T07:11-05:00",
+    "headline": "Lighter reopens withdrawals and returns about $5 million in USDC to the trader hit by a leaked API key",
+    "summary": "Lighter says deposits and withdrawals are back to normal after its Security Council disabled Guardian Mode, returned about 5 million USDC to the affected trader and tightened API key rules. Onchain analysts estimate total losses at about $15.5 million; Lighter has not confirmed a total.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   }
+  ],
   "posts": [
    "6afb2105e368957de0d040c6",
    "6afb2106407cd7a3e057c584",
@@ -68297,6 +68330,389 @@
   ],
   "market_significance": "Phishing risk for hardware wallet buyers",
   "trigger": "The Block",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261117_b1b390",
+  "headline": "Grayscale calls the crypto pullback a 'compelling entry point' as bitcoin trades near $64,600",
+  "summary": "Grayscale research head Zach Pandl says fundamentals like stablecoin and tokenization adoption remain strong after bitcoin fell about 13% in a week. He points to stablecoin outflows after the Binance hack, AI-stock spillover and bitcoin's break below its 200-day average. BTC is down about 1% in 24 hours, ETH flat, SOL up about 1%.",
+  "detected_at": "2026-11-17T07:11-05:00",
+  "active_since": "2026-11-17T07:11-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "BTC",
+   "ETH",
+   "SOL",
+   "TOTAL_MARKET"
+  ],
+  "event_type": "market_move",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {
+   "pct_move_24h": -1.25
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/markets/2026-11-17-grayscale-compelling-entry-points-bitcoin-442083",
+   "https://pintu.co.id/en/academy/post/crypto-market-analysis-today-november-17-2026"
+  ],
+  "source_names": [
+   "The Block",
+   "Pintu Academy"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-17-grayscale-compelling-entry-points-bitcoin-442083",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://pintu.co.id/en/academy/post/crypto-market-analysis-today-november-17-2026",
+    "name": "Pintu Academy",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-17-grayscale-compelling-entry-points-bitcoin-442083",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://pintu.co.id/en/academy/post/crypto-market-analysis-today-november-17-2026",
+    "name": "Pintu Academy",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/markets/2026-11-17-grayscale-compelling-entry-points-bitcoin-442083",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Pintu Academy",
+     "url": "https://pintu.co.id/en/academy/post/crypto-market-analysis-today-november-17-2026",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Commentary; 24h moves well under thresholds",
+   "price rule: BTC moved 1.2% in 24h (thresholds 7%/12%) -> NORMAL"
+  ],
+  "market_significance": "Context for the ongoing slide",
+  "trigger": "The Block latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261117_d85e80",
+  "headline": "Tether Capital invests $15 million in Brazilian fintech Nomad and eyes USDT and XAUT access",
+  "summary": "Tether's investment arm put $15 million into Nomad, a Brazilian dollar-account and payments fintech; the two may add USDT and Tether Gold to Nomad's platform.",
+  "detected_at": "2026-11-17T07:11-05:00",
+  "active_since": "2026-11-17T07:11-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "USDT"
+  ],
+  "event_type": "institutional",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-11-17-tether-nomad-brazil-investment-442097"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-17-tether-nomad-brazil-investment-442097",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-17-tether-nomad-brazil-investment-442097",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-17-tether-nomad-brazil-investment-442097",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Small strategic investment"
+  ],
+  "market_significance": "Tether's Latin America push",
+  "trigger": "The Block latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261117_75b60d",
+  "headline": "Cathie Wood's ARK buys Coinbase, Circle and Block shares while selling about $85 million of Nvidia",
+  "summary": "ARK bought about $23 million of Block, $10.4 million of Circle and $6.4 million of Coinbase on Monday as the stocks fell, while selling about $84.8 million of Nvidia and trimming its Solana and ether staking ETF stakes.",
+  "detected_at": "2026-11-17T07:11-05:00",
+  "active_since": "2026-11-17T07:11-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "institutional",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-11-17-ark-invest-buys-crypto-stocks-sells-nvidia-442080"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-17-ark-invest-buys-crypto-stocks-sells-nvidia-442080",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-17-ark-invest-buys-crypto-stocks-sells-nvidia-442080",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-17-ark-invest-buys-crypto-stocks-sells-nvidia-442080",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Routine fund trades"
+  ],
+  "market_significance": "Institutional sentiment on crypto stocks",
+  "trigger": "The Block latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261117_fe44cb",
+  "headline": "A Gnosis Safe wallet loses about $6.45 million through already-enabled permissions",
+  "summary": "A single Safe wallet was drained of about $6.45 million, with Specter tracing about $4.3 million in USDC and $1.7 million in syrupUSDC. Only one aggregator report so far.",
+  "detected_at": "2026-11-17T07:11-05:00",
+  "active_since": "2026-11-17T07:11-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "ETH",
+   "USDC"
+  ],
+  "event_type": "hack_exploit",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {
+   "loss_usd": 6450000
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://www.coingabbar.com/en/crypto-news-nov-17-bitcoin-eth-defi-fear-index-fed-rate-hike#gnosis"
+  ],
+  "source_names": [
+   "CoinGabbar"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coingabbar.com/en/crypto-news-nov-17-bitcoin-eth-defi-fear-index-fed-rate-hike#gnosis",
+    "name": "CoinGabbar",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coingabbar.com/en/crypto-news-nov-17-bitcoin-eth-defi-fear-index-fed-rate-hike#gnosis",
+    "name": "CoinGabbar",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinGabbar",
+     "url": "https://www.coingabbar.com/en/crypto-news-nov-17-bitcoin-eth-defi-fear-index-fed-rate-hike#gnosis",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Below $10M hack threshold; single unconfirmed source",
+   "hack rule: about $6M lost (thresholds $10M/$100M) -> NORMAL"
+  ],
+  "market_significance": "Wallet permission risk",
+  "trigger": "CoinGabbar roundup",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261117_05ffb5",
+  "headline": "NEAR's House of Stake approves cutting max annual issuance from 2.5% to 1.6%",
+  "summary": "NEAR governance approved lowering maximum yearly inflation from 2.5% to 1.6%, phased in every epoch over 24 months after a one-quarter delay.",
+  "detected_at": "2026-11-17T07:11-05:00",
+  "active_since": "2026-11-17T07:11-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "NEAR"
+  ],
+  "event_type": "protocol_upgrade",
+  "event_time": null,
+  "scheduled_event": true,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coingabbar.com/en/crypto-news-nov-17-bitcoin-eth-defi-fear-index-fed-rate-hike#near"
+  ],
+  "source_names": [
+   "CoinGabbar"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coingabbar.com/en/crypto-news-nov-17-bitcoin-eth-defi-fear-index-fed-rate-hike#near",
+    "name": "CoinGabbar",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coingabbar.com/en/crypto-news-nov-17-bitcoin-eth-defi-fear-index-fed-rate-hike#near",
+    "name": "CoinGabbar",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinGabbar",
+     "url": "https://www.coingabbar.com/en/crypto-news-nov-17-bitcoin-eth-defi-fear-index-fed-rate-hike#near",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Governance vote, not yet in effect"
+  ],
+  "market_significance": "Lower NEAR supply growth",
+  "trigger": "CoinGabbar roundup",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
