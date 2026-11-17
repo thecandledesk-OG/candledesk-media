@@ -69583,5 +69583,242 @@
   "updates": [],
   "posts": [],
   "needs_followup": false
+ },
+ {
+  "id": "st_20261117_b34c79",
+  "headline": "Spot ether ETFs lose $398.9 million in a week, pushing November outflows past $770 million",
+  "summary": "US spot ether ETFs saw $398.9 million of net outflows in the week ended November 13, with BlackRock's ETHA about 78% of it. Month-to-date outflows reached about $772.5 million; ether trades near $1,804, down about 12% in seven days.",
+  "detected_at": "2026-11-17T16:14-05:00",
+  "active_since": "2026-11-17T16:14-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "ETH"
+  ],
+  "event_type": "etf",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://crypto.news/ether-etf-outflows-398-million-november/",
+   "https://thecryptodesk.substack.com/p/the-crypto-desk-tuesday-17-november"
+  ],
+  "source_names": [
+   "crypto.news",
+   "The Crypto Desk"
+  ],
+  "sources": [
+   {
+    "url": "https://crypto.news/ether-etf-outflows-398-million-november/",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://thecryptodesk.substack.com/p/the-crypto-desk-tuesday-17-november",
+    "name": "The Crypto Desk",
+    "kind": "other",
+    "checked": true,
+    "confirms": false
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://crypto.news/ether-etf-outflows-398-million-november/",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://thecryptodesk.substack.com/p/the-crypto-desk-tuesday-17-november",
+    "name": "The Crypto Desk",
+    "kind": "other",
+    "checked": true,
+    "confirms": false
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/ether-etf-outflows-398-million-november/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "The Crypto Desk",
+     "url": "https://thecryptodesk.substack.com/p/the-crypto-desk-tuesday-17-november",
+     "category": "social",
+     "counts": false,
+     "note": "social/community post — can trigger investigation, never verifies"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Routine fund-flow data"
+  ],
+  "market_significance": "Shows continued institutional selling of ether exposure",
+  "trigger": "Weekly ETF flow report",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261117_ccdf00",
+  "headline": "Alpaca says its tokenization network tops $10 billion in minting and redemption volume",
+  "summary": "Alpaca co-founder Hitoshi Harada said its Instant Tokenization Network passed $10 billion in cumulative minting and redemption volume. Alpaca was among the first brokers in DTCC's tokenization service, which plans to reach Solana in the second half of 2027.",
+  "detected_at": "2026-11-17T16:14-05:00",
+  "active_since": "2026-11-17T16:14-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "SOL",
+   "TOTAL_MARKET"
+  ],
+  "event_type": "institutional",
+  "event_time": "2026-11-17T11:35-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-11-17-alpaca-says-tokenization-network-tops-10-billion-minting-redemption-volume-442667"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-17-alpaca-says-tokenization-network-tops-10-billion-minting-redemption-volume-442667",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-17-alpaca-says-tokenization-network-tops-10-billion-minting-redemption-volume-442667",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-17-alpaca-says-tokenization-network-tops-10-billion-minting-redemption-volume-442667",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Company milestone"
+  ],
+  "market_significance": "Tokenized stock activity keeps growing",
+  "trigger": "Interview / company statement",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261117_387d91",
+  "headline": "B18TimeBank exploit drains about 404,000 USDC on Base, Blockaid says",
+  "summary": "Security firm Blockaid flagged an exploit of B18TimeBank on Base that paid out about 404,540 USDC; about 106,785 USDC remained in the settlement contract, so the final net loss is not established.",
+  "detected_at": "2026-11-17T16:14-05:00",
+  "active_since": "2026-11-17T16:14-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "USDC"
+  ],
+  "event_type": "hack_exploit",
+  "event_time": "2026-11-17T15:07-05:00",
+  "scheduled_event": false,
+  "metrics": {
+   "loss_usd": 404540
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://www.tokenpost.com/news/technology/59807"
+  ],
+  "source_names": [
+   "TokenPost"
+  ],
+  "sources": [
+   {
+    "url": "https://www.tokenpost.com/news/technology/59807",
+    "name": "TokenPost",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.tokenpost.com/news/technology/59807",
+    "name": "TokenPost",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "TokenPost",
+     "url": "https://www.tokenpost.com/news/technology/59807",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Small exploit well under the $10M threshold",
+   "hack rule: about $0M lost (thresholds $10M/$100M) -> NORMAL"
+  ],
+  "market_significance": "Another DeFi exploit in a busy week for hacks",
+  "trigger": "Security firm alert",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
  }
 ]
