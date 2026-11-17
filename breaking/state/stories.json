@@ -63662,11 +63662,17 @@
   "emergency": false,
   "source_urls": [
    "https://cryptoticker.io/en/binance-hack-reimbursement-complete/",
-   "https://x.com/binance/status/2120921979226329504"
+   "https://x.com/binance/status/2120921979226329504",
+   "https://decrypt.co/383446/binance-hack-wallets-move-ethereum-after-two-weeks",
+   "https://www.coindesk.com/markets/2026/11/17/bitcoin-remains-penned-in-near-usd64-000-even-as-etf-outflow-streak-ends",
+   "https://coincodex.com/article/95501/daily-market-update-for-november-17-2026/"
   ],
   "source_names": [
    "CryptoTicker",
-   "Binance on X"
+   "Binance on X",
+   "Decrypt",
+   "CoinDesk",
+   "CoinCodex"
   ],
   "sources": [
    {
@@ -63681,6 +63687,27 @@
     "name": "Binance on X",
     "kind": "social",
     "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/383446/binance-hack-wallets-move-ethereum-after-two-weeks",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/11/17/bitcoin-remains-penned-in-near-usd64-000-even-as-etf-outflow-streak-ends",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://coincodex.com/article/95501/daily-market-update-for-november-17-2026/",
+    "name": "CoinCodex",
+    "kind": "other",
+    "checked": true,
     "confirms": true
    }
   ],
@@ -63698,15 +63725,36 @@
     "kind": "social",
     "checked": false,
     "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/383446/binance-hack-wallets-move-ethereum-after-two-weeks",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/11/17/bitcoin-remains-penned-in-near-usd64-000-even-as-etf-outflow-streak-ends",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://coincodex.com/article/95501/daily-market-update-for-november-17-2026/",
+    "name": "CoinCodex",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
    }
   ],
-  "verification_status": "UNVERIFIED",
+  "verification_status": "VERIFIED",
   "verification": {
-   "status": "UNVERIFIED",
-   "independent_sources": 0,
+   "status": "VERIFIED",
+   "independent_sources": 2,
    "has_primary": false,
-   "score": 0.0,
-   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "score": 0.8,
+   "reason": "2 independent credible sources confirm it (no primary source yet)",
    "sources_checked": [
     {
      "name": "CryptoTicker",
@@ -63721,6 +63769,27 @@
      "category": "social",
      "counts": false,
      "note": "social/community post — can trigger investigation, never verifies"
+    },
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/383446/binance-hack-wallets-move-ethereum-after-two-weeks",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/11/17/bitcoin-remains-penned-in-near-usd64-000-even-as-etf-outflow-streak-ends",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "CoinCodex",
+     "url": "https://coincodex.com/article/95501/daily-market-update-for-november-17-2026/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -63732,7 +63801,26 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-11-17T13:13-05:00",
+    "headline": "Binance hack wallets move about $137 million in ETH after two weeks of silence, some swapped to bitcoin via Thorchain",
+    "summary": "Wallets tied to the October 29 Binance hack moved about 74,880 ETH (about $137 million) on Tuesday after two weeks idle, per Arkham; some funds were swapped into BTC through Thorchain. Moving funds is not proof of cash-out.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-17T13:13-05:00",
+    "headline": "Crypto holds steady ahead of Nvidia earnings, with bitcoin near $64,000 and funding negative",
+    "summary": "BTC trades near $64,000, ETH near $1,800, XRP near $0.95 and SOL near $72, all within about 2% on the day. Fear and Greed sits at 13 and Wintermute warns of a slide into the $50,000s if rate-hike odds keep rising.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -69275,6 +69363,220 @@
   ],
   "market_significance": "Stablecoin infrastructure investment continues",
   "trigger": "The Block search result",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261117_3ca068",
+  "headline": "Coinbase Borrow reaches New York, completing its rollout to all 50 US states",
+  "summary": "Coinbase's Morpho-powered crypto-backed USDC loans are now available in New York after NYDFS approval, with BTC, ETH and SOL as collateral. The product has originated over $3.4 billion in loans since January 2025.",
+  "detected_at": "2026-11-17T13:13-05:00",
+  "active_since": "2026-11-17T13:13-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.85,
+  "assets": [
+   "BTC",
+   "ETH",
+   "SOL",
+   "USDC"
+  ],
+  "event_type": "exchange",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-11-17-coinbase-borrow-new-york-morpho-442842"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-17-coinbase-borrow-new-york-morpho-442842",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-17-coinbase-borrow-new-york-morpho-442842",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-17-coinbase-borrow-new-york-morpho-442842",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Routine product expansion."
+  ],
+  "market_significance": "Coinbase lending now nationwide.",
+  "trigger": "The Block",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261117_6a07ac",
+  "headline": "Anchorage Digital and Kalshi Prime let institutions use custodied bitcoin as trading margin",
+  "summary": "Institutional clients can pledge bitcoin and stablecoins held at Anchorage Digital Bank as margin on Kalshi Prime's HODL Margining network without moving or selling them.",
+  "detected_at": "2026-11-17T13:13-05:00",
+  "active_since": "2026-11-17T13:13-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "BTC",
+   "USDC"
+  ],
+  "event_type": "partnership",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-11-17-anchorage-digital-kalshi-prime-hodl-margining-bitcoin-collateral-442568"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-17-anchorage-digital-kalshi-prime-hodl-margining-bitcoin-collateral-442568",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-17-anchorage-digital-kalshi-prime-hodl-margining-bitcoin-collateral-442568",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-17-anchorage-digital-kalshi-prime-hodl-margining-bitcoin-collateral-442568",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Mid-sized institutional partnership."
+  ],
+  "market_significance": "More ways for institutions to use BTC as collateral.",
+  "trigger": "The Block",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261117_c175b3",
+  "headline": "Solana Foundation backs CoinGecko as the data site eyes trading",
+  "summary": "The Solana Foundation is backing CoinGecko's push into market intelligence, new products and possibly trading; terms were not disclosed. Announced on the last day of Breakpoint.",
+  "detected_at": "2026-11-17T13:13-05:00",
+  "active_since": "2026-11-17T13:13-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "SOL"
+  ],
+  "event_type": "partnership",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://decrypt.co/383401/solana-foundation-backs-coingecko-eyes-trading"
+  ],
+  "source_names": [
+   "Decrypt"
+  ],
+  "sources": [
+   {
+    "url": "https://decrypt.co/383401/solana-foundation-backs-coingecko-eyes-trading",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://decrypt.co/383401/solana-foundation-backs-coingecko-eyes-trading",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/383401/solana-foundation-backs-coingecko-eyes-trading",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Undisclosed-terms backing; routine."
+  ],
+  "market_significance": "CoinGecko may add trading.",
+  "trigger": "Decrypt",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
