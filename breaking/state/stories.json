@@ -65402,15 +65402,33 @@
   "metrics": {},
   "emergency": false,
   "source_urls": [
-   "https://cryptoticker.io/en/bitcoin-price-62000-crash-fed-hike-60000-level-november-15-2026/"
+   "https://cryptoticker.io/en/bitcoin-price-62000-crash-fed-hike-60000-level-november-15-2026/",
+   "https://www.coingabbar.com/en/crypto-news-nov-18-bitcoin-eth-brevis-price-fed-fomc-minutes",
+   "https://www.coindesk.com/markets/2026/11/18/bitcoin-drops-as-nvidia-earnings-report-drives-stock-index-futures-higher"
   ],
   "source_names": [
-   "CryptoTicker"
+   "CryptoTicker",
+   "Coin Gabbar",
+   "CoinDesk"
   ],
   "sources": [
    {
     "url": "https://cryptoticker.io/en/bitcoin-price-62000-crash-fed-hike-60000-level-november-15-2026/",
     "name": "CryptoTicker",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coingabbar.com/en/crypto-news-nov-18-bitcoin-eth-brevis-price-fed-fomc-minutes",
+    "name": "Coin Gabbar",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/11/18/bitcoin-drops-as-nvidia-earnings-report-drives-stock-index-futures-higher",
+    "name": "CoinDesk",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -65423,15 +65441,29 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.coingabbar.com/en/crypto-news-nov-18-bitcoin-eth-brevis-price-fed-fomc-minutes",
+    "name": "Coin Gabbar",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/11/18/bitcoin-drops-as-nvidia-earnings-report-drives-stock-index-futures-higher",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "UNVERIFIED",
   "verification": {
    "status": "UNVERIFIED",
-   "independent_sources": 0,
+   "independent_sources": 1,
    "has_primary": false,
-   "score": 0.0,
-   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
    "sources_checked": [
     {
      "name": "CryptoTicker",
@@ -65439,6 +65471,20 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Coin Gabbar",
+     "url": "https://www.coingabbar.com/en/crypto-news-nov-18-bitcoin-eth-brevis-price-fed-fomc-minutes",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/11/18/bitcoin-drops-as-nvidia-earnings-report-drives-stock-index-futures-higher",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -65458,6 +65504,24 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-18T10:09-05:00",
+    "headline": "Crypto Fear and Greed index sits at 11, extreme fear",
+    "summary": "Here's what moved the chain today. Fear and Greed sits at eleven. Extreme fear.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-18T10:09-05:00",
+    "headline": "Fed December hike odds hit 96% as FOMC minutes drop today",
+    "summary": "Check the yields first. Fed hike odds hit ninety-six percent, and the minutes drop today.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "UNVERIFIED"
    }
   ],
@@ -65732,6 +65796,15 @@
     "at": "2026-11-16T22:09-05:00",
     "headline": "Twenty One Capital adds $10 million in bitcoin and Tudor raises its bitcoin ETF stake",
     "summary": "Twenty One Capital bought about $10 million of bitcoin over the weekend dip, and Tudor Investment's filing shows a larger bitcoin ETF stake last quarter, per CoinDesk.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-18T10:09-05:00",
+    "headline": "Judge acquits the Peraire-Bueno brothers in the $25 million Ethereum MEV case",
+    "summary": "A judge acquitted the MIT brothers behind the twelve-second, twenty-five million dollar Ethereum exploit.",
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
@@ -69965,9 +70038,19 @@
   "market_significance": "Shows the stolen funds are moving again; traders watch for sell pressure.",
   "trigger": "Decrypt report",
   "content_created": false,
-  "publication_status": "QUEUED_FOR_DAILY",
+  "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-11-18T10:09-05:00",
+    "headline": "Binance hack wallets move about $137 million in ETH",
+    "summary": "Psst... Binance hack wallets moved about one hundred thirty-seven million dollars of Ether.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -70694,6 +70777,488 @@
   ],
   "market_significance": "Tokenized pre-IPO stock demand.",
   "trigger": "crypto.news report",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261118_147f4c",
+  "headline": "XRP and Solana trade green as funding flips positive",
+  "summary": "Green candles only! XRP and Solana are green, and funding just flipped positive!",
+  "detected_at": "2026-11-18T10:09-05:00",
+  "active_since": "2026-11-18T10:09-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "XRP",
+   "SOL"
+  ],
+  "event_type": "market_move",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/markets/2026/11/18/bitcoin-drops-as-nvidia-earnings-report-drives-stock-index-futures-higher"
+  ],
+  "source_names": [
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/markets/2026/11/18/bitcoin-drops-as-nvidia-earnings-report-drives-stock-index-futures-higher",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/markets/2026/11/18/bitcoin-drops-as-nvidia-earnings-report-drives-stock-index-futures-higher",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/11/18/bitcoin-drops-as-nvidia-earnings-report-drives-stock-index-futures-higher",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261118_859360",
+  "headline": "Bitwise files to list a spot Zcash ETF on the Texas Stock Exchange, with Coinbase Custody holding the ZEC",
+  "summary": "Bitwise filed an S-1 with the SEC on November 17 for the Bitwise Zcash ETF, ticker ZEC, to list on the Texas Stock Exchange. Coinbase Custody would hold the coins; the fee is not yet set. A filing is not an approval.",
+  "detected_at": "2026-11-18T10:14-05:00",
+  "active_since": "2026-11-18T10:14-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.9,
+  "assets": [
+   "ZEC"
+  ],
+  "event_type": "etf",
+  "event_time": "2026-11-17T17:00-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.sec.gov/Archives/edgar/data/0002152975/000119312526465692/ck0002152975-20261117.htm",
+   "https://www.gtokentool.com/en/news/6036"
+  ],
+  "source_names": [
+   "SEC EDGAR",
+   "Cointelegraph (via digest)"
+  ],
+  "sources": [
+   {
+    "url": "https://www.sec.gov/Archives/edgar/data/0002152975/000119312526465692/ck0002152975-20261117.htm",
+    "name": "SEC EDGAR",
+    "kind": "primary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.gtokentool.com/en/news/6036",
+    "name": "Cointelegraph (via digest)",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.sec.gov/Archives/edgar/data/0002152975/000119312526465692/ck0002152975-20261117.htm",
+    "name": "SEC EDGAR",
+    "kind": "primary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.gtokentool.com/en/news/6036",
+    "name": "Cointelegraph (via digest)",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": true,
+   "score": 0.6,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "SEC EDGAR",
+     "url": "https://www.sec.gov/Archives/edgar/data/0002152975/000119312526465692/ck0002152975-20261117.htm",
+     "category": "primary",
+     "counts": true,
+     "note": "primary (known official domain)"
+    },
+    {
+     "name": "Cointelegraph (via digest)",
+     "url": "https://www.gtokentool.com/en/news/6036",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: New ETF filing for a smaller asset; filings are routine and far from a decision"
+  ],
+  "market_significance": "Another altcoin ETF attempt, first crypto ETF aimed at the new Texas exchange",
+  "trigger": "SEC EDGAR S-1",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261118_d6f220",
+  "headline": "CoinShares sold all its treasury ether and half its SOL to fund share buybacks",
+  "summary": "CoinShares' third-quarter results say it sold its whole ETH treasury and half its SOL in October, raising about $19.3 million for buybacks under a $40 million program. Assets under management rose to $7.4 billion while revenue fell 45%.",
+  "detected_at": "2026-11-18T10:14-05:00",
+  "active_since": "2026-11-18T10:14-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.85,
+  "assets": [
+   "ETH",
+   "SOL"
+  ],
+  "event_type": "institutional",
+  "event_time": "2026-11-18T08:42-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://cointelegraph.com/news/coinshares-sells-eth-treasury-holdings-halves-sol-share-buybacks"
+  ],
+  "source_names": [
+   "Cointelegraph"
+  ],
+  "sources": [
+   {
+    "url": "https://cointelegraph.com/news/coinshares-sells-eth-treasury-holdings-halves-sol-share-buybacks",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://cointelegraph.com/news/coinshares-sells-eth-treasury-holdings-halves-sol-share-buybacks",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Cointelegraph",
+     "url": "https://cointelegraph.com/news/coinshares-sells-eth-treasury-holdings-halves-sol-share-buybacks",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Small corporate treasury sale, disclosed in quarterly results"
+  ],
+  "market_significance": "A crypto asset manager trimming its own crypto to buy back stock",
+  "trigger": "CoinShares Q3 results",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261118_9ff965",
+  "headline": "K33 says bitcoin may have found a local bottom after six straight weekly losses, as BTC holds near $64,000",
+  "summary": "Bitcoin trades near sixty-four thousand dollars, down about 1% on the day after a 14% weekly drop, its sixth losing week in a row. K33 calls it deeply oversold; Glassnode flags $62,000 as the key level.",
+  "detected_at": "2026-11-18T10:14-05:00",
+  "active_since": "2026-11-18T10:14-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.85,
+  "assets": [
+   "BTC",
+   "TOTAL_MARKET"
+  ],
+  "event_type": "market_move",
+  "event_time": "2026-11-18T09:01-05:00",
+  "scheduled_event": false,
+  "metrics": {
+   "pct_move_24h": -1.1
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/markets/2026-11-18-gift-from-the-market-bitcoin-shows-signs-of-a-local-bottom-after-six-weeks-of-losses-analyst-says-443017",
+   "https://nexo.com/blog/markets-today-november-18"
+  ],
+  "source_names": [
+   "The Block",
+   "Nexo markets today"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-18-gift-from-the-market-bitcoin-shows-signs-of-a-local-bottom-after-six-weeks-of-losses-analyst-says-443017",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://nexo.com/blog/markets-today-november-18",
+    "name": "Nexo markets today",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-18-gift-from-the-market-bitcoin-shows-signs-of-a-local-bottom-after-six-weeks-of-losses-analyst-says-443017",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://nexo.com/blog/markets-today-november-18",
+    "name": "Nexo markets today",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/markets/2026-11-18-gift-from-the-market-bitcoin-shows-signs-of-a-local-bottom-after-six-weeks-of-losses-analyst-says-443017",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Nexo markets today",
+     "url": "https://nexo.com/blog/markets-today-november-18",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: 24h move about -1%; analyst view, not an event",
+   "price rule: BTC moved 1.1% in 24h (thresholds 7%/12%) -> NORMAL"
+  ],
+  "market_significance": "Context for the week's sell-off",
+  "trigger": "The Block markets story",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [
+   {
+    "at": "2026-11-18T10:14-05:00",
+    "headline": "XRP climbs toward $1 and SOL gains while bitcoin and ether dip",
+    "summary": "XRP is up about 2% to just under one dollar and SOL about 1% near $75, while BTC and ETH are each down roughly 1.5%. Funding turned positive for most majors.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   }
+  ],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261118_d979b5",
+  "headline": "Wells Fargo's reported IBIT position more than doubles to about $2.35 billion in Q3",
+  "summary": "A Form 13F shows Wells Fargo-reported holdings of BlackRock's bitcoin ETF rose to 49.6 million shares, about $2.35 billion, as of September 30, from 24.4 million in June. Part may be client holdings.",
+  "detected_at": "2026-11-18T10:14-05:00",
+  "active_since": "2026-11-18T10:14-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "institutional",
+  "event_time": "2026-11-16T12:00-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://primexbt.com/news/wells-fargos-reported-ibit-position-more-than-doubles-in-q3/"
+  ],
+  "source_names": [
+   "PrimeXBT News"
+  ],
+  "sources": [
+   {
+    "url": "https://primexbt.com/news/wells-fargos-reported-ibit-position-more-than-doubles-in-q3/",
+    "name": "PrimeXBT News",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://primexbt.com/news/wells-fargos-reported-ibit-position-more-than-doubles-in-q3/",
+    "name": "PrimeXBT News",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "PrimeXBT News",
+     "url": "https://primexbt.com/news/wells-fargos-reported-ibit-position-more-than-doubles-in-q3/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Quarterly 13F disclosure of a past position"
+  ],
+  "market_significance": "Big-bank ETF exposure kept growing through Q3",
+  "trigger": "13F filing",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261118_3ccafb",
+  "headline": "Scattered Spider hacker sentenced to six years over $11.6 million in stolen crypto",
+  "summary": "A member of the Scattered Spider hacking group was sentenced to six years in prison over about $11.6 million in crypto stolen through SIM-swap and phishing attacks.",
+  "detected_at": "2026-11-18T10:14-05:00",
+  "active_since": "2026-11-18T10:14-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "legal",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://decrypt.co/383522/scattered-spider-hacker-sentenced-to-6-years-over-11-6m-in-stolen-crypto"
+  ],
+  "source_names": [
+   "Decrypt"
+  ],
+  "sources": [
+   {
+    "url": "https://decrypt.co/383522/scattered-spider-hacker-sentenced-to-6-years-over-11-6m-in-stolen-crypto",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://decrypt.co/383522/scattered-spider-hacker-sentenced-to-6-years-over-11-6m-in-stolen-crypto",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/383522/scattered-spider-hacker-sentenced-to-6-years-over-11-6m-in-stolen-crypto",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Sentencing in an old case"
+  ],
+  "market_significance": "Security reminder for viewers",
+  "trigger": "Decrypt latest news",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
