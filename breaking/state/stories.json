@@ -69951,13 +69951,13 @@
  },
  {
   "id": "st_20261117_835d90",
-  "headline": "Wallets tied to the $6.3 billion Binance hack move about $137 million in ETH, some swapped to bitcoin via THORChain",
+  "headline": "Binance wins a $6.5 billion worldwide freezing order from Abu Dhabi courts over its October hack",
   "summary": "After two weeks of silence, addresses linked to the October 29 Binance hack moved about 74,880 ETH (about $137 million) in roughly three hours, per MistTrack and Arkham, with some funds swapped for bitcoin through THORChain. Transfers do not prove a cash-out.",
   "detected_at": "2026-11-17T19:14-05:00",
-  "active_since": "2026-11-17T19:14-05:00",
-  "classification": "NORMAL",
+  "active_since": "2026-11-18T16:19-05:00",
+  "classification": "IMPORTANT",
   "proposed_level": "NORMAL",
-  "confidence": 0.75,
+  "confidence": 0.8,
   "assets": [
    "ETH",
    "BTC",
@@ -69970,11 +69970,17 @@
   "emergency": false,
   "source_urls": [
    "https://decrypt.co/383446/binance-hack-wallets-move-ethereum-after-two-weeks",
-   "https://www.thecoinrepublic.com/2026/11/17/binance-news-hacker-moves-136-8m-in-stolen-ether-via-thorchain/"
+   "https://www.thecoinrepublic.com/2026/11/17/binance-news-hacker-moves-136-8m-in-stolen-ether-via-thorchain/",
+   "https://www.theblock.co/news/business/2026-11-18-binance-freezing-court-order-adgm-crypto-october-hack-443491",
+   "https://cointelegraph.com/news/binance-says-won-65b-worldwide-freezing-order-after-hack",
+   "https://www.bloomberg.com/news/articles/2026-11-18/binance-secures-6-5-billion-freezing-order-from-abu-dhabi-court"
   ],
   "source_names": [
    "Decrypt",
-   "The Coin Republic"
+   "The Coin Republic",
+   "The Block",
+   "Cointelegraph",
+   "Bloomberg"
   ],
   "sources": [
    {
@@ -69990,55 +69996,91 @@
     "kind": "other",
     "checked": false,
     "confirms": true
-   }
-  ],
-  "gate_sources": [
+   },
    {
-    "url": "https://decrypt.co/383446/binance-hack-wallets-move-ethereum-after-two-weeks",
-    "name": "Decrypt",
+    "url": "https://www.theblock.co/news/business/2026-11-18-binance-freezing-court-order-adgm-crypto-october-hack-443491",
+    "name": "The Block",
     "kind": "secondary",
     "checked": true,
     "confirms": true
    },
    {
-    "url": "https://www.thecoinrepublic.com/2026/11/17/binance-news-hacker-moves-136-8m-in-stolen-ether-via-thorchain/",
-    "name": "The Coin Republic",
-    "kind": "other",
-    "checked": false,
+    "url": "https://cointelegraph.com/news/binance-says-won-65b-worldwide-freezing-order-after-hack",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.bloomberg.com/news/articles/2026-11-18/binance-secures-6-5-billion-freezing-order-from-abu-dhabi-court",
+    "name": "Bloomberg",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
    }
   ],
-  "verification_status": "UNVERIFIED",
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-18-binance-freezing-court-order-adgm-crypto-october-hack-443491",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cointelegraph.com/news/binance-says-won-65b-worldwide-freezing-order-after-hack",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.bloomberg.com/news/articles/2026-11-18/binance-secures-6-5-billion-freezing-order-from-abu-dhabi-court",
+    "name": "Bloomberg",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "verification_status": "VERIFIED",
   "verification": {
-   "status": "UNVERIFIED",
-   "independent_sources": 1,
+   "status": "VERIFIED",
+   "independent_sources": 2,
    "has_primary": false,
-   "score": 0.4,
-   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "score": 0.8,
+   "reason": "2 independent credible sources confirm it (no primary source yet)",
    "sources_checked": [
     {
-     "name": "Decrypt",
-     "url": "https://decrypt.co/383446/binance-hack-wallets-move-ethereum-after-two-weeks",
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-18-binance-freezing-court-order-adgm-crypto-october-hack-443491",
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
     },
     {
-     "name": "The Coin Republic",
-     "url": "https://www.thecoinrepublic.com/2026/11/17/binance-news-hacker-moves-136-8m-in-stolen-ether-via-thorchain/",
-     "category": "other",
+     "name": "Cointelegraph",
+     "url": "https://cointelegraph.com/news/binance-says-won-65b-worldwide-freezing-order-after-hack",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Bloomberg",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-18/binance-secures-6-5-billion-freezing-order-from-abu-dhabi-court",
+     "category": "secondary",
      "counts": false,
-     "note": "not on the credible list — logged as evidence only"
+     "note": "credible news organization; not opened, so it doesn't count"
     }
    ]
   },
   "classification_reason": [
-   "AI proposed NORMAL: Laundering follow-up on an already-covered hack; no new loss."
+   "AI proposed NORMAL: Laundering follow-up on an already-covered hack; no new loss.",
+   "AI proposed IMPORTANT: Court-ordered global freeze tied to the largest exchange hack on record; new legal step in an ongoing story"
   ],
   "market_significance": "Shows the stolen funds are moving again; traders watch for sell pressure.",
   "trigger": "Decrypt report",
-  "content_created": false,
-  "publication_status": "USED_IN_DAILY",
+  "content_created": true,
+  "publication_status": "DRAFTED",
   "related_story_ids": [],
   "updates": [
    {
@@ -70049,9 +70091,22 @@
     "level": "NORMAL",
     "sources_added": 0,
     "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-18T16:19-05:00",
+    "headline": "Binance wins a $6.5 billion worldwide freezing order from Abu Dhabi courts to recover funds from its October hack",
+    "summary": "Binance says the Abu Dhabi Global Market Courts granted a $6.5 billion worldwide freezing injunction against the unidentified attackers behind its roughly $6.34 billion October hack. The orders can be served on-chain so issuers and exchanges can act, and cover a living list of about 26,000 wallet addresses. The $6.5 billion is the amount the order covers, not funds recovered.",
+    "new_development": true,
+    "level": "IMPORTANT",
+    "sources_added": 3,
+    "verification": "VERIFIED"
    }
   ],
-  "posts": [],
+  "posts": [
+   "6afe17963f6dbb9998c585bb",
+   "6afe17960d8c064ce4d8e920",
+   "6afe1797a8bd8e4ffd1b229a"
+  ],
   "needs_followup": false
  },
  {
@@ -71801,6 +71856,569 @@
   ],
   "market_significance": "Spot volumes remain weak.",
   "trigger": "The Block / CoinDesk headlines",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261118_55f43c",
+  "headline": "Fed minutes say nearly all officials see another rate hike as likely; bitcoin dips toward $62,400",
+  "summary": "Minutes of the Fed's October 27-28 meeting, released at 2 PM ET, show nearly all participants expect another hike to be appropriate, and a couple floated a move bigger than 25 basis points in December. Bitcoin slipped about 0.6% in the minutes after release and traded near $62,400, down about 2% on the day; ETH near $1,750.",
+  "detected_at": "2026-11-18T16:19-05:00",
+  "active_since": "2026-11-18T16:19-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.85,
+  "assets": [
+   "BTC",
+   "ETH",
+   "TOTAL_MARKET"
+  ],
+  "event_type": "macro",
+  "event_time": "2026-11-18T14:00-05:00",
+  "scheduled_event": false,
+  "metrics": {
+   "pct_move_24h": -2.1
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
+   "https://www.altcoinbuzz.io/bitcoin-below-63000-fed-rate-hike-december",
+   "https://phemex.com/news/article/fed-minutes-signal-more-rate-hikes-after-october-pause-btc-eth-slip-on-release-104072",
+   "https://cryptoticker.io/en/crypto-news-gold-price-drops-3-percent-bitcoin/"
+  ],
+  "source_names": [
+   "Federal Reserve",
+   "Altcoin Buzz",
+   "Phemex News",
+   "CryptoTicker"
+  ],
+  "sources": [
+   {
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
+    "name": "Federal Reserve",
+    "kind": "primary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.altcoinbuzz.io/bitcoin-below-63000-fed-rate-hike-december",
+    "name": "Altcoin Buzz",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://phemex.com/news/article/fed-minutes-signal-more-rate-hikes-after-october-pause-btc-eth-slip-on-release-104072",
+    "name": "Phemex News",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptoticker.io/en/crypto-news-gold-price-drops-3-percent-bitcoin/",
+    "name": "CryptoTicker",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
+    "name": "Federal Reserve",
+    "kind": "primary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.altcoinbuzz.io/bitcoin-below-63000-fed-rate-hike-december",
+    "name": "Altcoin Buzz",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://phemex.com/news/article/fed-minutes-signal-more-rate-hikes-after-october-pause-btc-eth-slip-on-release-104072",
+    "name": "Phemex News",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptoticker.io/en/crypto-news-gold-price-drops-3-percent-bitcoin/",
+    "name": "CryptoTicker",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": true,
+   "score": 0.6,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Federal Reserve",
+     "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
+     "category": "primary",
+     "counts": true,
+     "note": "primary (known official domain)"
+    },
+    {
+     "name": "Altcoin Buzz",
+     "url": "https://www.altcoinbuzz.io/bitcoin-below-63000-fed-rate-hike-december",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Phemex News",
+     "url": "https://phemex.com/news/article/fed-minutes-signal-more-rate-hikes-after-october-pause-btc-eth-slip-on-release-104072",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CryptoTicker",
+     "url": "https://cryptoticker.io/en/crypto-news-gold-price-drops-3-percent-bitcoin/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Scheduled macro release; crypto move small"
+  ],
+  "market_significance": "Raises odds of a December hike, a headwind for risk assets",
+  "trigger": "Fed press release 2 PM ET",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261118_4df26f",
+  "headline": "Etherscan warns users after an unauthorized access attempt on its support ticketing system",
+  "summary": "Etherscan says someone attempted unauthorized access to its customer support and ticketing systems and warned users about fake support contacts.",
+  "detected_at": "2026-11-18T16:19-05:00",
+  "active_since": "2026-11-18T16:19-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "ETH"
+  ],
+  "event_type": "other",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://thedefiant.io/news/security/etherscan-warns-users-after-support-access-attempts"
+  ],
+  "source_names": [
+   "The Defiant"
+  ],
+  "sources": [
+   {
+    "url": "https://thedefiant.io/news/security/etherscan-warns-users-after-support-access-attempts",
+    "name": "The Defiant",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://thedefiant.io/news/security/etherscan-warns-users-after-support-access-attempts",
+    "name": "The Defiant",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Defiant",
+     "url": "https://thedefiant.io/news/security/etherscan-warns-users-after-support-access-attempts",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Security warning, no reported loss"
+  ],
+  "market_significance": "Phishing risk for Ethereum users",
+  "trigger": "crypto news feeds",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261118_eac6d8",
+  "headline": "Ondo to launch tokenized Anthropic stock on IPO day",
+  "summary": "Ondo plans to offer a tokenized version of Anthropic shares on the day of the company's IPO.",
+  "detected_at": "2026-11-18T16:19-05:00",
+  "active_since": "2026-11-18T16:19-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "other",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/markets/2026-11-18-ondo-to-launch-tokenized-anthropic-stock-on-ipo-day-443482"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-18-ondo-to-launch-tokenized-anthropic-stock-on-ipo-day-443482",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-18-ondo-to-launch-tokenized-anthropic-stock-on-ipo-day-443482",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/markets/2026-11-18-ondo-to-launch-tokenized-anthropic-stock-on-ipo-day-443482",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Product announcement"
+  ],
+  "market_significance": "Tokenized stocks race around a major IPO",
+  "trigger": "The Block",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261118_59fbba",
+  "headline": "CryptoQuant says bitcoin is back in a bearish phase but has reached a 'value zone'",
+  "summary": "CryptoQuant analysts say bitcoin has re-entered a bearish phase while on-chain valuation metrics put it in a value zone.",
+  "detected_at": "2026-11-18T16:19-05:00",
+  "active_since": "2026-11-18T16:19-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "market_move",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/markets/2026-11-18-cryptoquant-bitcoin-bearish-value-zone-443471"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-18-cryptoquant-bitcoin-bearish-value-zone-443471",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-18-cryptoquant-bitcoin-bearish-value-zone-443471",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/markets/2026-11-18-cryptoquant-bitcoin-bearish-value-zone-443471",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Analyst view"
+  ],
+  "market_significance": "Context for the drawdown",
+  "trigger": "The Block",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261118_eef95b",
+  "headline": "Solana ETFs snap a 24-day outflow streak with $11.6 million in net inflows",
+  "summary": "US Solana ETFs recorded about $11.6 million of net inflows, ending a 24-day run without inflows.",
+  "detected_at": "2026-11-18T16:19-05:00",
+  "active_since": "2026-11-18T16:19-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.55,
+  "assets": [
+   "SOL"
+  ],
+  "event_type": "etf",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://cryptobriefing.com/solana-etfs-snap-24-day-outflow-streak/"
+  ],
+  "source_names": [
+   "Crypto Briefing"
+  ],
+  "sources": [
+   {
+    "url": "https://cryptobriefing.com/solana-etfs-snap-24-day-outflow-streak/",
+    "name": "Crypto Briefing",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://cryptobriefing.com/solana-etfs-snap-24-day-outflow-streak/",
+    "name": "Crypto Briefing",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Crypto Briefing",
+     "url": "https://cryptobriefing.com/solana-etfs-snap-24-day-outflow-streak/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Routine flow data"
+  ],
+  "market_significance": "First sign of returning demand for SOL funds",
+  "trigger": "Crypto Briefing",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261118_e7e7d1",
+  "headline": "Polygon plans to buy payment licenses in the EU and weighs a US bank license",
+  "summary": "Polygon reportedly plans to spend $50 million to $100 million acquiring agency banking businesses and payment licenses and is considering a US banking license.",
+  "detected_at": "2026-11-18T16:19-05:00",
+  "active_since": "2026-11-18T16:19-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "POL"
+  ],
+  "event_type": "institutional",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.panewslab.com/en/articles/01a1ee01-ebef-7162-81ce-f33b4f70992e"
+  ],
+  "source_names": [
+   "PANews"
+  ],
+  "sources": [
+   {
+    "url": "https://www.panewslab.com/en/articles/01a1ee01-ebef-7162-81ce-f33b4f70992e",
+    "name": "PANews",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.panewslab.com/en/articles/01a1ee01-ebef-7162-81ce-f33b4f70992e",
+    "name": "PANews",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "PANews",
+     "url": "https://www.panewslab.com/en/articles/01a1ee01-ebef-7162-81ce-f33b4f70992e",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Plans, not completed"
+  ],
+  "market_significance": "Push into regulated payments",
+  "trigger": "PANews",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261118_e77628",
+  "headline": "StoneX cuts its Bitdeer price target to $15 amid new US chip export controls",
+  "summary": "StoneX lowered its Bitdeer price target to $15, citing new US chip export controls.",
+  "detected_at": "2026-11-18T16:19-05:00",
+  "active_since": "2026-11-18T16:19-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "other",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/markets/2026-11-18-stonex-cuts-bitdeer-price-target-to-15-amid-new-us-chip-export-controls-443440"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-18-stonex-cuts-bitdeer-price-target-to-15-amid-new-us-chip-export-controls-443440",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-18-stonex-cuts-bitdeer-price-target-to-15-amid-new-us-chip-export-controls-443440",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/markets/2026-11-18-stonex-cuts-bitdeer-price-target-to-15-amid-new-us-chip-export-controls-443440",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Analyst note"
+  ],
+  "market_significance": "Miners exposed to chip rules",
+  "trigger": "The Block",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],

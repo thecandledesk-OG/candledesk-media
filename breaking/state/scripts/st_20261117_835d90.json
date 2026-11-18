@@ -1,0 +1,49 @@
+{
+ "story_id": "st_20261117_835d90",
+ "date_label": "NOV 18",
+ "headline": "Binance wins a $6.5 billion worldwide freezing order over its October hack",
+ "sources": [
+  {"name": "The Block", "url": "https://www.theblock.co/news/business/2026-11-18-binance-freezing-court-order-adgm-crypto-october-hack-443491"},
+  {"name": "Cointelegraph", "url": "https://cointelegraph.com/news/binance-says-won-65b-worldwide-freezing-order-after-hack"}
+ ],
+ "scenes": [
+  {
+   "beat": "hook",
+   "who": "ledger",
+   "vo": "Binance just got a court order to freeze up to six and a half billion dollars, worldwide, tied to its October hack. Here's what changed.",
+   "chunks": ["Binance goes to court", "*Six point five billion*", "Frozen worldwide"]
+  },
+  {
+   "beat": "what_happened",
+   "who": "ledger",
+   "vo": "Abu Dhabi Global Market Courts granted a worldwide freezing order against the unknown attackers. It covers a living list of about twenty six thousand wallets holding stolen funds.",
+   "chunks": ["Abu Dhabi court", "*Worldwide freeze*", "About 26,000 wallets"],
+   "stat": {"label": "Sources", "text": "The Block · Cointelegraph"}
+  },
+  {
+   "beat": "why_it_matters",
+   "who": "bruno",
+   "vo": "Here's why traders are watching it. The order can be served on chain, so exchanges and stablecoin issuers have a court order to hold or hand back frozen funds.",
+   "chunks": ["Served on chain", "*Court backing*", "Funds can come back"]
+  },
+  {
+   "beat": "why_it_matters",
+   "who": "ursa",
+   "vo": "The catch. Six and a half billion is what the order covers, not what's been recovered. The attackers are still unidentified, and funds keep moving.",
+   "chunks": ["Not money recovered", "*Attackers unknown*", "Funds still moving"]
+  },
+  {
+   "beat": "watch_next",
+   "who": "moby",
+   "vo": "Here's what happens next. Watch whether exchanges and issuers start releasing frozen funds under this order, and how the wallet list changes.",
+   "chunks": ["Frozen funds released?", "*Exchanges and issuers*", "Wallet list updates"]
+  },
+  {
+   "beat": "cta",
+   "who": "all",
+   "vo": "Follow The Candle Desk for crypto news without the hype. Not financial advice.",
+   "chunks": ["Follow The Candle Desk", "*No hype*", "Just the news"],
+   "foot": "NOT FINANCIAL ADVICE"
+  }
+ ]
+}
