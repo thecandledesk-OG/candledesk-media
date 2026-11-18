@@ -69820,5 +69820,269 @@
   "updates": [],
   "posts": [],
   "needs_followup": false
+ },
+ {
+  "id": "st_20261117_835d90",
+  "headline": "Wallets tied to the $6.3 billion Binance hack move about $137 million in ETH, some swapped to bitcoin via THORChain",
+  "summary": "After two weeks of silence, addresses linked to the October 29 Binance hack moved about 74,880 ETH (about $137 million) in roughly three hours, per MistTrack and Arkham, with some funds swapped for bitcoin through THORChain. Transfers do not prove a cash-out.",
+  "detected_at": "2026-11-17T19:14-05:00",
+  "active_since": "2026-11-17T19:14-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.75,
+  "assets": [
+   "ETH",
+   "BTC",
+   "BNB"
+  ],
+  "event_type": "hack_exploit",
+  "event_time": "2026-11-17T17:18-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://decrypt.co/383446/binance-hack-wallets-move-ethereum-after-two-weeks",
+   "https://www.thecoinrepublic.com/2026/11/17/binance-news-hacker-moves-136-8m-in-stolen-ether-via-thorchain/"
+  ],
+  "source_names": [
+   "Decrypt",
+   "The Coin Republic"
+  ],
+  "sources": [
+   {
+    "url": "https://decrypt.co/383446/binance-hack-wallets-move-ethereum-after-two-weeks",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.thecoinrepublic.com/2026/11/17/binance-news-hacker-moves-136-8m-in-stolen-ether-via-thorchain/",
+    "name": "The Coin Republic",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://decrypt.co/383446/binance-hack-wallets-move-ethereum-after-two-weeks",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.thecoinrepublic.com/2026/11/17/binance-news-hacker-moves-136-8m-in-stolen-ether-via-thorchain/",
+    "name": "The Coin Republic",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/383446/binance-hack-wallets-move-ethereum-after-two-weeks",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "The Coin Republic",
+     "url": "https://www.thecoinrepublic.com/2026/11/17/binance-news-hacker-moves-136-8m-in-stolen-ether-via-thorchain/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Laundering follow-up on an already-covered hack; no new loss."
+  ],
+  "market_significance": "Shows the stolen funds are moving again; traders watch for sell pressure.",
+  "trigger": "Decrypt report",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261117_84b888",
+  "headline": "Bitcoin edges up near $64,500 after Nvidia beats estimates; board says Huang will not return",
+  "summary": "Nvidia reported Q3 revenue of $115.8 billion vs $108.8 billion expected and guided above consensus. Bitcoin rose about 1% to around $64,500 after the results; BTC and ETH are roughly flat to down about 1% on 24 hours, XRP and SOL up 1-2%. Nvidia's board said it does not intend to reinstate Jensen Huang.",
+  "detected_at": "2026-11-17T19:14-05:00",
+  "active_since": "2026-11-17T19:14-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "BTC",
+   "ETH",
+   "XRP",
+   "SOL",
+   "TOTAL_MARKET"
+  ],
+  "event_type": "macro",
+  "event_time": "2026-11-17T16:26-05:00",
+  "scheduled_event": false,
+  "metrics": {
+   "pct_move_24h": -1.0
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/business/2026/11/17/live-updates-bitcoin-holds-near-usd64-000-as-tech-slides-ahead-of-nvidia-earnings",
+   "https://www.fool.com/coverage/stock-market-today/2026/11/17/crypto-market-today-nov-17-a-warning-sign-not-seen-since-2022-is-flashing-across-cryptocurrency-markets/"
+  ],
+  "source_names": [
+   "CoinDesk",
+   "Motley Fool"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/business/2026/11/17/live-updates-bitcoin-holds-near-usd64-000-as-tech-slides-ahead-of-nvidia-earnings",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.fool.com/coverage/stock-market-today/2026/11/17/crypto-market-today-nov-17-a-warning-sign-not-seen-since-2022-is-flashing-across-cryptocurrency-markets/",
+    "name": "Motley Fool",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/business/2026/11/17/live-updates-bitcoin-holds-near-usd64-000-as-tech-slides-ahead-of-nvidia-earnings",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.fool.com/coverage/stock-market-today/2026/11/17/crypto-market-today-nov-17-a-warning-sign-not-seen-since-2022-is-flashing-across-cryptocurrency-markets/",
+    "name": "Motley Fool",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/business/2026/11/17/live-updates-bitcoin-holds-near-usd64-000-as-tech-slides-ahead-of-nvidia-earnings",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Motley Fool",
+     "url": "https://www.fool.com/coverage/stock-market-today/2026/11/17/crypto-market-today-nov-17-a-warning-sign-not-seen-since-2022-is-flashing-across-cryptocurrency-markets/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Small price reaction to a scheduled macro event."
+  ],
+  "market_significance": "Nvidia was a key risk event for tech-linked crypto sentiment.",
+  "trigger": "Nvidia earnings after close",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261117_95ce1a",
+  "headline": "Trump's CFTC nominees Rowland and Anonick face Senate questions on prediction markets",
+  "summary": "At a Senate Agriculture Committee hearing, CFTC nominees Matthew Rowland and Nathan Anonick were pressed on prediction markets and sports event contracts amid lawsuits between the CFTC and nearly a dozen states. A committee vote and full Senate vote come next, with the January deadline tight.",
+  "detected_at": "2026-11-17T19:14-05:00",
+  "active_since": "2026-11-17T19:14-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.85,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "regulatory",
+  "event_time": "2026-11-17T18:31-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/regulation/2026-11-17-trumps-cftc-picks-face-senate-scrutiny-as-prediction-market-turf-war-heats-up-442909"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-17-trumps-cftc-picks-face-senate-scrutiny-as-prediction-market-turf-war-heats-up-442909",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-17-trumps-cftc-picks-face-senate-scrutiny-as-prediction-market-turf-war-heats-up-442909",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-11-17-trumps-cftc-picks-face-senate-scrutiny-as-prediction-market-turf-war-heats-up-442909",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Confirmation hearing, no decision yet."
+  ],
+  "market_significance": "Fills out a CFTC that currently has one commissioner.",
+  "trigger": "The Block report",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
  }
 ]
