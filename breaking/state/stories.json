@@ -69058,11 +69058,15 @@
   "emergency": false,
   "source_urls": [
    "https://www.coindesk.com/daybook-us/2026/11/17/crypto-s-casino-chips-are-disappearing-adding-to-pain-from-spot-etf-outflows",
-   "https://coincodex.com/article/95501/daily-market-update-for-november-17-2026/"
+   "https://coincodex.com/article/95501/daily-market-update-for-november-17-2026/",
+   "https://www.analyticsinsight.net/price-analysis/crypto-prices-today-bitcoin-near-usd-64688-zcash-gains-341-in-24-hours",
+   "https://www.goodman-macro.com/en/articles/20261118-crypto-market/"
   ],
   "source_names": [
    "CoinDesk",
-   "CoinCodex"
+   "CoinCodex",
+   "Analytics Insight",
+   "Goodman Macro"
   ],
   "sources": [
    {
@@ -69075,6 +69079,20 @@
    {
     "url": "https://coincodex.com/article/95501/daily-market-update-for-november-17-2026/",
     "name": "CoinCodex",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.analyticsinsight.net/price-analysis/crypto-prices-today-bitcoin-near-usd-64688-zcash-gains-341-in-24-hours",
+    "name": "Analytics Insight",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.goodman-macro.com/en/articles/20261118-crypto-market/",
+    "name": "Goodman Macro",
     "kind": "other",
     "checked": true,
     "confirms": true
@@ -69091,6 +69109,20 @@
    {
     "url": "https://coincodex.com/article/95501/daily-market-update-for-november-17-2026/",
     "name": "CoinCodex",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.analyticsinsight.net/price-analysis/crypto-prices-today-bitcoin-near-usd-64688-zcash-gains-341-in-24-hours",
+    "name": "Analytics Insight",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.goodman-macro.com/en/articles/20261118-crypto-market/",
+    "name": "Goodman Macro",
     "kind": "other",
     "checked": true,
     "confirms": true
@@ -69114,6 +69146,20 @@
     {
      "name": "CoinCodex",
      "url": "https://coincodex.com/article/95501/daily-market-update-for-november-17-2026/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Analytics Insight",
+     "url": "https://www.analyticsinsight.net/price-analysis/crypto-prices-today-bitcoin-near-usd-64688-zcash-gains-341-in-24-hours",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Goodman Macro",
+     "url": "https://www.goodman-macro.com/en/articles/20261118-crypto-market/",
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
@@ -69154,6 +69200,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-18T07:09-05:00",
+    "headline": "Crypto steady overnight: bitcoin near $64,700, XRP back near $1 and solana up about 3%",
+    "summary": "Bitcoin trades near $64,700, up about 0.3% in 24 hours; ether near $1,814 up about 1.4%; XRP near $0.98 up about 2%; solana near $75 up about 3%.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
     "verification": "UNVERIFIED"
    }
   ],
@@ -70218,6 +70273,427 @@
   ],
   "market_significance": "Signals CFTC direction on 24/7 markets and tokenized collateral",
   "trigger": "crypto.news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261118_648200",
+  "headline": "DBS lets eligible institutions in Asia mint and redeem USDC around the clock with Circle",
+  "summary": "DBS and Circle give eligible institutional clients in Asia direct USDC minting and redemption through DBS, with 24/7 dollar-USDC settlement, building on MAS Project BLOOM.",
+  "detected_at": "2026-11-18T07:09-05:00",
+  "active_since": "2026-11-18T07:09-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "USDC"
+  ],
+  "event_type": "partnership",
+  "event_time": "2026-11-18T04:28-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-11-18-dbs-circle-usdc-asia-442970"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-18-dbs-circle-usdc-asia-442970",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-18-dbs-circle-usdc-asia-442970",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-18-dbs-circle-usdc-asia-442970",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Bank access expansion for an existing stablecoin; incremental."
+  ],
+  "market_significance": "More round-the-clock bank rails for USDC in Asia.",
+  "trigger": "DBS newsroom statement Nov 18",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261118_5c8adf",
+  "headline": "World Bank Group taps Circle and Citi to test stablecoin-based fund disbursements",
+  "summary": "The World Bank Group is exploring regulated dollar stablecoins with Citi and Circle to speed up development fund disbursements, building on its FundsChain platform.",
+  "detected_at": "2026-11-18T07:09-05:00",
+  "active_since": "2026-11-18T07:09-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "USDC",
+   "TOTAL_MARKET"
+  ],
+  "event_type": "institutional",
+  "event_time": "2026-11-17T23:21-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-11-17-world-bank-group-citi-circle-fund-disbursements-442924"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-17-world-bank-group-citi-circle-fund-disbursements-442924",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-17-world-bank-group-citi-circle-fund-disbursements-442924",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-17-world-bank-group-citi-circle-fund-disbursements-442924",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Exploration/test stage, not a live rollout."
+  ],
+  "market_significance": "A major development lender testing stablecoin payment rails.",
+  "trigger": "World Bank press release Nov 17",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261118_6adf9d",
+  "headline": "Coinbase says its AI defense blocked $4.7 million from going to a deepfake Elon Musk scam",
+  "summary": "Coinbase says AI-based protections stopped about $4.7 million in user transfers to a deepfake Elon Musk giveaway scam.",
+  "detected_at": "2026-11-18T07:09-05:00",
+  "active_since": "2026-11-18T07:09-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "exchange",
+  "event_time": "2026-11-17T21:47-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/defi/2026-11-17-coinbase-ai-defense-deepfake-elon-musk-442918"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/defi/2026-11-17-coinbase-ai-defense-deepfake-elon-musk-442918",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/defi/2026-11-17-coinbase-ai-defense-deepfake-elon-musk-442918",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/defi/2026-11-17-coinbase-ai-defense-deepfake-elon-musk-442918",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Scam prevention update; no loss."
+  ],
+  "market_significance": "Shows deepfake scams targeting crypto users.",
+  "trigger": "The Block report",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261118_29f8d9",
+  "headline": "Hong Kong Monetary Authority explores agentic AI to detect crypto-related financial crime",
+  "summary": "Hong Kong's central bank is exploring agentic AI tools to help detect crypto-related financial crime.",
+  "detected_at": "2026-11-18T07:09-05:00",
+  "active_since": "2026-11-18T07:09-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "regulatory",
+  "event_time": "2026-11-18T03:43-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/regulation/2026-11-18-hong-kong-agentic-ai-crypto-crime-442959"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-18-hong-kong-agentic-ai-crypto-crime-442959",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-18-hong-kong-agentic-ai-crypto-crime-442959",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-11-18-hong-kong-agentic-ai-crypto-crime-442959",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Exploratory regulator initiative."
+  ],
+  "market_significance": "Regulators adopting AI for crypto oversight.",
+  "trigger": "The Block report",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261118_fcfb3a",
+  "headline": "TD Cowen tempers its ether outlook but keeps a Buy rating on SharpLink",
+  "summary": "TD Cowen lowered its ether outlook while maintaining a Buy rating on ether treasury firm SharpLink.",
+  "detected_at": "2026-11-18T07:09-05:00",
+  "active_since": "2026-11-18T07:09-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "ETH"
+  ],
+  "event_type": "institutional",
+  "event_time": "2026-11-18T06:08-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/ecosystems/2026-11-18-td-cowen-maintains-buy-rating-sharplink-442987"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/ecosystems/2026-11-18-td-cowen-maintains-buy-rating-sharplink-442987",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/ecosystems/2026-11-18-td-cowen-maintains-buy-rating-sharplink-442987",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/ecosystems/2026-11-18-td-cowen-maintains-buy-rating-sharplink-442987",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Analyst note."
+  ],
+  "market_significance": "Sell-side caution on ether.",
+  "trigger": "The Block report",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261118_c6bd77",
+  "headline": "Binance Wallet launches a $500 million Anthropic IPO tokenized stock campaign",
+  "summary": "Binance Wallet is running a $500 million campaign tied to tokenized exposure to Anthropic's IPO, crypto.news reports.",
+  "detected_at": "2026-11-18T07:09-05:00",
+  "active_since": "2026-11-18T07:09-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "BNB"
+  ],
+  "event_type": "exchange",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://crypto.news/binance-wallet-launches-500-million-anthropic-ipo-tokenized-stock-campaign/"
+  ],
+  "source_names": [
+   "crypto.news"
+  ],
+  "sources": [
+   {
+    "url": "https://crypto.news/binance-wallet-launches-500-million-anthropic-ipo-tokenized-stock-campaign/",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://crypto.news/binance-wallet-launches-500-million-anthropic-ipo-tokenized-stock-campaign/",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/binance-wallet-launches-500-million-anthropic-ipo-tokenized-stock-campaign/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Single-outlet product promotion."
+  ],
+  "market_significance": "Tokenized pre-IPO stock demand.",
+  "trigger": "crypto.news report",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
