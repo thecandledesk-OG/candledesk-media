@@ -66894,6 +66894,15 @@
     "level": "NORMAL",
     "sources_added": 1,
     "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-19T13:09-05:00",
+    "headline": "Singapore's MAS issues $77 million in tokenized bills settled with a CBDC",
+    "summary": "The Block reports the Monetary Authority of Singapore issued about $77 million of tokenized bills settled via wholesale central bank digital currency.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
    }
   ],
   "posts": [],
@@ -73959,6 +73968,286 @@
   ],
   "market_significance": "Yield outlook",
   "trigger": "The Block latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261119_e590d4",
+  "headline": "CFTC chair Selig says Hyperliquid-style onchain venues must register or partner with a US exchange to serve US traders",
+  "summary": "Speaking at The Hill and The Block's Capitol Crypto Forum, CFTC Chairman Michael Selig said onchain derivatives venues can keep their technology but must get their own exchange license or partner with a registered one. He also said single-stock perpetuals are futures, not swaps. Remarks only, no new rule.",
+  "detected_at": "2026-11-19T13:09-05:00",
+  "active_since": "2026-11-19T13:09-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.85,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "regulatory",
+  "event_time": "2026-11-19T13:00-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://theblock.co/news/regulation/2026-11-19-cftc-chair-selig-hyperliquid-onchain-venues-the-us-444106"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://theblock.co/news/regulation/2026-11-19-cftc-chair-selig-hyperliquid-onchain-venues-the-us-444106",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://theblock.co/news/regulation/2026-11-19-cftc-chair-selig-hyperliquid-onchain-venues-the-us-444106",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://theblock.co/news/regulation/2026-11-19-cftc-chair-selig-hyperliquid-onchain-venues-the-us-444106",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Interview remarks, no formal action"
+  ],
+  "market_significance": "Signals the US path for offshore perp venues",
+  "trigger": "The Block report",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261119_a5c58b",
+  "headline": "Inca Digital says $518 million in illicit-linked funds, $101.9 million tied to North Korea, moved through Sky's stablecoin swap module",
+  "summary": "CoinDesk reports an Inca Digital study finding 422 illicit-linked wallets routed $518 million through Sky's Peg Stability Module, including $101.9 million tied to North Korean actors. The module's roughly $2.7 billion USDC reserve sits in a single address, so a court-ordered freeze could disrupt DAI and USDS.",
+  "detected_at": "2026-11-19T13:09-05:00",
+  "active_since": "2026-11-19T13:09-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "other",
+  "event_time": "2026-11-19T06:30-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/business/2026/11/19/north-korean-hackers-used-sky-s-stablecoin-system-putting-billions-at-freeze-risk"
+  ],
+  "source_names": [
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/business/2026/11/19/north-korean-hackers-used-sky-s-stablecoin-system-putting-billions-at-freeze-risk",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/business/2026/11/19/north-korean-hackers-used-sky-s-stablecoin-system-putting-billions-at-freeze-risk",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/business/2026/11/19/north-korean-hackers-used-sky-s-stablecoin-system-putting-billions-at-freeze-risk",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Research report on past flows, no new hack or freeze"
+  ],
+  "market_significance": "Highlights freeze risk for DAI/USDS backing",
+  "trigger": "CoinDesk report",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261119_3830ac",
+  "headline": "Senate's Hill and Moreno blame delays for missing the Clarity Act window this year",
+  "summary": "The Block reports Senators Hill and Moreno blamed delays for the crypto market structure bill missing its window, while differing on how far regulators should go with rulemaking in the meantime.",
+  "detected_at": "2026-11-19T13:09-05:00",
+  "active_since": "2026-11-19T13:09-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "regulatory",
+  "event_time": "2026-11-19T11:01-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/regulation/2026-11-19-hill-moreno-blame-delays-missed-clarity-act-window-split-regulators-fill-gap-443615"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-19-hill-moreno-blame-delays-missed-clarity-act-window-split-regulators-fill-gap-443615",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-19-hill-moreno-blame-delays-missed-clarity-act-window-split-regulators-fill-gap-443615",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-11-19-hill-moreno-blame-delays-missed-clarity-act-window-split-regulators-fill-gap-443615",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Political commentary, no legislative action"
+  ],
+  "market_significance": "Market structure bill timeline slips",
+  "trigger": "The Block report",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261119_2867e8",
+  "headline": "Bitcoin finance protocol Hashi goes live on Sui mainnet",
+  "summary": "The Block reports Hashi, a bitcoin finance protocol, launched on the Sui mainnet.",
+  "detected_at": "2026-11-19T13:09-05:00",
+  "active_since": "2026-11-19T13:09-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "protocol_upgrade",
+  "event_time": "2026-11-19T09:00-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/defi/2026-11-19-bitcoin-finance-protocol-hashi-goes-live-on-sui-mainnet-443608"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/defi/2026-11-19-bitcoin-finance-protocol-hashi-goes-live-on-sui-mainnet-443608",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/defi/2026-11-19-bitcoin-finance-protocol-hashi-goes-live-on-sui-mainnet-443608",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/defi/2026-11-19-bitcoin-finance-protocol-hashi-goes-live-on-sui-mainnet-443608",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Small product launch"
+  ],
+  "market_significance": "Minor",
+  "trigger": "The Block report",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
