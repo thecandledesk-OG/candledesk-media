@@ -69973,14 +69973,16 @@
    "https://www.thecoinrepublic.com/2026/11/17/binance-news-hacker-moves-136-8m-in-stolen-ether-via-thorchain/",
    "https://www.theblock.co/news/business/2026-11-18-binance-freezing-court-order-adgm-crypto-october-hack-443491",
    "https://cointelegraph.com/news/binance-says-won-65b-worldwide-freezing-order-after-hack",
-   "https://www.bloomberg.com/news/articles/2026-11-18/binance-secures-6-5-billion-freezing-order-from-abu-dhabi-court"
+   "https://www.bloomberg.com/news/articles/2026-11-18/binance-secures-6-5-billion-freezing-order-from-abu-dhabi-court",
+   "https://panews.io/articles/01a1f188-3f8d-7174-8d5d-32296ce5c7e0#item-2"
   ],
   "source_names": [
    "Decrypt",
    "The Coin Republic",
    "The Block",
    "Cointelegraph",
-   "Bloomberg"
+   "Bloomberg",
+   "PANews"
   ],
   "sources": [
    {
@@ -70017,6 +70019,13 @@
     "kind": "secondary",
     "checked": false,
     "confirms": false
+   },
+   {
+    "url": "https://panews.io/articles/01a1f188-3f8d-7174-8d5d-32296ce5c7e0#item-2",
+    "name": "PANews",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -70040,6 +70049,13 @@
     "kind": "secondary",
     "checked": false,
     "confirms": false
+   },
+   {
+    "url": "https://panews.io/articles/01a1f188-3f8d-7174-8d5d-32296ce5c7e0#item-2",
+    "name": "PANews",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "VERIFIED",
@@ -70070,6 +70086,13 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "PANews",
+     "url": "https://panews.io/articles/01a1f188-3f8d-7174-8d5d-32296ce5c7e0#item-2",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -70099,6 +70122,15 @@
     "new_development": true,
     "level": "IMPORTANT",
     "sources_added": 3,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-18T22:14-05:00",
+    "headline": "Binance hacker moves another 78,415 ETH, about $142 million, and keeps swapping it to bitcoin via THORChain",
+    "summary": "Onchain trackers report the Binance hack wallet moved another 78,415 ether, about 142 million dollars, and is converting it to bitcoin through THORChain. Laundering of the October hack funds continues.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "VERIFIED"
    }
   ],
@@ -71907,13 +71939,15 @@
    "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
    "https://www.altcoinbuzz.io/bitcoin-below-63000-fed-rate-hike-december",
    "https://phemex.com/news/article/fed-minutes-signal-more-rate-hikes-after-october-pause-btc-eth-slip-on-release-104072",
-   "https://cryptoticker.io/en/crypto-news-gold-price-drops-3-percent-bitcoin/"
+   "https://cryptoticker.io/en/crypto-news-gold-price-drops-3-percent-bitcoin/",
+   "https://sg.finance.yahoo.com/cryptocurrencies/"
   ],
   "source_names": [
    "Federal Reserve",
    "Altcoin Buzz",
    "Phemex News",
-   "CryptoTicker"
+   "CryptoTicker",
+   "Yahoo Finance"
   ],
   "sources": [
    {
@@ -71941,6 +71975,13 @@
     "url": "https://cryptoticker.io/en/crypto-news-gold-price-drops-3-percent-bitcoin/",
     "name": "CryptoTicker",
     "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://sg.finance.yahoo.com/cryptocurrencies/",
+    "name": "Yahoo Finance",
+    "kind": "secondary",
     "checked": true,
     "confirms": true
    }
@@ -71973,15 +72014,22 @@
     "kind": "other",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://sg.finance.yahoo.com/cryptocurrencies/",
+    "name": "Yahoo Finance",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
-  "verification_status": "UNVERIFIED",
+  "verification_status": "VERIFIED",
   "verification": {
-   "status": "UNVERIFIED",
-   "independent_sources": 1,
+   "status": "VERIFIED",
+   "independent_sources": 2,
    "has_primary": true,
-   "score": 0.6,
-   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "score": 1.0,
+   "reason": "2 independent credible sources confirm it (incl. a primary source)",
    "sources_checked": [
     {
      "name": "Federal Reserve",
@@ -72010,6 +72058,13 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Yahoo Finance",
+     "url": "https://sg.finance.yahoo.com/cryptocurrencies/",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -72021,7 +72076,17 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-11-18T22:14-05:00",
+    "headline": "Bitcoin slips to about $62,500 overnight, down about 3% on the day; ETH, XRP and SOL lower by about 2%",
+    "summary": "Bitcoin trades near 62,500 dollars, down about 2.8 percent in 24 hours after hawkish Fed minutes. Ether is near 1,770, XRP near 96 cents and Solana near 73, each down about 2 percent.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -72579,6 +72644,289 @@
   ],
   "market_significance": "Security context after recent hacks",
   "trigger": "Decrypt interview",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261118_718875",
+  "headline": "K3 Capital's sBOLD vault on Ethereum loses about $3.43 million in an ongoing attack",
+  "summary": "The sBOLD vault run by K3 Capital lost about 3.43 million dollars across roughly 34 transactions, and the attack was reported as ongoing.",
+  "detected_at": "2026-11-18T22:14-05:00",
+  "active_since": "2026-11-18T22:14-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "ETH"
+  ],
+  "event_type": "hack_exploit",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {
+   "loss_usd": 3430000
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://panews.io/articles/01a1f188-3f8d-7174-8d5d-32296ce5c7e0#item-10"
+  ],
+  "source_names": [
+   "PANews"
+  ],
+  "sources": [
+   {
+    "url": "https://panews.io/articles/01a1f188-3f8d-7174-8d5d-32296ce5c7e0#item-10",
+    "name": "PANews",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://panews.io/articles/01a1f188-3f8d-7174-8d5d-32296ce5c7e0#item-10",
+    "name": "PANews",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "PANews",
+     "url": "https://panews.io/articles/01a1f188-3f8d-7174-8d5d-32296ce5c7e0#item-10",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Loss under the 10 million dollar threshold; single aggregator source.",
+   "hack rule: about $3M lost (thresholds $10M/$100M) -> NORMAL"
+  ],
+  "market_significance": "Another DeFi vault exploit in a busy month for hacks.",
+  "trigger": "PANews overnight roundup",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261118_065d94",
+  "headline": "S&P keeps Tether's USDT at 5, its weakest peg rating, as risk assets rise to 28% of reserves; Tether pushes back",
+  "summary": "S&P Global Ratings kept USDT's stability score at 5, weak, saying riskier assets rose to 28 percent of supply. Tether said the problem is S&P's framework, not its reserves.",
+  "detected_at": "2026-11-18T22:14-05:00",
+  "active_since": "2026-11-18T22:14-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.55,
+  "assets": [
+   "USDT"
+  ],
+  "event_type": "other",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://panews.io/articles/01a1f188-3f8d-7174-8d5d-32296ce5c7e0#item-15"
+  ],
+  "source_names": [
+   "PANews"
+  ],
+  "sources": [
+   {
+    "url": "https://panews.io/articles/01a1f188-3f8d-7174-8d5d-32296ce5c7e0#item-15",
+    "name": "PANews",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://panews.io/articles/01a1f188-3f8d-7174-8d5d-32296ce5c7e0#item-15",
+    "name": "PANews",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "PANews",
+     "url": "https://panews.io/articles/01a1f188-3f8d-7174-8d5d-32296ce5c7e0#item-15",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Rating reaffirmed, not changed."
+  ],
+  "market_significance": "Stablecoin reserve scrutiny continues.",
+  "trigger": "PANews overnight roundup",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261118_78410b",
+  "headline": "Goldman Sachs more than doubles its spot bitcoin ETF holdings to about $1.28 billion in Q3 filing",
+  "summary": "Goldman Sachs' latest 13F shows spot bitcoin ETF holdings up about 121 percent quarter over quarter to roughly 1.28 billion dollars, while it cut its Strategy stake by about half.",
+  "detected_at": "2026-11-18T22:14-05:00",
+  "active_since": "2026-11-18T22:14-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "institutional",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://panews.io/articles/01a1f188-3f8d-7174-8d5d-32296ce5c7e0#item-30"
+  ],
+  "source_names": [
+   "PANews"
+  ],
+  "sources": [
+   {
+    "url": "https://panews.io/articles/01a1f188-3f8d-7174-8d5d-32296ce5c7e0#item-30",
+    "name": "PANews",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://panews.io/articles/01a1f188-3f8d-7174-8d5d-32296ce5c7e0#item-30",
+    "name": "PANews",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "PANews",
+     "url": "https://panews.io/articles/01a1f188-3f8d-7174-8d5d-32296ce5c7e0#item-30",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Quarterly 13F disclosure, routine institutional data."
+  ],
+  "market_significance": "Big banks kept adding ETF exposure in Q3.",
+  "trigger": "PANews overnight roundup",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261118_1ec803",
+  "headline": "Babylon co-founder proposes ending bitcoin staking by the end of 2026 to cut BABY inflation",
+  "summary": "Babylon co-founder Fisher Yu proposed ending bitcoin staking by year end, which would cut BABY inflation from five and a half percent to two percent. About 41,556 bitcoin is staked. Not yet approved.",
+  "detected_at": "2026-11-18T22:14-05:00",
+  "active_since": "2026-11-18T22:14-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "protocol_upgrade",
+  "event_time": null,
+  "scheduled_event": true,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://panews.io/articles/01a1f188-3f8d-7174-8d5d-32296ce5c7e0#item-33"
+  ],
+  "source_names": [
+   "PANews"
+  ],
+  "sources": [
+   {
+    "url": "https://panews.io/articles/01a1f188-3f8d-7174-8d5d-32296ce5c7e0#item-33",
+    "name": "PANews",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://panews.io/articles/01a1f188-3f8d-7174-8d5d-32296ce5c7e0#item-33",
+    "name": "PANews",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "PANews",
+     "url": "https://panews.io/articles/01a1f188-3f8d-7174-8d5d-32296ce5c7e0#item-33",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Proposal only, not approved."
+  ],
+  "market_significance": "Largest bitcoin staking protocol may wind down staking.",
+  "trigger": "PANews overnight roundup",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
