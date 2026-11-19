@@ -7541,7 +7541,10 @@
    "https://www.coindesk.com/tech/2026/10/13/ledger-says-spy-chip-inside-cryptobilis-ledger-devices-transmitted-wallet-keys-over-mobile-network",
    "https://decrypt.co/380826/ledger-finds-lte-implant-that-stole-recovery-phrases-in-suspected-86m-drain",
    "https://x.com/Ledger/status/2109896739985453358",
-   "https://www.theblock.co/news/business/2026-10-13-ledger-confirms-hardware-implant-cryptobilis-reseller-units-mediamarkt-suspends-sales-europe-418442"
+   "https://www.theblock.co/news/business/2026-10-13-ledger-confirms-hardware-implant-cryptobilis-reseller-units-mediamarkt-suspends-sales-europe-418442",
+   "https://support.ledger.com/article/Update-on-the-Hardware-Implant-Incident-Investigation?redirect=false",
+   "https://www.theblock.co/news/web3/2026-11-18-ledger-new-hardware-incidents-germany-uae-443530",
+   "https://decrypt.co/383586/ledger-confirms-tampered-bitcoin-wallets-berlin-spreads-beyond-asia"
   ],
   "source_names": [
    "CoinDesk",
@@ -7553,7 +7556,10 @@
    "CoinDesk",
    "Decrypt",
    "Ledger on X",
-   "The Block"
+   "The Block",
+   "Ledger Support",
+   "The Block",
+   "Decrypt"
   ],
   "sources": [
    {
@@ -7624,6 +7630,27 @@
     "name": "The Block",
     "kind": "secondary",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://support.ledger.com/article/Update-on-the-Hardware-Implant-Incident-Investigation?redirect=false",
+    "name": "Ledger Support",
+    "kind": "primary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/web3/2026-11-18-ledger-new-hardware-incidents-germany-uae-443530",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/383586/ledger-confirms-tampered-bitcoin-wallets-berlin-spreads-beyond-asia",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -7696,6 +7723,27 @@
     "name": "The Block",
     "kind": "secondary",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://support.ledger.com/article/Update-on-the-Hardware-Implant-Incident-Investigation?redirect=false",
+    "name": "Ledger Support",
+    "kind": "primary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/web3/2026-11-18-ledger-new-hardware-incidents-germany-uae-443530",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/383586/ledger-confirms-tampered-bitcoin-wallets-berlin-spreads-beyond-asia",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -7776,6 +7824,27 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "Ledger Support",
+     "url": "https://support.ledger.com/article/Update-on-the-Hardware-Implant-Incident-Investigation?redirect=false",
+     "category": "primary",
+     "counts": false,
+     "note": "primary (claimed official source; domain not on the known list); not opened, so it doesn't count"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/web3/2026-11-18-ledger-new-hardware-incidents-germany-uae-443530",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/383586/ledger-confirms-tampered-bitcoin-wallets-berlin-spreads-beyond-asia",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
     }
    ]
   },
@@ -7841,6 +7910,15 @@
     "new_development": true,
     "level": "IMPORTANT",
     "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-19T10:10-05:00",
+    "headline": "Ledger finds tampered hardware wallets in Berlin and Dubai, widening its implant probe beyond Asia",
+    "summary": "Ledger says new cases in Germany and the UAE are the same physical-implant incident as Southeast Asia; it says there is no chip or OS flaw. Bitquery estimates about $1.68M stolen from 16 wallets; Ledger has not confirmed losses.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 3,
     "verification": "VERIFIED"
    }
   ],
@@ -8372,10 +8450,12 @@
   "metrics": {},
   "emergency": false,
   "source_urls": [
-   "https://www.coindesk.com/markets/2026/10/09/new-tech-to-power-bitcoin-lending-is-set-to-debut-with-usd500-million-in-commitments"
+   "https://www.coindesk.com/markets/2026/10/09/new-tech-to-power-bitcoin-lending-is-set-to-debut-with-usd500-million-in-commitments",
+   "https://www.theblock.co/news/defi/2026-11-19-bitcoin-finance-protocol-hashi-goes-live-on-sui-mainnet-443608"
   ],
   "source_names": [
-   "CoinDesk"
+   "CoinDesk",
+   "The Block"
   ],
   "sources": [
    {
@@ -8383,6 +8463,13 @@
     "name": "CoinDesk",
     "kind": "secondary",
     "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/defi/2026-11-19-bitcoin-finance-protocol-hashi-goes-live-on-sui-mainnet-443608",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
     "confirms": true
    }
   ],
@@ -8393,15 +8480,22 @@
     "kind": "secondary",
     "checked": false,
     "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/defi/2026-11-19-bitcoin-finance-protocol-hashi-goes-live-on-sui-mainnet-443608",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "UNVERIFIED",
   "verification": {
    "status": "UNVERIFIED",
-   "independent_sources": 0,
+   "independent_sources": 1,
    "has_primary": false,
-   "score": 0.0,
-   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
    "sources_checked": [
     {
      "name": "CoinDesk",
@@ -8409,6 +8503,13 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/defi/2026-11-19-bitcoin-finance-protocol-hashi-goes-live-on-sui-mainnet-443608",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -8420,7 +8521,17 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-11-19T10:10-05:00",
+    "headline": "Sui's Hashi bitcoin finance protocol goes live on mainnet, minting hBTC one-to-one",
+    "summary": "Hashi launched on Sui mainnet on November 19, holding BTC on Bitcoin and minting hBTC on Sui; Fluid accepts hBTC as collateral and institutions can access it via Anchorage's Porto. Sui previously cited $500M+ in commitments.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -66703,15 +66814,24 @@
   "metrics": {},
   "emergency": false,
   "source_urls": [
-   "https://coindesk.com/business/2026/11/16/singapore-germany-test-cross-border-payments-to-reduce-settlement-risk"
+   "https://coindesk.com/business/2026/11/16/singapore-germany-test-cross-border-payments-to-reduce-settlement-risk",
+   "https://www.theblock.co/news/web3/2026-11-19-singapores-mas-tokenized-bills-443562"
   ],
   "source_names": [
-   "CoinDesk"
+   "CoinDesk",
+   "The Block"
   ],
   "sources": [
    {
     "url": "https://coindesk.com/business/2026/11/16/singapore-germany-test-cross-border-payments-to-reduce-settlement-risk",
     "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/web3/2026-11-19-singapores-mas-tokenized-bills-443562",
+    "name": "The Block",
     "kind": "secondary",
     "checked": false,
     "confirms": true
@@ -66721,6 +66841,13 @@
    {
     "url": "https://coindesk.com/business/2026/11/16/singapore-germany-test-cross-border-payments-to-reduce-settlement-risk",
     "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/web3/2026-11-19-singapores-mas-tokenized-bills-443562",
+    "name": "The Block",
     "kind": "secondary",
     "checked": false,
     "confirms": true
@@ -66740,6 +66867,13 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/web3/2026-11-19-singapores-mas-tokenized-bills-443562",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
     }
    ]
   },
@@ -66751,7 +66885,17 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-11-19T10:10-05:00",
+    "headline": "Singapore's MAS issues $77 million in tokenized bills settled with wholesale CBDC",
+    "summary": "The Monetary Authority of Singapore issued about $77M of tokenized MAS bills settled via CBDC.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -71940,14 +72084,18 @@
    "https://www.altcoinbuzz.io/bitcoin-below-63000-fed-rate-hike-december",
    "https://phemex.com/news/article/fed-minutes-signal-more-rate-hikes-after-october-pause-btc-eth-slip-on-release-104072",
    "https://cryptoticker.io/en/crypto-news-gold-price-drops-3-percent-bitcoin/",
-   "https://sg.finance.yahoo.com/cryptocurrencies/"
+   "https://sg.finance.yahoo.com/cryptocurrencies/",
+   "https://thecryptodesk.substack.com/p/the-crypto-desk-thursday-19-november",
+   "https://www.coingabbar.com/en/crypto-news-nov-19-bitcoin-gold-silver-dips-fed-meeting-minutes"
   ],
   "source_names": [
    "Federal Reserve",
    "Altcoin Buzz",
    "Phemex News",
    "CryptoTicker",
-   "Yahoo Finance"
+   "Yahoo Finance",
+   "The Crypto Desk",
+   "Coin Gabbar"
   ],
   "sources": [
    {
@@ -71981,6 +72129,20 @@
    {
     "url": "https://sg.finance.yahoo.com/cryptocurrencies/",
     "name": "Yahoo Finance",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://thecryptodesk.substack.com/p/the-crypto-desk-thursday-19-november",
+    "name": "The Crypto Desk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coingabbar.com/en/crypto-news-nov-19-bitcoin-gold-silver-dips-fed-meeting-minutes",
+    "name": "Coin Gabbar",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -72018,6 +72180,20 @@
    {
     "url": "https://sg.finance.yahoo.com/cryptocurrencies/",
     "name": "Yahoo Finance",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://thecryptodesk.substack.com/p/the-crypto-desk-thursday-19-november",
+    "name": "The Crypto Desk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coingabbar.com/en/crypto-news-nov-19-bitcoin-gold-silver-dips-fed-meeting-minutes",
+    "name": "Coin Gabbar",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -72065,6 +72241,20 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "The Crypto Desk",
+     "url": "https://thecryptodesk.substack.com/p/the-crypto-desk-thursday-19-november",
+     "category": "social",
+     "counts": false,
+     "note": "social/community post — can trigger investigation, never verifies"
+    },
+    {
+     "name": "Coin Gabbar",
+     "url": "https://www.coingabbar.com/en/crypto-news-nov-19-bitcoin-gold-silver-dips-fed-meeting-minutes",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -72074,7 +72264,7 @@
   "market_significance": "Raises odds of a December hike, a headwind for risk assets",
   "trigger": "Fed press release 2 PM ET",
   "content_created": false,
-  "publication_status": "QUEUED_FOR_DAILY",
+  "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
   "updates": [
    {
@@ -72084,6 +72274,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-19T10:09-05:00",
+    "headline": "Fed minutes flag another rate hike; futures price 95% odds for December",
+    "summary": "Check the yields first. Fed minutes flag another hike. Futures price ninety-five percent odds.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
     "verification": "VERIFIED"
    }
   ],
@@ -73160,6 +73359,606 @@
   ],
   "market_significance": "Tokenized settlement adoption in Asia",
   "trigger": "The Block report",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261119_c682bc",
+  "headline": "Crypto Fear and Greed index hits 10, extreme fear",
+  "summary": "Here's what moved the chain today. Crypto fear and greed just hit ten. Extreme fear.",
+  "detected_at": "2026-11-19T10:09-05:00",
+  "active_since": "2026-11-19T10:09-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "market_move",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://thecryptodesk.substack.com/p/the-crypto-desk-thursday-19-november",
+   "https://www.coingabbar.com/en/crypto-news-nov-19-bitcoin-gold-silver-dips-fed-meeting-minutes"
+  ],
+  "source_names": [
+   "The Crypto Desk",
+   "Coin Gabbar"
+  ],
+  "sources": [
+   {
+    "url": "https://thecryptodesk.substack.com/p/the-crypto-desk-thursday-19-november",
+    "name": "The Crypto Desk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coingabbar.com/en/crypto-news-nov-19-bitcoin-gold-silver-dips-fed-meeting-minutes",
+    "name": "Coin Gabbar",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://thecryptodesk.substack.com/p/the-crypto-desk-thursday-19-november",
+    "name": "The Crypto Desk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coingabbar.com/en/crypto-news-nov-19-bitcoin-gold-silver-dips-fed-meeting-minutes",
+    "name": "Coin Gabbar",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Crypto Desk",
+     "url": "https://thecryptodesk.substack.com/p/the-crypto-desk-thursday-19-november",
+     "category": "social",
+     "counts": false,
+     "note": "social/community post — can trigger investigation, never verifies"
+    },
+    {
+     "name": "Coin Gabbar",
+     "url": "https://www.coingabbar.com/en/crypto-news-nov-19-bitcoin-gold-silver-dips-fed-meeting-minutes",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [
+   {
+    "at": "2026-11-19T10:09-05:00",
+    "headline": "Bitcoin shrugs off hawkish Fed minutes and climbs back near $64,000",
+    "summary": "Green candles only! Bitcoin shrugged off hawkish Fed minutes and climbed back near sixty-four thousand!",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   }
+  ],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261119_836fc8",
+  "headline": "Bitcoin ETFs lose $306 million in a day with no fund seeing inflows",
+  "summary": "Psst... bitcoin ETFs bled three hundred six million dollars yesterday. Not one fund saw inflows.",
+  "detected_at": "2026-11-19T10:09-05:00",
+  "active_since": "2026-11-19T10:09-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "etf",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://coinpaper.com/39052/bitcoin-et-fs-lose-another-306-million-november-outflows-near-2-9-billion"
+  ],
+  "source_names": [
+   "Coinpaper"
+  ],
+  "sources": [
+   {
+    "url": "https://coinpaper.com/39052/bitcoin-et-fs-lose-another-306-million-november-outflows-near-2-9-billion",
+    "name": "Coinpaper",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://coinpaper.com/39052/bitcoin-et-fs-lose-another-306-million-november-outflows-near-2-9-billion",
+    "name": "Coinpaper",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Coinpaper",
+     "url": "https://coinpaper.com/39052/bitcoin-et-fs-lose-another-306-million-november-outflows-near-2-9-billion",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261119_2ae170",
+  "headline": "GTA VI launch day: Blockaid flags 8,800+ risky GTA tokens on Solana",
+  "summary": "GTA Six launches today, and Blockaid flagged eighty-eight hundred Solana GTA tokens as risky.",
+  "detected_at": "2026-11-19T10:09-05:00",
+  "active_since": "2026-11-19T10:09-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "SOL"
+  ],
+  "event_type": "other",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://crypto.news/gta-vi-crypto-scams-surge-as-blockaid-flags-over-8800-solana-tokens/"
+  ],
+  "source_names": [
+   "crypto.news"
+  ],
+  "sources": [
+   {
+    "url": "https://crypto.news/gta-vi-crypto-scams-surge-as-blockaid-flags-over-8800-solana-tokens/",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://crypto.news/gta-vi-crypto-scams-surge-as-blockaid-flags-over-8800-solana-tokens/",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/gta-vi-crypto-scams-surge-as-blockaid-flags-over-8800-solana-tokens/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261119_24042c",
+  "headline": "Bitcoin struggles to hold $64,000 as November spot ETF outflows reach $2.9 billion",
+  "summary": "BTC near $63,800 (-0.9% 24h), down about 13% on the week; ETH about $1,806 (flat), XRP $0.98 (-1.7%), SOL $74.49 (-0.4%). Spot BTC ETFs lost $306.4M Wednesday. Traders price about 91% odds of a December 9 quarter-point Fed hike.",
+  "detected_at": "2026-11-19T10:10-05:00",
+  "active_since": "2026-11-19T10:10-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.85,
+  "assets": [
+   "BTC",
+   "ETH",
+   "XRP",
+   "SOL"
+  ],
+  "event_type": "market_move",
+  "event_time": "2026-11-19T10:25-05:00",
+  "scheduled_event": false,
+  "metrics": {
+   "pct_move_24h": -0.94
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://decrypt.co/383597/bitcoin-struggles-to-hold-64000-as-etf-outflows-hit-2-9b-in-november"
+  ],
+  "source_names": [
+   "Decrypt"
+  ],
+  "sources": [
+   {
+    "url": "https://decrypt.co/383597/bitcoin-struggles-to-hold-64000-as-etf-outflows-hit-2-9b-in-november",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://decrypt.co/383597/bitcoin-struggles-to-hold-64000-as-etf-outflows-hit-2-9b-in-november",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/383597/bitcoin-struggles-to-hold-64000-as-etf-outflows-hit-2-9b-in-november",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Routine move, well under thresholds",
+   "price rule: BTC moved 0.9% in 24h (thresholds 7%/12%) -> NORMAL"
+  ],
+  "market_significance": "Market context",
+  "trigger": "Decrypt markets",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261119_153ba1",
+  "headline": "Fed's Waller calls for a 50-basis-point rate hike",
+  "summary": "Fed Governor Waller called for a half-point hike and said tokenized finance still needs traditional banks, per Decrypt.",
+  "detected_at": "2026-11-19T10:10-05:00",
+  "active_since": "2026-11-19T10:10-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "BTC",
+   "TOTAL_MARKET"
+  ],
+  "event_type": "macro",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://decrypt.co/383566/fed-waller-50-basis-point-rate-hike-tokenized-finance-banks"
+  ],
+  "source_names": [
+   "Decrypt"
+  ],
+  "sources": [
+   {
+    "url": "https://decrypt.co/383566/fed-waller-50-basis-point-rate-hike-tokenized-finance-banks",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://decrypt.co/383566/fed-waller-50-basis-point-rate-hike-tokenized-finance-banks",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/383566/fed-waller-50-basis-point-rate-hike-tokenized-finance-banks",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Macro commentary; not yet opened in full"
+  ],
+  "market_significance": "Rate outlook weighs on crypto",
+  "trigger": "Decrypt news list",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261119_7bb1e8",
+  "headline": "Kraken parent Payward to acquire Tribe Capital to expand private-market offerings",
+  "summary": "Payward agreed to buy venture firm Tribe Capital to broaden private-market products.",
+  "detected_at": "2026-11-19T10:10-05:00",
+  "active_since": "2026-11-19T10:10-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "exchange",
+  "event_time": "2026-11-18T22:18-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-11-18-kraken-parent-payward-tribe-capital-443522"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-18-kraken-parent-payward-tribe-capital-443522",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-18-kraken-parent-payward-tribe-capital-443522",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-18-kraken-parent-payward-tribe-capital-443522",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Corporate deal, no market impact"
+  ],
+  "market_significance": "Exchange expansion",
+  "trigger": "The Block latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261119_09c22d",
+  "headline": "Standard Chartered, StraitsX and OCBC complete a tokenized deposit interoperability trial",
+  "summary": "The banks and StraitsX completed a proof of concept for moving tokenized deposits between institutions.",
+  "detected_at": "2026-11-19T10:10-05:00",
+  "active_since": "2026-11-19T10:10-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "partnership",
+  "event_time": "2026-11-18T21:30-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/web3/2026-11-18-standard-chartered-straitsx-ocbc-tokenized-deposit-poc-442964"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/web3/2026-11-18-standard-chartered-straitsx-ocbc-tokenized-deposit-poc-442964",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/web3/2026-11-18-standard-chartered-straitsx-ocbc-tokenized-deposit-poc-442964",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/web3/2026-11-18-standard-chartered-straitsx-ocbc-tokenized-deposit-poc-442964",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Pilot"
+  ],
+  "market_significance": "Bank tokenization",
+  "trigger": "The Block latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261119_b1cd00",
+  "headline": "Sygnum sees bitcoin carry trades beating Treasury bills in 2027 as funding recovers",
+  "summary": "Sygnum expects bitcoin basis/carry trades to out-yield T-bills next year.",
+  "detected_at": "2026-11-19T10:10-05:00",
+  "active_since": "2026-11-19T10:10-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "other",
+  "event_time": "2026-11-19T01:00-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/markets/2026-11-19-sygnum-bitcoin-carry-trades-beating-treasury-bills-2027-443547"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-19-sygnum-bitcoin-carry-trades-beating-treasury-bills-2027-443547",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-19-sygnum-bitcoin-carry-trades-beating-treasury-bills-2027-443547",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/markets/2026-11-19-sygnum-bitcoin-carry-trades-beating-treasury-bills-2027-443547",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Analyst outlook"
+  ],
+  "market_significance": "Yield outlook",
+  "trigger": "The Block latest news",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
