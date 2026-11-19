@@ -71673,7 +71673,26 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-11-18T19:10-05:00",
+    "headline": "Anthropic reportedly prices its IPO at $83 a share as bitcoin slips below $63,000",
+    "summary": "Bloomberg reported Anthropic priced its upsized IPO at $83, above the $70 to $78 range, for total proceeds above $94 billion with a private placement. Bitcoin fell about 2.4% to near $62,450 and ether about 2.4% to near $1,754 by 4:14 PM ET. Tokenized Anthropic stock launches from Ondo and Binance Wallet are tied to IPO day.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-18T19:10-05:00",
+    "headline": "Kraken owner Payward agrees to buy its CEO's venture firm Tribe",
+    "summary": "CoinDesk's live coverage reported that Payward, Kraken's parent, is buying Tribe, the venture firm tied to its CEO, adding to a string of Payward acquisitions this year.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -72419,6 +72438,147 @@
   ],
   "market_significance": "Miners exposed to chip rules",
   "trigger": "The Block",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261118_72d659",
+  "headline": "Bipartisan senators urge Treasury to give state stablecoin issuers equal footing under the GENIUS Act",
+  "summary": "Senators led by Cynthia Lummis, including Gillibrand, Alsobrooks, Ricketts, Cramer and Warner, wrote to Treasury Secretary Bessent asking for a safe harbor for state-regulated stablecoin issuers, matching protection proposed for federal applicants. The OCC's final rule takes effect in January.",
+  "detected_at": "2026-11-18T19:10-05:00",
+  "active_since": "2026-11-18T19:10-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "USDT",
+   "USDC"
+  ],
+  "event_type": "regulatory",
+  "event_time": "2026-11-18T17:09-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/regulation/2026-11-18-senators-treasury-must-ensure-equal-footing-for-stablecoin-issuers-in-genius-act-implementation-443501"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-18-senators-treasury-must-ensure-equal-footing-for-stablecoin-issuers-in-genius-act-implementation-443501",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-18-senators-treasury-must-ensure-equal-footing-for-stablecoin-issuers-in-genius-act-implementation-443501",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-11-18-senators-treasury-must-ensure-equal-footing-for-stablecoin-issuers-in-genius-act-implementation-443501",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Letter from lawmakers; no rule change yet"
+  ],
+  "market_significance": "Shapes how GENIUS Act stablecoin rules treat state issuers",
+  "trigger": "The Block report 5:09 PM ET",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261118_e94aef",
+  "headline": "Anchorage executive warns AI will make the next 12 months 'a slaughterhouse' for crypto security",
+  "summary": "An Anchorage Digital executive told Decrypt that AI tools will sharply raise the pace and quality of attacks on crypto firms and users over the next year.",
+  "detected_at": "2026-11-18T19:10-05:00",
+  "active_since": "2026-11-18T19:10-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "other",
+  "event_time": "2026-11-18T15:00-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://decrypt.co/383526/ai-will-make-the-next-12-months-a-slaughterhouse-for-crypto-security-anchorage-exec"
+  ],
+  "source_names": [
+   "Decrypt"
+  ],
+  "sources": [
+   {
+    "url": "https://decrypt.co/383526/ai-will-make-the-next-12-months-a-slaughterhouse-for-crypto-security-anchorage-exec",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://decrypt.co/383526/ai-will-make-the-next-12-months-a-slaughterhouse-for-crypto-security-anchorage-exec",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/383526/ai-will-make-the-next-12-months-a-slaughterhouse-for-crypto-security-anchorage-exec",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Opinion/interview"
+  ],
+  "market_significance": "Security context after recent hacks",
+  "trigger": "Decrypt interview",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
