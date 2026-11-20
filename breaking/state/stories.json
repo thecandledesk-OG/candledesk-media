@@ -73652,12 +73652,18 @@
   "source_urls": [
    "https://decrypt.co/383597/bitcoin-struggles-to-hold-64000-as-etf-outflows-hit-2-9b-in-november",
    "https://www.coindesk.com/markets/2026/11/19/live-updates-bitcoin-nears-usd64-000-as-anthropic-s-record-ipo-lifts-tech",
-   "https://bitcoinmagazine.com/markets/bitcoin-price-slumps-under-62000"
+   "https://bitcoinmagazine.com/markets/bitcoin-price-slumps-under-62000",
+   "https://investinglive.com/cryptocurrency/bitcoin-hits-lowest-since-july-as-fed-hike-talk-and-a-wall-street-rout-collide/",
+   "https://www.fool.com/coverage/stock-market-today/2026/11/19/crypto-market-today-nov-19-bitcoin-approaches-usd60-000-as-etf-outflows-surpass-usd2-5-billion-in-2026/",
+   "https://cryptoslate.substack.com/p/solana-falls-to-lowest-price-since"
   ],
   "source_names": [
    "Decrypt",
    "CoinDesk",
-   "Bitcoin Magazine"
+   "Bitcoin Magazine",
+   "investingLive",
+   "Motley Fool",
+   "CryptoSlate (Substack)"
   ],
   "sources": [
    {
@@ -73680,6 +73686,27 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://investinglive.com/cryptocurrency/bitcoin-hits-lowest-since-july-as-fed-hike-talk-and-a-wall-street-rout-collide/",
+    "name": "investingLive",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://www.fool.com/coverage/stock-market-today/2026/11/19/crypto-market-today-nov-19-bitcoin-approaches-usd60-000-as-etf-outflows-surpass-usd2-5-billion-in-2026/",
+    "name": "Motley Fool",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://cryptoslate.substack.com/p/solana-falls-to-lowest-price-since",
+    "name": "CryptoSlate (Substack)",
+    "kind": "social",
+    "checked": false,
+    "confirms": false
    }
   ],
   "gate_sources": [
@@ -73703,6 +73730,27 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://investinglive.com/cryptocurrency/bitcoin-hits-lowest-since-july-as-fed-hike-talk-and-a-wall-street-rout-collide/",
+    "name": "investingLive",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://www.fool.com/coverage/stock-market-today/2026/11/19/crypto-market-today-nov-19-bitcoin-approaches-usd60-000-as-etf-outflows-surpass-usd2-5-billion-in-2026/",
+    "name": "Motley Fool",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://cryptoslate.substack.com/p/solana-falls-to-lowest-price-since",
+    "name": "CryptoSlate (Substack)",
+    "kind": "social",
+    "checked": false,
+    "confirms": false
    }
   ],
   "verification_status": "VERIFIED",
@@ -73733,6 +73781,27 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "investingLive",
+     "url": "https://investinglive.com/cryptocurrency/bitcoin-hits-lowest-since-july-as-fed-hike-talk-and-a-wall-street-rout-collide/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Motley Fool",
+     "url": "https://www.fool.com/coverage/stock-market-today/2026/11/19/crypto-market-today-nov-19-bitcoin-approaches-usd60-000-as-etf-outflows-surpass-usd2-5-billion-in-2026/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CryptoSlate (Substack)",
+     "url": "https://cryptoslate.substack.com/p/solana-falls-to-lowest-price-since",
+     "category": "social",
+     "counts": false,
+     "note": "social/community post — can trigger investigation, never verifies"
     }
    ]
   },
@@ -73753,6 +73822,15 @@
     "new_development": true,
     "level": "NORMAL",
     "sources_added": 2,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-19T22:13-05:00",
+    "headline": "Bitcoin drops below $62,000 to its lowest since July as Wall Street sells off and Fed hike bets build",
+    "summary": "Bitcoin slid below sixty-two thousand dollars on Thursday, its lowest level since July, as US stocks fell sharply and traders priced in more Fed rate hikes. Solana hit its lowest price since November 2024.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 3,
     "verification": "VERIFIED"
    }
   ],
