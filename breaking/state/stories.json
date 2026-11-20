@@ -69295,13 +69295,15 @@
    "https://www.coindesk.com/daybook-us/2026/11/17/crypto-s-casino-chips-are-disappearing-adding-to-pain-from-spot-etf-outflows",
    "https://coincodex.com/article/95501/daily-market-update-for-november-17-2026/",
    "https://www.analyticsinsight.net/price-analysis/crypto-prices-today-bitcoin-near-usd-64688-zcash-gains-341-in-24-hours",
-   "https://www.goodman-macro.com/en/articles/20261118-crypto-market/"
+   "https://www.goodman-macro.com/en/articles/20261118-crypto-market/",
+   "https://www.coindesk.com/markets/2026/11/20/bitcoin-drops-for-third-straight-day-as-asian-tech-shares-slide"
   ],
   "source_names": [
    "CoinDesk",
    "CoinCodex",
    "Analytics Insight",
-   "Goodman Macro"
+   "Goodman Macro",
+   "CoinDesk"
   ],
   "sources": [
    {
@@ -69329,6 +69331,13 @@
     "url": "https://www.goodman-macro.com/en/articles/20261118-crypto-market/",
     "name": "Goodman Macro",
     "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/11/20/bitcoin-drops-for-third-straight-day-as-asian-tech-shares-slide",
+    "name": "CoinDesk",
+    "kind": "secondary",
     "checked": true,
     "confirms": true
    }
@@ -69359,6 +69368,13 @@
     "url": "https://www.goodman-macro.com/en/articles/20261118-crypto-market/",
     "name": "Goodman Macro",
     "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/11/20/bitcoin-drops-for-third-straight-day-as-asian-tech-shares-slide",
+    "name": "CoinDesk",
+    "kind": "secondary",
     "checked": true,
     "confirms": true
    }
@@ -69398,6 +69414,13 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/11/20/bitcoin-drops-for-third-straight-day-as-asian-tech-shares-slide",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -69444,6 +69467,24 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 2,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-20T07:16-05:00",
+    "headline": "Bitcoin falls for a third straight day toward $61,000 as ether, XRP and solana drop 4-5%",
+    "summary": "Bitcoin slid to about $61,200 overnight before recovering above $61,700, down about 4% over 24 hours. Ether fell about 4% to near $1,730, XRP about 4.5% to $0.94 and solana about 5% to near $71. About $719 million in positions were liquidated over 24 hours as Asian tech shares slid and the Kospi fell more than 5%.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-20T07:16-05:00",
+    "headline": "BlackRock's IBIT posts a record $541 million daily outflow",
+    "summary": "BlackRock's iShares Bitcoin Trust saw a record net outflow of $541.1 million on Thursday, CoinDesk reports, extending November's spot bitcoin ETF outflows.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
     "verification": "UNVERIFIED"
    }
   ],
@@ -74601,6 +74642,286 @@
   ],
   "market_significance": "Wallet security concern for hardware users",
   "trigger": "The Block listing",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261120_0907c3",
+  "headline": "MoonPay applies to the OCC for a national trust bank charter to expand stablecoin services",
+  "summary": "MoonPay filed an application with the OCC for MoonPay National Trust Bank, a non-depository trust bank that would offer custody and stablecoin issuance and redemption, ahead of the GENIUS Act taking effect in January 2027.",
+  "detected_at": "2026-11-20T07:16-05:00",
+  "active_since": "2026-11-20T07:16-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.75,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "regulatory",
+  "event_time": "2026-11-20T05:39-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-11-20-moonpay-applies-occ-national-bank-charter-444198"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-20-moonpay-applies-occ-national-bank-charter-444198",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-20-moonpay-applies-occ-national-bank-charter-444198",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-20-moonpay-applies-occ-national-bank-charter-444198",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: An application, not an approval; several crypto firms have filed similar charters."
+  ],
+  "market_significance": "Another crypto firm seeking a federal bank charter for stablecoins.",
+  "trigger": "The Block",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261120_2169c3",
+  "headline": "Senate passes the 'Death Bets Act' banning prediction market contracts tied to death and war",
+  "summary": "The US Senate passed a bill that would ban prediction market contracts tied to death and war, The Block reports.",
+  "detected_at": "2026-11-20T07:16-05:00",
+  "active_since": "2026-11-20T07:16-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "regulatory",
+  "event_time": "2026-11-20T05:09-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/regulation/2026-11-20-senate-death-bets-act-444200"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-20-senate-death-bets-act-444200",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-20-senate-death-bets-act-444200",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-11-20-senate-death-bets-act-444200",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Prediction-market legislation passed one chamber; limited direct crypto market impact; headline only checked."
+  ],
+  "market_significance": "Shapes rules for crypto-adjacent prediction markets.",
+  "trigger": "The Block news list",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261120_255f75",
+  "headline": "Michael Saylor sees up to $7.5 billion in natural demand for Strategy's STRC preferred stock",
+  "summary": "Saylor said STRC has five to seven and a half billion dollars of natural demand at its 12% dividend; Strategy has bought back about $3 billion of STRC and held 850,849 BTC as of November 15.",
+  "detected_at": "2026-11-20T07:16-05:00",
+  "active_since": "2026-11-20T07:16-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "institutional",
+  "event_time": "2026-11-20T03:02-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-11-20-michael-saylor-natural-demand-strategy-strc-444190"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-20-michael-saylor-natural-demand-strategy-strc-444190",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-20-michael-saylor-natural-demand-strategy-strc-444190",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-20-michael-saylor-natural-demand-strategy-strc-444190",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Executive commentary, no new purchase or sale."
+  ],
+  "market_significance": "Signals Strategy plans to shrink STRC outstanding.",
+  "trigger": "The Block",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261120_2ddc2f",
+  "headline": "Coinbase backs a CFTC proposal on separating prediction market contracts from gambling",
+  "summary": "Coinbase voiced support for a CFTC proposal on how prediction market event contracts are treated versus gambling, The Block reports.",
+  "detected_at": "2026-11-20T07:16-05:00",
+  "active_since": "2026-11-20T07:16-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.55,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "regulatory",
+  "event_time": "2026-11-19T23:24-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-11-19-coinbase-backs-cftc-prediction-markets-444152"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-19-coinbase-backs-cftc-prediction-markets-444152",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-19-coinbase-backs-cftc-prediction-markets-444152",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-19-coinbase-backs-cftc-prediction-markets-444152",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Comment letter on a proposal, not a decision; headline only checked."
+  ],
+  "market_significance": "Minor regulatory update.",
+  "trigger": "The Block news list",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
