@@ -66903,6 +66903,15 @@
     "level": "NORMAL",
     "sources_added": 0,
     "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-19T19:14-05:00",
+    "headline": "Singapore's MAS issues $77 million in tokenized bills settled with a wholesale CBDC",
+    "summary": "The Monetary Authority of Singapore issued about $77 million of tokenized bills settled via CBDC, per The Block. Headline only; article not opened.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
    }
   ],
   "posts": [],
@@ -73641,15 +73650,33 @@
   },
   "emergency": false,
   "source_urls": [
-   "https://decrypt.co/383597/bitcoin-struggles-to-hold-64000-as-etf-outflows-hit-2-9b-in-november"
+   "https://decrypt.co/383597/bitcoin-struggles-to-hold-64000-as-etf-outflows-hit-2-9b-in-november",
+   "https://www.coindesk.com/markets/2026/11/19/live-updates-bitcoin-nears-usd64-000-as-anthropic-s-record-ipo-lifts-tech",
+   "https://bitcoinmagazine.com/markets/bitcoin-price-slumps-under-62000"
   ],
   "source_names": [
-   "Decrypt"
+   "Decrypt",
+   "CoinDesk",
+   "Bitcoin Magazine"
   ],
   "sources": [
    {
     "url": "https://decrypt.co/383597/bitcoin-struggles-to-hold-64000-as-etf-outflows-hit-2-9b-in-november",
     "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/11/19/live-updates-bitcoin-nears-usd64-000-as-anthropic-s-record-ipo-lifts-tech",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://bitcoinmagazine.com/markets/bitcoin-price-slumps-under-62000",
+    "name": "Bitcoin Magazine",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -73662,15 +73689,29 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/11/19/live-updates-bitcoin-nears-usd64-000-as-anthropic-s-record-ipo-lifts-tech",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://bitcoinmagazine.com/markets/bitcoin-price-slumps-under-62000",
+    "name": "Bitcoin Magazine",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
-  "verification_status": "UNVERIFIED",
+  "verification_status": "VERIFIED",
   "verification": {
-   "status": "UNVERIFIED",
-   "independent_sources": 1,
+   "status": "VERIFIED",
+   "independent_sources": 2,
    "has_primary": false,
-   "score": 0.4,
-   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "score": 0.8,
+   "reason": "2 independent credible sources confirm it (no primary source yet)",
    "sources_checked": [
     {
      "name": "Decrypt",
@@ -73678,6 +73719,20 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/11/19/live-updates-bitcoin-nears-usd64-000-as-anthropic-s-record-ipo-lifts-tech",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Bitcoin Magazine",
+     "url": "https://bitcoinmagazine.com/markets/bitcoin-price-slumps-under-62000",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -73690,7 +73745,17 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-11-19T19:14-05:00",
+    "headline": "Bitcoin falls below $62,000, its lowest since July, as Anthropic's debut comes with a broad tech sell-off",
+    "summary": "Bitcoin dropped to about $61,650-$61,800 on Thursday, its weakest level since early July, and is down about 25% in a month, while the Nasdaq and Dow fell about 2%. Ether sat near $1,750, XRP under $1 and SOL near $73, each down roughly 1-2% on the day.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "VERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -74388,6 +74453,76 @@
   ],
   "market_significance": "Context for the stalled Clarity Act",
   "trigger": "The Block report",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261119_f4ccf5",
+  "headline": "Ledger widens its hardware tampering investigation to cases in Germany and the UAE",
+  "summary": "The Block reports Ledger is investigating new hardware incidents in Germany and the UAE. Headline only; article not opened.",
+  "detected_at": "2026-11-19T19:14-05:00",
+  "active_since": "2026-11-19T19:14-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "other",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/web3/2026-11-18-ledger-new-hardware-incidents-germany-uae-443530"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/web3/2026-11-18-ledger-new-hardware-incidents-germany-uae-443530",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/web3/2026-11-18-ledger-new-hardware-incidents-germany-uae-443530",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/web3/2026-11-18-ledger-new-hardware-incidents-germany-uae-443530",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Security follow-up with no stated loss figure"
+  ],
+  "market_significance": "Wallet security concern for hardware users",
+  "trigger": "The Block listing",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
