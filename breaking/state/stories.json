@@ -75322,7 +75322,7 @@
   "market_significance": "Two-year low for BTC; ETH, XRP and SOL each down about 10% at the low; largest liquidation wave this month.",
   "trigger": "WebSearch 'bitcoin ether XRP solana price Saturday Nov 21'; Investing.com and CoinDesk",
   "content_created": false,
-  "publication_status": "BLOCKED_UNVERIFIED",
+  "publication_status": "HUMAN_REVIEW",
   "related_story_ids": [],
   "updates": [
    {
@@ -76067,6 +76067,102 @@
   ],
   "market_significance": "Key-compromise exploit on a cross-chain swap protocol",
   "trigger": "The Block DeFi report",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261121_1f4632",
+  "headline": "Cyber investigates a suspected $1 million bridge exploit as Upbit and Bithumb freeze CYBER transfers",
+  "summary": "On Nov 21 about 5.21 million CYBER tokens (roughly $1.1 million) were minted on Solana in a suspected bridge exploit; the Cyber team says it is investigating, and South Korean exchanges Upbit and Bithumb froze CYBER deposits and withdrawals.",
+  "detected_at": "2026-11-21T16:09-05:00",
+  "active_since": "2026-11-21T16:09-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "CYBER"
+  ],
+  "event_type": "hack_exploit",
+  "event_time": "2026-11-21T13:30-05:00",
+  "scheduled_event": false,
+  "metrics": {
+   "loss_usd": 1100000
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/defi/2026-11-21-cyber-investigating-suspected-1-million-bridge-exploit-as-upbit-bithumb-freeze-transfers-444810",
+   "https://cryptobriefing.com/cyber-bridge-exploit-upbit-bithumb-freeze/"
+  ],
+  "source_names": [
+   "The Block",
+   "Crypto Briefing"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/defi/2026-11-21-cyber-investigating-suspected-1-million-bridge-exploit-as-upbit-bithumb-freeze-transfers-444810",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptobriefing.com/cyber-bridge-exploit-upbit-bithumb-freeze/",
+    "name": "Crypto Briefing",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/defi/2026-11-21-cyber-investigating-suspected-1-million-bridge-exploit-as-upbit-bithumb-freeze-transfers-444810",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptobriefing.com/cyber-bridge-exploit-upbit-bithumb-freeze/",
+    "name": "Crypto Briefing",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/defi/2026-11-21-cyber-investigating-suspected-1-million-bridge-exploit-as-upbit-bithumb-freeze-transfers-444810",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Crypto Briefing",
+     "url": "https://cryptobriefing.com/cyber-bridge-exploit-upbit-bithumb-freeze/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Small exploit (~$1M), far under the $10M IMPORTANT threshold; minor token.",
+   "hack rule: about $1M lost (thresholds $10M/$100M) -> NORMAL"
+  ],
+  "market_significance": "Korean exchange freezes show how fast venues react to bridge mints.",
+  "trigger": "The Block latest-news listing, 1:51 PM ET",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
