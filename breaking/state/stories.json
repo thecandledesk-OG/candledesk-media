@@ -74928,5 +74928,608 @@
   "updates": [],
   "posts": [],
   "needs_followup": false
+ },
+ {
+  "id": "st_20261121_7bcef3",
+  "headline": "Bitcoin falls below $57,000 to its lowest since September 2024 as about $2.4 billion in crypto bets are liquidated",
+  "summary": "Overnight Nov 20-21 bitcoin sank below $57,000, its lowest level since September 2024 (CoinDesk). Investing.com put BTC down 9.89% at $55,789, ETH down 10.1%, XRP down 10.1% and SOL down 9.9% over 24h as of 00:56 ET; CoinGlass data show about $2.4B in liquidations, over $1B of it bitcoin. Causes cited: rising real Treasury yields, Fed hike expectations and a Nasdaq drop of more than 4% on Friday. By about 7 AM ET page tickers showed BTC near $58,100, down roughly 5.4% on the day.",
+  "detected_at": "2026-11-21T07:17-05:00",
+  "active_since": "2026-11-21T07:17-05:00",
+  "classification": "IMPORTANT",
+  "proposed_level": "IMPORTANT",
+  "confidence": 0.7,
+  "assets": [
+   "BTC",
+   "ETH",
+   "XRP",
+   "SOL",
+   "TOTAL_MARKET"
+  ],
+  "event_type": "market_move",
+  "event_time": "2026-11-20T23:00-05:00",
+  "scheduled_event": false,
+  "metrics": {
+   "pct_move_24h": -9.89
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/markets/2026/11/21/bitcoin-tanks-below-usd57-000-for-the-first-time-in-two-years-and-its-not-alone",
+   "https://www.investing.com/news/cryptocurrency-news/bitcoin-crashes-below-56000-as-liquidity-squeeze-deepens-crypto-selloff-5043199",
+   "https://longbridge.com/en/news/306343565",
+   "https://www.bloomberg.com/news/articles/2026-11-20/bitcoin-falls-to-more-than-two-year-low-as-global-markets-sink",
+   "https://decrypt.co/383685/bitcoin-etfs-shed-582m-in-a-day-as-btc-drops-below-62k"
+  ],
+  "source_names": [
+   "CoinDesk",
+   "Investing.com",
+   "Longbridge (Business Times republish of Bloomberg)",
+   "Bloomberg",
+   "Decrypt"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/markets/2026/11/21/bitcoin-tanks-below-usd57-000-for-the-first-time-in-two-years-and-its-not-alone",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-crashes-below-56000-as-liquidity-squeeze-deepens-crypto-selloff-5043199",
+    "name": "Investing.com",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://longbridge.com/en/news/306343565",
+    "name": "Longbridge (Business Times republish of Bloomberg)",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "origin": "Bloomberg"
+   },
+   {
+    "url": "https://www.bloomberg.com/news/articles/2026-11-20/bitcoin-falls-to-more-than-two-year-low-as-global-markets-sink",
+    "name": "Bloomberg",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false,
+    "origin": "Bloomberg"
+   },
+   {
+    "url": "https://decrypt.co/383685/bitcoin-etfs-shed-582m-in-a-day-as-btc-drops-below-62k",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": false
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/markets/2026/11/21/bitcoin-tanks-below-usd57-000-for-the-first-time-in-two-years-and-its-not-alone",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-crashes-below-56000-as-liquidity-squeeze-deepens-crypto-selloff-5043199",
+    "name": "Investing.com",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://longbridge.com/en/news/306343565",
+    "name": "Longbridge (Business Times republish of Bloomberg)",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "origin": "Bloomberg"
+   },
+   {
+    "url": "https://www.bloomberg.com/news/articles/2026-11-20/bitcoin-falls-to-more-than-two-year-low-as-global-markets-sink",
+    "name": "Bloomberg",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false,
+    "origin": "Bloomberg"
+   },
+   {
+    "url": "https://decrypt.co/383685/bitcoin-etfs-shed-582m-in-a-day-as-btc-drops-below-62k",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": false
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/11/21/bitcoin-tanks-below-usd57-000-for-the-first-time-in-two-years-and-its-not-alone",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Investing.com",
+     "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-crashes-below-56000-as-liquidity-squeeze-deepens-crypto-selloff-5043199",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Longbridge (Business Times republish of Bloomberg)",
+     "url": "https://longbridge.com/en/news/306343565",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Bloomberg",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-20/bitcoin-falls-to-more-than-two-year-low-as-global-markets-sink",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/383685/bitcoin-etfs-shed-582m-in-a-day-as-btc-drops-below-62k",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; opened but does not confirm the claim"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed IMPORTANT: Market-wide drop to a two-year low with ~$2.4B liquidated; BTC -9.9% in 24h at the overnight low (Investing.com, 00:56 ET), above the 7% BTC threshold. Note: by ~7 AM ET tickers show BTC about -5.4% on the day, so the 24h figure is from the overnight low.",
+   "price rule: BTC moved 9.9% in 24h (thresholds 7%/12%) -> IMPORTANT"
+  ],
+  "market_significance": "Two-year low for BTC; ETH, XRP and SOL each down about 10% at the low; largest liquidation wave this month.",
+  "trigger": "WebSearch 'bitcoin ether XRP solana price Saturday Nov 21'; Investing.com and CoinDesk",
+  "content_created": false,
+  "publication_status": "BLOCKED_UNVERIFIED",
+  "related_story_ids": [],
+  "updates": [
+   {
+    "at": "2026-11-21T07:17-05:00",
+    "headline": "Spot bitcoin ETFs shed $582 million in a day, the most since Oct 30, as November outflows near $3.5 billion",
+    "summary": "SoSoValue data cited by Decrypt show $582.2M net outflows from US spot bitcoin ETFs on Thursday, over $1.1B this week and almost $3.5B in November; total net assets $76.6B.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   }
+  ],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261121_121d95",
+  "headline": "Wagyu's XMR1 wrapped Monero plunges 99% after a $13 million hack; founder promises refunds",
+  "summary": "The Block reported on Nov 20 (11:11 AM ET) that Wagyu's wrapped Monero token XMR1 lost 99% after a roughly $13M hack.",
+  "detected_at": "2026-11-21T07:17-05:00",
+  "active_since": "2026-11-21T07:17-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "XMR"
+  ],
+  "event_type": "hack_exploit",
+  "event_time": "2026-11-20T11:11-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/defi/2026-11-20-wagyus-xmr1-wrapped-monero-plunges-99-after-13-million-hack-founder-promises-refunds-444747"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/defi/2026-11-20-wagyus-xmr1-wrapped-monero-plunges-99-after-13-million-hack-founder-promises-refunds-444747",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/defi/2026-11-20-wagyus-xmr1-wrapped-monero-plunges-99-after-13-million-hack-founder-promises-refunds-444747",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/defi/2026-11-20-wagyus-xmr1-wrapped-monero-plunges-99-after-13-million-hack-founder-promises-refunds-444747",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Reported about 20 hours ago (over the 12h window) and only the headline was checked; for the daily show."
+  ],
+  "market_significance": "Small wrapped-asset protocol.",
+  "trigger": "The Block news list",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261121_0d3953",
+  "headline": "Elliptic: laundering from the Binance hack ramps up as $149 million in bitcoin goes through coinjoins",
+  "summary": "The Block reports Elliptic tracked $149M in bitcoin from the October Binance hack being mixed through coinjoins.",
+  "detected_at": "2026-11-21T07:17-05:00",
+  "active_since": "2026-11-21T07:17-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "hack_exploit",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/markets/2026-11-20-binance-hack-laundering-ramps-up-149-million-bitcoin-mixed-coinjoins-elliptic-444758"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-20-binance-hack-laundering-ramps-up-149-million-bitcoin-mixed-coinjoins-elliptic-444758",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-20-binance-hack-laundering-ramps-up-149-million-bitcoin-mixed-coinjoins-elliptic-444758",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/markets/2026-11-20-binance-hack-laundering-ramps-up-149-million-bitcoin-mixed-coinjoins-elliptic-444758",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Follow-up on an old hack; headline only."
+  ],
+  "market_significance": "Laundering update.",
+  "trigger": "The Block news list",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261121_3230d3",
+  "headline": "JPMorgan says bitcoin's drop widens the gap to its estimated $86,000 production cost",
+  "summary": "JPMorgan analysts say the correction leaves bitcoin further below their estimated $86,000 production cost.",
+  "detected_at": "2026-11-21T07:17-05:00",
+  "active_since": "2026-11-21T07:17-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "market_move",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/markets/2026-11-20-jpmorgan-bitcoin-price-correction-gap-86000-production-cost-444763"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-20-jpmorgan-bitcoin-price-correction-gap-86000-production-cost-444763",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-20-jpmorgan-bitcoin-price-correction-gap-86000-production-cost-444763",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/markets/2026-11-20-jpmorgan-bitcoin-price-correction-gap-86000-production-cost-444763",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Analyst note; headline only."
+  ],
+  "market_significance": "Context for miners.",
+  "trigger": "The Block news list",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261121_130f9b",
+  "headline": "DCG's Zcash miner Fortitude clears a vote for its Nasdaq listing as ZEC retreats from its high",
+  "summary": "The Block reports DCG's Zcash mining unit Fortitude cleared a shareholder vote toward a Nasdaq listing.",
+  "detected_at": "2026-11-21T07:17-05:00",
+  "active_since": "2026-11-21T07:17-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "ZEC"
+  ],
+  "event_type": "institutional",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news"
+  ],
+  "source_names": [
+   "The Block (list)"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news",
+    "name": "The Block (list)",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news",
+    "name": "The Block (list)",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block (list)",
+     "url": "https://www.theblock.co/news",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Corporate step; headline only."
+  ],
+  "market_significance": "Minor.",
+  "trigger": "The Block news list",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261121_ba2d4d",
+  "headline": "Coinbase targets in-house prediction markets by the first half of 2027, report says",
+  "summary": "Decrypt cites a report that Coinbase aims to launch its own prediction markets in the first half of 2027.",
+  "detected_at": "2026-11-21T07:17-05:00",
+  "active_since": "2026-11-21T07:17-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "exchange",
+  "event_time": null,
+  "scheduled_event": true,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://decrypt.co/383682/coinbase-targets-in-house-prediction-markets-by-first-half-of-2027-report"
+  ],
+  "source_names": [
+   "Decrypt"
+  ],
+  "sources": [
+   {
+    "url": "https://decrypt.co/383682/coinbase-targets-in-house-prediction-markets-by-first-half-of-2027-report",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://decrypt.co/383682/coinbase-targets-in-house-prediction-markets-by-first-half-of-2027-report",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/383682/coinbase-targets-in-house-prediction-markets-by-first-half-of-2027-report",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Report of a plan, not an announcement."
+  ],
+  "market_significance": "Minor.",
+  "trigger": "Decrypt news list",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261121_eb2205",
+  "headline": "CryptoUK urges the FCA not to treat DeFi developers as regulated by default",
+  "summary": "Industry group CryptoUK asked the UK FCA not to presume DeFi developers are regulated.",
+  "detected_at": "2026-11-21T07:17-05:00",
+  "active_since": "2026-11-21T07:17-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "regulatory",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://decrypt.co/383679/cryptouk-urges-fca-not-to-treat-defi-devs-as-regulated-by-default"
+  ],
+  "source_names": [
+   "Decrypt"
+  ],
+  "sources": [
+   {
+    "url": "https://decrypt.co/383679/cryptouk-urges-fca-not-to-treat-defi-devs-as-regulated-by-default",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://decrypt.co/383679/cryptouk-urges-fca-not-to-treat-defi-devs-as-regulated-by-default",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/383679/cryptouk-urges-fca-not-to-treat-defi-devs-as-regulated-by-default",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Lobbying letter, not a decision."
+  ],
+  "market_significance": "Minor.",
+  "trigger": "Decrypt news list",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
  }
 ]
