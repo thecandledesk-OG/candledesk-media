@@ -75042,7 +75042,10 @@
    "https://decrypt.co/383685/bitcoin-etfs-shed-582m-in-a-day-as-btc-drops-below-62k",
    "https://www.globalbankingandfinance.com/bitcoin-falls-3-57-56-814/",
    "https://www.investing.com/news/forex-news/bitcoin-falls-357-to-56814-5043137",
-   "https://www.coindesk.com/markets/2026/11/21/xrp-falls-10-as-long-bets-unwind-and-etf-assets-slip-below-usd1-billion"
+   "https://www.coindesk.com/markets/2026/11/21/xrp-falls-10-as-long-bets-unwind-and-etf-assets-slip-below-usd1-billion",
+   "https://gvwire.com/2026/11/21/bitcoin-rises-after-falling-to-two-year-low/",
+   "https://news.bitcoin.com/market-updates/bitcoin-price-rebounds-60k-crash-near-55k-billions-liquidations/",
+   "https://decrypt.co/news"
   ],
   "source_names": [
    "CoinDesk",
@@ -75052,7 +75055,10 @@
    "Decrypt",
    "Reuters via Global Banking & Finance",
    "Reuters via Investing.com",
-   "CoinDesk (XRP story)"
+   "CoinDesk (XRP story)",
+   "Reuters via GV Wire",
+   "Bitcoin.com News",
+   "Decrypt price ticker"
   ],
   "sources": [
    {
@@ -75111,6 +75117,28 @@
    {
     "url": "https://www.coindesk.com/markets/2026/11/21/xrp-falls-10-as-long-bets-unwind-and-etf-assets-slip-below-usd1-billion",
     "name": "CoinDesk (XRP story)",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": false
+   },
+   {
+    "url": "https://gvwire.com/2026/11/21/bitcoin-rises-after-falling-to-two-year-low/",
+    "name": "Reuters via GV Wire",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "origin": "Reuters"
+   },
+   {
+    "url": "https://news.bitcoin.com/market-updates/bitcoin-price-rebounds-60k-crash-near-55k-billions-liquidations/",
+    "name": "Bitcoin.com News",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/news",
+    "name": "Decrypt price ticker",
     "kind": "secondary",
     "checked": true,
     "confirms": false
@@ -75173,6 +75201,28 @@
    {
     "url": "https://www.coindesk.com/markets/2026/11/21/xrp-falls-10-as-long-bets-unwind-and-etf-assets-slip-below-usd1-billion",
     "name": "CoinDesk (XRP story)",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": false
+   },
+   {
+    "url": "https://gvwire.com/2026/11/21/bitcoin-rises-after-falling-to-two-year-low/",
+    "name": "Reuters via GV Wire",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "origin": "Reuters"
+   },
+   {
+    "url": "https://news.bitcoin.com/market-updates/bitcoin-price-rebounds-60k-crash-near-55k-billions-liquidations/",
+    "name": "Bitcoin.com News",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/news",
+    "name": "Decrypt price ticker",
     "kind": "secondary",
     "checked": true,
     "confirms": false
@@ -75241,6 +75291,27 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; opened but does not confirm the claim"
+    },
+    {
+     "name": "Reuters via GV Wire",
+     "url": "https://gvwire.com/2026/11/21/bitcoin-rises-after-falling-to-two-year-low/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Bitcoin.com News",
+     "url": "https://news.bitcoin.com/market-updates/bitcoin-price-rebounds-60k-crash-near-55k-billions-liquidations/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Decrypt price ticker",
+     "url": "https://decrypt.co/news",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; opened but does not confirm the claim"
     }
    ]
   },
@@ -75279,6 +75350,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-21T13:10-05:00",
+    "headline": "Bitcoin rebounds near $60,000 after touching a two-year low around $55,250 on Saturday",
+    "summary": "Reuters reports bitcoin rose more than 8% to around $59,952 on Saturday Nov 21, briefly crossing $60,000 about 8:30 a.m. ET, after sliding to $55,251.60 earlier in the day, its lowest in two years. Bitcoin.com puts the CoinGecko low near $55,300 and 24h liquidations at about $2.67 billion (CoinGlass). Ticker snapshots show BTC, ETH, XRP and SOL each up roughly 2-3% on the day.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 3,
     "verification": "UNVERIFIED"
    }
   ],
@@ -75911,6 +75991,82 @@
   ],
   "market_significance": "Shows pressure on ether treasury firms",
   "trigger": "SEC filing",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261121_33161d",
+  "headline": "Chainflip's FLIP drops 34% after an attacker drains about $4.86 million from its Ethereum vault",
+  "summary": "The Block reports an attacker drained about $4.86 million (520.2 ETH, 3.25M USDC, 758K USDT) from Chainflip's Ethereum vault around 2:10 a.m. ET Saturday, apparently using a valid aggregate signing key rather than a contract bug; Chainflip paused the protocol and has not confirmed a cause. FLIP fell about 34%. Funds went to Tornado Cash; Bitcoin and Solana vaults appear unaffected.",
+  "detected_at": "2026-11-21T13:10-05:00",
+  "active_since": "2026-11-21T13:10-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.75,
+  "assets": [
+   "FLIP",
+   "ETH",
+   "USDC",
+   "USDT"
+  ],
+  "event_type": "hack_exploit",
+  "event_time": "2026-11-21T02:10-05:00",
+  "scheduled_event": false,
+  "metrics": {
+   "loss_usd": 4860000
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/defi/2026-11-21-chainflips-flip-drops-34-after-attacker-drains-4-86-million-from-vault-with-suspected-key-compromise-444804"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/defi/2026-11-21-chainflips-flip-drops-34-after-attacker-drains-4-86-million-from-vault-with-suspected-key-compromise-444804",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/defi/2026-11-21-chainflips-flip-drops-34-after-attacker-drains-4-86-million-from-vault-with-suspected-key-compromise-444804",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/defi/2026-11-21-chainflips-flip-drops-34-after-attacker-drains-4-86-million-from-vault-with-suspected-key-compromise-444804",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Loss under the $10M IMPORTANT hack threshold; small-cap token",
+   "hack rule: about $5M lost (thresholds $10M/$100M) -> NORMAL"
+  ],
+  "market_significance": "Key-compromise exploit on a cross-chain swap protocol",
+  "trigger": "The Block DeFi report",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
