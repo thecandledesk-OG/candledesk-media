@@ -73444,11 +73444,15 @@
   "emergency": false,
   "source_urls": [
    "https://thecryptodesk.substack.com/p/the-crypto-desk-thursday-19-november",
-   "https://www.coingabbar.com/en/crypto-news-nov-19-bitcoin-gold-silver-dips-fed-meeting-minutes"
+   "https://www.coingabbar.com/en/crypto-news-nov-19-bitcoin-gold-silver-dips-fed-meeting-minutes",
+   "https://coindoo.com/bitcoin-price-sinks-to-55k-as-its-2026-floor-gives-way/",
+   "https://thecryptodesk.substack.com/p/the-crypto-desk-saturday-21-november"
   ],
   "source_names": [
    "The Crypto Desk",
-   "Coin Gabbar"
+   "Coin Gabbar",
+   "Coindoo",
+   "The Crypto Desk"
   ],
   "sources": [
    {
@@ -73461,6 +73465,20 @@
    {
     "url": "https://www.coingabbar.com/en/crypto-news-nov-19-bitcoin-gold-silver-dips-fed-meeting-minutes",
     "name": "Coin Gabbar",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://coindoo.com/bitcoin-price-sinks-to-55k-as-its-2026-floor-gives-way/",
+    "name": "Coindoo",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://thecryptodesk.substack.com/p/the-crypto-desk-saturday-21-november",
+    "name": "The Crypto Desk",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -73477,6 +73495,20 @@
    {
     "url": "https://www.coingabbar.com/en/crypto-news-nov-19-bitcoin-gold-silver-dips-fed-meeting-minutes",
     "name": "Coin Gabbar",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://coindoo.com/bitcoin-price-sinks-to-55k-as-its-2026-floor-gives-way/",
+    "name": "Coindoo",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://thecryptodesk.substack.com/p/the-crypto-desk-saturday-21-november",
+    "name": "The Crypto Desk",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -73503,6 +73535,20 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Coindoo",
+     "url": "https://coindoo.com/bitcoin-price-sinks-to-55k-as-its-2026-floor-gives-way/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "The Crypto Desk",
+     "url": "https://thecryptodesk.substack.com/p/the-crypto-desk-saturday-21-november",
+     "category": "social",
+     "counts": false,
+     "note": "social/community post — can trigger investigation, never verifies"
     }
    ]
   },
@@ -73519,6 +73565,42 @@
     "at": "2026-11-19T10:09-05:00",
     "headline": "Bitcoin shrugs off hawkish Fed minutes and climbs back near $64,000",
     "summary": "Green candles only! Bitcoin shrugged off hawkish Fed minutes and climbed back near sixty-four thousand!",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-21T10:08-05:00",
+    "headline": "Bitcoin hits $55,130, its lowest since 2024",
+    "summary": "Here's what moved the chain today. Bitcoin hit fifty-five thousand dollars, its lowest since twenty twenty-four.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-21T10:08-05:00",
+    "headline": "Twenty One Capital buys 172 bitcoin on the dip",
+    "summary": "Green candles only! Twenty One Capital just bought one hundred seventy-two Bitcoin on this dip.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-21T10:08-05:00",
+    "headline": "$2.4 billion in leveraged crypto bets liquidated in 24 hours",
+    "summary": "Check the yields first. Two point four billion dollars in leveraged bets got wiped out.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-21T10:08-05:00",
+    "headline": "BlackRock's IBIT sees a record $541 million outflow",
+    "summary": "Psst... BlackRock's Bitcoin fund bled five hundred forty-one million dollars Thursday, a record outflow.",
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
@@ -74957,14 +75039,20 @@
    "https://www.investing.com/news/cryptocurrency-news/bitcoin-crashes-below-56000-as-liquidity-squeeze-deepens-crypto-selloff-5043199",
    "https://longbridge.com/en/news/306343565",
    "https://www.bloomberg.com/news/articles/2026-11-20/bitcoin-falls-to-more-than-two-year-low-as-global-markets-sink",
-   "https://decrypt.co/383685/bitcoin-etfs-shed-582m-in-a-day-as-btc-drops-below-62k"
+   "https://decrypt.co/383685/bitcoin-etfs-shed-582m-in-a-day-as-btc-drops-below-62k",
+   "https://www.globalbankingandfinance.com/bitcoin-falls-3-57-56-814/",
+   "https://www.investing.com/news/forex-news/bitcoin-falls-357-to-56814-5043137",
+   "https://www.coindesk.com/markets/2026/11/21/xrp-falls-10-as-long-bets-unwind-and-etf-assets-slip-below-usd1-billion"
   ],
   "source_names": [
    "CoinDesk",
    "Investing.com",
    "Longbridge (Business Times republish of Bloomberg)",
    "Bloomberg",
-   "Decrypt"
+   "Decrypt",
+   "Reuters via Global Banking & Finance",
+   "Reuters via Investing.com",
+   "CoinDesk (XRP story)"
   ],
   "sources": [
    {
@@ -75000,6 +75088,29 @@
    {
     "url": "https://decrypt.co/383685/bitcoin-etfs-shed-582m-in-a-day-as-btc-drops-below-62k",
     "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": false
+   },
+   {
+    "url": "https://www.globalbankingandfinance.com/bitcoin-falls-3-57-56-814/",
+    "name": "Reuters via Global Banking & Finance",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": false,
+    "origin": "Reuters"
+   },
+   {
+    "url": "https://www.investing.com/news/forex-news/bitcoin-falls-357-to-56814-5043137",
+    "name": "Reuters via Investing.com",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false,
+    "origin": "Reuters"
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/11/21/xrp-falls-10-as-long-bets-unwind-and-etf-assets-slip-below-usd1-billion",
+    "name": "CoinDesk (XRP story)",
     "kind": "secondary",
     "checked": true,
     "confirms": false
@@ -75039,6 +75150,29 @@
    {
     "url": "https://decrypt.co/383685/bitcoin-etfs-shed-582m-in-a-day-as-btc-drops-below-62k",
     "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": false
+   },
+   {
+    "url": "https://www.globalbankingandfinance.com/bitcoin-falls-3-57-56-814/",
+    "name": "Reuters via Global Banking & Finance",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": false,
+    "origin": "Reuters"
+   },
+   {
+    "url": "https://www.investing.com/news/forex-news/bitcoin-falls-357-to-56814-5043137",
+    "name": "Reuters via Investing.com",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false,
+    "origin": "Reuters"
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/11/21/xrp-falls-10-as-long-bets-unwind-and-etf-assets-slip-below-usd1-billion",
+    "name": "CoinDesk (XRP story)",
     "kind": "secondary",
     "checked": true,
     "confirms": false
@@ -75086,6 +75220,27 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; opened but does not confirm the claim"
+    },
+    {
+     "name": "Reuters via Global Banking & Finance",
+     "url": "https://www.globalbankingandfinance.com/bitcoin-falls-3-57-56-814/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Reuters via Investing.com",
+     "url": "https://www.investing.com/news/forex-news/bitcoin-falls-357-to-56814-5043137",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinDesk (XRP story)",
+     "url": "https://www.coindesk.com/markets/2026/11/21/xrp-falls-10-as-long-bets-unwind-and-etf-assets-slip-below-usd1-billion",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; opened but does not confirm the claim"
     }
    ]
   },
@@ -75103,6 +75258,24 @@
     "at": "2026-11-21T07:17-05:00",
     "headline": "Spot bitcoin ETFs shed $582 million in a day, the most since Oct 30, as November outflows near $3.5 billion",
     "summary": "SoSoValue data cited by Decrypt show $582.2M net outflows from US spot bitcoin ETFs on Thursday, over $1.1B this week and almost $3.5B in November; total net assets $76.6B.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-21T10:11-05:00",
+    "headline": "Bitcoin falls below $57,000 to its lowest since September 2024 as about $2.4 billion in crypto bets are liquidated",
+    "summary": "Re-check. Reuters wire (via Global Banking & Finance) puts BTC at $56,813.68 at 10:50 p.m. ET Friday, down 3.57% on the day, but describes it as the lowest since July, not a two-year low; it does not confirm the two-year-low or $2.4B liquidation claims. CoinDesk's XRP story says BTC fell about 9.4% over the day. Page tickers this morning show BTC back near $58,000-$60,000.",
+    "new_development": false,
+    "level": "IMPORTANT",
+    "sources_added": 3,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-21T10:11-05:00",
+    "headline": "XRP drops about 9% to near $0.87, its lowest since November 2024, as US spot XRP ETF assets slip below $1 billion",
+    "summary": "XRP fell roughly 9% to about $0.87 in the overnight selloff, mostly long liquidations (about $18M in XRP futures, 94% longs). US spot XRP ETFs saw about $4.97M in net outflows Friday and total assets fell below $1 billion.",
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
@@ -75525,6 +75698,219 @@
   ],
   "market_significance": "Minor.",
   "trigger": "Decrypt news list",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261121_cc107f",
+  "headline": "Hackers rigged websites at 178 organizations to hijack crypto payments",
+  "summary": "Wildcard: hackers rigged websites at one hundred seventy-eight organizations to hijack crypto payments.",
+  "detected_at": "2026-11-21T10:08-05:00",
+  "active_since": "2026-11-21T10:08-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "BTC",
+   "ETH",
+   "SOL",
+   "TOTAL_MARKET"
+  ],
+  "event_type": "hack_exploit",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://thecryptowatchdog.com/the-watch-list-november-20-2026"
+  ],
+  "source_names": [
+   "Crypto Watchdog"
+  ],
+  "sources": [
+   {
+    "url": "https://thecryptowatchdog.com/the-watch-list-november-20-2026",
+    "name": "Crypto Watchdog",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://thecryptowatchdog.com/the-watch-list-november-20-2026",
+    "name": "Crypto Watchdog",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Crypto Watchdog",
+     "url": "https://thecryptowatchdog.com/the-watch-list-november-20-2026",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261121_fa6c89",
+  "headline": "Bitcoin Core 30.5 and 31.3 fix a medium-severity node-stalling bug that an AI code scanner found",
+  "summary": "Bitcoin Core shipped fixes Friday for CVE-2026-117348, a bug from version 29.0 onward that could stall nodes by repeating one ID about 50,000 times. Found by an automated AI scan (Loupe, from Block's Spiral team); no exploitation reported.",
+  "detected_at": "2026-11-21T10:11-05:00",
+  "active_since": "2026-11-21T10:11-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "protocol_upgrade",
+  "event_time": "2026-11-20T18:00-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/markets/2026/11/21/bitcoin-nodes-could-be-stalled-by-repeating-one-id-50-000-times-ai-found-the-bug"
+  ],
+  "source_names": [
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/markets/2026/11/21/bitcoin-nodes-could-be-stalled-by-repeating-one-id-50-000-times-ai-found-the-bug",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/markets/2026/11/21/bitcoin-nodes-could-be-stalled-by-repeating-one-id-50-000-times-ai-found-the-bug",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/11/21/bitcoin-nodes-could-be-stalled-by-repeating-one-id-50-000-times-ai-found-the-bug",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Disclosed and patched, no exploitation reported"
+  ],
+  "market_significance": "Node operators should update",
+  "trigger": "security disclosure",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261121_e9b3a3",
+  "headline": "Ether treasury firm BTCS warns the SEC its $54 million Aave loan could be liquidated",
+  "summary": "BTCS told the SEC its roughly $54M Aave debt (down from $64M two weeks earlier) could be liquidated near $1,450 per ether, about 17% below Saturday's price near $1,730. BTCS shares fell 12.2% Friday.",
+  "detected_at": "2026-11-21T10:11-05:00",
+  "active_since": "2026-11-21T10:11-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "ETH"
+  ],
+  "event_type": "institutional",
+  "event_time": "2026-11-21T07:30-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/markets/2026/11/21/ether-treasury-firm-btcs-warns-sec-its-usd54-million-aave-loan-could-be-liquidated"
+  ],
+  "source_names": [
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/markets/2026/11/21/ether-treasury-firm-btcs-warns-sec-its-usd54-million-aave-loan-could-be-liquidated",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/markets/2026/11/21/ether-treasury-firm-btcs-warns-sec-its-usd54-million-aave-loan-could-be-liquidated",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/11/21/ether-treasury-firm-btcs-warns-sec-its-usd54-million-aave-loan-could-be-liquidated",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Company-specific risk disclosure"
+  ],
+  "market_significance": "Shows pressure on ether treasury firms",
+  "trigger": "SEC filing",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
