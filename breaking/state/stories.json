@@ -76222,7 +76222,8 @@
    "https://cryptoticker.io/en/chainflip-hack-12-million-vaults-drained-signing-key/",
    "https://financefeeds.com/chainflip-confirms-12-million-hack-offers-attacker-10-bounty/",
    "https://chainflip.io/return",
-   "https://cointelegraph.com/news/chainflip-12m-crypto-hack-10-percent-bounty"
+   "https://cointelegraph.com/news/chainflip-12m-crypto-hack-10-percent-bounty",
+   "https://www.theblock.co/news/defi/2026-11-22-chainflips-losses-climb-to-12-million-after-protocol-discloses-122-9-btc-theft-offers-hacker-bounty-444829"
   ],
   "source_names": [
    "The Block",
@@ -76230,7 +76231,8 @@
    "CryptoTicker",
    "FinanceFeeds",
    "Chainflip Labs (official notice)",
-   "Cointelegraph"
+   "Cointelegraph",
+   "The Block"
   ],
   "sources": [
    {
@@ -76275,6 +76277,13 @@
     "checked": true,
     "confirms": true,
     "published": "2026-11-22T05:28Z"
+   },
+   {
+    "url": "https://www.theblock.co/news/defi/2026-11-22-chainflips-losses-climb-to-12-million-after-protocol-discloses-122-9-btc-theft-offers-hacker-bounty-444829",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -76313,15 +76322,22 @@
     "checked": true,
     "confirms": true,
     "published": "2026-11-22T05:28Z"
+   },
+   {
+    "url": "https://www.theblock.co/news/defi/2026-11-22-chainflips-losses-climb-to-12-million-after-protocol-discloses-122-9-btc-theft-offers-hacker-bounty-444829",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "VERIFIED",
   "verification": {
    "status": "VERIFIED",
-   "independent_sources": 2,
+   "independent_sources": 3,
    "has_primary": true,
    "score": 1.0,
-   "reason": "2 independent credible sources confirm it (incl. a primary source)",
+   "reason": "3 independent credible sources confirm it (incl. a primary source)",
    "sources_checked": [
     {
      "name": "crypto.news",
@@ -76357,6 +76373,13 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/defi/2026-11-22-chainflips-losses-climb-to-12-million-after-protocol-discloses-122-9-btc-theft-offers-hacker-bounty-444829",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -76388,6 +76411,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 2,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-22T16:10-05:00",
+    "headline": "Chainflip says it expects to get back running after its $12 million hack, with a full report due Monday",
+    "summary": "The Block reports the 122.86 BTC taken from Chainflip's Bitcoin vault had not moved from the attacker's address as of Sunday afternoon, while the ETH and stablecoins went through Tornado Cash. Founder Simon Harman said he is relatively confident Chainflip can get back up and running despite significant losses to liquidity providers, compensation ideas are still being worked on, and a report will be published Monday. Services remain temporarily unavailable; the 10% bounty deadline is 18:38 UTC on November 23. FLIP was about $0.30, roughly 37% below pre-attack.",
+    "new_development": false,
+    "level": "IMPORTANT",
+    "sources_added": 1,
     "verification": "VERIFIED"
    }
   ],
@@ -77076,6 +77108,76 @@
   ],
   "market_significance": "Ongoing quantum-risk debate",
   "trigger": "CoinDesk BTC page",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261122_bf3860",
+  "headline": "Bitcoin miners squeezed as hashprice falls to about $26 per petahash per day",
+  "summary": "Investing.com, via Yahoo Finance, reports bitcoin near $59,000 early Sunday with hashprice down to $26.16 per PH/day and fees at 0.64% of block rewards. Hashrate rebounded above 1 ZH/s after dipping to about 912 EH/s on November 14, and mining difficulty is projected to rise about 9% around November 27.",
+  "detected_at": "2026-11-22T16:10-05:00",
+  "active_since": "2026-11-22T16:10-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "market_move",
+  "event_time": "2026-11-22T02:59-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://finance.yahoo.com/markets/crypto/articles/bitcoin-struggles-below-60-000-075958768.html"
+  ],
+  "source_names": [
+   "Investing.com via Yahoo Finance"
+  ],
+  "sources": [
+   {
+    "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-struggles-below-60-000-075958768.html",
+    "name": "Investing.com via Yahoo Finance",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-struggles-below-60-000-075958768.html",
+    "name": "Investing.com via Yahoo Finance",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Investing.com via Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-struggles-below-60-000-075958768.html",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Routine mining-economics data; no threshold crossed."
+  ],
+  "market_significance": "Miner profitability pressure ahead of a difficulty increase",
+  "trigger": "Yahoo Finance / Investing.com",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
