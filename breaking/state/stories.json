@@ -75049,7 +75049,8 @@
    "https://crypto.news/bitcoin-price-above-60000-after-crash-what-would-make-the-recovery-last/",
    "https://www.cryptotimes.io/2026/11/21/bitcoin-reclaims-60k-after-plunging-to-55k-as-liquidations-top-1b/",
    "https://crypto.news/bitcoin-price-rebounds-55k-2-7b-liquidations/",
-   "https://tradersunion.com/news/cryptocurrency-news/show/4358819-bitcoin-rebounds-crypto-recovery/"
+   "https://tradersunion.com/news/cryptocurrency-news/show/4358819-bitcoin-rebounds-crypto-recovery/",
+   "https://www.gtokentool.com/en/news/digest/2026-11-22"
   ],
   "source_names": [
    "CoinDesk",
@@ -75066,7 +75067,8 @@
    "crypto.news",
    "The Crypto Times",
    "crypto.news",
-   "Traders Union"
+   "Traders Union",
+   "GTokenTool digest"
   ],
   "sources": [
    {
@@ -75178,6 +75180,13 @@
     "kind": "other",
     "checked": false,
     "confirms": false
+   },
+   {
+    "url": "https://www.gtokentool.com/en/news/digest/2026-11-22",
+    "name": "GTokenTool digest",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -75290,6 +75299,13 @@
     "kind": "other",
     "checked": false,
     "confirms": false
+   },
+   {
+    "url": "https://www.gtokentool.com/en/news/digest/2026-11-22",
+    "name": "GTokenTool digest",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "UNVERIFIED",
@@ -75404,6 +75420,13 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "GTokenTool digest",
+     "url": "https://www.gtokentool.com/en/news/digest/2026-11-22",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -75414,7 +75437,7 @@
   "market_significance": "Two-year low for BTC; ETH, XRP and SOL each down about 10% at the low; largest liquidation wave this month.",
   "trigger": "WebSearch 'bitcoin ether XRP solana price Saturday Nov 21'; Investing.com and CoinDesk",
   "content_created": false,
-  "publication_status": "HUMAN_REVIEW",
+  "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
   "updates": [
    {
@@ -75478,6 +75501,60 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 2,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-22T10:08-05:00",
+    "headline": "Bitcoin bounces nine percent off a two-year low",
+    "summary": "Here's what moved the chain today. Bitcoin bounced nine percent off a two-year low.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-22T10:08-05:00",
+    "headline": "Bitcoin back above $60,000 after a $55,127 low as shorts get squeezed",
+    "summary": "Green candles only! Bitcoin's back above sixty thousand dollars, and shorts got squeezed!",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-22T10:08-05:00",
+    "headline": "Abraxas Capital withdraws 17,597 BTC, about $1.04 billion, from Binance and Kraken",
+    "summary": "Psst... Abraxas Capital pulled nearly eighteen thousand Bitcoin off exchanges. About one billion dollars.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-22T10:08-05:00",
+    "headline": "Bitcoin briefly trades at C$24,250 on Kraken's BTC/CAD book; Kraken says trades stand",
+    "summary": "On Kraken, Bitcoin briefly traded for twenty-four thousand Canadian dollars. Kraken says trades stand.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-22T10:11-05:00",
+    "headline": "Adam Back says a Kraken market maker running out of funds caused bitcoin's flash crash on the BTC/CAD book",
+    "summary": "Per U.Today, Blockstream's Adam Back attributed bitcoin briefly hitting C$24,250 (about US$17,000) on Kraken's Canadian dollar market to a market maker running out of money; Kraken says all trades stand and found no breach (Cointelegraph).",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-22T10:11-05:00",
+    "headline": "Ethereum Foundation-linked wallet moves another 2,500 ETH as ether trades near $1,700",
+    "summary": "U.Today reports an Ethereum Foundation-linked wallet moved another 2,500 ETH, about $3.9 million, as part of ongoing sales.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
     "verification": "UNVERIFIED"
    }
   ],
@@ -76143,13 +76220,17 @@
    "https://www.theblock.co/news/defi/2026-11-21-chainflips-flip-drops-34-after-attacker-drains-4-86-million-from-vault-with-suspected-key-compromise-444804",
    "https://crypto.news/chainflip-12m-hack-attacker-10-percent-bounty/",
    "https://cryptoticker.io/en/chainflip-hack-12-million-vaults-drained-signing-key/",
-   "https://financefeeds.com/chainflip-confirms-12-million-hack-offers-attacker-10-bounty/"
+   "https://financefeeds.com/chainflip-confirms-12-million-hack-offers-attacker-10-bounty/",
+   "https://chainflip.io/return",
+   "https://cointelegraph.com/news/chainflip-12m-crypto-hack-10-percent-bounty"
   ],
   "source_names": [
    "The Block",
    "crypto.news",
    "CryptoTicker",
-   "FinanceFeeds"
+   "FinanceFeeds",
+   "Chainflip Labs (official notice)",
+   "Cointelegraph"
   ],
   "sources": [
    {
@@ -76179,6 +76260,21 @@
     "kind": "secondary",
     "checked": false,
     "confirms": false
+   },
+   {
+    "url": "https://chainflip.io/return",
+    "name": "Chainflip Labs (official notice)",
+    "kind": "primary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cointelegraph.com/news/chainflip-12m-crypto-hack-10-percent-bounty",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-11-22T05:28Z"
    }
   ],
   "gate_sources": [
@@ -76202,15 +76298,30 @@
     "kind": "secondary",
     "checked": false,
     "confirms": false
+   },
+   {
+    "url": "https://chainflip.io/return",
+    "name": "Chainflip Labs (official notice)",
+    "kind": "primary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cointelegraph.com/news/chainflip-12m-crypto-hack-10-percent-bounty",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true,
+    "published": "2026-11-22T05:28Z"
    }
   ],
-  "verification_status": "UNVERIFIED",
+  "verification_status": "VERIFIED",
   "verification": {
-   "status": "UNVERIFIED",
-   "independent_sources": 0,
-   "has_primary": false,
-   "score": 0.0,
-   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "status": "VERIFIED",
+   "independent_sources": 2,
+   "has_primary": true,
+   "score": 1.0,
+   "reason": "2 independent credible sources confirm it (incl. a primary source)",
    "sources_checked": [
     {
      "name": "crypto.news",
@@ -76232,6 +76343,20 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Chainflip Labs (official notice)",
+     "url": "https://chainflip.io/return",
+     "category": "primary",
+     "counts": true,
+     "note": "primary (claimed official source; domain not on the known list)"
+    },
+    {
+     "name": "Cointelegraph",
+     "url": "https://cointelegraph.com/news/chainflip-12m-crypto-hack-10-percent-bounty",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -76243,8 +76368,8 @@
   ],
   "market_significance": "Key-compromise exploit on a cross-chain swap protocol",
   "trigger": "The Block DeFi report",
-  "content_created": false,
-  "publication_status": "BLOCKED_UNVERIFIED",
+  "content_created": true,
+  "publication_status": "DRAFTED",
   "related_story_ids": [],
   "updates": [
    {
@@ -76255,9 +76380,22 @@
     "level": "IMPORTANT",
     "sources_added": 3,
     "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-22T10:11-05:00",
+    "headline": "Chainflip confirms about $12 million stolen from its vaults and offers the attacker a 10% bounty",
+    "summary": "Chainflip Labs' official notice says the attacker took 122.86 BTC, 520.22 ETH, 3.25 million USDC and 758,141 USDT from its vaults on November 21, about $12 million, up from the $4.86 million first reported from the Ethereum vault. It offers a 10% bounty if 90% is returned by 18:38 UTC on November 23, says it has identified the key-exposure mechanism, and its services remain temporarily unavailable. FLIP fell roughly 43% over 24 hours.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "VERIFIED"
    }
   ],
-  "posts": [],
+  "posts": [
+   "6b030741d5eabfb8ccb9f74d",
+   "6b030742bf5d5a73b69d531c",
+   "6b030742846b0ee90796a642"
+  ],
   "needs_followup": false
  },
  {
@@ -76722,6 +76860,222 @@
   ],
   "market_significance": "ETF demand signal for XRP.",
   "trigger": "search results",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261122_110c99",
+  "headline": "Crypto Fear and Greed index at 11, extreme fear",
+  "summary": "Check the yields first. Fear and Greed sits at eleven. Extreme fear, folks.",
+  "detected_at": "2026-11-22T10:08-05:00",
+  "active_since": "2026-11-22T10:08-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "market_move",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://alternative.me/crypto/fear-and-greed-index/"
+  ],
+  "source_names": [
+   "Alternative.me"
+  ],
+  "sources": [
+   {
+    "url": "https://alternative.me/crypto/fear-and-greed-index/",
+    "name": "Alternative.me",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://alternative.me/crypto/fear-and-greed-index/",
+    "name": "Alternative.me",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Alternative.me",
+     "url": "https://alternative.me/crypto/fear-and-greed-index/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261122_43503c",
+  "headline": "Bitcoin holds near $60,900, up about 1.7% on the day; ETH, XRP and SOL little changed",
+  "summary": "CoinDesk shows BTC at $60,907, up 1.68% over 24 hours as of 10:08 AM ET Sunday, after Friday's drop to about $55,100. ETH near $1,700, XRP near 92 cents and SOL near $70, all within about 3% on the day.",
+  "detected_at": "2026-11-22T10:11-05:00",
+  "active_since": "2026-11-22T10:11-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "BTC",
+   "ETH",
+   "XRP",
+   "SOL"
+  ],
+  "event_type": "market_move",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {
+   "pct_move_24h": 1.68
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/price/bitcoin"
+  ],
+  "source_names": [
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/price/bitcoin",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/price/bitcoin",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/price/bitcoin",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Routine move, well below thresholds",
+   "price rule: BTC moved 1.7% in 24h (thresholds 7%/12%) -> NORMAL"
+  ],
+  "market_significance": "Market steadying after the two-year low",
+  "trigger": "Price check",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261122_9d7cd3",
+  "headline": "Bitcoin's quantum security challenge extends to bridges, custodians and millions of coins",
+  "summary": "CoinDesk analysis on how quantum risk reaches beyond old addresses to bridges and custodians.",
+  "detected_at": "2026-11-22T10:11-05:00",
+  "active_since": "2026-11-22T10:11-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "other",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/tech/2026/11/22/bitcoin-s-quantum-security-challenge-extends-to-bridges-custodians-and-millions-of-coins"
+  ],
+  "source_names": [
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/tech/2026/11/22/bitcoin-s-quantum-security-challenge-extends-to-bridges-custodians-and-millions-of-coins",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/tech/2026/11/22/bitcoin-s-quantum-security-challenge-extends-to-bridges-custodians-and-millions-of-coins",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/tech/2026/11/22/bitcoin-s-quantum-security-challenge-extends-to-bridges-custodians-and-millions-of-coins",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Analysis piece, no event"
+  ],
+  "market_significance": "Ongoing quantum-risk debate",
+  "trigger": "CoinDesk BTC page",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],

@@ -1,0 +1,43 @@
+{
+ "story_id": "st_20261121_33161d",
+ "date_label": "NOV 22",
+ "headline": "Chainflip confirms a $12 million vault hack and offers the attacker a 10% bounty",
+ "sources": [
+  {"name": "Chainflip Labs", "url": "https://chainflip.io/return"},
+  {"name": "Cointelegraph", "url": "https://cointelegraph.com/news/chainflip-12m-crypto-hack-10-percent-bounty"}
+ ],
+ "scenes": [
+  {
+   "beat": "hook",
+   "who": "ledger",
+   "vo": "Cross-chain swap protocol Chainflip now says about twelve million dollars was stolen from its vaults. Here's what changed.",
+   "chunks": ["Chainflip hack grows", "*About $12 million*", "Here's what changed"]
+  },
+  {
+   "beat": "what_happened",
+   "who": "ledger",
+   "vo": "The first reports said under five million. Chainflip's own notice lists about one hundred twenty three Bitcoin, five hundred twenty Ether, and four million in stablecoins, taken on November twenty first.",
+   "chunks": ["First reported $4.86M", "*123 BTC, 520 ETH*", "Plus $4M stablecoins"],
+   "stat": {"label": "Sources", "text": "Chainflip · Cointelegraph"}
+  },
+  {
+   "beat": "why_it_matters",
+   "who": "ursa",
+   "vo": "Here's why traders are watching it. Chainflip says a signing key was exposed, not a code bug. Its services are paused, and its flip token fell about forty three percent in a day.",
+   "chunks": ["Exposed signing key", "*Services paused*", "FLIP down about 43%"]
+  },
+  {
+   "beat": "watch_next",
+   "who": "moby",
+   "vo": "Here's what happens next. Chainflip offered the attacker a ten percent bounty to return the rest by Monday, eighteen thirty eight UTC. Watch those return wallets.",
+   "chunks": ["*10% bounty offer*", "Deadline Monday", "Watch the wallets"]
+  },
+  {
+   "beat": "cta",
+   "who": "all",
+   "vo": "Follow The Candle Desk for crypto news without the hype. Not financial advice.",
+   "chunks": ["Follow The Candle Desk", "*No hype*", "Just the news"],
+   "foot": "NOT FINANCIAL ADVICE"
+  }
+ ]
+}
