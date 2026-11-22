@@ -75046,7 +75046,8 @@
    "https://gvwire.com/2026/11/21/bitcoin-rises-after-falling-to-two-year-low/",
    "https://news.bitcoin.com/market-updates/bitcoin-price-rebounds-60k-crash-near-55k-billions-liquidations/",
    "https://decrypt.co/news",
-   "https://crypto.news/bitcoin-price-above-60000-after-crash-what-would-make-the-recovery-last/"
+   "https://crypto.news/bitcoin-price-above-60000-after-crash-what-would-make-the-recovery-last/",
+   "https://www.cryptotimes.io/2026/11/21/bitcoin-reclaims-60k-after-plunging-to-55k-as-liquidations-top-1b/"
   ],
   "source_names": [
    "CoinDesk",
@@ -75060,7 +75061,8 @@
    "Reuters via GV Wire",
    "Bitcoin.com News",
    "Decrypt price ticker",
-   "crypto.news"
+   "crypto.news",
+   "The Crypto Times"
   ],
   "sources": [
    {
@@ -75151,6 +75153,13 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.cryptotimes.io/2026/11/21/bitcoin-reclaims-60k-after-plunging-to-55k-as-liquidations-top-1b/",
+    "name": "The Crypto Times",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
    }
   ],
   "gate_sources": [
@@ -75242,6 +75251,13 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.cryptotimes.io/2026/11/21/bitcoin-reclaims-60k-after-plunging-to-55k-as-liquidations-top-1b/",
+    "name": "The Crypto Times",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
    }
   ],
   "verification_status": "UNVERIFIED",
@@ -75335,6 +75351,13 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "The Crypto Times",
+     "url": "https://www.cryptotimes.io/2026/11/21/bitcoin-reclaims-60k-after-plunging-to-55k-as-liquidations-top-1b/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -75388,6 +75411,15 @@
     "at": "2026-11-21T19:09-05:00",
     "headline": "Bitcoin rebounds above $60,000 after an overnight dip near $55,000 wiped out about $2.7 billion in leveraged bets",
     "summary": "Bitcoin fell to roughly $55,100-$55,300 early Saturday, its lowest since September 2024, then recovered to about $60,000-$60,500 by Saturday morning. Coinglass data cited by Bitcoin.com put 24h liquidations near $2.67 billion, mostly longs. ETH, SOL and XRP rose about 2-4% on the day.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-21T22:13-05:00",
+    "headline": "Bitcoin rebounds above $60,000 after a plunge near $55,000 that wiped out over $1 billion in leveraged bets",
+    "summary": "After sliding about 10% to near $55,000, bitcoin climbed back above $60,000 later on Saturday, with Solana leading the bounce. Liquidations topped $1 billion.",
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 1,
@@ -76335,6 +76367,169 @@
   ],
   "market_significance": "Issuer pulling back on new crypto products amid outflows",
   "trigger": "SEC filing withdrawal",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261121_411663",
+  "headline": "SEC charges eight people over a $37 million crypto fraud that targeted about 1,500 US investors",
+  "summary": "The SEC filed fraud charges against eight people tied to a crypto scheme that raised about $37 million from roughly 1,500 investors in the US.",
+  "detected_at": "2026-11-21T22:13-05:00",
+  "active_since": "2026-11-21T22:13-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "regulatory",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://en.coin-turk.com/sec-charges-8-for-37-million-crypto-fraud-that-targeted-1500-us-investors/",
+   "https://crypto.news/bitcoin-56k-death-bets-act-sec-fraud-weekly-recap"
+  ],
+  "source_names": [
+   "CoinTurk",
+   "crypto.news"
+  ],
+  "sources": [
+   {
+    "url": "https://en.coin-turk.com/sec-charges-8-for-37-million-crypto-fraud-that-targeted-1500-us-investors/",
+    "name": "CoinTurk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://crypto.news/bitcoin-56k-death-bets-act-sec-fraud-weekly-recap",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://en.coin-turk.com/sec-charges-8-for-37-million-crypto-fraud-that-targeted-1500-us-investors/",
+    "name": "CoinTurk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://crypto.news/bitcoin-56k-death-bets-act-sec-fraud-weekly-recap",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinTurk",
+     "url": "https://en.coin-turk.com/sec-charges-8-for-37-million-crypto-fraud-that-targeted-1500-us-investors/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/bitcoin-56k-death-bets-act-sec-fraud-weekly-recap",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Routine enforcement action; not yet checked against an SEC release because pages could not be opened this run."
+  ],
+  "market_significance": "Enforcement against retail crypto fraud continues.",
+  "trigger": "WebSearch results",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261121_f5490e",
+  "headline": "BlackRock's IBIT logs a record weekly outflow as Strategy shares slide about 30% in a week",
+  "summary": "In a week when bitcoin fell about 12%, BlackRock's spot bitcoin ETF saw record outflows and Strategy stock dropped around 30%.",
+  "detected_at": "2026-11-21T22:13-05:00",
+  "active_since": "2026-11-21T22:13-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.4,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "institutional",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://ceoeconomy.com/article/crypto-week-in-review-nov-21-2026"
+  ],
+  "source_names": [
+   "CEO Economy"
+  ],
+  "sources": [
+   {
+    "url": "https://ceoeconomy.com/article/crypto-week-in-review-nov-21-2026",
+    "name": "CEO Economy",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://ceoeconomy.com/article/crypto-week-in-review-nov-21-2026",
+    "name": "CEO Economy",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CEO Economy",
+     "url": "https://ceoeconomy.com/article/crypto-week-in-review-nov-21-2026",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Weekly recap figures from search snippets only; needs fund-flow data to confirm."
+  ],
+  "market_significance": "Institutional demand is the key thing traders are watching after the selloff.",
+  "trigger": "WebSearch results",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
