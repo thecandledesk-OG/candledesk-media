@@ -75045,7 +75045,8 @@
    "https://www.coindesk.com/markets/2026/11/21/xrp-falls-10-as-long-bets-unwind-and-etf-assets-slip-below-usd1-billion",
    "https://gvwire.com/2026/11/21/bitcoin-rises-after-falling-to-two-year-low/",
    "https://news.bitcoin.com/market-updates/bitcoin-price-rebounds-60k-crash-near-55k-billions-liquidations/",
-   "https://decrypt.co/news"
+   "https://decrypt.co/news",
+   "https://crypto.news/bitcoin-price-above-60000-after-crash-what-would-make-the-recovery-last/"
   ],
   "source_names": [
    "CoinDesk",
@@ -75058,7 +75059,8 @@
    "CoinDesk (XRP story)",
    "Reuters via GV Wire",
    "Bitcoin.com News",
-   "Decrypt price ticker"
+   "Decrypt price ticker",
+   "crypto.news"
   ],
   "sources": [
    {
@@ -75142,6 +75144,13 @@
     "kind": "secondary",
     "checked": true,
     "confirms": false
+   },
+   {
+    "url": "https://crypto.news/bitcoin-price-above-60000-after-crash-what-would-make-the-recovery-last/",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -75226,6 +75235,13 @@
     "kind": "secondary",
     "checked": true,
     "confirms": false
+   },
+   {
+    "url": "https://crypto.news/bitcoin-price-above-60000-after-crash-what-would-make-the-recovery-last/",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "UNVERIFIED",
@@ -75312,6 +75328,13 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; opened but does not confirm the claim"
+    },
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/bitcoin-price-above-60000-after-crash-what-would-make-the-recovery-last/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -75359,6 +75382,15 @@
     "new_development": true,
     "level": "NORMAL",
     "sources_added": 3,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-21T19:09-05:00",
+    "headline": "Bitcoin rebounds above $60,000 after an overnight dip near $55,000 wiped out about $2.7 billion in leveraged bets",
+    "summary": "Bitcoin fell to roughly $55,100-$55,300 early Saturday, its lowest since September 2024, then recovered to about $60,000-$60,500 by Saturday morning. Coinglass data cited by Bitcoin.com put 24h liquidations near $2.67 billion, mostly longs. ETH, SOL and XRP rose about 2-4% on the day.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "UNVERIFIED"
    }
   ],
@@ -76163,6 +76195,146 @@
   ],
   "market_significance": "Korean exchange freezes show how fast venues react to bridge mints.",
   "trigger": "The Block latest-news listing, 1:51 PM ET",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261121_6e7f00",
+  "headline": "Kalshi faces a Monday New York court hearing on an order it says would shut its exchange nationwide",
+  "summary": "New York's attorney general is seeking a temporary restraining order against Kalshi, heard Monday Nov 23 at 11:30 AM ET. Kalshi says it would force liquidation of open positions; the AG says it does not seek a nationwide shutdown. A federal judge on Friday denied the CFTC's emergency request to block the state case.",
+  "detected_at": "2026-11-21T19:09-05:00",
+  "active_since": "2026-11-21T19:09-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "legal",
+  "event_time": "2026-11-21T16:16-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/regulation/2026-11-21-kalshi-faces-monday-hearing-on-new-york-order-it-says-would-shut-down-its-exchange-nationwide-444813"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-21-kalshi-faces-monday-hearing-on-new-york-order-it-says-would-shut-down-its-exchange-nationwide-444813",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-21-kalshi-faces-monday-hearing-on-new-york-order-it-says-would-shut-down-its-exchange-nationwide-444813",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-11-21-kalshi-faces-monday-hearing-on-new-york-order-it-says-would-shut-down-its-exchange-nationwide-444813",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Prediction-market legal fight, state level, hearing not yet held"
+  ],
+  "market_significance": "Tests state vs CFTC authority over prediction markets",
+  "trigger": "court hearing scheduled",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261121_8c1e39",
+  "headline": "ARK tells the SEC it will not proceed with two crypto ETF filings",
+  "summary": "ARK Invest told the SEC on Friday it does not intend to proceed with two crypto ETFs it had filed for, including a fund that excludes bitcoin, and is seeking to withdraw both. Fund names were not given in the report.",
+  "detected_at": "2026-11-21T19:09-05:00",
+  "active_since": "2026-11-21T19:09-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "etf",
+  "event_time": "2026-11-20T18:00-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://panews.io/articles/01a2005f-5dc9-74ac-afa3-983911ae010e"
+  ],
+  "source_names": [
+   "PANews"
+  ],
+  "sources": [
+   {
+    "url": "https://panews.io/articles/01a2005f-5dc9-74ac-afa3-983911ae010e",
+    "name": "PANews",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://panews.io/articles/01a2005f-5dc9-74ac-afa3-983911ae010e",
+    "name": "PANews",
+    "kind": "other",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "PANews",
+     "url": "https://panews.io/articles/01a2005f-5dc9-74ac-afa3-983911ae010e",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Withdrawal of pending filings, single newsflash source, no filing link found"
+  ],
+  "market_significance": "Issuer pulling back on new crypto products amid outflows",
+  "trigger": "SEC filing withdrawal",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
