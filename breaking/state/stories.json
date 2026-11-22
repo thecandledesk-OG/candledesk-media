@@ -75047,7 +75047,9 @@
    "https://news.bitcoin.com/market-updates/bitcoin-price-rebounds-60k-crash-near-55k-billions-liquidations/",
    "https://decrypt.co/news",
    "https://crypto.news/bitcoin-price-above-60000-after-crash-what-would-make-the-recovery-last/",
-   "https://www.cryptotimes.io/2026/11/21/bitcoin-reclaims-60k-after-plunging-to-55k-as-liquidations-top-1b/"
+   "https://www.cryptotimes.io/2026/11/21/bitcoin-reclaims-60k-after-plunging-to-55k-as-liquidations-top-1b/",
+   "https://crypto.news/bitcoin-price-rebounds-55k-2-7b-liquidations/",
+   "https://tradersunion.com/news/cryptocurrency-news/show/4358819-bitcoin-rebounds-crypto-recovery/"
   ],
   "source_names": [
    "CoinDesk",
@@ -75062,7 +75064,9 @@
    "Bitcoin.com News",
    "Decrypt price ticker",
    "crypto.news",
-   "The Crypto Times"
+   "The Crypto Times",
+   "crypto.news",
+   "Traders Union"
   ],
   "sources": [
    {
@@ -75158,6 +75162,20 @@
     "url": "https://www.cryptotimes.io/2026/11/21/bitcoin-reclaims-60k-after-plunging-to-55k-as-liquidations-top-1b/",
     "name": "The Crypto Times",
     "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://crypto.news/bitcoin-price-rebounds-55k-2-7b-liquidations/",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://tradersunion.com/news/cryptocurrency-news/show/4358819-bitcoin-rebounds-crypto-recovery/",
+    "name": "Traders Union",
+    "kind": "other",
     "checked": false,
     "confirms": false
    }
@@ -75256,6 +75274,20 @@
     "url": "https://www.cryptotimes.io/2026/11/21/bitcoin-reclaims-60k-after-plunging-to-55k-as-liquidations-top-1b/",
     "name": "The Crypto Times",
     "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://crypto.news/bitcoin-price-rebounds-55k-2-7b-liquidations/",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://tradersunion.com/news/cryptocurrency-news/show/4358819-bitcoin-rebounds-crypto-recovery/",
+    "name": "Traders Union",
+    "kind": "other",
     "checked": false,
     "confirms": false
    }
@@ -75358,6 +75390,20 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/bitcoin-price-rebounds-55k-2-7b-liquidations/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Traders Union",
+     "url": "https://tradersunion.com/news/cryptocurrency-news/show/4358819-bitcoin-rebounds-crypto-recovery/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -75423,6 +75469,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-22T07:13-05:00",
+    "headline": "Bitcoin rebounds to around $60,000 after its plunge to a two-year low near $55,000",
+    "summary": "Search results say bitcoin bounced back to around $60,000 after the liquidation-driven drop to about $55,000, its lowest since September 2024; it was trading just under $60,000 on Sunday morning. Sources not opened this run.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
     "verification": "UNVERIFIED"
    }
   ],
@@ -76067,10 +76122,10 @@
   "headline": "Chainflip's FLIP drops 34% after an attacker drains about $4.86 million from its Ethereum vault",
   "summary": "The Block reports an attacker drained about $4.86 million (520.2 ETH, 3.25M USDC, 758K USDT) from Chainflip's Ethereum vault around 2:10 a.m. ET Saturday, apparently using a valid aggregate signing key rather than a contract bug; Chainflip paused the protocol and has not confirmed a cause. FLIP fell about 34%. Funds went to Tornado Cash; Bitcoin and Solana vaults appear unaffected.",
   "detected_at": "2026-11-21T13:10-05:00",
-  "active_since": "2026-11-21T13:10-05:00",
-  "classification": "NORMAL",
+  "active_since": "2026-11-22T07:13-05:00",
+  "classification": "IMPORTANT",
   "proposed_level": "NORMAL",
-  "confidence": 0.75,
+  "confidence": 0.5,
   "assets": [
    "FLIP",
    "ETH",
@@ -76085,10 +76140,16 @@
   },
   "emergency": false,
   "source_urls": [
-   "https://www.theblock.co/news/defi/2026-11-21-chainflips-flip-drops-34-after-attacker-drains-4-86-million-from-vault-with-suspected-key-compromise-444804"
+   "https://www.theblock.co/news/defi/2026-11-21-chainflips-flip-drops-34-after-attacker-drains-4-86-million-from-vault-with-suspected-key-compromise-444804",
+   "https://crypto.news/chainflip-12m-hack-attacker-10-percent-bounty/",
+   "https://cryptoticker.io/en/chainflip-hack-12-million-vaults-drained-signing-key/",
+   "https://financefeeds.com/chainflip-confirms-12-million-hack-offers-attacker-10-bounty/"
   ],
   "source_names": [
-   "The Block"
+   "The Block",
+   "crypto.news",
+   "CryptoTicker",
+   "FinanceFeeds"
   ],
   "sources": [
    {
@@ -76097,44 +76158,105 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://crypto.news/chainflip-12m-hack-attacker-10-percent-bounty/",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://cryptoticker.io/en/chainflip-hack-12-million-vaults-drained-signing-key/",
+    "name": "CryptoTicker",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://financefeeds.com/chainflip-confirms-12-million-hack-offers-attacker-10-bounty/",
+    "name": "FinanceFeeds",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
    }
   ],
   "gate_sources": [
    {
-    "url": "https://www.theblock.co/news/defi/2026-11-21-chainflips-flip-drops-34-after-attacker-drains-4-86-million-from-vault-with-suspected-key-compromise-444804",
-    "name": "The Block",
+    "url": "https://crypto.news/chainflip-12m-hack-attacker-10-percent-bounty/",
+    "name": "crypto.news",
     "kind": "secondary",
-    "checked": true,
-    "confirms": true
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://cryptoticker.io/en/chainflip-hack-12-million-vaults-drained-signing-key/",
+    "name": "CryptoTicker",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://financefeeds.com/chainflip-confirms-12-million-hack-offers-attacker-10-bounty/",
+    "name": "FinanceFeeds",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
    }
   ],
   "verification_status": "UNVERIFIED",
   "verification": {
    "status": "UNVERIFIED",
-   "independent_sources": 1,
+   "independent_sources": 0,
    "has_primary": false,
-   "score": 0.4,
-   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
    "sources_checked": [
     {
-     "name": "The Block",
-     "url": "https://www.theblock.co/news/defi/2026-11-21-chainflips-flip-drops-34-after-attacker-drains-4-86-million-from-vault-with-suspected-key-compromise-444804",
-     "category": "secondary",
-     "counts": true,
-     "note": "credible news organization"
+     "name": "crypto.news",
+     "url": "https://crypto.news/chainflip-12m-hack-attacker-10-percent-bounty/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CryptoTicker",
+     "url": "https://cryptoticker.io/en/chainflip-hack-12-million-vaults-drained-signing-key/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "FinanceFeeds",
+     "url": "https://financefeeds.com/chainflip-confirms-12-million-hack-offers-attacker-10-bounty/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
   "classification_reason": [
    "AI proposed NORMAL: Loss under the $10M IMPORTANT hack threshold; small-cap token",
-   "hack rule: about $5M lost (thresholds $10M/$100M) -> NORMAL"
+   "hack rule: about $5M lost (thresholds $10M/$100M) -> NORMAL",
+   "AI proposed IMPORTANT: Updated loss figure crosses the $10M hack threshold.",
+   "hack rule: about $12M lost (thresholds $10M/$100M) -> IMPORTANT"
   ],
   "market_significance": "Key-compromise exploit on a cross-chain swap protocol",
   "trigger": "The Block DeFi report",
   "content_created": false,
-  "publication_status": "QUEUED_FOR_DAILY",
+  "publication_status": "BLOCKED_UNVERIFIED",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-11-22T07:13-05:00",
+    "headline": "Chainflip confirms its vault hack losses reached about $12 million and offers the attacker a 10% bounty",
+    "summary": "Reports say Chainflip now puts the vault drain at about $12 million, up from the roughly $4.86 million first reported, has swaps halted in Safe Mode, and is offering the attacker a 10% bounty. Sources could not be opened this run (page fetching was blocked), so this is from search results only.",
+    "new_development": true,
+    "level": "IMPORTANT",
+    "sources_added": 3,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -76530,6 +76652,76 @@
   ],
   "market_significance": "Institutional demand is the key thing traders are watching after the selloff.",
   "trigger": "WebSearch results",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261122_6ae340",
+  "headline": "XRP ETFs shed about $30.8 million in November as XRP trades below 90 cents",
+  "summary": "A crypto.news report says US XRP ETFs have seen about $30.8 million in net outflows this month while XRP trades below 90 cents. Source not opened this run.",
+  "detected_at": "2026-11-22T07:13-05:00",
+  "active_since": "2026-11-22T07:13-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.4,
+  "assets": [
+   "XRP"
+  ],
+  "event_type": "market_move",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://crypto.news/xrp-price-below-90-cents-november-etf-outflows"
+  ],
+  "source_names": [
+   "crypto.news"
+  ],
+  "sources": [
+   {
+    "url": "https://crypto.news/xrp-price-below-90-cents-november-etf-outflows",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://crypto.news/xrp-price-below-90-cents-november-etf-outflows",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/xrp-price-below-90-cents-november-etf-outflows",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Routine flow data."
+  ],
+  "market_significance": "ETF demand signal for XRP.",
+  "trigger": "search results",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
