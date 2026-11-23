@@ -77327,5 +77327,122 @@
   "updates": [],
   "posts": [],
   "needs_followup": false
+ },
+ {
+  "id": "st_20261122_b67789",
+  "headline": "Russia's regulated crypto trading framework takes effect as Bank of Russia rules let licensed exchanges trade crypto from Nov 22",
+  "summary": "Bank of Russia rules allowing licensed exchanges and brokers to offer crypto trading take effect November 22; Moscow Exchange has said bitcoin and ether trading starts December 1.",
+  "detected_at": "2026-11-22T22:13-05:00",
+  "active_since": "2026-11-22T22:13-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "BTC",
+   "ETH"
+  ],
+  "event_type": "regulatory",
+  "event_time": "2026-11-22T00:00+03:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://crypto.news/russia-clears-crypto-exchange-trading-from-nov-22-under-central-bank-rules/",
+   "https://cointelegraph.com/news/russia-finalizes-crypto-trading-rules-november-rollout",
+   "https://invezz.com/news/2026/11/22/russia-exchange-crypto-trading-rules-take-effect/"
+  ],
+  "source_names": [
+   "crypto.news",
+   "Cointelegraph",
+   "Invezz"
+  ],
+  "sources": [
+   {
+    "url": "https://crypto.news/russia-clears-crypto-exchange-trading-from-nov-22-under-central-bank-rules/",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://cointelegraph.com/news/russia-finalizes-crypto-trading-rules-november-rollout",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://invezz.com/news/2026/11/22/russia-exchange-crypto-trading-rules-take-effect/",
+    "name": "Invezz",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://crypto.news/russia-clears-crypto-exchange-trading-from-nov-22-under-central-bank-rules/",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://cointelegraph.com/news/russia-finalizes-crypto-trading-rules-november-rollout",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://invezz.com/news/2026/11/22/russia-exchange-crypto-trading-rules-take-effect/",
+    "name": "Invezz",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/russia-clears-crypto-exchange-trading-from-nov-22-under-central-bank-rules/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Cointelegraph",
+     "url": "https://cointelegraph.com/news/russia-finalizes-crypto-trading-rules-november-rollout",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "Invezz",
+     "url": "https://invezz.com/news/2026/11/22/russia-exchange-crypto-trading-rules-take-effect/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Expected, previously announced start date; actual exchange trading begins Dec 1. Sources found via search only; pages could not be opened this run (fetch blocked)."
+  ],
+  "market_significance": "Opens a regulated onshore crypto market in Russia.",
+  "trigger": "Effective date Nov 22",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
  }
 ]
