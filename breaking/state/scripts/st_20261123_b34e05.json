@@ -1,0 +1,82 @@
+{
+ "story_id": "st_20261123_b34e05",
+ "date_label": "NOV 23",
+ "headline": "DOJ moves to forfeit $1.17 billion in USDC stolen in the Binance hack",
+ "sources": [
+  {
+   "name": "US Justice Department",
+   "url": "https://www.justice.gov/opa/pr/united-states-files-action-recover-more-1-billion-cryptocurrency-assets-stolen-north-korean"
+  },
+  {
+   "name": "The Block",
+   "url": "https://www.theblock.co/news/regulation/2026-11-23-doj-1-17-billion-usdc-binance-hack-circle-replacement-tokens-445398"
+  }
+ ],
+ "scenes": [
+  {
+   "beat": "hook",
+   "who": "ledger",
+   "vo": "Federal prosecutors just moved to claw back over one billion dollars stolen in the Binance hack. Here's what changed.",
+   "chunks": [
+    "Binance hack funds",
+    "*Over $1 billion*",
+    "Here's what changed"
+   ]
+  },
+  {
+   "beat": "what_happened",
+   "who": "ledger",
+   "vo": "On Monday, the Justice Department filed to forfeit about one point one seven billion in USDC, held at thirty six addresses on eighteen blockchains.",
+   "chunks": [
+    "Forfeiture case filed",
+    "*About $1.17 billion*",
+    "36 addresses, 18 chains"
+   ],
+   "stat": {
+    "label": "Sources",
+    "text": "DOJ · The Block"
+   }
+  },
+  {
+   "beat": "why_it_matters",
+   "who": "bruno",
+   "vo": "Here's why traders are watching it. Circle froze those coins, and will issue the same amount of new USDC to the government if a court approves.",
+   "chunks": [
+    "Circle froze the coins",
+    "*New USDC issued*",
+    "If a court agrees"
+   ]
+  },
+  {
+   "beat": "why_it_matters",
+   "who": "ursa",
+   "vo": "The catch? About six billion was stolen on October twenty ninth. The government says about two point nine billion has been frozen, seized or returned so far.",
+   "chunks": [
+    "About $6B stolen",
+    "*$2.9B recovered so far*",
+    "Most still missing"
+   ]
+  },
+  {
+   "beat": "watch_next",
+   "who": "moby",
+   "vo": "Here's what happens next. Watch the court's ruling on the forfeiture, and whether more of the stolen funds get frozen.",
+   "chunks": [
+    "*Watch the court*",
+    "Forfeiture ruling",
+    "More freezes?"
+   ]
+  },
+  {
+   "beat": "cta",
+   "who": "all",
+   "vo": "Follow The Candle Desk for crypto news without the hype. Not financial advice.",
+   "chunks": [
+    "Follow The Candle Desk",
+    "*No hype*",
+    "Just the news"
+   ],
+   "foot": "NOT FINANCIAL ADVICE"
+  }
+ ]
+}
