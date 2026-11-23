@@ -75051,7 +75051,10 @@
    "https://crypto.news/bitcoin-price-rebounds-55k-2-7b-liquidations/",
    "https://tradersunion.com/news/cryptocurrency-news/show/4358819-bitcoin-rebounds-crypto-recovery/",
    "https://www.gtokentool.com/en/news/digest/2026-11-22",
-   "https://www.theblock.co/latest-crypto-news"
+   "https://www.theblock.co/latest-crypto-news",
+   "https://coincodex.com/article/95785/daily-market-update-for-november-23-2026",
+   "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-23-2026",
+   "https://decrypt.co/383758/bitcoin-rebounds-to-61k-after-weekend-plunge-to-two-year-low"
   ],
   "source_names": [
    "CoinDesk",
@@ -75070,7 +75073,10 @@
    "crypto.news",
    "Traders Union",
    "GTokenTool digest",
-   "The Block"
+   "The Block",
+   "CoinCodex",
+   "KuCoin",
+   "Decrypt"
   ],
   "sources": [
    {
@@ -75195,6 +75201,27 @@
     "name": "The Block",
     "kind": "secondary",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://coincodex.com/article/95785/daily-market-update-for-november-23-2026",
+    "name": "CoinCodex",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-23-2026",
+    "name": "KuCoin",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/383758/bitcoin-rebounds-to-61k-after-weekend-plunge-to-two-year-low",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -75321,6 +75348,27 @@
     "name": "The Block",
     "kind": "secondary",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://coincodex.com/article/95785/daily-market-update-for-november-23-2026",
+    "name": "CoinCodex",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-23-2026",
+    "name": "KuCoin",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/383758/bitcoin-rebounds-to-61k-after-weekend-plunge-to-two-year-low",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -75450,6 +75498,27 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "CoinCodex",
+     "url": "https://coincodex.com/article/95785/daily-market-update-for-november-23-2026",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "KuCoin",
+     "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-23-2026",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/383758/bitcoin-rebounds-to-61k-after-weekend-plunge-to-two-year-low",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
     }
    ]
   },
@@ -75584,6 +75653,51 @@
     "at": "2026-11-23T07:15-05:00",
     "headline": "Bitcoin trades near $61,000, up about 1 to 3% on the day; ETH, XRP and SOL edge higher",
     "summary": "Tickers show BTC near $60,500-$61,300, ETH near $1,710, SOL near $71 and XRP near 92 cents, all up roughly 1-3% in 24 hours.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-23T10:09-05:00",
+    "headline": "Bitcoin bounces back above $61,000 after weekend dip",
+    "summary": "Here's what moved the chain today. Bitcoin bounced back above sixty-one thousand dollars.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-23T10:09-05:00",
+    "headline": "Bitcoin up about 4.7% in 24 hours off weekend low near $55,100",
+    "summary": "Green candles only! Bitcoin jumped nearly five percent off its weekend low near fifty-five thousand.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-23T10:09-05:00",
+    "headline": "Spot bitcoin ETFs bled $3.47 billion in November",
+    "summary": "Psst... spot Bitcoin ETFs bled three point four seven billion dollars in November.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-23T10:09-05:00",
+    "headline": "AI idol memecoin CLAUDIA spikes 95% after an Elon Musk repost",
+    "summary": "An AI idol memecoin called Claudia spiked ninety-five percent after an Elon Musk repost.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-23T10:11-05:00",
+    "headline": "Bitcoin rebounds to about $61,000 after a weekend drop to a two-year low; ETH, XRP and SOL up 1-3%",
+    "summary": "BTC trades near $61,200, up roughly 1% on site tickers; ETH near $1,720, SOL near $72 (+3%), XRP near $0.94 (+2%).",
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 1,
@@ -77751,6 +77865,357 @@
   ],
   "market_significance": "Sustained institutional selling",
   "trigger": "The Block latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261123_837243",
+  "headline": "Markets price over 90% odds of a December Fed rate hike",
+  "summary": "Check the yields first. Markets price over ninety percent odds of a December Fed hike.",
+  "detected_at": "2026-11-23T10:09-05:00",
+  "active_since": "2026-11-23T10:09-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "BTC",
+   "TOTAL_MARKET"
+  ],
+  "event_type": "macro",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coingabbar.com/en/crypto-news-today-btc-price-fear-index-fed-hike-pce-inflation"
+  ],
+  "source_names": [
+   "CoinGabbar"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coingabbar.com/en/crypto-news-today-btc-price-fear-index-fed-hike-pce-inflation",
+    "name": "CoinGabbar",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coingabbar.com/en/crypto-news-today-btc-price-fear-index-fed-hike-pce-inflation",
+    "name": "CoinGabbar",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinGabbar",
+     "url": "https://www.coingabbar.com/en/crypto-news-today-btc-price-fear-index-fed-hike-pce-inflation",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261123_dfa382",
+  "headline": "Strategy buys another 457 bitcoin for about $30 million",
+  "summary": "Michael Saylor's Strategy added 457 BTC for roughly $30 million, saying 'the dots aren't done'.",
+  "detected_at": "2026-11-23T10:11-05:00",
+  "active_since": "2026-11-23T10:11-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "institutional",
+  "event_time": "2026-11-23T08:10-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-11-23-the-dots-arent-done-michael-saylor-bitcoin-444907"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-23-the-dots-arent-done-michael-saylor-bitcoin-444907",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-23-the-dots-arent-done-michael-saylor-bitcoin-444907",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-23-the-dots-arent-done-michael-saylor-bitcoin-444907",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Routine weekly Strategy purchase; small size"
+  ],
+  "market_significance": "low",
+  "trigger": "The Block latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261123_adb549",
+  "headline": "Cross River Bank and LendingUSA launch bitcoin-backed loans of up to $250,000",
+  "summary": "Cross River Bank is offering its first bitcoin-backed consumer loans through LendingUSA, up to $250,000.",
+  "detected_at": "2026-11-23T10:11-05:00",
+  "active_since": "2026-11-23T10:11-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "institutional",
+  "event_time": "2026-11-23T07:05-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/deals/2026-11-23-lendingusa-cross-river-bitcoin-backed-loans-444842"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/deals/2026-11-23-lendingusa-cross-river-bitcoin-backed-loans-444842",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/deals/2026-11-23-lendingusa-cross-river-bitcoin-backed-loans-444842",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/deals/2026-11-23-lendingusa-cross-river-bitcoin-backed-loans-444842",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Small bank product launch"
+  ],
+  "market_significance": "low",
+  "trigger": "The Block latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261123_8ec0c3",
+  "headline": "Visa launches an experimental AI agent wallet that pays eligible US users in OUSD for tasks",
+  "summary": "Visa is testing an AI agent wallet where eligible US users can earn the OUSD stablecoin from paid tasks.",
+  "detected_at": "2026-11-23T10:11-05:00",
+  "active_since": "2026-11-23T10:11-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.65,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "partnership",
+  "event_time": "2026-11-23T06:22-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-11-23-visa-launches-experimental-ai-agent-wallet-for-eligible-us-users-to-earn-ousd-from-paid-tasks-444903"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-23-visa-launches-experimental-ai-agent-wallet-for-eligible-us-users-to-earn-ousd-from-paid-tasks-444903",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-23-visa-launches-experimental-ai-agent-wallet-for-eligible-us-users-to-earn-ousd-from-paid-tasks-444903",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-23-visa-launches-experimental-ai-agent-wallet-for-eligible-us-users-to-earn-ousd-from-paid-tasks-444903",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Experimental pilot, limited detail"
+  ],
+  "market_significance": "low-medium",
+  "trigger": "The Block latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261123_06ede0",
+  "headline": "Solana meme coin for Fiona the Hippo raises $100,000 for Cincinnati Zoo charity",
+  "summary": "A Solana memecoin themed on Fiona the Hippo sent about $100,000 to a Cincinnati Zoo charity.",
+  "detected_at": "2026-11-23T10:11-05:00",
+  "active_since": "2026-11-23T10:11-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "SOL"
+  ],
+  "event_type": "other",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://decrypt.co/383762/solana-meme-coin-for-fiona-the-hippo-sends-100k-to-cincinnati-zoo-charity"
+  ],
+  "source_names": [
+   "Decrypt"
+  ],
+  "sources": [
+   {
+    "url": "https://decrypt.co/383762/solana-meme-coin-for-fiona-the-hippo-sends-100k-to-cincinnati-zoo-charity",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://decrypt.co/383762/solana-meme-coin-for-fiona-the-hippo-sends-100k-to-cincinnati-zoo-charity",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/383762/solana-meme-coin-for-fiona-the-hippo-sends-100k-to-cincinnati-zoo-charity",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Light wildcard story"
+  ],
+  "market_significance": "low",
+  "trigger": "Decrypt news",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
