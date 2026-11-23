@@ -75054,7 +75054,9 @@
    "https://www.theblock.co/latest-crypto-news",
    "https://coincodex.com/article/95785/daily-market-update-for-november-23-2026",
    "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-23-2026",
-   "https://decrypt.co/383758/bitcoin-rebounds-to-61k-after-weekend-plunge-to-two-year-low"
+   "https://decrypt.co/383758/bitcoin-rebounds-to-61k-after-weekend-plunge-to-two-year-low",
+   "https://fxstreet.com/cryptocurrencies/news/crypto-today-bitcoin-ethereum-xrp-rise-despite-persistent-fragile-market-sentiment-202611231123",
+   "https://cryptoticker.io/en/crypto-news-bitcoin-ether-rally-64000/"
   ],
   "source_names": [
    "CoinDesk",
@@ -75076,7 +75078,9 @@
    "The Block",
    "CoinCodex",
    "KuCoin",
-   "Decrypt"
+   "Decrypt",
+   "FXStreet",
+   "CryptoTicker"
   ],
   "sources": [
    {
@@ -75223,6 +75227,20 @@
     "kind": "secondary",
     "checked": false,
     "confirms": true
+   },
+   {
+    "url": "https://fxstreet.com/cryptocurrencies/news/crypto-today-bitcoin-ethereum-xrp-rise-despite-persistent-fragile-market-sentiment-202611231123",
+    "name": "FXStreet",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://cryptoticker.io/en/crypto-news-bitcoin-ether-rally-64000/",
+    "name": "CryptoTicker",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
    }
   ],
   "gate_sources": [
@@ -75370,6 +75388,20 @@
     "kind": "secondary",
     "checked": false,
     "confirms": true
+   },
+   {
+    "url": "https://fxstreet.com/cryptocurrencies/news/crypto-today-bitcoin-ethereum-xrp-rise-despite-persistent-fragile-market-sentiment-202611231123",
+    "name": "FXStreet",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://cryptoticker.io/en/crypto-news-bitcoin-ether-rally-64000/",
+    "name": "CryptoTicker",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
    }
   ],
   "verification_status": "VERIFIED",
@@ -75519,6 +75551,20 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "FXStreet",
+     "url": "https://fxstreet.com/cryptocurrencies/news/crypto-today-bitcoin-ethereum-xrp-rise-despite-persistent-fragile-market-sentiment-202611231123",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CryptoTicker",
+     "url": "https://cryptoticker.io/en/crypto-news-bitcoin-ether-rally-64000/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -75701,6 +75747,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-23T13:13-05:00",
+    "headline": "Bitcoin rebounds toward $62,000-$64,000 as ether jumps about 7% and XRP recovers",
+    "summary": "Crypto prices rose on Monday, with bitcoin back above $60,000 and ether up about 7% in a day, after last week's slide to the lowest since September 2024. Sentiment remains fragile.",
+    "new_development": false,
+    "level": "IMPORTANT",
+    "sources_added": 2,
     "verification": "VERIFIED"
    }
   ],
