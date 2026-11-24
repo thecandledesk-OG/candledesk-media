@@ -77761,10 +77761,14 @@
   "metrics": {},
   "emergency": false,
   "source_urls": [
-   "https://www.theblock.co/news/regulation/2026-11-23-south-korea-to-publish-draft-digital-asset-basic-act-444881"
+   "https://www.theblock.co/news/regulation/2026-11-23-south-korea-to-publish-draft-digital-asset-basic-act-444881",
+   "https://www.theblock.co/news/regulation/2026-11-24-south-korea-new-crypto-bill-445494",
+   "https://cointelegraph.com/news/south-korea-draft-bill-crypto-innovation-user-protection"
   ],
   "source_names": [
-   "The Block"
+   "The Block",
+   "The Block",
+   "Cointelegraph"
   ],
   "sources": [
    {
@@ -77772,6 +77776,20 @@
     "name": "The Block",
     "kind": "secondary",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-24-south-korea-new-crypto-bill-445494",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://cointelegraph.com/news/south-korea-draft-bill-crypto-innovation-user-protection",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -77781,6 +77799,20 @@
     "name": "The Block",
     "kind": "secondary",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-24-south-korea-new-crypto-bill-445494",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://cointelegraph.com/news/south-korea-draft-bill-crypto-innovation-user-protection",
+    "name": "Cointelegraph",
+    "kind": "secondary",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -77798,6 +77830,20 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-11-24-south-korea-new-crypto-bill-445494",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "Cointelegraph",
+     "url": "https://cointelegraph.com/news/south-korea-draft-bill-crypto-innovation-user-protection",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
     }
    ]
   },
@@ -77809,7 +77855,17 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-11-24T10:14-05:00",
+    "headline": "South Korea unveils its draft digital asset bill, opening a path to domestic ICOs and won stablecoins and capping exchange shareholder stakes at 20%",
+    "summary": "South Korea published the draft of its digital asset law covering exchanges, won-pegged stablecoins and ICOs, with a 20% cap on exchange shareholder stakes.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -77972,10 +78028,14 @@
   "metrics": {},
   "emergency": false,
   "source_urls": [
-   "https://www.theblock.co/news/markets/2026-11-23-spot-bitcoin-etfs-shed-1-79-billion-in-past-week-444857"
+   "https://www.theblock.co/news/markets/2026-11-23-spot-bitcoin-etfs-shed-1-79-billion-in-past-week-444857",
+   "https://www.coindesk.com/daybook-us/2026/11/24/bitcoin-drops-as-november-spot-etf-outflows-increase-to-record-usd4-71-billion",
+   "https://bitcoinmagazine.com/markets/bitcoin-price-slips-60000-etf-outflows"
   ],
   "source_names": [
-   "The Block"
+   "The Block",
+   "CoinDesk",
+   "Bitcoin Magazine"
   ],
   "sources": [
    {
@@ -77983,6 +78043,20 @@
     "name": "The Block",
     "kind": "secondary",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/daybook-us/2026/11/24/bitcoin-drops-as-november-spot-etf-outflows-increase-to-record-usd4-71-billion",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://bitcoinmagazine.com/markets/bitcoin-price-slips-60000-etf-outflows",
+    "name": "Bitcoin Magazine",
+    "kind": "other",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -77992,6 +78066,20 @@
     "name": "The Block",
     "kind": "secondary",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/daybook-us/2026/11/24/bitcoin-drops-as-november-spot-etf-outflows-increase-to-record-usd4-71-billion",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://bitcoinmagazine.com/markets/bitcoin-price-slips-60000-etf-outflows",
+    "name": "Bitcoin Magazine",
+    "kind": "other",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -78009,6 +78097,20 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/daybook-us/2026/11/24/bitcoin-drops-as-november-spot-etf-outflows-increase-to-record-usd4-71-billion",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "Bitcoin Magazine",
+     "url": "https://bitcoinmagazine.com/markets/bitcoin-price-slips-60000-etf-outflows",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -78020,7 +78122,17 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-11-24T10:14-05:00",
+    "headline": "November spot bitcoin ETF outflows climb to a record $4.71 billion",
+    "summary": "CoinDesk reports monthly outflows from US spot bitcoin ETFs have reached a record $4.71 billion for November.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -79298,13 +79410,19 @@
    "https://theblock.co/news/markets/2026-11-24-bitcoin-60000-jensen-huang-fizzles-445472",
    "https://cryptobriefing.com/bitcoin-rallies-jensen-huang-nvidia-return",
    "https://crypto.news/what-did-nvidias-short-lived-rally-reveal-about-bitcoin-demand",
-   "https://thecryptobasic.com/2026/11/24/crypto-price-analysis-eth-xrp-vvv-uni-and-sol-nov-24-xrp-momentum-turns-higher-despite-failed-test-of-1-as-ethereum-loses-1710/"
+   "https://thecryptobasic.com/2026/11/24/crypto-price-analysis-eth-xrp-vvv-uni-and-sol-nov-24-xrp-momentum-turns-higher-despite-failed-test-of-1-as-ethereum-loses-1710/",
+   "https://www.coindesk.com/markets/2026/11/24/bitcoin-falls-below-usd60-000-as-rally-on-jensen-huang-s-nvidia-return-fades",
+   "https://www.forbes.com/sites/siladityaray/2026/11/24/bitcoin-slips-below-60000-again-after-short-lived-nvidia-fueled-rally/",
+   "https://www.kucoin.com/news/flash/bitcoin-loses-nvidia-driven-gains-liquidations-triple-to-800m"
   ],
   "source_names": [
    "The Block",
    "Crypto Briefing",
    "crypto.news",
-   "The Crypto Basic"
+   "The Crypto Basic",
+   "CoinDesk",
+   "Forbes",
+   "KuCoin"
   ],
   "sources": [
    {
@@ -79334,6 +79452,27 @@
     "kind": "other",
     "checked": false,
     "confirms": false
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/11/24/bitcoin-falls-below-usd60-000-as-rally-on-jensen-huang-s-nvidia-return-fades",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.forbes.com/sites/siladityaray/2026/11/24/bitcoin-slips-below-60000-again-after-short-lived-nvidia-fueled-rally/",
+    "name": "Forbes",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.kucoin.com/news/flash/bitcoin-loses-nvidia-driven-gains-liquidations-triple-to-800m",
+    "name": "KuCoin",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -79364,6 +79503,27 @@
     "kind": "other",
     "checked": false,
     "confirms": false
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/11/24/bitcoin-falls-below-usd60-000-as-rally-on-jensen-huang-s-nvidia-return-fades",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.forbes.com/sites/siladityaray/2026/11/24/bitcoin-slips-below-60000-again-after-short-lived-nvidia-fueled-rally/",
+    "name": "Forbes",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.kucoin.com/news/flash/bitcoin-loses-nvidia-driven-gains-liquidations-triple-to-800m",
+    "name": "KuCoin",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
    }
   ],
   "verification_status": "UNVERIFIED",
@@ -79401,6 +79561,27 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/11/24/bitcoin-falls-below-usd60-000-as-rally-on-jensen-huang-s-nvidia-return-fades",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "Forbes",
+     "url": "https://www.forbes.com/sites/siladityaray/2026/11/24/bitcoin-slips-below-60000-again-after-short-lived-nvidia-fueled-rally/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "KuCoin",
+     "url": "https://www.kucoin.com/news/flash/bitcoin-loses-nvidia-driven-gains-liquidations-triple-to-800m",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -79412,7 +79593,17 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-11-24T10:14-05:00",
+    "headline": "Bitcoin drops back below $60,000 as the Nvidia-driven rally fades; liquidations triple to about $800 million",
+    "summary": "Bitcoin handed back Monday's jump on Jensen Huang's return to Nvidia and slipped below $60,000; ether fell about 7% and crypto liquidations roughly tripled to around $800 million.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 3,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -79479,6 +79670,317 @@
   ],
   "market_significance": "Relative strength in SOL during extreme fear.",
   "trigger": "price action",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261124_b916c7",
+  "headline": "Nvidia jumps 31% in a day as Jensen Huang returns, while bitcoin barely moves",
+  "summary": "Here's what moved the chain today. Nvidia jumped thirty-one percent, and bitcoin barely blinked.",
+  "detected_at": "2026-11-24T10:08-05:00",
+  "active_since": "2026-11-24T10:08-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "BTC",
+   "TOTAL_MARKET"
+  ],
+  "event_type": "macro",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-24-2026",
+   "https://coinmarketcap.com/academy/article/nvidia-huang-returns-targeted-by-spies",
+   "https://samzal.com/threads/crypto-prices-today-nov-24-2026.893/"
+  ],
+  "source_names": [
+   "KuCoin",
+   "CoinMarketCap",
+   "Samzal"
+  ],
+  "sources": [
+   {
+    "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-24-2026",
+    "name": "KuCoin",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://coinmarketcap.com/academy/article/nvidia-huang-returns-targeted-by-spies",
+    "name": "CoinMarketCap",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://samzal.com/threads/crypto-prices-today-nov-24-2026.893/",
+    "name": "Samzal",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-24-2026",
+    "name": "KuCoin",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://coinmarketcap.com/academy/article/nvidia-huang-returns-targeted-by-spies",
+    "name": "CoinMarketCap",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://samzal.com/threads/crypto-prices-today-nov-24-2026.893/",
+    "name": "Samzal",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "KuCoin",
+     "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-24-2026",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinMarketCap",
+     "url": "https://coinmarketcap.com/academy/article/nvidia-huang-returns-targeted-by-spies",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Samzal",
+     "url": "https://samzal.com/threads/crypto-prices-today-nov-24-2026.893/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [
+   {
+    "at": "2026-11-24T10:08-05:00",
+    "headline": "Bitcoin briefly spikes past $64,000 on news Jensen Huang is back as Nvidia CEO",
+    "summary": "Green candles only! Jensen Huang is back, and bitcoin spiked past sixty-four thousand dollars!",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-24T10:08-05:00",
+    "headline": "Bitcoin slides back near $61,000 as Fear and Greed sits at 11, extreme fear",
+    "summary": "Check the yields first. Bitcoin slid back near sixty-one thousand, and fear sits at eleven.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-24T10:08-05:00",
+    "headline": "Jensen Huang leather jacket meme coins on BNB Chain briefly top $3 million",
+    "summary": "And Huang's leather jacket spawned meme coins on BNB Chain, some briefly topping three million dollars.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   }
+  ],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261124_5a2e9d",
+  "headline": "Monad unlocks about $217 million in MON tokens, 32% of supply",
+  "summary": "Psst... big wallets are moving. Monad unlocks about two hundred seventeen million dollars in tokens today.",
+  "detected_at": "2026-11-24T10:08-05:00",
+  "active_since": "2026-11-24T10:08-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "MON"
+  ],
+  "event_type": "other",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.kucoin.com/news/flash/three-major-token-unlocks-to-watch-in-final-week-of-november-2026"
+  ],
+  "source_names": [
+   "KuCoin"
+  ],
+  "sources": [
+   {
+    "url": "https://www.kucoin.com/news/flash/three-major-token-unlocks-to-watch-in-final-week-of-november-2026",
+    "name": "KuCoin",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.kucoin.com/news/flash/three-major-token-unlocks-to-watch-in-final-week-of-november-2026",
+    "name": "KuCoin",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "KuCoin",
+     "url": "https://www.kucoin.com/news/flash/three-major-token-unlocks-to-watch-in-final-week-of-november-2026",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261124_f21fc3",
+  "headline": "CFTC lets exchanges count bitcoin, ether and stablecoins toward financial resource requirements",
+  "summary": "Reports say the CFTC will allow certain crypto assets including bitcoin, ether and stablecoins to be used to meet financial resources requirements.",
+  "detected_at": "2026-11-24T10:14-05:00",
+  "active_since": "2026-11-24T10:14-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "BTC",
+   "ETH",
+   "USDC",
+   "TOTAL_MARKET"
+  ],
+  "event_type": "regulatory",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://crypto.news/cftc-bitcoin-ethereum-stablecoins-financial-reserves/",
+   "https://www.caproasia.com/2026/11/24/united-states-cftc-to-allow-crypto-assets-include-bitcoin-ether-stablecoins-to-be-used-to-meet-financial-resources-requirements/"
+  ],
+  "source_names": [
+   "crypto.news",
+   "Caproasia"
+  ],
+  "sources": [
+   {
+    "url": "https://crypto.news/cftc-bitcoin-ethereum-stablecoins-financial-reserves/",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.caproasia.com/2026/11/24/united-states-cftc-to-allow-crypto-assets-include-bitcoin-ether-stablecoins-to-be-used-to-meet-financial-resources-requirements/",
+    "name": "Caproasia",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://crypto.news/cftc-bitcoin-ethereum-stablecoins-financial-reserves/",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.caproasia.com/2026/11/24/united-states-cftc-to-allow-crypto-assets-include-bitcoin-ether-stablecoins-to-be-used-to-meet-financial-resources-requirements/",
+    "name": "Caproasia",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/cftc-bitcoin-ethereum-stablecoins-financial-reserves/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Caproasia",
+     "url": "https://www.caproasia.com/2026/11/24/united-states-cftc-to-allow-crypto-assets-include-bitcoin-ether-stablecoins-to-be-used-to-meet-financial-resources-requirements/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Not verified against a CFTC primary page this run; pages not opened"
+  ],
+  "market_significance": "Regulatory recognition of crypto as reserve assets",
+  "trigger": "search",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
