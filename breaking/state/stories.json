@@ -79150,5 +79150,128 @@
   "updates": [],
   "posts": [],
   "needs_followup": false
+ },
+ {
+  "id": "st_20261123_c39403",
+  "headline": "Bitcoin climbs only modestly to about $60,900 as the Nasdaq rebounds; ETH, XRP and SOL up about 2 to 3%",
+  "summary": "Bitcoin lagged a sharp Wall Street rebound on Monday, trading near $60,900, up roughly 0.6% on the day, while ether, XRP and solana gained about 2 to 3.5%. Spot bitcoin ETF outflows continue to weigh.",
+  "detected_at": "2026-11-23T22:13-05:00",
+  "active_since": "2026-11-23T22:13-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "BTC",
+   "ETH",
+   "XRP",
+   "SOL",
+   "TOTAL_MARKET"
+  ],
+  "event_type": "market_move",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {
+   "pct_move_24h": 0.6
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/prices/",
+   "https://www.coindesk.com/tech/2026/11/23/live-news-wall-street-rebounds-as-dollar-index-hits-highest-since-march-2025",
+   "https://finance.yahoo.com/markets/crypto/articles/crypto-market-today-nov-23-221502833.html"
+  ],
+  "source_names": [
+   "CoinDesk prices",
+   "CoinDesk live",
+   "Yahoo Finance"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/prices/",
+    "name": "CoinDesk prices",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/tech/2026/11/23/live-news-wall-street-rebounds-as-dollar-index-hits-highest-since-march-2025",
+    "name": "CoinDesk live",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://finance.yahoo.com/markets/crypto/articles/crypto-market-today-nov-23-221502833.html",
+    "name": "Yahoo Finance",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/prices/",
+    "name": "CoinDesk prices",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/tech/2026/11/23/live-news-wall-street-rebounds-as-dollar-index-hits-highest-since-march-2025",
+    "name": "CoinDesk live",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://finance.yahoo.com/markets/crypto/articles/crypto-market-today-nov-23-221502833.html",
+    "name": "Yahoo Finance",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk prices",
+     "url": "https://www.coindesk.com/prices/",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk live",
+     "url": "https://www.coindesk.com/tech/2026/11/23/live-news-wall-street-rebounds-as-dollar-index-hits-highest-since-march-2025",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/crypto/articles/crypto-market-today-nov-23-221502833.html",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Routine daily move well under thresholds",
+   "price rule: BTC moved 0.6% in 24h (thresholds 7%/12%) -> NORMAL"
+  ],
+  "market_significance": "Crypto decoupling from equities rally",
+  "trigger": "search + CoinDesk price table",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
  }
 ]
