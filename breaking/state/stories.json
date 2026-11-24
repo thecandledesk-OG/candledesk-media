@@ -79273,5 +79273,217 @@
   "updates": [],
   "posts": [],
   "needs_followup": false
+ },
+ {
+  "id": "st_20261124_9b0f25",
+  "headline": "Bitcoin briefly jumps about 5% on news Jensen Huang returns as Nvidia CEO, then slips back toward $60,000",
+  "summary": "Reports say bitcoin rallied about 5% after Nvidia reinstated Jensen Huang as CEO, then gave the gain back and slid toward $60,000; ether near $1,707 and XRP failed a test of $1. Discovered via search only; pages could not be opened this run.",
+  "detected_at": "2026-11-24T07:14-05:00",
+  "active_since": "2026-11-24T07:14-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.45,
+  "assets": [
+   "BTC",
+   "ETH",
+   "XRP",
+   "TOTAL_MARKET"
+  ],
+  "event_type": "market_move",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://theblock.co/news/markets/2026-11-24-bitcoin-60000-jensen-huang-fizzles-445472",
+   "https://cryptobriefing.com/bitcoin-rallies-jensen-huang-nvidia-return",
+   "https://crypto.news/what-did-nvidias-short-lived-rally-reveal-about-bitcoin-demand",
+   "https://thecryptobasic.com/2026/11/24/crypto-price-analysis-eth-xrp-vvv-uni-and-sol-nov-24-xrp-momentum-turns-higher-despite-failed-test-of-1-as-ethereum-loses-1710/"
+  ],
+  "source_names": [
+   "The Block",
+   "Crypto Briefing",
+   "crypto.news",
+   "The Crypto Basic"
+  ],
+  "sources": [
+   {
+    "url": "https://theblock.co/news/markets/2026-11-24-bitcoin-60000-jensen-huang-fizzles-445472",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://cryptobriefing.com/bitcoin-rallies-jensen-huang-nvidia-return",
+    "name": "Crypto Briefing",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://crypto.news/what-did-nvidias-short-lived-rally-reveal-about-bitcoin-demand",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://thecryptobasic.com/2026/11/24/crypto-price-analysis-eth-xrp-vvv-uni-and-sol-nov-24-xrp-momentum-turns-higher-despite-failed-test-of-1-as-ethereum-loses-1710/",
+    "name": "The Crypto Basic",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://theblock.co/news/markets/2026-11-24-bitcoin-60000-jensen-huang-fizzles-445472",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://cryptobriefing.com/bitcoin-rallies-jensen-huang-nvidia-return",
+    "name": "Crypto Briefing",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://crypto.news/what-did-nvidias-short-lived-rally-reveal-about-bitcoin-demand",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://thecryptobasic.com/2026/11/24/crypto-price-analysis-eth-xrp-vvv-uni-and-sol-nov-24-xrp-momentum-turns-higher-despite-failed-test-of-1-as-ethereum-loses-1710/",
+    "name": "The Crypto Basic",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://theblock.co/news/markets/2026-11-24-bitcoin-60000-jensen-huang-fizzles-445472",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "Crypto Briefing",
+     "url": "https://cryptobriefing.com/bitcoin-rallies-jensen-huang-nvidia-return",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/what-did-nvidias-short-lived-rally-reveal-about-bitcoin-demand",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "The Crypto Basic",
+     "url": "https://thecryptobasic.com/2026/11/24/crypto-price-analysis-eth-xrp-vvv-uni-and-sol-nov-24-xrp-momentum-turns-higher-despite-failed-test-of-1-as-ethereum-loses-1710/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Intraday spike reversed; net 24h move appears small. Not verified: article pages could not be opened (fetch blocked)."
+  ],
+  "market_significance": "Shows how fragile rallies are in extreme fear; macro/AI headlines moving crypto.",
+  "trigger": "Nvidia CEO news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261124_162648",
+  "headline": "Solana jumps about 9% as traders ask whether the bottom is in",
+  "summary": "CoinCentral reports SOL rose about 9%. Discovered via search only; not verified this run.",
+  "detected_at": "2026-11-24T07:14-05:00",
+  "active_since": "2026-11-24T07:14-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.35,
+  "assets": [
+   "SOL"
+  ],
+  "event_type": "market_move",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://coincentral.com/solana-sol-price-jumps-9-as-traders-ask-if-the-bottom-is-in"
+  ],
+  "source_names": [
+   "CoinCentral"
+  ],
+  "sources": [
+   {
+    "url": "https://coincentral.com/solana-sol-price-jumps-9-as-traders-ask-if-the-bottom-is-in",
+    "name": "CoinCentral",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://coincentral.com/solana-sol-price-jumps-9-as-traders-ask-if-the-bottom-is-in",
+    "name": "CoinCentral",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinCentral",
+     "url": "https://coincentral.com/solana-sol-price-jumps-9-as-traders-ask-if-the-bottom-is-in",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Below the 12% DEFAULT threshold for an unusual move; unverified (fetch blocked)."
+  ],
+  "market_significance": "Relative strength in SOL during extreme fear.",
+  "trigger": "price action",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
  }
 ]
