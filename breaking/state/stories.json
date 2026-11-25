@@ -76449,10 +76449,12 @@
   "emergency": false,
   "source_urls": [
    "https://www.coindesk.com/markets/2026/11/21/ether-treasury-firm-btcs-warns-sec-its-usd54-million-aave-loan-could-be-liquidated",
-   "https://www.theblock.co/news/business/2026-11-24-ethereum-treasury-firm-btcs-sells-43-8-million-eth-cut-aave-debt-ceo-says-we-do-not-take-this-lightly-445562"
+   "https://www.theblock.co/news/business/2026-11-24-ethereum-treasury-firm-btcs-sells-43-8-million-eth-cut-aave-debt-ceo-says-we-do-not-take-this-lightly-445562",
+   "https://www.theblock.co/news/business/2026-11-25-bit-digital-repays-50-million-to-galaxy-after-selling-29825-eth-446164"
   ],
   "source_names": [
    "CoinDesk",
+   "The Block",
    "The Block"
   ],
   "sources": [
@@ -76468,6 +76470,13 @@
     "name": "The Block",
     "kind": "secondary",
     "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-25-bit-digital-repays-50-million-to-galaxy-after-selling-29825-eth-446164",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
     "confirms": true
    }
   ],
@@ -76485,15 +76494,22 @@
     "kind": "secondary",
     "checked": false,
     "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-25-bit-digital-repays-50-million-to-galaxy-after-selling-29825-eth-446164",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
-  "verification_status": "UNVERIFIED",
+  "verification_status": "VERIFIED",
   "verification": {
-   "status": "UNVERIFIED",
-   "independent_sources": 1,
+   "status": "VERIFIED",
+   "independent_sources": 2,
    "has_primary": false,
-   "score": 0.4,
-   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "score": 0.8,
+   "reason": "2 independent credible sources confirm it (no primary source yet)",
    "sources_checked": [
     {
      "name": "CoinDesk",
@@ -76508,6 +76524,13 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-25-bit-digital-repays-50-million-to-galaxy-after-selling-29825-eth-446164",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -76537,6 +76560,15 @@
     "level": "NORMAL",
     "sources_added": 0,
     "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-25T10:09-05:00",
+    "headline": "Bit Digital repays $50 million to Galaxy after selling 29,825 ETH",
+    "summary": "Ether treasury firm Bit Digital sold 29,825 ETH and repaid a $50 million loan to Galaxy.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
    }
   ],
   "posts": [],
@@ -77026,6 +77058,15 @@
     "new_development": true,
     "level": "NORMAL",
     "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-25T10:09-05:00",
+    "headline": "Utah moves to drop criminal charges against Kalshi after the platform halts operations there",
+    "summary": "Utah moved to drop criminal charges against prediction market Kalshi after it halted operations in the state.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
     "verification": "VERIFIED"
    }
   ],
@@ -78191,7 +78232,10 @@
    "https://www.coindesk.com/tech/2026/11/24/live-updates-bitcoin-pulls-back-to-usd60-000-as-stock-rally-fails-to-budge-crypto",
    "https://finance.yahoo.com/markets/crypto/articles/china-tariff-threat-knocks-bitcoin-200252777.html",
    "https://www.fool.com/coverage/stock-market-today/2026/11/24/crypto-market-today-nov-24-bitcoin-falls-below-usd60-000-as-etf-outflows-hit-a-record-usd4-7-billion/",
-   "https://invezz.com/news/2026/11/24/why-is-bitcoin-down-today-below-60000/"
+   "https://invezz.com/news/2026/11/24/why-is-bitcoin-down-today-below-60000/",
+   "https://pomegra.io/news/bitcoin-slides-3-to-59000-as-etf-outflows-mount",
+   "https://www.journalarta.com/en/2026/11/25/bitcoin-slides-to-59168-in-its-biggest-daily-drop-since-november-20/",
+   "https://www.coinglass.com/currencies/XRP"
   ],
   "source_names": [
    "The Block",
@@ -78201,7 +78245,10 @@
    "CoinDesk",
    "Yahoo Finance",
    "Motley Fool",
-   "Invezz"
+   "Invezz",
+   "Pomegra",
+   "JournalArta",
+   "CoinGlass"
   ],
   "sources": [
    {
@@ -78258,6 +78305,27 @@
     "name": "Invezz",
     "kind": "other",
     "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://pomegra.io/news/bitcoin-slides-3-to-59000-as-etf-outflows-mount",
+    "name": "Pomegra",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.journalarta.com/en/2026/11/25/bitcoin-slides-to-59168-in-its-biggest-daily-drop-since-november-20/",
+    "name": "JournalArta",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coinglass.com/currencies/XRP",
+    "name": "CoinGlass",
+    "kind": "secondary",
+    "checked": true,
     "confirms": true
    }
   ],
@@ -78316,6 +78384,27 @@
     "name": "Invezz",
     "kind": "other",
     "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://pomegra.io/news/bitcoin-slides-3-to-59000-as-etf-outflows-mount",
+    "name": "Pomegra",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.journalarta.com/en/2026/11/25/bitcoin-slides-to-59168-in-its-biggest-daily-drop-since-november-20/",
+    "name": "JournalArta",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coinglass.com/currencies/XRP",
+    "name": "CoinGlass",
+    "kind": "secondary",
+    "checked": true,
     "confirms": true
    }
   ],
@@ -78382,6 +78471,27 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Pomegra",
+     "url": "https://pomegra.io/news/bitcoin-slides-3-to-59000-as-etf-outflows-mount",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "JournalArta",
+     "url": "https://www.journalarta.com/en/2026/11/25/bitcoin-slides-to-59168-in-its-biggest-daily-drop-since-november-20/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinGlass",
+     "url": "https://www.coinglass.com/currencies/XRP",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -78391,7 +78501,7 @@
   "market_significance": "Sustained institutional selling",
   "trigger": "The Block latest news",
   "content_created": false,
-  "publication_status": "QUEUED_FOR_DAILY",
+  "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
   "updates": [
    {
@@ -78437,6 +78547,33 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-25T10:08-05:00",
+    "headline": "Bitcoin ETFs bleed a record $4.7 billion in November",
+    "summary": "Here's what moved the chain today. Bitcoin ETFs bled a record four point seven billion dollars this November.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-25T10:08-05:00",
+    "headline": "About $52 billion in net inflows still parked in bitcoin ETFs, about 83% of peak",
+    "summary": "Green candles only! About fifty-two billion in net inflows is still parked in those ETFs!",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-25T10:08-05:00",
+    "headline": "Six straight ETF outflow days as bitcoin sits about 1% above its one-year low; Fear and Greed at 10",
+    "summary": "Check the yields first. Six straight outflow days, and bitcoin sits one percent above its yearly low.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
     "verification": "UNVERIFIED"
    }
   ],
@@ -80650,9 +80787,19 @@
   "market_significance": "Small-cap memecoin risk.",
   "trigger": "The Block DeFi report",
   "content_created": false,
-  "publication_status": "QUEUED_FOR_DAILY",
+  "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-11-25T10:08-05:00",
+    "headline": "Ansem denies role in a $2.57 million wallet drain as Black Bull coin falls 55%",
+    "summary": "Trader Ansem denies any role in a two point five seven million dollar wallet drain. His Black Bull coin fell fifty-five percent.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -81517,6 +81664,385 @@
   ],
   "market_significance": "Sentiment",
   "trigger": "Decrypt",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261125_c55a96",
+  "headline": "4.61 billion XRP flowed onto exchanges in 30 days, CryptoQuant data shows",
+  "summary": "Psst... four point six billion XRP flowed onto exchanges in thirty days. Big wallets are moving.",
+  "detected_at": "2026-11-25T10:08-05:00",
+  "active_since": "2026-11-25T10:08-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "XRP"
+  ],
+  "event_type": "market_move",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://dailystar.co.za/2026/11/25/xrp-price-remains-below-1-as-exchange-inflows-reach-4-61b-tokens-analysts-anticipate-recovery/"
+  ],
+  "source_names": [
+   "Daily Star / CryptoQuant"
+  ],
+  "sources": [
+   {
+    "url": "https://dailystar.co.za/2026/11/25/xrp-price-remains-below-1-as-exchange-inflows-reach-4-61b-tokens-analysts-anticipate-recovery/",
+    "name": "Daily Star / CryptoQuant",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://dailystar.co.za/2026/11/25/xrp-price-remains-below-1-as-exchange-inflows-reach-4-61b-tokens-analysts-anticipate-recovery/",
+    "name": "Daily Star / CryptoQuant",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Daily Star / CryptoQuant",
+     "url": "https://dailystar.co.za/2026/11/25/xrp-price-remains-below-1-as-exchange-inflows-reach-4-61b-tokens-analysts-anticipate-recovery/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261125_0bc318",
+  "headline": "Ukraine passes a crypto market law with a $332 million revenue target",
+  "summary": "Ukraine's parliament passed a law to regulate the crypto market, with the government targeting about $332 million in revenue.",
+  "detected_at": "2026-11-25T10:09-05:00",
+  "active_since": "2026-11-25T10:09-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "regulatory",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/regulation/2026-11-25-ukraine-passes-crypto-market-law-with-332-million-revenue-target-446182"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-25-ukraine-passes-crypto-market-law-with-332-million-revenue-target-446182",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-25-ukraine-passes-crypto-market-law-with-332-million-revenue-target-446182",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-11-25-ukraine-passes-crypto-market-law-with-332-million-revenue-target-446182",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: National regulation outside major markets; routine for the daily show"
+  ],
+  "market_significance": "Another country formalizes crypto rules",
+  "trigger": "The Block latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261125_8da59c",
+  "headline": "UniCredit offers capital-protected bitcoin exposure to Italian retail clients",
+  "summary": "UniCredit launched a bitcoin-linked product for Italian retail clients with capital protection at maturity.",
+  "detected_at": "2026-11-25T10:09-05:00",
+  "active_since": "2026-11-25T10:09-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "institutional",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-11-25-unicredit-offers-bitcoin-exposure-to-italian-retail-clients-with-capital-protection-at-maturity-446150"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-25-unicredit-offers-bitcoin-exposure-to-italian-retail-clients-with-capital-protection-at-maturity-446150",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-25-unicredit-offers-bitcoin-exposure-to-italian-retail-clients-with-capital-protection-at-maturity-446150",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-25-unicredit-offers-bitcoin-exposure-to-italian-retail-clients-with-capital-protection-at-maturity-446150",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Single-bank retail product"
+  ],
+  "market_significance": "Big European bank adds retail bitcoin exposure",
+  "trigger": "The Block latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261125_b6dc57",
+  "headline": "X wins a default judgment in an alleged bitcoin content-farm case",
+  "summary": "X secured a default judgment against an alleged bitcoin content farm; Elon Musk posted 'Don't mess with X'.",
+  "detected_at": "2026-11-25T10:09-05:00",
+  "active_since": "2026-11-25T10:09-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "legal",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/regulation/2026-11-25-dont-mess-with-x-elon-musk-says-after-platform-secures-default-judgment-in-alleged-bitcoin-content-farm-case-446151"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-25-dont-mess-with-x-elon-musk-says-after-platform-secures-default-judgment-in-alleged-bitcoin-content-farm-case-446151",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-25-dont-mess-with-x-elon-musk-says-after-platform-secures-default-judgment-in-alleged-bitcoin-content-farm-case-446151",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-11-25-dont-mess-with-x-elon-musk-says-after-platform-secures-default-judgment-in-alleged-bitcoin-content-farm-case-446151",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Civil case, no market effect"
+  ],
+  "market_significance": "Platform crackdown on crypto spam",
+  "trigger": "The Block latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261125_719137",
+  "headline": "Ark sells $6.8 million of its own bitcoin ETF as BTC dips below $59,000",
+  "summary": "Ark sold about $6.8 million of its own bitcoin ETF shares as bitcoin slipped under $59,000; BTC is down roughly 2 to 4% on the day, ETH about 2.5 to 3.7%, SOL about 4.5%, XRP about 2%.",
+  "detected_at": "2026-11-25T10:09-05:00",
+  "active_since": "2026-11-25T10:09-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "BTC",
+   "ETH",
+   "SOL",
+   "XRP"
+  ],
+  "event_type": "market_move",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {
+   "pct_move_24h": -3.6
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-11-25-ark-sells-own-bitcoin-btc-dips-446109",
+   "https://decrypt.co/news"
+  ],
+  "source_names": [
+   "The Block",
+   "Decrypt price ticker"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-25-ark-sells-own-bitcoin-btc-dips-446109",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/news",
+    "name": "Decrypt price ticker",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-25-ark-sells-own-bitcoin-btc-dips-446109",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/news",
+    "name": "Decrypt price ticker",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "VERIFIED",
+  "verification": {
+   "status": "VERIFIED",
+   "independent_sources": 2,
+   "has_primary": false,
+   "score": 0.8,
+   "reason": "2 independent credible sources confirm it (no primary source yet)",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-25-ark-sells-own-bitcoin-btc-dips-446109",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Decrypt price ticker",
+     "url": "https://decrypt.co/news",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Moves well below IMPORTANT thresholds",
+   "price rule: BTC moved 3.6% in 24h (thresholds 7%/12%) -> NORMAL"
+  ],
+  "market_significance": "Continued slide in extreme fear",
+  "trigger": "The Block latest news",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
