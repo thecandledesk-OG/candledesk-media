@@ -78102,7 +78102,9 @@
    "https://bitcoinmagazine.com/markets/bitcoin-price-slips-60000-etf-outflows",
    "https://www.theblock.co/news/markets/2026-11-24-bitcoin-etfs-another-570-million-net-outflows-november-total-nears-5-billion-btc-dips-below-60k-445548",
    "https://www.coindesk.com/tech/2026/11/24/live-updates-bitcoin-pulls-back-to-usd60-000-as-stock-rally-fails-to-budge-crypto",
-   "https://finance.yahoo.com/markets/crypto/articles/china-tariff-threat-knocks-bitcoin-200252777.html"
+   "https://finance.yahoo.com/markets/crypto/articles/china-tariff-threat-knocks-bitcoin-200252777.html",
+   "https://www.fool.com/coverage/stock-market-today/2026/11/24/crypto-market-today-nov-24-bitcoin-falls-below-usd60-000-as-etf-outflows-hit-a-record-usd4-7-billion/",
+   "https://invezz.com/news/2026/11/24/why-is-bitcoin-down-today-below-60000/"
   ],
   "source_names": [
    "The Block",
@@ -78110,7 +78112,9 @@
    "Bitcoin Magazine",
    "The Block",
    "CoinDesk",
-   "Yahoo Finance"
+   "Yahoo Finance",
+   "Motley Fool",
+   "Invezz"
   ],
   "sources": [
    {
@@ -78152,6 +78156,20 @@
     "url": "https://finance.yahoo.com/markets/crypto/articles/china-tariff-threat-knocks-bitcoin-200252777.html",
     "name": "Yahoo Finance",
     "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.fool.com/coverage/stock-market-today/2026/11/24/crypto-market-today-nov-24-bitcoin-falls-below-usd60-000-as-etf-outflows-hit-a-record-usd4-7-billion/",
+    "name": "Motley Fool",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://invezz.com/news/2026/11/24/why-is-bitcoin-down-today-below-60000/",
+    "name": "Invezz",
+    "kind": "other",
     "checked": false,
     "confirms": true
    }
@@ -78196,6 +78214,20 @@
     "url": "https://finance.yahoo.com/markets/crypto/articles/china-tariff-threat-knocks-bitcoin-200252777.html",
     "name": "Yahoo Finance",
     "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.fool.com/coverage/stock-market-today/2026/11/24/crypto-market-today-nov-24-bitcoin-falls-below-usd60-000-as-etf-outflows-hit-a-record-usd4-7-billion/",
+    "name": "Motley Fool",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://invezz.com/news/2026/11/24/why-is-bitcoin-down-today-below-60000/",
+    "name": "Invezz",
+    "kind": "other",
     "checked": false,
     "confirms": true
    }
@@ -78249,6 +78281,20 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "Motley Fool",
+     "url": "https://www.fool.com/coverage/stock-market-today/2026/11/24/crypto-market-today-nov-24-bitcoin-falls-below-usd60-000-as-etf-outflows-hit-a-record-usd4-7-billion/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Invezz",
+     "url": "https://invezz.com/news/2026/11/24/why-is-bitcoin-down-today-below-60000/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -78284,6 +78330,15 @@
     "headline": "Bitcoin slips back below $60,000 as a China tariff threat returns and November ETF outflows near $5 billion",
     "summary": "Bitcoin fell back under $60,000 on Tuesday, down about 2.5% on the day, as tariff headlines returned and the stock rally faded. US spot bitcoin ETFs saw about $570 million in net outflows, bringing November's total near $5 billion. ETH fell about 2.6% and SOL about 4%, XRP roughly flat.",
     "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-24T19:13-05:00",
+    "headline": "Spot bitcoin ETF outflows hit a record $4.71 billion for November",
+    "summary": "US spot bitcoin ETFs have seen about $4.71 billion of net outflows in November, a record month, according to reports on Nov 24.",
+    "new_development": true,
     "level": "NORMAL",
     "sources_added": 2,
     "verification": "UNVERIFIED"
@@ -79569,7 +79624,10 @@
    "https://thecryptobasic.com/2026/11/24/crypto-price-analysis-eth-xrp-vvv-uni-and-sol-nov-24-xrp-momentum-turns-higher-despite-failed-test-of-1-as-ethereum-loses-1710/",
    "https://www.coindesk.com/markets/2026/11/24/bitcoin-falls-below-usd60-000-as-rally-on-jensen-huang-s-nvidia-return-fades",
    "https://www.forbes.com/sites/siladityaray/2026/11/24/bitcoin-slips-below-60000-again-after-short-lived-nvidia-fueled-rally/",
-   "https://www.kucoin.com/news/flash/bitcoin-loses-nvidia-driven-gains-liquidations-triple-to-800m"
+   "https://www.kucoin.com/news/flash/bitcoin-loses-nvidia-driven-gains-liquidations-triple-to-800m",
+   "https://www.coindesk.com/tech/2026/11/24/live-updates-bitcoin-pulls-back-to-usd60-000-as-stock-rally-fails-to-budge-crypto",
+   "https://finance.yahoo.com/markets/crypto/articles/china-tariff-threat-knocks-bitcoin-200252777.html",
+   "https://cryptoticker.io/en/crypto-news-bitcoin-below-60000-ether-7-percent/"
   ],
   "source_names": [
    "The Block",
@@ -79578,7 +79636,10 @@
    "The Crypto Basic",
    "CoinDesk",
    "Forbes",
-   "KuCoin"
+   "KuCoin",
+   "CoinDesk",
+   "Yahoo Finance",
+   "CryptoTicker"
   ],
   "sources": [
    {
@@ -79626,6 +79687,27 @@
    {
     "url": "https://www.kucoin.com/news/flash/bitcoin-loses-nvidia-driven-gains-liquidations-triple-to-800m",
     "name": "KuCoin",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/tech/2026/11/24/live-updates-bitcoin-pulls-back-to-usd60-000-as-stock-rally-fails-to-budge-crypto",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://finance.yahoo.com/markets/crypto/articles/china-tariff-threat-knocks-bitcoin-200252777.html",
+    "name": "Yahoo Finance",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptoticker.io/en/crypto-news-bitcoin-below-60000-ether-7-percent/",
+    "name": "CryptoTicker",
     "kind": "other",
     "checked": false,
     "confirms": true
@@ -79677,6 +79759,27 @@
    {
     "url": "https://www.kucoin.com/news/flash/bitcoin-loses-nvidia-driven-gains-liquidations-triple-to-800m",
     "name": "KuCoin",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/tech/2026/11/24/live-updates-bitcoin-pulls-back-to-usd60-000-as-stock-rally-fails-to-budge-crypto",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://finance.yahoo.com/markets/crypto/articles/china-tariff-threat-knocks-bitcoin-200252777.html",
+    "name": "Yahoo Finance",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptoticker.io/en/crypto-news-bitcoin-below-60000-ether-7-percent/",
+    "name": "CryptoTicker",
     "kind": "other",
     "checked": false,
     "confirms": true
@@ -79738,6 +79841,27 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/tech/2026/11/24/live-updates-bitcoin-pulls-back-to-usd60-000-as-stock-rally-fails-to-budge-crypto",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/crypto/articles/china-tariff-threat-knocks-bitcoin-200252777.html",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "CryptoTicker",
+     "url": "https://cryptoticker.io/en/crypto-news-bitcoin-below-60000-ether-7-percent/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -79754,6 +79878,15 @@
     "at": "2026-11-24T10:14-05:00",
     "headline": "Bitcoin drops back below $60,000 as the Nvidia-driven rally fades; liquidations triple to about $800 million",
     "summary": "Bitcoin handed back Monday's jump on Jensen Huang's return to Nvidia and slipped below $60,000; ether fell about 7% and crypto liquidations roughly tripled to around $800 million.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 3,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-24T19:13-05:00",
+    "headline": "Bitcoin slips back below $60,000 after a WSJ report that the US is preparing tariffs on China, the EU and 14 other economies; ether down about 7%",
+    "summary": "Bitcoin fell back under $60,000 on Tuesday afternoon as the Nvidia-driven rally faded and the Wall Street Journal reported the Trump administration is preparing new tariffs on China, the EU and 14 other economies over industrial subsidies. Ether was reported down about 7%. Exact 24h moves not confirmed this run (price pages could not be opened).",
     "new_development": true,
     "level": "NORMAL",
     "sources_added": 3,
