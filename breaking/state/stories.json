@@ -78342,6 +78342,15 @@
     "level": "NORMAL",
     "sources_added": 2,
     "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-24T22:15-05:00",
+    "headline": "Bitcoin slips below $60,000 as spot bitcoin ETF outflows near a record $5 billion for November",
+    "summary": "Bitcoin fell about 2.4% to roughly $59,700 on Tuesday, ether about 2% to $1,670, solana nearly 4% and XRP about 1.7%. US spot bitcoin ETFs logged about $570 million in further net outflows, taking November's total to roughly $4.7 to $5 billion, the largest monthly withdrawal on record.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
    }
   ],
   "posts": [],
@@ -80904,6 +80913,99 @@
   ],
   "market_significance": "Minor",
   "trigger": "The Block",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261124_77088f",
+  "headline": "Coinkite publishes a postmortem on how the Coldcard seed flaw behind the July bitcoin theft went undetected for five years",
+  "summary": "Coldcard maker Coinkite released a postmortem explaining how a random-number bug present since 2021 firmware survived audits. The flaw was exploited from July 30, draining an estimated $88 million to $116 million in bitcoin; patched firmware does not fix seeds already generated.",
+  "detected_at": "2026-11-24T22:15-05:00",
+  "active_since": "2026-11-24T22:15-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "hack_exploit",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://decrypt.co/383930/coldcard-bitcoin-exploit-how-hidden-flaw-survived-years-audits",
+   "https://www.bleepingcomputer.com/news/security/coldcard-wallet-rng-flaw-likely-linked-to-88-million-bitcoin-theft/"
+  ],
+  "source_names": [
+   "Decrypt",
+   "BleepingComputer"
+  ],
+  "sources": [
+   {
+    "url": "https://decrypt.co/383930/coldcard-bitcoin-exploit-how-hidden-flaw-survived-years-audits",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.bleepingcomputer.com/news/security/coldcard-wallet-rng-flaw-likely-linked-to-88-million-bitcoin-theft/",
+    "name": "BleepingComputer",
+    "kind": "other",
+    "checked": true,
+    "confirms": false
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://decrypt.co/383930/coldcard-bitcoin-exploit-how-hidden-flaw-survived-years-audits",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.bleepingcomputer.com/news/security/coldcard-wallet-rng-flaw-likely-linked-to-88-million-bitcoin-theft/",
+    "name": "BleepingComputer",
+    "kind": "other",
+    "checked": true,
+    "confirms": false
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/383930/coldcard-bitcoin-exploit-how-hidden-flaw-survived-years-audits",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/coldcard-wallet-rng-flaw-likely-linked-to-88-million-bitcoin-theft/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Follow-up postmortem on a four-month-old incident; no new losses."
+  ],
+  "market_significance": "Hardware wallet security lessons for self-custody users.",
+  "trigger": "Postmortem coverage",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
