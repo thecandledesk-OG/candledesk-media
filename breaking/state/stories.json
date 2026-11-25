@@ -77068,6 +77068,15 @@
     "level": "NORMAL",
     "sources_added": 0,
     "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-25T13:12-05:00",
+    "headline": "Utah moves to drop criminal charges against Kalshi after the platform halts operations",
+    "summary": "Utah moved to drop criminal charges against Kalshi after the prediction market halted operations, The Block reports.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "VERIFIED"
    }
   ],
   "posts": [],
@@ -81975,11 +81984,13 @@
   "emergency": false,
   "source_urls": [
    "https://www.theblock.co/news/business/2026-11-25-ark-sells-own-bitcoin-btc-dips-446109",
-   "https://decrypt.co/news"
+   "https://decrypt.co/news",
+   "https://www.theblock.co/latest-crypto-news"
   ],
   "source_names": [
    "The Block",
-   "Decrypt price ticker"
+   "Decrypt price ticker",
+   "The Block"
   ],
   "sources": [
    {
@@ -81992,6 +82003,13 @@
    {
     "url": "https://decrypt.co/news",
     "name": "Decrypt price ticker",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/latest-crypto-news",
+    "name": "The Block",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -82008,6 +82026,13 @@
    {
     "url": "https://decrypt.co/news",
     "name": "Decrypt price ticker",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/latest-crypto-news",
+    "name": "The Block",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -82034,6 +82059,13 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/latest-crypto-news",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -82042,6 +82074,226 @@
    "price rule: BTC moved 3.6% in 24h (thresholds 7%/12%) -> NORMAL"
   ],
   "market_significance": "Continued slide in extreme fear",
+  "trigger": "The Block latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [
+   {
+    "at": "2026-11-25T13:12-05:00",
+    "headline": "Bitcoin slips about 2% to near $58,500; ETH, XRP and SOL down about 2 to 4%",
+    "summary": "Bitcoin trades near $58,400 to $58,900, down about 2% in 24 hours; ETH near $1,640, XRP near 91 cents and SOL near $68 are down roughly 2 to 4%, per The Block and Decrypt tickers.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   }
+  ],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261125_dcf577",
+  "headline": "Aave Labs publicly launches its savings app as balances top $63 million",
+  "summary": "Aave Labs opened its consumer savings app to the public; deposits have passed about $63 million, The Block reports.",
+  "detected_at": "2026-11-25T13:12-05:00",
+  "active_since": "2026-11-25T13:12-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "AAVE"
+  ],
+  "event_type": "protocol_upgrade",
+  "event_time": "2026-11-25T11:00-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/defi/2026-11-25-aave-labs-publicly-launches-savings-app-as-balances-top-63-million-446674"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/defi/2026-11-25-aave-labs-publicly-launches-savings-app-as-balances-top-63-million-446674",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/defi/2026-11-25-aave-labs-publicly-launches-savings-app-as-balances-top-63-million-446674",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/defi/2026-11-25-aave-labs-publicly-launches-savings-app-as-balances-top-63-million-446674",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Product launch, modest size"
+  ],
+  "market_significance": "DeFi lending moving toward retail savings products",
+  "trigger": "The Block latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261125_c416ff",
+  "headline": "NovaTech founders ordered to pay $1.3 million over a crypto Ponzi scheme that targeted Haitian investors",
+  "summary": "A court ordered the NovaTech founders to pay about $1.3 million in the SEC's crypto Ponzi case, The Block reports.",
+  "detected_at": "2026-11-25T13:12-05:00",
+  "active_since": "2026-11-25T13:12-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "legal",
+  "event_time": "2026-11-25T10:02-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/regulation/2026-11-25-novatech-founders-ordered-pay-1-3-million-crypto-ponzi-scheme-haitian-investors-446643"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-25-novatech-founders-ordered-pay-1-3-million-crypto-ponzi-scheme-haitian-investors-446643",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-25-novatech-founders-ordered-pay-1-3-million-crypto-ponzi-scheme-haitian-investors-446643",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-11-25-novatech-founders-ordered-pay-1-3-million-crypto-ponzi-scheme-haitian-investors-446643",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Small enforcement judgment"
+  ],
+  "market_significance": "Ongoing crypto fraud enforcement",
+  "trigger": "The Block latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261125_104ee8",
+  "headline": "Bit Digital repays $50 million to Galaxy after selling 29,825 ETH",
+  "summary": "Bit Digital sold 29,825 ETH and repaid $50 million to Galaxy, The Block reports.",
+  "detected_at": "2026-11-25T13:12-05:00",
+  "active_since": "2026-11-25T13:12-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "ETH"
+  ],
+  "event_type": "institutional",
+  "event_time": "2026-11-25T09:15-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-11-25-bit-digital-repays-50-million-to-galaxy-after-selling-29825-eth-446164"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-25-bit-digital-repays-50-million-to-galaxy-after-selling-29825-eth-446164",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-25-bit-digital-repays-50-million-to-galaxy-after-selling-29825-eth-446164",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-25-bit-digital-repays-50-million-to-galaxy-after-selling-29825-eth-446164",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Treasury company deleveraging, not market-moving"
+  ],
+  "market_significance": "ETH treasury firms selling to pay debt amid the drawdown",
   "trigger": "The Block latest news",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
