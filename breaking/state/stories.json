@@ -81627,10 +81627,16 @@
   },
   "emergency": false,
   "source_urls": [
-   "https://decrypt.co/383898/wall-street-crypto-extreme-whats-spooking-investors"
+   "https://decrypt.co/383898/wall-street-crypto-extreme-whats-spooking-investors",
+   "https://www.theblock.co/news/markets/2026-11-25-bitcoin-falls-below-58000-coinshares-butterfill-sees-tail-end-bear-market-446678",
+   "https://crypto.news/bitcoin-price-us-tariffs-core-pce-nov-25-2026/",
+   "https://www.businesstoday.in/crypto/token/story/crypto-winter-again-bitcoin-price-below-60000-as-etf-outflows-hit-4-94-billion-in-november-569441-2026-11-25"
   ],
   "source_names": [
-   "Decrypt"
+   "Decrypt",
+   "The Block",
+   "crypto.news",
+   "Business Today"
   ],
   "sources": [
    {
@@ -81638,6 +81644,27 @@
     "name": "Decrypt",
     "kind": "secondary",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-25-bitcoin-falls-below-58000-coinshares-butterfill-sees-tail-end-bear-market-446678",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://crypto.news/bitcoin-price-us-tariffs-core-pce-nov-25-2026/",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.businesstoday.in/crypto/token/story/crypto-winter-again-bitcoin-price-below-60000-as-etf-outflows-hit-4-94-billion-in-november-569441-2026-11-25",
+    "name": "Business Today",
+    "kind": "other",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -81647,6 +81674,27 @@
     "name": "Decrypt",
     "kind": "secondary",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-25-bitcoin-falls-below-58000-coinshares-butterfill-sees-tail-end-bear-market-446678",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://crypto.news/bitcoin-price-us-tariffs-core-pce-nov-25-2026/",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.businesstoday.in/crypto/token/story/crypto-winter-again-bitcoin-price-below-60000-as-etf-outflows-hit-4-94-billion-in-november-569441-2026-11-25",
+    "name": "Business Today",
+    "kind": "other",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -81664,6 +81712,27 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/markets/2026-11-25-bitcoin-falls-below-58000-coinshares-butterfill-sees-tail-end-bear-market-446678",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/bitcoin-price-us-tariffs-core-pce-nov-25-2026/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Business Today",
+     "url": "https://www.businesstoday.in/crypto/token/story/crypto-winter-again-bitcoin-price-below-60000-as-etf-outflows-hit-4-94-billion-in-november-569441-2026-11-25",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -81676,7 +81745,17 @@
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-11-25T16:13-05:00",
+    "headline": "Bitcoin slides below $58,000 as the US proposes new tariffs and Nasdaq futures drop",
+    "summary": "Bitcoin fell from near $60,000 to roughly $57,500-$58,600 after a report that the US proposed tariffs on 14 economies; Nasdaq futures fell about 2.4% and the VIX hit about 30. Solana fell about 4% to about $66.75 and ether slipped below $1,700. November spot bitcoin ETF outflows are reported near $4.7-4.9 billion.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 3,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -82295,6 +82374,169 @@
   ],
   "market_significance": "ETH treasury firms selling to pay debt amid the drawdown",
   "trigger": "The Block latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261125_636ce4",
+  "headline": "Fidelity files with the SEC for a spot Chainlink ETF with a planned Nasdaq listing",
+  "summary": "Fidelity filed a Form S-1 for the Fidelity Chainlink Fund, a spot LINK ETF it plans to list on Nasdaq. A filing is the first step; no approval decision yet.",
+  "detected_at": "2026-11-25T16:13-05:00",
+  "active_since": "2026-11-25T16:13-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "LINK"
+  ],
+  "event_type": "etf",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.sec.gov/Archives/edgar/data/0002166611/000119312526477751/d85304ds1.htm",
+   "https://www.theblock.co/news/business/2026-11-25-fidelity-chainlink-etf-nasdaq-listing-446735"
+  ],
+  "source_names": [
+   "SEC EDGAR (Form S-1)",
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.sec.gov/Archives/edgar/data/0002166611/000119312526477751/d85304ds1.htm",
+    "name": "SEC EDGAR (Form S-1)",
+    "kind": "primary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-25-fidelity-chainlink-etf-nasdaq-listing-446735",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.sec.gov/Archives/edgar/data/0002166611/000119312526477751/d85304ds1.htm",
+    "name": "SEC EDGAR (Form S-1)",
+    "kind": "primary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-25-fidelity-chainlink-etf-nasdaq-listing-446735",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "SEC EDGAR (Form S-1)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0002166611/000119312526477751/d85304ds1.htm",
+     "category": "primary",
+     "counts": false,
+     "note": "primary (known official domain); not opened, so it doesn't count"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-25-fidelity-chainlink-etf-nasdaq-listing-446735",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Registration filing, not an approval or rejection; LINK is not a major asset."
+  ],
+  "market_significance": "Another large asset manager joins the single-token ETF push.",
+  "trigger": "WebSearch results; pages not opened (WebFetch unavailable).",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261125_351c11",
+  "headline": "Bitcoin miners hit by a hashrate hijacking attack that exploits unencrypted pool connections",
+  "summary": "The Block reports an attack that redirects miners' hashrate by exploiting unencrypted mining pool connections. Scale and losses not confirmed in this run.",
+  "detected_at": "2026-11-25T16:13-05:00",
+  "active_since": "2026-11-25T16:13-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "hack_exploit",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/ecosystems/2026-11-25-bitcoin-miners-hit-hashrate-hijacking-attack-exploiting-unencrypted-connections-446723"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/ecosystems/2026-11-25-bitcoin-miners-hit-hashrate-hijacking-attack-exploiting-unencrypted-connections-446723",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/ecosystems/2026-11-25-bitcoin-miners-hit-hashrate-hijacking-attack-exploiting-unencrypted-connections-446723",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/ecosystems/2026-11-25-bitcoin-miners-hit-hashrate-hijacking-attack-exploiting-unencrypted-connections-446723",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Single report seen via search; no loss figure confirmed."
+  ],
+  "market_significance": "Security issue for miners already squeezed by low hashprice.",
+  "trigger": "WebSearch result; page not opened (WebFetch unavailable).",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
