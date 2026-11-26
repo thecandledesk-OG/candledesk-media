@@ -78244,7 +78244,8 @@
    "https://invezz.com/news/2026/11/24/why-is-bitcoin-down-today-below-60000/",
    "https://pomegra.io/news/bitcoin-slides-3-to-59000-as-etf-outflows-mount",
    "https://www.journalarta.com/en/2026/11/25/bitcoin-slides-to-59168-in-its-biggest-daily-drop-since-november-20/",
-   "https://www.coinglass.com/currencies/XRP"
+   "https://www.coinglass.com/currencies/XRP",
+   "https://www.coindesk.com/daybook-us/2026/11/26/bitcoin-etfs-are-bleeding-cash-and-the-fed-is-unlikely-to-help"
   ],
   "source_names": [
    "The Block",
@@ -78257,7 +78258,8 @@
    "Invezz",
    "Pomegra",
    "JournalArta",
-   "CoinGlass"
+   "CoinGlass",
+   "CoinDesk"
   ],
   "sources": [
    {
@@ -78335,6 +78337,13 @@
     "name": "CoinGlass",
     "kind": "secondary",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/daybook-us/2026/11/26/bitcoin-etfs-are-bleeding-cash-and-the-fed-is-unlikely-to-help",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -78414,6 +78423,13 @@
     "name": "CoinGlass",
     "kind": "secondary",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/daybook-us/2026/11/26/bitcoin-etfs-are-bleeding-cash-and-the-fed-is-unlikely-to-help",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -78501,6 +78517,13 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/daybook-us/2026/11/26/bitcoin-etfs-are-bleeding-cash-and-the-fed-is-unlikely-to-help",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
     }
    ]
   },
@@ -78583,6 +78606,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 2,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-26T16:14-05:00",
+    "headline": "Spot bitcoin ETFs on track for their biggest monthly outflow on record in November",
+    "summary": "CoinDesk's US daybook says spot bitcoin ETFs are on pace for a record monthly outflow, with a December Fed rate increase already priced in.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "UNVERIFIED"
    }
   ],
@@ -83276,11 +83308,15 @@
   "emergency": false,
   "source_urls": [
    "https://36crypto.com/crypto-prices-update-bitcoin-reclaims-60k-as-xrp-solana-and-dogecoin-rally/",
-   "https://coincodex.com/article/95985/daily-market-update-for-november-26-2026"
+   "https://coincodex.com/article/95985/daily-market-update-for-november-26-2026",
+   "https://www.coindesk.com/markets/2026/11/26/bitcoin-little-changed-defi-tokens-lead-the-bounce-as-u-s-marks-thanksgiving",
+   "https://news.bitcoin.com/market-updates/bitcoin-price-taps-61k-on-thanksgiving-as-short-sellers-take-a-beating/"
   ],
   "source_names": [
    "36Crypto",
-   "CoinCodex"
+   "CoinCodex",
+   "CoinDesk",
+   "Bitcoin.com News"
   ],
   "sources": [
    {
@@ -83295,6 +83331,20 @@
     "name": "CoinCodex",
     "kind": "secondary",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/11/26/bitcoin-little-changed-defi-tokens-lead-the-bounce-as-u-s-marks-thanksgiving",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://news.bitcoin.com/market-updates/bitcoin-price-taps-61k-on-thanksgiving-as-short-sellers-take-a-beating/",
+    "name": "Bitcoin.com News",
+    "kind": "other",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -83311,6 +83361,20 @@
     "name": "CoinCodex",
     "kind": "secondary",
     "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/11/26/bitcoin-little-changed-defi-tokens-lead-the-bounce-as-u-s-marks-thanksgiving",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://news.bitcoin.com/market-updates/bitcoin-price-taps-61k-on-thanksgiving-as-short-sellers-take-a-beating/",
+    "name": "Bitcoin.com News",
+    "kind": "other",
+    "checked": false,
     "confirms": true
    }
   ],
@@ -83335,6 +83399,20 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/11/26/bitcoin-little-changed-defi-tokens-lead-the-bounce-as-u-s-marks-thanksgiving",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "Bitcoin.com News",
+     "url": "https://news.bitcoin.com/market-updates/bitcoin-price-taps-61k-on-thanksgiving-as-short-sellers-take-a-beating/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -83346,7 +83424,17 @@
   "content_created": false,
   "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-11-26T16:14-05:00",
+    "headline": "Bitcoin holds near $61,000 on Thanksgiving as DeFi tokens lead a thin-holiday bounce",
+    "summary": "Bitcoin held Wednesday's rebound near $61,000 in thin US holiday trading, with short sellers liquidated and DeFi tokens leading gains.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
