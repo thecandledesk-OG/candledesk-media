@@ -78608,15 +78608,33 @@
   "metrics": {},
   "emergency": false,
   "source_urls": [
-   "https://www.coingabbar.com/en/crypto-news-today-btc-price-fear-index-fed-hike-pce-inflation"
+   "https://www.coingabbar.com/en/crypto-news-today-btc-price-fear-index-fed-hike-pce-inflation",
+   "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-26-2026",
+   "https://www.businesstoday.in/crypto/token/story/crypto-winter-again-bitcoin-price-below-60000-as-etf-outflows-hit-4-94-billion-in-november-569441-2026-11-25"
   ],
   "source_names": [
-   "CoinGabbar"
+   "CoinGabbar",
+   "KuCoin",
+   "Business Today"
   ],
   "sources": [
    {
     "url": "https://www.coingabbar.com/en/crypto-news-today-btc-price-fear-index-fed-hike-pce-inflation",
     "name": "CoinGabbar",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-26-2026",
+    "name": "KuCoin",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.businesstoday.in/crypto/token/story/crypto-winter-again-bitcoin-price-below-60000-as-etf-outflows-hit-4-94-billion-in-november-569441-2026-11-25",
+    "name": "Business Today",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -78626,6 +78644,20 @@
    {
     "url": "https://www.coingabbar.com/en/crypto-news-today-btc-price-fear-index-fed-hike-pce-inflation",
     "name": "CoinGabbar",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-26-2026",
+    "name": "KuCoin",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.businesstoday.in/crypto/token/story/crypto-winter-again-bitcoin-price-below-60000-as-etf-outflows-hit-4-94-billion-in-november-569441-2026-11-25",
+    "name": "Business Today",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -78645,6 +78677,20 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "KuCoin",
+     "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-26-2026",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Business Today",
+     "url": "https://www.businesstoday.in/crypto/token/story/crypto-winter-again-bitcoin-price-below-60000-as-etf-outflows-hit-4-94-billion-in-november-569441-2026-11-25",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -78656,7 +78702,26 @@
   "content_created": false,
   "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-11-26T10:08-05:00",
+    "headline": "Core PCE inflation hits 3.3%, above forecast, raising December Fed hike odds",
+    "summary": "Check the yields first. Core inflation hit three point three percent. December hike odds rising.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-26T10:08-05:00",
+    "headline": "Spot bitcoin ETFs post a record $4.94 billion of outflows in November",
+    "summary": "Psst... big wallets are moving. Bitcoin ETFs bled four point nine billion dollars in November.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -81631,14 +81696,18 @@
    "https://www.theblock.co/news/markets/2026-11-25-bitcoin-falls-below-58000-coinshares-butterfill-sees-tail-end-bear-market-446678",
    "https://crypto.news/bitcoin-price-us-tariffs-core-pce-nov-25-2026/",
    "https://www.businesstoday.in/crypto/token/story/crypto-winter-again-bitcoin-price-below-60000-as-etf-outflows-hit-4-94-billion-in-november-569441-2026-11-25",
-   "https://decrypt.co/news"
+   "https://decrypt.co/news",
+   "https://www.fool.com/coverage/stock-market-today/2026/11/25/crypto-market-today-nov-25-bitcoin-ethereum-and-solana-as-short-liquidations-fuel-fragile-rebound/",
+   "https://www.theblock.co/news/markets/2026-11-26-spot-bitcoin-etfs-worst-month-november-446814"
   ],
   "source_names": [
    "Decrypt",
    "The Block",
    "crypto.news",
    "Business Today",
-   "Decrypt"
+   "Decrypt",
+   "Motley Fool",
+   "The Block"
   ],
   "sources": [
    {
@@ -81675,6 +81744,20 @@
     "kind": "secondary",
     "checked": true,
     "confirms": false
+   },
+   {
+    "url": "https://www.fool.com/coverage/stock-market-today/2026/11/25/crypto-market-today-nov-25-bitcoin-ethereum-and-solana-as-short-liquidations-fuel-fragile-rebound/",
+    "name": "Motley Fool",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-26-spot-bitcoin-etfs-worst-month-november-446814",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -81712,15 +81795,29 @@
     "kind": "secondary",
     "checked": true,
     "confirms": false
+   },
+   {
+    "url": "https://www.fool.com/coverage/stock-market-today/2026/11/25/crypto-market-today-nov-25-bitcoin-ethereum-and-solana-as-short-liquidations-fuel-fragile-rebound/",
+    "name": "Motley Fool",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-26-spot-bitcoin-etfs-worst-month-november-446814",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
-  "verification_status": "UNVERIFIED",
+  "verification_status": "VERIFIED",
   "verification": {
-   "status": "UNVERIFIED",
-   "independent_sources": 1,
+   "status": "VERIFIED",
+   "independent_sources": 2,
    "has_primary": false,
-   "score": 0.4,
-   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "score": 0.8,
+   "reason": "2 independent credible sources confirm it (no primary source yet)",
    "sources_checked": [
     {
      "name": "Decrypt",
@@ -81756,6 +81853,20 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; opened but does not confirm the claim"
+    },
+    {
+     "name": "Motley Fool",
+     "url": "https://www.fool.com/coverage/stock-market-today/2026/11/25/crypto-market-today-nov-25-bitcoin-ethereum-and-solana-as-short-liquidations-fuel-fragile-rebound/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/markets/2026-11-26-spot-bitcoin-etfs-worst-month-november-446814",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
     }
    ]
   },
@@ -81766,7 +81877,7 @@
   "market_significance": "Sentiment",
   "trigger": "Decrypt",
   "content_created": false,
-  "publication_status": "QUEUED_FOR_DAILY",
+  "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
   "updates": [
    {
@@ -81786,6 +81897,24 @@
     "level": "NORMAL",
     "sources_added": 1,
     "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-26T10:08-05:00",
+    "headline": "Short liquidations lift bitcoin off its $58,601 low",
+    "summary": "Green candles only! Shorts got squeezed and Bitcoin bounced off fifty-eight thousand!",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-26T10:12-05:00",
+    "headline": "Bitcoin rebounds to about $60,500, up about 2.6% in 24 hours; ETH, SOL and XRP up 1 to 4%",
+    "summary": "BTC recovered from a Wednesday low near $57,300; ETH near $1,700, SOL near $71, XRP near $0.95. Moves well below IMPORTANT thresholds.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
    }
   ],
   "posts": [],
@@ -82844,9 +82973,19 @@
   "market_significance": "Closes a long-running case over crypto mining chip sales",
   "trigger": "The Block 1:00 PM ET",
   "content_created": false,
-  "publication_status": "QUEUED_FOR_DAILY",
+  "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
-  "updates": [],
+  "updates": [
+   {
+    "at": "2026-11-26T10:08-05:00",
+    "headline": "Nvidia agrees to a $290 million settlement over crypto mining disclosures",
+    "summary": "Wildcard: Nvidia agreed to pay two hundred ninety million dollars over crypto mining claims.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   }
+  ],
   "posts": [],
   "needs_followup": false
  },
@@ -83102,6 +83241,519 @@
   ],
   "market_significance": "Shrinking stablecoin supply signals less buying power",
   "trigger": "search results",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261126_d9c718",
+  "headline": "Bitcoin back above $60,000, up about 2.4% in 24 hours",
+  "summary": "Here's what moved the chain today. Bitcoin's back above sixty thousand dollars.",
+  "detected_at": "2026-11-26T10:08-05:00",
+  "active_since": "2026-11-26T10:08-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "market_move",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://36crypto.com/crypto-prices-update-bitcoin-reclaims-60k-as-xrp-solana-and-dogecoin-rally/",
+   "https://coincodex.com/article/95985/daily-market-update-for-november-26-2026"
+  ],
+  "source_names": [
+   "36Crypto",
+   "CoinCodex"
+  ],
+  "sources": [
+   {
+    "url": "https://36crypto.com/crypto-prices-update-bitcoin-reclaims-60k-as-xrp-solana-and-dogecoin-rally/",
+    "name": "36Crypto",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://coincodex.com/article/95985/daily-market-update-for-november-26-2026",
+    "name": "CoinCodex",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://36crypto.com/crypto-prices-update-bitcoin-reclaims-60k-as-xrp-solana-and-dogecoin-rally/",
+    "name": "36Crypto",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://coincodex.com/article/95985/daily-market-update-for-november-26-2026",
+    "name": "CoinCodex",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "36Crypto",
+     "url": "https://36crypto.com/crypto-prices-update-bitcoin-reclaims-60k-as-xrp-solana-and-dogecoin-rally/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinCodex",
+     "url": "https://coincodex.com/article/95985/daily-market-update-for-november-26-2026",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261126_324756",
+  "headline": "Spot bitcoin ETF BBIT starts trading on SIX Swiss Exchange, billed as Europe's only spot bitcoin ETF",
+  "summary": "BIT Asset Management's BBIT debuted on SIX with about 350 BTC, a 0.19% fee and AMINA Bank custody after FINMA approval on Oct 20.",
+  "detected_at": "2026-11-26T10:12-05:00",
+  "active_since": "2026-11-26T10:12-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "etf",
+  "event_time": "2026-11-26T01:30-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/markets/2026-11-26-swiss-bitcoin-etf-bbit-begins-trading-europes-only-446724"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-26-swiss-bitcoin-etf-bbit-begins-trading-europes-only-446724",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-26-swiss-bitcoin-etf-bbit-begins-trading-europes-only-446724",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/markets/2026-11-26-swiss-bitcoin-etf-bbit-begins-trading-europes-only-446724",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Small (about $20M) non-US ETF launch, offered only in Switzerland"
+  ],
+  "market_significance": "low",
+  "trigger": "The Block newsfeed",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261126_1b79e8",
+  "headline": "Strategic Bitcoin Reserve bill H.R. 8957 sent to the full House, but little time left before Congress adjourns",
+  "summary": "House Financial Services formally reported the American Reserve Modernization Act to the House on Nov 24 (Union Calendar No. 789); the panel approved it 28-21 in September. Polymarket gives a 4% chance of a national reserve by year-end.",
+  "detected_at": "2026-11-26T10:12-05:00",
+  "active_since": "2026-11-26T10:12-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.8,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "regulatory",
+  "event_time": "2026-11-25T22:03-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/regulation/2026-11-25-house-committee-advances-strategic-bitcoin-reserve-bill-446778"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-25-house-committee-advances-strategic-bitcoin-reserve-bill-446778",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-25-house-committee-advances-strategic-bitcoin-reserve-bill-446778",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-11-25-house-committee-advances-strategic-bitcoin-reserve-bill-446778",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Procedural step; committee vote was in September, floor vote unscheduled and passage unlikely this Congress"
+  ],
+  "market_significance": "low",
+  "trigger": "The Block newsfeed",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261126_194d31",
+  "headline": "Galaxy walks back its June-bottom call for bitcoin and warns of deeper losses below $58,525",
+  "summary": "Galaxy Research no longer sees June as the bitcoin bottom and flags $58,525 as a level that could open further downside.",
+  "detected_at": "2026-11-26T10:12-05:00",
+  "active_since": "2026-11-26T10:12-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.75,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "market_move",
+  "event_time": "2026-11-26T00:16-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/markets/2026-11-26-galaxy-walks-back-bitcoin-bottom-call-446786"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-26-galaxy-walks-back-bitcoin-bottom-call-446786",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-26-galaxy-walks-back-bitcoin-bottom-call-446786",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/markets/2026-11-26-galaxy-walks-back-bitcoin-bottom-call-446786",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Analyst view, not an event"
+  ],
+  "market_significance": "low",
+  "trigger": "The Block newsfeed",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261126_bf2da8",
+  "headline": "Switzerland approves 57 jurisdictions for crypto tax data exchange starting in 2028",
+  "summary": "Swiss authorities approved 57 partner jurisdictions for automatic crypto-asset data exchange from 2028.",
+  "detected_at": "2026-11-26T10:12-05:00",
+  "active_since": "2026-11-26T10:12-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.75,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "regulatory",
+  "event_time": "2026-11-26T04:40-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/regulation/2026-11-26-switzerland-approves-57-jurisdictions-for-crypto-data-exchange-from-2028-446821"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-26-switzerland-approves-57-jurisdictions-for-crypto-data-exchange-from-2028-446821",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-26-switzerland-approves-57-jurisdictions-for-crypto-data-exchange-from-2028-446821",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-11-26-switzerland-approves-57-jurisdictions-for-crypto-data-exchange-from-2028-446821",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Long-dated tax reporting rule"
+  ],
+  "market_significance": "low",
+  "trigger": "The Block newsfeed",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261126_7b7dd2",
+  "headline": "Zcash team urges faster deprecation of the legacy shielded pool to prepare for cryptographic breakthroughs",
+  "summary": "Zcash developers want the legacy shielded pool retired sooner as a precaution against future cryptographic attacks such as quantum computing.",
+  "detected_at": "2026-11-26T10:12-05:00",
+  "active_since": "2026-11-26T10:12-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.75,
+  "assets": [
+   "ZEC"
+  ],
+  "event_type": "protocol_upgrade",
+  "event_time": "2026-11-26T08:22-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/ecosystems/2026-11-26-the-time-to-prepare-for-a-cryptographic-breakthrough-is-before-it-happens-zcash-team-urges-faster-deprecation-of-legacy-shielded-pool-447000"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/ecosystems/2026-11-26-the-time-to-prepare-for-a-cryptographic-breakthrough-is-before-it-happens-zcash-team-urges-faster-deprecation-of-legacy-shielded-pool-447000",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/ecosystems/2026-11-26-the-time-to-prepare-for-a-cryptographic-breakthrough-is-before-it-happens-zcash-team-urges-faster-deprecation-of-legacy-shielded-pool-447000",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/ecosystems/2026-11-26-the-time-to-prepare-for-a-cryptographic-breakthrough-is-before-it-happens-zcash-team-urges-faster-deprecation-of-legacy-shielded-pool-447000",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Proposal, nothing live"
+  ],
+  "market_significance": "low",
+  "trigger": "The Block newsfeed",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261126_12501d",
+  "headline": "LayerZero adds Samsung Card, Kakao Pay and ZAN as validators for its upcoming Zero blockchain",
+  "summary": "LayerZero named three new validators for its Zero chain ahead of launch.",
+  "detected_at": "2026-11-26T10:12-05:00",
+  "active_since": "2026-11-26T10:12-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.75,
+  "assets": [
+   "ZRO"
+  ],
+  "event_type": "partnership",
+  "event_time": "2026-11-25T21:22-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/business/2026-11-25-layerzero-kakaopay-samsung-446770"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-25-layerzero-kakaopay-samsung-446770",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/business/2026-11-25-layerzero-kakaopay-samsung-446770",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-25-layerzero-kakaopay-samsung-446770",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Validator lineup announcement"
+  ],
+  "market_significance": "low",
+  "trigger": "The Block newsfeed",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
