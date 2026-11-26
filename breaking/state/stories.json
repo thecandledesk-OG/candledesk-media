@@ -81630,13 +81630,15 @@
    "https://decrypt.co/383898/wall-street-crypto-extreme-whats-spooking-investors",
    "https://www.theblock.co/news/markets/2026-11-25-bitcoin-falls-below-58000-coinshares-butterfill-sees-tail-end-bear-market-446678",
    "https://crypto.news/bitcoin-price-us-tariffs-core-pce-nov-25-2026/",
-   "https://www.businesstoday.in/crypto/token/story/crypto-winter-again-bitcoin-price-below-60000-as-etf-outflows-hit-4-94-billion-in-november-569441-2026-11-25"
+   "https://www.businesstoday.in/crypto/token/story/crypto-winter-again-bitcoin-price-below-60000-as-etf-outflows-hit-4-94-billion-in-november-569441-2026-11-25",
+   "https://decrypt.co/news"
   ],
   "source_names": [
    "Decrypt",
    "The Block",
    "crypto.news",
-   "Business Today"
+   "Business Today",
+   "Decrypt"
   ],
   "sources": [
    {
@@ -81666,6 +81668,13 @@
     "kind": "other",
     "checked": false,
     "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/news",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": false
    }
   ],
   "gate_sources": [
@@ -81696,6 +81705,13 @@
     "kind": "other",
     "checked": false,
     "confirms": true
+   },
+   {
+    "url": "https://decrypt.co/news",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": false
    }
   ],
   "verification_status": "UNVERIFIED",
@@ -81733,6 +81749,13 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/news",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; opened but does not confirm the claim"
     }
    ]
   },
@@ -81753,6 +81776,15 @@
     "new_development": true,
     "level": "NORMAL",
     "sources_added": 3,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-25T19:09-05:00",
+    "headline": "Bitcoin dips below $58,000 then steadies near $59,000-60,000; ETH, XRP and SOL down about 2 to 5% on the day",
+    "summary": "Bitcoin briefly fell below 58,000 dollars on Wednesday before steadying; ether, XRP and solana are down roughly 2 to 5 percent over 24 hours. CoinShares' Butterfill says this looks like the tail end of the bear market.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "UNVERIFIED"
    }
   ],
@@ -82537,6 +82569,309 @@
   ],
   "market_significance": "Security issue for miners already squeezed by low hashprice.",
   "trigger": "WebSearch result; page not opened (WebFetch unavailable).",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261125_0f69e6",
+  "headline": "Sens. Warren and Van Hollen lead a push to scrap the SEC's Regulation Crypto and innovation exemption",
+  "summary": "Senate Democrats led by Elizabeth Warren and Chris Van Hollen are pushing to scrap the SEC's proposed Regulation Crypto and its innovation exemption, arguing they weaken investor protections. It is a legislative push, not an SEC decision.",
+  "detected_at": "2026-11-25T19:09-05:00",
+  "active_since": "2026-11-25T19:09-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "regulatory",
+  "event_time": "2026-11-25T17:20-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/regulation/2026-11-25-warren-van-hollen-lead-push-scrap-sec-regulation-crypto-innovation-exemption-446756"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-25-warren-van-hollen-lead-push-scrap-sec-regulation-crypto-innovation-exemption-446756",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-25-warren-van-hollen-lead-push-scrap-sec-regulation-crypto-innovation-exemption-446756",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-11-25-warren-van-hollen-lead-push-scrap-sec-regulation-crypto-innovation-exemption-446756",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Opposition letter/push by lawmakers; no regulatory decision"
+  ],
+  "market_significance": "Signals political resistance to the SEC's crypto exemption plans",
+  "trigger": "The Block 5:20 PM ET",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261125_bd38d0",
+  "headline": "Justice Department targets billions in crypto fraud proceeds in what it calls its largest ever crackdown",
+  "summary": "The Block reports the Justice Department is going after billions of dollars in crypto fraud proceeds in what it describes as its largest ever crackdown.",
+  "detected_at": "2026-11-25T19:09-05:00",
+  "active_since": "2026-11-25T19:09-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "legal",
+  "event_time": "2026-11-25T13:05-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/regulation/2026-11-25-justice-department-takes-aim-billions-crypto-fraud-proceeds-largest-ever-crackdown-446711"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-25-justice-department-takes-aim-billions-crypto-fraud-proceeds-largest-ever-crackdown-446711",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-25-justice-department-takes-aim-billions-crypto-fraud-proceeds-largest-ever-crackdown-446711",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-11-25-justice-department-takes-aim-billions-crypto-fraud-proceeds-largest-ever-crackdown-446711",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Enforcement action; not market-moving; only one source checked"
+  ],
+  "market_significance": "Enforcement focus on crypto fraud",
+  "trigger": "The Block 1:05 PM ET",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261125_4970d1",
+  "headline": "Nvidia agrees to a $290 million settlement over crypto mining disclosures",
+  "summary": "Nvidia agreed to a 290 million dollar class action settlement over how it disclosed crypto mining demand for its chips.",
+  "detected_at": "2026-11-25T19:09-05:00",
+  "active_since": "2026-11-25T19:09-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "legal",
+  "event_time": "2026-11-25T13:00-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/regulation/2026-11-25-nvidia-290-million-settlement-crypto-mining-class-action-446709"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-25-nvidia-290-million-settlement-crypto-mining-class-action-446709",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-25-nvidia-290-million-settlement-crypto-mining-class-action-446709",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-11-25-nvidia-290-million-settlement-crypto-mining-class-action-446709",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Legacy litigation settlement, not a crypto market event"
+  ],
+  "market_significance": "Closes a long-running case over crypto mining chip sales",
+  "trigger": "The Block 1:00 PM ET",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261125_f01ba6",
+  "headline": "Franklin Templeton adds Hyperliquid's HYPE to its crypto index ETF",
+  "summary": "Franklin Templeton's crypto index ETF will add Hyperliquid's HYPE token alongside bitcoin, ether and others.",
+  "detected_at": "2026-11-25T19:09-05:00",
+  "active_since": "2026-11-25T19:09-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.65,
+  "assets": [
+   "HYPE"
+  ],
+  "event_type": "etf",
+  "event_time": "2026-11-25T11:54-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/markets/2026-11-25-franklin-templeton-ezpz-etf-adds-hyperliquid-hype-446686",
+   "https://cryptobriefing.com/franklin-templeton-adds-hype-crypto-index-etf/"
+  ],
+  "source_names": [
+   "The Block",
+   "Crypto Briefing"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-25-franklin-templeton-ezpz-etf-adds-hyperliquid-hype-446686",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptobriefing.com/franklin-templeton-adds-hype-crypto-index-etf/",
+    "name": "Crypto Briefing",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/markets/2026-11-25-franklin-templeton-ezpz-etf-adds-hyperliquid-hype-446686",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://cryptobriefing.com/franklin-templeton-adds-hype-crypto-index-etf/",
+    "name": "Crypto Briefing",
+    "kind": "other",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/markets/2026-11-25-franklin-templeton-ezpz-etf-adds-hyperliquid-hype-446686",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "Crypto Briefing",
+     "url": "https://cryptobriefing.com/franklin-templeton-adds-hype-crypto-index-etf/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Index product change, not an approval or rejection"
+  ],
+  "market_significance": "HYPE gains exposure through a mainstream ETF wrapper",
+  "trigger": "The Block 11:54 AM ET",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
