@@ -82096,12 +82096,16 @@
   "source_urls": [
    "https://www.theblock.co/news/business/2026-11-25-ark-sells-own-bitcoin-btc-dips-446109",
    "https://decrypt.co/news",
-   "https://www.theblock.co/latest-crypto-news"
+   "https://www.theblock.co/latest-crypto-news",
+   "https://crypto.news/bitcoin-price-us-tariffs-core-pce-nov-25-2026/",
+   "https://www.coindesk.com/markets/2026/11/25/this-time-actually-seems-different-crypto-veterans-brace-for-more-pain-as-bitcoin-tumbles"
   ],
   "source_names": [
    "The Block",
    "Decrypt price ticker",
-   "The Block"
+   "The Block",
+   "crypto.news",
+   "CoinDesk"
   ],
   "sources": [
    {
@@ -82124,6 +82128,20 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://crypto.news/bitcoin-price-us-tariffs-core-pce-nov-25-2026/",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/11/25/this-time-actually-seems-different-crypto-veterans-brace-for-more-pain-as-bitcoin-tumbles",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
    }
   ],
   "gate_sources": [
@@ -82147,6 +82165,20 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://crypto.news/bitcoin-price-us-tariffs-core-pce-nov-25-2026/",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/11/25/this-time-actually-seems-different-crypto-veterans-brace-for-more-pain-as-bitcoin-tumbles",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
    }
   ],
   "verification_status": "VERIFIED",
@@ -82177,6 +82209,20 @@
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
+    },
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/bitcoin-price-us-tariffs-core-pce-nov-25-2026/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/11/25/this-time-actually-seems-different-crypto-veterans-brace-for-more-pain-as-bitcoin-tumbles",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
     }
    ]
   },
@@ -82197,6 +82243,24 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-25T22:13-05:00",
+    "headline": "Bitcoin falls toward $58,000 as the US proposes new tariffs ahead of core PCE data",
+    "summary": "Bitcoin slid toward $58,000 late Wednesday after the US proposed new tariffs, with ETH, XRP and SOL also lower. 24h % moves could not be confirmed this run (price pages unreachable); headline-level moves look well below IMPORTANT thresholds.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-25T22:13-05:00",
+    "headline": "Galaxy walks back its bitcoin bottom call as crypto veterans brace for more pain",
+    "summary": "CoinDesk reports Galaxy has taken back its call that bitcoin had bottomed, with BTC stuck below $60,000 and longtime crypto investors losing faith.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
     "verification": "VERIFIED"
    }
   ],
