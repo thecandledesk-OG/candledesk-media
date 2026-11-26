@@ -82942,5 +82942,171 @@
   "updates": [],
   "posts": [],
   "needs_followup": false
+ },
+ {
+  "id": "st_20261126_4e2906",
+  "headline": "Bitcoin slides toward $57,500 as hot inflation, new Trump tariffs and an AI stock selloff hit markets",
+  "summary": "Bitcoin fell further, to about $57,470 per reports, as hotter inflation data, new tariffs and an AI-led stock selloff weighed on risk assets. The move stays under the channel's price thresholds.",
+  "detected_at": "2026-11-26T07:14-05:00",
+  "active_since": "2026-11-26T07:14-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "BTC",
+   "TOTAL_MARKET"
+  ],
+  "event_type": "market_move",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://decrypt.co/383967/bitcoin-sinks-inflation-trump-tariffs-ai-selloff",
+   "https://bitcoinworld.co.in/bitcoin-selloff-inflation-trump-tariffs/"
+  ],
+  "source_names": [
+   "Decrypt",
+   "BitcoinWorld"
+  ],
+  "sources": [
+   {
+    "url": "https://decrypt.co/383967/bitcoin-sinks-inflation-trump-tariffs-ai-selloff",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://bitcoinworld.co.in/bitcoin-selloff-inflation-trump-tariffs/",
+    "name": "BitcoinWorld",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://decrypt.co/383967/bitcoin-sinks-inflation-trump-tariffs-ai-selloff",
+    "name": "Decrypt",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://bitcoinworld.co.in/bitcoin-selloff-inflation-trump-tariffs/",
+    "name": "BitcoinWorld",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "Decrypt",
+     "url": "https://decrypt.co/383967/bitcoin-sinks-inflation-trump-tariffs-ai-selloff",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "BitcoinWorld",
+     "url": "https://bitcoinworld.co.in/bitcoin-selloff-inflation-trump-tariffs/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Routine-size price move; seen only in search results, pages could not be opened this run"
+  ],
+  "market_significance": "Bitcoin extends its November drawdown",
+  "trigger": "search results",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261126_ba8ea3",
+  "headline": "21Shares warns bitcoin could fall to $53,250 as stablecoin supply sees its biggest drop since the Terra collapse",
+  "summary": "Asset manager 21Shares flagged a $53,250 downside level for bitcoin and pointed to the largest stablecoin supply decline since Terra in 2022.",
+  "detected_at": "2026-11-26T07:14-05:00",
+  "active_since": "2026-11-26T07:14-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "BTC",
+   "USDT",
+   "USDC"
+  ],
+  "event_type": "market_move",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://crypto.news/bitcoin-price-21shares-53250-stablecoin-supply-decline/"
+  ],
+  "source_names": [
+   "crypto.news"
+  ],
+  "sources": [
+   {
+    "url": "https://crypto.news/bitcoin-price-21shares-53250-stablecoin-supply-decline/",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://crypto.news/bitcoin-price-21shares-53250-stablecoin-supply-decline/",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/bitcoin-price-21shares-53250-stablecoin-supply-decline/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Analyst view, not an event"
+  ],
+  "market_significance": "Shrinking stablecoin supply signals less buying power",
+  "trigger": "search results",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
  }
 ]
