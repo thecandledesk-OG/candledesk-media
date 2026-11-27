@@ -83489,13 +83489,17 @@
    "https://36crypto.com/crypto-prices-update-bitcoin-reclaims-60k-as-xrp-solana-and-dogecoin-rally/",
    "https://coincodex.com/article/95985/daily-market-update-for-november-26-2026",
    "https://www.coindesk.com/markets/2026/11/26/bitcoin-little-changed-defi-tokens-lead-the-bounce-as-u-s-marks-thanksgiving",
-   "https://news.bitcoin.com/market-updates/bitcoin-price-taps-61k-on-thanksgiving-as-short-sellers-take-a-beating/"
+   "https://news.bitcoin.com/market-updates/bitcoin-price-taps-61k-on-thanksgiving-as-short-sellers-take-a-beating/",
+   "https://www.coindesk.com/tech/2026/11/27/live-news-bitcoin-rebounds-above-usd61-000-as-ai-stocks-lead-premarket-gains",
+   "https://www.coindesk.com/markets/2026/11/27/bitcoin-on-course-to-end-seven-week-losing-streak-while-trailing-stock-rebound"
   ],
   "source_names": [
    "36Crypto",
    "CoinCodex",
    "CoinDesk",
-   "Bitcoin.com News"
+   "Bitcoin.com News",
+   "CoinDesk",
+   "CoinDesk"
   ],
   "sources": [
    {
@@ -83525,6 +83529,20 @@
     "kind": "other",
     "checked": false,
     "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/tech/2026/11/27/live-news-bitcoin-rebounds-above-usd61-000-as-ai-stocks-lead-premarket-gains",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/11/27/bitcoin-on-course-to-end-seven-week-losing-streak-while-trailing-stock-rebound",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
    }
   ],
   "gate_sources": [
@@ -83555,6 +83573,20 @@
     "kind": "other",
     "checked": false,
     "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/tech/2026/11/27/live-news-bitcoin-rebounds-above-usd61-000-as-ai-stocks-lead-premarket-gains",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/11/27/bitcoin-on-course-to-end-seven-week-losing-streak-while-trailing-stock-rebound",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
    }
   ],
   "verification_status": "UNVERIFIED",
@@ -83592,6 +83624,20 @@
      "category": "other",
      "counts": false,
      "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/tech/2026/11/27/live-news-bitcoin-rebounds-above-usd61-000-as-ai-stocks-lead-premarket-gains",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/11/27/bitcoin-on-course-to-end-seven-week-losing-streak-while-trailing-stock-rebound",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
     }
    ]
   },
@@ -83608,6 +83654,15 @@
     "at": "2026-11-26T16:14-05:00",
     "headline": "Bitcoin holds near $61,000 on Thanksgiving as DeFi tokens lead a thin-holiday bounce",
     "summary": "Bitcoin held Wednesday's rebound near $61,000 in thin US holiday trading, with short sellers liquidated and DeFi tokens leading gains.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-27T07:14-05:00",
+    "headline": "Bitcoin tops $61,000 as Nasdaq futures climb after Thanksgiving, on course to end a seven-week losing streak",
+    "summary": "Bitcoin rebounded above $61,000 early Friday as Nasdaq futures rose about 3% after the Thanksgiving break, putting it on track to snap seven straight weekly losses while still trailing the stock rebound.",
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 2,
@@ -84310,6 +84365,76 @@
   ],
   "market_significance": "Signals stricter UK DeFi regime",
   "trigger": "Decrypt news page",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261127_dea1b7",
+  "headline": "About $6.8 billion in bitcoin options expire Friday as BTC reclaims $61,000",
+  "summary": "Roughly $6.8 billion in bitcoin options are set to expire on Friday, Nov 27, which traders watch for short-term volatility.",
+  "detected_at": "2026-11-27T07:14-05:00",
+  "active_since": "2026-11-27T07:14-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "market_move",
+  "event_time": "2026-11-27T03:00-05:00",
+  "scheduled_event": true,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://crypto.news/bitcoin-price-rebounds-68b-options-expiry-november-27/"
+  ],
+  "source_names": [
+   "crypto.news"
+  ],
+  "sources": [
+   {
+    "url": "https://crypto.news/bitcoin-price-rebounds-68b-options-expiry-november-27/",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://crypto.news/bitcoin-price-rebounds-68b-options-expiry-november-27/",
+    "name": "crypto.news",
+    "kind": "other",
+    "checked": false,
+    "confirms": false
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/bitcoin-price-rebounds-68b-options-expiry-november-27/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Routine monthly options expiry; single non-core source, not opened."
+  ],
+  "market_significance": "Expiry can add short-term volatility",
+  "trigger": "WebSearch results",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
