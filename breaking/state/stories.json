@@ -78648,6 +78648,15 @@
     "level": "NORMAL",
     "sources_added": 1,
     "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-26T22:09-05:00",
+    "headline": "Spot bitcoin ETFs on track for their worst month on record as the bear market drags on",
+    "summary": "US spot bitcoin ETFs are heading for their largest monthly outflows on record in November, The Block reports.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
    }
   ],
   "posts": [],
@@ -82302,7 +82311,8 @@
    "https://crypto.news/bitcoin-price-us-tariffs-core-pce-nov-25-2026/",
    "https://www.coindesk.com/markets/2026/11/25/this-time-actually-seems-different-crypto-veterans-brace-for-more-pain-as-bitcoin-tumbles",
    "https://decrypt.co/384079/bitcoin-holds-above-60k-as-death-cross-clouds-thanksgiving-recovery",
-   "https://www.theblock.co/news"
+   "https://www.theblock.co/news",
+   "https://www.coindesk.com/price/bitcoin"
   ],
   "source_names": [
    "The Block",
@@ -82311,7 +82321,8 @@
    "crypto.news",
    "CoinDesk",
    "Decrypt",
-   "The Block"
+   "The Block",
+   "CoinDesk"
   ],
   "sources": [
    {
@@ -82359,6 +82370,13 @@
    {
     "url": "https://www.theblock.co/news",
     "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/price/bitcoin",
+    "name": "CoinDesk",
     "kind": "secondary",
     "checked": true,
     "confirms": true
@@ -82413,15 +82431,22 @@
     "kind": "secondary",
     "checked": true,
     "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/price/bitcoin",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "VERIFIED",
   "verification": {
    "status": "VERIFIED",
-   "independent_sources": 2,
+   "independent_sources": 3,
    "has_primary": false,
    "score": 0.8,
-   "reason": "2 independent credible sources confirm it (no primary source yet)",
+   "reason": "3 independent credible sources confirm it (no primary source yet)",
    "sources_checked": [
     {
      "name": "The Block",
@@ -82468,6 +82493,13 @@
     {
      "name": "The Block",
      "url": "https://www.theblock.co/news",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/price/bitcoin",
      "category": "secondary",
      "counts": true,
      "note": "credible news organization"
@@ -82518,6 +82550,24 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 2,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-26T22:09-05:00",
+    "headline": "Bitcoin holds above $60,000 on a quiet Thanksgiving, up about 1% in 24 hours, as a death cross clouds the recovery",
+    "summary": "BTC trades near $61,400, up about 1.2% in 24 hours, with ETH, SOL and XRP up about 1% while US markets are closed for Thanksgiving. A death cross on the daily chart keeps traders cautious.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "VERIFIED"
+   },
+   {
+    "at": "2026-11-26T22:09-05:00",
+    "headline": "Researchers show a tiny payment can expose the IP address behind a bitcoin wallet",
+    "summary": "CoinDesk reports research showing a small payment can be used to reveal the IP address behind some bitcoin wallets.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
     "verification": "VERIFIED"
    }
   ],
@@ -82691,6 +82741,15 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-26T22:09-05:00",
+    "headline": "New York wins a $1.37 billion judgment against NovaTech founders who fled the US",
+    "summary": "Decrypt reports New York won a $1.37 billion judgment against the founders of the NovaTech crypto Ponzi scheme.",
+    "new_development": true,
+    "level": "NORMAL",
+    "sources_added": 0,
     "verification": "UNVERIFIED"
    }
   ],
