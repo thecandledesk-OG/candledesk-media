@@ -83667,6 +83667,42 @@
     "level": "NORMAL",
     "sources_added": 2,
     "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-27T10:09-05:00",
+    "headline": "Bitcoin set to snap a seven-week losing streak",
+    "summary": "Here's what moved the chain today. Bitcoin's set to snap a seven-week losing streak.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-27T10:09-05:00",
+    "headline": "Stocks jump about 4% this week and bitcoin follows",
+    "summary": "Green candles only! Stocks jumped four percent this week, and Bitcoin is following.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-27T10:09-05:00",
+    "headline": "Bitcoin still down 20% in November with Fear and Greed at 11",
+    "summary": "Check the yields first. Bitcoin's still down twenty percent this month, and fear sits at eleven.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-27T10:09-05:00",
+    "headline": "About $7 billion in bitcoin options expire on Deribit; top bet a $50,000 put",
+    "summary": "Psst... seven billion in Bitcoin options expired. Busiest bet: a fifty thousand dollar put.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
    }
   ],
   "posts": [],
@@ -84435,6 +84471,287 @@
   ],
   "market_significance": "Expiry can add short-term volatility",
   "trigger": "WebSearch results",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261127_acc417",
+  "headline": "Monero drops 13% after KuCoin says it will delist XMR",
+  "summary": "Monero dropped thirteen percent after KuCoin said it will delist the privacy coin.",
+  "detected_at": "2026-11-27T10:09-05:00",
+  "active_since": "2026-11-27T10:09-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "XMR"
+  ],
+  "event_type": "exchange",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/markets/2026/11/27/monero-suffers-biggest-single-day-slide-in-over-5-months-here-s-why"
+  ],
+  "source_names": [
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/markets/2026/11/27/monero-suffers-biggest-single-day-slide-in-over-5-months-here-s-why",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/markets/2026/11/27/monero-suffers-biggest-single-day-slide-in-over-5-months-here-s-why",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/11/27/monero-suffers-biggest-single-day-slide-in-over-5-months-here-s-why",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261127_e314cb",
+  "headline": "China, Japan, South Korea and ASEAN form a working group on digital payments and crypto regulation",
+  "summary": "ASEAN+3 finance deputies meeting in Kyoto agreed to set up a working group on cross-border digital payments and digital asset regulation; ministers will discuss it in Nagoya in May 2027.",
+  "detected_at": "2026-11-27T10:11-05:00",
+  "active_since": "2026-11-27T10:11-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "TOTAL_MARKET"
+  ],
+  "event_type": "regulatory",
+  "event_time": "2026-11-26T23:18-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/regulation/2026-11-26-china-japan-south-korea-asean-digital-payments-447029"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-26-china-japan-south-korea-asean-digital-payments-447029",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-26-china-japan-south-korea-asean-digital-payments-447029",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-11-26-china-japan-south-korea-asean-digital-payments-447029",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Multilateral policy step, no binding rules or dates for action"
+  ],
+  "market_significance": "low",
+  "trigger": "The Block latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261127_78a28e",
+  "headline": "Ethereum devs schedule the Glamsterdam upgrade on the Hoodi testnet for Dec. 15",
+  "summary": "Ethereum core developers agreed to proceed with Glamsterdam under its existing spec, with Hoodi testnet activation at 19:12 UTC on Dec. 15; no mainnet date set.",
+  "detected_at": "2026-11-27T10:11-05:00",
+  "active_since": "2026-11-27T10:11-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "ETH"
+  ],
+  "event_type": "protocol_upgrade",
+  "event_time": "2026-11-27T02:51-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/ecosystems/2026-11-27-ethereum-devs-schedule-glamsterdam-upgrade-hoodi-447051"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/ecosystems/2026-11-27-ethereum-devs-schedule-glamsterdam-upgrade-hoodi-447051",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/ecosystems/2026-11-27-ethereum-devs-schedule-glamsterdam-upgrade-hoodi-447051",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/ecosystems/2026-11-27-ethereum-devs-schedule-glamsterdam-upgrade-hoodi-447051",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Testnet scheduling only, not a mainnet upgrade going live"
+  ],
+  "market_significance": "low",
+  "trigger": "The Block latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261127_e2f32f",
+  "headline": "Bank of Japan official says stablecoins need reserve rules to preserve the singleness of money",
+  "summary": "BOJ Executive Director Kazushige Kamiyama said in an IMF seminar speech that stablecoins need backing-asset oversight and links to central bank money.",
+  "detected_at": "2026-11-27T10:11-05:00",
+  "active_since": "2026-11-27T10:11-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.7,
+  "assets": [
+   "USDT",
+   "USDC"
+  ],
+  "event_type": "regulatory",
+  "event_time": "2026-11-27T05:45-05:00",
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.theblock.co/news/regulation/2026-11-27-bank-of-japan-official-says-stablecoins-need-reserve-rules-to-preserve-singleness-of-money-447059"
+  ],
+  "source_names": [
+   "The Block"
+  ],
+  "sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-27-bank-of-japan-official-says-stablecoins-need-reserve-rules-to-preserve-singleness-of-money-447059",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.theblock.co/news/regulation/2026-11-27-bank-of-japan-official-says-stablecoins-need-reserve-rules-to-preserve-singleness-of-money-447059",
+    "name": "The Block",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "The Block",
+     "url": "https://www.theblock.co/news/regulation/2026-11-27-bank-of-japan-official-says-stablecoins-need-reserve-rules-to-preserve-singleness-of-money-447059",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Speech by an official, not a policy decision"
+  ],
+  "market_significance": "low",
+  "trigger": "The Block latest news",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
