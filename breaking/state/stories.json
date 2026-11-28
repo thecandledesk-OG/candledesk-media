@@ -83500,7 +83500,9 @@
    "https://www.coindesk.com/markets/2026/11/26/bitcoin-little-changed-defi-tokens-lead-the-bounce-as-u-s-marks-thanksgiving",
    "https://news.bitcoin.com/market-updates/bitcoin-price-taps-61k-on-thanksgiving-as-short-sellers-take-a-beating/",
    "https://www.coindesk.com/tech/2026/11/27/live-news-bitcoin-rebounds-above-usd61-000-as-ai-stocks-lead-premarket-gains",
-   "https://www.coindesk.com/markets/2026/11/27/bitcoin-on-course-to-end-seven-week-losing-streak-while-trailing-stock-rebound"
+   "https://www.coindesk.com/markets/2026/11/27/bitcoin-on-course-to-end-seven-week-losing-streak-while-trailing-stock-rebound",
+   "https://www.investing.com/news/cryptocurrency-news/bitcoin-price-today-falls-below-60k-as-whales-buy-dip-etf-outflows-mount-5054180",
+   "https://www.spendnode.io/blog/bitcoin-whales-add-121-117-btc-as-bear-market-patterns-diverge/"
   ],
   "source_names": [
    "36Crypto",
@@ -83508,7 +83510,9 @@
    "CoinDesk",
    "Bitcoin.com News",
    "CoinDesk",
-   "CoinDesk"
+   "CoinDesk",
+   "Investing.com",
+   "SpendNode"
   ],
   "sources": [
    {
@@ -83552,6 +83556,20 @@
     "kind": "secondary",
     "checked": false,
     "confirms": false
+   },
+   {
+    "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-price-today-falls-below-60k-as-whales-buy-dip-etf-outflows-mount-5054180",
+    "name": "Investing.com",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.spendnode.io/blog/bitcoin-whales-add-121-117-btc-as-bear-market-patterns-diverge/",
+    "name": "SpendNode",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "gate_sources": [
@@ -83596,6 +83614,20 @@
     "kind": "secondary",
     "checked": false,
     "confirms": false
+   },
+   {
+    "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-price-today-falls-below-60k-as-whales-buy-dip-etf-outflows-mount-5054180",
+    "name": "Investing.com",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.spendnode.io/blog/bitcoin-whales-add-121-117-btc-as-bear-market-patterns-diverge/",
+    "name": "SpendNode",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
    }
   ],
   "verification_status": "UNVERIFIED",
@@ -83647,6 +83679,20 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "Investing.com",
+     "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-price-today-falls-below-60k-as-whales-buy-dip-etf-outflows-mount-5054180",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "SpendNode",
+     "url": "https://www.spendnode.io/blog/bitcoin-whales-add-121-117-btc-as-bear-market-patterns-diverge/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
     }
    ]
   },
@@ -83711,6 +83757,24 @@
     "new_development": false,
     "level": "NORMAL",
     "sources_added": 0,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-28T10:08-05:00",
+    "headline": "Bitcoin slips under $60,000, down about 4% in 24 hours",
+    "summary": "Here's what moved the chain today. Bitcoin slipped under sixty thousand dollars, down four percent.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-28T10:08-05:00",
+    "headline": "Bitcoin whales add 121,117 BTC since September",
+    "summary": "Psst... big wallets are moving. Whales added one hundred twenty-one thousand bitcoin since September.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 1,
     "verification": "UNVERIFIED"
    }
   ],
@@ -85370,7 +85434,158 @@
   "market_significance": "WLFI is the Trump-linked DeFi project's governance token; its USD1 stablecoin briefly lost its dollar peg and over $16 million in WLFI futures were liquidated.",
   "trigger": "Large ETH sale from a wallet labeled World Liberty Financial Strategic Reserve, late Friday Nov 27 ET",
   "content_created": false,
-  "publication_status": "BLOCKED_UNVERIFIED",
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [
+   {
+    "at": "2026-11-28T10:08-05:00",
+    "headline": "World Liberty's WLFI token crashes 53% and Justin Sun calls for delisting",
+    "summary": "Wildcard: World Liberty's token crashed fifty-three percent, and Justin Sun wants it delisted.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 0,
+    "verification": "UNVERIFIED"
+   }
+  ],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261128_291dba",
+  "headline": "Crypto Fear and Greed index falls to 9, extreme fear",
+  "summary": "Fear and Greed hit nine! Extreme fear is when the crowd panics.",
+  "detected_at": "2026-11-28T10:08-05:00",
+  "active_since": "2026-11-28T10:08-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "BTC",
+   "TOTAL_MARKET"
+  ],
+  "event_type": "market_move",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.spendnode.io/blog/bitcoin-whales-add-121-117-btc-as-bear-market-patterns-diverge/"
+  ],
+  "source_names": [
+   "SpendNode"
+  ],
+  "sources": [
+   {
+    "url": "https://www.spendnode.io/blog/bitcoin-whales-add-121-117-btc-as-bear-market-patterns-diverge/",
+    "name": "SpendNode",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.spendnode.io/blog/bitcoin-whales-add-121-117-btc-as-bear-market-patterns-diverge/",
+    "name": "SpendNode",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "SpendNode",
+     "url": "https://www.spendnode.io/blog/bitcoin-whales-add-121-117-btc-as-bear-market-patterns-diverge/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261128_af6977",
+  "headline": "Spot bitcoin ETFs see record $5.78 billion November outflows",
+  "summary": "Record month: Bitcoin ETFs bled five point seven eight billion.",
+  "detected_at": "2026-11-28T10:08-05:00",
+  "active_since": "2026-11-28T10:08-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.5,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "etf",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://crypto.news/bitcoin-monthly-price-etf-outflows-november-2026/"
+  ],
+  "source_names": [
+   "crypto.news"
+  ],
+  "sources": [
+   {
+    "url": "https://crypto.news/bitcoin-monthly-price-etf-outflows-november-2026/",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://crypto.news/bitcoin-monthly-price-etf-outflows-november-2026/",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/bitcoin-monthly-price-etf-outflows-november-2026/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: "
+  ],
+  "market_significance": "",
+  "trigger": "",
+  "content_created": false,
+  "publication_status": "USED_IN_DAILY",
   "related_story_ids": [],
   "updates": [],
   "posts": [],
