@@ -85208,5 +85208,172 @@
   "updates": [],
   "posts": [],
   "needs_followup": false
+ },
+ {
+  "id": "st_20261128_0ebb17",
+  "headline": "Trump-linked WLFI token plunges about 50% to record lows as a World Liberty-linked wallet sells about $20 million in ether and USD1 briefly slips to 94 cents",
+  "summary": "World Liberty Financial's WLFI token fell more than 50% in 24 hours to a record low near $0.016, per CoinDesk, after an address labeled World Liberty Financial: Strategic Reserve sold about 12,121 ETH for roughly $20.06 million in USDC and USD1. The project's USD1 stablecoin briefly traded as low as about $0.94 before recovering near $1. Justin Sun called on exchanges to delist WLFI and USD1. World Liberty had not commented as of CoinDesk's report.",
+  "detected_at": "2026-11-28T07:12-05:00",
+  "active_since": "2026-11-28T07:12-05:00",
+  "classification": "BREAKING",
+  "proposed_level": "IMPORTANT",
+  "confidence": 0.8,
+  "assets": [
+   "WLFI",
+   "USD1"
+  ],
+  "event_type": "market_move",
+  "event_time": "2026-11-28T00:30-05:00",
+  "scheduled_event": false,
+  "metrics": {
+   "pct_move_24h": -52.9
+  },
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/markets/2026/11/28/trump-linked-crypto-token-wlfi-plunges-over-50",
+   "https://crypto.news/justin-sun-wlfi-usd1-delisting/",
+   "https://www.tokenpost.com/news/investing/64098",
+   "https://www.tokenpost.com/news/investing/64051",
+   "https://x.com/Cointelegraph/status/2126550720837042643"
+  ],
+  "source_names": [
+   "CoinDesk",
+   "crypto.news",
+   "TokenPost",
+   "TokenPost",
+   "Cointelegraph on X"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/markets/2026/11/28/trump-linked-crypto-token-wlfi-plunges-over-50",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://crypto.news/justin-sun-wlfi-usd1-delisting/",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.tokenpost.com/news/investing/64098",
+    "name": "TokenPost",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.tokenpost.com/news/investing/64051",
+    "name": "TokenPost",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://x.com/Cointelegraph/status/2126550720837042643",
+    "name": "Cointelegraph on X",
+    "kind": "social",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/markets/2026/11/28/trump-linked-crypto-token-wlfi-plunges-over-50",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://crypto.news/justin-sun-wlfi-usd1-delisting/",
+    "name": "crypto.news",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.tokenpost.com/news/investing/64098",
+    "name": "TokenPost",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://www.tokenpost.com/news/investing/64051",
+    "name": "TokenPost",
+    "kind": "secondary",
+    "checked": true,
+    "confirms": true
+   },
+   {
+    "url": "https://x.com/Cointelegraph/status/2126550720837042643",
+    "name": "Cointelegraph on X",
+    "kind": "social",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 1,
+   "has_primary": false,
+   "score": 0.4,
+   "reason": "only 1 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/11/28/trump-linked-crypto-token-wlfi-plunges-over-50",
+     "category": "secondary",
+     "counts": true,
+     "note": "credible news organization"
+    },
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/justin-sun-wlfi-usd1-delisting/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "TokenPost",
+     "url": "https://www.tokenpost.com/news/investing/64098",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "TokenPost",
+     "url": "https://www.tokenpost.com/news/investing/64051",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "Cointelegraph on X",
+     "url": "https://x.com/Cointelegraph/status/2126550720837042643",
+     "category": "social",
+     "counts": false,
+     "note": "social/community post — can trigger investigation, never verifies"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed IMPORTANT: Unusual 50%+ 24h move in a high-profile token plus a brief stablecoin depeg of about 6%, confirmed by CoinDesk and crypto.news with on-chain data from Arkham/Lookonchain.",
+   "price rule: DEFAULT moved 52.9% in 24h (thresholds 12%/20%) -> BREAKING",
+   "final level BREAKING (changed from AI's IMPORTANT)"
+  ],
+  "market_significance": "WLFI is the Trump-linked DeFi project's governance token; its USD1 stablecoin briefly lost its dollar peg and over $16 million in WLFI futures were liquidated.",
+  "trigger": "Large ETH sale from a wallet labeled World Liberty Financial Strategic Reserve, late Friday Nov 27 ET",
+  "content_created": false,
+  "publication_status": "BLOCKED_UNVERIFIED",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
  }
 ]
