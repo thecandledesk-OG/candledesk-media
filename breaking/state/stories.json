@@ -84436,11 +84436,15 @@
   "emergency": false,
   "source_urls": [
    "https://crypto.news/bitcoin-price-rebounds-68b-options-expiry-november-27/",
-   "https://decrypt.co/384154/7-billion-bitcoin-options-just-expired-what-it-means"
+   "https://decrypt.co/384154/7-billion-bitcoin-options-just-expired-what-it-means",
+   "https://fool.com/coverage/stock-market-today/2026/11/27/crypto-market-today-nov-27-bitcoin-falls-below-usd60-000-as-crypto-markets-struggle-despite-wall-street-s-biggest-rally-in-over-a-year/",
+   "https://www.coindesk.com/markets/2026/11/27/bitcoin-tops-usd61-000-as-nasdaq-futures-extend-wednesday-s-rebound"
   ],
   "source_names": [
    "crypto.news",
-   "Decrypt"
+   "Decrypt",
+   "Motley Fool",
+   "CoinDesk"
   ],
   "sources": [
    {
@@ -84456,6 +84460,20 @@
     "kind": "secondary",
     "checked": false,
     "confirms": true
+   },
+   {
+    "url": "https://fool.com/coverage/stock-market-today/2026/11/27/crypto-market-today-nov-27-bitcoin-falls-below-usd60-000-as-crypto-markets-struggle-despite-wall-street-s-biggest-rally-in-over-a-year/",
+    "name": "Motley Fool",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/11/27/bitcoin-tops-usd61-000-as-nasdaq-futures-extend-wednesday-s-rebound",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
    }
   ],
   "gate_sources": [
@@ -84472,6 +84490,20 @@
     "kind": "secondary",
     "checked": false,
     "confirms": true
+   },
+   {
+    "url": "https://fool.com/coverage/stock-market-today/2026/11/27/crypto-market-today-nov-27-bitcoin-falls-below-usd60-000-as-crypto-markets-struggle-despite-wall-street-s-biggest-rally-in-over-a-year/",
+    "name": "Motley Fool",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   },
+   {
+    "url": "https://www.coindesk.com/markets/2026/11/27/bitcoin-tops-usd61-000-as-nasdaq-futures-extend-wednesday-s-rebound",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": false
    }
   ],
   "verification_status": "UNVERIFIED",
@@ -84495,6 +84527,20 @@
      "category": "secondary",
      "counts": false,
      "note": "credible news organization; not opened, so it doesn't count"
+    },
+    {
+     "name": "Motley Fool",
+     "url": "https://fool.com/coverage/stock-market-today/2026/11/27/crypto-market-today-nov-27-bitcoin-falls-below-usd60-000-as-crypto-markets-struggle-despite-wall-street-s-biggest-rally-in-over-a-year/",
+     "category": "other",
+     "counts": false,
+     "note": "not on the credible list — logged as evidence only"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/11/27/bitcoin-tops-usd61-000-as-nasdaq-futures-extend-wednesday-s-rebound",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
     }
    ]
   },
@@ -84514,6 +84560,15 @@
     "new_development": true,
     "level": "NORMAL",
     "sources_added": 1,
+    "verification": "UNVERIFIED"
+   },
+   {
+    "at": "2026-11-27T22:13-05:00",
+    "headline": "Bitcoin slips back below $60,000 even as Wall Street posts its biggest rally in over a year",
+    "summary": "Bitcoin gave back Friday's push above $61,000 and dipped under $60,000 while stocks rallied; moves in BTC, ETH, XRP and SOL stayed in the low single digits.",
+    "new_development": false,
+    "level": "NORMAL",
+    "sources_added": 2,
     "verification": "UNVERIFIED"
    }
   ],
@@ -85077,6 +85132,76 @@
   ],
   "market_significance": "Closes out the withdrawal freeze at the largest exchange",
   "trigger": "Decrypt latest news",
+  "content_created": false,
+  "publication_status": "QUEUED_FOR_DAILY",
+  "related_story_ids": [],
+  "updates": [],
+  "posts": [],
+  "needs_followup": false
+ },
+ {
+  "id": "st_20261127_a60baf",
+  "headline": "A bitcoin 'death cross' is approaching, CoinDesk notes, as traders look at what followed past ones",
+  "summary": "Bitcoin's 50-day moving average is nearing a cross below its 200-day average; CoinDesk reviewed what happened after previous crosses.",
+  "detected_at": "2026-11-27T22:13-05:00",
+  "active_since": "2026-11-27T22:13-05:00",
+  "classification": "NORMAL",
+  "proposed_level": "NORMAL",
+  "confidence": 0.6,
+  "assets": [
+   "BTC"
+  ],
+  "event_type": "market_move",
+  "event_time": null,
+  "scheduled_event": false,
+  "metrics": {},
+  "emergency": false,
+  "source_urls": [
+   "https://www.coindesk.com/daybook-us/2026/11/27/bitcoin-death-cross-is-coming-here-s-what-happened-after-previous-13"
+  ],
+  "source_names": [
+   "CoinDesk"
+  ],
+  "sources": [
+   {
+    "url": "https://www.coindesk.com/daybook-us/2026/11/27/bitcoin-death-cross-is-coming-here-s-what-happened-after-previous-13",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "gate_sources": [
+   {
+    "url": "https://www.coindesk.com/daybook-us/2026/11/27/bitcoin-death-cross-is-coming-here-s-what-happened-after-previous-13",
+    "name": "CoinDesk",
+    "kind": "secondary",
+    "checked": false,
+    "confirms": true
+   }
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification": {
+   "status": "UNVERIFIED",
+   "independent_sources": 0,
+   "has_primary": false,
+   "score": 0.0,
+   "reason": "only 0 independent credible source(s) confirm it; need 2",
+   "sources_checked": [
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/daybook-us/2026/11/27/bitcoin-death-cross-is-coming-here-s-what-happened-after-previous-13",
+     "category": "secondary",
+     "counts": false,
+     "note": "credible news organization; not opened, so it doesn't count"
+    }
+   ]
+  },
+  "classification_reason": [
+   "AI proposed NORMAL: Technical indicator, not an event"
+  ],
+  "market_significance": "Widely watched chart signal",
+  "trigger": "search results",
   "content_created": false,
   "publication_status": "QUEUED_FOR_DAILY",
   "related_story_ids": [],
